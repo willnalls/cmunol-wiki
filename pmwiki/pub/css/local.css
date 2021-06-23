@@ -1,0 +1,35 @@
+/* styling of commentbox entries */
+#message { clear:both; }
+.messagehead, .journalhead {
+            margin:1em 0 0 0;
+            padding:0 0 0 3px;
+            border:1px solid #ccc;
+            }
+.messageitem, .journalitem {
+            margin:0;
+            padding:3px;
+            border-left:1px solid #ccc;
+            border-right:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+            }
+.messagehead { background:#f0f0f0; }
+/*use the following if message head should be same as message item */
+/* .messagehead { background:#eef; border-bottom:none; } */
+.messageitem { background:#f7f7f7; }
+
+/* input commentbox */
+
+
+.expansionhead, .journalhead {
+            margin:4em 0 0 0;
+            font-size: 100%;
+            padding: 0px 0px 10px 10px;
+            border:2px solid #4A81BB;
+            }
+.expansionitem {
+            margin:0;
+            padding:3px;
+            border-left:2px solid #ccc;
+            border-right:2px solid #ccc;
+            border-bottom:2px solid #ccc;
+            }

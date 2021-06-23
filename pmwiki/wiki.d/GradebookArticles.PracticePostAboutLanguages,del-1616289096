@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1612309159
+host=74.109.247.199
+name=GradebookArticles.PracticePostAboutLanguages
+rev=2
+targets=
+text=:Category: PracticeCategory%0a:Title: Practice Post About Languages%0a:Author: akshaya_v%0a:Section: %0a:Completed: 02.02.2021 - 15:39%0a:Status: ungraded%0a%0a%0a#foxbegin 210205-173117-819740#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173117-819740#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aQuestions about Languages%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aThis is the first class that I have taken about language. I am aware that there are many languages that exist in today's world, but I have always wondered what makes some languages more popular than others. What caused English to be so widely spoken across many different countries? %0a%0aAdditionally, I have noticed similarities in the sounds of different languages. For example, I think that there are a few Indian languages that sound relatively similar to each other. What caused these languages to have similarities? If they were derived from the same origin, what caused them to split into different, new languages?%0a%0aI am excited to learn a lot about language this semester!%0a%0a[[#contentends]]%0a----
+time=1612546276
+author:1612546276=TA_lili
+diff:1612546276:1612309159:=9,12d8%0a%3c #foxbegin 210205-173117-819740#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173117-819740#%0a
+host:1612546276=74.109.247.199
+author:1612309159=akshaya_v
+diff:1612309159:1612309159:=1,43d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Practice Post About Languages%0a%3c :Author: akshaya_v%0a%3c :Section: %0a%3c :Completed: 02.02.2021 - 15:39%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Questions about Languages%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c This is the first class that I have taken about language. I am aware that there are many languages that exist in today's world, but I have always wondered what makes some languages more popular than others. What caused English to be so widely spoken across many different countries? %0a%3c %0a%3c Additionally, I have noticed similarities in the sounds of different languages. For example, I think that there are a few Indian languages that sound relatively similar to each other. What caused these languages to have similarities? If they were derived from the same origin, what caused them to split into different, new languages?%0a%3c %0a%3c I am excited to learn a lot about language this semester!%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612309159=76.102.44.37

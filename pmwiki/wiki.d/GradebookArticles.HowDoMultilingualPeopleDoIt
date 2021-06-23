@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1612638048
+host=69.218.234.170
+name=GradebookArticles.HowDoMultilingualPeopleDoIt
+rev=3
+targets=
+text=:Category: PracticeCategory%0a:Title: How do multilingual people do it?%0a:Author: Kushal_D%0a:Section: B%0a:Completed: 06.02.2021 - 11:00%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-233621-942190#%0a* [-11.05.2021 - 16:36-] || TA_audrey marked as complete%0a#foxend 210511-233621-942190#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aLearning multiple languages and not getting them mixed up seems like a mess to me.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI'm bilingual but even with just two languages, I sometimes find myself accidentally slipping between the two. Sometimes I'll throw in some English words in Telugu. Sometimes, I'll use a Telugu idiom because I don't know a better English approximate. I can't imagine how confusing this gets for people who know 4, 5, or even more languages. Do they also have the issue of sometimes throwing languages together? At that many languages, wouldn't that make it pretty unintelligible to anyone they could possibly converse with.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1620776181
+author:1620776181=TA_audrey
+diff:1620776181:1614797779:=6,7c6,7%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-233621-942190#%0a%3c * [-11.05.2021 - 16:36-] || TA_audrey marked as complete%0a%3c #foxend 210511-233621-942190#%0a---%0a> %0a46,47c44%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620776181=69.218.234.170
+author:1614797779=
+diff:1614797779:1612638048:=4c4%0a%3c :Section: B%0a---%0a> :Section: %0a
+host:1614797779=74.109.247.199
+author:1612638048=Kushal_D
+diff:1612638048:1612638048:=1,44d0%0a%3c :Category: PracticeCategory%0a%3c :Title: How do multilingual people do it?%0a%3c :Author: Kushal_D%0a%3c :Section: %0a%3c :Completed: 06.02.2021 - 11:00%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Learning multiple languages and not getting them mixed up seems like a mess to me.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I'm bilingual but even with just two languages, I sometimes find myself accidentally slipping between the two. Sometimes I'll throw in some English words in Telugu. Sometimes, I'll use a Telugu idiom because I don't know a better English approximate. I can't imagine how confusing this gets for people who know 4, 5, or even more languages. Do they also have the issue of sometimes throwing languages together? At that many languages, wouldn't that make it pretty unintelligible to anyone they could possibly converse with.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612638048=74.109.198.171

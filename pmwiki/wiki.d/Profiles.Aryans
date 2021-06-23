@@ -1,0 +1,45 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0
+author=AlexX
+charset=UTF-8
+csum=
+ctime=1612220376
+host=71.206.238.88
+name=Profiles.Aryans
+rev=11
+targets=Articles.IsShakespeareEvenEnglish,Articles.ToneSystemsComparingEnglishAndMandarinChinese,Articles.NeedsWashedConstruction,Articles.NeuralMachineTranslation,Articles.OnAccentGeneration
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: asoman \\%0a%0a[[#comments]]%0a#foxbegin 210202-122725-656320#%0a* Mingkang_L expanded on your article [[Articles.IsShakespeareEvenEnglish|IsShakespeareEvenEnglish]] {[foxdelline button 210202-122725-656320 {$FullName} ]}%0a#foxend 210202-122725-656320#%0a#foxbegin 210227-181054-900010#%0a* JoshuaC expanded on your article [[Articles.ToneSystemsComparingEnglishAndMandarinChinese|ToneSystemsComparingEnglishAndMandarinChinese]] {[foxdelline button 210227-181054-900010 {$FullName} ]}%0a#foxend 210227-181054-900010#%0a#foxbegin 210227-203016-230200#%0a* JacobF expanded on your article [[Articles.ToneSystemsComparingEnglishAndMandarinChinese|ToneSystemsComparingEnglishAndMandarinChinese]] {[foxdelline button 210227-203016-230200 {$FullName} ]}%0a#foxend 210227-203016-230200#%0a#foxbegin 210420-012404-254440#%0a* jjmonroe expanded on your article [[Articles.NeedsWashedConstruction|NeedsWashedConstruction]] {[foxdelline button 210420-012404-254440 {$FullName} ]}%0a#foxend 210420-012404-254440#%0a#foxbegin 210429-131743-868840#%0a* EthanW expanded on your article [[Articles.NeuralMachineTranslation|NeuralMachineTranslation]] {[foxdelline button 210429-131743-868840 {$FullName} ]}%0a#foxend 210429-131743-868840#%0a#foxbegin 210430-071912-355350#%0a* EthanW expanded on your article [[Articles.OnAccentGeneration|OnAccentGeneration]] {[foxdelline button 210430-071912-355350 {$FullName} ]}%0a#foxend 210430-071912-355350#%0a#foxbegin 210508-000851-168060#%0a* AlexX expanded on your article [[Articles.NeuralMachineTranslation|NeuralMachineTranslation]] {[foxdelline button 210508-000851-168060 {$FullName} ]}%0a#foxend 210508-000851-168060#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: B:)%0a#foxbegin 210309-213613-15540#%0a(:name: aryans:)%0a#foxend 210309-213613-15540#
+time=1620432529
+author:1620432529=AlexX
+diff:1620432529:1619767151:=25,27d24%0a%3c #foxbegin 210508-000851-168060#%0a%3c * AlexX expanded on your article [[Articles.NeuralMachineTranslation|NeuralMachineTranslation]] {[foxdelline button 210508-000851-168060 {$FullName} ]}%0a%3c #foxend 210508-000851-168060#%0a
+host:1620432529=71.206.238.88
+author:1619767151=EthanW
+diff:1619767151:1619702260:=22,24d21%0a%3c #foxbegin 210430-071912-355350#%0a%3c * EthanW expanded on your article [[Articles.OnAccentGeneration|OnAccentGeneration]] {[foxdelline button 210430-071912-355350 {$FullName} ]}%0a%3c #foxend 210430-071912-355350#%0a
+host:1619767151=58.247.22.142
+author:1619702260=EthanW
+diff:1619702260:1618881843:=19,21d18%0a%3c #foxbegin 210429-131743-868840#%0a%3c * EthanW expanded on your article [[Articles.NeuralMachineTranslation|NeuralMachineTranslation]] {[foxdelline button 210429-131743-868840 {$FullName} ]}%0a%3c #foxend 210429-131743-868840#%0a
+host:1619702260=58.247.22.142
+author:1618881843=jjmonroe
+diff:1618881843:1615399607:=16,18d15%0a%3c #foxbegin 210420-012404-254440#%0a%3c * jjmonroe expanded on your article [[Articles.NeedsWashedConstruction|NeedsWashedConstruction]] {[foxdelline button 210420-012404-254440 {$FullName} ]}%0a%3c #foxend 210420-012404-254440#%0a
+host:1618881843=73.174.7.241
+author:1615399607=
+diff:1615399607:1615325770:=35c35%0a%3c (:name: aryans:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399607=74.109.247.199
+author:1615325770=
+diff:1615325770:1614457815:=33,36c33%0a%3c (:section: B:)%0a%3c #foxbegin 210309-213613-15540#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213613-15540#%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614457815=JacobF
+diff:1614457815:1614449453:=13,15d12%0a%3c #foxbegin 210227-203016-230200#%0a%3c * JacobF expanded on your article [[Articles.ToneSystemsComparingEnglishAndMandarinChinese|ToneSystemsComparingEnglishAndMandarinChinese]] {[foxdelline button 210227-203016-230200 {$FullName} ]}%0a%3c #foxend 210227-203016-230200#%0a
+host:1614457815=74.109.250.114
+author:1614449453=JoshuaC
+diff:1614449453:1612991245:=10,12d9%0a%3c #foxbegin 210227-181054-900010#%0a%3c * JoshuaC expanded on your article [[Articles.ToneSystemsComparingEnglishAndMandarinChinese|ToneSystemsComparingEnglishAndMandarinChinese]] {[foxdelline button 210227-181054-900010 {$FullName} ]}%0a%3c #foxend 210227-181054-900010#%0a
+host:1614449453=67.171.65.64
+author:1612991245=aryans
+diff:1612991245:1612268844:=26,27c26%0a%3c [[#completedworkend]]%0a%3c (:section: B:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612991245=184.190.142.79
+author:1612268844=Mingkang_L
+diff:1612268844:1612220376:=7,9c7%0a%3c #foxbegin 210202-122725-656320#%0a%3c * Mingkang_L expanded on your article [[Articles.IsShakespeareEvenEnglish|IsShakespeareEvenEnglish]] {[foxdelline button 210202-122725-656320 {$FullName} ]}%0a%3c #foxend 210202-122725-656320#%0a---%0a> %0a
+host:1612268844=8.210.104.90
+author:1612220376=aryans
+diff:1612220376:1612220376:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: asoman \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612220376=184.190.142.79

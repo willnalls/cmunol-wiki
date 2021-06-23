@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1616565949
+host=69.218.234.170
+name=GradebookExpansions.PhilosophyLessonsFromKey-evelynC
+rev=3
+targets=Articles.PhilosophyLessonsFromKey,Profiles.VincentC
+text=:Category: LanguageOfTheNacirema%0a:Expansion: A different interpretation for KEY%0a:Author: evelynC%0a:Original: [[Articles.PhilosophyLessonsFromKey|PhilosophyLessonsFromKey]] %0a:OriginalAuthor: [[Profiles.vincent_c|vincent_c]]%0a:Section: A%0a:Completed: 23.03.2021 - 23:05%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210405-200828-883940#%0a* [-05.04.2021 - 13:08-] || TA_audrey marked as complete%0a#foxend 210405-200828-883940#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThe Nacirema society is very open and thus, the answers are all obvious. Rather than "hidden or locked meanings" the Naciremans are honest and have all their thoughts shown. There are no hidden tricks up their sleeves and everyone is an open book. Thus, many instances of the word key depict objects that reveal honesty and openness, much like the ideals and virtues of the Naciremans. (For instance, a key opens things. A test key has all the answers in the open.)%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1617653307
+author:1617653307=TA_audrey
+diff:1617653307:1616612279:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210405-200828-883940#%0a%3c * [-05.04.2021 - 13:08-] || TA_audrey marked as complete%0a%3c #foxend 210405-200828-883940#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1617653307=69.218.234.170
+author:1616612279=wnalls
+diff:1616612279:1616565949:=6c6%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1616612279=74.109.247.199
+author:1616565949=evelynC
+diff:1616565949:1616565949:=1,38d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: A different interpretation for KEY%0a%3c :Author: evelynC%0a%3c :Original: [[Articles.PhilosophyLessonsFromKey|PhilosophyLessonsFromKey]] %0a%3c :OriginalAuthor: [[Profiles.vincent_c|vincent_c]]%0a%3c :Section: %0a%3c :Completed: 23.03.2021 - 23:05%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c The Nacirema society is very open and thus, the answers are all obvious. Rather than "hidden or locked meanings" the Naciremans are honest and have all their thoughts shown. There are no hidden tricks up their sleeves and everyone is an open book. Thus, many instances of the word key depict objects that reveal honesty and openness, much like the ideals and virtues of the Naciremans. (For instance, a key opens things. A test key has all the answers in the open.)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1616565949=199.247.108.174

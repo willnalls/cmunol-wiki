@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1616384861
+host=74.109.239.200
+name=GradebookExpansions.PhilosophyLessonsFromCATCH-bellar
+rev=2
+targets=Articles.PhilosophyLessonsFromCATCH,Profiles.MengS
+text=:Category: LanguageOfTheNacirema%0a:Expansion: Interpreting “catch” a different way for the Nacirema%0a:Author: bellar%0a:Original: [[Articles.PhilosophyLessonsFromCATCH|PhilosophyLessonsFromCATCH]] %0a:OriginalAuthor: [[Profiles.meng_s|meng_s]]%0a:Section: \\%0a:Completed: 21.03.2021 - 20:47%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThe “catch” in the Nacireman language seems to be directly related to something that is undesirable to the people. From “catching” rona or telling someone to “catch” these hands, it appears that anything that someone “catches” is something that should be avoided at all costs. The Nacirema people clearly must constantly live in fear of catching things, which would provide an explanation for strangers being so cold and unfriendly out in public. Don’t let them catch you staring at them or they might be provoked to attack.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000937-394780#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000937-394780#
+time=1620778172
+author:1620778172=
+diff:1620778172:1616384861:=38,42c38%0a%3c (:Category:)%0a%3c #foxbegin 210512-000937-394780#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000937-394780#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616384861=bellar
+diff:1616384861:1616384861:=1,38d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: Interpreting “catch” a different way for the Nacirema%0a%3c :Author: bellar%0a%3c :Original: [[Articles.PhilosophyLessonsFromCATCH|PhilosophyLessonsFromCATCH]] %0a%3c :OriginalAuthor: [[Profiles.meng_s|meng_s]]%0a%3c :Section: \\%0a%3c :Completed: 21.03.2021 - 20:47%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c The “catch” in the Nacireman language seems to be directly related to something that is undesirable to the people. From “catching” rona or telling someone to “catch” these hands, it appears that anything that someone “catches” is something that should be avoided at all costs. The Nacirema people clearly must constantly live in fear of catching things, which would provide an explanation for strangers being so cold and unfriendly out in public. Don’t let them catch you staring at them or they might be provoked to attack.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1616384861=128.237.82.2

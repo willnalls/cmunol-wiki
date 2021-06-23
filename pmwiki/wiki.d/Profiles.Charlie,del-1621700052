@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+author=CharlieP
+charset=UTF-8
+csum=
+ctime=1618114133
+host=74.109.251.161
+name=Profiles.Charlie
+rev=1
+targets=
+text=(:section: D:)
+time=1618114133
+author:1618114133=CharlieP
+diff:1618114133:1618114133:=1d0%0a%3c (:section: D:)%0a\ No newline at end of file%0a
+host:1618114133=74.109.251.161

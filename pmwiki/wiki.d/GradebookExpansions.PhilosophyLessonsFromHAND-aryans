@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1616608437
+host=69.218.234.170
+name=GradebookExpansions.PhilosophyLessonsFromHAND-aryans
+rev=2
+targets=Articles.PhilosophyLessonsFromHAND,Profiles.RussellE
+text=:Category: LanguageOfTheNacirema%0a:Expansion: Teamwork %0a:Author: aryans%0a:Original: [[Articles.PhilosophyLessonsFromHAND|PhilosophyLessonsFromHAND]] %0a:OriginalAuthor: [[Profiles.Russell_E|Russell_E]]%0a:Section: \\%0a:Completed: 24.03.2021 - 10:53%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-234325-346900#%0a* [-11.05.2021 - 16:43-] || TA_audrey marked as complete%0a#foxend 210511-234325-346900#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThe polysemy of hand in the Nacireman language shows that Nacireman culture extols teamwork and togetherness in all activities. Expressions for a marriage proposal, asking for help, and greeting another person all involve the word hand. But the word hand also refers to the part of the body that humans use to do most activities necessary for survival. For example, Naciremans use their hands to gather food, to write notes, and to tap on their curious, flashing, rectangular pocket rocks. Therefore, Nacireman teachings emphasize working together in all areas of life. %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620776605
+author:1620776605=TA_audrey
+diff:1620776605:1616608437:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-234325-346900#%0a%3c * [-11.05.2021 - 16:43-] || TA_audrey marked as complete%0a%3c #foxend 210511-234325-346900#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620776605=69.218.234.170
+author:1616608437=aryans
+diff:1616608437:1616608437:=1,38d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: Teamwork %0a%3c :Author: aryans%0a%3c :Original: [[Articles.PhilosophyLessonsFromHAND|PhilosophyLessonsFromHAND]] %0a%3c :OriginalAuthor: [[Profiles.Russell_E|Russell_E]]%0a%3c :Section: \\%0a%3c :Completed: 24.03.2021 - 10:53%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c The polysemy of hand in the Nacireman language shows that Nacireman culture extols teamwork and togetherness in all activities. Expressions for a marriage proposal, asking for help, and greeting another person all involve the word hand. But the word hand also refers to the part of the body that humans use to do most activities necessary for survival. For example, Naciremans use their hands to gather food, to write notes, and to tap on their curious, flashing, rectangular pocket rocks. Therefore, Nacireman teachings emphasize working together in all areas of life. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1616608437=184.190.142.79

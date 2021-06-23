@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620427737
+host=74.98.251.138
+name=GradebookExpansions.LessonsOnTheWordTAKE-janetB
+rev=2
+targets=Articles.LessonsOnTheWordTAKE,Profiles.ShahinC
+text=:Category: LanguageOfTheNacirema%0a:Expansion: Alternate interpretation of "TAKE"%0a:Author: janet_b%0a:Original: [[Articles.LessonsOnTheWordTAKE|LessonsOnTheWordTAKE]] %0a:OriginalAuthor: [[Profiles.ShahinC|ShahinC]]%0a:Section: E%0a:Completed: 07.05.2021 - 15:48%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-222257-174050#%0a* [-11.05.2021 - 15:22-] || TA_mason marked as complete%0a#foxend 210511-222257-174050#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aAnother likely cause for this disproportional interest the Nacirema have in the word "take" is a cultural mindset that leans towards that of acquisition rather than retention. One might "take in" information or "take" power, where the emphasis is specifically on getting something. This shows an underlying interest not in the act of having or ownership, but in specifically the beginning of that ownership. A significant portion of the examples in which a Nacirema may "take" something is a single event or action, rather than an ongoing posession.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_mason:)
+time=1620771776
+author:1620771776=TA_mason
+diff:1620771776:1620427737:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-222257-174050#%0a%3c * [-11.05.2021 - 15:22-] || TA_mason marked as complete%0a%3c #foxend 210511-222257-174050#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620771776=74.98.251.138
+author:1620427737=janet_b
+diff:1620427737:1620427737:=1,38d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: Alternate interpretation of "TAKE"%0a%3c :Author: janet_b%0a%3c :Original: [[Articles.LessonsOnTheWordTAKE|LessonsOnTheWordTAKE]] %0a%3c :OriginalAuthor: [[Profiles.ShahinC|ShahinC]]%0a%3c :Section: E%0a%3c :Completed: 07.05.2021 - 15:48%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Another likely cause for this disproportional interest the Nacirema have in the word "take" is a cultural mindset that leans towards that of acquisition rather than retention. One might "take in" information or "take" power, where the emphasis is specifically on getting something. This shows an underlying interest not in the act of having or ownership, but in specifically the beginning of that ownership. A significant portion of the examples in which a Nacirema may "take" something is a single event or action, rather than an ongoing posession.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620427737=73.246.93.87

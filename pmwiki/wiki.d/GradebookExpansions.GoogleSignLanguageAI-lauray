@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1620444950
+host=67.171.64.6
+name=GradebookExpansions.GoogleSignLanguageAI-lauray
+rev=2
+targets=Articles.GoogleSignLanguageAI,Profiles.GavinD
+text=:Category: SignLanguage%0a:Expansion: HandTalk%0a:Author: lauray%0a:Original: [[Articles.GoogleSignLanguageAI|GoogleSignLanguageAI]] %0a:OriginalAuthor: [[Profiles.Gavin_D|Gavin_D]]%0a:Section: D%0a:Completed: 07.05.2021 - 20:35%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-024302-424330#%0a* [-10.05.2021 - 19:43-] || TA_lili marked as complete%0a#foxend 210511-024302-424330#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0ahttps://www.businessinsider.com/hand-talk-app-translate-speech-sign-language-hugo-brazil-libras-2016-9%0a%0aIn this article, it talks about a HandTalk app which seems to be able to translate from speech to sign language. It uses an on-screen avatar that takes in either text or people directly talking into it and then displaying the sign language equivalent on the screen. This uses AI technology to make this automatic translation starting from Portuguese to BSL but now also works for English to ASL. This technology definitely still has faults but does seem to address one of the questions brought up by Jesal’s quote in the wiki article above.%0a%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620700982
+author:1620700982=TA_lili
+diff:1620700982:1620444950:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-024302-424330#%0a%3c * [-10.05.2021 - 19:43-] || TA_lili marked as complete%0a%3c #foxend 210511-024302-424330#%0a---%0a> %0a43,44c41%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620700982=67.171.64.6
+author:1620444950=lauray
+diff:1620444950:1620444950:=1,41d0%0a%3c :Category: SignLanguage%0a%3c :Expansion: HandTalk%0a%3c :Author: lauray%0a%3c :Original: [[Articles.GoogleSignLanguageAI|GoogleSignLanguageAI]] %0a%3c :OriginalAuthor: [[Profiles.Gavin_D|Gavin_D]]%0a%3c :Section: D%0a%3c :Completed: 07.05.2021 - 20:35%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c https://www.businessinsider.com/hand-talk-app-translate-speech-sign-language-hugo-brazil-libras-2016-9%0a%3c %0a%3c In this article, it talks about a HandTalk app which seems to be able to translate from speech to sign language. It uses an on-screen avatar that takes in either text or people directly talking into it and then displaying the sign language equivalent on the screen. This uses AI technology to make this automatic translation starting from Portuguese to BSL but now also works for English to ASL. This technology definitely still has faults but does seem to address one of the questions brought up by Jesal’s quote in the wiki article above.%0a%3c %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620444950=128.237.82.2

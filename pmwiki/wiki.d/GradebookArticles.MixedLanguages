@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612495701
+host=74.98.251.138
+name=GradebookArticles.MixedLanguages
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Mixed Languages%0a:Author: AnanyaV%0a:Section: E%0a:Completed: 04.02.2021 - 19:28%0a:Status: complete%0a%0a%0a#foxbegin 210205-173103-199040#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173103-199040#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210317-173516-319440#%0a* [-17.03.2021 - 10:35-] || TA_mason marked as complete%0a#foxend 210317-173516-319440#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aHow are mixed languages (i.e. languages produced from two or more languages) formed?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI think the concept of mixed languages poses some interesting questions. In specific, how do mixed language-speaking communities arrive upon which grammatical/structural/phonetic features to retain from each source language? The language Michif for example (which is formed from Cree and French) adopts nouns, numerals, articles and adjectives from French, and syntax, verb structures, demonstratives, question words and personal pronouns from Cree (https://www.thecanadianencyclopedia.ca/en/article/michif) - how and why might these adoptions be made? %0a%0aIt's also interesting to think about borrowed language and loanwords, and why certain languages (such as English) have many loanwords, while others do not.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1616002516
+author:1616002516=TA_mason
+diff:1616002516:1614797851:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210317-173516-319440#%0a%3c * [-17.03.2021 - 10:35-] || TA_mason marked as complete%0a%3c #foxend 210317-173516-319440#%0a---%0a> %0a47,48c45%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1616002516=74.98.251.138
+author:1614797851=
+diff:1614797851:1612546262:=4c4%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1614797851=74.109.247.199
+author:1612546262=TA_lili
+diff:1612546262:1612495701:=9,12d8%0a%3c #foxbegin 210205-173103-199040#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173103-199040#%0a
+host:1612546262=74.109.247.199
+author:1612495701=AnanyaV
+diff:1612495701:1612495701:=1,41d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Mixed Languages%0a%3c :Author: AnanyaV%0a%3c :Section: %0a%3c :Completed: 04.02.2021 - 19:28%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c How are mixed languages (i.e. languages produced from two or more languages) formed?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I think the concept of mixed languages poses some interesting questions. In specific, how do mixed language-speaking communities arrive upon which grammatical/structural/phonetic features to retain from each source language? The language Michif for example (which is formed from Cree and French) adopts nouns, numerals, articles and adjectives from French, and syntax, verb structures, demonstratives, question words and personal pronouns from Cree (https://www.thecanadianencyclopedia.ca/en/article/michif) - how and why might these adoptions be made? %0a%3c %0a%3c It's also interesting to think about borrowed language and loanwords, and why certain languages (such as English) have many loanwords, while others do not.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612495701=96.236.208.198

@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36
+author=TimG
+charset=UTF-8
+csum=
+ctime=1612490667
+host=74.111.96.31
+name=Profiles.TimG
+rev=4
+targets=
+text=(:section: B:)%0a#foxbegin 210309-213707-616270#%0a(:name: TimG:)%0a#foxend 210309-213707-616270#%0a(:andrewid: tganger:)
+time=1615824242
+author:1615824242=TimG
+diff:1615824242:1615405959:=4,5c4%0a%3c #foxend 210309-213707-616270#%0a%3c (:andrewid: tganger:)%0a\ No newline at end of file%0a---%0a> #foxend 210309-213707-616270#%0a\ No newline at end of file%0a
+host:1615824242=74.111.96.31
+author:1615405959=
+diff:1615405959:1615325825:=3c3%0a%3c (:name: TimG:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405959=74.109.247.199
+author:1615325825=
+diff:1615325825:1612490667:=1,4c1%0a%3c (:section: B:)%0a%3c #foxbegin 210309-213707-616270#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213707-616270#%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1612490667=TimG
+diff:1612490667:1612490667:=1d0%0a%3c (:section: B:)%0a\ No newline at end of file%0a
+host:1612490667=74.111.96.31

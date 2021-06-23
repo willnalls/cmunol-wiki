@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1620529354
+host=69.218.234.170
+name=GradebookExpansions.IrulaLanguage-sgangu
+rev=2
+targets=Articles.IrulaLanguage,Profiles.ShreyaR
+text=:Category: EndangeredLanguages%0a:Expansion: An Irula Movie %0a:Author: sgangu%0a:Original: [[Articles.IrulaLanguage|IrulaLanguage]] %0a:OriginalAuthor: [[Profiles.shreya_r|shreya_r]]%0a:Section: A%0a:Completed: 08.05.2021 - 20:02%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-001757-736510#%0a* [-10.05.2021 - 17:17-] || TA_audrey marked as complete%0a#foxend 210511-001757-736510#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aI could not find nearly as much Irula content as I could for other South Indian languages. However, I did find that an Irula movie was directed in 2019, which is quite surprising. It is the first Indian film in history to use this language. I've linked a song from the movie below. After listening to it, I'd say that it sounds quite similar to Tamil and other Dravidian languages, so I can see how it might be considered another dialect and not another language entirely. %0a%0ahttps://www.youtube.com/watch?v=nIx7rDsrENs%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620692277
+author:1620692277=TA_audrey
+diff:1620692277:1620529354:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-001757-736510#%0a%3c * [-10.05.2021 - 17:17-] || TA_audrey marked as complete%0a%3c #foxend 210511-001757-736510#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620692277=69.218.234.170
+author:1620529354=sgangu
+diff:1620529354:1620529354:=1,40d0%0a%3c :Category: EndangeredLanguages%0a%3c :Expansion: An Irula Movie %0a%3c :Author: sgangu%0a%3c :Original: [[Articles.IrulaLanguage|IrulaLanguage]] %0a%3c :OriginalAuthor: [[Profiles.shreya_r|shreya_r]]%0a%3c :Section: A%0a%3c :Completed: 08.05.2021 - 20:02%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I could not find nearly as much Irula content as I could for other South Indian languages. However, I did find that an Irula movie was directed in 2019, which is quite surprising. It is the first Indian film in history to use this language. I've linked a song from the movie below. After listening to it, I'd say that it sounds quite similar to Tamil and other Dravidian languages, so I can see how it might be considered another dialect and not another language entirely. %0a%3c %0a%3c https://www.youtube.com/watch?v=nIx7rDsrENs%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620529354=173.224.102.108

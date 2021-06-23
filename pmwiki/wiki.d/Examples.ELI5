@@ -1,0 +1,16 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+author=will
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1600106421
+host=108.32.35.122
+name=Examples.ELI5
+rev=1
+targets=ELI5.MorphologyAndSyntax
+text=[[ELI5/MorphologyAndSyntax]]%0a%0a%0a[+ How does ELI5 work? +]%0a%0aPrompt author:%0awill%0a%0a(:if false:)%0a*** NOTE: Your summary should be no more than 3 sentences. %0a[[#summary]]%0a%0aI would like to understand how the article concept 'ELI5' works.%0a%0a[[#summaryend]]%0a(:ifend:)%0a%0a----%0a----%0aAnswered by:%0atest_student%0a%0aI'm not sure, but here's a bunch of latin:%0a%0aLorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis pulvinar elit, et pharetra est fermentum quis. Aenean dignissim porttitor eros non consequat. Phasellus eleifend massa et ipsum laoreet, id sodales lorem elementum. Sed quis leo nulla. Donec nec orci felis. Nullam mollis semper tellus, id semper odio. Nulla facilisi. Nulla facilisi.%0a%0aProin id elit varius, condimentum turpis a, pretium velit. Duis malesuada orci et dapibus pharetra. Proin id malesuada lorem. Phasellus facilisis ornare volutpat. Phasellus in ornare est. Curabitur euismod aliquet justo eu scelerisque. Fusce id massa felis. Donec quis neque dictum, faucibus metus quis, consectetur nibh. Curabitur iaculis dolor neque, id condimentum tortor lacinia vel. Mauris posuere dui sed erat efficitur, sed suscipit ante tincidunt.%0a%0a%0a(:if false:)%0a**DO NOT EDIT BELOW THESE LINES**%0a(:if end:)%0a[[#answers]]%0a%0a[[#answersend]]%0a----%0a!!Comments
+time=1600106421
+author:1600106421=will
+diff:1600106421:1600106421:=1,37d0%0a%3c [[ELI5/MorphologyAndSyntax]]%0a%3c %0a%3c %0a%3c [+ How does ELI5 work? +]%0a%3c %0a%3c Prompt author:%0a%3c will%0a%3c %0a%3c (:if false:)%0a%3c *** NOTE: Your summary should be no more than 3 sentences. %0a%3c [[#summary]]%0a%3c %0a%3c I would like to understand how the article concept 'ELI5' works.%0a%3c %0a%3c [[#summaryend]]%0a%3c (:ifend:)%0a%3c %0a%3c ----%0a%3c ----%0a%3c Answered by:%0a%3c test_student%0a%3c %0a%3c I'm not sure, but here's a bunch of latin:%0a%3c %0a%3c Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis pulvinar elit, et pharetra est fermentum quis. Aenean dignissim porttitor eros non consequat. Phasellus eleifend massa et ipsum laoreet, id sodales lorem elementum. Sed quis leo nulla. Donec nec orci felis. Nullam mollis semper tellus, id semper odio. Nulla facilisi. Nulla facilisi.%0a%3c %0a%3c Proin id elit varius, condimentum turpis a, pretium velit. Duis malesuada orci et dapibus pharetra. Proin id malesuada lorem. Phasellus facilisis ornare volutpat. Phasellus in ornare est. Curabitur euismod aliquet justo eu scelerisque. Fusce id massa felis. Donec quis neque dictum, faucibus metus quis, consectetur nibh. Curabitur iaculis dolor neque, id condimentum tortor lacinia vel. Mauris posuere dui sed erat efficitur, sed suscipit ante tincidunt.%0a%3c %0a%3c %0a%3c (:if false:)%0a%3c **DO NOT EDIT BELOW THESE LINES**%0a%3c (:if end:)%0a%3c [[#answers]]%0a%3c %0a%3c [[#answersend]]%0a%3c ----%0a%3c !!Comments%0a\ No newline at end of file%0a
+host:1600106421=108.32.35.122

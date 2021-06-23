@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36
+author=meng_s
+charset=UTF-8
+csum=
+ctime=1612321727
+host=116.88.125.89
+name=Profiles.BrandonW
+rev=5
+targets=Articles.LakotaLanguage
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: bdwei \\%0a%0a[[#comments]]%0a#foxbegin 210512-145631-842050#%0a* meng_s expanded on your article [[Articles.LakotaLanguage|LakotaLanguage]] {[foxdelline button 210512-145631-842050 {$FullName} ]}%0a#foxend 210512-145631-842050#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: C:)%0a#foxbegin 210309-213613-889750#%0a(:name: BrandonW:)%0a#foxend 210309-213613-889750#
+time=1620831389
+author:1620831389=meng_s
+diff:1620831389:1615405556:=7,9c7%0a%3c #foxbegin 210512-145631-842050#%0a%3c * meng_s expanded on your article [[Articles.LakotaLanguage|LakotaLanguage]] {[foxdelline button 210512-145631-842050 {$FullName} ]}%0a%3c #foxend 210512-145631-842050#%0a---%0a> %0a
+host:1620831389=116.88.125.89
+author:1615405556=
+diff:1615405556:1615325770:=27c27%0a%3c (:name: BrandonW:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405556=74.109.247.199
+author:1615325770=
+diff:1615325770:1612562170:=25,28c25%0a%3c (:section: C:)%0a%3c #foxbegin 210309-213613-889750#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213613-889750#%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612562170=BrandonW
+diff:1612562170:1612321727:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612562170=72.77.81.225
+author:1612321727=BrandonW
+diff:1612321727:1612321727:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: bdwei \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612321727=72.77.81.225

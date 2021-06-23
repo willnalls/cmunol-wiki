@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612658728
+host=74.109.247.199
+name=Profiles.NathanW
+rev=4
+targets=
+text=(:section: B:)%0a(:andrewid: njwalker:)%0a#foxbegin 210309-213618-96990#%0a(:name: NathanW:)%0a#foxend 210309-213618-96990#
+time=1615406356
+author:1615406356=
+diff:1615406356:1615325770:=4c4%0a%3c (:name: NathanW:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615406356=74.109.247.199
+author:1615325770=
+diff:1615325770:1612658733:=2,5c2%0a%3c (:andrewid: njwalker:)%0a%3c #foxbegin 210309-213618-96990#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213618-96990#%0a\ No newline at end of file%0a---%0a> (:andrewid: njwalker:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612658733=NathanW
+diff:1612658733:1612658728:=1,2c1%0a%3c (:section: B:)%0a%3c (:andrewid: njwalker:)%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1612658733=72.95.246.208
+author:1612658728=NathanW
+diff:1612658728:1612658728:=1d0%0a%3c (:section: B:)%0a\ No newline at end of file%0a
+host:1612658728=72.95.246.208

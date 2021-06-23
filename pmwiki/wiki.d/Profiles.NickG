@@ -1,0 +1,39 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=jjmonroe
+charset=UTF-8
+csum=
+ctime=1612219533
+host=73.174.7.241
+name=Profiles.NickG
+rev=9
+targets=Articles.TheIndianaMiamiTribe,Articles.AsianAmericanDiscriminationInSouthPark,Articles.SpeechSynthesis,Articles.Picard
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ngrill \\%0a%0a[[#comments]]%0a#foxbegin 210424-190021-537030#%0a* ZoeC expanded on your article [[Articles.TheIndianaMiamiTribe|TheIndianaMiamiTribe]] {[foxdelline button 210424-190021-537030 {$FullName} ]}%0a#foxend 210424-190021-537030#%0a#foxbegin 210502-184800-406250#%0a* kevinx expanded on your article [[Articles.AsianAmericanDiscriminationInSouthPark|AsianAmericanDiscriminationInSouthPark]] {[foxdelline button 210502-184800-406250 {$FullName} ]}%0a#foxend 210502-184800-406250#%0a#foxbegin 210502-203108-608950#%0a* kevinx expanded on your article [[Articles.SpeechSynthesis|SpeechSynthesis]] {[foxdelline button 210502-203108-608950 {$FullName} ]}%0a#foxend 210502-203108-608950#%0a#foxbegin 210508-034525-794700#%0a* lauray expanded on your article [[Articles.Picard|Picard]] {[foxdelline button 210508-034525-794700 {$FullName} ]}%0a#foxend 210508-034525-794700#%0a#foxbegin 210509-015606-268580#%0a* jjmonroe expanded on your article [[Articles.Picard|Picard]] {[foxdelline button 210509-015606-268580 {$FullName} ]}%0a#foxend 210509-015606-268580#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: C:)%0a#foxbegin 210309-213618-41590#%0a(:name: NickG:)%0a#foxend 210309-213618-41590#
+time=1620525365
+author:1620525365=jjmonroe
+diff:1620525365:1620445524:=19,21d18%0a%3c #foxbegin 210509-015606-268580#%0a%3c * jjmonroe expanded on your article [[Articles.Picard|Picard]] {[foxdelline button 210509-015606-268580 {$FullName} ]}%0a%3c #foxend 210509-015606-268580#%0a
+host:1620525365=73.174.7.241
+author:1620445524=lauray
+diff:1620445524:1619987467:=16,18d15%0a%3c #foxbegin 210508-034525-794700#%0a%3c * lauray expanded on your article [[Articles.Picard|Picard]] {[foxdelline button 210508-034525-794700 {$FullName} ]}%0a%3c #foxend 210508-034525-794700#%0a
+host:1620445524=128.237.82.2
+author:1619987467=kevinx
+diff:1619987467:1619981279:=13,15d12%0a%3c #foxbegin 210502-203108-608950#%0a%3c * kevinx expanded on your article [[Articles.SpeechSynthesis|SpeechSynthesis]] {[foxdelline button 210502-203108-608950 {$FullName} ]}%0a%3c #foxend 210502-203108-608950#%0a
+host:1619987467=73.154.247.242
+author:1619981279=kevinx
+diff:1619981279:1619290819:=10,12d9%0a%3c #foxbegin 210502-184800-406250#%0a%3c * kevinx expanded on your article [[Articles.AsianAmericanDiscriminationInSouthPark|AsianAmericanDiscriminationInSouthPark]] {[foxdelline button 210502-184800-406250 {$FullName} ]}%0a%3c #foxend 210502-184800-406250#%0a
+host:1619981279=73.154.247.242
+author:1619290819=ZoeC
+diff:1619290819:1615405996:=7,9c7%0a%3c #foxbegin 210424-190021-537030#%0a%3c * ZoeC expanded on your article [[Articles.TheIndianaMiamiTribe|TheIndianaMiamiTribe]] {[foxdelline button 210424-190021-537030 {$FullName} ]}%0a%3c #foxend 210424-190021-537030#%0a---%0a> %0a
+host:1619290819=128.2.149.254
+author:1615405996=
+diff:1615405996:1615325770:=27c27%0a%3c (:name: NickG:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405996=74.109.247.199
+author:1615325770=
+diff:1615325770:1614801325:=25,28c25%0a%3c (:section: C:)%0a%3c #foxbegin 210309-213618-41590#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213618-41590#%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614801325=
+diff:1614801325:1612219533:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1614801325=74.109.247.199
+author:1612219533=NickG
+diff:1612219533:1612219533:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ngrill \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612219533=98.111.246.46

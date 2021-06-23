@@ -1,0 +1,57 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=BrandonW
+charset=UTF-8
+csum=
+ctime=1612217946
+host=72.77.81.225
+name=Profiles.SirishaB
+rev=15
+targets=Articles.PhilosophyLessonsFromRUN,Articles.FixinToInEnglish,Articles.CulturalAppropriationThroughAccentsByYouTubers,Articles.ShouldEveryoneLearnSignLanguage
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: sbrahman \\%0a%0a[[#comments]]%0a#foxbegin 210327-143520-951850#%0a* Mingkang_L expanded on your article [[Articles.PhilosophyLessonsFromRUN|PhilosophyLessonsFromRUN]] {[foxdelline button 210327-143520-951850 {$FullName} ]}%0a#foxend 210327-143520-951850#%0a#foxbegin 210425-022816-866150#%0a* albert_l expanded on your article [[Articles.FixinToInEnglish|FixinToInEnglish]] {[foxdelline button 210425-022816-866150 {$FullName} ]}%0a#foxend 210425-022816-866150#%0a#foxbegin 210504-203429-707880#%0a* BrandonN expanded on your article [[Articles.CulturalAppropriationThroughAccentsByYouTubers|CulturalAppropriationThroughAccentsByYouTubers]] {[foxdelline button 210504-203429-707880 {$FullName} ]}%0a#foxend 210504-203429-707880#%0a#foxbegin 210507-180042-219400#%0a* Gavin_D expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210507-180042-219400 {$FullName} ]}%0a#foxend 210507-180042-219400#%0a#foxbegin 210508-022238-351150#%0a* sathyas expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210508-022238-351150 {$FullName} ]}%0a#foxend 210508-022238-351150#%0a#foxbegin 210508-131825-136300#%0a* Abi_S expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210508-131825-136300 {$FullName} ]}%0a#foxend 210508-131825-136300#%0a#foxbegin 210509-013119-603560#%0a* BrandonW expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210509-013119-603560 {$FullName} ]}%0a#foxend 210509-013119-603560#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: sbrahman \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: sbrahman \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: sbrahman \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: sbrahman \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213706-932540#%0a(:name: sirisha_b:)%0a#foxend 210309-213706-932540#
+time=1620523878
+author:1620523878=BrandonW
+diff:1620523878:1620479904:=25,27d24%0a%3c #foxbegin 210509-013119-603560#%0a%3c * BrandonW expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210509-013119-603560 {$FullName} ]}%0a%3c #foxend 210509-013119-603560#%0a
+host:1620523878=72.77.81.225
+author:1620479904=Abi_S
+diff:1620479904:1620440557:=22,24d21%0a%3c #foxbegin 210508-131825-136300#%0a%3c * Abi_S expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210508-131825-136300 {$FullName} ]}%0a%3c #foxend 210508-131825-136300#%0a
+host:1620479904=24.131.226.77
+author:1620440557=sathyas
+diff:1620440557:1620410441:=19,21d18%0a%3c #foxbegin 210508-022238-351150#%0a%3c * sathyas expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210508-022238-351150 {$FullName} ]}%0a%3c #foxend 210508-022238-351150#%0a
+host:1620440557=71.206.247.117
+author:1620410441=Gavin_D
+diff:1620410441:1620160468:=16,18d15%0a%3c #foxbegin 210507-180042-219400#%0a%3c * Gavin_D expanded on your article [[Articles.ShouldEveryoneLearnSignLanguage|ShouldEveryoneLearnSignLanguage]] {[foxdelline button 210507-180042-219400 {$FullName} ]}%0a%3c #foxend 210507-180042-219400#%0a
+host:1620410441=73.154.246.12
+author:1620160468=BrandonN
+diff:1620160468:1619317695:=13,15d12%0a%3c #foxbegin 210504-203429-707880#%0a%3c * BrandonN expanded on your article [[Articles.CulturalAppropriationThroughAccentsByYouTubers|CulturalAppropriationThroughAccentsByYouTubers]] {[foxdelline button 210504-203429-707880 {$FullName} ]}%0a%3c #foxend 210504-203429-707880#%0a
+host:1620160468=73.174.112.82
+author:1619317695=albert_l
+diff:1619317695:1616855719:=10,12d9%0a%3c #foxbegin 210425-022816-866150#%0a%3c * albert_l expanded on your article [[Articles.FixinToInEnglish|FixinToInEnglish]] {[foxdelline button 210425-022816-866150 {$FullName} ]}%0a%3c #foxend 210425-022816-866150#%0a
+host:1619317695=71.112.202.60
+author:1616855719=Mingkang_L
+diff:1616855719:1615326164:=7,9c7%0a%3c #foxbegin 210327-143520-951850#%0a%3c * Mingkang_L expanded on your article [[Articles.PhilosophyLessonsFromRUN|PhilosophyLessonsFromRUN]] {[foxdelline button 210327-143520-951850 {$FullName} ]}%0a%3c #foxend 210327-143520-951850#%0a---%0a> %0a
+host:1616855719=128.2.149.108
+author:1615326164=
+diff:1615326164:1615325825:=123c123%0a%3c (:name: sirisha_b:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326164=74.109.247.199
+author:1615325825=
+diff:1615325825:1613515813:=121,124c121%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213706-932540#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213706-932540#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1613515813=sirisha_b
+diff:1613515813:1612318250:=120,121c120%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613515813=68.100.43.128
+author:1612318250=sirisha_b
+diff:1612318250:1612232688:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sbrahman \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612318250=68.100.43.128
+author:1612232688=sirisha_b
+diff:1612232688:1612221865:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sbrahman \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612232688=68.100.43.128
+author:1612221865=sirisha_b
+diff:1612221865:1612218029:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sbrahman \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612221865=68.100.43.128
+author:1612218029=sirisha_b
+diff:1612218029:1612217946:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sbrahman \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612218029=68.100.43.128
+author:1612217946=sirisha_b
+diff:1612217946:1612217946:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sbrahman \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612217946=68.100.43.128

@@ -1,0 +1,57 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux aarch64; rv:83.0) Gecko/20100101 Firefox/83.0
+author=
+charset=UTF-8
+csum=
+ctime=1611959892
+host=74.109.247.199
+name=Admin.Delete
+rev=15
+targets=
+text=Delete individual articles:%0a%0a(:foxform Site.FoxForms#deletearticles:)%0a%0a%0aArticles selected:%0a-> {$:articles}%0a%0a%0a%0a%25red%25 {[foxdelpage button target={$:articles} label="Delete articles"]}%0a%0a%0a(:articles[]: :)%0a%0a(:foxmessages:)%0a%0a(:articles: Articles.PracticeArticlesThree Articles.PracticeArticlesTwo:)%0a(:articles[]: :)
+time=1612067072
+author:1612067072=
+diff:1612067072:1612066879:=18,19c18%0a%3c (:articles: Articles.PracticeArticlesThree Articles.PracticeArticlesTwo:)%0a%3c (:articles[]: :)%0a\ No newline at end of file%0a---%0a> (:articles: Articles.PracticeArticlesThree Articles.PracticeArticlesTwo:)%0a\ No newline at end of file%0a
+host:1612067072=74.109.247.199
+author:1612066879=
+diff:1612066879:1612066850:=18c18%0a%3c (:articles: Articles.PracticeArticlesThree Articles.PracticeArticlesTwo:)%0a\ No newline at end of file%0a---%0a> (:articles: Articles.PracticeArticleOne:)%0a\ No newline at end of file%0a
+host:1612066879=74.109.247.199
+author:1612066850=
+diff:1612066850:1611961203:=17c17,18%0a%3c %0a---%0a> (:articles[]: :)%0a> (:articles[]: :)%0a
+host:1612066850=74.109.247.199
+author:1611961203=
+diff:1611961203:1611961186:=19c19%0a%3c (:articles: Articles.PracticeArticleOne:)%0a\ No newline at end of file%0a---%0a> (:articles: GradebookArticles.GradebookArticles GradebookArticles.PracticeArticlesTwo:)%0a\ No newline at end of file%0a
+host:1611961203=74.109.247.199
+author:1611961186=
+diff:1611961186:1611961105:=11c11%0a%3c %25red%25 {[foxdelpage button target={$:articles} label="Delete articles"]}%0a---%0a> %25red%25 {[foxdelpage button target={$:articles} label="Delete category"]}%0a
+host:1611961186=74.109.247.199
+author:1611961105=
+diff:1611961105:1611961088:=19c19%0a%3c (:articles: GradebookArticles.GradebookArticles GradebookArticles.PracticeArticlesTwo:)%0a\ No newline at end of file%0a---%0a> (:articles: Articles.PracticeArticleOne Articles.PracticeArticlesTwo:)%0a\ No newline at end of file%0a
+host:1611961105=74.109.247.199
+author:1611961088=
+diff:1611961088:1611961078:=18,19c18%0a%3c (:articles[]: :)%0a%3c (:articles: Articles.PracticeArticleOne Articles.PracticeArticlesTwo:)%0a\ No newline at end of file%0a---%0a> (:articles[]: :)%0a\ No newline at end of file%0a
+host:1611961088=74.109.247.199
+author:1611961078=
+diff:1611961078:1611960993:=17d16%0a%3c (:articles[]: :)%0a
+host:1611961078=74.109.247.199
+author:1611960993=
+diff:1611960993:1611960979:=16,17c16%0a%3c (:foxmessages:)%0a%3c (:articles[]: :)%0a\ No newline at end of file%0a---%0a> (:foxmessages:)%0a\ No newline at end of file%0a
+host:1611960993=74.109.247.199
+author:1611960979=
+diff:1611960979:1611960866:=12,16c12%0a%3c %0a%3c %0a%3c (:articles[]: :)%0a%3c %0a%3c (:foxmessages:)%0a\ No newline at end of file%0a---%0a> (:articles[]: :)%0a\ No newline at end of file%0a
+host:1611960979=74.109.247.199
+author:1611960866=
+diff:1611960866:1611960854:=12d11%0a%3c (:articles[]: :)%0a\ No newline at end of file%0a
+host:1611960866=74.109.247.199
+author:1611960854=
+diff:1611960854:1611960773:=
+host:1611960854=74.109.247.199
+author:1611960773=
+diff:1611960773:1611960701:=3c3%0a%3c (:foxform Site.FoxForms#deletearticles:)%0a---%0a> (:foxform Site.FoxForms#deleteArticle:)%0a
+host:1611960773=74.109.247.199
+author:1611960701=
+diff:1611960701:1611959892:=3,11c3%0a%3c (:foxform Site.FoxForms#deleteArticle:)%0a%3c %0a%3c %0a%3c Articles selected:%0a%3c -> {$:articles}%0a%3c %0a%3c %0a%3c %0a%3c %25red%25 {[foxdelpage button target={$:articles} label="Delete category"]}%0a---%0a> (:pagelist group=Articles list=normal fmt=Templates.PagelistTemplates#deletearticles:)%0a\ No newline at end of file%0a
+host:1611960701=74.109.247.199
+author:1611959892=
+diff:1611959892:1611959892:=1,3d0%0a%3c Delete individual articles:%0a%3c %0a%3c (:pagelist group=Articles list=normal fmt=Templates.PagelistTemplates#deletearticles:)%0a\ No newline at end of file%0a
+host:1611959892=74.109.247.199

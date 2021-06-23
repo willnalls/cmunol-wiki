@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=will
+charset=UTF-8
+csum=
+ctime=1616721768
+host=74.109.247.199
+name=GradebookArticles.TestingArt
+rev=1
+targets=
+text=:Category: PhonologicalPhenomenaInSpokenLanguages%0a:Essential: {Category.PhonologicalPhenomenaInSpokenLanguages$:essential}%0a:Title: TestingArt%0a:Author: will%0a:Section: %0a:Completed: 25.03.2021 - 18:22%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0asum%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0acontent%0a%0a[[#contentends]]%0a----
+time=1616721768
+author:1616721768=will
+diff:1616721768:1616721768:=1,45d0%0a%3c :Category: PhonologicalPhenomenaInSpokenLanguages%0a%3c :Essential: {Category.PhonologicalPhenomenaInSpokenLanguages$:essential}%0a%3c :Title: TestingArt%0a%3c :Author: will%0a%3c :Section: %0a%3c :Completed: 25.03.2021 - 18:22%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c sum%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c content%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1616721768=74.109.247.199

@@ -1,0 +1,30 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612233485
+host=74.109.247.199
+name=Profiles.SaumyaB
+rev=6
+targets=Articles.VarietyOfSounds,Articles.UncommonConsonantsComparingEnglishAndArabic
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ssbhanda \\%0a%0a[[#comments]]%0a#foxbegin 210212-040845-709430#%0a* TimG expanded on your article [[Articles.VarietyOfSounds|VarietyOfSounds]] {[foxdelline button 210212-040845-709430 {$FullName} ]}%0a#foxend 210212-040845-709430#%0a#foxbegin 210227-044521-542990#%0a* rachelc expanded on your article [[Articles.UncommonConsonantsComparingEnglishAndArabic|UncommonConsonantsComparingEnglishAndArabic]] {[foxdelline button 210227-044521-542990 {$FullName} ]}%0a#foxend 210227-044521-542990#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: C:)%0a#foxbegin 210309-213620-650520#%0a(:name: saumyaB:)%0a#foxend 210309-213620-650520#
+time=1615399759
+author:1615399759=
+diff:1615399759:1615325770:=32c32%0a%3c (:name: saumyaB:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399759=74.109.247.199
+author:1615325770=
+diff:1615325770:1614401120:=30,33c30%0a%3c (:section: C:)%0a%3c #foxbegin 210309-213620-650520#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213620-650520#%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614401120=rachelc
+diff:1614401120:1613102924:=10,12d9%0a%3c #foxbegin 210227-044521-542990#%0a%3c * rachelc expanded on your article [[Articles.UncommonConsonantsComparingEnglishAndArabic|UncommonConsonantsComparingEnglishAndArabic]] {[foxdelline button 210227-044521-542990 {$FullName} ]}%0a%3c #foxend 210227-044521-542990#%0a
+host:1614401120=73.154.130.26
+author:1613102924=TimG
+diff:1613102924:1612584592:=7,9c7%0a%3c #foxbegin 210212-040845-709430#%0a%3c * TimG expanded on your article [[Articles.VarietyOfSounds|VarietyOfSounds]] {[foxdelline button 210212-040845-709430 {$FullName} ]}%0a%3c #foxend 210212-040845-709430#%0a---%0a> %0a
+host:1613102924=74.111.96.31
+author:1612584592=saumyaB
+diff:1612584592:1612233485:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612584592=128.237.82.1
+author:1612233485=saumyaB
+diff:1612233485:1612233485:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ssbhanda \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612233485=128.237.82.2

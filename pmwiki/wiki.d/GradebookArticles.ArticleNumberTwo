@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1612578885
+host=172.58.188.25
+name=GradebookArticles.ArticleNumberTwo
+rev=3
+targets=
+text=:Category: PracticeCategory%0a:Title: Article Number Two%0a:Author: wnalls%0a:Section: A%0a:Completed: 05.02.2021 - 18:34%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210508-003955-258000#%0a* [-07.05.2021 - 17:39-] || TA_lili marked as complete%0a#foxend 210508-003955-258000#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aHere is another example article%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aContent%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_lili:)
+time=1620434394
+author:1620434394=TA_lili
+diff:1620434394:1614797733:=6,7c6,7%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210508-003955-258000#%0a%3c * [-07.05.2021 - 17:39-] || TA_lili marked as complete%0a%3c #foxend 210508-003955-258000#%0a---%0a> %0a46,47c44%0a%3c ----%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620434394=172.58.188.25
+author:1614797733=
+diff:1614797733:1612578885:=4c4%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1614797733=74.109.247.199
+author:1612578885=wnalls
+diff:1612578885:1612578885:=1,44d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Article Number Two%0a%3c :Author: wnalls%0a%3c :Section: %0a%3c :Completed: 05.02.2021 - 18:34%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Here is another example article%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Content%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612578885=74.109.247.199

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1619322387
+host=69.218.234.170
+name=GradebookExpansions.MultipleModals-EthanR
+rev=2
+targets=Articles.MultipleModals,Profiles.EthanW
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Multiple Modals in Mandarin%0a:Author: EthanR%0a:Original: [[Articles.MultipleModals|MultipleModals]] %0a:OriginalAuthor: [[Profiles.EthanW|EthanW]]%0a:Section: A%0a:Completed: 24.04.2021 - 20:46%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-004412-109300#%0a* [-10.05.2021 - 17:44-] || TA_audrey marked as complete%0a#foxend 210511-004412-109300#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aMultiple modals also exist in Mandarin!%0a%0a李医生   明天       可能  做    午饭%0aDr. Li  tomorrow  may  cook  lunch%0a%0a王老师   明天       可能  会   做    午饭%0aDr. Li  tomorrow  may  will cook  lunch%0a%0aBoth have the same meaning of 'Dr. Li may cook lunch tomorrow'%0a%0aSource: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.541.5985&rep=rep1&type=pdf%0a%0a(apologies for any errors in translations! 我需要多学中文！) %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620693852
+author:1620693852=TA_audrey
+diff:1620693852:1619322387:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-004412-109300#%0a%3c * [-10.05.2021 - 17:44-] || TA_audrey marked as complete%0a%3c #foxend 210511-004412-109300#%0a---%0a> %0a52,53c50%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620693852=69.218.234.170
+author:1619322387=EthanR
+diff:1619322387:1619322387:=1,50d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Multiple Modals in Mandarin%0a%3c :Author: EthanR%0a%3c :Original: [[Articles.MultipleModals|MultipleModals]] %0a%3c :OriginalAuthor: [[Profiles.EthanW|EthanW]]%0a%3c :Section: A%0a%3c :Completed: 24.04.2021 - 20:46%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Multiple modals also exist in Mandarin!%0a%3c %0a%3c 李医生   明天       可能  做    午饭%0a%3c Dr. Li  tomorrow  may  cook  lunch%0a%3c %0a%3c 王老师   明天       可能  会   做    午饭%0a%3c Dr. Li  tomorrow  may  will cook  lunch%0a%3c %0a%3c Both have the same meaning of 'Dr. Li may cook lunch tomorrow'%0a%3c %0a%3c Source: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.541.5985&rep=rep1&type=pdf%0a%3c %0a%3c (apologies for any errors in translations! 我需要多学中文！) %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619322387=128.2.149.59

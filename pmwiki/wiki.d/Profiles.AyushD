@@ -1,0 +1,51 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=MarkC
+charset=UTF-8
+csum=
+ctime=1612239652
+host=76.219.216.90
+name=Profiles.AyushD
+rev=13
+targets=Articles.VowelInventoriesComparingEnglishAndRussian,Articles.TrynaWriteAPostAboutTryna,Articles.ShowingPersonalityThroughLanguageInTV
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ayushd \\%0a%0a[[#comments]]%0a#foxbegin 210226-073527-856680#%0a* sathyas expanded on your article [[Articles.VowelInventoriesComparingEnglishAndRussian|VowelInventoriesComparingEnglishAndRussian]] {[foxdelline button 210226-073527-856680 {$FullName} ]}%0a#foxend 210226-073527-856680#%0a#foxbegin 210412-023602-1630#%0a* MitulS expanded on your article [[Articles.TrynaWriteAPostAboutTryna|TrynaWriteAPostAboutTryna]] {[foxdelline button 210412-023602-1630 {$FullName} ]}%0a#foxend 210412-023602-1630#%0a#foxbegin 210509-025522-857310#%0a* albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025522-857310 {$FullName} ]}%0a#foxend 210509-025522-857310#%0a#foxbegin 210509-025610-517860#%0a* albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025610-517860 {$FullName} ]}%0a#foxend 210509-025610-517860#%0a#foxbegin 210509-025629-590720#%0a* albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025629-590720 {$FullName} ]}%0a#foxend 210509-025629-590720#%0a#foxbegin 210509-025720-952780#%0a* albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025720-952780 {$FullName} ]}%0a#foxend 210509-025720-952780#%0a#foxbegin 210509-032137-235700#%0a* MarkC expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-032137-235700 {$FullName} ]}%0a#foxend 210509-032137-235700#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ayushd \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ayushd \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: B:)%0a#foxbegin 210309-213613-603320#%0a(:name: ayush_d:)%0a#foxend 210309-213613-603320#
+time=1620530496
+author:1620530496=MarkC
+diff:1620530496:1620529039:=25,27d24%0a%3c #foxbegin 210509-032137-235700#%0a%3c * MarkC expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-032137-235700 {$FullName} ]}%0a%3c #foxend 210509-032137-235700#%0a
+host:1620530496=76.219.216.90
+author:1620529039=albert_l
+diff:1620529039:1620528988:=22,24d21%0a%3c #foxbegin 210509-025720-952780#%0a%3c * albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025720-952780 {$FullName} ]}%0a%3c #foxend 210509-025720-952780#%0a
+host:1620529039=71.112.202.60
+author:1620528988=albert_l
+diff:1620528988:1620528969:=19,21d18%0a%3c #foxbegin 210509-025629-590720#%0a%3c * albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025629-590720 {$FullName} ]}%0a%3c #foxend 210509-025629-590720#%0a
+host:1620528988=71.112.202.60
+author:1620528969=albert_l
+diff:1620528969:1620528921:=16,18d15%0a%3c #foxbegin 210509-025610-517860#%0a%3c * albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025610-517860 {$FullName} ]}%0a%3c #foxend 210509-025610-517860#%0a
+host:1620528969=71.112.202.60
+author:1620528921=albert_l
+diff:1620528921:1618194960:=13,15d12%0a%3c #foxbegin 210509-025522-857310#%0a%3c * albert_l expanded on your article [[Articles.ShowingPersonalityThroughLanguageInTV|ShowingPersonalityThroughLanguageInTV]] {[foxdelline button 210509-025522-857310 {$FullName} ]}%0a%3c #foxend 210509-025522-857310#%0a
+host:1620528921=71.112.202.60
+author:1618194960=MitulS
+diff:1618194960:1615326302:=10,12d9%0a%3c #foxbegin 210412-023602-1630#%0a%3c * MitulS expanded on your article [[Articles.TrynaWriteAPostAboutTryna|TrynaWriteAPostAboutTryna]] {[foxdelline button 210412-023602-1630 {$FullName} ]}%0a%3c #foxend 210412-023602-1630#%0a
+host:1618194960=71.190.246.26
+author:1615326302=
+diff:1615326302:1615325770:=77c77%0a%3c (:name: ayush_d:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326302=74.109.247.199
+author:1615325770=
+diff:1615325770:1614324926:=75,78c75%0a%3c (:section: B:)%0a%3c #foxbegin 210309-213613-603320#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213613-603320#%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614324926=sathyas
+diff:1614324926:1612386843:=7,9c7%0a%3c #foxbegin 210226-073527-856680#%0a%3c * sathyas expanded on your article [[Articles.VowelInventoriesComparingEnglishAndRussian|VowelInventoriesComparingEnglishAndRussian]] {[foxdelline button 210226-073527-856680 {$FullName} ]}%0a%3c #foxend 210226-073527-856680#%0a---%0a> %0a
+host:1614324926=71.206.247.117
+author:1612386843=ayush_d
+diff:1612386843:1612239780:=72,73c72%0a%3c [[#completedworkend]]%0a%3c (:section: B:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612386843=128.237.82.1
+author:1612239780=ayush_d
+diff:1612239780:1612239729:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ayushd \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612239780=128.237.82.2
+author:1612239729=ayush_d
+diff:1612239729:1612239652:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ayushd \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612239729=128.237.82.2
+author:1612239652=ayush_d
+diff:1612239652:1612239652:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ayushd \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612239652=128.237.82.2

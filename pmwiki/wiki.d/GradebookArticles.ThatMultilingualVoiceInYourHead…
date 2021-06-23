@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1612408506
+host=69.218.234.170
+name=GradebookArticles.ThatMultilingualVoiceInYourHead…
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: That multilingual voice in your head… %0a:Author: roochis%0a:Section: C%0a:Completed: 03.02.2021 - 19:15%0a:Status: complete%0a%0a%0a#foxbegin 210205-173225-389360#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173225-389360#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210214-173839-326720#%0a* [-14.02.2021 - 09:38-] || TA_audrey marked as complete%0a#foxend 210214-173839-326720#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0a Can multilingual people think in multiple languages? If so, how? %0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI grew up learning a language that isn't English, but I can't think in that language. When my father immigrated to the US, he said that he was able to better learn English by forcing himself to think in it. He says that today he thinks in both English and Gujarati (his primary language), and I wonder what types of thoughts/emotions are associated with each language. I find it hard to believe that he switches back and forth completely randomly. There must be some rhyme and reason to it. I know when bilingual people speak to each other they often switch back and forth seamlessly because (I'm assuming) some ideas can be better expressed in one language as opposed to another. Thinking is more automatic than verbally communicating, so I wonder how that works.  %0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1613324318
+author:1613324318=TA_audrey
+diff:1613324318:1612546345:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210214-173839-326720#%0a%3c * [-14.02.2021 - 09:38-] || TA_audrey marked as complete%0a%3c #foxend 210214-173839-326720#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1613324318=69.218.234.170
+author:1612546345=TA_lili
+diff:1612546345:1612475385:=9,12d8%0a%3c #foxbegin 210205-173225-389360#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173225-389360#%0a
+host:1612546345=74.109.247.199
+author:1612475385=TA_lili
+diff:1612475385:1612408506:=4c4%0a%3c :Section: C%0a---%0a> :Section: %0a
+host:1612475385=74.109.247.199
+author:1612408506=roochis
+diff:1612408506:1612408506:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: That multilingual voice in your head… %0a%3c :Author: roochis%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 19:15%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c  Can multilingual people think in multiple languages? If so, how? %0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I grew up learning a language that isn't English, but I can't think in that language. When my father immigrated to the US, he said that he was able to better learn English by forcing himself to think in it. He says that today he thinks in both English and Gujarati (his primary language), and I wonder what types of thoughts/emotions are associated with each language. I find it hard to believe that he switches back and forth completely randomly. There must be some rhyme and reason to it. I know when bilingual people speak to each other they often switch back and forth seamlessly because (I'm assuming) some ideas can be better expressed in one language as opposed to another. Thinking is more automatic than verbally communicating, so I wonder how that works.  %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612408506=73.45.110.132

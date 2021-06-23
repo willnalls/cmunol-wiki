@@ -1,0 +1,30 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=wnalls
+charset=UTF-8
+csum=
+ctime=1611178287
+host=74.109.247.199
+name=Templates.NewProfile
+rev=6
+targets=
+text=!!{$Name}'s profile%0a%0asection: {$$section} \\%0aandrewid: {$$andrewid} \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]
+time=1612364562
+author:1612364562=wnalls
+diff:1612364562:1612364427:=3c3%0a%3c section: {$$section} \\%0a---%0a> Section: {$$section} \\%0a
+host:1612364562=74.109.247.199
+author:1612364427=
+diff:1612364427:1611934259:=3c3%0a%3c Section: {$$section} \\%0a---%0a> Section: {$$Section} \\%0a
+host:1612364427=74.109.247.199
+author:1611934259=student2
+diff:1611934259:1611879878:=15,16d14%0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a21,22d18%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a
+host:1611934259=74.109.247.199
+author:1611879878=student2
+diff:1611879878:1611336639:=3c3%0a%3c Section: {$$Section} \\%0a---%0a> section: {$$section} \\%0a
+host:1611879878=74.109.247.199
+author:1611336639=student1
+diff:1611336639:1611178287:=3,5c3,5%0a%3c section: {$$section} \\%0a%3c andrewid: {$$andrewid} \\%0a%3c %0a---%0a> section: {$$section}%0a> andrewid: {$$andrewid}%0a> %0a12c12%0a%3c [[#workinprogress]]%0a---%0a> %0a15,20c15%0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a---%0a> !!Completed Work:%0a\ No newline at end of file%0a
+host:1611336639=74.109.247.199
+author:1611178287=student1
+diff:1611178287:1611178287:=1,15d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c section: {$$section}%0a%3c andrewid: {$$andrewid}%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c %0a%3c !!Work in progress:%0a%3c %0a%3c !!Completed Work:%0a\ No newline at end of file%0a
+host:1611178287=74.109.247.199

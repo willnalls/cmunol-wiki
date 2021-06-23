@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux aarch64; rv:83.0) Gecko/20100101 Firefox/83.0
+author=
+charset=UTF-8
+csum=
+ctime=1608059281
+host=74.109.247.199
+name=Admin.ContentManagement
+rev=4
+targets=Admin.Categories
+text=* [[Admin.Categories | Modify categories]]%0a
+time=1612103642
+author:1612103642=
+diff:1612103642:1611958417:=1a2,3%0a> * [[Admin.Articles | Modify articles]]%0a> * [[Admin.Delete | Delete Articles]]%0a\ No newline at end of file%0a
+host:1612103642=74.109.247.199
+author:1611958417=
+diff:1611958417:1610387469:=2,3c2%0a%3c * [[Admin.Articles | Modify articles]]%0a%3c * [[Admin.Delete | Delete Articles]]%0a\ No newline at end of file%0a---%0a> * [[Admin.Articles | Modify articles]]%0a\ No newline at end of file%0a
+host:1611958417=74.109.247.199
+author:1610387469=
+diff:1610387469:1608059281:=1,2c1%0a%3c * [[Admin.Categories | Modify categories]]%0a%3c * [[Admin.Articles | Modify articles]]%0a\ No newline at end of file%0a---%0a> * [[Admin.Categories | Modify categories]]%0a\ No newline at end of file%0a
+host:1610387469=179.61.131.176
+author:1608059281=
+diff:1608059281:1608059281:=1d0%0a%3c * [[Admin.Categories | Modify categories]]%0a\ No newline at end of file%0a
+host:1608059281=74.109.247.199

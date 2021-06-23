@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1618881843
+host=74.111.97.246
+name=GradebookExpansions.NeedsWashedConstruction-jjmonroe
+rev=2
+targets=Articles.NeedsWashedConstruction,Profiles.Aryans
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Spotted in the wild%0a:Author: jjmonroe%0a:Original: [[Articles.NeedsWashedConstruction|NeedsWashedConstruction]] %0a:OriginalAuthor: [[Profiles.aryans|aryans]]%0a:Section: C%0a:Completed: 19.04.2021 - 18:24%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-145805-352510#%0a* [-06.05.2021 - 07:58-] || TA_lili marked as complete%0a#foxend 210506-145805-352510#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aAs noted in the article, this construction is commonly found in Carnegie Mellon's own Western Pennsylvania region. I stumbled across an example of it on campus earlier in the year, and took a photo:%0a%0ahttps://i.imgur.com/p6tFoai.jpg%0ahttps://i.imgur.com/XGYq1bq.jpg%0a%0aThe sticker with contact information for the facilities management person responsible for keeping the mask pocket full says to call if this "needs refilled". It's also interesting to see the sticker using a local construction juxtaposed on top of the fully SAE officially produced and edited COVID information sign.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620313084
+author:1620313084=TA_lili
+diff:1620313084:1618881843:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210506-145805-352510#%0a%3c * [-06.05.2021 - 07:58-] || TA_lili marked as complete%0a%3c #foxend 210506-145805-352510#%0a---%0a> %0a45,46c43%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620313084=74.111.97.246
+author:1618881843=jjmonroe
+diff:1618881843:1618881843:=1,43d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Spotted in the wild%0a%3c :Author: jjmonroe%0a%3c :Original: [[Articles.NeedsWashedConstruction|NeedsWashedConstruction]] %0a%3c :OriginalAuthor: [[Profiles.aryans|aryans]]%0a%3c :Section: C%0a%3c :Completed: 19.04.2021 - 18:24%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c As noted in the article, this construction is commonly found in Carnegie Mellon's own Western Pennsylvania region. I stumbled across an example of it on campus earlier in the year, and took a photo:%0a%3c %0a%3c https://i.imgur.com/p6tFoai.jpg%0a%3c https://i.imgur.com/XGYq1bq.jpg%0a%3c %0a%3c The sticker with contact information for the facilities management person responsible for keeping the mask pocket full says to call if this "needs refilled". It's also interesting to see the sticker using a local construction juxtaposed on top of the fully SAE officially produced and edited COVID information sign.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1618881843=73.174.7.241

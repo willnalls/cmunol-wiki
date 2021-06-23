@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612472676
+host=74.109.247.199
+name=GradebookArticles.GenderInLanguage
+rev=5
+targets=
+text=:Category: PracticeCategory%0a:Title: Gender in language%0a:Author: sarah_tandean%0a:Section: C%0a:Completed: 04.02.2021 - 13:04%0a:Status: complete%0a%0a%0a#foxbegin 210205-172835-331290#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-172835-331290#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210214-173744-280590#%0a* [-14.02.2021 - 09:37-] || TA_audrey marked as complete%0a#foxend 210214-173744-280590#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aWhy do some languages have gendered pronouns and/or grammatical gender?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aMy parents speak Indonesian and one thing I've noticed about the language is that it only has one third-person pronoun; the word 'dia' is used to mean he, she, it, and they. This makes me wonder what the purpose of gendered pronouns is, and why some languages have them while others don't. Similarly, I do not understand why some English speakers are so against the use of singular 'they' even though it has been around for centuries.%0a%0aI'm also curious about other ways in which language is gendered. In Spanish and French for example, nouns are coded as masculine or feminine and this grammatical gender informs which articles should be used with the noun. I have read that this can help differentiate between two homophones that don't have the same gender, but it still seems rather unnecessary to me.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1615396754
+author:1615396754=
+diff:1615396754:1613324264:=3c3%0a%3c :Author: sarah_tandean%0a---%0a> :Author: sarah_t%0a42,43c42,43%0a%3c My parents speak Indonesian and one thing I've noticed about the language is that it only has one third-person pronoun; the word 'dia' is used to mean he, she, it, and they. This makes me wonder what the purpose of gendered pronouns is, and why some languages have them while others don't. Similarly, I do not understand why some English speakers are so against the use of singular 'they' even though it has been around for centuries.%0a%3c %0a---%0a> My parents speak Indonesian and one thing I've noticed about the language is that it only has one third-person pronoun; the word 'dia' is used to mean he, she, it, and they. This makes me wonder what the purpose of gendered pronouns is, and why some languages have them while others don't. Similarly, I do not understand why some English speakers are so against the use of singular 'they' even though it has been around for centuries.%0a> %0a
+host:1615396754=74.109.247.199
+author:1613324264=TA_audrey
+diff:1613324264:1612546115:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210214-173744-280590#%0a%3c * [-14.02.2021 - 09:37-] || TA_audrey marked as complete%0a%3c #foxend 210214-173744-280590#%0a---%0a> %0a47,48c45%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1613324264=69.218.234.170
+author:1612546115=TA_lili
+diff:1612546115:1612475341:=9,12d8%0a%3c #foxbegin 210205-172835-331290#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-172835-331290#%0a
+host:1612546115=74.109.247.199
+author:1612475341=TA_lili
+diff:1612475341:1612472676:=4c4%0a%3c :Section: C%0a---%0a> :Section: %0a
+host:1612475341=74.109.247.199
+author:1612472676=sarah_t
+diff:1612472676:1612472676:=1,41d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Gender in language%0a%3c :Author: sarah_t%0a%3c :Section: %0a%3c :Completed: 04.02.2021 - 13:04%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Why do some languages have gendered pronouns and/or grammatical gender?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c My parents speak Indonesian and one thing I've noticed about the language is that it only has one third-person pronoun; the word 'dia' is used to mean he, she, it, and they. This makes me wonder what the purpose of gendered pronouns is, and why some languages have them while others don't. Similarly, I do not understand why some English speakers are so against the use of singular 'they' even though it has been around for centuries.%0a%3c %0a%3c I'm also curious about other ways in which language is gendered. In Spanish and French for example, nouns are coded as masculine or feminine and this grammatical gender informs which articles should be used with the noun. I have read that this can help differentiate between two homophones that don't have the same gender, but it still seems rather unnecessary to me.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612472676=73.154.247.63

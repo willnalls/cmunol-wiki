@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612240191
+host=72.95.222.76
+name=GradebookArticles.WhatIsTheMostImportantHumanInvention
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: What is the most important human invention?%0a:Author: sebastiang%0a:Section: F%0a:Completed: 01.02.2021 - 20:29%0a:Status: complete%0a%0a%0a#foxbegin 210205-173246-624890#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173246-624890#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210512-124506-894890#%0a* [-12.05.2021 - 05:45-] || TA_mason marked as complete%0a#foxend 210512-124506-894890#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aArgument for language being the most important human invention%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aWhen most people think of the most important human invention, they usually think of two wheels and an axle which led to a dramatic increase in the circulation of resources. Or maybe the plow used to break soil and make it fertile for farming.%0a%0aBoth of these inventions transformed civilizations but they would be quite useless if the people using them did not know how to communicate. %0a%0aFor this reason, I believe language to be the most important human invention.%0a%0aInterested to hear what you guys think.%0a %0a%0a%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1620823506
+author:1620823506=TA_mason
+diff:1620823506:1614797987:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210512-124506-894890#%0a%3c * [-12.05.2021 - 05:45-] || TA_mason marked as complete%0a%3c #foxend 210512-124506-894890#%0a---%0a> %0a54,55c52%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620823506=72.95.222.76
+author:1614797987=
+diff:1614797987:1612546366:=4c4%0a%3c :Section: F%0a---%0a> :Section: %0a
+host:1614797987=74.109.247.199
+author:1612546366=TA_lili
+diff:1612546366:1612240191:=9,12d8%0a%3c #foxbegin 210205-173246-624890#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173246-624890#%0a
+host:1612546366=74.109.247.199
+author:1612240191=sebastiang
+diff:1612240191:1612240191:=1,48d0%0a%3c :Category: PracticeCategory%0a%3c :Title: What is the most important human invention?%0a%3c :Author: sebastiang%0a%3c :Section: %0a%3c :Completed: 01.02.2021 - 20:29%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Argument for language being the most important human invention%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c When most people think of the most important human invention, they usually think of two wheels and an axle which led to a dramatic increase in the circulation of resources. Or maybe the plow used to break soil and make it fertile for farming.%0a%3c %0a%3c Both of these inventions transformed civilizations but they would be quite useless if the people using them did not know how to communicate. %0a%3c %0a%3c For this reason, I believe language to be the most important human invention.%0a%3c %0a%3c Interested to hear what you guys think.%0a%3c  %0a%3c %0a%3c %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612240191=128.237.82.2

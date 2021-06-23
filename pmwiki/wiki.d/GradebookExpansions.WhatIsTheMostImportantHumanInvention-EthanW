@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612272843
+host=72.95.222.76
+name=GradebookExpansions.WhatIsTheMostImportantHumanInvention-EthanW
+rev=5
+targets=Articles.WhatIsTheMostImportantHumanInvention,Profiles.Sebastiang
+text=:Category: PracticeCategory%0a:Expansion: An additional thought%0a:Author: EthanW%0a:Original: [[Articles.WhatIsTheMostImportantHumanInvention|WhatIsTheMostImportantHumanInvention]] %0a:OriginalAuthor: [[Profiles.sebastiang|sebastiang]]%0a:Section: E%0a:Completed: 02.02.2021 - 05:34%0a:Status: complete%0a%0a%0a#foxbegin 210205-173651-684710#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173651-684710#%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210512-125255-376550#%0a* [-12.05.2021 - 05:52-] || TA_mason marked as complete%0a#foxend 210512-125255-376550#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aHi Sebastian, %0a%0aI agree with your point. Also, there might be some "reciprocity" in play: the increasingly sophisticated human society required an effective communication tool, while the development of language stimulated social changes in return. %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000940-949080#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000940-949080#%0a(:GradedBy: TA_mason:)
+time=1620823975
+author:1620823975=TA_mason
+diff:1620823975:1620778172:=8,10c8,10%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a18,20c18%0a%3c #foxbegin 210512-125255-376550#%0a%3c * [-12.05.2021 - 05:52-] || TA_mason marked as complete%0a%3c #foxend 210512-125255-376550#%0a---%0a> %0a47,48c45%0a%3c #foxend 210512-000940-949080#%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> #foxend 210512-000940-949080#%0a\ No newline at end of file%0a
+host:1620823975=72.95.222.76
+author:1620778172=
+diff:1620778172:1616289907:=41,45c41%0a%3c (:Category:)%0a%3c #foxbegin 210512-000940-949080#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000940-949080#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289907=
+diff:1616289907:1612546610:=6c6%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1616289907=74.109.247.199
+author:1612546610=TA_lili
+diff:1612546610:1612272843:=11,14d10%0a%3c #foxbegin 210205-173651-684710#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173651-684710#%0a
+host:1612546610=74.109.247.199
+author:1612272843=EthanW
+diff:1612272843:1612272843:=1,37d0%0a%3c :Category: PracticeCategory%0a%3c :Expansion: An additional thought%0a%3c :Author: EthanW%0a%3c :Original: [[Articles.WhatIsTheMostImportantHumanInvention|WhatIsTheMostImportantHumanInvention]] %0a%3c :OriginalAuthor: [[Profiles.sebastiang|sebastiang]]%0a%3c :Section: %0a%3c :Completed: 02.02.2021 - 05:34%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Hi Sebastian, %0a%3c %0a%3c I agree with your point. Also, there might be some "reciprocity" in play: the increasingly sophisticated human society required an effective communication tool, while the development of language stimulated social changes in return. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1612272843=128.1.90.10

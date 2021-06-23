@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612304683
+host=74.98.251.138
+name=GradebookArticles.QueriesAboutLanguage
+rev=5
+targets=
+text=:Category: PracticeCategory%0a:Title: Queries about Language%0a:Author: jess_smith%0a:Section: E%0a:Completed: 02.02.2021 - 14:24%0a:Status: complete%0a%0a%0a#foxbegin 210205-173124-294720#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173124-294720#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210317-173724-931850#%0a* [-17.03.2021 - 10:37-] || TA_mason marked as complete%0a#foxend 210317-173724-931850#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a#foxbegin 210317-173704-535800#%0a----%0a>>rfloat%3c%3c   %0a[-17.03.2021 - 10:37-] &nbsp; %0a>>%3c%3c%0a!!!!!TA_mason%0aHopefully you've learned a bit about what the deal is with transcription :) %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 210317-173704-535800 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 210317-173704-535800#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aThings I've always wondered about language... %0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI've never had any experience with linguistics before, so I have a few ideas of what I want to learn about through this class. Firstly, I finally want to learn what the deal is with transcription. I have seen it before but I have never understood how to take a word and transcribe it. I ponder frequently about how many languages there are too. I find it fascinating that there are not more dead languages. Even more interesting is that a common language has not seemingly emerged yet. I do not think one will, but I wonder what it would be like if a common, worldwide language formed. I have other thoughts, ranging from the brain and language to history, but those are the big two ideas I wonder about.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1616002643
+author:1616002643=TA_mason
+diff:1616002643:1616002624:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210317-173724-931850#%0a%3c * [-17.03.2021 - 10:37-] || TA_mason marked as complete%0a%3c #foxend 210317-173724-931850#%0a---%0a> %0a57,58c55%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1616002643=74.98.251.138
+author:1616002624=TA_mason
+diff:1616002624:1614797925:=22,34c22%0a%3c #foxbegin 210317-173704-535800#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-17.03.2021 - 10:37-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!TA_mason%0a%3c Hopefully you've learned a bit about what the deal is with transcription :) %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 210317-173704-535800 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 210317-173704-535800#%0a---%0a> %0a
+host:1616002624=74.98.251.138
+author:1614797925=
+diff:1614797925:1612546283:=4c4%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1614797925=74.109.247.199
+author:1612546283=TA_lili
+diff:1612546283:1612304683:=9,12d8%0a%3c #foxbegin 210205-173124-294720#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173124-294720#%0a
+host:1612546283=74.109.247.199
+author:1612304683=jess_smith
+diff:1612304683:1612304683:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Queries about Language%0a%3c :Author: jess_smith%0a%3c :Section: %0a%3c :Completed: 02.02.2021 - 14:24%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Things I've always wondered about language... %0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I've never had any experience with linguistics before, so I have a few ideas of what I want to learn about through this class. Firstly, I finally want to learn what the deal is with transcription. I have seen it before but I have never understood how to take a word and transcribe it. I ponder frequently about how many languages there are too. I find it fascinating that there are not more dead languages. Even more interesting is that a common language has not seemingly emerged yet. I do not think one will, but I wonder what it would be like if a common, worldwide language formed. I have other thoughts, ranging from the brain and language to history, but those are the big two ideas I wonder about.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612304683=173.71.184.46

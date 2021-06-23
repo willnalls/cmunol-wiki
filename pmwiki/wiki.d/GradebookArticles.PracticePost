@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612224603
+host=74.109.247.199
+name=GradebookArticles.PracticePost
+rev=3
+targets=
+text=:Category: PracticeCategory%0a:Title: Practice Post%0a:Author: Simon_Y%0a:Section: A%0a:Completed: 01.02.2021 - 16:10%0a:Status: ungraded%0a%0a%0a#foxbegin 210205-173115-274960#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173115-274960#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aThis is just a practice post%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.%0a%0a[[#contentends]]%0a----
+time=1614801930
+author:1614801930=
+diff:1614801930:1612546274:=4c4%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1614801930=74.109.247.199
+author:1612546274=TA_lili
+diff:1612546274:1612224603:=9,12d8%0a%3c #foxbegin 210205-173115-274960#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173115-274960#%0a
+host:1612546274=74.109.247.199
+author:1612224603=Simon_Y
+diff:1612224603:1612224603:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Practice Post%0a%3c :Author: Simon_Y%0a%3c :Section: %0a%3c :Completed: 01.02.2021 - 16:10%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c This is just a practice post%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612224603=71.197.127.14

@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612378559
+host=74.98.251.138
+name=GradebookArticles.SingingAndLinguistics
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Singing and Linguistics%0a:Author: ZoeC%0a:Section: E%0a:Completed: 03.02.2021 - 10:56%0a:Status: complete%0a%0a%0a#foxbegin 210205-173221-654000#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173221-654000#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210317-174242-174280#%0a* [-17.03.2021 - 10:42-] || TA_mason marked as complete%0a#foxend 210317-174242-174280#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aHow do the vocal folds change the articulation/tone/pitch/emphasis of singing? How do linguists use IPA differently from singers??%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aAs a voice major, last semester I had a teacher who actually did have me memorize IPA in a week! It definitely helped me learn the pronunciation of different languages from an objective standpoint, but left me wondering about the more specific technical processes of articulation in singing. Additionally, what are the linguistic differences between singing and just speaking? How do linguists use IPA differently than opera singers? I know a little bit about the points of articulation from a class in my major last semester, but I'm re-learning them in a different way in this class. For example in today's lecture, I found it really interesting how the glottis is directly related to the voicing of consonants. I'm also eager to know how sounds in spoken word and song have been preserved and interpreted differently over time in regards to old dialects and dead languages.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1616002960
+author:1616002960=TA_mason
+diff:1616002960:1614797950:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210317-174242-174280#%0a%3c * [-17.03.2021 - 10:42-] || TA_mason marked as complete%0a%3c #foxend 210317-174242-174280#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1616002960=74.98.251.138
+author:1614797950=
+diff:1614797950:1612546340:=4c4%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1614797950=74.109.247.199
+author:1612546340=TA_lili
+diff:1612546340:1612378559:=9,12d8%0a%3c #foxbegin 210205-173221-654000#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173221-654000#%0a
+host:1612546340=74.109.247.199
+author:1612378559=ZoeC
+diff:1612378559:1612378559:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Singing and Linguistics%0a%3c :Author: ZoeC%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 10:56%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c How do the vocal folds change the articulation/tone/pitch/emphasis of singing? How do linguists use IPA differently from singers??%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c As a voice major, last semester I had a teacher who actually did have me memorize IPA in a week! It definitely helped me learn the pronunciation of different languages from an objective standpoint, but left me wondering about the more specific technical processes of articulation in singing. Additionally, what are the linguistic differences between singing and just speaking? How do linguists use IPA differently than opera singers? I know a little bit about the points of articulation from a class in my major last semester, but I'm re-learning them in a different way in this class. For example in today's lecture, I found it really interesting how the glottis is directly related to the voicing of consonants. I'm also eager to know how sounds in spoken word and song have been preserved and interpreted differently over time in regards to old dialects and dead languages.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612378559=71.206.237.79

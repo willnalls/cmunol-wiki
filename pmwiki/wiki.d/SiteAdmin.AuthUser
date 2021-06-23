@@ -1,0 +1,1206 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=UserAdmin
+cauthor=
+charset=UTF-8
+csum=User account activated
+host=71.206.247.43
+name=SiteAdmin.AuthUser
+rev=321
+targets=PmWiki.AuthUser,PmWiki.LocalCustomizations,PmWiki.Passwords
+text=(:Summary: Configuration of identity based authorisations:)(:nolinkwikiwords:)%0aThis is the default configuration page for PmWiki's identity-based authorizations (aka "authuser.php").  See [[PmWiki.AuthUser]] for instructions.%0a%0a(:if enabled EnableAuthUser:)%0aThis site appears to have the [[PmWiki/AuthUser]] extensions enabled.%0a(:if !enabled EnableAuthUser:)%0aAt present this site doesn't appear to have the [[PmWiki/AuthUser]] extensions enabled.  To enable them, add the line [@include_once("$FarmD/scripts/authuser.php");@] to your ''local/config.php'' file.  (See [[PmWiki.LocalCustomizations]].)%0a(:ifend:)%0a%0a%0a%0a%0a!! Login accounts%0a%0aSpecify login accounts in the form "@@[=username: (:=]encrypt ''password'':)@@" at the beginning of a line:%0a%0a-> # Examples:%0a-> alice: [=(:=]encrypt wonderland:)%0a-> bob: [=(:=]encrypt builder:)%0awill: $2y$10$Mr91rgvgGwoMJuDK.ih/W.sKmQ10JVY8U.EAiRhUJla715UBYVXie%0a%0a%0aNote that the passwords will be encrypted when the page is saved, so that the result will look something like:%0a%0a-> alice: $1$0gcdAN1a$HTdEAXyYYo8Hc9/Xv30Yz1%0a-> bob: $1$wSP2R80i$sJ593ERCmTtjm3Fk26HCV1%0a%0aTo authorize specific login accounts for pages and groups, use "[@id:username@]" as a password in [@?action=attr@] or $DefaultPasswords (see [[PmWiki.Passwords]]).  Use "[@id:*@]" to mean "any logged-in user".%0a%0a!! Authorization groups%0a%0aAuthorization groups are specified with a leading "@" sign.  Define either the login accounts belonging to a group or the groups for a login account:%0a%0aThen use "[@@group@]" as a password in [@?action=attr@] or $DefaultPasswords.%0a%0a@admins: christina%0a@tas: christina TA_mason TA_lili TA_audrey%0a!! Login accounts from external sources%0a%0aObtaining login accounts from external sources (to enable a source, place it at the beginning of a line):%0a%0ahtpasswd: local/encrypted_passwords%0ahtgroup: local/groups%0a-> ldap: ldap://ldap.example.com/ou=People,o=example?uid?sub%0a%0a%0a%0a%0achristina:  $1$Yg0i2zrN$SEd8ntV/d7gtnIHzPjktG. :  useremail='cbjorn@andrew.cmu.edu'%0awnalls:  $1$8Hf5YGEq$//NrgkUWSq.pxHUzVzwhD0 :  useremail='will.nalls@googlemail.com'%0aChrisC_:  $1$eM1opury$CquxFTiSBIfhtKp7aPUqY0 :  useremail='ccrawfor@andrew.cmu.edu'%0aruiranx:  $1$xBvNTHyL$mfHTwZS27N1I76UJ5WScj. :  useremail='rxun@andrew.cmu.edu'%0asaraht:  $1$yqOyr8VA$qDwlYMTBznaaaqh.7cjn// :  useremail='sct1@andrew.cmu.edu'%0aAnanyaV:  $1$87kyl8k3$zp4opL75cy.MVH7s9TmLt1 :  useremail='ananyav@andrew.cmu.edu'%0akevinx:  $1$Ydq99uiR$2v6OEkQ5YP6y50dOcxSJm1 :  useremail='kevinx@andrew.cmu.edu'%0aRuizheZ:  $1$aj5rOGCE$ScLr/WGgCsHHRjnu71gcu/ :  useremail='ruizhezh@andrew.cmu.edu'%0adavid_h:  $1$A6.dXfvC$yKLewZeDWAKec63zoZYbc. :  useremail='dchwang@andrew.cmu.edu'%0aJacobF:  $1$q4yqrBAc$H7mveb1218VOVb3eDXCIg1 :  useremail='jfondrie@andrew.cmu.edu'%0anithyas:  $1$cEKna6Uy$SD8IJyATdDTe25YhDLQTi/ :  useremail='nssampat@andrew.cmu.edu'%0aAlexisA:  $1$7jMAS/vH$ZzMjA/I4iPY5srm2RNXxg1 :  useremail='aaxon@andrew.cmu.edu'%0aJasonL:  $1$0L/yx4og$cEXlczsIA0fJ8Dg2LcGD6/ :  useremail='jxlu@andrew.cmu.edu'%0asirisha_b:  $1$XPp6y6Px$DVQvAtjUCW2MlNjsfFxga0 :  useremail='sbrahman@andrew.cmu.edu'%0aVikramM:  $1$3vbotD0y$9DsOazx3nSfZnlIU7AEG4/ :  useremail='vtm@andrew.cmu.edu'%0aNickG:  $1$wUeugQEj$R.DdLPKhz2578ZqXZ2fNR/ :  useremail='ngrill@andrew.cmu.edu'%0aaryans:  $1$QVHBRLnN$ll6v4MctYLLSbp55g1S75/ :  useremail='asoman@andrew.cmu.edu'%0asolanaM:  $1$FPFL2rXV$8zfaTMSXQtcw1m0aYTbkV0 :  useremail='smorning@andrew.cmu.edu'%0aKarlaT:  $1$l.3OiSHK$lVrTxBuaJM7Ajc7XfKsuM1 :  useremail='kntejeda@andrew.cmu.edu'%0aBrandynA:  $1$stFiil4Q$y6qh0Ea0oRonsWA0Pz3Ih1 :  useremail='bamado@andrew.cmu.edu'%0aSimon_Y:  $1$Wsz4Vh.9$LWKAfH6pgC8wD57JvLjkG/ :  useremail='bohanyu@andrew.cmu.edu'%0aJoshuaC:  $1$9ww2Ac.U$C/3R95n7rcSt3r/u4UqhX. :  useremail='joshuac2@andrew.cmu.edu'%0acara_s:  $1$8RujmgUg$SNffAlKVZYATG0LBKVsZq0 :  useremail='csavoy@andrew.cmu.edu'%0asamV:  $1$yqCVi3Vk$Ac7xg.T.jAX.hg61mFB2E0 :  useremail='samcv@cmu.edu'%0aRussell_E:  $1$nF3SnXqQ$fjg8wWVioYZvg8GQAkQCk. :  useremail='remerine@andrew.cmu.edu'%0abellar:  $1$QPwUBb8Y$O/UnpfcpFIVcQEKmJogVM0 :  useremail='irhee@andrew.cmu.edu'%0abrandonf:  $1$BeixNTs5$98Br4lrY9OYP1Echc45bQ. :  useremail='bfafata@andrew.cmu.edu'%0aangelaw:  $1$GIr2T351$MsPgd1rUlkDyvSH23Pfd41 :  useremail='aywei@andrew.cmu.edu'%0aConnor_G:  $1$KKWnJ5kp$Dk6yFJSiCWujjK7DcQSKG1 :  useremail='crgordon@andrew.cmu.edu'%0achester_g:  $1$L18jt62L$vDkduHFsHDzVwWh06sSqk/ :  useremail='ckglenn@andrew.cmu.edu'%0adannat:  $1$oKpqy.Z1$KST4QUWZ5zt2NfKVdyXkJ1 :  useremail='dannat@andrew.cmu.edu'%0aShahinC:  $1$d7GfVMMQ$NXR03YdL9S425KkEh42EQ1 :  useremail='shahinc@andrew.cmu.edu'%0asebastiang:  $1$4fVzDX0B$MA1hrBl51lvikPCCy24mm/ :  useremail='sjg2@andrew.cmu.edu'%0aroochis:  $1$dNYdd/mc$PDSBIvQyLxQT0UEUwljHb/ :  useremail='rtshah@andrew.cmu.edu'%0asaumyaB:  $1$wTXnEqBU$.poZe2fvu.5pV6wvMeSeY1 :  useremail='ssbhanda@andrew.cmu.edu'%0asanjana_m:  $1$8PJPjn6P$ZZuJoAdF8XxVoBE4/VgHh1 :  useremail='smeduri2@andrew.cmu.edu'%0aJasonE:  $1$fSX66gYO$B7QL/PDO6zy0Jx9ZZvzSN/ :  useremail='jedmunds@andrew.cmu.edu'%0aTongH:  $1$v2BLZwHf$8te8o/xQtAsB/jo4.t89Y0 :  useremail='tongh@andrew.cmu.edu'%0aabbyl:  $1$IDwam.Lz$y0n./12gBnZrTK.aR0Zql0 :  useremail='abigail2@andrew.cmu.edu'%0all223:  $1$Nf.IUUc2$G7mUKrq3wKDpXJc8Hw/Bb/ :  useremail='ljyao@andrew.cmu.edu'%0agabrielz:  $1$3kSnh8wz$0IdMsrU7yNLEuqeNwJYDT0 :  useremail='gzaragoz@andrew.cmu.edu'%0aNathanW:  $1$75xlhlWR$bnWQWCGz1gBUk9LNuMK3d0 :  useremail='njwalker@andrew.cmu.edu'%0aThomas_H_K:  $1$W.a8Muoq$GmoC6dZBE2P/YDJ3JxoKD. :  useremail='thortonk@andrew.cmu.edu'%0aayush_d:  $1$ireLYFIf$F5SCwPDut0Ws5lwJ0YcF8. :  useremail='ayushd@andrew.cmu.edu'%0ajnflores:  $1$cViRyINR$Gwa5jJ.IojRB8kpTmD8np0 :  useremail='jnflores@andrew.cmu.edu'%0ashreya_r:  $1$tmtuwYAv$DvxGz6FE2KaF0qhbNJRYf1 :  useremail='sraghura@andrew.cmu.edu'%0arachelc:  $1$i7mH8B1n$BL3tGo1ToC5ocnASWHAv31 :  useremail='rcleavel@andrew.cmu.edu'%0aZoeC:  $1$JhMU0raq$jrE53r.HgS8vqcRDn/oDT1 :  useremail='zchessa@andrew.cmu.edu'%0aAbi_S:  $1$VTuWNv08$5eoXyVlHO8u8Hkk.ZWvKI1 :  useremail='asivatha@andrew.cmu.edu'%0adeepayan_p:  $1$atKv1IUJ$eBmh6RErU742uIRXWT0LV/ :  useremail='dpatra@andrew.cmu.edu'%0axiranw:  $1$a/LAKFa4$I9nOL3LrMDIr8SqKdj5gl/ :  useremail='xiranw@andrew.cmu.edu'%0aAlexanderW:  $1$kV/E3dxT$3MRdF65C.4ASZnAhNHwwY/ :  useremail='alex08.lw@gmail.com'%0asathyas:  $1$SXkvn.6F$tBDMU8DTp9E3nS.EJPNiD. :  useremail='sathyas@andrew.cmu.edu'%0aMingkang_L:  $1$adzCiFSA$Kk9fhf6Trz9LrdEMmCEkC0 :  useremail='mingkanl@andrew.cmu.edu'%0aEthanW:  $1$TkGko2GH$tSLe0azKC3Vx34yyiUxlJ/ :  useremail='yongyiw@andrew.cmu.edu'%0atylerd:  $1$qfbQV3qx$783Oh2z687wiYJB/sJC0I/ :  useremail='tduic@andrew.cmu.edu'%0aSubhasishM:  $1$i.V3cjlh$dr/TxGef/5qWni2rbEIe91 :  useremail='subhasim@andrew.cmu.edu'%0aTahlia_A:  $1$eb9IWjMf$7PZgwXSYlV2eDjEdIh1fc. :  useremail='taltgold@andrew.cmu.edu'%0aAlbertL:  $1$xBY7yCTu$xPneUyDEDyJB04dIZKZVE. :  useremail='aylu@andrew.cmu.edu'%0asarah_tandean:  $1$0pu8EA3X$.8al8Rx2S6bQC8s/DOnRx0 :  useremail='standean@andrew.cmu.edu'%0aBenP:  $1$0ujnUchC$rba8uNL/W408/2x5.qCnC1 :  useremail='bpavlat@andrew.cmu.edu'%0aalbert_l:  $1$67Amta8Z$AH9sKOlRJIc2i5H0jUDyQ. :  useremail='ayliu1@andrew.cmu.edu'%0adanielz:  $1$JN0KrzTY$Uwa3Y9AJEZ/Z6ObeUc.5c0 :  useremail='dlzeng@andrew.cmu.edu'%0aBrandonN:  $1$JC8w/G5A$vHVXqQHIys.IBNuK.ZE3t1 :  useremail='banguyen@andrew.cmu.edu'%0alauray:  $1$i5osLMXm$ggD4NY.HVGp3ZbCnuy2Oe. :  useremail='ljyao@andrew.cmu.edu'%0acaseywalker:  $1$QwwIqoHb$lIR2vfYoBDXfcCXOFkENr0 :  useremail='cmwalker@andrew.cmu.edu'%0ajess_smith:  $1$3YM048Gp$Mv1S6Q1oXzTWl3jlCkqug1 :  useremail='jmsmith2@andrew.cmu.edu'%0akyuwonW:  $1$AueE5zkI$lEb1/b0VeMuXRDzCEY7bv1 :  useremail='kweon@andrew.cmu.edu'%0aahana_m:  $1$7JMCmP8l$DjyyzOtYg99L96P5.9m8c/ :  useremail='ahanamuk@andrew.cmu.edu' userkey='1974972954' userkeyreason='resetpasswd' userkeytime='1619284311'%0aakshaya_v:  $1$8yTEiGuG$G/gU09ydKySKrZOxaFzyq1 :  useremail='akshayav@andrew.cmu.edu'%0aIsabelV:  $1$M6.3/vcw$cz4urvRo055su3.OZEOFz/ :  useremail='icv@andrew.cmu.edu'%0aSaishaR:  :  useremail='saishapr@andrew.cmu.edu' userkey='32169140 $1$zFTaD4xb$x4llpInBmm1NWD4BIQ8Ph0' userkeyreason='new' userkeytime='1612316851'%0aSaishaRao:  $1$qWNZOudG$zoZzB0M7J1bGoSJRRy2pm/ :  useremail='saishapr@andrew.cmu.edu'%0aAlexX:  $1$xM9M8usC$xmkHSLdxtLM00y2XJuklj. :  useremail='alexx@andrew.cmu.edu'%0aBrandonW:  $1$qbsKN60s$dm/KvZC2K6RT8Oy/PDEIM1 :  useremail='bdwei@andrew.cmu.edu'%0aemma_p:  $1$gIwOkc8R$DUvUj0m31u3YJdYejBcR91 :  useremail='eparrell@andrew.cmu.edu'%0aThomas_M:  $1$Ybtraj.K$yw1EeHJSpq4d8DaztZthM0 :  useremail='tmckee@andrew.cmu.edu'%0aCharlieP:  $1$IL04qnBQ$xCTjdoo4MR9repudlhnUL0 :  useremail='cgphilli@andrew.cmu.edu'%0aJosephG:  $1$DmpkFzU4$1lvY2t.nrm9htw23KPJiB/ :  useremail='jglanzbe@andrew.cmu.edu'%0ameng_s:  $1$vqnI2brE$Ab..CulH804cNa0RHI7O50 :  useremail='mshou@andrew.cmu.edu'%0aBrandtE:  $1$5/NFizxB$dSSB/9P3k/WJSl4TfBSK30 :  useremail='bhevans@andrew.cmu.edu'%0aSpencer_L:  $1$ElJMX/ls$I4NM8WCHapvy8X3ViC3KQ. :  useremail='syl2@andrew.cmu.edu'%0aleah_w:  $1$6oeaxlAN$0VuAMprxpevi2sZmWBZ.v0 :  useremail='lweslock@andrew.cmu.edu'%0ayuluz:  $1$45ShuPbQ$lHMpHHANX5VAH/QUup8D9/ :  useremail='yuluz@andrew.cmu.edu'%0amason_b:  $1$eWuKIZwE$0Pr4wUQH1Z5efvm4ZytAY/ :  useremail='mbroxham@andrew.cmu.edu'%0aMindeeL:  $1$q1/2l.vs$qj2pvA3a8ig2qGQSGKW.e0 :  useremail='milai@andrew.cmu.edu'%0asgangu:  $1$0lVQlvrm$NJgkou2XS8e.UAEQk5MFZ1 :  useremail='sgangu@andrew.cmu.edu'%0aevelynC:  $1$ta2J5RBe$.3RQVI4mf59rtDGCsIQ3l0 :  useremail='eyc2@andrew.cmu.edu'%0aGavin_D:  $1$zfA52/7y$BnSyJJYoVtzeINLqEwhMr0 :  useremail='gdeiss@andrew.cmu.edu'%0aMihir_D:  $1$ty.1ib86$e7dzt8ay1TP/CPuWXj6i50 :  useremail='mdhamank@andrew.cmu.edu'%0ajanet_b:  $1$T./JGK6t$EByGqbb7IOYxu2taH0Vp7. :  useremail='jlbellan@andrew.cmu.edu'%0aSamuel_D_II:  $1$vN7YgzJn$UtsCjSv7oHYP5wxtwqp6I1 :  useremail='sdelucia@andrew.cmu.edu'%0akhushiw:  $1$8yivtMV.$IfL4QCqtBaXB.ovsN5HUp1 :  useremail='khushiw@andrew.cmu.edu'%0amarkl:  $1$jN74CaxJ$w1MmzSqSKaiItm/NZ5lFb/ :  useremail='marklind@andrew.cmu.edu'%0aMitulS:  $1$PXvPAWIx$kNt1fwcqFr1LUH3nHrFm40 :  useremail='mituls@andrew.cmu.edu'%0aEthanR:  $1$A.83j.g1$dDsiFanK8Y5UQMDTU1OPT/ :  useremail='etrich@andrew.cmu.edu'%0aKushal_D:  $1$2gnl2s3i$BB0YWIJqsBX6MUgXMNAoa0 :  useremail='kdulla@andrew.cmu.edu'%0aTA_mason:  $1$8D3ishFy$UWQNPOkJif7TkprwaNirt1 :  useremail='mbroxham@andrew.cmu.edu'%0aTA_lili:  $1$COE8osIp$XNwkkvI3gBm0ihEXzOmBs0 :  useremail='liliannt@andrew.cmu.edu'%0aTA_audrey:  $1$tLqU9vi6$aBVr3SnIgvhhPxWOhlNEA0 :  useremail='audreyg@andrew.cmu.edu'%0arajeev_g:  $1$M1fprs4U$bKZJXC5tucMuo/3SGfscG0 :  useremail='rgodse@andrew.cmu.edu'%0aTim:  $1$785pY3aG$lzN6id7J/BPPcasW1DYXO. :  useremail='tganger@andrew.cmu.edu'%0aTimG:  $1$8judL78u$rd6FczJ9PN04gnGkHcpdw1 :  useremail='tganger@andrew.cmu.edu'%0aMarkC:  $1$O394QDV4$wt8hsWAQuM.1C7am93rDu1 :  useremail='markchen@andrew.cmu.edu'%0aajolicoe:  $1$/zRF2JTJ$2ij91K.ggHo3e4JnGFOpP1 :  useremail='ajolicoe@andrew.cmu.edu'%0aangiej:  $1$xmGo.Bv7$5DdpLMD2m5c6ZYi1yGDBQ0 :  useremail='ajolicoe@andrew.cmu.edu'%0ajjmonroe:  $1$Ob832FYd$8uB136wq662suyehphz9Z0 :  useremail='jjmonroe@andrew.cmu.edu'%0adhrutik:  $1$y0VDsq/L$KXPTkATVDsFW1PjaHAPXY1 :  useremail='srisaidk@andrew.cmu.edu'%0aycorzo:  :  useremail='ycorzo@andrew.cmu.edu' userkey='1599450546 $1$4deOLigG$swr4ghhztybU7vjNArNfC.' userkeyreason='new' userkeytime='1612754513'%0abradp4856:  $1$RYCkbC7/$CYz/rPS8y5FsLxjHXP62K/ :  useremail='bpuskar@andrew.cmu.edu'%0avincent_c:  $1$ZZmYSwww$Ka1J1ahN7NiBF5px5LJdt0 :  useremail='vwchang@andrew.cmu.edu'%0amatthew_f:  $1$nhcsUd6g$UfVv8y.bauuci2sJ15Edb/ :  useremail='mframe@andrew.cmu.edu'%0aasdf:  :  useremail='asdf@andrew.cmu.edu' userkey='237104901 $1$i1sYYiP.$3aP8yNbsIKG7Ggt3R5lBd0' userkeyreason='new' userkeytime='1620433872'%0aasdff:  $1$dTjHkShr$SuBbb44ylmrLy1N6rAYAm1 :  useremail='xohile9750@httptuan.com'%0adifficultdifficultlemondifficult:  $1$LHTLcQ.8$ypz/ZGT3.CNFuXSJqC5vO1 :  useremail='roseanny@andrew.cmu.edu'
+time=1620534098
+author:1620534098=UserAdmin
+csum:1620534098=User account activated
+diff:1620534098:1620534084:=163c163%0a%3c difficultdifficultlemondifficult:  $1$LHTLcQ.8$ypz/ZGT3.CNFuXSJqC5vO1 :  useremail='roseanny@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> difficultdifficultlemondifficult:  :  useremail='roseanny@andrew.cmu.edu' userkey='1092322460 $1$LHTLcQ.8$ypz/ZGT3.CNFuXSJqC5vO1' userkeyreason='new' userkeytime='1620534085'%0a\ No newline at end of file%0a
+host:1620534098=71.206.247.43
+author:1620534084=UserAdmin
+csum:1620534084=New user account created; E-mail sent with activation link
+diff:1620534084:1620433938:=162,163c162%0a%3c asdff:  $1$dTjHkShr$SuBbb44ylmrLy1N6rAYAm1 :  useremail='xohile9750@httptuan.com'%0a%3c difficultdifficultlemondifficult:  :  useremail='roseanny@andrew.cmu.edu' userkey='1092322460 $1$LHTLcQ.8$ypz/ZGT3.CNFuXSJqC5vO1' userkeyreason='new' userkeytime='1620534085'%0a\ No newline at end of file%0a---%0a> asdff:  $1$dTjHkShr$SuBbb44ylmrLy1N6rAYAm1 :  useremail='xohile9750@httptuan.com'%0a\ No newline at end of file%0a
+host:1620534084=71.206.247.43
+author:1620433938=UserAdmin
+csum:1620433938=User account activated
+diff:1620433938:1620433902:=162c162%0a%3c asdff:  $1$dTjHkShr$SuBbb44ylmrLy1N6rAYAm1 :  useremail='xohile9750@httptuan.com'%0a\ No newline at end of file%0a---%0a> asdff:  :  useremail='xohile9750@httptuan.com' userkey='1299513391 $1$dTjHkShr$SuBbb44ylmrLy1N6rAYAm1' userkeyreason='new' userkeytime='1620433903'%0a\ No newline at end of file%0a
+host:1620433938=172.58.188.25
+author:1620433902=UserAdmin
+csum:1620433902=New user account created; E-mail sent with activation link
+diff:1620433902:1620433871:=161,162c161%0a%3c asdf:  :  useremail='asdf@andrew.cmu.edu' userkey='237104901 $1$i1sYYiP.$3aP8yNbsIKG7Ggt3R5lBd0' userkeyreason='new' userkeytime='1620433872'%0a%3c asdff:  :  useremail='xohile9750@httptuan.com' userkey='1299513391 $1$dTjHkShr$SuBbb44ylmrLy1N6rAYAm1' userkeyreason='new' userkeytime='1620433903'%0a\ No newline at end of file%0a---%0a> asdf:  :  useremail='asdf@andrew.cmu.edu' userkey='237104901 $1$i1sYYiP.$3aP8yNbsIKG7Ggt3R5lBd0' userkeyreason='new' userkeytime='1620433872'%0a\ No newline at end of file%0a
+host:1620433902=172.58.188.25
+author:1620433871=UserAdmin
+csum:1620433871=New user account created; E-mail sent with activation link
+diff:1620433871:1619284311:=160,161c160%0a%3c matthew_f:  $1$nhcsUd6g$UfVv8y.bauuci2sJ15Edb/ :  useremail='mframe@andrew.cmu.edu'%0a%3c asdf:  :  useremail='asdf@andrew.cmu.edu' userkey='237104901 $1$i1sYYiP.$3aP8yNbsIKG7Ggt3R5lBd0' userkeyreason='new' userkeytime='1620433872'%0a\ No newline at end of file%0a---%0a> matthew_f:  $1$nhcsUd6g$UfVv8y.bauuci2sJ15Edb/ :  useremail='mframe@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1620433871=172.58.188.25
+author:1619284311=UserAdmin
+csum:1619284311=Password reset link sent to user&#039;s e-mail address
+diff:1619284311:1619273780:=117c117%0a%3c ahana_m:  $1$7JMCmP8l$DjyyzOtYg99L96P5.9m8c/ :  useremail='ahanamuk@andrew.cmu.edu' userkey='1974972954' userkeyreason='resetpasswd' userkeytime='1619284311'%0a---%0a> ahana_m:  $1$7JMCmP8l$DjyyzOtYg99L96P5.9m8c/ :  useremail='ahanamuk@andrew.cmu.edu' userkey='1859238346' userkeyreason='resetpasswd' userkeytime='1619273781'%0a
+host:1619284311=216.195.23.171
+author:1619273780=UserAdmin
+csum:1619273780=Password reset link sent to user&#039;s e-mail address
+diff:1619273780:1618668244:=117c117%0a%3c ahana_m:  $1$7JMCmP8l$DjyyzOtYg99L96P5.9m8c/ :  useremail='ahanamuk@andrew.cmu.edu' userkey='1859238346' userkeyreason='resetpasswd' userkeytime='1619273781'%0a---%0a> ahana_m:  $1$7JMCmP8l$DjyyzOtYg99L96P5.9m8c/ :  useremail='ahanamuk@andrew.cmu.edu'%0a
+host:1619273780=216.195.23.171
+author:1618668244=UserAdmin
+csum:1618668244=User password set
+diff:1618668244:1618668194:=117c117%0a%3c ahana_m:  $1$7JMCmP8l$DjyyzOtYg99L96P5.9m8c/ :  useremail='ahanamuk@andrew.cmu.edu'%0a---%0a> ahana_m:  $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/ :  useremail='ahanamuk@andrew.cmu.edu' userkey='2443801' userkeyreason='resetpasswd' userkeytime='1618668194'%0a
+host:1618668244=107.77.223.183
+author:1618668194=UserAdmin
+csum:1618668194=Password reset link sent to user&#039;s e-mail address
+diff:1618668194:1616783059:=117c117%0a%3c ahana_m:  $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/ :  useremail='ahanamuk@andrew.cmu.edu' userkey='2443801' userkeyreason='resetpasswd' userkeytime='1618668194'%0a---%0a> ahana_m:  $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/ :  useremail='ahanamuk@andrew.cmu.edu'%0a
+host:1618668194=107.77.223.183
+author:1616783059=will
+diff:1616783059:1616782703:=37c37%0a%3c @tas: christina TA_mason TA_lili TA_audrey%0a---%0a> @tas: christina TA_mason TA_lili TA_audrey will%0a
+host:1616783059=74.109.247.199
+author:1616782703=will
+diff:1616782703:1616008849:=37c37%0a%3c @tas: christina TA_mason TA_lili TA_audrey will%0a---%0a> @tas: christina TA_mason TA_lili TA_audrey%0a
+host:1616782703=74.109.247.199
+author:1616008849=UserAdmin
+csum:1616008849=User account updated
+diff:1616008849:1615403109:=147c147%0a%3c TA_lili:  $1$COE8osIp$XNwkkvI3gBm0ihEXzOmBs0 :  useremail='liliannt@andrew.cmu.edu'%0a---%0a> TA_lili:  $1$.zzF0CwV$7gLiQqfSHcSJbLf.KZwML/ :  useremail='liliannt@andrew.cmu.edu'%0a
+host:1616008849=74.109.247.199
+author:1615403109=UserAdmin
+csum:1615403109=User account activated
+diff:1615403109:1615403080:=160c160%0a%3c matthew_f:  $1$nhcsUd6g$UfVv8y.bauuci2sJ15Edb/ :  useremail='mframe@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> matthew_f:  :  useremail='mframe@andrew.cmu.edu' userkey='618276262 $1$nhcsUd6g$UfVv8y.bauuci2sJ15Edb/' userkeyreason='new' userkeytime='1615403081'%0a\ No newline at end of file%0a
+host:1615403109=128.237.82.1
+author:1615403080=UserAdmin
+csum:1615403080=New user account created; E-mail sent with activation link
+diff:1615403080:1614189494:=159,160c159%0a%3c vincent_c:  $1$ZZmYSwww$Ka1J1ahN7NiBF5px5LJdt0 :  useremail='vwchang@andrew.cmu.edu'%0a%3c matthew_f:  :  useremail='mframe@andrew.cmu.edu' userkey='618276262 $1$nhcsUd6g$UfVv8y.bauuci2sJ15Edb/' userkeyreason='new' userkeytime='1615403081'%0a\ No newline at end of file%0a---%0a> vincent_c:  $1$ZZmYSwww$Ka1J1ahN7NiBF5px5LJdt0 :  useremail='vwchang@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1615403080=128.237.82.1
+author:1614189494=
+diff:1614189494:1614017214:=20c20%0a%3c will: $2y$10$Mr91rgvgGwoMJuDK.ih/W.sKmQ10JVY8U.EAiRhUJla715UBYVXie%0a---%0a> %0a
+host:1614189494=74.109.247.199
+author:1614017214=UserAdmin
+csum:1614017214=User account activated
+diff:1614017214:1613853376:=136c136%0a%3c evelynC:  $1$ta2J5RBe$.3RQVI4mf59rtDGCsIQ3l0 :  useremail='eyc2@andrew.cmu.edu'%0a---%0a> evelynC:  :  useremail='eyc2@andrew.cmu.edu' userkey='1574976011 $1$ta2J5RBe$.3RQVI4mf59rtDGCsIQ3l0' userkeyreason='new' userkeytime='1612374911'%0a
+host:1614017214=199.247.108.174
+author:1613853376=UserAdmin
+csum:1613853376=User password set
+diff:1613853376:1613853302:=129c129%0a%3c BrandtE:  $1$5/NFizxB$dSSB/9P3k/WJSl4TfBSK30 :  useremail='bhevans@andrew.cmu.edu'%0a---%0a> BrandtE:  :  useremail='bhevans@andrew.cmu.edu' userkey='1802105715' userkeyreason='resetpasswd' userkeytime='1613853303'%0a
+host:1613853376=107.77.226.14
+author:1613853302=UserAdmin
+csum:1613853302=Password reset link sent to user&#039;s e-mail address
+diff:1613853302:1613083183:=129c129%0a%3c BrandtE:  :  useremail='bhevans@andrew.cmu.edu' userkey='1802105715' userkeyreason='resetpasswd' userkeytime='1613853303'%0a---%0a> BrandtE:  :  useremail='bhevans@andrew.cmu.edu' userkey='1897984767 $1$B1dc/RbH$xelvw5fNTavBw1wucp9E9.' userkeyreason='new' userkeytime='1612339665'%0a
+host:1613853302=128.237.82.2
+author:1613083183=UserAdmin
+csum:1613083183=User account activated
+diff:1613083183:1613083090:=159c159%0a%3c vincent_c:  $1$ZZmYSwww$Ka1J1ahN7NiBF5px5LJdt0 :  useremail='vwchang@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> vincent_c:  :  useremail='vwchang@andrew.cmu.edu' userkey='1078482221 $1$ZZmYSwww$Ka1J1ahN7NiBF5px5LJdt0' userkeyreason='new' userkeytime='1613083091'%0a\ No newline at end of file%0a
+host:1613083183=74.109.254.7
+author:1613083090=UserAdmin
+csum:1613083090=New user account created; E-mail sent with activation link
+diff:1613083090:1612801677:=158,159c158%0a%3c bradp4856:  $1$RYCkbC7/$CYz/rPS8y5FsLxjHXP62K/ :  useremail='bpuskar@andrew.cmu.edu'%0a%3c vincent_c:  :  useremail='vwchang@andrew.cmu.edu' userkey='1078482221 $1$ZZmYSwww$Ka1J1ahN7NiBF5px5LJdt0' userkeyreason='new' userkeytime='1613083091'%0a\ No newline at end of file%0a---%0a> bradp4856:  $1$RYCkbC7/$CYz/rPS8y5FsLxjHXP62K/ :  useremail='bpuskar@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1613083090=74.109.254.7
+author:1612801677=UserAdmin
+csum:1612801677=User account activated
+diff:1612801677:1612801553:=158c158%0a%3c bradp4856:  $1$RYCkbC7/$CYz/rPS8y5FsLxjHXP62K/ :  useremail='bpuskar@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> bradp4856:  :  useremail='bpuskar@andrew.cmu.edu' userkey='2004133921 $1$RYCkbC7/$CYz/rPS8y5FsLxjHXP62K/' userkeyreason='new' userkeytime='1612801554'%0a\ No newline at end of file%0a
+host:1612801677=100.6.116.191
+author:1612801553=UserAdmin
+csum:1612801553=New user account created; E-mail sent with activation link
+diff:1612801553:1612754512:=157,158c157%0a%3c ycorzo:  :  useremail='ycorzo@andrew.cmu.edu' userkey='1599450546 $1$4deOLigG$swr4ghhztybU7vjNArNfC.' userkeyreason='new' userkeytime='1612754513'%0a%3c bradp4856:  :  useremail='bpuskar@andrew.cmu.edu' userkey='2004133921 $1$RYCkbC7/$CYz/rPS8y5FsLxjHXP62K/' userkeyreason='new' userkeytime='1612801554'%0a\ No newline at end of file%0a---%0a> ycorzo:  :  useremail='ycorzo@andrew.cmu.edu' userkey='1599450546 $1$4deOLigG$swr4ghhztybU7vjNArNfC.' userkeyreason='new' userkeytime='1612754513'%0a\ No newline at end of file%0a
+host:1612801553=100.6.116.191
+author:1612754512=UserAdmin
+csum:1612754512=New user account created; E-mail sent with activation link
+diff:1612754512:1612731231:=156,157c156%0a%3c dhrutik:  $1$y0VDsq/L$KXPTkATVDsFW1PjaHAPXY1 :  useremail='srisaidk@andrew.cmu.edu'%0a%3c ycorzo:  :  useremail='ycorzo@andrew.cmu.edu' userkey='1599450546 $1$4deOLigG$swr4ghhztybU7vjNArNfC.' userkeyreason='new' userkeytime='1612754513'%0a\ No newline at end of file%0a---%0a> dhrutik:  $1$y0VDsq/L$KXPTkATVDsFW1PjaHAPXY1 :  useremail='srisaidk@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612754512=73.40.253.196
+author:1612731231=UserAdmin
+csum:1612731231=User account activated
+diff:1612731231:1612731191:=156c156%0a%3c dhrutik:  $1$y0VDsq/L$KXPTkATVDsFW1PjaHAPXY1 :  useremail='srisaidk@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> dhrutik:  :  useremail='srisaidk@andrew.cmu.edu' userkey='914934167 $1$y0VDsq/L$KXPTkATVDsFW1PjaHAPXY1' userkeyreason='new' userkeytime='1612731191'%0a\ No newline at end of file%0a
+host:1612731231=128.237.82.2
+author:1612731191=UserAdmin
+csum:1612731191=New user account created; E-mail sent with activation link
+diff:1612731191:1612642920:=155,156c155%0a%3c jjmonroe:  $1$Ob832FYd$8uB136wq662suyehphz9Z0 :  useremail='jjmonroe@andrew.cmu.edu'%0a%3c dhrutik:  :  useremail='srisaidk@andrew.cmu.edu' userkey='914934167 $1$y0VDsq/L$KXPTkATVDsFW1PjaHAPXY1' userkeyreason='new' userkeytime='1612731191'%0a\ No newline at end of file%0a---%0a> jjmonroe:  $1$Ob832FYd$8uB136wq662suyehphz9Z0 :  useremail='jjmonroe@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612731191=128.237.82.2
+author:1612642920=UserAdmin
+csum:1612642920=User account activated
+diff:1612642920:1612642897:=155c155%0a%3c jjmonroe:  $1$Ob832FYd$8uB136wq662suyehphz9Z0 :  useremail='jjmonroe@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> jjmonroe:  :  useremail='jjmonroe@andrew.cmu.edu' userkey='76902404 $1$Ob832FYd$8uB136wq662suyehphz9Z0' userkeyreason='new' userkeytime='1612642898'%0a\ No newline at end of file%0a
+host:1612642920=73.174.7.241
+author:1612642897=UserAdmin
+csum:1612642897=New user account created; E-mail sent with activation link
+diff:1612642897:1612562105:=154,155c154%0a%3c angiej:  $1$xmGo.Bv7$5DdpLMD2m5c6ZYi1yGDBQ0 :  useremail='ajolicoe@andrew.cmu.edu'%0a%3c jjmonroe:  :  useremail='jjmonroe@andrew.cmu.edu' userkey='76902404 $1$Ob832FYd$8uB136wq662suyehphz9Z0' userkeyreason='new' userkeytime='1612642898'%0a\ No newline at end of file%0a---%0a> angiej:  $1$xmGo.Bv7$5DdpLMD2m5c6ZYi1yGDBQ0 :  useremail='ajolicoe@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612642897=73.174.7.241
+author:1612562105=UserAdmin
+csum:1612562105=User password set
+diff:1612562105:1612562058:=123c123%0a%3c BrandonW:  $1$qbsKN60s$dm/KvZC2K6RT8Oy/PDEIM1 :  useremail='bdwei@andrew.cmu.edu'%0a---%0a> BrandonW:  $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/ :  useremail='bdwei@andrew.cmu.edu' userkey='1155287922' userkeyreason='resetpasswd' userkeytime='1612562059'%0a
+host:1612562105=72.77.81.225
+author:1612562058=UserAdmin
+csum:1612562058=Password reset link sent to user&#039;s e-mail address
+diff:1612562058:1612561361:=123c123%0a%3c BrandonW:  $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/ :  useremail='bdwei@andrew.cmu.edu' userkey='1155287922' userkeyreason='resetpasswd' userkeytime='1612562059'%0a---%0a> BrandonW:  $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/ :  useremail='bdwei@andrew.cmu.edu'%0a
+host:1612562058=72.77.81.225
+author:1612561361=ajolicoe
+csum:1612561361=User account activated
+diff:1612561361:1612561350:=154c154%0a%3c angiej:  $1$xmGo.Bv7$5DdpLMD2m5c6ZYi1yGDBQ0 :  useremail='ajolicoe@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> angiej:  :  useremail='ajolicoe@andrew.cmu.edu' userkey='1767876281 $1$xmGo.Bv7$5DdpLMD2m5c6ZYi1yGDBQ0' userkeyreason='new' userkeytime='1612561351'%0a\ No newline at end of file%0a
+host:1612561361=128.237.82.1
+author:1612561350=ajolicoe
+csum:1612561350=New user account created; E-mail sent with activation link
+diff:1612561350:1612549440:=153,154c153%0a%3c ajolicoe:  $1$/zRF2JTJ$2ij91K.ggHo3e4JnGFOpP1 :  useremail='ajolicoe@andrew.cmu.edu'%0a%3c angiej:  :  useremail='ajolicoe@andrew.cmu.edu' userkey='1767876281 $1$xmGo.Bv7$5DdpLMD2m5c6ZYi1yGDBQ0' userkeyreason='new' userkeytime='1612561351'%0a\ No newline at end of file%0a---%0a> ajolicoe:  $1$/zRF2JTJ$2ij91K.ggHo3e4JnGFOpP1 :  useremail='ajolicoe@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612561350=128.237.82.1
+author:1612549440=UserAdmin
+csum:1612549440=User account activated
+diff:1612549440:1612549412:=153c153%0a%3c ajolicoe:  $1$/zRF2JTJ$2ij91K.ggHo3e4JnGFOpP1 :  useremail='ajolicoe@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ajolicoe:  :  useremail='ajolicoe@andrew.cmu.edu' userkey='1639122763 $1$/zRF2JTJ$2ij91K.ggHo3e4JnGFOpP1' userkeyreason='new' userkeytime='1612549413'%0a\ No newline at end of file%0a
+host:1612549440=128.237.82.1
+author:1612549412=UserAdmin
+csum:1612549412=New user account created; E-mail sent with activation link
+diff:1612549412:1612547291:=152,153c152%0a%3c MarkC:  $1$O394QDV4$wt8hsWAQuM.1C7am93rDu1 :  useremail='markchen@andrew.cmu.edu'%0a%3c ajolicoe:  :  useremail='ajolicoe@andrew.cmu.edu' userkey='1639122763 $1$/zRF2JTJ$2ij91K.ggHo3e4JnGFOpP1' userkeyreason='new' userkeytime='1612549413'%0a\ No newline at end of file%0a---%0a> MarkC:  $1$O394QDV4$wt8hsWAQuM.1C7am93rDu1 :  useremail='markchen@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612549412=128.237.82.1
+author:1612547291=wnalls
+diff:1612547291:1612514928:=37c37%0a%3c @tas: christina TA_mason TA_lili TA_audrey%0a---%0a> @tas: christina wnalls TA_mason TA_lili TA_audrey%0a
+host:1612547291=74.109.247.199
+author:1612514928=UserAdmin
+csum:1612514928=User account activated
+diff:1612514928:1612514884:=152c152%0a%3c MarkC:  $1$O394QDV4$wt8hsWAQuM.1C7am93rDu1 :  useremail='markchen@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> MarkC:  :  useremail='markchen@andrew.cmu.edu' userkey='788110869 $1$O394QDV4$wt8hsWAQuM.1C7am93rDu1' userkeyreason='new' userkeytime='1612514884'%0a\ No newline at end of file%0a
+host:1612514928=76.219.216.90
+author:1612514884=UserAdmin
+csum:1612514884=New user account created; E-mail sent with activation link
+diff:1612514884:1612490639:=151,152c151%0a%3c TimG:  $1$8judL78u$rd6FczJ9PN04gnGkHcpdw1 :  useremail='tganger@andrew.cmu.edu'%0a%3c MarkC:  :  useremail='markchen@andrew.cmu.edu' userkey='788110869 $1$O394QDV4$wt8hsWAQuM.1C7am93rDu1' userkeyreason='new' userkeytime='1612514884'%0a\ No newline at end of file%0a---%0a> TimG:  $1$8judL78u$rd6FczJ9PN04gnGkHcpdw1 :  useremail='tganger@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612514884=76.219.216.90
+author:1612490639=Tim
+csum:1612490639=User account activated
+diff:1612490639:1612490622:=151c151%0a%3c TimG:  $1$8judL78u$rd6FczJ9PN04gnGkHcpdw1 :  useremail='tganger@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> TimG:  :  useremail='tganger@andrew.cmu.edu' userkey='861559165 $1$8judL78u$rd6FczJ9PN04gnGkHcpdw1' userkeyreason='new' userkeytime='1612490623'%0a\ No newline at end of file%0a
+host:1612490639=74.111.96.31
+author:1612490622=Tim
+csum:1612490622=New user account created; E-mail sent with activation link
+diff:1612490622:1612476230:=150,151c150%0a%3c Tim:  $1$785pY3aG$lzN6id7J/BPPcasW1DYXO. :  useremail='tganger@andrew.cmu.edu'%0a%3c TimG:  :  useremail='tganger@andrew.cmu.edu' userkey='861559165 $1$8judL78u$rd6FczJ9PN04gnGkHcpdw1' userkeyreason='new' userkeytime='1612490623'%0a\ No newline at end of file%0a---%0a> Tim:  $1$785pY3aG$lzN6id7J/BPPcasW1DYXO. :  useremail='tganger@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612490622=74.111.96.31
+author:1612476230=TA_audrey
+csum:1612476230=User account updated
+diff:1612476230:1612475146:=148c148%0a%3c TA_audrey:  $1$tLqU9vi6$aBVr3SnIgvhhPxWOhlNEA0 :  useremail='audreyg@andrew.cmu.edu'%0a---%0a> TA_audrey:  $1$.rovK709$iWIWG9jRN3a3Unswm543g1 :  useremail='audreyg@andrew.cmu.edu'%0a
+host:1612476230=69.218.234.170
+author:1612475146=UserAdmin
+csum:1612475146=User account activated
+diff:1612475146:1612475123:=150c150%0a%3c Tim:  $1$785pY3aG$lzN6id7J/BPPcasW1DYXO. :  useremail='tganger@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Tim:  :  useremail='tganger@andrew.cmu.edu' userkey='1753713017 $1$785pY3aG$lzN6id7J/BPPcasW1DYXO.' userkeyreason='new' userkeytime='1612475123'%0a\ No newline at end of file%0a
+host:1612475146=74.111.96.31
+author:1612475123=UserAdmin
+csum:1612475123=New user account created; E-mail sent with activation link
+diff:1612475123:1612473432:=149,150c149%0a%3c rajeev_g:  $1$M1fprs4U$bKZJXC5tucMuo/3SGfscG0 :  useremail='rgodse@andrew.cmu.edu'%0a%3c Tim:  :  useremail='tganger@andrew.cmu.edu' userkey='1753713017 $1$785pY3aG$lzN6id7J/BPPcasW1DYXO.' userkeyreason='new' userkeytime='1612475123'%0a\ No newline at end of file%0a---%0a> rajeev_g:  $1$M1fprs4U$bKZJXC5tucMuo/3SGfscG0 :  useremail='rgodse@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612475123=74.111.96.31
+author:1612473432=UserAdmin
+csum:1612473432=User account activated
+diff:1612473432:1612473413:=149c149%0a%3c rajeev_g:  $1$M1fprs4U$bKZJXC5tucMuo/3SGfscG0 :  useremail='rgodse@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> rajeev_g:  :  useremail='rgodse@andrew.cmu.edu' userkey='990525900 $1$M1fprs4U$bKZJXC5tucMuo/3SGfscG0' userkeyreason='new' userkeytime='1612473414'%0a\ No newline at end of file%0a
+host:1612473432=73.154.247.188
+author:1612473413=UserAdmin
+csum:1612473413=New user account created; E-mail sent with activation link
+diff:1612473413:1612466664:=148,149c148%0a%3c TA_audrey:  $1$.rovK709$iWIWG9jRN3a3Unswm543g1 :  useremail='audreyg@andrew.cmu.edu'%0a%3c rajeev_g:  :  useremail='rgodse@andrew.cmu.edu' userkey='990525900 $1$M1fprs4U$bKZJXC5tucMuo/3SGfscG0' userkeyreason='new' userkeytime='1612473414'%0a\ No newline at end of file%0a---%0a> TA_audrey:  $1$.rovK709$iWIWG9jRN3a3Unswm543g1 :  useremail='audreyg@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612473413=73.154.247.188
+author:1612466664=UserAdmin
+diff:1612466664:1612466531:=37c37,38%0a%3c @tas: christina wnalls TA_mason TA_lili TA_audrey%0a---%0a> @tas: christina%0a> %0a
+host:1612466664=74.109.247.199
+author:1612466531=UserAdmin
+csum:1612466531=New user account created
+diff:1612466531:1612466497:=148,149c148%0a%3c TA_lili:  $1$.zzF0CwV$7gLiQqfSHcSJbLf.KZwML/ :  useremail='liliannt@andrew.cmu.edu'%0a%3c TA_audrey:  $1$.rovK709$iWIWG9jRN3a3Unswm543g1 :  useremail='audreyg@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> TA_lili:  $1$.zzF0CwV$7gLiQqfSHcSJbLf.KZwML/ :  useremail='liliannt@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612466531=74.109.247.199
+author:1612466497=UserAdmin
+csum:1612466497=New user account created
+diff:1612466497:1612466381:=147,148c147%0a%3c TA_mason:  $1$8D3ishFy$UWQNPOkJif7TkprwaNirt1 :  useremail='mbroxham@andrew.cmu.edu'%0a%3c TA_lili:  $1$.zzF0CwV$7gLiQqfSHcSJbLf.KZwML/ :  useremail='liliannt@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> TA_mason:  $1$8D3ishFy$UWQNPOkJif7TkprwaNirt1 :  useremail='mbroxham@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612466497=74.109.247.199
+author:1612466381=UserAdmin
+csum:1612466381=New user account created
+diff:1612466381:1612465807:=146,147c146%0a%3c Kushal_D:  $1$2gnl2s3i$BB0YWIJqsBX6MUgXMNAoa0 :  useremail='kdulla@andrew.cmu.edu'%0a%3c TA_mason:  $1$8D3ishFy$UWQNPOkJif7TkprwaNirt1 :  useremail='mbroxham@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Kushal_D:  $1$2gnl2s3i$BB0YWIJqsBX6MUgXMNAoa0 :  useremail='kdulla@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612466381=74.109.247.199
+author:1612465807=UserAdmin
+csum:1612465807=User account activated
+diff:1612465807:1612465790:=146c146%0a%3c Kushal_D:  $1$2gnl2s3i$BB0YWIJqsBX6MUgXMNAoa0 :  useremail='kdulla@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Kushal_D:  :  useremail='kdulla@andrew.cmu.edu' userkey='1252000060 $1$2gnl2s3i$BB0YWIJqsBX6MUgXMNAoa0' userkeyreason='new' userkeytime='1612465791'%0a\ No newline at end of file%0a
+host:1612465807=74.109.198.171
+author:1612465790=UserAdmin
+csum:1612465790=New user account created; E-mail sent with activation link
+diff:1612465790:1612456815:=145,146c145%0a%3c EthanR:  $1$A.83j.g1$dDsiFanK8Y5UQMDTU1OPT/ :  useremail='etrich@andrew.cmu.edu'%0a%3c Kushal_D:  :  useremail='kdulla@andrew.cmu.edu' userkey='1252000060 $1$2gnl2s3i$BB0YWIJqsBX6MUgXMNAoa0' userkeyreason='new' userkeytime='1612465791'%0a\ No newline at end of file%0a---%0a> EthanR:  $1$A.83j.g1$dDsiFanK8Y5UQMDTU1OPT/ :  useremail='etrich@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612465790=74.109.198.171
+author:1612456815=UserAdmin
+csum:1612456815=User account activated
+diff:1612456815:1612456794:=145c145%0a%3c EthanR:  $1$A.83j.g1$dDsiFanK8Y5UQMDTU1OPT/ :  useremail='etrich@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> EthanR:  :  useremail='etrich@andrew.cmu.edu' userkey='400228689 $1$A.83j.g1$dDsiFanK8Y5UQMDTU1OPT/' userkeyreason='new' userkeytime='1612456796'%0a\ No newline at end of file%0a
+host:1612456815=128.2.149.59
+author:1612456794=UserAdmin
+csum:1612456794=New user account created; E-mail sent with activation link
+diff:1612456794:1612390811:=144,145c144%0a%3c MitulS:  $1$PXvPAWIx$kNt1fwcqFr1LUH3nHrFm40 :  useremail='mituls@andrew.cmu.edu'%0a%3c EthanR:  :  useremail='etrich@andrew.cmu.edu' userkey='400228689 $1$A.83j.g1$dDsiFanK8Y5UQMDTU1OPT/' userkeyreason='new' userkeytime='1612456796'%0a\ No newline at end of file%0a---%0a> MitulS:  $1$PXvPAWIx$kNt1fwcqFr1LUH3nHrFm40 :  useremail='mituls@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612456794=128.2.149.59
+author:1612390811=UserAdmin
+csum:1612390811=User account activated
+diff:1612390811:1612390791:=144c144%0a%3c MitulS:  $1$PXvPAWIx$kNt1fwcqFr1LUH3nHrFm40 :  useremail='mituls@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> MitulS:  :  useremail='mituls@andrew.cmu.edu' userkey='1090349812 $1$PXvPAWIx$kNt1fwcqFr1LUH3nHrFm40' userkeyreason='new' userkeytime='1612390792'%0a\ No newline at end of file%0a
+host:1612390811=71.190.246.26
+author:1612390791=UserAdmin
+csum:1612390791=New user account created; E-mail sent with activation link
+diff:1612390791:1612380917:=143,144c143%0a%3c markl:  $1$jN74CaxJ$w1MmzSqSKaiItm/NZ5lFb/ :  useremail='marklind@andrew.cmu.edu'%0a%3c MitulS:  :  useremail='mituls@andrew.cmu.edu' userkey='1090349812 $1$PXvPAWIx$kNt1fwcqFr1LUH3nHrFm40' userkeyreason='new' userkeytime='1612390792'%0a\ No newline at end of file%0a---%0a> markl:  $1$jN74CaxJ$w1MmzSqSKaiItm/NZ5lFb/ :  useremail='marklind@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612390791=71.190.246.26
+author:1612380917=UserAdmin
+csum:1612380917=User account activated
+diff:1612380917:1612380867:=143c143%0a%3c markl:  $1$jN74CaxJ$w1MmzSqSKaiItm/NZ5lFb/ :  useremail='marklind@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> markl:  :  useremail='marklind@andrew.cmu.edu' userkey='1545508631 $1$jN74CaxJ$w1MmzSqSKaiItm/NZ5lFb/' userkeyreason='new' userkeytime='1612380867'%0a\ No newline at end of file%0a
+host:1612380917=71.206.238.233
+author:1612380867=UserAdmin
+csum:1612380867=New user account created; E-mail sent with activation link
+diff:1612380867:1612380728:=142,143c142%0a%3c khushiw:  $1$8yivtMV.$IfL4QCqtBaXB.ovsN5HUp1 :  useremail='khushiw@andrew.cmu.edu'%0a%3c markl:  :  useremail='marklind@andrew.cmu.edu' userkey='1545508631 $1$jN74CaxJ$w1MmzSqSKaiItm/NZ5lFb/' userkeyreason='new' userkeytime='1612380867'%0a\ No newline at end of file%0a---%0a> khushiw:  $1$8yivtMV.$IfL4QCqtBaXB.ovsN5HUp1 :  useremail='khushiw@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612380867=71.206.238.233
+author:1612380728=UserAdmin
+csum:1612380728=User account activated
+diff:1612380728:1612380630:=142c142%0a%3c khushiw:  $1$8yivtMV.$IfL4QCqtBaXB.ovsN5HUp1 :  useremail='khushiw@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> khushiw:  :  useremail='khushiw@andrew.cmu.edu' userkey='804681674 $1$8yivtMV.$IfL4QCqtBaXB.ovsN5HUp1' userkeyreason='new' userkeytime='1612380631'%0a\ No newline at end of file%0a
+host:1612380728=128.2.149.254
+author:1612380630=UserAdmin
+csum:1612380630=New user account created; E-mail sent with activation link
+diff:1612380630:1612380160:=141,142c141%0a%3c Samuel_D_II:  $1$vN7YgzJn$UtsCjSv7oHYP5wxtwqp6I1 :  useremail='sdelucia@andrew.cmu.edu'%0a%3c khushiw:  :  useremail='khushiw@andrew.cmu.edu' userkey='804681674 $1$8yivtMV.$IfL4QCqtBaXB.ovsN5HUp1' userkeyreason='new' userkeytime='1612380631'%0a\ No newline at end of file%0a---%0a> Samuel_D_II:  $1$vN7YgzJn$UtsCjSv7oHYP5wxtwqp6I1 :  useremail='sdelucia@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612380630=128.2.149.254
+author:1612380160=UserAdmin
+csum:1612380160=User account activated
+diff:1612380160:1612380147:=141c141%0a%3c Samuel_D_II:  $1$vN7YgzJn$UtsCjSv7oHYP5wxtwqp6I1 :  useremail='sdelucia@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Samuel_D_II:  :  useremail='sdelucia@andrew.cmu.edu' userkey='1933680401 $1$vN7YgzJn$UtsCjSv7oHYP5wxtwqp6I1' userkeyreason='new' userkeytime='1612380148'%0a\ No newline at end of file%0a
+host:1612380160=128.237.82.2
+author:1612380147=UserAdmin
+csum:1612380147=New user account created; E-mail sent with activation link
+diff:1612380147:1612380080:=140,141c140%0a%3c janet_b:  $1$T./JGK6t$EByGqbb7IOYxu2taH0Vp7. :  useremail='jlbellan@andrew.cmu.edu'%0a%3c Samuel_D_II:  :  useremail='sdelucia@andrew.cmu.edu' userkey='1933680401 $1$vN7YgzJn$UtsCjSv7oHYP5wxtwqp6I1' userkeyreason='new' userkeytime='1612380148'%0a\ No newline at end of file%0a---%0a> janet_b:  $1$T./JGK6t$EByGqbb7IOYxu2taH0Vp7. :  useremail='jlbellan@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612380147=128.237.82.2
+author:1612380080=UserAdmin
+csum:1612380080=User account activated
+diff:1612380080:1612380066:=140c140%0a%3c janet_b:  $1$T./JGK6t$EByGqbb7IOYxu2taH0Vp7. :  useremail='jlbellan@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> janet_b:  :  useremail='jlbellan@andrew.cmu.edu' userkey='1976433810 $1$T./JGK6t$EByGqbb7IOYxu2taH0Vp7.' userkeyreason='new' userkeytime='1612380068'%0a\ No newline at end of file%0a
+host:1612380080=199.27.253.143
+author:1612380066=UserAdmin
+csum:1612380066=New user account created; E-mail sent with activation link
+diff:1612380066:1612378548:=139,140c139%0a%3c Mihir_D:  $1$ty.1ib86$e7dzt8ay1TP/CPuWXj6i50 :  useremail='mdhamank@andrew.cmu.edu'%0a%3c janet_b:  :  useremail='jlbellan@andrew.cmu.edu' userkey='1976433810 $1$T./JGK6t$EByGqbb7IOYxu2taH0Vp7.' userkeyreason='new' userkeytime='1612380068'%0a\ No newline at end of file%0a---%0a> Mihir_D:  $1$ty.1ib86$e7dzt8ay1TP/CPuWXj6i50 :  useremail='mdhamank@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612380066=199.27.253.143
+author:1612378548=UserAdmin
+csum:1612378548=User account activated
+diff:1612378548:1612378372:=139c139%0a%3c Mihir_D:  $1$ty.1ib86$e7dzt8ay1TP/CPuWXj6i50 :  useremail='mdhamank@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Mihir_D:  :  useremail='mdhamank@andrew.cmu.edu' userkey='1450311613 $1$ty.1ib86$e7dzt8ay1TP/CPuWXj6i50' userkeyreason='new' userkeytime='1612378373'%0a\ No newline at end of file%0a
+host:1612378548=108.16.220.220
+author:1612378372=UserAdmin
+csum:1612378372=New user account created; E-mail sent with activation link
+diff:1612378372:1612375678:=138,139c138%0a%3c Gavin_D:  $1$zfA52/7y$BnSyJJYoVtzeINLqEwhMr0 :  useremail='gdeiss@andrew.cmu.edu'%0a%3c Mihir_D:  :  useremail='mdhamank@andrew.cmu.edu' userkey='1450311613 $1$ty.1ib86$e7dzt8ay1TP/CPuWXj6i50' userkeyreason='new' userkeytime='1612378373'%0a\ No newline at end of file%0a---%0a> Gavin_D:  $1$zfA52/7y$BnSyJJYoVtzeINLqEwhMr0 :  useremail='gdeiss@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612378372=108.16.220.220
+author:1612375678=UserAdmin
+csum:1612375678=User account activated
+diff:1612375678:1612375194:=138c138%0a%3c Gavin_D:  $1$zfA52/7y$BnSyJJYoVtzeINLqEwhMr0 :  useremail='gdeiss@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Gavin_D:  :  useremail='gdeiss@andrew.cmu.edu' userkey='1072424888 $1$zfA52/7y$BnSyJJYoVtzeINLqEwhMr0' userkeyreason='new' userkeytime='1612375195'%0a\ No newline at end of file%0a
+host:1612375678=173.13.48.209
+author:1612375194=UserAdmin
+csum:1612375194=New user account created; E-mail sent with activation link
+diff:1612375194:1612375058:=137,138c137%0a%3c evelynC:  :  useremail='eyc2@andrew.cmu.edu' userkey='1574976011 $1$ta2J5RBe$.3RQVI4mf59rtDGCsIQ3l0' userkeyreason='new' userkeytime='1612374911'%0a%3c Gavin_D:  :  useremail='gdeiss@andrew.cmu.edu' userkey='1072424888 $1$zfA52/7y$BnSyJJYoVtzeINLqEwhMr0' userkeyreason='new' userkeytime='1612375195'%0a\ No newline at end of file%0a---%0a> evelynC:  :  useremail='eyc2@andrew.cmu.edu' userkey='1574976011 $1$ta2J5RBe$.3RQVI4mf59rtDGCsIQ3l0' userkeyreason='new' userkeytime='1612374911'%0a\ No newline at end of file%0a
+host:1612375194=173.13.48.209
+author:1612375058=UserAdmin
+csum:1612375058=User password set
+diff:1612375058:1612374960:=136c136%0a%3c sgangu:  $1$0lVQlvrm$NJgkou2XS8e.UAEQk5MFZ1 :  useremail='sgangu@andrew.cmu.edu'%0a---%0a> sgangu:  :  useremail='sgangu@andrew.cmu.edu' userkey='1164724830' userkeyreason='resetpasswd' userkeytime='1612374961'%0a
+host:1612375058=173.224.102.108
+author:1612374960=UserAdmin
+csum:1612374960=Password reset link sent to user&#039;s e-mail address
+diff:1612374960:1612374910:=136c136%0a%3c sgangu:  :  useremail='sgangu@andrew.cmu.edu' userkey='1164724830' userkeyreason='resetpasswd' userkeytime='1612374961'%0a---%0a> sgangu:  :  useremail='sgangu@andrew.cmu.edu' userkey='604924105 $1$Ihu.d3ze$YcPqxsdXpcGxPHkvEkn5P.' userkeyreason='new' userkeytime='1612374905'%0a
+host:1612374960=173.224.102.108
+author:1612374910=UserAdmin
+csum:1612374910=New user account created; E-mail sent with activation link
+diff:1612374910:1612374904:=136,137c136%0a%3c sgangu:  :  useremail='sgangu@andrew.cmu.edu' userkey='604924105 $1$Ihu.d3ze$YcPqxsdXpcGxPHkvEkn5P.' userkeyreason='new' userkeytime='1612374905'%0a%3c evelynC:  :  useremail='eyc2@andrew.cmu.edu' userkey='1574976011 $1$ta2J5RBe$.3RQVI4mf59rtDGCsIQ3l0' userkeyreason='new' userkeytime='1612374911'%0a\ No newline at end of file%0a---%0a> sgangu:  :  useremail='sgangu@andrew.cmu.edu' userkey='604924105 $1$Ihu.d3ze$YcPqxsdXpcGxPHkvEkn5P.' userkeyreason='new' userkeytime='1612374905'%0a\ No newline at end of file%0a
+host:1612374910=199.247.108.174
+author:1612374904=UserAdmin
+csum:1612374904=New user account created; E-mail sent with activation link
+diff:1612374904:1612374829:=135,136c135%0a%3c MindeeL:  $1$q1/2l.vs$qj2pvA3a8ig2qGQSGKW.e0 :  useremail='milai@andrew.cmu.edu'%0a%3c sgangu:  :  useremail='sgangu@andrew.cmu.edu' userkey='604924105 $1$Ihu.d3ze$YcPqxsdXpcGxPHkvEkn5P.' userkeyreason='new' userkeytime='1612374905'%0a\ No newline at end of file%0a---%0a> MindeeL:  $1$q1/2l.vs$qj2pvA3a8ig2qGQSGKW.e0 :  useremail='milai@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612374904=173.224.102.108
+author:1612374829=UserAdmin
+csum:1612374829=User account activated
+diff:1612374829:1612374804:=135c135%0a%3c MindeeL:  $1$q1/2l.vs$qj2pvA3a8ig2qGQSGKW.e0 :  useremail='milai@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> MindeeL:  :  useremail='milai@andrew.cmu.edu' userkey='1995931114 $1$q1/2l.vs$qj2pvA3a8ig2qGQSGKW.e0' userkeyreason='new' userkeytime='1612374805'%0a\ No newline at end of file%0a
+host:1612374829=72.95.138.86
+author:1612374804=UserAdmin
+csum:1612374804=New user account created; E-mail sent with activation link
+diff:1612374804:1612374475:=134,135c134%0a%3c mason_b:  $1$eWuKIZwE$0Pr4wUQH1Z5efvm4ZytAY/ :  useremail='mbroxham@andrew.cmu.edu'%0a%3c MindeeL:  :  useremail='milai@andrew.cmu.edu' userkey='1995931114 $1$q1/2l.vs$qj2pvA3a8ig2qGQSGKW.e0' userkeyreason='new' userkeytime='1612374805'%0a\ No newline at end of file%0a---%0a> mason_b:  $1$eWuKIZwE$0Pr4wUQH1Z5efvm4ZytAY/ :  useremail='mbroxham@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612374804=72.95.138.86
+author:1612374475=UserAdmin
+csum:1612374475=User account activated
+diff:1612374475:1612374461:=134c134%0a%3c mason_b:  $1$eWuKIZwE$0Pr4wUQH1Z5efvm4ZytAY/ :  useremail='mbroxham@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> mason_b:  :  useremail='mbroxham@andrew.cmu.edu' userkey='915455458 $1$eWuKIZwE$0Pr4wUQH1Z5efvm4ZytAY/' userkeyreason='new' userkeytime='1612374462'%0a\ No newline at end of file%0a
+host:1612374475=74.98.251.138
+author:1612374461=UserAdmin
+csum:1612374461=New user account created; E-mail sent with activation link
+diff:1612374461:1612372405:=133,134c133%0a%3c yuluz:  $1$45ShuPbQ$lHMpHHANX5VAH/QUup8D9/ :  useremail='yuluz@andrew.cmu.edu'%0a%3c mason_b:  :  useremail='mbroxham@andrew.cmu.edu' userkey='915455458 $1$eWuKIZwE$0Pr4wUQH1Z5efvm4ZytAY/' userkeyreason='new' userkeytime='1612374462'%0a\ No newline at end of file%0a---%0a> yuluz:  $1$45ShuPbQ$lHMpHHANX5VAH/QUup8D9/ :  useremail='yuluz@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612374461=74.98.251.138
+author:1612372405=UserAdmin
+csum:1612372405=User account activated
+diff:1612372405:1612372372:=133c133%0a%3c yuluz:  $1$45ShuPbQ$lHMpHHANX5VAH/QUup8D9/ :  useremail='yuluz@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> yuluz:  :  useremail='yuluz@andrew.cmu.edu' userkey='1065422344 $1$45ShuPbQ$lHMpHHANX5VAH/QUup8D9/' userkeyreason='new' userkeytime='1612372373'%0a\ No newline at end of file%0a
+host:1612372405=117.22.96.70
+author:1612372372=UserAdmin
+csum:1612372372=New user account created; E-mail sent with activation link
+diff:1612372372:1612362668:=132,133c132%0a%3c leah_w:  $1$6oeaxlAN$0VuAMprxpevi2sZmWBZ.v0 :  useremail='lweslock@andrew.cmu.edu'%0a%3c yuluz:  :  useremail='yuluz@andrew.cmu.edu' userkey='1065422344 $1$45ShuPbQ$lHMpHHANX5VAH/QUup8D9/' userkeyreason='new' userkeytime='1612372373'%0a\ No newline at end of file%0a---%0a> leah_w:  $1$6oeaxlAN$0VuAMprxpevi2sZmWBZ.v0 :  useremail='lweslock@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612372372=117.22.96.70
+author:1612362668=UserAdmin
+csum:1612362668=User account activated
+diff:1612362668:1612362641:=132c132%0a%3c leah_w:  $1$6oeaxlAN$0VuAMprxpevi2sZmWBZ.v0 :  useremail='lweslock@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> leah_w:  :  useremail='lweslock@andrew.cmu.edu' userkey='76369689 $1$6oeaxlAN$0VuAMprxpevi2sZmWBZ.v0' userkeyreason='new' userkeytime='1612362641'%0a\ No newline at end of file%0a
+host:1612362668=71.245.186.13
+author:1612362641=UserAdmin
+csum:1612362641=New user account created; E-mail sent with activation link
+diff:1612362641:1612349141:=131,132c131%0a%3c Spencer_L:  $1$ElJMX/ls$I4NM8WCHapvy8X3ViC3KQ. :  useremail='syl2@andrew.cmu.edu'%0a%3c leah_w:  :  useremail='lweslock@andrew.cmu.edu' userkey='76369689 $1$6oeaxlAN$0VuAMprxpevi2sZmWBZ.v0' userkeyreason='new' userkeytime='1612362641'%0a\ No newline at end of file%0a---%0a> Spencer_L:  $1$ElJMX/ls$I4NM8WCHapvy8X3ViC3KQ. :  useremail='syl2@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612362641=71.245.186.13
+author:1612349141=UserAdmin
+csum:1612349141=User account activated
+diff:1612349141:1612349118:=131c131%0a%3c Spencer_L:  $1$ElJMX/ls$I4NM8WCHapvy8X3ViC3KQ. :  useremail='syl2@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Spencer_L:  :  useremail='syl2@andrew.cmu.edu' userkey='1935590756 $1$ElJMX/ls$I4NM8WCHapvy8X3ViC3KQ.' userkeyreason='new' userkeytime='1612349119'%0a\ No newline at end of file%0a
+host:1612349141=47.145.195.142
+author:1612349118=UserAdmin
+csum:1612349118=New user account created; E-mail sent with activation link
+diff:1612349118:1612339664:=130,131c130%0a%3c BrandtE:  :  useremail='bhevans@andrew.cmu.edu' userkey='1897984767 $1$B1dc/RbH$xelvw5fNTavBw1wucp9E9.' userkeyreason='new' userkeytime='1612339665'%0a%3c Spencer_L:  :  useremail='syl2@andrew.cmu.edu' userkey='1935590756 $1$ElJMX/ls$I4NM8WCHapvy8X3ViC3KQ.' userkeyreason='new' userkeytime='1612349119'%0a\ No newline at end of file%0a---%0a> BrandtE:  :  useremail='bhevans@andrew.cmu.edu' userkey='1897984767 $1$B1dc/RbH$xelvw5fNTavBw1wucp9E9.' userkeyreason='new' userkeytime='1612339665'%0a\ No newline at end of file%0a
+host:1612349118=47.145.195.142
+author:1612339664=UserAdmin
+csum:1612339664=New user account created; E-mail sent with activation link
+diff:1612339664:1612336963:=129,130c129%0a%3c meng_s:  $1$vqnI2brE$Ab..CulH804cNa0RHI7O50 :  useremail='mshou@andrew.cmu.edu'%0a%3c BrandtE:  :  useremail='bhevans@andrew.cmu.edu' userkey='1897984767 $1$B1dc/RbH$xelvw5fNTavBw1wucp9E9.' userkeyreason='new' userkeytime='1612339665'%0a\ No newline at end of file%0a---%0a> meng_s:  $1$vqnI2brE$Ab..CulH804cNa0RHI7O50 :  useremail='mshou@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612339664=128.237.82.1
+author:1612336963=UserAdmin
+csum:1612336963=User account activated
+diff:1612336963:1612336675:=129c129%0a%3c meng_s:  $1$vqnI2brE$Ab..CulH804cNa0RHI7O50 :  useremail='mshou@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> meng_s:  :  useremail='mshou@andrew.cmu.edu' userkey='1915618410 $1$vqnI2brE$Ab..CulH804cNa0RHI7O50' userkeyreason='new' userkeytime='1612336676'%0a\ No newline at end of file%0a
+host:1612336963=116.88.125.89
+author:1612336675=UserAdmin
+csum:1612336675=New user account created; E-mail sent with activation link
+diff:1612336675:1612332055:=128,129c128%0a%3c JosephG:  $1$DmpkFzU4$1lvY2t.nrm9htw23KPJiB/ :  useremail='jglanzbe@andrew.cmu.edu'%0a%3c meng_s:  :  useremail='mshou@andrew.cmu.edu' userkey='1915618410 $1$vqnI2brE$Ab..CulH804cNa0RHI7O50' userkeyreason='new' userkeytime='1612336676'%0a\ No newline at end of file%0a---%0a> JosephG:  $1$DmpkFzU4$1lvY2t.nrm9htw23KPJiB/ :  useremail='jglanzbe@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612336675=116.88.125.89
+author:1612332055=UserAdmin
+csum:1612332055=User account activated
+diff:1612332055:1612332039:=128c128%0a%3c JosephG:  $1$DmpkFzU4$1lvY2t.nrm9htw23KPJiB/ :  useremail='jglanzbe@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> JosephG:  :  useremail='jglanzbe@andrew.cmu.edu' userkey='1403031968 $1$DmpkFzU4$1lvY2t.nrm9htw23KPJiB/' userkeyreason='new' userkeytime='1612332040'%0a\ No newline at end of file%0a
+host:1612332055=98.239.240.49
+author:1612332039=UserAdmin
+csum:1612332039=New user account created; E-mail sent with activation link
+diff:1612332039:1612327653:=127,128c127%0a%3c CharlieP:  $1$IL04qnBQ$xCTjdoo4MR9repudlhnUL0 :  useremail='cgphilli@andrew.cmu.edu'%0a%3c JosephG:  :  useremail='jglanzbe@andrew.cmu.edu' userkey='1403031968 $1$DmpkFzU4$1lvY2t.nrm9htw23KPJiB/' userkeyreason='new' userkeytime='1612332040'%0a\ No newline at end of file%0a---%0a> CharlieP:  $1$IL04qnBQ$xCTjdoo4MR9repudlhnUL0 :  useremail='cgphilli@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612332039=98.239.240.49
+author:1612327653=UserAdmin
+csum:1612327653=User account activated
+diff:1612327653:1612327617:=127c127%0a%3c CharlieP:  $1$IL04qnBQ$xCTjdoo4MR9repudlhnUL0 :  useremail='cgphilli@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> CharlieP:  :  useremail='cgphilli@andrew.cmu.edu' userkey='1694815113 $1$IL04qnBQ$xCTjdoo4MR9repudlhnUL0' userkeyreason='new' userkeytime='1612327618'%0a\ No newline at end of file%0a
+host:1612327653=98.111.246.46
+author:1612327617=UserAdmin
+csum:1612327617=New user account created; E-mail sent with activation link
+diff:1612327617:1612327167:=126,127c126%0a%3c Thomas_M:  $1$Ybtraj.K$yw1EeHJSpq4d8DaztZthM0 :  useremail='tmckee@andrew.cmu.edu'%0a%3c CharlieP:  :  useremail='cgphilli@andrew.cmu.edu' userkey='1694815113 $1$IL04qnBQ$xCTjdoo4MR9repudlhnUL0' userkeyreason='new' userkeytime='1612327618'%0a\ No newline at end of file%0a---%0a> Thomas_M:  $1$Ybtraj.K$yw1EeHJSpq4d8DaztZthM0 :  useremail='tmckee@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612327617=98.111.246.46
+author:1612327167=UserAdmin
+csum:1612327167=User account activated
+diff:1612327167:1612327148:=126c126%0a%3c Thomas_M:  $1$Ybtraj.K$yw1EeHJSpq4d8DaztZthM0 :  useremail='tmckee@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Thomas_M:  :  useremail='tmckee@andrew.cmu.edu' userkey='332251408 $1$Ybtraj.K$yw1EeHJSpq4d8DaztZthM0' userkeyreason='new' userkeytime='1612327148'%0a\ No newline at end of file%0a
+host:1612327167=73.17.52.31
+author:1612327148=UserAdmin
+csum:1612327148=New user account created; E-mail sent with activation link
+diff:1612327148:1612325388:=125,126c125%0a%3c emma_p:  $1$gIwOkc8R$DUvUj0m31u3YJdYejBcR91 :  useremail='eparrell@andrew.cmu.edu'%0a%3c Thomas_M:  :  useremail='tmckee@andrew.cmu.edu' userkey='332251408 $1$Ybtraj.K$yw1EeHJSpq4d8DaztZthM0' userkeyreason='new' userkeytime='1612327148'%0a\ No newline at end of file%0a---%0a> emma_p:  $1$gIwOkc8R$DUvUj0m31u3YJdYejBcR91 :  useremail='eparrell@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612327148=73.17.52.31
+author:1612325388=UserAdmin
+csum:1612325388=User account activated
+diff:1612325388:1612324938:=125c125%0a%3c emma_p:  $1$gIwOkc8R$DUvUj0m31u3YJdYejBcR91 :  useremail='eparrell@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> emma_p:  :  useremail='eparrell@andrew.cmu.edu' userkey='1923327753 $1$gIwOkc8R$DUvUj0m31u3YJdYejBcR91' userkeyreason='new' userkeytime='1612324938'%0a\ No newline at end of file%0a
+host:1612325388=73.154.123.6
+author:1612324938=UserAdmin
+csum:1612324938=New user account created; E-mail sent with activation link
+diff:1612324938:1612321418:=124,125c124%0a%3c BrandonW:  $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/ :  useremail='bdwei@andrew.cmu.edu'%0a%3c emma_p:  :  useremail='eparrell@andrew.cmu.edu' userkey='1923327753 $1$gIwOkc8R$DUvUj0m31u3YJdYejBcR91' userkeyreason='new' userkeytime='1612324938'%0a\ No newline at end of file%0a---%0a> BrandonW:  $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/ :  useremail='bdwei@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612324938=73.154.123.6
+author:1612321418=UserAdmin
+csum:1612321418=User account activated
+diff:1612321418:1612320957:=124c124%0a%3c BrandonW:  $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/ :  useremail='bdwei@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> BrandonW:  :  useremail='bdwei@andrew.cmu.edu' userkey='109905128 $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/' userkeyreason='new' userkeytime='1612320958'%0a\ No newline at end of file%0a
+host:1612321418=72.77.81.225
+author:1612320957=UserAdmin
+csum:1612320957=New user account created; E-mail sent with activation link
+diff:1612320957:1612319639:=123,124c123%0a%3c AlexX:  $1$xM9M8usC$xmkHSLdxtLM00y2XJuklj. :  useremail='alexx@andrew.cmu.edu'%0a%3c BrandonW:  :  useremail='bdwei@andrew.cmu.edu' userkey='109905128 $1$i9QKBNq1$HdHHxqQZHKIrR3XxtJeUR/' userkeyreason='new' userkeytime='1612320958'%0a\ No newline at end of file%0a---%0a> AlexX:  $1$xM9M8usC$xmkHSLdxtLM00y2XJuklj. :  useremail='alexx@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612320957=72.77.81.225
+author:1612319639=UserAdmin
+csum:1612319639=User account activated
+diff:1612319639:1612319605:=123c123%0a%3c AlexX:  $1$xM9M8usC$xmkHSLdxtLM00y2XJuklj. :  useremail='alexx@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> AlexX:  :  useremail='alexx@andrew.cmu.edu' userkey='605751971 $1$xM9M8usC$xmkHSLdxtLM00y2XJuklj.' userkeyreason='new' userkeytime='1612319605'%0a\ No newline at end of file%0a
+host:1612319639=71.206.238.88
+author:1612319605=UserAdmin
+csum:1612319605=New user account created; E-mail sent with activation link
+diff:1612319605:1612317128:=122,123c122%0a%3c SaishaRao:  $1$qWNZOudG$zoZzB0M7J1bGoSJRRy2pm/ :  useremail='saishapr@andrew.cmu.edu'%0a%3c AlexX:  :  useremail='alexx@andrew.cmu.edu' userkey='605751971 $1$xM9M8usC$xmkHSLdxtLM00y2XJuklj.' userkeyreason='new' userkeytime='1612319605'%0a\ No newline at end of file%0a---%0a> SaishaRao:  $1$qWNZOudG$zoZzB0M7J1bGoSJRRy2pm/ :  useremail='saishapr@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612319605=71.206.238.88
+author:1612317128=UserAdmin
+csum:1612317128=User account activated
+diff:1612317128:1612316953:=122c122%0a%3c SaishaRao:  $1$qWNZOudG$zoZzB0M7J1bGoSJRRy2pm/ :  useremail='saishapr@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> SaishaRao:  :  useremail='saishapr@andrew.cmu.edu' userkey='388878959 $1$qWNZOudG$zoZzB0M7J1bGoSJRRy2pm/' userkeyreason='new' userkeytime='1612316953'%0a\ No newline at end of file%0a
+host:1612317128=128.237.82.1
+author:1612316953=UserAdmin
+csum:1612316953=New user account created; E-mail sent with activation link
+diff:1612316953:1612316850:=121,122c121%0a%3c SaishaR:  :  useremail='saishapr@andrew.cmu.edu' userkey='32169140 $1$zFTaD4xb$x4llpInBmm1NWD4BIQ8Ph0' userkeyreason='new' userkeytime='1612316851'%0a%3c SaishaRao:  :  useremail='saishapr@andrew.cmu.edu' userkey='388878959 $1$qWNZOudG$zoZzB0M7J1bGoSJRRy2pm/' userkeyreason='new' userkeytime='1612316953'%0a\ No newline at end of file%0a---%0a> SaishaR:  :  useremail='saishapr@andrew.cmu.edu' userkey='32169140 $1$zFTaD4xb$x4llpInBmm1NWD4BIQ8Ph0' userkeyreason='new' userkeytime='1612316851'%0a\ No newline at end of file%0a
+host:1612316953=128.237.82.1
+author:1612316850=UserAdmin
+csum:1612316850=New user account created; E-mail sent with activation link
+diff:1612316850:1612308882:=120,121c120%0a%3c IsabelV:  $1$M6.3/vcw$cz4urvRo055su3.OZEOFz/ :  useremail='icv@andrew.cmu.edu'%0a%3c SaishaR:  :  useremail='saishapr@andrew.cmu.edu' userkey='32169140 $1$zFTaD4xb$x4llpInBmm1NWD4BIQ8Ph0' userkeyreason='new' userkeytime='1612316851'%0a\ No newline at end of file%0a---%0a> IsabelV:  $1$M6.3/vcw$cz4urvRo055su3.OZEOFz/ :  useremail='icv@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612316850=128.237.82.1
+author:1612308882=UserAdmin
+csum:1612308882=User account activated
+diff:1612308882:1612308866:=120c120%0a%3c IsabelV:  $1$M6.3/vcw$cz4urvRo055su3.OZEOFz/ :  useremail='icv@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> IsabelV:  :  useremail='icv@andrew.cmu.edu' userkey='836043609 $1$M6.3/vcw$cz4urvRo055su3.OZEOFz/' userkeyreason='new' userkeytime='1612308867'%0a\ No newline at end of file%0a
+host:1612308882=67.171.70.102
+author:1612308866=UserAdmin
+csum:1612308866=New user account created; E-mail sent with activation link
+diff:1612308866:1612307419:=119,120c119%0a%3c akshaya_v:  $1$8yTEiGuG$G/gU09ydKySKrZOxaFzyq1 :  useremail='akshayav@andrew.cmu.edu'%0a%3c IsabelV:  :  useremail='icv@andrew.cmu.edu' userkey='836043609 $1$M6.3/vcw$cz4urvRo055su3.OZEOFz/' userkeyreason='new' userkeytime='1612308867'%0a\ No newline at end of file%0a---%0a> akshaya_v:  $1$8yTEiGuG$G/gU09ydKySKrZOxaFzyq1 :  useremail='akshayav@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612308866=67.171.70.102
+author:1612307419=UserAdmin
+csum:1612307419=User account activated
+diff:1612307419:1612307009:=119c119%0a%3c akshaya_v:  $1$8yTEiGuG$G/gU09ydKySKrZOxaFzyq1 :  useremail='akshayav@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> akshaya_v:  :  useremail='akshayav@andrew.cmu.edu' userkey='417765538 $1$8yTEiGuG$G/gU09ydKySKrZOxaFzyq1' userkeyreason='new' userkeytime='1612307010'%0a\ No newline at end of file%0a
+host:1612307419=76.102.44.37
+author:1612307009=UserAdmin
+csum:1612307009=New user account created; E-mail sent with activation link
+diff:1612307009:1612305748:=118,119c118%0a%3c ahana_m:  $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/ :  useremail='ahanamuk@andrew.cmu.edu'%0a%3c akshaya_v:  :  useremail='akshayav@andrew.cmu.edu' userkey='417765538 $1$8yTEiGuG$G/gU09ydKySKrZOxaFzyq1' userkeyreason='new' userkeytime='1612307010'%0a\ No newline at end of file%0a---%0a> ahana_m:  $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/ :  useremail='ahanamuk@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612307009=76.102.44.37
+author:1612305748=UserAdmin
+csum:1612305748=User account activated
+diff:1612305748:1612305711:=118c118%0a%3c ahana_m:  $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/ :  useremail='ahanamuk@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ahana_m:  :  useremail='ahanamuk@andrew.cmu.edu' userkey='1662698206 $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/' userkeyreason='new' userkeytime='1612305711'%0a\ No newline at end of file%0a
+host:1612305748=216.195.23.171
+author:1612305711=UserAdmin
+csum:1612305711=New user account created; E-mail sent with activation link
+diff:1612305711:1612304560:=117,118c117%0a%3c kyuwonW:  $1$AueE5zkI$lEb1/b0VeMuXRDzCEY7bv1 :  useremail='kweon@andrew.cmu.edu'%0a%3c ahana_m:  :  useremail='ahanamuk@andrew.cmu.edu' userkey='1662698206 $1$AG20l0V.$SVrPqvJ/CE1MfvcDBGMJh/' userkeyreason='new' userkeytime='1612305711'%0a\ No newline at end of file%0a---%0a> kyuwonW:  $1$AueE5zkI$lEb1/b0VeMuXRDzCEY7bv1 :  useremail='kweon@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612305711=216.195.23.171
+author:1612304560=UserAdmin
+csum:1612304560=User account activated
+diff:1612304560:1612304477:=117c117%0a%3c kyuwonW:  $1$AueE5zkI$lEb1/b0VeMuXRDzCEY7bv1 :  useremail='kweon@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> kyuwonW:  :  useremail='kweon@andrew.cmu.edu' userkey='307407019 $1$AueE5zkI$lEb1/b0VeMuXRDzCEY7bv1' userkeyreason='new' userkeytime='1612304478'%0a\ No newline at end of file%0a
+host:1612304560=98.42.167.123
+author:1612304477=UserAdmin
+csum:1612304477=New user account created; E-mail sent with activation link
+diff:1612304477:1612303538:=116,117c116%0a%3c jess_smith:  $1$3YM048Gp$Mv1S6Q1oXzTWl3jlCkqug1 :  useremail='jmsmith2@andrew.cmu.edu'%0a%3c kyuwonW:  :  useremail='kweon@andrew.cmu.edu' userkey='307407019 $1$AueE5zkI$lEb1/b0VeMuXRDzCEY7bv1' userkeyreason='new' userkeytime='1612304478'%0a\ No newline at end of file%0a---%0a> jess_smith:  $1$3YM048Gp$Mv1S6Q1oXzTWl3jlCkqug1 :  useremail='jmsmith2@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612304477=98.42.167.123
+author:1612303538=UserAdmin
+csum:1612303538=User account activated
+diff:1612303538:1612303528:=116c116%0a%3c jess_smith:  $1$3YM048Gp$Mv1S6Q1oXzTWl3jlCkqug1 :  useremail='jmsmith2@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> jess_smith:  :  useremail='jmsmith2@andrew.cmu.edu' userkey='426447758 $1$3YM048Gp$Mv1S6Q1oXzTWl3jlCkqug1' userkeyreason='new' userkeytime='1612303528'%0a\ No newline at end of file%0a
+host:1612303538=173.71.184.46
+author:1612303528=UserAdmin
+csum:1612303528=New user account created; E-mail sent with activation link
+diff:1612303528:1612302912:=115,116c115%0a%3c caseywalker:  $1$QwwIqoHb$lIR2vfYoBDXfcCXOFkENr0 :  useremail='cmwalker@andrew.cmu.edu'%0a%3c jess_smith:  :  useremail='jmsmith2@andrew.cmu.edu' userkey='426447758 $1$3YM048Gp$Mv1S6Q1oXzTWl3jlCkqug1' userkeyreason='new' userkeytime='1612303528'%0a\ No newline at end of file%0a---%0a> caseywalker:  $1$QwwIqoHb$lIR2vfYoBDXfcCXOFkENr0 :  useremail='cmwalker@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612303528=173.71.184.46
+author:1612302912=UserAdmin
+csum:1612302912=User account activated
+diff:1612302912:1612302899:=115c115%0a%3c caseywalker:  $1$QwwIqoHb$lIR2vfYoBDXfcCXOFkENr0 :  useremail='cmwalker@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> caseywalker:  :  useremail='cmwalker@andrew.cmu.edu' userkey='1432323296 $1$QwwIqoHb$lIR2vfYoBDXfcCXOFkENr0' userkeyreason='new' userkeytime='1612302900'%0a\ No newline at end of file%0a
+host:1612302912=74.109.241.170
+author:1612302899=UserAdmin
+csum:1612302899=New user account created; E-mail sent with activation link
+diff:1612302899:1612301624:=114,115c114%0a%3c lauray:  $1$i5osLMXm$ggD4NY.HVGp3ZbCnuy2Oe. :  useremail='ljyao@andrew.cmu.edu'%0a%3c caseywalker:  :  useremail='cmwalker@andrew.cmu.edu' userkey='1432323296 $1$QwwIqoHb$lIR2vfYoBDXfcCXOFkENr0' userkeyreason='new' userkeytime='1612302900'%0a\ No newline at end of file%0a---%0a> lauray:  $1$i5osLMXm$ggD4NY.HVGp3ZbCnuy2Oe. :  useremail='ljyao@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612302899=74.109.241.170
+author:1612301624=UserAdmin
+csum:1612301624=User account activated
+diff:1612301624:1612301610:=114c114%0a%3c lauray:  $1$i5osLMXm$ggD4NY.HVGp3ZbCnuy2Oe. :  useremail='ljyao@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> lauray:  :  useremail='ljyao@andrew.cmu.edu' userkey='1063008935 $1$i5osLMXm$ggD4NY.HVGp3ZbCnuy2Oe.' userkeyreason='new' userkeytime='1612301611'%0a\ No newline at end of file%0a
+host:1612301624=128.237.82.2
+author:1612301610=UserAdmin
+csum:1612301610=New user account created; E-mail sent with activation link
+diff:1612301610:1612296242:=113,114c113%0a%3c BrandonN:  $1$JC8w/G5A$vHVXqQHIys.IBNuK.ZE3t1 :  useremail='banguyen@andrew.cmu.edu'%0a%3c lauray:  :  useremail='ljyao@andrew.cmu.edu' userkey='1063008935 $1$i5osLMXm$ggD4NY.HVGp3ZbCnuy2Oe.' userkeyreason='new' userkeytime='1612301611'%0a\ No newline at end of file%0a---%0a> BrandonN:  $1$JC8w/G5A$vHVXqQHIys.IBNuK.ZE3t1 :  useremail='banguyen@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612301610=128.237.82.2
+author:1612296242=UserAdmin
+csum:1612296242=User account activated
+diff:1612296242:1612296217:=113c113%0a%3c BrandonN:  $1$JC8w/G5A$vHVXqQHIys.IBNuK.ZE3t1 :  useremail='banguyen@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> BrandonN:  :  useremail='banguyen@andrew.cmu.edu' userkey='1629257702 $1$JC8w/G5A$vHVXqQHIys.IBNuK.ZE3t1' userkeyreason='new' userkeytime='1612296217'%0a\ No newline at end of file%0a
+host:1612296242=73.174.112.82
+author:1612296217=UserAdmin
+csum:1612296217=New user account created; E-mail sent with activation link
+diff:1612296217:1612295041:=112,113c112%0a%3c danielz:  $1$JN0KrzTY$Uwa3Y9AJEZ/Z6ObeUc.5c0 :  useremail='dlzeng@andrew.cmu.edu'%0a%3c BrandonN:  :  useremail='banguyen@andrew.cmu.edu' userkey='1629257702 $1$JC8w/G5A$vHVXqQHIys.IBNuK.ZE3t1' userkeyreason='new' userkeytime='1612296217'%0a\ No newline at end of file%0a---%0a> danielz:  $1$JN0KrzTY$Uwa3Y9AJEZ/Z6ObeUc.5c0 :  useremail='dlzeng@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612296217=73.174.112.82
+author:1612295041=UserAdmin
+csum:1612295041=User account activated
+diff:1612295041:1612295032:=112c112%0a%3c danielz:  $1$JN0KrzTY$Uwa3Y9AJEZ/Z6ObeUc.5c0 :  useremail='dlzeng@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> danielz:  :  useremail='dlzeng@andrew.cmu.edu' userkey='1487202211 $1$JN0KrzTY$Uwa3Y9AJEZ/Z6ObeUc.5c0' userkeyreason='new' userkeytime='1612295032'%0a\ No newline at end of file%0a
+host:1612295041=74.98.200.59
+author:1612295032=UserAdmin
+csum:1612295032=New user account created; E-mail sent with activation link
+diff:1612295032:1612290520:=111,112c111%0a%3c albert_l:  $1$67Amta8Z$AH9sKOlRJIc2i5H0jUDyQ. :  useremail='ayliu1@andrew.cmu.edu'%0a%3c danielz:  :  useremail='dlzeng@andrew.cmu.edu' userkey='1487202211 $1$JN0KrzTY$Uwa3Y9AJEZ/Z6ObeUc.5c0' userkeyreason='new' userkeytime='1612295032'%0a\ No newline at end of file%0a---%0a> albert_l:  $1$67Amta8Z$AH9sKOlRJIc2i5H0jUDyQ. :  useremail='ayliu1@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612295032=74.98.200.59
+author:1612290520=UserAdmin
+csum:1612290520=User account activated
+diff:1612290520:1612290500:=111c111%0a%3c albert_l:  $1$67Amta8Z$AH9sKOlRJIc2i5H0jUDyQ. :  useremail='ayliu1@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> albert_l:  :  useremail='ayliu1@andrew.cmu.edu' userkey='1595132853 $1$67Amta8Z$AH9sKOlRJIc2i5H0jUDyQ.' userkeyreason='new' userkeytime='1612290501'%0a\ No newline at end of file%0a
+host:1612290520=72.77.2.32
+author:1612290500=UserAdmin
+csum:1612290500=New user account created; E-mail sent with activation link
+diff:1612290500:1612290425:=110,111c110%0a%3c BenP:  $1$0ujnUchC$rba8uNL/W408/2x5.qCnC1 :  useremail='bpavlat@andrew.cmu.edu'%0a%3c albert_l:  :  useremail='ayliu1@andrew.cmu.edu' userkey='1595132853 $1$67Amta8Z$AH9sKOlRJIc2i5H0jUDyQ.' userkeyreason='new' userkeytime='1612290501'%0a\ No newline at end of file%0a---%0a> BenP:  $1$0ujnUchC$rba8uNL/W408/2x5.qCnC1 :  useremail='bpavlat@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612290500=72.77.2.32
+author:1612290425=UserAdmin
+csum:1612290425=User account activated
+diff:1612290425:1612290406:=110c110%0a%3c BenP:  $1$0ujnUchC$rba8uNL/W408/2x5.qCnC1 :  useremail='bpavlat@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> BenP:  :  useremail='bpavlat@andrew.cmu.edu' userkey='603548579 $1$0ujnUchC$rba8uNL/W408/2x5.qCnC1' userkeyreason='new' userkeytime='1612290407'%0a\ No newline at end of file%0a
+host:1612290425=73.174.152.59
+author:1612290406=UserAdmin
+csum:1612290406=New user account created; E-mail sent with activation link
+diff:1612290406:1612282183:=109,110c109%0a%3c sarah_t:  $1$0pu8EA3X$.8al8Rx2S6bQC8s/DOnRx0 :  useremail='standean@andrew.cmu.edu'%0a%3c BenP:  :  useremail='bpavlat@andrew.cmu.edu' userkey='603548579 $1$0ujnUchC$rba8uNL/W408/2x5.qCnC1' userkeyreason='new' userkeytime='1612290407'%0a\ No newline at end of file%0a---%0a> sarah_t:  $1$0pu8EA3X$.8al8Rx2S6bQC8s/DOnRx0 :  useremail='standean@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612290406=73.174.152.59
+author:1612282183=UserAdmin
+csum:1612282183=User account activated
+diff:1612282183:1612282167:=109c109%0a%3c sarah_t:  $1$0pu8EA3X$.8al8Rx2S6bQC8s/DOnRx0 :  useremail='standean@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> sarah_t:  :  useremail='standean@andrew.cmu.edu' userkey='1275079856 $1$0pu8EA3X$.8al8Rx2S6bQC8s/DOnRx0' userkeyreason='new' userkeytime='1612282168'%0a\ No newline at end of file%0a
+host:1612282183=73.154.247.63
+author:1612282167=UserAdmin
+csum:1612282167=New user account created; E-mail sent with activation link
+diff:1612282167:1612279913:=108,109c108%0a%3c AlbertL:  $1$xBY7yCTu$xPneUyDEDyJB04dIZKZVE. :  useremail='aylu@andrew.cmu.edu'%0a%3c sarah_t:  :  useremail='standean@andrew.cmu.edu' userkey='1275079856 $1$0pu8EA3X$.8al8Rx2S6bQC8s/DOnRx0' userkeyreason='new' userkeytime='1612282168'%0a\ No newline at end of file%0a---%0a> AlbertL:  $1$xBY7yCTu$xPneUyDEDyJB04dIZKZVE. :  useremail='aylu@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612282167=73.154.247.63
+author:1612279913=UserAdmin
+csum:1612279913=User account activated
+diff:1612279913:1612279868:=108c108%0a%3c AlbertL:  $1$xBY7yCTu$xPneUyDEDyJB04dIZKZVE. :  useremail='aylu@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> AlbertL:  :  useremail='aylu@andrew.cmu.edu' userkey='236247176 $1$xBY7yCTu$xPneUyDEDyJB04dIZKZVE.' userkeyreason='new' userkeytime='1612279868'%0a\ No newline at end of file%0a
+host:1612279913=67.163.151.95
+author:1612279868=UserAdmin
+csum:1612279868=New user account created; E-mail sent with activation link
+diff:1612279868:1612277780:=107,108c107%0a%3c Tahlia_A:  $1$eb9IWjMf$7PZgwXSYlV2eDjEdIh1fc. :  useremail='taltgold@andrew.cmu.edu'%0a%3c AlbertL:  :  useremail='aylu@andrew.cmu.edu' userkey='236247176 $1$xBY7yCTu$xPneUyDEDyJB04dIZKZVE.' userkeyreason='new' userkeytime='1612279868'%0a\ No newline at end of file%0a---%0a> Tahlia_A:  $1$eb9IWjMf$7PZgwXSYlV2eDjEdIh1fc. :  useremail='taltgold@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612279868=67.163.151.95
+author:1612277780=UserAdmin
+csum:1612277780=User account activated
+diff:1612277780:1612277007:=107c107%0a%3c Tahlia_A:  $1$eb9IWjMf$7PZgwXSYlV2eDjEdIh1fc. :  useremail='taltgold@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Tahlia_A:  :  useremail='taltgold@andrew.cmu.edu' userkey='687758182 $1$eb9IWjMf$7PZgwXSYlV2eDjEdIh1fc.' userkeyreason='new' userkeytime='1612277007'%0a\ No newline at end of file%0a
+host:1612277780=128.237.82.2
+author:1612277007=UserAdmin
+csum:1612277007=New user account created; E-mail sent with activation link
+diff:1612277007:1612275973:=106,107c106%0a%3c SubhasishM:  $1$i.V3cjlh$dr/TxGef/5qWni2rbEIe91 :  useremail='subhasim@andrew.cmu.edu'%0a%3c Tahlia_A:  :  useremail='taltgold@andrew.cmu.edu' userkey='687758182 $1$eb9IWjMf$7PZgwXSYlV2eDjEdIh1fc.' userkeyreason='new' userkeytime='1612277007'%0a\ No newline at end of file%0a---%0a> SubhasishM:  $1$i.V3cjlh$dr/TxGef/5qWni2rbEIe91 :  useremail='subhasim@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612277007=128.237.82.2
+author:1612275973=UserAdmin
+csum:1612275973=User account activated
+diff:1612275973:1612275953:=106c106%0a%3c SubhasishM:  $1$i.V3cjlh$dr/TxGef/5qWni2rbEIe91 :  useremail='subhasim@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> SubhasishM:  :  useremail='subhasim@andrew.cmu.edu' userkey='115877813 $1$i.V3cjlh$dr/TxGef/5qWni2rbEIe91' userkeyreason='new' userkeytime='1612275953'%0a\ No newline at end of file%0a
+host:1612275973=173.63.125.113
+author:1612275953=UserAdmin
+csum:1612275953=New user account created; E-mail sent with activation link
+diff:1612275953:1612274050:=105,106c105%0a%3c tylerd:  $1$qfbQV3qx$783Oh2z687wiYJB/sJC0I/ :  useremail='tduic@andrew.cmu.edu'%0a%3c SubhasishM:  :  useremail='subhasim@andrew.cmu.edu' userkey='115877813 $1$i.V3cjlh$dr/TxGef/5qWni2rbEIe91' userkeyreason='new' userkeytime='1612275953'%0a\ No newline at end of file%0a---%0a> tylerd:  $1$qfbQV3qx$783Oh2z687wiYJB/sJC0I/ :  useremail='tduic@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612275953=173.63.125.113
+author:1612274050=UserAdmin
+csum:1612274050=User account activated
+diff:1612274050:1612273961:=105c105%0a%3c tylerd:  $1$qfbQV3qx$783Oh2z687wiYJB/sJC0I/ :  useremail='tduic@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> tylerd:  :  useremail='tduic@andrew.cmu.edu' userkey='418418566 $1$qfbQV3qx$783Oh2z687wiYJB/sJC0I/' userkeyreason='new' userkeytime='1612273961'%0a\ No newline at end of file%0a
+host:1612274050=100.6.52.44
+author:1612273961=UserAdmin
+csum:1612273961=New user account created; E-mail sent with activation link
+diff:1612273961:1612260036:=104,105c104%0a%3c EthanW:  $1$TkGko2GH$tSLe0azKC3Vx34yyiUxlJ/ :  useremail='yongyiw@andrew.cmu.edu'%0a%3c tylerd:  :  useremail='tduic@andrew.cmu.edu' userkey='418418566 $1$qfbQV3qx$783Oh2z687wiYJB/sJC0I/' userkeyreason='new' userkeytime='1612273961'%0a\ No newline at end of file%0a---%0a> EthanW:  $1$TkGko2GH$tSLe0azKC3Vx34yyiUxlJ/ :  useremail='yongyiw@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612273961=100.6.52.44
+author:1612260036=UserAdmin
+csum:1612260036=User account activated
+diff:1612260036:1612260016:=104c104%0a%3c EthanW:  $1$TkGko2GH$tSLe0azKC3Vx34yyiUxlJ/ :  useremail='yongyiw@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> EthanW:  :  useremail='yongyiw@andrew.cmu.edu' userkey='1512640555 $1$TkGko2GH$tSLe0azKC3Vx34yyiUxlJ/' userkeyreason='new' userkeytime='1612260017'%0a\ No newline at end of file%0a
+host:1612260036=103.125.234.14
+author:1612260016=UserAdmin
+csum:1612260016=New user account created; E-mail sent with activation link
+diff:1612260016:1612253878:=103,104c103%0a%3c Mingkang_L:  $1$adzCiFSA$Kk9fhf6Trz9LrdEMmCEkC0 :  useremail='mingkanl@andrew.cmu.edu'%0a%3c EthanW:  :  useremail='yongyiw@andrew.cmu.edu' userkey='1512640555 $1$TkGko2GH$tSLe0azKC3Vx34yyiUxlJ/' userkeyreason='new' userkeytime='1612260017'%0a\ No newline at end of file%0a---%0a> Mingkang_L:  $1$adzCiFSA$Kk9fhf6Trz9LrdEMmCEkC0 :  useremail='mingkanl@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612260016=103.125.234.14
+author:1612253878=UserAdmin
+csum:1612253878=User account activated
+diff:1612253878:1612253813:=103c103%0a%3c Mingkang_L:  $1$adzCiFSA$Kk9fhf6Trz9LrdEMmCEkC0 :  useremail='mingkanl@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Mingkang_L:  :  useremail='mingkanl@andrew.cmu.edu' userkey='1174612716 $1$adzCiFSA$Kk9fhf6Trz9LrdEMmCEkC0' userkeyreason='new' userkeytime='1612253813'%0a\ No newline at end of file%0a
+host:1612253878=8.210.104.90
+author:1612253813=UserAdmin
+csum:1612253813=New user account created; E-mail sent with activation link
+diff:1612253813:1612250423:=102,103c102%0a%3c sathyas:  $1$SXkvn.6F$tBDMU8DTp9E3nS.EJPNiD. :  useremail='sathyas@andrew.cmu.edu'%0a%3c Mingkang_L:  :  useremail='mingkanl@andrew.cmu.edu' userkey='1174612716 $1$adzCiFSA$Kk9fhf6Trz9LrdEMmCEkC0' userkeyreason='new' userkeytime='1612253813'%0a\ No newline at end of file%0a---%0a> sathyas:  $1$SXkvn.6F$tBDMU8DTp9E3nS.EJPNiD. :  useremail='sathyas@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612253813=8.210.104.90
+author:1612250423=UserAdmin
+csum:1612250423=User account activated
+diff:1612250423:1612250397:=102c102%0a%3c sathyas:  $1$SXkvn.6F$tBDMU8DTp9E3nS.EJPNiD. :  useremail='sathyas@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> sathyas:  :  useremail='sathyas@andrew.cmu.edu' userkey='604224656 $1$SXkvn.6F$tBDMU8DTp9E3nS.EJPNiD.' userkeyreason='new' userkeytime='1612250398'%0a\ No newline at end of file%0a
+host:1612250423=71.206.247.117
+author:1612250397=UserAdmin
+csum:1612250397=New user account created; E-mail sent with activation link
+diff:1612250397:1612249800:=101,102c101%0a%3c AlexanderW:  $1$kV/E3dxT$3MRdF65C.4ASZnAhNHwwY/ :  useremail='alex08.lw@gmail.com'%0a%3c sathyas:  :  useremail='sathyas@andrew.cmu.edu' userkey='604224656 $1$SXkvn.6F$tBDMU8DTp9E3nS.EJPNiD.' userkeyreason='new' userkeytime='1612250398'%0a\ No newline at end of file%0a---%0a> AlexanderW:  $1$kV/E3dxT$3MRdF65C.4ASZnAhNHwwY/ :  useremail='alex08.lw@gmail.com'%0a\ No newline at end of file%0a
+host:1612250397=71.206.247.117
+author:1612249800=UserAdmin
+csum:1612249800=User account activated
+diff:1612249800:1612249785:=101c101%0a%3c AlexanderW:  $1$kV/E3dxT$3MRdF65C.4ASZnAhNHwwY/ :  useremail='alex08.lw@gmail.com'%0a\ No newline at end of file%0a---%0a> AlexanderW:  :  useremail='alex08.lw@gmail.com' userkey='1975377000 $1$kV/E3dxT$3MRdF65C.4ASZnAhNHwwY/' userkeyreason='new' userkeytime='1612249786'%0a\ No newline at end of file%0a
+host:1612249800=73.66.176.229
+author:1612249785=UserAdmin
+csum:1612249785=New user account created; E-mail sent with activation link
+diff:1612249785:1612249764:=100,101c100%0a%3c xiranw:  $1$a/LAKFa4$I9nOL3LrMDIr8SqKdj5gl/ :  useremail='xiranw@andrew.cmu.edu'%0a%3c AlexanderW:  :  useremail='alex08.lw@gmail.com' userkey='1975377000 $1$kV/E3dxT$3MRdF65C.4ASZnAhNHwwY/' userkeyreason='new' userkeytime='1612249786'%0a\ No newline at end of file%0a---%0a> xiranw:  $1$a/LAKFa4$I9nOL3LrMDIr8SqKdj5gl/ :  useremail='xiranw@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612249785=73.66.176.229
+author:1612249764=UserAdmin
+csum:1612249764=User account activated
+diff:1612249764:1612249749:=100c100%0a%3c xiranw:  $1$a/LAKFa4$I9nOL3LrMDIr8SqKdj5gl/ :  useremail='xiranw@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> xiranw:  :  useremail='xiranw@andrew.cmu.edu' userkey='2122928414 $1$a/LAKFa4$I9nOL3LrMDIr8SqKdj5gl/' userkeyreason='new' userkeytime='1612249750'%0a\ No newline at end of file%0a
+host:1612249764=66.27.77.226
+author:1612249749=UserAdmin
+csum:1612249749=New user account created; E-mail sent with activation link
+diff:1612249749:1612248130:=99,100c99%0a%3c deepayan_p:  $1$atKv1IUJ$eBmh6RErU742uIRXWT0LV/ :  useremail='dpatra@andrew.cmu.edu'%0a%3c xiranw:  :  useremail='xiranw@andrew.cmu.edu' userkey='2122928414 $1$a/LAKFa4$I9nOL3LrMDIr8SqKdj5gl/' userkeyreason='new' userkeytime='1612249750'%0a\ No newline at end of file%0a---%0a> deepayan_p:  $1$atKv1IUJ$eBmh6RErU742uIRXWT0LV/ :  useremail='dpatra@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612249749=66.27.77.226
+author:1612248130=UserAdmin
+csum:1612248130=User password set
+diff:1612248130:1612247938:=99c99%0a%3c deepayan_p:  $1$atKv1IUJ$eBmh6RErU742uIRXWT0LV/ :  useremail='dpatra@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> deepayan_p:  $1$L2pQNWgZ$G1QUwzA2FYztYxs8mGtiH/ :  useremail='dpatra@andrew.cmu.edu' userkey='1566445989' userkeyreason='resetpasswd' userkeytime='1612247939'%0a\ No newline at end of file%0a
+host:1612248130=24.154.249.85
+author:1612247938=UserAdmin
+csum:1612247938=Password reset link sent to user&#039;s e-mail address
+diff:1612247938:1612247671:=99c99%0a%3c deepayan_p:  $1$L2pQNWgZ$G1QUwzA2FYztYxs8mGtiH/ :  useremail='dpatra@andrew.cmu.edu' userkey='1566445989' userkeyreason='resetpasswd' userkeytime='1612247939'%0a\ No newline at end of file%0a---%0a> deepayan_p:  $1$L2pQNWgZ$G1QUwzA2FYztYxs8mGtiH/ :  useremail='dpatra@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612247938=24.154.249.85
+author:1612247671=UserAdmin
+csum:1612247671=User account activated
+diff:1612247671:1612247538:=99c99%0a%3c deepayan_p:  $1$L2pQNWgZ$G1QUwzA2FYztYxs8mGtiH/ :  useremail='dpatra@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> deepayan_p:  :  useremail='dpatra@andrew.cmu.edu' userkey='1515618655 $1$L2pQNWgZ$G1QUwzA2FYztYxs8mGtiH/' userkeyreason='new' userkeytime='1612247539'%0a\ No newline at end of file%0a
+host:1612247671=24.154.249.85
+author:1612247538=UserAdmin
+csum:1612247538=New user account created; E-mail sent with activation link
+diff:1612247538:1612246430:=98,99c98%0a%3c Abi_S:  $1$VTuWNv08$5eoXyVlHO8u8Hkk.ZWvKI1 :  useremail='asivatha@andrew.cmu.edu'%0a%3c deepayan_p:  :  useremail='dpatra@andrew.cmu.edu' userkey='1515618655 $1$L2pQNWgZ$G1QUwzA2FYztYxs8mGtiH/' userkeyreason='new' userkeytime='1612247539'%0a\ No newline at end of file%0a---%0a> Abi_S:  $1$VTuWNv08$5eoXyVlHO8u8Hkk.ZWvKI1 :  useremail='asivatha@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612247538=24.154.249.85
+author:1612246430=UserAdmin
+csum:1612246430=User account activated
+diff:1612246430:1612246405:=98c98%0a%3c Abi_S:  $1$VTuWNv08$5eoXyVlHO8u8Hkk.ZWvKI1 :  useremail='asivatha@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Abi_S:  :  useremail='asivatha@andrew.cmu.edu' userkey='1223510341 $1$VTuWNv08$5eoXyVlHO8u8Hkk.ZWvKI1' userkeyreason='new' userkeytime='1612246406'%0a\ No newline at end of file%0a
+host:1612246430=24.131.226.77
+author:1612246405=UserAdmin
+csum:1612246405=New user account created; E-mail sent with activation link
+diff:1612246405:1612246256:=97,98c97%0a%3c ZoeC:  $1$JhMU0raq$jrE53r.HgS8vqcRDn/oDT1 :  useremail='zchessa@andrew.cmu.edu'%0a%3c Abi_S:  :  useremail='asivatha@andrew.cmu.edu' userkey='1223510341 $1$VTuWNv08$5eoXyVlHO8u8Hkk.ZWvKI1' userkeyreason='new' userkeytime='1612246406'%0a\ No newline at end of file%0a---%0a> ZoeC:  $1$JhMU0raq$jrE53r.HgS8vqcRDn/oDT1 :  useremail='zchessa@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612246405=24.131.226.77
+author:1612246256=UserAdmin
+csum:1612246256=User account activated
+diff:1612246256:1612246244:=97c97%0a%3c ZoeC:  $1$JhMU0raq$jrE53r.HgS8vqcRDn/oDT1 :  useremail='zchessa@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ZoeC:  :  useremail='zchessa@andrew.cmu.edu' userkey='1676249228 $1$JhMU0raq$jrE53r.HgS8vqcRDn/oDT1' userkeyreason='new' userkeytime='1612246245'%0a\ No newline at end of file%0a
+host:1612246256=71.206.237.79
+author:1612246244=UserAdmin
+csum:1612246244=New user account created; E-mail sent with activation link
+diff:1612246244:1612243586:=96,97c96%0a%3c rachelc:  $1$i7mH8B1n$BL3tGo1ToC5ocnASWHAv31 :  useremail='rcleavel@andrew.cmu.edu'%0a%3c ZoeC:  :  useremail='zchessa@andrew.cmu.edu' userkey='1676249228 $1$JhMU0raq$jrE53r.HgS8vqcRDn/oDT1' userkeyreason='new' userkeytime='1612246245'%0a\ No newline at end of file%0a---%0a> rachelc:  $1$i7mH8B1n$BL3tGo1ToC5ocnASWHAv31 :  useremail='rcleavel@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612246244=71.206.237.79
+author:1612243586=UserAdmin
+csum:1612243586=User account activated
+diff:1612243586:1612243569:=96c96%0a%3c rachelc:  $1$i7mH8B1n$BL3tGo1ToC5ocnASWHAv31 :  useremail='rcleavel@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> rachelc:  :  useremail='rcleavel@andrew.cmu.edu' userkey='1431435797 $1$i7mH8B1n$BL3tGo1ToC5ocnASWHAv31' userkeyreason='new' userkeytime='1612243570'%0a\ No newline at end of file%0a
+host:1612243586=73.154.130.26
+author:1612243569=UserAdmin
+csum:1612243569=New user account created; E-mail sent with activation link
+diff:1612243569:1612240878:=95,96c95%0a%3c shreya_r:  $1$tmtuwYAv$DvxGz6FE2KaF0qhbNJRYf1 :  useremail='sraghura@andrew.cmu.edu'%0a%3c rachelc:  :  useremail='rcleavel@andrew.cmu.edu' userkey='1431435797 $1$i7mH8B1n$BL3tGo1ToC5ocnASWHAv31' userkeyreason='new' userkeytime='1612243570'%0a\ No newline at end of file%0a---%0a> shreya_r:  $1$tmtuwYAv$DvxGz6FE2KaF0qhbNJRYf1 :  useremail='sraghura@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612243569=73.154.130.26
+author:1612240878=UserAdmin
+csum:1612240878=User account activated
+diff:1612240878:1612240867:=95c95%0a%3c shreya_r:  $1$tmtuwYAv$DvxGz6FE2KaF0qhbNJRYf1 :  useremail='sraghura@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> shreya_r:  :  useremail='sraghura@andrew.cmu.edu' userkey='287365300 $1$tmtuwYAv$DvxGz6FE2KaF0qhbNJRYf1' userkeyreason='new' userkeytime='1612240867'%0a\ No newline at end of file%0a
+host:1612240878=128.237.82.1
+author:1612240867=UserAdmin
+csum:1612240867=New user account created; E-mail sent with activation link
+diff:1612240867:1612239968:=94,95c94%0a%3c jnflores:  $1$cViRyINR$Gwa5jJ.IojRB8kpTmD8np0 :  useremail='jnflores@andrew.cmu.edu'%0a%3c shreya_r:  :  useremail='sraghura@andrew.cmu.edu' userkey='287365300 $1$tmtuwYAv$DvxGz6FE2KaF0qhbNJRYf1' userkeyreason='new' userkeytime='1612240867'%0a\ No newline at end of file%0a---%0a> jnflores:  $1$cViRyINR$Gwa5jJ.IojRB8kpTmD8np0 :  useremail='jnflores@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612240867=128.237.82.1
+author:1612239968=UserAdmin
+csum:1612239968=User account activated
+diff:1612239968:1612239953:=94c94%0a%3c jnflores:  $1$cViRyINR$Gwa5jJ.IojRB8kpTmD8np0 :  useremail='jnflores@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> jnflores:  :  useremail='jnflores@andrew.cmu.edu' userkey='1991006431 $1$cViRyINR$Gwa5jJ.IojRB8kpTmD8np0' userkeyreason='new' userkeytime='1612239953'%0a\ No newline at end of file%0a
+host:1612239968=24.126.52.178
+author:1612239953=UserAdmin
+csum:1612239953=New user account created; E-mail sent with activation link
+diff:1612239953:1612239632:=93,94c93%0a%3c ayush_d:  $1$ireLYFIf$F5SCwPDut0Ws5lwJ0YcF8. :  useremail='ayushd@andrew.cmu.edu'%0a%3c jnflores:  :  useremail='jnflores@andrew.cmu.edu' userkey='1991006431 $1$cViRyINR$Gwa5jJ.IojRB8kpTmD8np0' userkeyreason='new' userkeytime='1612239953'%0a\ No newline at end of file%0a---%0a> ayush_d:  $1$ireLYFIf$F5SCwPDut0Ws5lwJ0YcF8. :  useremail='ayushd@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612239953=24.126.52.178
+author:1612239632=UserAdmin
+csum:1612239632=User account activated
+diff:1612239632:1612239616:=93c93%0a%3c ayush_d:  $1$ireLYFIf$F5SCwPDut0Ws5lwJ0YcF8. :  useremail='ayushd@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ayush_d:  :  useremail='ayushd@andrew.cmu.edu' userkey='2026860309 $1$ireLYFIf$F5SCwPDut0Ws5lwJ0YcF8.' userkeyreason='new' userkeytime='1612239617'%0a\ No newline at end of file%0a
+host:1612239632=128.237.82.2
+author:1612239616=UserAdmin
+csum:1612239616=New user account created; E-mail sent with activation link
+diff:1612239616:1612239530:=92,93c92%0a%3c Thomas_H_K:  $1$W.a8Muoq$GmoC6dZBE2P/YDJ3JxoKD. :  useremail='thortonk@andrew.cmu.edu'%0a%3c ayush_d:  :  useremail='ayushd@andrew.cmu.edu' userkey='2026860309 $1$ireLYFIf$F5SCwPDut0Ws5lwJ0YcF8.' userkeyreason='new' userkeytime='1612239617'%0a\ No newline at end of file%0a---%0a> Thomas_H_K:  $1$W.a8Muoq$GmoC6dZBE2P/YDJ3JxoKD. :  useremail='thortonk@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612239616=128.237.82.2
+author:1612239530=UserAdmin
+csum:1612239530=User account activated
+diff:1612239530:1612239516:=92c92%0a%3c Thomas_H_K:  $1$W.a8Muoq$GmoC6dZBE2P/YDJ3JxoKD. :  useremail='thortonk@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Thomas_H_K:  :  useremail='thortonk@andrew.cmu.edu' userkey='2017001547 $1$W.a8Muoq$GmoC6dZBE2P/YDJ3JxoKD.' userkeyreason='new' userkeytime='1612239516'%0a\ No newline at end of file%0a
+host:1612239530=73.174.153.100
+author:1612239516=UserAdmin
+csum:1612239516=New user account created; E-mail sent with activation link
+diff:1612239516:1612238640:=91,92c91%0a%3c NathanW:  $1$75xlhlWR$bnWQWCGz1gBUk9LNuMK3d0 :  useremail='njwalker@andrew.cmu.edu'%0a%3c Thomas_H_K:  :  useremail='thortonk@andrew.cmu.edu' userkey='2017001547 $1$W.a8Muoq$GmoC6dZBE2P/YDJ3JxoKD.' userkeyreason='new' userkeytime='1612239516'%0a\ No newline at end of file%0a---%0a> NathanW:  $1$75xlhlWR$bnWQWCGz1gBUk9LNuMK3d0 :  useremail='njwalker@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612239516=73.174.153.100
+author:1612238640=UserAdmin
+csum:1612238640=User account activated
+diff:1612238640:1612238628:=91c91%0a%3c NathanW:  $1$75xlhlWR$bnWQWCGz1gBUk9LNuMK3d0 :  useremail='njwalker@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> NathanW:  :  useremail='njwalker@andrew.cmu.edu' userkey='1792672449 $1$75xlhlWR$bnWQWCGz1gBUk9LNuMK3d0' userkeyreason='new' userkeytime='1612238629'%0a\ No newline at end of file%0a
+host:1612238640=72.95.246.208
+author:1612238628=UserAdmin
+csum:1612238628=New user account created; E-mail sent with activation link
+diff:1612238628:1612237908:=90,91c90%0a%3c gabrielz:  $1$3kSnh8wz$0IdMsrU7yNLEuqeNwJYDT0 :  useremail='gzaragoz@andrew.cmu.edu'%0a%3c NathanW:  :  useremail='njwalker@andrew.cmu.edu' userkey='1792672449 $1$75xlhlWR$bnWQWCGz1gBUk9LNuMK3d0' userkeyreason='new' userkeytime='1612238629'%0a\ No newline at end of file%0a---%0a> gabrielz:  $1$3kSnh8wz$0IdMsrU7yNLEuqeNwJYDT0 :  useremail='gzaragoz@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612238628=72.95.246.208
+author:1612237908=UserAdmin
+csum:1612237908=User account activated
+diff:1612237908:1612237877:=90c90%0a%3c gabrielz:  $1$3kSnh8wz$0IdMsrU7yNLEuqeNwJYDT0 :  useremail='gzaragoz@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> gabrielz:  :  useremail='gzaragoz@andrew.cmu.edu' userkey='1084076451 $1$3kSnh8wz$0IdMsrU7yNLEuqeNwJYDT0' userkeyreason='new' userkeytime='1612237877'%0a\ No newline at end of file%0a
+host:1612237908=24.131.18.47
+author:1612237877=UserAdmin
+csum:1612237877=New user account created; E-mail sent with activation link
+diff:1612237877:1612237422:=89,90c89%0a%3c ll223:  $1$Nf.IUUc2$G7mUKrq3wKDpXJc8Hw/Bb/ :  useremail='ljyao@andrew.cmu.edu'%0a%3c gabrielz:  :  useremail='gzaragoz@andrew.cmu.edu' userkey='1084076451 $1$3kSnh8wz$0IdMsrU7yNLEuqeNwJYDT0' userkeyreason='new' userkeytime='1612237877'%0a\ No newline at end of file%0a---%0a> ll223:  $1$Nf.IUUc2$G7mUKrq3wKDpXJc8Hw/Bb/ :  useremail='ljyao@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612237877=24.131.18.47
+author:1612237422=UserAdmin
+csum:1612237422=User account activated
+diff:1612237422:1612237410:=89c89%0a%3c ll223:  $1$Nf.IUUc2$G7mUKrq3wKDpXJc8Hw/Bb/ :  useremail='ljyao@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ll223:  :  useremail='ljyao@andrew.cmu.edu' userkey='1733679153 $1$Nf.IUUc2$G7mUKrq3wKDpXJc8Hw/Bb/' userkeyreason='new' userkeytime='1612237410'%0a\ No newline at end of file%0a
+host:1612237422=128.237.82.2
+author:1612237410=UserAdmin
+csum:1612237410=New user account created; E-mail sent with activation link
+diff:1612237410:1612235999:=88,89c88%0a%3c abbyl:  $1$IDwam.Lz$y0n./12gBnZrTK.aR0Zql0 :  useremail='abigail2@andrew.cmu.edu'%0a%3c ll223:  :  useremail='ljyao@andrew.cmu.edu' userkey='1733679153 $1$Nf.IUUc2$G7mUKrq3wKDpXJc8Hw/Bb/' userkeyreason='new' userkeytime='1612237410'%0a\ No newline at end of file%0a---%0a> abbyl:  $1$IDwam.Lz$y0n./12gBnZrTK.aR0Zql0 :  useremail='abigail2@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612237410=128.237.82.2
+author:1612235999=UserAdmin
+csum:1612235999=User account activated
+diff:1612235999:1612235985:=88c88%0a%3c abbyl:  $1$IDwam.Lz$y0n./12gBnZrTK.aR0Zql0 :  useremail='abigail2@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> abbyl:  :  useremail='abigail2@andrew.cmu.edu' userkey='95389340 $1$IDwam.Lz$y0n./12gBnZrTK.aR0Zql0' userkeyreason='new' userkeytime='1612235986'%0a\ No newline at end of file%0a
+host:1612235999=24.17.178.107
+author:1612235985=UserAdmin
+csum:1612235985=New user account created; E-mail sent with activation link
+diff:1612235985:1612234818:=87,88c87%0a%3c TongH:  $1$v2BLZwHf$8te8o/xQtAsB/jo4.t89Y0 :  useremail='tongh@andrew.cmu.edu'%0a%3c abbyl:  :  useremail='abigail2@andrew.cmu.edu' userkey='95389340 $1$IDwam.Lz$y0n./12gBnZrTK.aR0Zql0' userkeyreason='new' userkeytime='1612235986'%0a\ No newline at end of file%0a---%0a> TongH:  $1$v2BLZwHf$8te8o/xQtAsB/jo4.t89Y0 :  useremail='tongh@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612235985=24.17.178.107
+author:1612234818=UserAdmin
+csum:1612234818=User account activated
+diff:1612234818:1612234778:=87c87%0a%3c TongH:  $1$v2BLZwHf$8te8o/xQtAsB/jo4.t89Y0 :  useremail='tongh@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> TongH:  :  useremail='tongh@andrew.cmu.edu' userkey='807910038 $1$v2BLZwHf$8te8o/xQtAsB/jo4.t89Y0' userkeyreason='new' userkeytime='1612234779'%0a\ No newline at end of file%0a
+host:1612234818=129.226.11.157
+author:1612234778=UserAdmin
+csum:1612234778=New user account created; E-mail sent with activation link
+diff:1612234778:1612234652:=86,87c86%0a%3c JasonE:  $1$fSX66gYO$B7QL/PDO6zy0Jx9ZZvzSN/ :  useremail='jedmunds@andrew.cmu.edu'%0a%3c TongH:  :  useremail='tongh@andrew.cmu.edu' userkey='807910038 $1$v2BLZwHf$8te8o/xQtAsB/jo4.t89Y0' userkeyreason='new' userkeytime='1612234779'%0a\ No newline at end of file%0a---%0a> JasonE:  $1$fSX66gYO$B7QL/PDO6zy0Jx9ZZvzSN/ :  useremail='jedmunds@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612234778=129.226.11.157
+author:1612234652=UserAdmin
+csum:1612234652=User account activated
+diff:1612234652:1612234568:=86c86%0a%3c JasonE:  $1$fSX66gYO$B7QL/PDO6zy0Jx9ZZvzSN/ :  useremail='jedmunds@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> JasonE:  :  useremail='jedmunds@andrew.cmu.edu' userkey='280695193 $1$fSX66gYO$B7QL/PDO6zy0Jx9ZZvzSN/' userkeyreason='new' userkeytime='1612234569'%0a\ No newline at end of file%0a
+host:1612234652=71.206.239.38
+author:1612234568=UserAdmin
+csum:1612234568=New user account created; E-mail sent with activation link
+diff:1612234568:1612234470:=85,86c85%0a%3c sanjana_m:  $1$8PJPjn6P$ZZuJoAdF8XxVoBE4/VgHh1 :  useremail='smeduri2@andrew.cmu.edu'%0a%3c JasonE:  :  useremail='jedmunds@andrew.cmu.edu' userkey='280695193 $1$fSX66gYO$B7QL/PDO6zy0Jx9ZZvzSN/' userkeyreason='new' userkeytime='1612234569'%0a\ No newline at end of file%0a---%0a> sanjana_m:  $1$8PJPjn6P$ZZuJoAdF8XxVoBE4/VgHh1 :  useremail='smeduri2@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612234568=71.206.239.38
+author:1612234470=UserAdmin
+csum:1612234470=User account activated
+diff:1612234470:1612234105:=85c85%0a%3c sanjana_m:  $1$8PJPjn6P$ZZuJoAdF8XxVoBE4/VgHh1 :  useremail='smeduri2@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> sanjana_m:  :  useremail='smeduri2@andrew.cmu.edu' userkey='1715228540 $1$8PJPjn6P$ZZuJoAdF8XxVoBE4/VgHh1' userkeyreason='new' userkeytime='1612234023'%0a\ No newline at end of file%0a
+host:1612234470=128.237.82.1
+author:1612234105=UserAdmin
+csum:1612234105=User password set
+diff:1612234105:1612234021:=82c82%0a%3c sebastiang:  $1$4fVzDX0B$MA1hrBl51lvikPCCy24mm/ :  useremail='sjg2@andrew.cmu.edu'%0a---%0a> sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='76917585' userkeyreason='resetpasswd' userkeytime='1612233488'%0a
+host:1612234105=128.237.82.2
+author:1612234021=UserAdmin
+csum:1612234021=New user account created; E-mail sent with activation link
+diff:1612234021:1612233576:=84,85c84%0a%3c saumyaB:  $1$wTXnEqBU$.poZe2fvu.5pV6wvMeSeY1 :  useremail='ssbhanda@andrew.cmu.edu'%0a%3c sanjana_m:  :  useremail='smeduri2@andrew.cmu.edu' userkey='1715228540 $1$8PJPjn6P$ZZuJoAdF8XxVoBE4/VgHh1' userkeyreason='new' userkeytime='1612234023'%0a\ No newline at end of file%0a---%0a> saumyaB:  $1$wTXnEqBU$.poZe2fvu.5pV6wvMeSeY1 :  useremail='ssbhanda@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612234021=128.237.82.1
+author:1612233576=UserAdmin
+csum:1612233576=User account activated
+diff:1612233576:1612233487:=83c83%0a%3c roochis:  $1$dNYdd/mc$PDSBIvQyLxQT0UEUwljHb/ :  useremail='rtshah@andrew.cmu.edu'%0a---%0a> roochis:  :  useremail='rtshah@andrew.cmu.edu' userkey='317979769 $1$dNYdd/mc$PDSBIvQyLxQT0UEUwljHb/' userkeyreason='new' userkeytime='1612233361'%0a
+host:1612233576=73.45.110.132
+author:1612233487=UserAdmin
+csum:1612233487=Password reset link sent to user&#039;s e-mail address
+diff:1612233487:1612233428:=82c82%0a%3c sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='76917585' userkeyreason='resetpasswd' userkeytime='1612233488'%0a---%0a> sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='1403889812' userkeyreason='resetpasswd' userkeytime='1612233407'%0a
+host:1612233487=128.237.82.2
+author:1612233428=UserAdmin
+csum:1612233428=User account activated
+diff:1612233428:1612233406:=84c84%0a%3c saumyaB:  $1$wTXnEqBU$.poZe2fvu.5pV6wvMeSeY1 :  useremail='ssbhanda@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> saumyaB:  :  useremail='ssbhanda@andrew.cmu.edu' userkey='1839527788 $1$wTXnEqBU$.poZe2fvu.5pV6wvMeSeY1' userkeyreason='new' userkeytime='1612233379'%0a\ No newline at end of file%0a
+host:1612233428=128.237.82.2
+author:1612233406=UserAdmin
+csum:1612233406=Password reset link sent to user&#039;s e-mail address
+diff:1612233406:1612233379:=82c82%0a%3c sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='1403889812' userkeyreason='resetpasswd' userkeytime='1612233407'%0a---%0a> sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='862066781 $1$1Lnwz/6W$RuzkNDJBsV.sfL.GB2hAZ/' userkeyreason='new' userkeytime='1612233268'%0a
+host:1612233406=128.237.82.2
+author:1612233379=UserAdmin
+csum:1612233379=New user account created; E-mail sent with activation link
+diff:1612233379:1612233360:=83,84c83%0a%3c roochis:  :  useremail='rtshah@andrew.cmu.edu' userkey='317979769 $1$dNYdd/mc$PDSBIvQyLxQT0UEUwljHb/' userkeyreason='new' userkeytime='1612233361'%0a%3c saumyaB:  :  useremail='ssbhanda@andrew.cmu.edu' userkey='1839527788 $1$wTXnEqBU$.poZe2fvu.5pV6wvMeSeY1' userkeyreason='new' userkeytime='1612233379'%0a\ No newline at end of file%0a---%0a> roochis:  :  useremail='rtshah@andrew.cmu.edu' userkey='317979769 $1$dNYdd/mc$PDSBIvQyLxQT0UEUwljHb/' userkeyreason='new' userkeytime='1612233361'%0a\ No newline at end of file%0a
+host:1612233379=128.237.82.2
+author:1612233360=UserAdmin
+csum:1612233360=New user account created; E-mail sent with activation link
+diff:1612233360:1612233267:=82,83c82%0a%3c sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='862066781 $1$1Lnwz/6W$RuzkNDJBsV.sfL.GB2hAZ/' userkeyreason='new' userkeytime='1612233268'%0a%3c roochis:  :  useremail='rtshah@andrew.cmu.edu' userkey='317979769 $1$dNYdd/mc$PDSBIvQyLxQT0UEUwljHb/' userkeyreason='new' userkeytime='1612233361'%0a\ No newline at end of file%0a---%0a> sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='862066781 $1$1Lnwz/6W$RuzkNDJBsV.sfL.GB2hAZ/' userkeyreason='new' userkeytime='1612233268'%0a\ No newline at end of file%0a
+host:1612233360=73.45.110.132
+author:1612233267=UserAdmin
+csum:1612233267=New user account created; E-mail sent with activation link
+diff:1612233267:1612233032:=81,82c81%0a%3c ShahinC:  $1$d7GfVMMQ$NXR03YdL9S425KkEh42EQ1 :  useremail='shahinc@andrew.cmu.edu'%0a%3c sebastiang:  :  useremail='sjg2@andrew.cmu.edu' userkey='862066781 $1$1Lnwz/6W$RuzkNDJBsV.sfL.GB2hAZ/' userkeyreason='new' userkeytime='1612233268'%0a\ No newline at end of file%0a---%0a> ShahinC:  $1$d7GfVMMQ$NXR03YdL9S425KkEh42EQ1 :  useremail='shahinc@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612233267=128.237.82.2
+author:1612233032=UserAdmin
+csum:1612233032=User account activated
+diff:1612233032:1612232970:=81c81%0a%3c ShahinC:  $1$d7GfVMMQ$NXR03YdL9S425KkEh42EQ1 :  useremail='shahinc@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ShahinC:  :  useremail='shahinc@andrew.cmu.edu' userkey='810831252 $1$d7GfVMMQ$NXR03YdL9S425KkEh42EQ1' userkeyreason='new' userkeytime='1612232971'%0a\ No newline at end of file%0a
+host:1612233032=73.60.194.7
+author:1612232970=UserAdmin
+csum:1612232970=New user account created; E-mail sent with activation link
+diff:1612232970:1612232387:=80,81c80%0a%3c dannat:  $1$oKpqy.Z1$KST4QUWZ5zt2NfKVdyXkJ1 :  useremail='dannat@andrew.cmu.edu'%0a%3c ShahinC:  :  useremail='shahinc@andrew.cmu.edu' userkey='810831252 $1$d7GfVMMQ$NXR03YdL9S425KkEh42EQ1' userkeyreason='new' userkeytime='1612232971'%0a\ No newline at end of file%0a---%0a> dannat:  $1$oKpqy.Z1$KST4QUWZ5zt2NfKVdyXkJ1 :  useremail='dannat@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612232970=73.60.194.7
+author:1612232387=UserAdmin
+csum:1612232387=User account activated
+diff:1612232387:1612232354:=80c80%0a%3c dannat:  $1$oKpqy.Z1$KST4QUWZ5zt2NfKVdyXkJ1 :  useremail='dannat@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> dannat:  :  useremail='dannat@andrew.cmu.edu' userkey='629229223 $1$oKpqy.Z1$KST4QUWZ5zt2NfKVdyXkJ1' userkeyreason='new' userkeytime='1612232355'%0a\ No newline at end of file%0a
+host:1612232387=97.100.162.52
+author:1612232354=UserAdmin
+csum:1612232354=New user account created; E-mail sent with activation link
+diff:1612232354:1612229548:=79,80c79%0a%3c chester_g:  $1$L18jt62L$vDkduHFsHDzVwWh06sSqk/ :  useremail='ckglenn@andrew.cmu.edu'%0a%3c dannat:  :  useremail='dannat@andrew.cmu.edu' userkey='629229223 $1$oKpqy.Z1$KST4QUWZ5zt2NfKVdyXkJ1' userkeyreason='new' userkeytime='1612232355'%0a\ No newline at end of file%0a---%0a> chester_g:  $1$L18jt62L$vDkduHFsHDzVwWh06sSqk/ :  useremail='ckglenn@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612232354=97.100.162.52
+author:1612229548=UserAdmin
+csum:1612229548=User account activated
+diff:1612229548:1612229135:=56c56%0a%3c kevinx:  $1$Ydq99uiR$2v6OEkQ5YP6y50dOcxSJm1 :  useremail='kevinx@andrew.cmu.edu'%0a---%0a> kevinx:  :  useremail='kevinx@andrew.cmu.edu' userkey='143555750 $1$Ydq99uiR$2v6OEkQ5YP6y50dOcxSJm1' userkeyreason='new' userkeytime='1612205225'%0a
+host:1612229548=73.154.247.242
+author:1612229135=UserAdmin
+csum:1612229135=User account activated
+diff:1612229135:1612229103:=79c79%0a%3c chester_g:  $1$L18jt62L$vDkduHFsHDzVwWh06sSqk/ :  useremail='ckglenn@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> chester_g:  :  useremail='ckglenn@andrew.cmu.edu' userkey='1849895832 $1$L18jt62L$vDkduHFsHDzVwWh06sSqk/' userkeyreason='new' userkeytime='1612229103'%0a\ No newline at end of file%0a
+host:1612229135=71.206.239.38
+author:1612229103=UserAdmin
+csum:1612229103=New user account created; E-mail sent with activation link
+diff:1612229103:1612228150:=78,79c78%0a%3c Connor_G:  $1$KKWnJ5kp$Dk6yFJSiCWujjK7DcQSKG1 :  useremail='crgordon@andrew.cmu.edu'%0a%3c chester_g:  :  useremail='ckglenn@andrew.cmu.edu' userkey='1849895832 $1$L18jt62L$vDkduHFsHDzVwWh06sSqk/' userkeyreason='new' userkeytime='1612229103'%0a\ No newline at end of file%0a---%0a> Connor_G:  $1$KKWnJ5kp$Dk6yFJSiCWujjK7DcQSKG1 :  useremail='crgordon@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612229103=71.206.239.38
+author:1612228150=UserAdmin
+csum:1612228150=User account activated
+diff:1612228150:1612228037:=78c78%0a%3c Connor_G:  $1$KKWnJ5kp$Dk6yFJSiCWujjK7DcQSKG1 :  useremail='crgordon@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Connor_G:  :  useremail='crgordon@andrew.cmu.edu' userkey='445113156 $1$KKWnJ5kp$Dk6yFJSiCWujjK7DcQSKG1' userkeyreason='new' userkeytime='1612228038'%0a\ No newline at end of file%0a
+host:1612228150=24.131.18.47
+author:1612228037=UserAdmin
+csum:1612228037=New user account created; E-mail sent with activation link
+diff:1612228037:1612227762:=77,78c77%0a%3c angelaw:  $1$GIr2T351$MsPgd1rUlkDyvSH23Pfd41 :  useremail='aywei@andrew.cmu.edu'%0a%3c Connor_G:  :  useremail='crgordon@andrew.cmu.edu' userkey='445113156 $1$KKWnJ5kp$Dk6yFJSiCWujjK7DcQSKG1' userkeyreason='new' userkeytime='1612228038'%0a\ No newline at end of file%0a---%0a> angelaw:  $1$GIr2T351$MsPgd1rUlkDyvSH23Pfd41 :  useremail='aywei@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612228037=24.131.18.47
+author:1612227762=UserAdmin
+csum:1612227762=User account activated
+diff:1612227762:1612227745:=77c77%0a%3c angelaw:  $1$GIr2T351$MsPgd1rUlkDyvSH23Pfd41 :  useremail='aywei@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> angelaw:  :  useremail='aywei@andrew.cmu.edu' userkey='1699577759 $1$GIr2T351$MsPgd1rUlkDyvSH23Pfd41' userkeyreason='new' userkeytime='1612227746'%0a\ No newline at end of file%0a
+host:1612227762=73.138.180.33
+author:1612227745=UserAdmin
+csum:1612227745=New user account created; E-mail sent with activation link
+diff:1612227745:1612226921:=76,77c76%0a%3c brandonf:  $1$BeixNTs5$98Br4lrY9OYP1Echc45bQ. :  useremail='bfafata@andrew.cmu.edu'%0a%3c angelaw:  :  useremail='aywei@andrew.cmu.edu' userkey='1699577759 $1$GIr2T351$MsPgd1rUlkDyvSH23Pfd41' userkeyreason='new' userkeytime='1612227746'%0a\ No newline at end of file%0a---%0a> brandonf:  $1$BeixNTs5$98Br4lrY9OYP1Echc45bQ. :  useremail='bfafata@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612227745=73.138.180.33
+author:1612226921=UserAdmin
+csum:1612226921=User account activated
+diff:1612226921:1612226831:=76c76%0a%3c brandonf:  $1$BeixNTs5$98Br4lrY9OYP1Echc45bQ. :  useremail='bfafata@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> brandonf:  :  useremail='bfafata@andrew.cmu.edu' userkey='1828958000 $1$BeixNTs5$98Br4lrY9OYP1Echc45bQ.' userkeyreason='new' userkeytime='1612226832'%0a\ No newline at end of file%0a
+host:1612226921=74.98.196.28
+author:1612226831=UserAdmin
+csum:1612226831=New user account created; E-mail sent with activation link
+diff:1612226831:1612226808:=75,76c75%0a%3c bellar:  $1$QPwUBb8Y$O/UnpfcpFIVcQEKmJogVM0 :  useremail='irhee@andrew.cmu.edu'%0a%3c brandonf:  :  useremail='bfafata@andrew.cmu.edu' userkey='1828958000 $1$BeixNTs5$98Br4lrY9OYP1Echc45bQ.' userkeyreason='new' userkeytime='1612226832'%0a\ No newline at end of file%0a---%0a> bellar:  $1$QPwUBb8Y$O/UnpfcpFIVcQEKmJogVM0 :  useremail='irhee@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612226831=74.98.196.28
+author:1612226808=UserAdmin
+csum:1612226808=User account activated
+diff:1612226808:1612226514:=73c73%0a%3c samV:  $1$yqCVi3Vk$Ac7xg.T.jAX.hg61mFB2E0 :  useremail='samcv@cmu.edu'%0a---%0a> samV:  :  useremail='samcv@cmu.edu' userkey='598457296 $1$yqCVi3Vk$Ac7xg.T.jAX.hg61mFB2E0' userkeyreason='new' userkeytime='1612225822'%0a
+host:1612226808=72.95.130.158
+author:1612226514=UserAdmin
+csum:1612226514=User account activated
+diff:1612226514:1612226501:=75c75%0a%3c bellar:  $1$QPwUBb8Y$O/UnpfcpFIVcQEKmJogVM0 :  useremail='irhee@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> bellar:  :  useremail='irhee@andrew.cmu.edu' userkey='1434025013 $1$QPwUBb8Y$O/UnpfcpFIVcQEKmJogVM0' userkeyreason='new' userkeytime='1612226502'%0a\ No newline at end of file%0a
+host:1612226514=128.237.82.2
+author:1612226501=UserAdmin
+csum:1612226501=New user account created; E-mail sent with activation link
+diff:1612226501:1612226137:=74,75c74%0a%3c Russell_E:  $1$nF3SnXqQ$fjg8wWVioYZvg8GQAkQCk. :  useremail='remerine@andrew.cmu.edu'%0a%3c bellar:  :  useremail='irhee@andrew.cmu.edu' userkey='1434025013 $1$QPwUBb8Y$O/UnpfcpFIVcQEKmJogVM0' userkeyreason='new' userkeytime='1612226502'%0a\ No newline at end of file%0a---%0a> Russell_E:  $1$nF3SnXqQ$fjg8wWVioYZvg8GQAkQCk. :  useremail='remerine@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612226501=128.237.82.2
+author:1612226137=UserAdmin
+csum:1612226137=User account activated
+diff:1612226137:1612226011:=74c74%0a%3c Russell_E:  $1$nF3SnXqQ$fjg8wWVioYZvg8GQAkQCk. :  useremail='remerine@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Russell_E:  :  useremail='remerine@andrew.cmu.edu' userkey='114474127 $1$nF3SnXqQ$fjg8wWVioYZvg8GQAkQCk.' userkeyreason='new' userkeytime='1612226012'%0a\ No newline at end of file%0a
+host:1612226137=99.171.140.109
+author:1612226011=UserAdmin
+csum:1612226011=New user account created; E-mail sent with activation link
+diff:1612226011:1612225821:=73,74c73%0a%3c samV:  :  useremail='samcv@cmu.edu' userkey='598457296 $1$yqCVi3Vk$Ac7xg.T.jAX.hg61mFB2E0' userkeyreason='new' userkeytime='1612225822'%0a%3c Russell_E:  :  useremail='remerine@andrew.cmu.edu' userkey='114474127 $1$nF3SnXqQ$fjg8wWVioYZvg8GQAkQCk.' userkeyreason='new' userkeytime='1612226012'%0a\ No newline at end of file%0a---%0a> samV:  :  useremail='samcv@cmu.edu' userkey='598457296 $1$yqCVi3Vk$Ac7xg.T.jAX.hg61mFB2E0' userkeyreason='new' userkeytime='1612225822'%0a\ No newline at end of file%0a
+host:1612226011=99.171.140.109
+author:1612225821=UserAdmin
+csum:1612225821=New user account created; E-mail sent with activation link
+diff:1612225821:1612225801:=72,73c72%0a%3c cara_s:  $1$8RujmgUg$SNffAlKVZYATG0LBKVsZq0 :  useremail='csavoy@andrew.cmu.edu'%0a%3c samV:  :  useremail='samcv@cmu.edu' userkey='598457296 $1$yqCVi3Vk$Ac7xg.T.jAX.hg61mFB2E0' userkeyreason='new' userkeytime='1612225822'%0a\ No newline at end of file%0a---%0a> cara_s:  $1$8RujmgUg$SNffAlKVZYATG0LBKVsZq0 :  useremail='csavoy@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612225821=72.95.130.158
+author:1612225801=UserAdmin
+csum:1612225801=User account activated
+diff:1612225801:1612225722:=72c72%0a%3c cara_s:  $1$8RujmgUg$SNffAlKVZYATG0LBKVsZq0 :  useremail='csavoy@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> cara_s:  :  useremail='csavoy@andrew.cmu.edu' userkey='1120826278 $1$8RujmgUg$SNffAlKVZYATG0LBKVsZq0' userkeyreason='new' userkeytime='1612225723'%0a\ No newline at end of file%0a
+host:1612225801=73.236.13.47
+author:1612225722=UserAdmin
+csum:1612225722=New user account created; E-mail sent with activation link
+diff:1612225722:1612225051:=71,72c71%0a%3c JoshuaC:  $1$9ww2Ac.U$C/3R95n7rcSt3r/u4UqhX. :  useremail='joshuac2@andrew.cmu.edu'%0a%3c cara_s:  :  useremail='csavoy@andrew.cmu.edu' userkey='1120826278 $1$8RujmgUg$SNffAlKVZYATG0LBKVsZq0' userkeyreason='new' userkeytime='1612225723'%0a\ No newline at end of file%0a---%0a> JoshuaC:  $1$9ww2Ac.U$C/3R95n7rcSt3r/u4UqhX. :  useremail='joshuac2@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612225722=73.236.13.47
+author:1612225051=UserAdmin
+csum:1612225051=User account activated
+diff:1612225051:1612225008:=71c71%0a%3c JoshuaC:  $1$9ww2Ac.U$C/3R95n7rcSt3r/u4UqhX. :  useremail='joshuac2@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> JoshuaC:  :  useremail='joshuac2@andrew.cmu.edu' userkey='1334869430 $1$9ww2Ac.U$C/3R95n7rcSt3r/u4UqhX.' userkeyreason='new' userkeytime='1612225009'%0a\ No newline at end of file%0a
+host:1612225051=67.171.65.64
+author:1612225008=UserAdmin
+csum:1612225008=New user account created; E-mail sent with activation link
+diff:1612225008:1612224461:=70,71c70%0a%3c Simon_Y:  $1$Wsz4Vh.9$LWKAfH6pgC8wD57JvLjkG/ :  useremail='bohanyu@andrew.cmu.edu'%0a%3c JoshuaC:  :  useremail='joshuac2@andrew.cmu.edu' userkey='1334869430 $1$9ww2Ac.U$C/3R95n7rcSt3r/u4UqhX.' userkeyreason='new' userkeytime='1612225009'%0a\ No newline at end of file%0a---%0a> Simon_Y:  $1$Wsz4Vh.9$LWKAfH6pgC8wD57JvLjkG/ :  useremail='bohanyu@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612225008=67.171.65.64
+author:1612224461=UserAdmin
+csum:1612224461=User account activated
+diff:1612224461:1612224438:=70c70%0a%3c Simon_Y:  $1$Wsz4Vh.9$LWKAfH6pgC8wD57JvLjkG/ :  useremail='bohanyu@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> Simon_Y:  :  useremail='bohanyu@andrew.cmu.edu' userkey='174892151 $1$Wsz4Vh.9$LWKAfH6pgC8wD57JvLjkG/' userkeyreason='new' userkeytime='1612224438'%0a\ No newline at end of file%0a
+host:1612224461=71.197.127.14
+author:1612224438=UserAdmin
+csum:1612224438=New user account created; E-mail sent with activation link
+diff:1612224438:1612224411:=69,70c69%0a%3c BrandynA:  $1$stFiil4Q$y6qh0Ea0oRonsWA0Pz3Ih1 :  useremail='bamado@andrew.cmu.edu'%0a%3c Simon_Y:  :  useremail='bohanyu@andrew.cmu.edu' userkey='174892151 $1$Wsz4Vh.9$LWKAfH6pgC8wD57JvLjkG/' userkeyreason='new' userkeytime='1612224438'%0a\ No newline at end of file%0a---%0a> BrandynA:  $1$stFiil4Q$y6qh0Ea0oRonsWA0Pz3Ih1 :  useremail='bamado@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612224438=71.197.127.14
+author:1612224411=UserAdmin
+csum:1612224411=User account activated
+diff:1612224411:1612224389:=69c69%0a%3c BrandynA:  $1$stFiil4Q$y6qh0Ea0oRonsWA0Pz3Ih1 :  useremail='bamado@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> BrandynA:  :  useremail='bamado@andrew.cmu.edu' userkey='1507372156 $1$stFiil4Q$y6qh0Ea0oRonsWA0Pz3Ih1' userkeyreason='new' userkeytime='1612224390'%0a\ No newline at end of file%0a
+host:1612224411=96.44.9.100
+author:1612224389=UserAdmin
+csum:1612224389=New user account created; E-mail sent with activation link
+diff:1612224389:1612222141:=68,69c68%0a%3c KarlaT:  $1$l.3OiSHK$lVrTxBuaJM7Ajc7XfKsuM1 :  useremail='kntejeda@andrew.cmu.edu'%0a%3c BrandynA:  :  useremail='bamado@andrew.cmu.edu' userkey='1507372156 $1$stFiil4Q$y6qh0Ea0oRonsWA0Pz3Ih1' userkeyreason='new' userkeytime='1612224390'%0a\ No newline at end of file%0a---%0a> KarlaT:  $1$l.3OiSHK$lVrTxBuaJM7Ajc7XfKsuM1 :  useremail='kntejeda@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612224389=96.44.9.100
+author:1612222141=UserAdmin
+csum:1612222141=User account activated
+diff:1612222141:1612221970:=68c68%0a%3c KarlaT:  $1$l.3OiSHK$lVrTxBuaJM7Ajc7XfKsuM1 :  useremail='kntejeda@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> KarlaT:  :  useremail='kntejeda@andrew.cmu.edu' userkey='743769164 $1$l.3OiSHK$lVrTxBuaJM7Ajc7XfKsuM1' userkeyreason='new' userkeytime='1612221971'%0a\ No newline at end of file%0a
+host:1612222141=73.236.13.19
+author:1612221970=UserAdmin
+csum:1612221970=New user account created; E-mail sent with activation link
+diff:1612221970:1612220362:=67,68c67%0a%3c solanaM:  $1$FPFL2rXV$8zfaTMSXQtcw1m0aYTbkV0 :  useremail='smorning@andrew.cmu.edu'%0a%3c KarlaT:  :  useremail='kntejeda@andrew.cmu.edu' userkey='743769164 $1$l.3OiSHK$lVrTxBuaJM7Ajc7XfKsuM1' userkeyreason='new' userkeytime='1612221971'%0a\ No newline at end of file%0a---%0a> solanaM:  $1$FPFL2rXV$8zfaTMSXQtcw1m0aYTbkV0 :  useremail='smorning@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612221970=73.236.13.19
+author:1612220362=UserAdmin
+csum:1612220362=User account activated
+diff:1612220362:1612220348:=67c67%0a%3c solanaM:  $1$FPFL2rXV$8zfaTMSXQtcw1m0aYTbkV0 :  useremail='smorning@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> solanaM:  :  useremail='smorning@andrew.cmu.edu' userkey='637770736 $1$FPFL2rXV$8zfaTMSXQtcw1m0aYTbkV0' userkeyreason='new' userkeytime='1612220349'%0a\ No newline at end of file%0a
+host:1612220362=71.61.59.16
+author:1612220348=UserAdmin
+csum:1612220348=New user account created; E-mail sent with activation link
+diff:1612220348:1612220342:=66,67c66%0a%3c aryans:  $1$QVHBRLnN$ll6v4MctYLLSbp55g1S75/ :  useremail='asoman@andrew.cmu.edu'%0a%3c solanaM:  :  useremail='smorning@andrew.cmu.edu' userkey='637770736 $1$FPFL2rXV$8zfaTMSXQtcw1m0aYTbkV0' userkeyreason='new' userkeytime='1612220349'%0a\ No newline at end of file%0a---%0a> aryans:  $1$QVHBRLnN$ll6v4MctYLLSbp55g1S75/ :  useremail='asoman@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612220348=71.61.59.16
+author:1612220342=UserAdmin
+csum:1612220342=User account activated
+diff:1612220342:1612220310:=66c66%0a%3c aryans:  $1$QVHBRLnN$ll6v4MctYLLSbp55g1S75/ :  useremail='asoman@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> aryans:  :  useremail='asoman@andrew.cmu.edu' userkey='1260160471 $1$QVHBRLnN$ll6v4MctYLLSbp55g1S75/' userkeyreason='new' userkeytime='1612220311'%0a\ No newline at end of file%0a
+host:1612220342=184.190.142.79
+author:1612220310=UserAdmin
+csum:1612220310=New user account created; E-mail sent with activation link
+diff:1612220310:1612219500:=65,66c65%0a%3c NickG:  $1$wUeugQEj$R.DdLPKhz2578ZqXZ2fNR/ :  useremail='ngrill@andrew.cmu.edu'%0a%3c aryans:  :  useremail='asoman@andrew.cmu.edu' userkey='1260160471 $1$QVHBRLnN$ll6v4MctYLLSbp55g1S75/' userkeyreason='new' userkeytime='1612220311'%0a\ No newline at end of file%0a---%0a> NickG:  $1$wUeugQEj$R.DdLPKhz2578ZqXZ2fNR/ :  useremail='ngrill@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612220310=184.190.142.79
+author:1612219500=UserAdmin
+csum:1612219500=User account activated
+diff:1612219500:1612219486:=65c65%0a%3c NickG:  $1$wUeugQEj$R.DdLPKhz2578ZqXZ2fNR/ :  useremail='ngrill@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> NickG:  :  useremail='ngrill@andrew.cmu.edu' userkey='1196166032 $1$wUeugQEj$R.DdLPKhz2578ZqXZ2fNR/' userkeyreason='new' userkeytime='1612219487'%0a\ No newline at end of file%0a
+host:1612219500=98.111.246.46
+author:1612219486=UserAdmin
+csum:1612219486=New user account created; E-mail sent with activation link
+diff:1612219486:1612218683:=64,65c64%0a%3c VikramM:  $1$3vbotD0y$9DsOazx3nSfZnlIU7AEG4/ :  useremail='vtm@andrew.cmu.edu'%0a%3c NickG:  :  useremail='ngrill@andrew.cmu.edu' userkey='1196166032 $1$wUeugQEj$R.DdLPKhz2578ZqXZ2fNR/' userkeyreason='new' userkeytime='1612219487'%0a\ No newline at end of file%0a---%0a> VikramM:  $1$3vbotD0y$9DsOazx3nSfZnlIU7AEG4/ :  useremail='vtm@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612219486=98.111.246.46
+author:1612218683=UserAdmin
+csum:1612218683=User account activated
+diff:1612218683:1612218654:=64c64%0a%3c VikramM:  $1$3vbotD0y$9DsOazx3nSfZnlIU7AEG4/ :  useremail='vtm@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> VikramM:  :  useremail='vtm@andrew.cmu.edu' userkey='827518045 $1$3vbotD0y$9DsOazx3nSfZnlIU7AEG4/' userkeyreason='new' userkeytime='1612218655'%0a\ No newline at end of file%0a
+host:1612218683=74.111.96.40
+author:1612218654=UserAdmin
+csum:1612218654=New user account created; E-mail sent with activation link
+diff:1612218654:1612217899:=63,64c63%0a%3c sirisha_b:  $1$XPp6y6Px$DVQvAtjUCW2MlNjsfFxga0 :  useremail='sbrahman@andrew.cmu.edu'%0a%3c VikramM:  :  useremail='vtm@andrew.cmu.edu' userkey='827518045 $1$3vbotD0y$9DsOazx3nSfZnlIU7AEG4/' userkeyreason='new' userkeytime='1612218655'%0a\ No newline at end of file%0a---%0a> sirisha_b:  $1$XPp6y6Px$DVQvAtjUCW2MlNjsfFxga0 :  useremail='sbrahman@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612218654=74.111.96.40
+author:1612217899=UserAdmin
+csum:1612217899=User account activated
+diff:1612217899:1612217858:=63c63%0a%3c sirisha_b:  $1$XPp6y6Px$DVQvAtjUCW2MlNjsfFxga0 :  useremail='sbrahman@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> sirisha_b:  :  useremail='sbrahman@andrew.cmu.edu' userkey='2014835088 $1$XPp6y6Px$DVQvAtjUCW2MlNjsfFxga0' userkeyreason='new' userkeytime='1612217859'%0a\ No newline at end of file%0a
+host:1612217899=68.100.43.128
+author:1612217858=UserAdmin
+csum:1612217858=New user account created; E-mail sent with activation link
+diff:1612217858:1612213088:=62,63c62%0a%3c JasonL:  $1$0L/yx4og$cEXlczsIA0fJ8Dg2LcGD6/ :  useremail='jxlu@andrew.cmu.edu'%0a%3c sirisha_b:  :  useremail='sbrahman@andrew.cmu.edu' userkey='2014835088 $1$XPp6y6Px$DVQvAtjUCW2MlNjsfFxga0' userkeyreason='new' userkeytime='1612217859'%0a\ No newline at end of file%0a---%0a> JasonL:  $1$0L/yx4og$cEXlczsIA0fJ8Dg2LcGD6/ :  useremail='jxlu@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612217858=68.100.43.128
+author:1612213088=UserAdmin
+csum:1612213088=User account activated
+diff:1612213088:1612213075:=62c62%0a%3c JasonL:  $1$0L/yx4og$cEXlczsIA0fJ8Dg2LcGD6/ :  useremail='jxlu@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> JasonL:  :  useremail='jxlu@andrew.cmu.edu' userkey='1012730429 $1$0L/yx4og$cEXlczsIA0fJ8Dg2LcGD6/' userkeyreason='new' userkeytime='1612213076'%0a\ No newline at end of file%0a
+host:1612213088=71.206.238.88
+author:1612213075=UserAdmin
+csum:1612213075=New user account created; E-mail sent with activation link
+diff:1612213075:1612207329:=61,62c61%0a%3c AlexisA:  $1$7jMAS/vH$ZzMjA/I4iPY5srm2RNXxg1 :  useremail='aaxon@andrew.cmu.edu'%0a%3c JasonL:  :  useremail='jxlu@andrew.cmu.edu' userkey='1012730429 $1$0L/yx4og$cEXlczsIA0fJ8Dg2LcGD6/' userkeyreason='new' userkeytime='1612213076'%0a\ No newline at end of file%0a---%0a> AlexisA:  $1$7jMAS/vH$ZzMjA/I4iPY5srm2RNXxg1 :  useremail='aaxon@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612213075=71.206.238.88
+author:1612207329=UserAdmin
+csum:1612207329=User account activated
+diff:1612207329:1612207245:=60c60%0a%3c nithyas:  $1$cEKna6Uy$SD8IJyATdDTe25YhDLQTi/ :  useremail='nssampat@andrew.cmu.edu'%0a---%0a> nithyas:  :  useremail='nssampat@andrew.cmu.edu' userkey='1184395759 $1$cEKna6Uy$SD8IJyATdDTe25YhDLQTi/' userkeyreason='new' userkeytime='1612206896'%0a
+host:1612207329=128.237.82.2
+author:1612207245=UserAdmin
+csum:1612207245=User account activated
+diff:1612207245:1612207233:=61c61%0a%3c AlexisA:  $1$7jMAS/vH$ZzMjA/I4iPY5srm2RNXxg1 :  useremail='aaxon@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> AlexisA:  :  useremail='aaxon@andrew.cmu.edu' userkey='1996711657 $1$7jMAS/vH$ZzMjA/I4iPY5srm2RNXxg1' userkeyreason='new' userkeytime='1612207234'%0a\ No newline at end of file%0a
+host:1612207245=128.237.82.1
+author:1612207233=UserAdmin
+csum:1612207233=New user account created; E-mail sent with activation link
+diff:1612207233:1612206895:=60,61c60%0a%3c nithyas:  :  useremail='nssampat@andrew.cmu.edu' userkey='1184395759 $1$cEKna6Uy$SD8IJyATdDTe25YhDLQTi/' userkeyreason='new' userkeytime='1612206896'%0a%3c AlexisA:  :  useremail='aaxon@andrew.cmu.edu' userkey='1996711657 $1$7jMAS/vH$ZzMjA/I4iPY5srm2RNXxg1' userkeyreason='new' userkeytime='1612207234'%0a\ No newline at end of file%0a---%0a> nithyas:  :  useremail='nssampat@andrew.cmu.edu' userkey='1184395759 $1$cEKna6Uy$SD8IJyATdDTe25YhDLQTi/' userkeyreason='new' userkeytime='1612206896'%0a\ No newline at end of file%0a
+host:1612207233=128.237.82.1
+author:1612206895=UserAdmin
+csum:1612206895=New user account created; E-mail sent with activation link
+diff:1612206895:1612205748:=59,60c59%0a%3c JacobF:  $1$q4yqrBAc$H7mveb1218VOVb3eDXCIg1 :  useremail='jfondrie@andrew.cmu.edu'%0a%3c nithyas:  :  useremail='nssampat@andrew.cmu.edu' userkey='1184395759 $1$cEKna6Uy$SD8IJyATdDTe25YhDLQTi/' userkeyreason='new' userkeytime='1612206896'%0a\ No newline at end of file%0a---%0a> JacobF:  $1$q4yqrBAc$H7mveb1218VOVb3eDXCIg1 :  useremail='jfondrie@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612206895=128.237.82.2
+author:1612205748=UserAdmin
+csum:1612205748=User account activated
+diff:1612205748:1612205747:=59c59%0a%3c JacobF:  $1$q4yqrBAc$H7mveb1218VOVb3eDXCIg1 :  useremail='jfondrie@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> JacobF:  :  useremail='jfondrie@andrew.cmu.edu' userkey='1326333360 $1$q4yqrBAc$H7mveb1218VOVb3eDXCIg1' userkeyreason='new' userkeytime='1612205732'%0a\ No newline at end of file%0a
+host:1612205748=74.109.250.114
+author:1612205747=UserAdmin
+csum:1612205747=User account activated
+diff:1612205747:1612205731:=58c58%0a%3c david_h:  $1$A6.dXfvC$yKLewZeDWAKec63zoZYbc. :  useremail='dchwang@andrew.cmu.edu'%0a---%0a> david_h:  :  useremail='dchwang@andrew.cmu.edu' userkey='867270073 $1$A6.dXfvC$yKLewZeDWAKec63zoZYbc.' userkeyreason='new' userkeytime='1612205728'%0a
+host:1612205747=74.98.232.230
+author:1612205731=UserAdmin
+csum:1612205731=New user account created; E-mail sent with activation link
+diff:1612205731:1612205727:=58,59c58%0a%3c david_h:  :  useremail='dchwang@andrew.cmu.edu' userkey='867270073 $1$A6.dXfvC$yKLewZeDWAKec63zoZYbc.' userkeyreason='new' userkeytime='1612205728'%0a%3c JacobF:  :  useremail='jfondrie@andrew.cmu.edu' userkey='1326333360 $1$q4yqrBAc$H7mveb1218VOVb3eDXCIg1' userkeyreason='new' userkeytime='1612205732'%0a\ No newline at end of file%0a---%0a> david_h:  :  useremail='dchwang@andrew.cmu.edu' userkey='867270073 $1$A6.dXfvC$yKLewZeDWAKec63zoZYbc.' userkeyreason='new' userkeytime='1612205728'%0a\ No newline at end of file%0a
+host:1612205731=74.109.250.114
+author:1612205727=UserAdmin
+csum:1612205727=New user account created; E-mail sent with activation link
+diff:1612205727:1612205440:=57,58c57%0a%3c RuizheZ:  $1$aj5rOGCE$ScLr/WGgCsHHRjnu71gcu/ :  useremail='ruizhezh@andrew.cmu.edu'%0a%3c david_h:  :  useremail='dchwang@andrew.cmu.edu' userkey='867270073 $1$A6.dXfvC$yKLewZeDWAKec63zoZYbc.' userkeyreason='new' userkeytime='1612205728'%0a\ No newline at end of file%0a---%0a> RuizheZ:  $1$aj5rOGCE$ScLr/WGgCsHHRjnu71gcu/ :  useremail='ruizhezh@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612205727=74.98.232.230
+author:1612205440=UserAdmin
+csum:1612205440=User account activated
+diff:1612205440:1612205240:=57c57%0a%3c RuizheZ:  $1$aj5rOGCE$ScLr/WGgCsHHRjnu71gcu/ :  useremail='ruizhezh@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> RuizheZ:  :  useremail='ruizhezh@andrew.cmu.edu' userkey='831839191 $1$aj5rOGCE$ScLr/WGgCsHHRjnu71gcu/' userkeyreason='new' userkeytime='1612205228'%0a\ No newline at end of file%0a
+host:1612205440=71.182.132.129
+author:1612205240=UserAdmin
+csum:1612205240=User account activated
+diff:1612205240:1612205228:=55c55%0a%3c AnanyaV:  $1$87kyl8k3$zp4opL75cy.MVH7s9TmLt1 :  useremail='ananyav@andrew.cmu.edu'%0a---%0a> AnanyaV:  :  useremail='ananyav@andrew.cmu.edu' userkey='742097362 $1$87kyl8k3$zp4opL75cy.MVH7s9TmLt1' userkeyreason='new' userkeytime='1612205220'%0a
+host:1612205240=96.236.208.198
+author:1612205228=UserAdmin
+csum:1612205228=New user account created; E-mail sent with activation link
+diff:1612205228:1612205225:=56,57c56%0a%3c kevinx:  :  useremail='kevinx@andrew.cmu.edu' userkey='143555750 $1$Ydq99uiR$2v6OEkQ5YP6y50dOcxSJm1' userkeyreason='new' userkeytime='1612205225'%0a%3c RuizheZ:  :  useremail='ruizhezh@andrew.cmu.edu' userkey='831839191 $1$aj5rOGCE$ScLr/WGgCsHHRjnu71gcu/' userkeyreason='new' userkeytime='1612205228'%0a\ No newline at end of file%0a---%0a> kevinx:  :  useremail='kevinx@andrew.cmu.edu' userkey='143555750 $1$Ydq99uiR$2v6OEkQ5YP6y50dOcxSJm1' userkeyreason='new' userkeytime='1612205225'%0a\ No newline at end of file%0a
+host:1612205228=71.182.132.129
+author:1612205225=UserAdmin
+csum:1612205225=New user account created; E-mail sent with activation link
+diff:1612205225:1612205219:=55,56c55%0a%3c AnanyaV:  :  useremail='ananyav@andrew.cmu.edu' userkey='742097362 $1$87kyl8k3$zp4opL75cy.MVH7s9TmLt1' userkeyreason='new' userkeytime='1612205220'%0a%3c kevinx:  :  useremail='kevinx@andrew.cmu.edu' userkey='143555750 $1$Ydq99uiR$2v6OEkQ5YP6y50dOcxSJm1' userkeyreason='new' userkeytime='1612205225'%0a\ No newline at end of file%0a---%0a> AnanyaV:  :  useremail='ananyav@andrew.cmu.edu' userkey='742097362 $1$87kyl8k3$zp4opL75cy.MVH7s9TmLt1' userkeyreason='new' userkeytime='1612205220'%0a\ No newline at end of file%0a
+host:1612205225=73.154.247.242
+author:1612205219=UserAdmin
+csum:1612205219=New user account created; E-mail sent with activation link
+diff:1612205219:1612204846:=54,55c54%0a%3c saraht:  $1$yqOyr8VA$qDwlYMTBznaaaqh.7cjn// :  useremail='sct1@andrew.cmu.edu'%0a%3c AnanyaV:  :  useremail='ananyav@andrew.cmu.edu' userkey='742097362 $1$87kyl8k3$zp4opL75cy.MVH7s9TmLt1' userkeyreason='new' userkeytime='1612205220'%0a\ No newline at end of file%0a---%0a> saraht:  $1$yqOyr8VA$qDwlYMTBznaaaqh.7cjn// :  useremail='sct1@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612205219=96.236.208.198
+author:1612204846=UserAdmin
+csum:1612204846=User account activated
+diff:1612204846:1612204834:=54c54%0a%3c saraht:  $1$yqOyr8VA$qDwlYMTBznaaaqh.7cjn// :  useremail='sct1@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> saraht:  :  useremail='sct1@andrew.cmu.edu' userkey='1170286442 $1$yqOyr8VA$qDwlYMTBznaaaqh.7cjn//' userkeyreason='new' userkeytime='1612204834'%0a\ No newline at end of file%0a
+host:1612204846=71.206.245.104
+author:1612204834=UserAdmin
+csum:1612204834=New user account created; E-mail sent with activation link
+diff:1612204834:1612199809:=53,54c53%0a%3c ruiranx:  $1$xBvNTHyL$mfHTwZS27N1I76UJ5WScj. :  useremail='rxun@andrew.cmu.edu'%0a%3c saraht:  :  useremail='sct1@andrew.cmu.edu' userkey='1170286442 $1$yqOyr8VA$qDwlYMTBznaaaqh.7cjn//' userkeyreason='new' userkeytime='1612204834'%0a\ No newline at end of file%0a---%0a> ruiranx:  $1$xBvNTHyL$mfHTwZS27N1I76UJ5WScj. :  useremail='rxun@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612204834=71.206.245.104
+author:1612199809=UserAdmin
+csum:1612199809=User account activated
+diff:1612199809:1612199791:=53c53%0a%3c ruiranx:  $1$xBvNTHyL$mfHTwZS27N1I76UJ5WScj. :  useremail='rxun@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ruiranx:  :  useremail='rxun@andrew.cmu.edu' userkey='1244852072 $1$xBvNTHyL$mfHTwZS27N1I76UJ5WScj.' userkeyreason='new' userkeytime='1612199792'%0a\ No newline at end of file%0a
+host:1612199809=74.109.250.254
+author:1612199791=UserAdmin
+csum:1612199791=New user account created; E-mail sent with activation link
+diff:1612199791:1612197296:=52,53c52%0a%3c ChrisC_:  $1$eM1opury$CquxFTiSBIfhtKp7aPUqY0 :  useremail='ccrawfor@andrew.cmu.edu'%0a%3c ruiranx:  :  useremail='rxun@andrew.cmu.edu' userkey='1244852072 $1$xBvNTHyL$mfHTwZS27N1I76UJ5WScj.' userkeyreason='new' userkeytime='1612199792'%0a\ No newline at end of file%0a---%0a> ChrisC_:  $1$eM1opury$CquxFTiSBIfhtKp7aPUqY0 :  useremail='ccrawfor@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612199791=74.109.250.254
+author:1612197296=UserAdmin
+csum:1612197296=User account activated
+diff:1612197296:1612197264:=52c52%0a%3c ChrisC_:  $1$eM1opury$CquxFTiSBIfhtKp7aPUqY0 :  useremail='ccrawfor@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> ChrisC_:  :  useremail='ccrawfor@andrew.cmu.edu' userkey='1327880509 $1$eM1opury$CquxFTiSBIfhtKp7aPUqY0' userkeyreason='new' userkeytime='1612197265'%0a\ No newline at end of file%0a
+host:1612197296=128.2.149.72
+author:1612197264=UserAdmin
+csum:1612197264=New user account created; E-mail sent with activation link
+diff:1612197264:1612192825:=51,52c51%0a%3c wnalls:  $1$8Hf5YGEq$//NrgkUWSq.pxHUzVzwhD0 :  useremail='will.nalls@googlemail.com'%0a%3c ChrisC_:  :  useremail='ccrawfor@andrew.cmu.edu' userkey='1327880509 $1$eM1opury$CquxFTiSBIfhtKp7aPUqY0' userkeyreason='new' userkeytime='1612197265'%0a\ No newline at end of file%0a---%0a> wnalls:  $1$8Hf5YGEq$//NrgkUWSq.pxHUzVzwhD0 :  useremail='will.nalls@googlemail.com'%0a\ No newline at end of file%0a
+host:1612197264=128.2.149.72
+author:1612192825=UserAdmin
+csum:1612192825=User account activated
+diff:1612192825:1612192812:=51c51%0a%3c wnalls:  $1$8Hf5YGEq$//NrgkUWSq.pxHUzVzwhD0 :  useremail='will.nalls@googlemail.com'%0a\ No newline at end of file%0a---%0a> wnalls:  :  useremail='will.nalls@googlemail.com' userkey='615663317 $1$8Hf5YGEq$//NrgkUWSq.pxHUzVzwhD0' userkeyreason='new' userkeytime='1612192813'%0a\ No newline at end of file%0a
+host:1612192825=74.109.247.199
+author:1612192812=UserAdmin
+csum:1612192812=New user account created; E-mail sent with activation link
+diff:1612192812:1612054111:=50,51c50%0a%3c christina:  $1$Yg0i2zrN$SEd8ntV/d7gtnIHzPjktG. :  useremail='cbjorn@andrew.cmu.edu'%0a%3c wnalls:  :  useremail='will.nalls@googlemail.com' userkey='615663317 $1$8Hf5YGEq$//NrgkUWSq.pxHUzVzwhD0' userkeyreason='new' userkeytime='1612192813'%0a\ No newline at end of file%0a---%0a> christina:  $1$Yg0i2zrN$SEd8ntV/d7gtnIHzPjktG. :  useremail='cbjorn@andrew.cmu.edu'%0a\ No newline at end of file%0a
+host:1612192812=74.109.247.199
+author:1612054111=
+diff:1612054111:1612054080:=36,37c36%0a%3c @admins: christina%0a%3c @tas: christina%0a---%0a> @admins: will%0a
+host:1612054111=74.109.247.199
+author:1612054080=
+diff:1612054080:1612053908:=
+host:1612054080=74.109.247.199
+author:1612053908=
+diff:1612053908:1612053824:=49c49,53%0a%3c christina:  $1$Yg0i2zrN$SEd8ntV/d7gtnIHzPjktG. :  useremail='cbjorn@andrew.cmu.edu'%0a\ No newline at end of file%0a---%0a> student1:  $1$Yeg9rp80$oG.q5UEJBE.W6PyQ2cPDv0 :  useremail='will.nalls@gmail.com'%0a> ta1:  $1$evtV3TgO$Fp7tTwydHZrNpO6tnDCxs/ :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a> @tas: ta1%0a> student2:  $1$pvMG8A24$nVLyYTdKtGdmXe1NARl3.0 :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a> christina:  $1$Yg0i2zrN$SEd8ntV/d7gtnIHzPjktG. :  useremail='will.nalls@googlemail.com'%0a\ No newline at end of file%0a
+host:1612053908=74.109.247.199
+author:1612053824=UserAdmin
+csum:1612053824=New user account created
+diff:1612053824:1611697013:=52,53c52%0a%3c student2:  $1$pvMG8A24$nVLyYTdKtGdmXe1NARl3.0 :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a%3c christina:  $1$Yg0i2zrN$SEd8ntV/d7gtnIHzPjktG. :  useremail='will.nalls@googlemail.com'%0a\ No newline at end of file%0a---%0a> student2:  $1$pvMG8A24$nVLyYTdKtGdmXe1NARl3.0 :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a\ No newline at end of file%0a
+host:1612053824=74.109.247.199
+author:1611697013=student1
+csum:1611697013=New user account created
+diff:1611697013:1611611920:=51,52c51%0a%3c @tas: ta1%0a%3c student2:  $1$pvMG8A24$nVLyYTdKtGdmXe1NARl3.0 :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a\ No newline at end of file%0a---%0a> @tas: ta1%0a\ No newline at end of file%0a
+host:1611697013=74.109.247.199
+author:1611611920=UserAdmin
+diff:1611611920:1611611908:=50,51c50%0a%3c ta1:  $1$evtV3TgO$Fp7tTwydHZrNpO6tnDCxs/ :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a%3c @tas: ta1%0a\ No newline at end of file%0a---%0a> ta1:  $1$evtV3TgO$Fp7tTwydHZrNpO6tnDCxs/ :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a\ No newline at end of file%0a
+host:1611611920=74.109.247.199
+author:1611611908=UserAdmin
+csum:1611611908=New user account created
+diff:1611611908:1611177010:=49,50c49%0a%3c student1:  $1$Yeg9rp80$oG.q5UEJBE.W6PyQ2cPDv0 :  useremail='will.nalls@gmail.com'%0a%3c ta1:  $1$evtV3TgO$Fp7tTwydHZrNpO6tnDCxs/ :  useremail='will.nalls@googlemail.com' usersection='A' userandrewid='wnalls'%0a\ No newline at end of file%0a---%0a> student1:  $1$Yeg9rp80$oG.q5UEJBE.W6PyQ2cPDv0 :  useremail='will.nalls@gmail.com'%0a\ No newline at end of file%0a
+host:1611611908=74.109.247.199
+author:1611177010=UserAdmin
+csum:1611177010=New user account created
+diff:1611177010:1611175748:=48,49d47%0a%3c %0a%3c student1:  $1$Yeg9rp80$oG.q5UEJBE.W6PyQ2cPDv0 :  useremail='will.nalls@gmail.com'%0a\ No newline at end of file%0a
+host:1611177010=74.109.247.199
+author:1611175748=student1
+diff:1611175748:1611174401:=10c10%0a%3c %0a---%0a> userprofilegroup: Profiles%0a
+host:1611175748=74.109.247.199
+author:1611174401=UserAdmin
+diff:1611174401:1611171786:=36c36%0a%3c @admins: will%0a---%0a> @admins: will, christina%0a
+host:1611174401=74.109.247.199
+author:1611171786=
+diff:1611171786:1610639507:=36c36%0a%3c @admins: will, christina%0a---%0a> @admins: will%0a
+host:1611171786=74.109.247.199
+author:1610639507=will
+diff:1610639507:1607973364:=35,36d34%0a%3c %0a%3c @admins: will%0a
+host:1610639507=74.109.247.199
+author:1607973364=
+diff:1607973364:1607972578:=21,22c21,32%0a%3c %0a%3c %0a---%0a> will: $2y$10$Cd61c.Dr4aodhUMvgqOB8eTQhuGutd3RlCWjmLOv7aL8aeX1TXeMi%0a> christina:  $1$Y9fhKBU8$H0eJ9AglBw/I/Bnv/5Sjs1 :  useremail='will.nalls@googlemail.com'%0a> %0a> TA_james: $2y$10$x2V3CcvCZqONM2r2HhuQFu57uMIbuQ7YQ/5c66XM6..3Hp7ECgPa.%0a> TA_lili: $2y$10$LNAF3G6K6cvEs9gCuyIxpeDCDCa9tHOi0vMhjtIHRnEheLEP2ntRq%0a> TA_audrey: $2y$10$QDTxJTjSuQLq8nN86A/0VOjpCHd0UQxS0A4K81Tb/9p9iUa9zB0gW%0a> %0a> test_TA: $2y$10$aOX9BE41YF35iFSq.1MZEOBHyZbX1cd/uiXbRwFLCovBYEB7iZBcG%0a> test_student: $2y$10$tv6FrgCPbsEo4TeAUM.4tOd9HXvZweO.yDLg0p5buQEoRk.xhi/XC%0a> test_student2:  $2y$10$pzEMD2K.Og2sEZMLWgpMiORY1Ed5RrNXOzKk8n4QurYqRPzNiLxTa :  useremail='will.nalls@googlemail.com'%0a> test_admin: $2y$10$LqI5UxDFm9WkRMI62u4tI.TYDmLAqOxlngZBPvOG6pjrKLcQAkt8O%0a> %0a32a43,49%0a> %0a> %0a> @tas: TA_james, TA_lili, TA_audrey, test_TA, christina, will \\%0a> @admins: christina, test_admin, will \\%0a> @students: will, test_student, test_student2%0a> %0a> %0a
+host:1607973364=74.109.247.199
+author:1607972578=
+diff:1607972578:1607969191:=10,12d9%0a%3c userprofilegroup: Profiles%0a%3c %0a%3c %0a62a60,61%0a> william:  $1$.zItyi4i$wUGdvHTIrCy9f5aaEQ0CI/ :  useremail='will.nalls@googlemail.com' userandrewid='wnalls'%0a> sillyP:  $1$esztJSf4$TNXQxIYcu1fcW74PTaI4p. :  useremail='will.nalls@googlemail.com'%0a\ No newline at end of file%0a
+host:1607972578=74.109.247.199
+author:1607969191=UserAdmin
+csum:1607969191=User account activated
+diff:1607969191:1607969177:=61c61%0a%3c sillyP:  $1$esztJSf4$TNXQxIYcu1fcW74PTaI4p. :  useremail='will.nalls@googlemail.com'%0a\ No newline at end of file%0a---%0a> sillyP:  :  useremail='will.nalls@googlemail.com' userkey='247275285 $1$esztJSf4$TNXQxIYcu1fcW74PTaI4p.' userkeyreason='new' userkeytime='1607969177'%0a\ No newline at end of file%0a
+host:1607969191=74.109.247.199
+author:1607969177=UserAdmin
+csum:1607969177=New user account created; E-mail sent with activation link
+diff:1607969177:1607712389:=60,61c60%0a%3c william:  $1$.zItyi4i$wUGdvHTIrCy9f5aaEQ0CI/ :  useremail='will.nalls@googlemail.com' userandrewid='wnalls'%0a%3c sillyP:  :  useremail='will.nalls@googlemail.com' userkey='247275285 $1$esztJSf4$TNXQxIYcu1fcW74PTaI4p.' userkeyreason='new' userkeytime='1607969177'%0a\ No newline at end of file%0a---%0a> william:  $1$.zItyi4i$wUGdvHTIrCy9f5aaEQ0CI/ :  useremail='will.nalls@googlemail.com' userandrewid='wnalls'%0a\ No newline at end of file%0a
+host:1607969177=74.109.247.199
+author:1607712389=christina
+csum:1607712389=User account updated
+diff:1607712389:1607445917:=27c27%0a%3c test_student2:  $2y$10$pzEMD2K.Og2sEZMLWgpMiORY1Ed5RrNXOzKk8n4QurYqRPzNiLxTa :  useremail='will.nalls@googlemail.com'%0a---%0a> test_student2: $2y$10$pzEMD2K.Og2sEZMLWgpMiORY1Ed5RrNXOzKk8n4QurYqRPzNiLxTa%0a
+host:1607712389=74.109.247.199
+author:1607445917=UserAdmin
+csum:1607445917=User account updated
+diff:1607445917:1607384440:=19c19%0a%3c christina:  $1$Y9fhKBU8$H0eJ9AglBw/I/Bnv/5Sjs1 :  useremail='will.nalls@googlemail.com'%0a---%0a> christina: $2y$10$qwl7Lt92yn7AK8ys7OW5buPPnkjTwVdp1/OFBSANgEipF46THNayO%0a
+host:1607445917=74.109.247.199
+author:1607384440=will
+csum:1607384440=New user account created
+diff:1607384440:1600038928:=59,60d58%0a%3c %0a%3c william:  $1$.zItyi4i$wUGdvHTIrCy9f5aaEQ0CI/ :  useremail='will.nalls@googlemail.com' userandrewid='wnalls'%0a\ No newline at end of file%0a
+host:1607384440=74.109.247.199
+author:1600038928=
+diff:1600038928:1600035246:=27d26%0a%3c test_student2: $2y$10$pzEMD2K.Og2sEZMLWgpMiORY1Ed5RrNXOzKk8n4QurYqRPzNiLxTa%0a44c43%0a%3c @students: will, test_student, test_student2%0a---%0a> @students: will, test_student%0a
+host:1600038928=108.32.35.122
+author:1600035246=
+diff:1600035246:1599949100:=42c42%0a%3c @admins: christina, test_admin, will \\%0a---%0a> @admins: christina, test_admin \\%0a
+host:1600035246=108.32.35.122
+author:1599949100=
+diff:1599949100:1599768449:=17a18,19%0a> -> # Trial Accounts%0a> %0a24,28c26,30%0a%3c %0a%3c test_TA: $2y$10$aOX9BE41YF35iFSq.1MZEOBHyZbX1cd/uiXbRwFLCovBYEB7iZBcG%0a%3c test_student: $2y$10$tv6FrgCPbsEo4TeAUM.4tOd9HXvZweO.yDLg0p5buQEoRk.xhi/XC%0a%3c test_admin: $2y$10$LqI5UxDFm9WkRMI62u4tI.TYDmLAqOxlngZBPvOG6pjrKLcQAkt8O%0a%3c %0a---%0a> TA_test: $2y$10$mRJTIwS1bBdGDvU9E52IH.fH5ZbRNcehKEGMYWWnCqrbiTftk/XSO%0a> %0a> student_test: $2y$10$g06DzeRd4uTBevk3Pcq6ju14NlYgxMe9jQbjuQVc6laughG5qjSI6%0a> %0a> %0a41,43c43,45%0a%3c @tas: TA_james, TA_lili, TA_audrey, test_TA, christina, will \\%0a%3c @admins: christina, test_admin \\%0a%3c @students: will, test_student%0a---%0a> @tas: TA_james, TA_lili, TA_audrey, TA_test, christina, will \\%0a> @admins: christina, admin \\%0a> @students: will, student_test%0a
+host:1599949100=108.32.35.122
+author:1599768449=will
+diff:1599768449:1599758117:=43c43%0a%3c @tas: TA_james, TA_lili, TA_audrey, TA_test, christina, will \\%0a---%0a> @tas: TA_james, TA_lili, TA_audrey, TA_test, christina \\%0a
+host:1599768449=108.32.35.122
+author:1599758117=
+diff:1599758117:1599678512:=43c43%0a%3c @tas: TA_james, TA_lili, TA_audrey, TA_test, christina \\%0a---%0a> @tas: TA_james, TA_lili, TA_audrey, TA_test, \\%0a45c45%0a%3c @students: will, student_test%0a---%0a> @students: will%0a
+host:1599758117=108.32.35.122
+author:1599678512=will
+diff:1599678512:1599661211:=43,45c43,45%0a%3c @tas: TA_james, TA_lili, TA_audrey, TA_test, \\%0a%3c @admins: christina, admin \\%0a%3c @students: will%0a---%0a> @tas: TA_james, TA_lili, TA_audrey, TA_test, will \\%0a> @admins: christina, will, admin \\%0a> %0a
+host:1599678512=108.32.35.122
+author:1599661211=will
+diff:1599661211:1599434814:=43,45c43,45%0a%3c @tas: TA_james, TA_lili, TA_audrey, TA_test, will \\%0a%3c @admins: christina, will, admin \\%0a%3c %0a---%0a> @tas: TA_james, TA_lili, TA_audrey, TA_test%0a> @admins: christina, will%0a> @students: felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG deeyaSH robertM sanjayS meghaJain sandyZ jaiM vS summerA danielDK aaronL kachiO kaziJ hridayeshJ ianT cjBH mylesM RichardT tanY jaspreetS annZ benjiKA rachelY tracyW doraX johannS marianneHC annieE shivaniRAM brianJS sophiaH prakruthiP joshuaY bradleyT rachelK alex_S christianD mirabelH matthewP matthewP katieZ sarahS sofiaCV nehaC chenruiS justinHSU lanceM williamZ ayeshaG raeWYY rachelH seanzc thomasD adityaRS jonathanKeeeeey oliviaF brianZ AaronTan youssefk qiaoninc zhuXM cathleenC Yudong meeraG annaK kevinF matias_j josephAF devenW anitaLI kaajalg student_test%0a
+host:1599661211=108.32.35.122
+author:1599434814=TA_test
+diff:1599434814:1599434630:=28,30c28,30%0a%3c student_test: $2y$10$g06DzeRd4uTBevk3Pcq6ju14NlYgxMe9jQbjuQVc6laughG5qjSI6%0a%3c %0a%3c %0a---%0a> %0a> %0a> %0a45c45%0a%3c @students: felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG deeyaSH robertM sanjayS meghaJain sandyZ jaiM vS summerA danielDK aaronL kachiO kaziJ hridayeshJ ianT cjBH mylesM RichardT tanY jaspreetS annZ benjiKA rachelY tracyW doraX johannS marianneHC annieE shivaniRAM brianJS sophiaH prakruthiP joshuaY bradleyT rachelK alex_S christianD mirabelH matthewP matthewP katieZ sarahS sofiaCV nehaC chenruiS justinHSU lanceM williamZ ayeshaG raeWYY rachelH seanzc thomasD adityaRS jonathanKeeeeey oliviaF brianZ AaronTan youssefk qiaoninc zhuXM cathleenC Yudong meeraG annaK kevinF matias_j josephAF devenW anitaLI kaajalg student_test%0a---%0a> @students: felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG deeyaSH robertM sanjayS meghaJain sandyZ jaiM vS summerA danielDK aaronL kachiO kaziJ hridayeshJ ianT cjBH mylesM RichardT tanY jaspreetS annZ benjiKA rachelY tracyW doraX johannS marianneHC annieE shivaniRAM brianJS sophiaH prakruthiP joshuaY bradleyT rachelK alex_S christianD mirabelH matthewP matthewP katieZ sarahS sofiaCV nehaC chenruiS justinHSU lanceM williamZ ayeshaG raeWYY rachelH seanzc thomasD adityaRS jonathanKeeeeey oliviaF brianZ AaronTan youssefk qiaoninc zhuXM cathleenC Yudong meeraG annaK kevinF matias_j josephAF devenW anitaLI kaajalg %0a
+host:1599434814=108.32.35.122
+author:1599434630=
+diff:1599434630:1599269965:=26,30c26,30%0a%3c TA_test: $2y$10$mRJTIwS1bBdGDvU9E52IH.fH5ZbRNcehKEGMYWWnCqrbiTftk/XSO%0a%3c %0a%3c %0a%3c %0a%3c %0a---%0a> %0a> %0a> %0a> %0a> %0a43c43%0a%3c @tas: TA_james, TA_lili, TA_audrey, TA_test%0a---%0a> @tas: TA_james, TA_lili, TA_audrey%0a
+host:1599434630=108.32.35.122
+author:1599269965=TA_james
+diff:1599269965:1599247737:=56c56%0a%3c htgroup: local/groups%0a---%0a> -> htgroup: local/groups%0a
+host:1599269965=108.32.35.122
+author:1599247737=
+diff:1599247737:1599236819:=23,30c23,31%0a%3c TA_james: $2y$10$x2V3CcvCZqONM2r2HhuQFu57uMIbuQ7YQ/5c66XM6..3Hp7ECgPa.%0a%3c TA_lili: $2y$10$LNAF3G6K6cvEs9gCuyIxpeDCDCa9tHOi0vMhjtIHRnEheLEP2ntRq%0a%3c TA_audrey: $2y$10$QDTxJTjSuQLq8nN86A/0VOjpCHd0UQxS0A4K81Tb/9p9iUa9zB0gW%0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a---%0a> ta_one: $2y$10$QdTUTKLJ3ikbJQ3KhNVxYe2tEbMoE3YZENhUH4vWIFv31AOwbMw..%0a> ta_two: $2y$10$ZR4J4NaNv05Cjo70kzhtQO6M7C2.q5k1LGTRIOjrGwp/dAadHu2u6%0a> %0a> studenta: $2y$10$6Lyi0Jzz9E6Lcbnk4dIJeOgv8WBctH88KAOUiqHE5KnMsBWQmHIMi%0a> studentb: $2y$10$0P1aEtQlkZ67Jt5xp.y7y.c6mGgCvGBvAu2cLCW1jtsLPXnVaKHO.%0a> studentc: $2y$10$NA0WVZNUhl2ui/IIZFSaSegIVEYmZt/8Cd7WywgSEv5MrkqzcxO5C%0a> %0a> %0a> %0a42,43c43,44%0a%3c %0a%3c @tas: TA_james, TA_lili, TA_audrey%0a---%0a> @students: studenta, studentb, studentc%0a> @tas: ta_one, ta_two%0a46c47,48%0a%3c %0a---%0a> @sectiona: studenta%0a> @sectionb: studentb%0a
+host:1599247737=108.32.35.122
+author:1599236819=
+diff:1599236819:1599236558:=46,50c46,49%0a%3c @students: felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG felixL lauraK dianneG tomasV amsalag khunpobS eliF ryanR sarayuN mollyN leoH parkerF zoeSM johnnyM benC maliniS loraZ claireH saraP fionaC meeraR elizabethYW elianaF WinstonC lilaR stevenW martinaG shravyaN levST twainB sajalD emmalineM alexandraG deeyaSH robertM sanjayS meghaJain sandyZ jaiM vS summerA danielDK aaronL kachiO kaziJ hridayeshJ ianT cjBH mylesM RichardT tanY jaspreetS annZ benjiKA rachelY tracyW doraX johannS marianneHC annieE shivaniRAM brianJS sophiaH prakruthiP joshuaY bradleyT rachelK alex_S christianD mirabelH matthewP matthewP katieZ sarahS sofiaCV nehaC chenruiS justinHSU lanceM williamZ ayeshaG raeWYY rachelH seanzc thomasD adityaRS jonathanKeeeeey oliviaF brianZ AaronTan youssefk qiaoninc zhuXM cathleenC Yudong meeraG annaK kevinF matias_j josephAF devenW anitaLI kaajalg %0a%3c @sectiona: studenta%0a%3c @sectionb: studentb%0a%3c %0a%3c %0a---%0a> %0a> %0a> %0a> %0a58c57%0a%3c -> htgroup: local/groups%0a---%0a> htgroup: local/groups%0a
+host:1599236819=108.32.35.122
+author:1599236558=
+diff:1599236558:1599224177:=43a44%0a> %0a44a46%0a> %0a46a49,51%0a> @others: will%0a> %0a> (:if authgroup @others:) i am an other (:ifend:)%0a
+host:1599236558=108.32.35.122
+author:1599224177=will
+diff:1599224177:1599223689:=48,51d47%0a%3c %0a%3c @others: will%0a%3c %0a%3c (:if authgroup @others:) i am an other (:ifend:)%0a
+host:1599224177=108.32.35.122
+author:1599223689=will
+diff:1599223689:1599177382:=45c45%0a%3c @tas: ta_one, ta_two%0a---%0a> @tas: ta_one, ta_two, will%0a
+host:1599223689=108.32.35.122
+author:1599177382=christina
+diff:1599177382:1599176033:=49c49,51%0a%3c %0a---%0a> (:if authgroup @sectiona:) it works (:ifend:)%0a> %0a> (:if authgroup @admins:) you are an admin (:ifend:)%0a
+host:1599177382=108.32.35.122
+author:1599176033=will
+diff:1599176033:1599175740:=49c49,51%0a%3c (:if authgroup @sectiona:) it works (:ifend:)%0a---%0a> @mygroup: will%0a> %0a> (:if authgroup @tas:) it works (:ifend:)%0a
+host:1599176033=108.32.35.122
+author:1599175740=will
+diff:1599175740:1599175710:=52d51%0a%3c %0a
+host:1599175740=108.32.35.122
+author:1599175710=will
+diff:1599175710:1599175672:=45,46c45,46%0a%3c @tas: ta_one, ta_two, will%0a%3c %0a---%0a> @tas: ta_one, ta_two%0a> %0a51c51%0a%3c (:if authgroup @tas:) it works (:ifend:)%0a---%0a> (:if authgroup @mygroup:) it works (:ifend:)%0a
+host:1599175710=108.32.35.122
+author:1599175672=will
+diff:1599175672:1599175606:=49,51c49,51%0a%3c @mygroup: will%0a%3c %0a%3c (:if authgroup @mygroup:) it works (:ifend:)%0a---%0a> @sectiona: will%0a> %0a> (:if authgroup @sectiona:) it works (:ifend:)%0a
+host:1599175672=108.32.35.122
+author:1599175606=will
+diff:1599175606:1599175546:=
+host:1599175606=108.32.35.122
+author:1599175546=will
+diff:1599175546:1599175507:=51c51%0a%3c (:if authgroup @sectiona:) it works (:ifend:)%0a---%0a> (:if authgroup @sectionA:) it works (:ifend:)%0a
+host:1599175546=108.32.35.122
+author:1599175507=will
+diff:1599175507:1599175488:=49c49%0a%3c @sectiona: will%0a---%0a> @sectionA: will%0a
+host:1599175507=108.32.35.122
+author:1599175488=will
+diff:1599175488:1599175409:=52d51%0a%3c (:if authgroup @admins:) you are an admin (:ifend:)%0a
+host:1599175488=108.32.35.122
+author:1599175409=will
+diff:1599175409:1599175368:=50,51d49%0a%3c %0a%3c (:if authgroup @sectionA:) it works (:ifend:)%0a
+host:1599175409=108.32.35.122
+author:1599175368=will
+diff:1599175368:1599175323:=44d43%0a%3c %0a46d44%0a%3c %0a48d45%0a%3c %0a
+host:1599175368=108.32.35.122
+author:1599175323=will
+diff:1599175323:1599175143:=46d45%0a%3c @sectionA: will%0a
+host:1599175323=108.32.35.122
+author:1599175143=studenta
+diff:1599175143:1599174516:=54a55%0a> htgroup: local/sections%0a
+host:1599175143=108.32.35.122
+author:1599174516=will
+diff:1599174516:1598888832:=55d54%0a%3c htgroup: local/sections%0a
+host:1599174516=108.32.35.122
+author:1598888832=
+diff:1598888832:1598888208:=54d53%0a%3c htgroup: local/groups%0a
+host:1598888832=108.32.35.122
+author:1598888208=studenta
+diff:1598888208:1598636390:=53c53%0a%3c htpasswd: local/encrypted_passwords%0a---%0a> -> htpasswd: /filesystem/path/to/.htpasswd%0a
+host:1598888208=108.32.35.122
+author:1598636390=will
+diff:1598636390:1598634129:=43c43%0a%3c @students: studenta, studentb, studentc%0a---%0a> @students: student_one, student_two%0a
+host:1598636390=108.32.35.122
+author:1598634129=will
+diff:1598634129:1598450876:=26,28c26,27%0a%3c studenta: $2y$10$6Lyi0Jzz9E6Lcbnk4dIJeOgv8WBctH88KAOUiqHE5KnMsBWQmHIMi%0a%3c studentb: $2y$10$0P1aEtQlkZ67Jt5xp.y7y.c6mGgCvGBvAu2cLCW1jtsLPXnVaKHO.%0a%3c studentc: $2y$10$NA0WVZNUhl2ui/IIZFSaSegIVEYmZt/8Cd7WywgSEv5MrkqzcxO5C%0a---%0a> student_one: $2y$10$TzR564Vns0ukZTDbWV7ChOS4YMtsSlOTJ3zkP2CnIThma17fqlnvO%0a> student_two: $2y$10$dEMj8NiaI5P8PZ0KOJzIou1wg.xN6gnddZ5LZWozkY7pY4/g2UJ22%0a
+host:1598634129=108.32.35.122
+author:1598450876=student_one
+diff:1598450876:1598224976:=42,43c42,43%0a%3c @students: student_one, student_two%0a%3c @tas: ta_one, ta_two%0a---%0a> @writers: student1, student2%0a> @tas: ta1, ta2%0a
+host:1598450876=108.32.35.122
+author:1598224976=
+diff:1598224976:1598119795:=42,43c42,43%0a%3c @writers: student1, student2%0a%3c @tas: ta1, ta2%0a---%0a> @writers: student_one, student_two%0a> @tas: ta_one, ta_two%0a
+host:1598224976=108.32.35.122
+author:1598119795=christina
+diff:1598119795:1598119612:=20,27c20,27%0a%3c will: $2y$10$Cd61c.Dr4aodhUMvgqOB8eTQhuGutd3RlCWjmLOv7aL8aeX1TXeMi%0a%3c christina: $2y$10$qwl7Lt92yn7AK8ys7OW5buPPnkjTwVdp1/OFBSANgEipF46THNayO%0a%3c %0a%3c ta_one: $2y$10$QdTUTKLJ3ikbJQ3KhNVxYe2tEbMoE3YZENhUH4vWIFv31AOwbMw..%0a%3c ta_two: $2y$10$ZR4J4NaNv05Cjo70kzhtQO6M7C2.q5k1LGTRIOjrGwp/dAadHu2u6%0a%3c %0a%3c student_one: $2y$10$TzR564Vns0ukZTDbWV7ChOS4YMtsSlOTJ3zkP2CnIThma17fqlnvO%0a%3c student_two: $2y$10$dEMj8NiaI5P8PZ0KOJzIou1wg.xN6gnddZ5LZWozkY7pY4/g2UJ22%0a---%0a> will: $2y$10$EBi2HZdlTALZO.OVkHC.bOIeKOxwCwi6Iy.jESbZ5inYtHzYW6tcG%0a> christina: $2y$10$CLXIlhKnR2z9J8wlrbTab.7F/hJwCPITY9jjZHVPK6Emfx13IiH6q%0a> %0a> ta_one: $2y$10$ezb37r8QoT0Pk.zewUGvauBWRa75vkrZu4DrA8Y8.TboGbgL/znlS%0a> ta_two: $2y$10$xH/Re3Y5GNehtQpGoDNCMOE3ayIfZr3oEeWeQ5WPc89.MFg4nN.D2%0a> %0a> student_one: $2y$10$W9C/wjD69T8Vc5KlMcLG3OyLVzgMMAR9Y/t7CFfRhscDSor67ITzG%0a> student_two: $2y$10$buj9Qa24A4fyuCElh5ECFeKCj80YXhMo/lFqxQQAVPJVIZ4PoDp8S%0a
+host:1598119795=108.32.35.122
+author:1598119612=christina
+diff:1598119612:1598119500:=24,30c24,26%0a%3c ta_two: $2y$10$xH/Re3Y5GNehtQpGoDNCMOE3ayIfZr3oEeWeQ5WPc89.MFg4nN.D2%0a%3c %0a%3c student_one: $2y$10$W9C/wjD69T8Vc5KlMcLG3OyLVzgMMAR9Y/t7CFfRhscDSor67ITzG%0a%3c student_two: $2y$10$buj9Qa24A4fyuCElh5ECFeKCj80YXhMo/lFqxQQAVPJVIZ4PoDp8S%0a%3c %0a%3c %0a%3c %0a---%0a> %0a> %0a> %0a42,44c38,40%0a%3c @writers: student_one, student_two%0a%3c @tas: ta_one, ta_two%0a%3c @admins: christina, will%0a---%0a> -> @writers: student1, student2%0a> -> @tas: ta1, ta2%0a> -> @admins: christina, will%0a
+host:1598119612=108.32.35.122
+author:1598119500=christina
+diff:1598119500:1598119388:=22,23d21%0a%3c %0a%3c ta_one: $2y$10$ezb37r8QoT0Pk.zewUGvauBWRa75vkrZu4DrA8Y8.TboGbgL/znlS%0a
+host:1598119500=108.32.35.122
+author:1598119388=will
+diff:1598119388:1598119332:=21c21%0a%3c christina: $2y$10$CLXIlhKnR2z9J8wlrbTab.7F/hJwCPITY9jjZHVPK6Emfx13IiH6q%0a---%0a> %0a
+host:1598119388=108.32.35.122
+author:1598119332=
+diff:1598119332:1598119232:=20c20,21%0a%3c will: $2y$10$EBi2HZdlTALZO.OVkHC.bOIeKOxwCwi6Iy.jESbZ5inYtHzYW6tcG%0a---%0a> will: $2y$10$5cLdmpLyAft0/ZspDiSNz.Z5bxC229uZ.YgT.R8PYFfCwLjSIkXza%0a> christina: $2y$10$HBAC.7ePZg5czvMbUhWtLu4VZ0Vtmia6Yl7PWxm6c69fIG1gkwR7e%0a
+host:1598119332=108.32.35.122
+author:1598119232=
+diff:1598119232:1598119133:=20,21c20,22%0a%3c will: $2y$10$5cLdmpLyAft0/ZspDiSNz.Z5bxC229uZ.YgT.R8PYFfCwLjSIkXza%0a%3c christina: $2y$10$HBAC.7ePZg5czvMbUhWtLu4VZ0Vtmia6Yl7PWxm6c69fIG1gkwR7e%0a---%0a> will: goat%0a> christina: goat%0a> john: goat%0a
+host:1598119232=108.32.35.122
+author:1598119133=
+diff:1598119133:1598118923:=20,22c20,25%0a%3c will: goat%0a%3c christina: goat%0a%3c john: goat%0a---%0a> -> christina: $2y$10$2nqegZmUG/VooQcyQGrohOcWZ73Rfai/xXUa8JwzAk2ZDj7wmWbMm%0a> -> will: $2y$10$Gu.O2pP4w6.eppeo2WyKSeGsZITAWu5S4A2CJXai8M9fEgkaaWBmi%0a> -> ta1: $2y$10$H2ibq7HIeOxogxap2ADxDeQkHfL73/VDS37kJ0igrfQnFdWqicCom%0a> -> ta2: $2y$10$KR6eYlkfVOlDBrK9zqOd9etRCTYzQod4ELpRVWw1apoo3y5i8peNa%0a> -> student1: $2y$10$5yRYMXRCiKu91m7jWlPGju3s77k5yfiXLyrT/thXkYHiaDoxFyXYq%0a> -> student2: $2y$10$NKL1u1tyFGJHBA/x24DrZ.6lm4R/9AVXPk190YB9GLpPP.a3O/WLa%0a
+host:1598119133=108.32.35.122
+author:1598118923=
+csum:1598118923=fixing christina's password
+diff:1598118923:1598024265:=20c20%0a%3c -> christina: $2y$10$2nqegZmUG/VooQcyQGrohOcWZ73Rfai/xXUa8JwzAk2ZDj7wmWbMm%0a---%0a> -> christina: $2y$10$xthVwrKzA6Nb.SyYe/RzDec2Z0R4dCxu90JYhtwS4LXew0Se460Be%0a
+host:1598118923=108.32.35.122
+author:1598024265=
+diff:1598024265:1597971834:=27c27%0a%3c %0a---%0a> user: $2y$10$baDBz2OcrwF6x.8KSyMLXuKZ3vthoqkItSvhgungfvwtvG1xXrx3O%0a
+host:1598024265=108.32.35.122
+author:1597971834=
+diff:1597971834:1597971288:=21d20%0a%3c -> will: $2y$10$Gu.O2pP4w6.eppeo2WyKSeGsZITAWu5S4A2CJXai8M9fEgkaaWBmi%0a
+host:1597971834=108.32.35.122
+author:1597971288=
+diff:1597971288:1597971168:=40,42c40,42%0a%3c -> @writers: student1, student2%0a%3c -> @tas: ta1, ta2%0a%3c -> @admins: christina, will%0a---%0a> -> @writers: alice, bob  %0a> -> carol: @editors, @writers%0a> -> @admins: alice, dave%0a
+host:1597971288=108.32.35.122
+author:1597971168=
+diff:1597971168:1597848994:=18,24c18,22%0a%3c -> # Trial Accounts%0a%3c %0a%3c -> christina: $2y$10$xthVwrKzA6Nb.SyYe/RzDec2Z0R4dCxu90JYhtwS4LXew0Se460Be%0a%3c -> ta1: $2y$10$H2ibq7HIeOxogxap2ADxDeQkHfL73/VDS37kJ0igrfQnFdWqicCom%0a%3c -> ta2: $2y$10$KR6eYlkfVOlDBrK9zqOd9etRCTYzQod4ELpRVWw1apoo3y5i8peNa%0a%3c -> student1: $2y$10$5yRYMXRCiKu91m7jWlPGju3s77k5yfiXLyrT/thXkYHiaDoxFyXYq%0a%3c -> student2: $2y$10$NKL1u1tyFGJHBA/x24DrZ.6lm4R/9AVXPk190YB9GLpPP.a3O/WLa%0a---%0a> -> # Accounts%0a> %0a> -> alice: $2y$10$8Ueoo4fX4MpBlcojHim77uqZHOSZI5W0s6rVtp00JlEAyG9oIo77G%0a> -> bob_student: $2y$10$9sxUpjADCuEJngYpxLo9auGaO9tK8V.gGJM65iHqxp7c.qAvjjyCW%0a> -> carlos_ta: $2y$10$rDk028Q3k6adiH2lXpNhHOhjKIRmKMG4WIapfVHDfoqiFW3O4MU3q%0a
+host:1597971168=108.32.35.122
+author:1597848994=
+diff:1597848994:1597848970:=24c24%0a%3c user: $2y$10$baDBz2OcrwF6x.8KSyMLXuKZ3vthoqkItSvhgungfvwtvG1xXrx3O%0a---%0a> user: (:user pwd:)%0a
+host:1597848994=108.32.35.122
+author:1597848970=
+diff:1597848970:1597848836:=24d23%0a%3c user: (:user pwd:)%0a
+host:1597848970=108.32.35.122
+author:1597848836=
+diff:1597848836:1597848245:=19,20c19,20%0a%3c %0a%3c -> alice: $2y$10$8Ueoo4fX4MpBlcojHim77uqZHOSZI5W0s6rVtp00JlEAyG9oIo77G%0a---%0a> -> christina: $2y$10$gI7ADek8GkxACvnl6t1Yg..BnYZfhhjMU9R4l9kTXzD8CZrycFDQi%0a> -> alice_student: $2y$10$6h9d0hfc0L61axyxZll9yOOyCD/7jxTWnJumjvz/32fTyf9jGwL7W%0a23c23%0a%3c %0a---%0a> -> christina_prof: $2y$10$CD6MU/i.RsYHZsLFVkz4zew1IEKtRlL8LM3aiZUJcl1nl8eL/gXHG%0a
+host:1597848836=108.32.35.122
+author:1597848245=
+diff:1597848245:1597848128:=19c19%0a%3c -> christina: $2y$10$gI7ADek8GkxACvnl6t1Yg..BnYZfhhjMU9R4l9kTXzD8CZrycFDQi%0a---%0a> -> christina: $2y$10$1M515GJGhpjLHt/8K5.jDuw2eYMjmabrFToWQZOGSsvfb762eK/GK%0a
+host:1597848245=108.32.35.122
+author:1597848128=admin
+diff:1597848128:1597845927:=19d18%0a%3c -> christina: $2y$10$1M515GJGhpjLHt/8K5.jDuw2eYMjmabrFToWQZOGSsvfb762eK/GK%0a
+host:1597848128=108.32.35.122
+author:1597845927=
+diff:1597845927:1597841644:=22c22%0a%3c -> christina_prof: $2y$10$CD6MU/i.RsYHZsLFVkz4zew1IEKtRlL8LM3aiZUJcl1nl8eL/gXHG%0a---%0a> -> christina_prof $2y$10$LHRN3Ru.LQk26.gY4cAU8OF4V5bP88.Z2/.fKgJ8S4U344C9QxPbe%0a
+host:1597845927=108.32.35.122
+author:1597841644=as
+diff:1597841644:1597841628:=22c22%0a%3c -> christina_prof $2y$10$LHRN3Ru.LQk26.gY4cAU8OF4V5bP88.Z2/.fKgJ8S4U344C9QxPbe%0a---%0a> -> christina_prof (:encrypt christina-pwd)%0a
+host:1597841644=108.32.35.122
+author:1597841628=as
+diff:1597841628:1597841478:=19,22c19%0a%3c -> alice_student: $2y$10$6h9d0hfc0L61axyxZll9yOOyCD/7jxTWnJumjvz/32fTyf9jGwL7W%0a%3c -> bob_student: $2y$10$9sxUpjADCuEJngYpxLo9auGaO9tK8V.gGJM65iHqxp7c.qAvjjyCW%0a%3c -> carlos_ta: $2y$10$rDk028Q3k6adiH2lXpNhHOhjKIRmKMG4WIapfVHDfoqiFW3O4MU3q%0a%3c -> christina_prof (:encrypt christina-pwd)%0a---%0a> -> %0a
+host:1597841628=108.32.35.122
+author:1597841478=as
+diff:1597841478:1000000000:=17,20d16%0a%3c %0a%3c -> # Accounts%0a%3c -> %0a%3c %0a
+host:1597841478=108.32.35.122

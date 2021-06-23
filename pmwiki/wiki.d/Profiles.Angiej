@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612561410
+host=74.109.247.199
+name=Profiles.Angiej
+rev=4
+targets=
+text=(:andrewid: ajolicoe:)%0a(:section: D:)%0a#foxbegin 210309-213613-305330#%0a(:name: angiej:)%0a#foxend 210309-213613-305330#
+time=1615400074
+author:1615400074=
+diff:1615400074:1615325770:=4c4%0a%3c (:name: angiej:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615400074=74.109.247.199
+author:1615325770=
+diff:1615325770:1612561416:=2,5c2%0a%3c (:section: D:)%0a%3c #foxbegin 210309-213613-305330#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213613-305330#%0a\ No newline at end of file%0a---%0a> (:section: D:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612561416=angiej
+diff:1612561416:1612561410:=1,2c1%0a%3c (:andrewid: ajolicoe:)%0a%3c (:section: D:)%0a\ No newline at end of file%0a---%0a> (:andrewid: ajolicoe:)%0a\ No newline at end of file%0a
+host:1612561416=128.237.82.1
+author:1612561410=angiej
+diff:1612561410:1612561410:=1d0%0a%3c (:andrewid: ajolicoe:)%0a\ No newline at end of file%0a
+host:1612561410=128.237.82.1

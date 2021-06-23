@@ -1,0 +1,30 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+author=rajeev_g
+charset=UTF-8
+csum=
+ctime=1612249956
+host=73.154.247.188
+name=Profiles.Xiranw
+rev=6
+targets=Articles.HabitualBe,Articles.DoNotSpeakChineseInUniversityLounges
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: xiranw \\%0a%0a[[#comments]]%0a#foxbegin 210425-023753-85550#%0a* BrandonW expanded on your article [[Articles.HabitualBe|HabitualBe]] {[foxdelline button 210425-023753-85550 {$FullName} ]}%0a#foxend 210425-023753-85550#%0a#foxbegin 210505-035818-835750#%0a* rajeev_g expanded on your article [[Articles.DoNotSpeakChineseInUniversityLounges|DoNotSpeakChineseInUniversityLounges]] {[foxdelline button 210505-035818-835750 {$FullName} ]}%0a#foxend 210505-035818-835750#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: B:)%0a#foxbegin 210309-213707-889400#%0a(:name: xiranw:)%0a#foxend 210309-213707-889400#
+time=1620187096
+author:1620187096=rajeev_g
+diff:1620187096:1619318272:=10,12d9%0a%3c #foxbegin 210505-035818-835750#%0a%3c * rajeev_g expanded on your article [[Articles.DoNotSpeakChineseInUniversityLounges|DoNotSpeakChineseInUniversityLounges]] {[foxdelline button 210505-035818-835750 {$FullName} ]}%0a%3c #foxend 210505-035818-835750#%0a
+host:1620187096=73.154.247.188
+author:1619318272=BrandonW
+diff:1619318272:1615399884:=7,9c7%0a%3c #foxbegin 210425-023753-85550#%0a%3c * BrandonW expanded on your article [[Articles.HabitualBe|HabitualBe]] {[foxdelline button 210425-023753-85550 {$FullName} ]}%0a%3c #foxend 210425-023753-85550#%0a---%0a> %0a
+host:1619318272=72.77.81.225
+author:1615399884=
+diff:1615399884:1615325825:=27c27%0a%3c (:name: xiranw:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399884=74.109.247.199
+author:1615325825=
+diff:1615325825:1612404282:=25,28c25%0a%3c (:section: B:)%0a%3c #foxbegin 210309-213707-889400#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213707-889400#%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1612404282=xiranw
+diff:1612404282:1612249956:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: B:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612404282=66.27.77.226
+author:1612249956=xiranw
+diff:1612249956:1612249956:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: xiranw \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612249956=66.27.77.226

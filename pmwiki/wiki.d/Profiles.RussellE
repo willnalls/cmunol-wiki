@@ -1,0 +1,36 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=kyuwonW
+charset=UTF-8
+csum=
+ctime=1612226165
+host=98.42.167.123
+name=Profiles.RussellE
+rev=8
+targets=Articles.PhilosophyLessonsFromHAND,Articles.CloseTheLight,Articles.LRhotacismInJapaneseEnglish
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: remerine \\%0a%0a[[#comments]]%0a#foxbegin 210324-175358-158060#%0a* aryans expanded on your article [[Articles.PhilosophyLessonsFromHAND|PhilosophyLessonsFromHAND]] {[foxdelline button 210324-175358-158060 {$FullName} ]}%0a#foxend 210324-175358-158060#%0a#foxbegin 210425-024033-286300#%0a* AnanyaV expanded on your article [[Articles.CloseTheLight|CloseTheLight]] {[foxdelline button 210425-024033-286300 {$FullName} ]}%0a#foxend 210425-024033-286300#%0a#foxbegin 210506-170239-487920#%0a* kyuwonW expanded on your article [[Articles.LRhotacismInJapaneseEnglish|LRhotacismInJapaneseEnglish]] {[foxdelline button 210506-170239-487920 {$FullName} ]}%0a#foxend 210506-170239-487920#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: remerine \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: E:)%0a#foxbegin 210309-213619-622440#%0a(:name: Russell_E:)%0a#foxend 210309-213619-622440#
+time=1620320558
+author:1620320558=kyuwonW
+diff:1620320558:1619318430:=13,15d12%0a%3c #foxbegin 210506-170239-487920#%0a%3c * kyuwonW expanded on your article [[Articles.LRhotacismInJapaneseEnglish|LRhotacismInJapaneseEnglish]] {[foxdelline button 210506-170239-487920 {$FullName} ]}%0a%3c #foxend 210506-170239-487920#%0a
+host:1620320558=98.42.167.123
+author:1619318430=AnanyaV
+diff:1619318430:1616608437:=10,12d9%0a%3c #foxbegin 210425-024033-286300#%0a%3c * AnanyaV expanded on your article [[Articles.CloseTheLight|CloseTheLight]] {[foxdelline button 210425-024033-286300 {$FullName} ]}%0a%3c #foxend 210425-024033-286300#%0a
+host:1619318430=96.236.208.198
+author:1616608437=aryans
+diff:1616608437:1615326209:=7,9c7%0a%3c #foxbegin 210324-175358-158060#%0a%3c * aryans expanded on your article [[Articles.PhilosophyLessonsFromHAND|PhilosophyLessonsFromHAND]] {[foxdelline button 210324-175358-158060 {$FullName} ]}%0a%3c #foxend 210324-175358-158060#%0a---%0a> %0a
+host:1616608437=184.190.142.79
+author:1615326209=
+diff:1615326209:1615325770:=51c51%0a%3c (:name: Russell_E:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326209=74.109.247.199
+author:1615325770=
+diff:1615325770:1614801681:=49,52c49%0a%3c (:section: E:)%0a%3c #foxbegin 210309-213619-622440#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213619-622440#%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614801681=
+diff:1614801681:1612277055:=48,49c48%0a%3c [[#completedworkend]]%0a%3c (:section: E:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1614801681=74.109.247.199
+author:1612277055=Russell_E
+diff:1612277055:1612226165:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: remerine \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612277055=99.171.140.109
+author:1612226165=Russell_E
+diff:1612226165:1612226165:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: remerine \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612226165=99.171.140.109

@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1612306704
+host=74.111.97.246
+name=GradebookArticles.LanguagesWhyWeMustSaveDyingTongues
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Languages: Why we must save dying tongues%0a:Author: ahana_m%0a:Section: D%0a:Completed: 02.02.2021 - 14:58%0a:Status: complete%0a%0a%0a#foxbegin 210205-173055-827280#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173055-827280#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-152146-269170#%0a* [-06.05.2021 - 08:21-] || TA_lili marked as complete%0a#foxend 210506-152146-269170#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aIs it important to save dying languages?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI know that language is tied to culture and identity, so losing a language would kind of be like losing a culture, which would decrease diversity. Diversity is something that I think people generally value, so I assume this is one of the reasons that it's important to save a dying language. However, if no one speaks a language, then is it worth trying to revive it? What value are we gaining by reintroducing it into society when it's dying out?%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_lili:)
+time=1620314505
+author:1620314505=TA_lili
+diff:1620314505:1614797839:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210506-152146-269170#%0a%3c * [-06.05.2021 - 08:21-] || TA_lili marked as complete%0a%3c #foxend 210506-152146-269170#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620314505=74.111.97.246
+author:1614797839=
+diff:1614797839:1612546254:=4c4%0a%3c :Section: D%0a---%0a> :Section: %0a
+host:1614797839=74.109.247.199
+author:1612546254=TA_lili
+diff:1612546254:1612306704:=9,12d8%0a%3c #foxbegin 210205-173055-827280#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173055-827280#%0a
+host:1612546254=74.109.247.199
+author:1612306704=ahana_m
+diff:1612306704:1612306704:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Languages: Why we must save dying tongues%0a%3c :Author: ahana_m%0a%3c :Section: %0a%3c :Completed: 02.02.2021 - 14:58%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Is it important to save dying languages?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I know that language is tied to culture and identity, so losing a language would kind of be like losing a culture, which would decrease diversity. Diversity is something that I think people generally value, so I assume this is one of the reasons that it's important to save a dying language. However, if no one speaks a language, then is it worth trying to revive it? What value are we gaining by reintroducing it into society when it's dying out?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612306704=216.195.23.171

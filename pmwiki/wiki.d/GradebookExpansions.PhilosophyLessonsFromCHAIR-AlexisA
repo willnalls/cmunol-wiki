@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1616197951
+host=74.109.239.200
+name=GradebookExpansions.PhilosophyLessonsFromCHAIR-AlexisA
+rev=3
+targets=Articles.PhilosophyLessonsFromCHAIR,Profiles.Abbyl
+text=:Category: LanguageOfTheNacirema%0a:Expansion: The Etymology of Chair%0a:Author: AlexisA%0a:Original: [[Articles.PhilosophyLessonsFromCHAIR|PhilosophyLessonsFromCHAIR]] %0a:OriginalAuthor: [[Profiles.abbyl|abbyl]]%0a:Section: A%0a:Completed: 19.03.2021 - 16:52%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThe noun chair, as in the place where one sits, comes from the old French word, chaëre, meaning chair, seat, or throne. The verb chair (to install in a chair of authority) comes directly from the noun form and chair as in a position of authority seems to have the same origin. The use of chaëre to mean throne puts into context the English form meaning "to chair a committee," since thrones imply a position of power. Thus, it seems unlikely that the use of the same word for the two major meanings of the English chair implies that English speakers perceive a relationship between the two concepts.%0a%0aSources:%0ahttps://www.oed.com/search?searchType=dictionary&q=chair&_searchBtn=Search%0ahttps://www.etymonline.com/word/chair#etymonline_v_44622 (my former Latin teacher's favorite etymology website)%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000937-946230#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000937-946230#
+time=1620778172
+author:1620778172=
+diff:1620778172:1616289844:=42,46c42%0a%3c (:Category:)%0a%3c #foxbegin 210512-000937-946230#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000937-946230#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289844=
+diff:1616289844:1616197951:=6c6%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1616289844=74.109.247.199
+author:1616197951=AlexisA
+diff:1616197951:1616197951:=1,42d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: The Etymology of Chair%0a%3c :Author: AlexisA%0a%3c :Original: [[Articles.PhilosophyLessonsFromCHAIR|PhilosophyLessonsFromCHAIR]] %0a%3c :OriginalAuthor: [[Profiles.abbyl|abbyl]]%0a%3c :Section: %0a%3c :Completed: 19.03.2021 - 16:52%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c The noun chair, as in the place where one sits, comes from the old French word, chaëre, meaning chair, seat, or throne. The verb chair (to install in a chair of authority) comes directly from the noun form and chair as in a position of authority seems to have the same origin. The use of chaëre to mean throne puts into context the English form meaning "to chair a committee," since thrones imply a position of power. Thus, it seems unlikely that the use of the same word for the two major meanings of the English chair implies that English speakers perceive a relationship between the two concepts.%0a%3c %0a%3c Sources:%0a%3c https://www.oed.com/search?searchType=dictionary&q=chair&_searchBtn=Search%0a%3c https://www.etymonline.com/word/chair#etymonline_v_44622 (my former Latin teacher's favorite etymology website)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1616197951=128.237.82.2

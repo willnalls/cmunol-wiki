@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+author=AlexanderW
+charset=UTF-8
+csum=
+ctime=1612234736
+host=73.90.192.150
+name=Profiles.JasonE
+rev=5
+targets=Articles.Tryna-YaleGrammaticalDiversityProject
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: jedmunds \\%0a%0a[[#comments]]%0a#foxbegin 210428-152146-144620#%0a* AlexanderW expanded on your article [[Articles.Tryna-YaleGrammaticalDiversityProject|Tryna-YaleGrammaticalDiversityProject]] {[foxdelline button 210428-152146-144620 {$FullName} ]}%0a#foxend 210428-152146-144620#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: C:)%0a#foxbegin 210309-213615-653890#%0a(:name: JasonE:)%0a#foxend 210309-213615-653890#
+time=1619623305
+author:1619623305=AlexanderW
+diff:1619623305:1615405813:=7,9c7%0a%3c #foxbegin 210428-152146-144620#%0a%3c * AlexanderW expanded on your article [[Articles.Tryna-YaleGrammaticalDiversityProject|Tryna-YaleGrammaticalDiversityProject]] {[foxdelline button 210428-152146-144620 {$FullName} ]}%0a%3c #foxend 210428-152146-144620#%0a---%0a> %0a
+host:1619623305=73.90.192.150
+author:1615405813=
+diff:1615405813:1615325770:=27c27%0a%3c (:name: JasonE:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405813=74.109.247.199
+author:1615325770=
+diff:1615325770:1612807036:=25,28c25%0a%3c (:section: C:)%0a%3c #foxbegin 210309-213615-653890#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213615-653890#%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612807036=JasonE
+diff:1612807036:1612234736:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612807036=71.206.239.38
+author:1612234736=JasonE
+diff:1612234736:1612234736:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: jedmunds \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612234736=71.206.239.38

@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36
+author=NickG
+charset=UTF-8
+csum=
+ctime=1612337006
+host=74.109.251.161
+name=Profiles.MengS
+rev=7
+targets=Articles.PhilosophyLessonsFromCATCH,Articles.LinguisticDiscriminationInTheFrenchLanguage
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: mshou \\%0a%0a[[#comments]]%0a#foxbegin 210322-034742-926080#%0a* bellar expanded on your article [[Articles.PhilosophyLessonsFromCATCH|PhilosophyLessonsFromCATCH]] {[foxdelline button 210322-034742-926080 {$FullName} ]}%0a#foxend 210322-034742-926080#%0a#foxbegin 210425-171405-788310#%0a* NickG expanded on your article [[Articles.LinguisticDiscriminationInTheFrenchLanguage|LinguisticDiscriminationInTheFrenchLanguage]] {[foxdelline button 210425-171405-788310 {$FullName} ]}%0a#foxend 210425-171405-788310#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: mshou \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: E:)%0a#foxbegin 210309-213617-731910#%0a(:name: meng_s:)%0a#foxend 210309-213617-731910#
+time=1619370844
+author:1619370844=NickG
+diff:1619370844:1616384861:=10,12d9%0a%3c #foxbegin 210425-171405-788310#%0a%3c * NickG expanded on your article [[Articles.LinguisticDiscriminationInTheFrenchLanguage|LinguisticDiscriminationInTheFrenchLanguage]] {[foxdelline button 210425-171405-788310 {$FullName} ]}%0a%3c #foxend 210425-171405-788310#%0a
+host:1619370844=74.109.251.161
+author:1616384861=bellar
+diff:1616384861:1615397560:=7,9c7%0a%3c #foxbegin 210322-034742-926080#%0a%3c * bellar expanded on your article [[Articles.PhilosophyLessonsFromCATCH|PhilosophyLessonsFromCATCH]] {[foxdelline button 210322-034742-926080 {$FullName} ]}%0a%3c #foxend 210322-034742-926080#%0a---%0a> %0a
+host:1616384861=128.237.82.2
+author:1615397560=
+diff:1615397560:1615325770:=51c51%0a%3c (:name: meng_s:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615397560=74.109.247.199
+author:1615325770=
+diff:1615325770:1614801303:=49,52c49%0a%3c (:section: E:)%0a%3c #foxbegin 210309-213617-731910#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213617-731910#%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614801303=
+diff:1614801303:1612345888:=48,49c48%0a%3c [[#completedworkend]]%0a%3c (:section: E:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1614801303=74.109.247.199
+author:1612345888=meng_s
+diff:1612345888:1612337006:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: mshou \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612345888=116.88.125.89
+author:1612337006=meng_s
+diff:1612337006:1612337006:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: mshou \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612337006=116.88.125.89

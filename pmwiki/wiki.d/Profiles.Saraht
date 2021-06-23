@@ -1,0 +1,36 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+author=JasonE
+charset=UTF-8
+csum=
+ctime=1612204905
+host=71.206.239.38
+name=Profiles.Saraht
+rev=8
+targets=Articles.PhilosophyLessonsFromBAT,Articles.HowCOVIDPoliciesEffectTheDeafCommunity
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: sct1 \\%0a%0a[[#comments]]%0a#foxbegin 210327-190806-276800#%0a* sirisha_b expanded on your article [[Articles.PhilosophyLessonsFromBAT|PhilosophyLessonsFromBAT]] {[foxdelline button 210327-190806-276800 {$FullName} ]}%0a#foxend 210327-190806-276800#%0a#foxbegin 210430-233802-859540#%0a* khushiw expanded on your article [[Articles.HowCOVIDPoliciesEffectTheDeafCommunity|HowCOVIDPoliciesEffectTheDeafCommunity]] {[foxdelline button 210430-233802-859540 {$FullName} ]}%0a#foxend 210430-233802-859540#%0a#foxbegin 210503-193848-831730#%0a* leah_w expanded on your article [[Articles.HowCOVIDPoliciesEffectTheDeafCommunity|HowCOVIDPoliciesEffectTheDeafCommunity]] {[foxdelline button 210503-193848-831730 {$FullName} ]}%0a#foxend 210503-193848-831730#%0a#foxbegin 210505-030102-236270#%0a* JasonE expanded on your article [[Articles.HowCOVIDPoliciesEffectTheDeafCommunity|HowCOVIDPoliciesEffectTheDeafCommunity]] {[foxdelline button 210505-030102-236270 {$FullName} ]}%0a#foxend 210505-030102-236270#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213620-718100#%0a(:name: saraht:)%0a#foxend 210309-213620-718100#
+time=1620183661
+author:1620183661=JasonE
+diff:1620183661:1620070727:=16,18d15%0a%3c #foxbegin 210505-030102-236270#%0a%3c * JasonE expanded on your article [[Articles.HowCOVIDPoliciesEffectTheDeafCommunity|HowCOVIDPoliciesEffectTheDeafCommunity]] {[foxdelline button 210505-030102-236270 {$FullName} ]}%0a%3c #foxend 210505-030102-236270#%0a
+host:1620183661=71.206.239.38
+author:1620070727=leah_w
+diff:1620070727:1619825879:=13,15d12%0a%3c #foxbegin 210503-193848-831730#%0a%3c * leah_w expanded on your article [[Articles.HowCOVIDPoliciesEffectTheDeafCommunity|HowCOVIDPoliciesEffectTheDeafCommunity]] {[foxdelline button 210503-193848-831730 {$FullName} ]}%0a%3c #foxend 210503-193848-831730#%0a
+host:1620070727=71.245.186.13
+author:1619825879=khushiw
+diff:1619825879:1616872084:=10,12d9%0a%3c #foxbegin 210430-233802-859540#%0a%3c * khushiw expanded on your article [[Articles.HowCOVIDPoliciesEffectTheDeafCommunity|HowCOVIDPoliciesEffectTheDeafCommunity]] {[foxdelline button 210430-233802-859540 {$FullName} ]}%0a%3c #foxend 210430-233802-859540#%0a
+host:1619825879=128.2.149.254
+author:1616872084=sirisha_b
+diff:1616872084:1615398158:=7,9c7%0a%3c #foxbegin 210327-190806-276800#%0a%3c * sirisha_b expanded on your article [[Articles.PhilosophyLessonsFromBAT|PhilosophyLessonsFromBAT]] {[foxdelline button 210327-190806-276800 {$FullName} ]}%0a%3c #foxend 210327-190806-276800#%0a---%0a> %0a
+host:1616872084=68.100.29.45
+author:1615398158=
+diff:1615398158:1615325770:=27c27%0a%3c (:name: saraht:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615398158=74.109.247.199
+author:1615325770=
+diff:1615325770:1612754787:=25,28c25%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213620-718100#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213620-718100#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612754787=saraht
+diff:1612754787:1612204905:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612754787=71.206.245.104
+author:1612204905=saraht
+diff:1612204905:1612204905:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sct1 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612204905=71.206.245.104

@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=will
+charset=UTF-8
+csum=
+ctime=1611935752
+host=74.109.247.199
+name=Articles.GroupHeader
+rev=5
+targets=
+text=
+time=1616781457
+author:1616781457=will
+diff:1616781457:1612466829:=
+host:1616781457=74.109.247.199
+author:1612466829=TA_lili
+diff:1612466829:1611935950:=0a1,16%0a> (:if authgroup @tas:)%0a> %0a> (:toggle id=gi show="show grading interface" hide="hide grading interface":)%0a> %0a> >>id=gi%3c%3c%0a> %0a> [[GradebookArticles.{$Name}|See article in gradebook]] \\%0a> [[{$FullName}?action=diff|See all changes to article]]%0a> %0a> (:foxform Site.FoxForms#gradeitem:)%0a> %0a> >>%3c%3c%0a> %0a> %0a> %0a> (:ifend:)%0a\ No newline at end of file%0a
+host:1612466829=74.109.247.199
+author:1611935950=ta1
+diff:1611935950:1611935781:=7c7%0a%3c [[GradebookArticles.{$Name}|See article in gradebook]] \\%0a---%0a> [[GradebookArticles.{$Name}|See article in gradebook]]%0a10c10%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a---%0a> (:foxform Site.FoxForms#gradeArticle:)%0a
+host:1611935950=74.109.247.199
+author:1611935781=student1
+diff:1611935781:1611935752:=13,16d12%0a%3c %0a%3c %0a%3c %0a%3c (:ifend:)%0a\ No newline at end of file%0a
+host:1611935781=74.109.247.199
+author:1611935752=student1
+diff:1611935752:1611935752:=1,12d0%0a%3c (:if authgroup @tas:)%0a%3c %0a%3c (:toggle id=gi show="show grading interface" hide="hide grading interface":)%0a%3c %0a%3c >>id=gi%3c%3c%0a%3c %0a%3c [[GradebookArticles.{$Name}|See article in gradebook]]%0a%3c [[{$FullName}?action=diff|See all changes to article]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeArticle:)%0a%3c %0a%3c >>%3c%3c%0a
+host:1611935752=74.109.247.199

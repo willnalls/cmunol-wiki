@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1618587174
+host=69.218.234.170
+name=GradebookExpansions.TheUseOfOnlyInIndianEnglish-MihirD
+rev=2
+targets=Articles.TheUseOfOnlyInIndianEnglish,Profiles.AnanyaV
+text=:Category: MorphosyntacticDiversity%0a:Expansion: "itself" is used in a similar way%0a:Author: Mihir_D%0a:Original: [[Articles.TheUseOfOnlyInIndianEnglish|TheUseOfOnlyInIndianEnglish]] %0a:OriginalAuthor: [[Profiles.AnanyaV|AnanyaV]]%0a:Section: A%0a:Completed: 16.04.2021 - 08:32%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210421-175652-66060#%0a* [-21.04.2021 - 10:56-] || TA_audrey marked as complete%0a#foxend 210421-175652-66060#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0a"itself" is used very similarly to "only" in Indian English. For example, "I finished my homework today itself". In Standard English this is considered redundant. Redundant language seems to be common in casual speech, as the phrase "return back" is often used as well (instead of just "return" or "come back"). In this case, "itself" could be replaced with "only" as well to have a similar meaning. %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1619027809
+author:1619027809=TA_audrey
+diff:1619027809:1618587174:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210421-175652-66060#%0a%3c * [-21.04.2021 - 10:56-] || TA_audrey marked as complete%0a%3c #foxend 210421-175652-66060#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1619027809=69.218.234.170
+author:1618587174=Mihir_D
+diff:1618587174:1618587174:=1,38d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: "itself" is used in a similar way%0a%3c :Author: Mihir_D%0a%3c :Original: [[Articles.TheUseOfOnlyInIndianEnglish|TheUseOfOnlyInIndianEnglish]] %0a%3c :OriginalAuthor: [[Profiles.AnanyaV|AnanyaV]]%0a%3c :Section: A%0a%3c :Completed: 16.04.2021 - 08:32%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c "itself" is used very similarly to "only" in Indian English. For example, "I finished my homework today itself". In Standard English this is considered redundant. Redundant language seems to be common in casual speech, as the phrase "return back" is often used as well (instead of just "return" or "come back"). In this case, "itself" could be replaced with "only" as well to have a similar meaning. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1618587174=108.16.220.220

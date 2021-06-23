@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux aarch64; rv:83.0) Gecko/20100101 Firefox/83.0
+author=
+charset=UTF-8
+csum=
+ctime=1612103742
+host=74.109.247.199
+name=Category.GroupHeader
+rev=2
+targets=Category.GroupHeader
+text=(:if [ authgroup @admins || equal {$Author} '' ] :)%0a%0a[[{*$FullName}?action=edit | Edit Category ]]%0a%0a(:ifend:)
+time=1612103784
+author:1612103784=
+diff:1612103784:1612103742:=1,5c1,3%0a%3c (:if [ authgroup @admins || equal {$Author} '' ] :)%0a%3c %0a%3c [[{*$FullName}?action=edit | Edit Category ]]%0a%3c %0a%3c (:ifend:)%0a\ No newline at end of file%0a---%0a> (:if authgroup @admins:)%0a> %0a> [[{*$FullName}?action=edit | Edit Category ]]%0a\ No newline at end of file%0a
+host:1612103784=74.109.247.199
+author:1612103742=
+diff:1612103742:1612103742:=1,3d0%0a%3c (:if authgroup @admins:)%0a%3c %0a%3c [[{*$FullName}?action=edit | Edit Category ]]%0a\ No newline at end of file%0a
+host:1612103742=74.109.247.199

@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1612350600
+host=74.111.97.246
+name=GradebookArticles.DoesLanguageAffectHowWeThink
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Does language affect how we think?%0a:Author: Spencer_L%0a:Section: D%0a:Completed: 03.02.2021 - 03:10%0a:Status: complete%0a%0a%0a#foxbegin 210205-172830-84950#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-172830-84950#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-152137-681450#%0a* [-06.05.2021 - 08:21-] || TA_lili marked as complete%0a#foxend 210506-152137-681450#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aDepending on our primary language, our way of thinking may be affected by the nature of the language itself.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI had a recent discussion with my friend about Southeast Asian languages and what language we use when we dream or think. This conversation caught my attention, because I realized that I have a weird habit. When I am calculating math problems, I think in Mandarin. For example, when  I am calculating arithmetic problems in my head, the little voice in my head is "talking" in Mandarin. Strangely, I solve the problem faster when I am thinking about it in Mandarin. This is particularly weird to me, because I was born and educated in the United States. Consequentially, I should be thinking in English. This phenomenon made me consider the question about whether or not we think differently depending on which language we think with. In addition, does the history and growth of a certain language play a major role in how we think in that language.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_lili:)
+time=1620314497
+author:1620314497=TA_lili
+diff:1620314497:1614797759:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210506-152137-681450#%0a%3c * [-06.05.2021 - 08:21-] || TA_lili marked as complete%0a%3c #foxend 210506-152137-681450#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620314497=74.111.97.246
+author:1614797759=
+diff:1614797759:1612546110:=4c4%0a%3c :Section: D%0a---%0a> :Section: %0a
+host:1614797759=74.109.247.199
+author:1612546110=TA_lili
+diff:1612546110:1612350600:=9,12d8%0a%3c #foxbegin 210205-172830-84950#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-172830-84950#%0a
+host:1612546110=74.109.247.199
+author:1612350600=Spencer_L
+diff:1612350600:1612350600:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Does language affect how we think?%0a%3c :Author: Spencer_L%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 03:10%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Depending on our primary language, our way of thinking may be affected by the nature of the language itself.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I had a recent discussion with my friend about Southeast Asian languages and what language we use when we dream or think. This conversation caught my attention, because I realized that I have a weird habit. When I am calculating math problems, I think in Mandarin. For example, when  I am calculating arithmetic problems in my head, the little voice in my head is "talking" in Mandarin. Strangely, I solve the problem faster when I am thinking about it in Mandarin. This is particularly weird to me, because I was born and educated in the United States. Consequentially, I should be thinking in English. This phenomenon made me consider the question about whether or not we think differently depending on which language we think with. In addition, does the history and growth of a certain language play a major role in how we think in that language.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612350600=47.145.195.142

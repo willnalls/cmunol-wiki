@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1620007243
+host=74.111.97.246
+name=GradebookExpansions.TrynaArticle-JasonE
+rev=2
+targets=Articles.TrynaArticle,Profiles.AhanaM
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Examples of tryna online%0a:Author: JasonE%0a:Original: [[Articles.TrynaArticle|TrynaArticle]] %0a:OriginalAuthor: [[Profiles.ahana_m|ahana_m]]%0a:Section: C%0a:Completed: 02.05.2021 - 19:00%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-145825-811360#%0a* [-06.05.2021 - 07:58-] || TA_lili marked as complete%0a#foxend 210506-145825-811360#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aBelow are the links to some examples of the word tryna being used online.%0a%0aWorld famous rapper Lil Uzi Vert’s tweet using tryna:%0ahttps://twitter.com/liluzivert/status/1357140998137249798?lang=en %0a%0aNFL running back Alvin Kamara using tryna in a tweet (NSFW Language warning):%0ahttps://twitter.com/a_kamara6/status/1366549128642244610?lang=en %0a%0aRapper Lil Baby's tweet using tryna:%0ahttps://twitter.com/lilbaby4pf/status/1290260725999341568?lang=en %0a%0aLink to music video for song “Tryna’ Tryna’” by rapper Lil Durk (WARNING - Contains explicit lyrics):%0ahttps://www.youtube.com/watch?v=NjABkbHL3Lk %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620313105
+author:1620313105=TA_lili
+diff:1620313105:1620007243:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210506-145825-811360#%0a%3c * [-06.05.2021 - 07:58-] || TA_lili marked as complete%0a%3c #foxend 210506-145825-811360#%0a---%0a> %0a52,53c50%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620313105=74.111.97.246
+author:1620007243=JasonE
+diff:1620007243:1620007243:=1,50d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Examples of tryna online%0a%3c :Author: JasonE%0a%3c :Original: [[Articles.TrynaArticle|TrynaArticle]] %0a%3c :OriginalAuthor: [[Profiles.ahana_m|ahana_m]]%0a%3c :Section: C%0a%3c :Completed: 02.05.2021 - 19:00%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Below are the links to some examples of the word tryna being used online.%0a%3c %0a%3c World famous rapper Lil Uzi Vert’s tweet using tryna:%0a%3c https://twitter.com/liluzivert/status/1357140998137249798?lang=en %0a%3c %0a%3c NFL running back Alvin Kamara using tryna in a tweet (NSFW Language warning):%0a%3c https://twitter.com/a_kamara6/status/1366549128642244610?lang=en %0a%3c %0a%3c Rapper Lil Baby's tweet using tryna:%0a%3c https://twitter.com/lilbaby4pf/status/1290260725999341568?lang=en %0a%3c %0a%3c Link to music video for song “Tryna’ Tryna’” by rapper Lil Durk (WARNING - Contains explicit lyrics):%0a%3c https://www.youtube.com/watch?v=NjABkbHL3Lk %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620007243=71.206.239.38

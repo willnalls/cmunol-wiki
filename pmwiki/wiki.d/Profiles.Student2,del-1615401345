@@ -1,0 +1,31 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1611697050
+host=74.109.247.199
+name=Profiles.Student2
+rev=6
+targets=
+text=!!{$Name}'s profile%0a%0asection: A \\%0aandrewid: wnalls \\%0a%0a[[#comments]]%0a#foxbegin 210127-224037-307600#%0a#foxend 210127-224037-307600#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a[[#completedworkend]]%0a#foxbegin 210309-213706-305580#%0a(:name: {$Name}:)%0a#foxend 210309-213706-305580#
+time=1615325825
+author:1615325825=
+diff:1615325825:1611787271:=21,24c21%0a%3c [[#completedworkend]]%0a%3c #foxbegin 210309-213706-305580#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213706-305580#%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1611787271=student2
+csum:1611787271=Post deleted
+diff:1611787271:1611787236:=7a8%0a> * student2 expanded on your article [[Articles.ArticleForComments|ArticleForComments]] {[foxdelline button 210127-224037-307600 {$FullName} ]}%0a
+host:1611787271=74.109.247.199
+author:1611787236=student2
+diff:1611787236:1611787029:=7,9c7%0a%3c #foxbegin 210127-224037-307600#%0a%3c * student2 expanded on your article [[Articles.ArticleForComments|ArticleForComments]] {[foxdelline button 210127-224037-307600 {$FullName} ]}%0a%3c #foxend 210127-224037-307600#%0a---%0a> %0a
+host:1611787236=74.109.247.199
+author:1611787029=student2
+diff:1611787029:1611779488:=7c7,14%0a%3c %0a---%0a> student1 expanded on your article [[Articles.ArticleTitle|ArticleTitle]] %3cform class='foxdelbutton' action='https://cmunol-wiki.com/pmwiki/pmwiki.php?n=Articles.ArticleTitle' method='post'>%0a> 			%3cinput type='hidden' name='n' value='Articles.ArticleTitle' />%0a> 			%3cinput type='hidden' name='base' value='Articles.ArticleTitle' />%0a> 			%3cinput type='hidden' name='action' value='foxdelete' />%0a> 			%3cinput type='hidden' name='csum' value='Post deleted' />%0a> 			%3cinput type='hidden' name='key' value='' />%0a> 			%3cinput type='submit' name='doit' value='Delete' class='inputbutton' />%0a> 			%3c/form>%0a
+host:1611787029=74.109.247.199
+author:1611779488=student1
+diff:1611779488:1611697050:=7,14c7%0a%3c student1 expanded on your article [[Articles.ArticleTitle|ArticleTitle]] %3cform class='foxdelbutton' action='https://cmunol-wiki.com/pmwiki/pmwiki.php?n=Articles.ArticleTitle' method='post'>%0a%3c 			%3cinput type='hidden' name='n' value='Articles.ArticleTitle' />%0a%3c 			%3cinput type='hidden' name='base' value='Articles.ArticleTitle' />%0a%3c 			%3cinput type='hidden' name='action' value='foxdelete' />%0a%3c 			%3cinput type='hidden' name='csum' value='Post deleted' />%0a%3c 			%3cinput type='hidden' name='key' value='' />%0a%3c 			%3cinput type='submit' name='doit' value='Delete' class='inputbutton' />%0a%3c 			%3c/form>%0a---%0a> %0a
+host:1611779488=74.109.247.199
+author:1611697050=student2
+diff:1611697050:1611697050:=1,20d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c section: A \\%0a%3c andrewid: wnalls \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1611697050=74.109.247.199

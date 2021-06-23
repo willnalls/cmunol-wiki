@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612233449
+host=74.109.247.199
+name=GradebookArticles.VariationsAmongLanguages
+rev=3
+targets=
+text=:Category: PracticeCategory%0a:Title: Variations Among Languages%0a:Author: sirisha_b%0a:Section: A%0a:Completed: 01.02.2021 - 18:37%0a:Status: ungraded%0a%0a%0a#foxbegin 210205-173236-520430#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173236-520430#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aWhat causes variations among languages aside from geography?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aAside from geography causing people to create a way to communication with people in their region, is there any other reason for some of the specific variation between all languages and/or dialects of a language?  The first example that comes to mind is that with a language like Spanish, it is mostly spoken at the front of the mouth and uses the tip of the tongue a lot.  However, with another language, the majority of the sounds may come from the back of the mouth. I have always wondered if there was a reason for this difference in how we use our throats and mouths to make sounds that comes from biology or some need to adapt to the location the language is being developed.  And is there an evolutionary reason that all languages didn't end up using all parts of the mouth?%0aBonus question I have: Why do speech impediments like rhotacism and lambdacism begin with the letters that the impediment inhibits someone from pronouncing?%0a%0a[[#contentends]]%0a----
+time=1614798078
+author:1614798078=
+diff:1614798078:1612546355:=4c4%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1614798078=74.109.247.199
+author:1612546355=TA_lili
+diff:1612546355:1612233449:=9,12d8%0a%3c #foxbegin 210205-173236-520430#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173236-520430#%0a
+host:1612546355=74.109.247.199
+author:1612233449=sirisha_b
+diff:1612233449:1612233449:=1,40d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Variations Among Languages%0a%3c :Author: sirisha_b%0a%3c :Section: %0a%3c :Completed: 01.02.2021 - 18:37%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c What causes variations among languages aside from geography?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Aside from geography causing people to create a way to communication with people in their region, is there any other reason for some of the specific variation between all languages and/or dialects of a language?  The first example that comes to mind is that with a language like Spanish, it is mostly spoken at the front of the mouth and uses the tip of the tongue a lot.  However, with another language, the majority of the sounds may come from the back of the mouth. I have always wondered if there was a reason for this difference in how we use our throats and mouths to make sounds that comes from biology or some need to adapt to the location the language is being developed.  And is there an evolutionary reason that all languages didn't end up using all parts of the mouth?%0a%3c Bonus question I have: Why do speech impediments like rhotacism and lambdacism begin with the letters that the impediment inhibits someone from pronouncing?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612233449=68.100.43.128

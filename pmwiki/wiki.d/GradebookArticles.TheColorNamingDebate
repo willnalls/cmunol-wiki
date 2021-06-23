@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0
+author=kevinx
+charset=UTF-8
+csum=
+ctime=1617935125
+host=73.154.247.242
+name=GradebookArticles.TheColorNamingDebate
+rev=1
+targets=
+text=:Category: Varia%0a:Essential: {Category.Varia$:essential}%0a:Title: The color naming debate%0a:Author: kevinx%0a:Section: D%0a:Completed: 08.04.2021 - 19:25%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aA look at how the Namibian Himbas may distinguish colors differently to English speakers%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aincomplete, do not grade%0a%0a[[#contentends]]%0a----
+time=1617935125
+author:1617935125=kevinx
+diff:1617935125:1617935125:=1,45d0%0a%3c :Category: Varia%0a%3c :Essential: {Category.Varia$:essential}%0a%3c :Title: The color naming debate%0a%3c :Author: kevinx%0a%3c :Section: D%0a%3c :Completed: 08.04.2021 - 19:25%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c A look at how the Namibian Himbas may distinguish colors differently to English speakers%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c incomplete, do not grade%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1617935125=73.154.247.242

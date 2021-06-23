@@ -1,0 +1,42 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=SubhasishM
+charset=UTF-8
+csum=
+ctime=1612234581
+host=108.35.144.120
+name=Profiles.SanjanaM
+rev=10
+targets=Articles.TheCherokee,Articles.TheIndianAccentInMedia
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: smeduri2 \\%0a%0a[[#comments]]%0a#foxbegin 210320-151717-774270#%0a* sebastiang expanded on your article [[Articles.TheCherokee|TheCherokee]] {[foxdelline button 210320-151717-774270 {$FullName} ]}%0a#foxend 210320-151717-774270#%0a#foxbegin 210326-080942-839430#%0a* EthanW expanded on your article [[Articles.TheCherokee|TheCherokee]] {[foxdelline button 210326-080942-839430 {$FullName} ]}%0a#foxend 210326-080942-839430#%0a#foxbegin 210430-224531-849760#%0a* khushiw expanded on your article [[Articles.TheCherokee|TheCherokee]] {[foxdelline button 210430-224531-849760 {$FullName} ]}%0a#foxend 210430-224531-849760#%0a#foxbegin 210508-000655-737640#%0a* SubhasishM expanded on your article [[Articles.TheIndianAccentInMedia|TheIndianAccentInMedia]] {[foxdelline button 210508-000655-737640 {$FullName} ]}%0a#foxend 210508-000655-737640#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: smeduri \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: smeduri2 \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: D:)%0a#foxbegin 210309-213619-376040#%0a(:name: sanjana_m:)%0a#foxend 210309-213619-376040#
+time=1620432414
+author:1620432414=SubhasishM
+diff:1620432414:1619822728:=16,18d15%0a%3c #foxbegin 210508-000655-737640#%0a%3c * SubhasishM expanded on your article [[Articles.TheIndianAccentInMedia|TheIndianAccentInMedia]] {[foxdelline button 210508-000655-737640 {$FullName} ]}%0a%3c #foxend 210508-000655-737640#%0a
+host:1620432414=108.35.144.120
+author:1619822728=khushiw
+diff:1619822728:1616746181:=13,15d12%0a%3c #foxbegin 210430-224531-849760#%0a%3c * khushiw expanded on your article [[Articles.TheCherokee|TheCherokee]] {[foxdelline button 210430-224531-849760 {$FullName} ]}%0a%3c #foxend 210430-224531-849760#%0a
+host:1619822728=128.2.149.254
+author:1616746181=EthanW
+diff:1616746181:1616253436:=10,12d9%0a%3c #foxbegin 210326-080942-839430#%0a%3c * EthanW expanded on your article [[Articles.TheCherokee|TheCherokee]] {[foxdelline button 210326-080942-839430 {$FullName} ]}%0a%3c #foxend 210326-080942-839430#%0a
+host:1616746181=206.190.157.238
+author:1616253436=sebastiang
+diff:1616253436:1615326264:=7,9c7%0a%3c #foxbegin 210320-151717-774270#%0a%3c * sebastiang expanded on your article [[Articles.TheCherokee|TheCherokee]] {[foxdelline button 210320-151717-774270 {$FullName} ]}%0a%3c #foxend 210320-151717-774270#%0a---%0a> %0a
+host:1616253436=128.237.82.1
+author:1615326264=
+diff:1615326264:1615325770:=75c75%0a%3c (:name: sanjana_m:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326264=74.109.247.199
+author:1615325770=
+diff:1615325770:1613850629:=73,76c73%0a%3c (:section: D:)%0a%3c #foxbegin 210309-213619-376040#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213619-376040#%0a\ No newline at end of file%0a---%0a> (:section: D:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1613850629=sanjana_m
+diff:1613850629:1612234620:=72,73c72%0a%3c [[#completedworkend]]%0a%3c (:section: D:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613850629=128.237.82.2
+author:1612234620=sanjana_m
+diff:1612234620:1612234595:=29,52d28%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: smeduri2 \\%0a
+host:1612234620=128.237.82.1
+author:1612234595=sanjana_m
+diff:1612234595:1612234581:=5,28d4%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: smeduri \\%0a
+host:1612234595=128.237.82.1
+author:1612234581=sanjana_m
+diff:1612234581:1612234581:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: smeduri2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612234581=128.237.82.1

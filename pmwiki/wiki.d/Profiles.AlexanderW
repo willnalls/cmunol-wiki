@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:88.0) Gecko/20100101 Firefox/88.0
+author=ruiranx
+charset=UTF-8
+csum=
+ctime=1612249826
+host=74.109.250.254
+name=Profiles.AlexanderW
+rev=7
+targets=Articles.AsianAccentDiscrimination,Articles.ForensicLinguistics
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: aywang \\%0a%0a[[#comments]]%0a#foxbegin 210430-230134-102210#%0a* sanjana_m expanded on your article [[Articles.AsianAccentDiscrimination|AsianAccentDiscrimination]] {[foxdelline button 210430-230134-102210 {$FullName} ]}%0a#foxend 210430-230134-102210#%0a#foxbegin 210508-012805-924700#%0a* CharlieP expanded on your article [[Articles.ForensicLinguistics|ForensicLinguistics]] {[foxdelline button 210508-012805-924700 {$FullName} ]}%0a#foxend 210508-012805-924700#%0a#foxbegin 210509-021524-59260#%0a* ruiranx expanded on your article [[Articles.AsianAccentDiscrimination|AsianAccentDiscrimination]] {[foxdelline button 210509-021524-59260 {$FullName} ]}%0a#foxend 210509-021524-59260#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: E:)%0a#foxbegin 210309-213612-645090#%0a(:name: AlexanderW:)%0a#foxend 210309-213612-645090#
+time=1620526523
+author:1620526523=ruiranx
+diff:1620526523:1620437284:=13,15d12%0a%3c #foxbegin 210509-021524-59260#%0a%3c * ruiranx expanded on your article [[Articles.AsianAccentDiscrimination|AsianAccentDiscrimination]] {[foxdelline button 210509-021524-59260 {$FullName} ]}%0a%3c #foxend 210509-021524-59260#%0a
+host:1620526523=74.109.250.254
+author:1620437284=CharlieP
+diff:1620437284:1619823691:=10,12d9%0a%3c #foxbegin 210508-012805-924700#%0a%3c * CharlieP expanded on your article [[Articles.ForensicLinguistics|ForensicLinguistics]] {[foxdelline button 210508-012805-924700 {$FullName} ]}%0a%3c #foxend 210508-012805-924700#%0a
+host:1620437284=74.109.251.161
+author:1619823691=sanjana_m
+diff:1619823691:1615404774:=7,9c7%0a%3c #foxbegin 210430-230134-102210#%0a%3c * sanjana_m expanded on your article [[Articles.AsianAccentDiscrimination|AsianAccentDiscrimination]] {[foxdelline button 210430-230134-102210 {$FullName} ]}%0a%3c #foxend 210430-230134-102210#%0a---%0a> %0a
+host:1619823691=128.2.149.254
+author:1615404774=
+diff:1615404774:1615325770:=27c27%0a%3c (:name: AlexanderW:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615404774=74.109.247.199
+author:1615325770=
+diff:1615325770:1614801166:=25,28c25%0a%3c (:section: E:)%0a%3c #foxbegin 210309-213612-645090#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213612-645090#%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614801166=
+diff:1614801166:1612249826:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: E:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1614801166=74.109.247.199
+author:1612249826=AlexanderW
+diff:1612249826:1612249826:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: aywang \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612249826=73.66.176.229

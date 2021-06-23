@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1619822728
+host=69.218.234.170
+name=GradebookExpansions.TheCherokee-khushiw
+rev=2
+targets=Articles.TheCherokee,Profiles.SanjanaM
+text=:Category: IndigenousLanguagesOfTheAmericas%0a:Expansion: Cherokee Revitalization in Schools%0a:Author: khushiw%0a:Original: [[Articles.TheCherokee|TheCherokee]] %0a:OriginalAuthor: [[Profiles.sanjana_m|sanjana_m]]%0a:Section: B%0a:Completed: 30.04.2021 - 15:45%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-234415-27060#%0a* [-11.05.2021 - 16:44-] || TA_audrey marked as complete%0a#foxend 210511-234415-27060#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aAnother big source of revitalization of the Cherokee language is school curriculums. Some immersion school are preserving the Cherokee language by teaching students how to read, write and speak Cherokee. This has been very effective as seen by the results in this paper because it teaches students to respect the culture, thereby increasing the likelihood that they use the language more frequently. %0a%0aSource: https://trace.tennessee.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=3108&context=utk_chanhonoproj%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620776655
+author:1620776655=TA_audrey
+diff:1620776655:1619822728:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-234415-27060#%0a%3c * [-11.05.2021 - 16:44-] || TA_audrey marked as complete%0a%3c #foxend 210511-234415-27060#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620776655=69.218.234.170
+author:1619822728=khushiw
+diff:1619822728:1619822728:=1,40d0%0a%3c :Category: IndigenousLanguagesOfTheAmericas%0a%3c :Expansion: Cherokee Revitalization in Schools%0a%3c :Author: khushiw%0a%3c :Original: [[Articles.TheCherokee|TheCherokee]] %0a%3c :OriginalAuthor: [[Profiles.sanjana_m|sanjana_m]]%0a%3c :Section: B%0a%3c :Completed: 30.04.2021 - 15:45%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Another big source of revitalization of the Cherokee language is school curriculums. Some immersion school are preserving the Cherokee language by teaching students how to read, write and speak Cherokee. This has been very effective as seen by the results in this paper because it teaches students to respect the culture, thereby increasing the likelihood that they use the language more frequently. %0a%3c %0a%3c Source: https://trace.tennessee.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=3108&context=utk_chanhonoproj%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619822728=128.2.149.254

@@ -1,0 +1,45 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:88.0) Gecko/20100101 Firefox/88.0
+author=ruiranx
+charset=UTF-8
+csum=
+ctime=1612224485
+host=74.109.250.254
+name=Profiles.SimonY
+rev=11
+targets=Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends,Articles.TheNisenan,Articles.AccentDiscriminationInEducation,Articles.BotnikStudiosAndTheirPredictiveTextKeyboard,Articles.EthicIssuesWithTextGenerator
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: bohanyu \\%0a%0a[[#comments]]%0a#foxbegin 210202-043540-869970#%0a* sebastiang expanded on your article [[Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends|WhatLanguageDoYouSpeakDoYourBilingualFriends]] {[foxdelline button 210202-043540-869970 {$FullName} ]}%0a#foxend 210202-043540-869970#%0a#foxbegin 210202-144959-802850#%0a* Russell_E expanded on your article [[Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends|WhatLanguageDoYouSpeakDoYourBilingualFriends]] {[foxdelline button 210202-144959-802850 {$FullName} ]}%0a#foxend 210202-144959-802850#%0a#foxbegin 210501-100440-459430#%0a* Thomas_H_K expanded on your article [[Articles.TheNisenan|TheNisenan]] {[foxdelline button 210501-100440-459430 {$FullName} ]}%0a#foxend 210501-100440-459430#%0a#foxbegin 210501-223233-364750#%0a* abbyl expanded on your article [[Articles.AccentDiscriminationInEducation|AccentDiscriminationInEducation]] {[foxdelline button 210501-223233-364750 {$FullName} ]}%0a#foxend 210501-223233-364750#%0a#foxbegin 210509-014053-156110#%0a* EthanR expanded on your article [[Articles.BotnikStudiosAndTheirPredictiveTextKeyboard|BotnikStudiosAndTheirPredictiveTextKeyboard]] {[foxdelline button 210509-014053-156110 {$FullName} ]}%0a#foxend 210509-014053-156110#%0a#foxbegin 210509-022816-510050#%0a* ruiranx expanded on your article [[Articles.EthicIssuesWithTextGenerator|EthicIssuesWithTextGenerator]] {[foxdelline button 210509-022816-510050 {$FullName} ]}%0a#foxend 210509-022816-510050#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: bohanyu \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213706-391740#%0a(:name: Simon_Y:)%0a#foxend 210309-213706-391740#
+time=1620527295
+author:1620527295=ruiranx
+diff:1620527295:1620524452:=22,24d21%0a%3c #foxbegin 210509-022816-510050#%0a%3c * ruiranx expanded on your article [[Articles.EthicIssuesWithTextGenerator|EthicIssuesWithTextGenerator]] {[foxdelline button 210509-022816-510050 {$FullName} ]}%0a%3c #foxend 210509-022816-510050#%0a
+host:1620527295=74.109.250.254
+author:1620524452=EthanR
+diff:1620524452:1619908352:=19,21d18%0a%3c #foxbegin 210509-014053-156110#%0a%3c * EthanR expanded on your article [[Articles.BotnikStudiosAndTheirPredictiveTextKeyboard|BotnikStudiosAndTheirPredictiveTextKeyboard]] {[foxdelline button 210509-014053-156110 {$FullName} ]}%0a%3c #foxend 210509-014053-156110#%0a
+host:1620524452=128.2.149.59
+author:1619908352=abbyl
+diff:1619908352:1619863479:=16,18d15%0a%3c #foxbegin 210501-223233-364750#%0a%3c * abbyl expanded on your article [[Articles.AccentDiscriminationInEducation|AccentDiscriminationInEducation]] {[foxdelline button 210501-223233-364750 {$FullName} ]}%0a%3c #foxend 210501-223233-364750#%0a
+host:1619908352=24.17.178.107
+author:1619863479=Thomas_H_K
+diff:1619863479:1615326182:=13,15d12%0a%3c #foxbegin 210501-100440-459430#%0a%3c * Thomas_H_K expanded on your article [[Articles.TheNisenan|TheNisenan]] {[foxdelline button 210501-100440-459430 {$FullName} ]}%0a%3c #foxend 210501-100440-459430#%0a
+host:1619863479=73.174.153.100
+author:1615326182=
+diff:1615326182:1615325825:=56c56%0a%3c (:name: Simon_Y:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326182=74.109.247.199
+author:1615325825=
+diff:1615325825:1614801416:=54,57c54%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213706-391740#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213706-391740#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1614801416=
+diff:1614801416:1612277398:=53,54c53%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1614801416=74.109.247.199
+author:1612277398=Russell_E
+diff:1612277398:1612240540:=10,12d9%0a%3c #foxbegin 210202-144959-802850#%0a%3c * Russell_E expanded on your article [[Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends|WhatLanguageDoYouSpeakDoYourBilingualFriends]] {[foxdelline button 210202-144959-802850 {$FullName} ]}%0a%3c #foxend 210202-144959-802850#%0a
+host:1612277398=99.171.140.109
+author:1612240540=sebastiang
+diff:1612240540:1612224613:=7,9c7%0a%3c #foxbegin 210202-043540-869970#%0a%3c * sebastiang expanded on your article [[Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends|WhatLanguageDoYouSpeakDoYourBilingualFriends]] {[foxdelline button 210202-043540-869970 {$FullName} ]}%0a%3c #foxend 210202-043540-869970#%0a---%0a> %0a
+host:1612240540=128.237.82.2
+author:1612224613=Simon_Y
+diff:1612224613:1612224485:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: bohanyu \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612224613=71.197.127.14
+author:1612224485=Simon_Y
+diff:1612224485:1612224485:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: bohanyu \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612224485=71.197.127.14

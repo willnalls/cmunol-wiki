@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612277398
+host=72.95.222.76
+name=GradebookExpansions.WhatLanguageDoYouSpeakDoYourBilingualFriends-RussellE
+rev=5
+targets=Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends,Profiles.SimonY
+text=:Category: PracticeCategory%0a:Expansion: It's called code-switching%0a:Author: Russell_E%0a:Original: [[Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends|WhatLanguageDoYouSpeakDoYourBilingualFriends]] %0a:OriginalAuthor: [[Profiles.Simon_Y|Simon_Y]]%0a:Section: E%0a:Completed: 02.02.2021 - 06:49%0a:Status: complete%0a%0a%0a#foxbegin 210205-173654-153010#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173654-153010#%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210512-125304-665260#%0a* [-12.05.2021 - 05:53-] || TA_mason marked as complete%0a#foxend 210512-125304-665260#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aYoutube channel LangFocus has a pretty cool video on code-switching.%0a%0aI'm a native speaker of English and Mandarin Chinese. I live in America, but there's a significant enough Chinese-American population where I live that I get to use Chinese with many of my friends. I use code-switching with English when I'm talking to anyone besides my Chinese-monolingual grandma.%0a%0aI learned Spanish in high school. I don't get the chance to use it much, but when I use it, I find myself code-switching with English less often. I think this is because, since I'm less comfortable with Spanish, I'm less comfortable mixing it with another language.%0a%0aI code-switch between Spanish and Chinese only when I'm muttering to myself.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000940-890980#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000940-890980#%0a(:GradedBy: TA_mason:)
+time=1620823983
+author:1620823983=TA_mason
+diff:1620823983:1620778172:=8,10c8,10%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a18,20c18%0a%3c #foxbegin 210512-125304-665260#%0a%3c * [-12.05.2021 - 05:53-] || TA_mason marked as complete%0a%3c #foxend 210512-125304-665260#%0a---%0a> %0a51,52c49%0a%3c #foxend 210512-000940-890980#%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> #foxend 210512-000940-890980#%0a\ No newline at end of file%0a
+host:1620823983=72.95.222.76
+author:1620778172=
+diff:1620778172:1616289908:=45,49c45%0a%3c (:Category:)%0a%3c #foxbegin 210512-000940-890980#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000940-890980#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289908=
+diff:1616289908:1612546614:=6c6%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1616289908=74.109.247.199
+author:1612546614=TA_lili
+diff:1612546614:1612277398:=11,14d10%0a%3c #foxbegin 210205-173654-153010#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173654-153010#%0a
+host:1612546614=74.109.247.199
+author:1612277398=Russell_E
+diff:1612277398:1612277398:=1,41d0%0a%3c :Category: PracticeCategory%0a%3c :Expansion: It's called code-switching%0a%3c :Author: Russell_E%0a%3c :Original: [[Articles.WhatLanguageDoYouSpeakDoYourBilingualFriends|WhatLanguageDoYouSpeakDoYourBilingualFriends]] %0a%3c :OriginalAuthor: [[Profiles.Simon_Y|Simon_Y]]%0a%3c :Section: %0a%3c :Completed: 02.02.2021 - 06:49%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Youtube channel LangFocus has a pretty cool video on code-switching.%0a%3c %0a%3c I'm a native speaker of English and Mandarin Chinese. I live in America, but there's a significant enough Chinese-American population where I live that I get to use Chinese with many of my friends. I use code-switching with English when I'm talking to anyone besides my Chinese-monolingual grandma.%0a%3c %0a%3c I learned Spanish in high school. I don't get the chance to use it much, but when I use it, I find myself code-switching with English less often. I think this is because, since I'm less comfortable with Spanish, I'm less comfortable mixing it with another language.%0a%3c %0a%3c I code-switch between Spanish and Chinese only when I'm muttering to myself.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1612277398=99.171.140.109

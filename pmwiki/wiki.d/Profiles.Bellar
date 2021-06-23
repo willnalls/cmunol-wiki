@@ -1,0 +1,45 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=albert_l
+charset=UTF-8
+csum=
+ctime=1612226559
+host=71.112.202.60
+name=Profiles.Bellar
+rev=11
+targets=Articles.PresenceOfUncommonConsonantsComparingEnglishAndCatalan,Articles.JapaneseSwitchingLsAndRs,Articles.TrynaInNAEnglish
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: irhee \\%0a%0a[[#comments]]%0a#foxbegin 210227-221230-378780#%0a* JasonE expanded on your article [[Articles.PresenceOfUncommonConsonantsComparingEnglishAndCatalan|PresenceOfUncommonConsonantsComparingEnglishAndCatalan]] {[foxdelline button 210227-221230-378780 {$FullName} ]}%0a#foxend 210227-221230-378780#%0a#foxbegin 210424-044154-405390#%0a* MitulS expanded on your article [[Articles.JapaneseSwitchingLsAndRs|JapaneseSwitchingLsAndRs]] {[foxdelline button 210424-044154-405390 {$FullName} ]}%0a#foxend 210424-044154-405390#%0a#foxbegin 210424-152008-582280#%0a* solanaM expanded on your article [[Articles.TrynaInNAEnglish|TrynaInNAEnglish]] {[foxdelline button 210424-152008-582280 {$FullName} ]}%0a#foxend 210424-152008-582280#%0a#foxbegin 210509-023142-251240#%0a* albert_l expanded on your article [[Articles.JapaneseSwitchingLsAndRs|JapaneseSwitchingLsAndRs]] {[foxdelline button 210509-023142-251240 {$FullName} ]}%0a#foxend 210509-023142-251240#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: irhee \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: B:)%0a#foxbegin 210309-213613-590880#%0a(:name: bellar:)%0a#foxend 210309-213613-590880#
+time=1620527501
+author:1620527501=albert_l
+diff:1620527501:1619277606:=16,18d15%0a%3c #foxbegin 210509-023142-251240#%0a%3c * albert_l expanded on your article [[Articles.JapaneseSwitchingLsAndRs|JapaneseSwitchingLsAndRs]] {[foxdelline button 210509-023142-251240 {$FullName} ]}%0a%3c #foxend 210509-023142-251240#%0a
+host:1620527501=71.112.202.60
+author:1619277606=solanaM
+diff:1619277606:1619239312:=13,15d12%0a%3c #foxbegin 210424-152008-582280#%0a%3c * solanaM expanded on your article [[Articles.TrynaInNAEnglish|TrynaInNAEnglish]] {[foxdelline button 210424-152008-582280 {$FullName} ]}%0a%3c #foxend 210424-152008-582280#%0a
+host:1619277606=71.61.59.16
+author:1619239312=MitulS
+diff:1619239312:1615399678:=10,12d9%0a%3c #foxbegin 210424-044154-405390#%0a%3c * MitulS expanded on your article [[Articles.JapaneseSwitchingLsAndRs|JapaneseSwitchingLsAndRs]] {[foxdelline button 210424-044154-405390 {$FullName} ]}%0a%3c #foxend 210424-044154-405390#%0a
+host:1619239312=71.190.246.26
+author:1615399678=
+diff:1615399678:1615325770:=53c53%0a%3c (:name: bellar:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399678=74.109.247.199
+author:1615325770=
+diff:1615325770:1614801526:=51,54c51%0a%3c (:section: B:)%0a%3c #foxbegin 210309-213613-590880#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213613-590880#%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614801526=
+diff:1614801526:1614797888:=51d50%0a%3c (:section: B:)%0a\ No newline at end of file%0a
+host:1614801526=74.109.247.199
+author:1614797888=
+diff:1614797888:1614463949:=50a51%0a> (:section: 1B:)%0a\ No newline at end of file%0a
+host:1614797888=74.109.247.199
+author:1614463949=JasonE
+diff:1614463949:1613673235:=7,9c7%0a%3c #foxbegin 210227-221230-378780#%0a%3c * JasonE expanded on your article [[Articles.PresenceOfUncommonConsonantsComparingEnglishAndCatalan|PresenceOfUncommonConsonantsComparingEnglishAndCatalan]] {[foxdelline button 210227-221230-378780 {$FullName} ]}%0a%3c #foxend 210227-221230-378780#%0a---%0a> %0a
+host:1614463949=71.206.239.38
+author:1613673235=bellar
+diff:1613673235:1612226560:=48,49c48%0a%3c [[#completedworkend]]%0a%3c (:section: 1B:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613673235=128.237.82.1
+author:1612226560=bellar
+diff:1612226560:1612226559:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: irhee \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612226560=128.237.82.2
+author:1612226559=bellar
+diff:1612226559:1612226559:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: irhee \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612226559=128.237.82.2

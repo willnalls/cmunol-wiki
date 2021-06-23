@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=AlexisA
+charset=UTF-8
+csum=
+ctime=1612236187
+host=128.237.82.2
+name=Profiles.Abbyl
+rev=7
+targets=Articles.NumbersInLanguages,Articles.PhilosophyLessonsFromCHAIR
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: abigail2 \\%0a%0a[[#comments]]%0a#foxbegin 210204-180112-621250#%0a* david_h expanded on your article [[Articles.NumbersInLanguages|NumbersInLanguages]] {[foxdelline button 210204-180112-621250 {$FullName} ]}%0a#foxend 210204-180112-621250#%0a#foxbegin 210319-235232-677690#%0a* AlexisA expanded on your article [[Articles.PhilosophyLessonsFromCHAIR|PhilosophyLessonsFromCHAIR]] {[foxdelline button 210319-235232-677690 {$FullName} ]}%0a#foxend 210319-235232-677690#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: B:)%0a#foxbegin 210309-213448-995470#%0a(:name: abbyl:)%0a#foxend 210309-213448-995470#%0a%0a{$:name}
+time=1616197951
+author:1616197951=AlexisA
+diff:1616197951:1615399792:=10,12d9%0a%3c #foxbegin 210319-235232-677690#%0a%3c * AlexisA expanded on your article [[Articles.PhilosophyLessonsFromCHAIR|PhilosophyLessonsFromCHAIR]] {[foxdelline button 210319-235232-677690 {$FullName} ]}%0a%3c #foxend 210319-235232-677690#%0a
+host:1616197951=128.237.82.2
+author:1615399792=
+diff:1615399792:1615325715:=29c29%0a%3c (:name: abbyl:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399792=74.109.247.199
+author:1615325715=
+diff:1615325715:1615325688:=30,32c30%0a%3c #foxend 210309-213448-995470#%0a%3c %0a%3c {$:name}%0a\ No newline at end of file%0a---%0a> #foxend 210309-213448-995470#%0a\ No newline at end of file%0a
+host:1615325715=74.109.247.199
+author:1615325688=
+diff:1615325688:1612461669:=27,30c27%0a%3c (:section: B:)%0a%3c #foxbegin 210309-213448-995470#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213448-995470#%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1615325688=74.109.247.199
+author:1612461669=david_h
+diff:1612461669:1612388423:=7,9c7%0a%3c #foxbegin 210204-180112-621250#%0a%3c * david_h expanded on your article [[Articles.NumbersInLanguages|NumbersInLanguages]] {[foxdelline button 210204-180112-621250 {$FullName} ]}%0a%3c #foxend 210204-180112-621250#%0a---%0a> %0a
+host:1612461669=74.98.232.230
+author:1612388423=abbyl
+diff:1612388423:1612236187:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: B:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612388423=24.17.178.107
+author:1612236187=abbyl
+diff:1612236187:1612236187:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: abigail2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612236187=24.17.178.107

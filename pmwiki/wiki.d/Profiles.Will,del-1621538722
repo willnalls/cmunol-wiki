@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=will
+charset=UTF-8
+csum=
+ctime=1616721906
+host=74.109.247.199
+name=Profiles.Will
+rev=2
+targets=
+text=(:section: A:)%0a(:andrewid: wnalls:)
+time=1616721913
+author:1616721913=will
+diff:1616721913:1616721906:=1,2c1%0a%3c (:section: A:)%0a%3c (:andrewid: wnalls:)%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1616721913=74.109.247.199
+author:1616721906=will
+diff:1616721906:1616721906:=1d0%0a%3c (:section: A:)%0a\ No newline at end of file%0a
+host:1616721906=74.109.247.199

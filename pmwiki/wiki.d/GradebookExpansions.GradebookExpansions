@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1611697220
+host=74.109.239.200
+name=GradebookExpansions.GradebookExpansions
+rev=3
+targets=
+text=(:pagelist group=GradebookExpansions list=normal:)%0a#foxbegin 210512-000935-476260#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000935-476260#
+time=1620778172
+author:1620778172=
+diff:1620778172:1612302068:=1,5c1%0a%3c (:pagelist group=GradebookExpansions list=normal:)%0a%3c #foxbegin 210512-000935-476260#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000935-476260#%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions list=normal:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1612302068=
+diff:1612302068:1611697220:=1c1%0a%3c (:pagelist group=GradebookExpansions list=normal:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=PagelistExpansions:)%0a\ No newline at end of file%0a
+host:1612302068=74.109.247.199
+author:1611697220=student2
+diff:1611697220:1611697220:=1d0%0a%3c (:pagelist group=PagelistExpansions:)%0a\ No newline at end of file%0a
+host:1611697220=74.109.247.199

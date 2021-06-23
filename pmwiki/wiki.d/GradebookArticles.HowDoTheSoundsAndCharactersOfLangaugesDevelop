@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612363307
+host=74.109.247.199
+name=GradebookArticles.HowDoTheSoundsAndCharactersOfLangaugesDevelop
+rev=3
+targets=
+text=:Category: PracticeCategory%0a:Title: How do the sounds and characters of langauges develop?%0a:Author: AlbertL%0a:Section: A%0a:Completed: 03.02.2021 - 06:41%0a:Status: ungraded%0a%0a%0a#foxbegin 210205-172859-523160#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-172859-523160#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aThe sets of sounds and symbols used in langauges varies and I can't think of why.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aDifferent languages often use different sets of sounds and the sets of symbols used in written forms varies much beyond that. Do we know much about how these sets developed and why? I know geographically close languages tend to share similar sets as they develop out of and with each other but are there geographic or cultural reasons for these sorts of developments (especially the sounds) or are they largely just the result of random chance?%0a%0a[[#contentends]]%0a----
+time=1614801920
+author:1614801920=
+diff:1614801920:1612546139:=4c4%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1614801920=74.109.247.199
+author:1612546139=TA_lili
+diff:1612546139:1612363307:=9,12d8%0a%3c #foxbegin 210205-172859-523160#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-172859-523160#%0a
+host:1612546139=74.109.247.199
+author:1612363307=AlbertL
+diff:1612363307:1612363307:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: How do the sounds and characters of langauges develop?%0a%3c :Author: AlbertL%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 06:41%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c The sets of sounds and symbols used in langauges varies and I can't think of why.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Different languages often use different sets of sounds and the sets of symbols used in written forms varies much beyond that. Do we know much about how these sets developed and why? I know geographically close languages tend to share similar sets as they develop out of and with each other but are there geographic or cultural reasons for these sorts of developments (especially the sounds) or are they largely just the result of random chance?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612363307=67.163.151.95

@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+author=yuluz
+charset=UTF-8
+csum=
+ctime=1612296328
+host=59.125.13.244
+name=Profiles.BrandonN
+rev=7
+targets=Articles.ComparingEnglishAndOneida,Articles.AccentsOfSignLanguage
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: banguyen \\%0a%0a[[#comments]]%0a#foxbegin 210222-183620-449520#%0a* Gavin_D expanded on your article [[Articles.ComparingEnglishAndOneida|ComparingEnglishAndOneida]] {[foxdelline button 210222-183620-449520 {$FullName} ]}%0a#foxend 210222-183620-449520#%0a#foxbegin 210506-024422-4670#%0a* MindeeL expanded on your article [[Articles.AccentsOfSignLanguage|AccentsOfSignLanguage]] {[foxdelline button 210506-024422-4670 {$FullName} ]}%0a#foxend 210506-024422-4670#%0a#foxbegin 210508-222736-608270#%0a* yuluz expanded on your article [[Articles.AccentsOfSignLanguage|AccentsOfSignLanguage]] {[foxdelline button 210508-222736-608270 {$FullName} ]}%0a#foxend 210508-222736-608270#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213613-163920#%0a(:name: BrandonN:)%0a#foxend 210309-213613-163920#
+time=1620512855
+author:1620512855=yuluz
+diff:1620512855:1620269060:=13,15d12%0a%3c #foxbegin 210508-222736-608270#%0a%3c * yuluz expanded on your article [[Articles.AccentsOfSignLanguage|AccentsOfSignLanguage]] {[foxdelline button 210508-222736-608270 {$FullName} ]}%0a%3c #foxend 210508-222736-608270#%0a
+host:1620512855=59.125.13.244
+author:1620269060=MindeeL
+diff:1620269060:1615405943:=10,12d9%0a%3c #foxbegin 210506-024422-4670#%0a%3c * MindeeL expanded on your article [[Articles.AccentsOfSignLanguage|AccentsOfSignLanguage]] {[foxdelline button 210506-024422-4670 {$FullName} ]}%0a%3c #foxend 210506-024422-4670#%0a
+host:1620269060=72.95.138.86
+author:1615405943=
+diff:1615405943:1615325770:=29c29%0a%3c (:name: BrandonN:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405943=74.109.247.199
+author:1615325770=
+diff:1615325770:1614018979:=27,30c27%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213613-163920#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213613-163920#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614018979=Gavin_D
+diff:1614018979:1613748933:=7,9c7%0a%3c #foxbegin 210222-183620-449520#%0a%3c * Gavin_D expanded on your article [[Articles.ComparingEnglishAndOneida|ComparingEnglishAndOneida]] {[foxdelline button 210222-183620-449520 {$FullName} ]}%0a%3c #foxend 210222-183620-449520#%0a---%0a> %0a
+host:1614018979=128.237.82.1
+author:1613748933=BrandonN
+diff:1613748933:1612296328:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613748933=73.174.112.82
+author:1612296328=BrandonN
+diff:1612296328:1612296328:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: banguyen \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612296328=73.174.112.82

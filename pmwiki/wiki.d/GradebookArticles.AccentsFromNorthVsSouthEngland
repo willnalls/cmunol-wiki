@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1619297239
+host=69.218.234.170
+name=GradebookArticles.AccentsFromNorthVsSouthEngland
+rev=5
+targets=
+text=:Category: LinguisticDiscriminationInTheWild%0a:Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a:Title: Accents from North vs South England%0a:Author: saraht%0a:Section: A%0a:Completed: 24.04.2021 - 13:47%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-004457-110990#%0a* [-10.05.2021 - 17:44-] || TA_audrey marked as complete%0a#foxend 210511-004457-110990#%0a#foxbegin 210504-191322-489290#%0a* [-04.05.2021 - 12:13-] || TA_audrey marked as needsRevised%0a#foxend 210504-191322-489290#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a#foxbegin 210504-191317-172710#%0a----%0a>>rfloat%3c%3c   %0a[-04.05.2021 - 12:13-] &nbsp; %0a>>%3c%3c%0a!!!!!TA_audrey%0aPlease expand a bit more on this topic. Your article is very short. %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 210504-191317-172710 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 210504-191317-172710#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0a2 British friends mock each others accents%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aLink: https://www.youtube.com/watch?v=z0TdcEhu83c%0a%0aIn the video above, the 2 friends poke fun at the differences in how they pronounce certain words. They compared the words:%0a- "bath": [bath] vs [bɑ:th]%0a- "people": ['pipl] vs ['pi:poʊl]%0a- "grass": [gɹæs] vs [gɹ'ɑ:s]%0a%0aTheir criticism for each others' pronunciations all stemmed from differences in the lengths of vowels, vowel shifts, and stresses. In the above list, the first transcription listed is that of Tommy's (North) and the second listed is Tubbo's (South). The southern accent tends to elongate vowels and shift their vowels further back than the northern accent.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1620693897
+author:1620693897=TA_audrey
+diff:1620693897:1620168394:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: revised%0a> %0a18,20d17%0a%3c #foxbegin 210511-004457-110990#%0a%3c * [-10.05.2021 - 17:44-] || TA_audrey marked as complete%0a%3c #foxend 210511-004457-110990#%0a
+host:1620693897=69.218.234.170
+author:1620168394=saraht
+diff:1620168394:1620155601:=7c7%0a%3c :Status: revised%0a---%0a> :Status: needsRevised%0a
+host:1620168394=71.206.245.104
+author:1620155601=TA_audrey
+diff:1620155601:1620155597:=7,8c7,8%0a%3c :Status: needsRevised%0a%3c %0a---%0a> :Status: ungraded%0a> %0a18,20c18%0a%3c #foxbegin 210504-191322-489290#%0a%3c * [-04.05.2021 - 12:13-] || TA_audrey marked as needsRevised%0a%3c #foxend 210504-191322-489290#%0a---%0a> %0a66,67c64%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620155601=69.218.234.170
+author:1620155597=TA_audrey
+diff:1620155597:1619297239:=24,36c24%0a%3c #foxbegin 210504-191317-172710#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-04.05.2021 - 12:13-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!TA_audrey%0a%3c Please expand a bit more on this topic. Your article is very short. %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 210504-191317-172710 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 210504-191317-172710#%0a---%0a> %0a
+host:1620155597=69.218.234.170
+author:1619297239=saraht
+diff:1619297239:1619297239:=1,52d0%0a%3c :Category: LinguisticDiscriminationInTheWild%0a%3c :Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a%3c :Title: Accents from North vs South England%0a%3c :Author: saraht%0a%3c :Section: A%0a%3c :Completed: 24.04.2021 - 13:47%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c 2 British friends mock each others accents%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Link: https://www.youtube.com/watch?v=z0TdcEhu83c%0a%3c %0a%3c In the video above, the 2 friends poke fun at the differences in how they pronounce certain words. They compared the words:%0a%3c - "bath": [bath] vs [bɑ:th]%0a%3c - "people": ['pipl] vs ['pi:poʊl]%0a%3c - "grass": [gɹæs] vs [gɹ'ɑ:s]%0a%3c %0a%3c Their criticism for each others' pronunciations all stemmed from differences in the lengths of vowels, vowel shifts, and stresses. In the above list, the first transcription listed is that of Tommy's (North) and the second listed is Tubbo's (South). The southern accent tends to elongate vowels and shift their vowels further back than the northern accent.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1619297239=71.206.245.104

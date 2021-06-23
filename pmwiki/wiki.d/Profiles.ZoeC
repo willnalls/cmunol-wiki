@@ -1,0 +1,42 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=sathyas
+charset=UTF-8
+csum=
+ctime=1612246749
+host=71.206.247.117
+name=Profiles.ZoeC
+rev=10
+targets=Articles.PresenceOfUncommonConsonantsComparingZuluAndEnglish,Articles.DramaSO,Articles.DiscriminationOfAAVEInSocialMediaFilteringTechnology,Articles.TheSingersFormant
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: zchessa \\%0a%0a[[#comments]]%0a#foxbegin 210227-232401-90870#%0a* Mihir_D expanded on your article [[Articles.PresenceOfUncommonConsonantsComparingZuluAndEnglish|PresenceOfUncommonConsonantsComparingZuluAndEnglish]] {[foxdelline button 210227-232401-90870 {$FullName} ]}%0a#foxend 210227-232401-90870#%0a#foxbegin 210424-152212-176680#%0a* ahana_m expanded on your article [[Articles.DramaSO|DramaSO]] {[foxdelline button 210424-152212-176680 {$FullName} ]}%0a#foxend 210424-152212-176680#%0a#foxbegin 210425-002924-230430#%0a* shreya_r expanded on your article [[Articles.DramaSO|DramaSO]] {[foxdelline button 210425-002924-230430 {$FullName} ]}%0a#foxend 210425-002924-230430#%0a#foxbegin 210425-002928-919050#%0a* shreya_r expanded on your article [[Articles.DramaSO|DramaSO]] {[foxdelline button 210425-002928-919050 {$FullName} ]}%0a#foxend 210425-002928-919050#%0a#foxbegin 210504-194546-982050#%0a* jjmonroe expanded on your article [[Articles.DiscriminationOfAAVEInSocialMediaFilteringTechnology|DiscriminationOfAAVEInSocialMediaFilteringTechnology]] {[foxdelline button 210504-194546-982050 {$FullName} ]}%0a#foxend 210504-194546-982050#%0a#foxbegin 210505-060510-972140#%0a* sathyas expanded on your article [[Articles.TheSingersFormant|TheSingersFormant]] {[foxdelline button 210505-060510-972140 {$FullName} ]}%0a#foxend 210505-060510-972140#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: E:)%0a#foxbegin 210309-213707-37060#%0a(:name: ZoeC:)%0a#foxend 210309-213707-37060#
+time=1620194709
+author:1620194709=sathyas
+diff:1620194709:1620157545:=22,24d21%0a%3c #foxbegin 210505-060510-972140#%0a%3c * sathyas expanded on your article [[Articles.TheSingersFormant|TheSingersFormant]] {[foxdelline button 210505-060510-972140 {$FullName} ]}%0a%3c #foxend 210505-060510-972140#%0a
+host:1620194709=71.206.247.117
+author:1620157545=jjmonroe
+diff:1620157545:1619310563:=19,21d18%0a%3c #foxbegin 210504-194546-982050#%0a%3c * jjmonroe expanded on your article [[Articles.DiscriminationOfAAVEInSocialMediaFilteringTechnology|DiscriminationOfAAVEInSocialMediaFilteringTechnology]] {[foxdelline button 210504-194546-982050 {$FullName} ]}%0a%3c #foxend 210504-194546-982050#%0a
+host:1620157545=73.174.7.241
+author:1619310563=shreya_r
+diff:1619310563:1619310559:=16,18d15%0a%3c #foxbegin 210425-002928-919050#%0a%3c * shreya_r expanded on your article [[Articles.DramaSO|DramaSO]] {[foxdelline button 210425-002928-919050 {$FullName} ]}%0a%3c #foxend 210425-002928-919050#%0a
+host:1619310563=128.237.82.1
+author:1619310559=shreya_r
+diff:1619310559:1619277729:=13,15d12%0a%3c #foxbegin 210425-002924-230430#%0a%3c * shreya_r expanded on your article [[Articles.DramaSO|DramaSO]] {[foxdelline button 210425-002924-230430 {$FullName} ]}%0a%3c #foxend 210425-002924-230430#%0a
+host:1619310559=128.237.82.1
+author:1619277729=ahana_m
+diff:1619277729:1615401187:=10,12d9%0a%3c #foxbegin 210424-152212-176680#%0a%3c * ahana_m expanded on your article [[Articles.DramaSO|DramaSO]] {[foxdelline button 210424-152212-176680 {$FullName} ]}%0a%3c #foxend 210424-152212-176680#%0a
+host:1619277729=216.195.23.171
+author:1615401187=
+diff:1615401187:1615325825:=29c29%0a%3c (:name: ZoeC:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615401187=74.109.247.199
+author:1615325825=
+diff:1615325825:1614468240:=27,30c27%0a%3c (:section: E:)%0a%3c #foxbegin 210309-213707-37060#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213707-37060#%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1614468240=Mihir_D
+diff:1614468240:1613855346:=7,9c7%0a%3c #foxbegin 210227-232401-90870#%0a%3c * Mihir_D expanded on your article [[Articles.PresenceOfUncommonConsonantsComparingZuluAndEnglish|PresenceOfUncommonConsonantsComparingZuluAndEnglish]] {[foxdelline button 210227-232401-90870 {$FullName} ]}%0a%3c #foxend 210227-232401-90870#%0a---%0a> %0a
+host:1614468240=108.16.220.220
+author:1613855346=ZoeC
+diff:1613855346:1612246749:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: E:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613855346=71.206.237.79
+author:1612246749=ZoeC
+diff:1612246749:1612246749:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: zchessa \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612246749=71.206.237.79

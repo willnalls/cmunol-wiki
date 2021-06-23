@@ -1,0 +1,39 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=lauray
+charset=UTF-8
+csum=
+ctime=1612205783
+host=128.237.82.2
+name=Profiles.DavidH
+rev=9
+targets=Articles.PhilosophyLessonsFromLIKE,Articles.AccentDiscriminationInTechnology
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: dchwang \\%0aname: david_h%0a%0a[[#comments]]%0a#foxbegin 210327-201252-622190#%0a* JoshuaC expanded on your article [[Articles.PhilosophyLessonsFromLIKE|PhilosophyLessonsFromLIKE]] {[foxdelline button 210327-201252-622190 {$FullName} ]}%0a#foxend 210327-201252-622190#%0a#foxbegin 210505-000556-247620#%0a* AlexanderW expanded on your article [[Articles.AccentDiscriminationInTechnology|AccentDiscriminationInTechnology]] {[foxdelline button 210505-000556-247620 {$FullName} ]}%0a#foxend 210505-000556-247620#%0a#foxbegin 210506-111336-387320#%0a* xiranw expanded on your article [[Articles.AccentDiscriminationInTechnology|AccentDiscriminationInTechnology]] {[foxdelline button 210506-111336-387320 {$FullName} ]}%0a#foxend 210506-111336-387320#%0a#foxbegin 210508-032059-349020#%0a* lauray expanded on your article [[Articles.AccentDiscriminationInTechnology|AccentDiscriminationInTechnology]] {[foxdelline button 210508-032059-349020 {$FullName} ]}%0a#foxend 210508-032059-349020#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: E:)%0a#foxbegin 210309-213614-773160#%0a(:name: david_h:)%0a#foxend 210309-213614-773160#
+time=1620444058
+author:1620444058=lauray
+diff:1620444058:1620299615:=17,19d16%0a%3c #foxbegin 210508-032059-349020#%0a%3c * lauray expanded on your article [[Articles.AccentDiscriminationInTechnology|AccentDiscriminationInTechnology]] {[foxdelline button 210508-032059-349020 {$FullName} ]}%0a%3c #foxend 210508-032059-349020#%0a
+host:1620444058=128.237.82.2
+author:1620299615=xiranw
+diff:1620299615:1620173155:=14,16d13%0a%3c #foxbegin 210506-111336-387320#%0a%3c * xiranw expanded on your article [[Articles.AccentDiscriminationInTechnology|AccentDiscriminationInTechnology]] {[foxdelline button 210506-111336-387320 {$FullName} ]}%0a%3c #foxend 210506-111336-387320#%0a
+host:1620299615=66.27.77.226
+author:1620173155=AlexanderW
+diff:1620173155:1616875971:=11,13d10%0a%3c #foxbegin 210505-000556-247620#%0a%3c * AlexanderW expanded on your article [[Articles.AccentDiscriminationInTechnology|AccentDiscriminationInTechnology]] {[foxdelline button 210505-000556-247620 {$FullName} ]}%0a%3c #foxend 210505-000556-247620#%0a
+host:1620173155=73.90.192.150
+author:1616875971=JoshuaC
+diff:1616875971:1615326134:=8,10c8%0a%3c #foxbegin 210327-201252-622190#%0a%3c * JoshuaC expanded on your article [[Articles.PhilosophyLessonsFromLIKE|PhilosophyLessonsFromLIKE]] {[foxdelline button 210327-201252-622190 {$FullName} ]}%0a%3c #foxend 210327-201252-622190#%0a---%0a> %0a
+host:1616875971=67.171.65.64
+author:1615326134=
+diff:1615326134:1615325770:=28c28%0a%3c (:name: david_h:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326134=74.109.247.199
+author:1615325770=
+diff:1615325770:1615324198:=26,29c26%0a%3c (:section: E:)%0a%3c #foxbegin 210309-213614-773160#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213614-773160#%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1615324198=
+diff:1615324198:1614801263:=5d4%0a%3c name: david_h%0a
+host:1615324198=74.109.247.199
+author:1614801263=
+diff:1614801263:1612205783:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: E:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1614801263=74.109.247.199
+author:1612205783=david_h
+diff:1612205783:1612205783:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: dchwang \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612205783=74.98.232.230

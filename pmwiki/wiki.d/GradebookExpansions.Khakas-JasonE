@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1620317295
+host=74.111.97.246
+name=GradebookExpansions.Khakas-JasonE
+rev=5
+targets=Articles.Khakas,Profiles.RajeevG
+text=:Category: EndangeredLanguages%0a:Expansion: Another source of information about Khakas%0a:Author: JasonE%0a:Original: [[Articles.Khakas|Khakas]] %0a:OriginalAuthor: [[Profiles.rajeev_g|rajeev_g]]%0a:Section: C%0a:Completed: 06.05.2021 - 09:08%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-222845-833220#%0a* [-11.05.2021 - 15:28-] || TA_lili marked as complete%0a#foxend 210511-222845-833220#%0a#foxbegin 210511-182157-186640#%0a* [-11.05.2021 - 11:21-] ||  marked as revised%0a#foxend 210511-182157-186640#%0a#foxbegin 210511-014503-453890#%0a* [-10.05.2021 - 18:45-] || TA_lili marked as needsRevised%0a#foxend 210511-014503-453890#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a#foxbegin 210511-014532-206480#%0a----%0a>>rfloat%3c%3c   %0a[-10.05.2021 - 18:45-] &nbsp; %0a>>%3c%3c%0a!!!!!TA_lili%0aThis is not really an expansion - it's more of a comment. Either expand on this to earn full credit or it will be counted as a comment. %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 210511-014532-206480 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 210511-014532-206480#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aBelow is a link to a website that further describes the language of Khakas. On this website there is a brief overview of the language, in addition to, the Khakas Latin alphabet, the Khakas Cyrillic alphabet, a sample Khakas text (with English translation), and a YouTube video of a man speaking Khakas. At the bottom of the webpage there are some links to a few Khakas online dictionaries. I had never heard of Khakas before reading this article so it was very interesting to learn more about the language.%0a%0aSource: https://omniglot.com/writing/khakas.htm %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620772124
+author:1620772124=TA_lili
+diff:1620772124:1620757317:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: revised%0a> %0a17,19d16%0a%3c #foxbegin 210511-222845-833220#%0a%3c * [-11.05.2021 - 15:28-] || TA_lili marked as complete%0a%3c #foxend 210511-222845-833220#%0a
+host:1620772124=74.111.97.246
+author:1620757317=JasonE
+diff:1620757317:1620697531:=8,9c8,9%0a%3c :Status: revised%0a%3c %0a---%0a> :Status: needsRevised%0a> %0a17,19d16%0a%3c #foxbegin 210511-182157-186640#%0a%3c * [-11.05.2021 - 11:21-] ||  marked as revised%0a%3c #foxend 210511-182157-186640#%0a
+host:1620757317=71.206.239.38
+author:1620697531=TA_lili
+diff:1620697531:1620697502:=25,37c25%0a%3c #foxbegin 210511-014532-206480#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-10.05.2021 - 18:45-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!TA_lili%0a%3c This is not really an expansion - it's more of a comment. Either expand on this to earn full credit or it will be counted as a comment. %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 210511-014532-206480 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 210511-014532-206480#%0a---%0a> %0a
+host:1620697531=67.171.64.6
+author:1620697502=TA_lili
+diff:1620697502:1620317295:=8,9c8,9%0a%3c :Status: needsRevised%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-014503-453890#%0a%3c * [-10.05.2021 - 18:45-] || TA_lili marked as needsRevised%0a%3c #foxend 210511-014503-453890#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620697502=67.171.64.6
+author:1620317295=JasonE
+diff:1620317295:1620317295:=1,40d0%0a%3c :Category: EndangeredLanguages%0a%3c :Expansion: Another source of information about Khakas%0a%3c :Author: JasonE%0a%3c :Original: [[Articles.Khakas|Khakas]] %0a%3c :OriginalAuthor: [[Profiles.rajeev_g|rajeev_g]]%0a%3c :Section: C%0a%3c :Completed: 06.05.2021 - 09:08%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Below is a link to a website that further describes the language of Khakas. On this website there is a brief overview of the language, in addition to, the Khakas Latin alphabet, the Khakas Cyrillic alphabet, a sample Khakas text (with English translation), and a YouTube video of a man speaking Khakas. At the bottom of the webpage there are some links to a few Khakas online dictionaries. I had never heard of Khakas before reading this article so it was very interesting to learn more about the language.%0a%3c %0a%3c Source: https://omniglot.com/writing/khakas.htm %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620317295=71.206.239.38

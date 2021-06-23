@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1615406853
+host=74.109.247.199
+name=Gradebook.Export
+rev=3
+targets=Gradebook.Gradebook
+text=[[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25rfloat%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]
+time=1615407918
+author:1615407918=
+diff:1615407918:1615407159:=1c1%0a%3c [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25rfloat%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]%0a\ No newline at end of file%0a---%0a> [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25right%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]%0a\ No newline at end of file%0a
+host:1615407918=74.109.247.199
+author:1615407159=
+diff:1615407159:1615406853:=1c1%0a%3c [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25right%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]%0a\ No newline at end of file%0a---%0a> [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]]%0a\ No newline at end of file%0a
+host:1615407159=74.109.247.199
+author:1615406853=
+diff:1615406853:1615406853:=1d0%0a%3c [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]]%0a\ No newline at end of file%0a
+host:1615406853=74.109.247.199

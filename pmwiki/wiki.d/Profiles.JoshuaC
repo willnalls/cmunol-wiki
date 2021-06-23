@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612315689
+host=74.109.247.199
+name=Profiles.JoshuaC
+rev=5
+targets=Articles.ToneSystemsComparingEnglishAndSouthernMin
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: joshuac2 \\%0a%0a[[#comments]]%0a#foxbegin 210227-124344-936340#%0a* Mingkang_L expanded on your article [[Articles.ToneSystemsComparingEnglishAndSouthernMin|ToneSystemsComparingEnglishAndSouthernMin]] {[foxdelline button 210227-124344-936340 {$FullName} ]}%0a#foxend 210227-124344-936340#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: F:)%0a#foxbegin 210309-213616-524110#%0a(:name: JoshuaC:)%0a#foxend 210309-213616-524110#
+time=1615405786
+author:1615405786=
+diff:1615405786:1615325770:=29c29%0a%3c (:name: JoshuaC:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405786=74.109.247.199
+author:1615325770=
+diff:1615325770:1614429823:=27,30c27%0a%3c (:section: F:)%0a%3c #foxbegin 210309-213616-524110#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213616-524110#%0a\ No newline at end of file%0a---%0a> (:section: F:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614429823=Mingkang_L
+diff:1614429823:1612512907:=7,9c7%0a%3c #foxbegin 210227-124344-936340#%0a%3c * Mingkang_L expanded on your article [[Articles.ToneSystemsComparingEnglishAndSouthernMin|ToneSystemsComparingEnglishAndSouthernMin]] {[foxdelline button 210227-124344-936340 {$FullName} ]}%0a%3c #foxend 210227-124344-936340#%0a---%0a> %0a
+host:1614429823=128.2.149.108
+author:1612512907=JoshuaC
+diff:1612512907:1612315689:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: F:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612512907=67.171.65.64
+author:1612315689=JoshuaC
+diff:1612315689:1612315689:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: joshuac2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612315689=67.171.65.64

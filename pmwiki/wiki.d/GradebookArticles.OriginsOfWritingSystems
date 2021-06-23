@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612391320
+host=74.98.251.138
+name=GradebookArticles.OriginsOfWritingSystems
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Origins of Writing Systems%0a:Author: Connor_G%0a:Section: E%0a:Completed: 03.02.2021 - 14:28%0a:Status: complete%0a%0a%0a#foxbegin 210205-173110-178020#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173110-178020#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210317-173528-421790#%0a* [-17.03.2021 - 10:35-] || TA_mason marked as complete%0a#foxend 210317-173528-421790#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aMusing on the nature of creating a writing system for a spoken language.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aWhile it may not necessarily be the case with modern constructed languages, most natural languages developed their spoken forms long before their corresponding written forms. That begs the question—how do writing systems come to be?%0a%0aVarious languages and civilizations have vastly different writing systems of various complexities. Some languages have different symbols for individual concepts, while others have symbols for sounds (and other divisions probably exist as well). Within these parameters, what distinguishes two concepts or sounds as sufficiently different to warrant different symbols. How were the precise symbols created for each language? Are there especially effective ways to create a writing system for a language that is simple enough for practical use but broad enough to convey anything that needs to be conveyed? What would such ways look like? Is there such a thing as an "optimal" writing system?%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1616002527
+author:1616002527=TA_mason
+diff:1616002527:1615754212:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210317-173528-421790#%0a%3c * [-17.03.2021 - 10:35-] || TA_mason marked as complete%0a%3c #foxend 210317-173528-421790#%0a---%0a> %0a47,48c45%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1616002527=74.98.251.138
+author:1615754212=
+diff:1615754212:1612546270:=4c4%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1615754212=74.109.247.199
+author:1612546270=TA_lili
+diff:1612546270:1612391320:=9,12d8%0a%3c #foxbegin 210205-173110-178020#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173110-178020#%0a
+host:1612546270=74.109.247.199
+author:1612391320=Connor_G
+diff:1612391320:1612391320:=1,41d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Origins of Writing Systems%0a%3c :Author: Connor_G%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 14:28%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Musing on the nature of creating a writing system for a spoken language.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c While it may not necessarily be the case with modern constructed languages, most natural languages developed their spoken forms long before their corresponding written forms. That begs the question—how do writing systems come to be?%0a%3c %0a%3c Various languages and civilizations have vastly different writing systems of various complexities. Some languages have different symbols for individual concepts, while others have symbols for sounds (and other divisions probably exist as well). Within these parameters, what distinguishes two concepts or sounds as sufficiently different to warrant different symbols. How were the precise symbols created for each language? Are there especially effective ways to create a writing system for a language that is simple enough for practical use but broad enough to convey anything that needs to be conveyed? What would such ways look like? Is there such a thing as an "optimal" writing system?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612391320=24.131.18.47

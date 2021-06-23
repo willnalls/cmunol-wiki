@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1620170033
+host=69.218.234.170
+name=GradebookExpansions.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo-saraht
+rev=3
+targets=Articles.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo,Profiles.Kevinx
+text=:Category: Varia%0a:Expansion: Similar example in Chinese%0a:Author: saraht%0a:Original: [[Articles.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo|BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo]] %0a:OriginalAuthor: [[Profiles.kevinx|kevinx]]%0a:Section: A%0a:Completed: 04.05.2021 - 16:13%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-184753-858400#%0a* [-06.05.2021 - 11:47-] || TA_audrey marked as complete%0a#foxend 210506-184753-858400#%0a#foxbegin 210506-184729-96780#%0a* [-06.05.2021 - 11:47-] || TA_audrey marked as complete%0a#foxend 210506-184729-96780#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThe example provided by this wiki reminded me of a Chinese poem, Lion-Eating Poet in the Stone Den, that only uses the sound transcribed as "shi" in pinying. The only thing that changes between the words is tone.%0a%0aI think this example is a bit different from the provided "buffalo" one because I thought it was easier to understand the "buffalo" sentence when I read it out loud. But for the Chinese Poem, it's harder to understand when read aloud than when looking at the written form of the poem.%0a%0aHere's a link to someone reading the poem while showing English translation: https://www.youtube.com/watch?v=vExjnn_3ep4%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620326872
+author:1620326872=TA_audrey
+diff:1620326872:1620326849:=17,19d16%0a%3c #foxbegin 210506-184753-858400#%0a%3c * [-06.05.2021 - 11:47-] || TA_audrey marked as complete%0a%3c #foxend 210506-184753-858400#%0a
+host:1620326872=69.218.234.170
+author:1620326849=TA_audrey
+diff:1620326849:1620170033:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210506-184729-96780#%0a%3c * [-06.05.2021 - 11:47-] || TA_audrey marked as complete%0a%3c #foxend 210506-184729-96780#%0a---%0a> %0a44,45c42%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620326849=69.218.234.170
+author:1620170033=saraht
+diff:1620170033:1620170033:=1,42d0%0a%3c :Category: Varia%0a%3c :Expansion: Similar example in Chinese%0a%3c :Author: saraht%0a%3c :Original: [[Articles.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo|BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo]] %0a%3c :OriginalAuthor: [[Profiles.kevinx|kevinx]]%0a%3c :Section: A%0a%3c :Completed: 04.05.2021 - 16:13%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c The example provided by this wiki reminded me of a Chinese poem, Lion-Eating Poet in the Stone Den, that only uses the sound transcribed as "shi" in pinying. The only thing that changes between the words is tone.%0a%3c %0a%3c I think this example is a bit different from the provided "buffalo" one because I thought it was easier to understand the "buffalo" sentence when I read it out loud. But for the Chinese Poem, it's harder to understand when read aloud than when looking at the written form of the poem.%0a%3c %0a%3c Here's a link to someone reading the poem while showing English translation: https://www.youtube.com/watch?v=vExjnn_3ep4%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620170033=71.206.245.104

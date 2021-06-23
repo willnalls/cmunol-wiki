@@ -1,0 +1,36 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+author=JasonE
+charset=UTF-8
+csum=
+ctime=1612305865
+host=71.206.239.38
+name=Profiles.AhanaM
+rev=8
+targets=Articles.LanguagesWhyWeMustSaveDyingTongues,Articles.TrynaArticle
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ahanamuk \\%0a%0a[[#comments]]%0a#foxbegin 210203-073421-284930#%0a* sathyas expanded on your article [[Articles.LanguagesWhyWeMustSaveDyingTongues|LanguagesWhyWeMustSaveDyingTongues]] {[foxdelline button 210203-073421-284930 {$FullName} ]}%0a#foxend 210203-073421-284930#%0a#foxbegin 210503-020044-752520#%0a* JasonE expanded on your article [[Articles.TrynaArticle|TrynaArticle]] {[foxdelline button 210503-020044-752520 {$FullName} ]}%0a#foxend 210503-020044-752520#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ahanamuk \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ahanamuk \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: D:)%0a#foxbegin 210309-213611-492450#%0a(:name: ahana_m:)%0a#foxend 210309-213611-492450#
+time=1620007243
+author:1620007243=JasonE
+diff:1620007243:1615397428:=10,12d9%0a%3c #foxbegin 210503-020044-752520#%0a%3c * JasonE expanded on your article [[Articles.TrynaArticle|TrynaArticle]] {[foxdelline button 210503-020044-752520 {$FullName} ]}%0a%3c #foxend 210503-020044-752520#%0a
+host:1620007243=71.206.239.38
+author:1615397428=
+diff:1615397428:1615325770:=77c77%0a%3c (:name: ahana_m:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615397428=74.109.247.199
+author:1615325770=
+diff:1615325770:1613841389:=75,78c75%0a%3c (:section: D:)%0a%3c #foxbegin 210309-213611-492450#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213611-492450#%0a\ No newline at end of file%0a---%0a> (:section: D:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1613841389=ahana_m
+diff:1613841389:1612337660:=74,75c74%0a%3c [[#completedworkend]]%0a%3c (:section: D:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613841389=216.195.23.171
+author:1612337660=sathyas
+diff:1612337660:1612305922:=7,9c7%0a%3c #foxbegin 210203-073421-284930#%0a%3c * sathyas expanded on your article [[Articles.LanguagesWhyWeMustSaveDyingTongues|LanguagesWhyWeMustSaveDyingTongues]] {[foxdelline button 210203-073421-284930 {$FullName} ]}%0a%3c #foxend 210203-073421-284930#%0a---%0a> %0a
+host:1612337660=71.206.247.117
+author:1612305922=ahana_m
+diff:1612305922:1612305906:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ahanamuk \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612305922=216.195.23.171
+author:1612305906=ahana_m
+diff:1612305906:1612305865:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ahanamuk \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612305906=216.195.23.171
+author:1612305865=ahana_m
+diff:1612305865:1612305865:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ahanamuk \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612305865=216.195.23.171

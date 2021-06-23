@@ -1,0 +1,55 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=ta1
+cauthor=TA_test
+charset=UTF-8
+csum=
+ctime=1599434585
+host=74.109.247.199
+name=Templates.GroupHeader
+rev=14
+targets=
+text=
+time=1611614833
+author:1611614833=ta1
+diff:1611614833:1599435097:=0a1,26%0a> (:if authgroup @tas:)%0a> -> '''{$:status}''' %0a> (:if1 equal {$:status} complete:)-> [+ Graded by: {$:gradedBy} +](:if1end:)%0a> (:if2 equal {$:status} requiresRevisions:)%0a> [+ Notes: {$:notes} +]%0a> (:if2end:)%0a> ----%0a> %0a> (:fox articleGrading ptvtarget={$FullName} ptvfields=status,notes,gradedBy:)%0a> (:input default status {$:status}:)%0a> (:input checkbox status complete:) Complete%0a> (:input checkbox status requiresRevisions:) Requires Revisions %0a> (:input checkbox status noPoints:) No Points \\%0a> (:input text notes size=80:)%0a> (:input hidden gradedBy {$Author}:)%0a> \\%0a> (:input submit post:)%0a> (:foxend newArticle:)%0a> (:ifend:)%0a> %0a> ----%0a> (:status: complete:)%0a> %0a> (:notes: Here are the comments:)%0a> %0a> (:gradedBy: TA_test:)%0a\ No newline at end of file%0a
+host:1611614833=74.109.247.199
+author:1599435097=TA_test
+diff:1599435097:1599435090:=22c22%0a%3c (:status: complete:)%0a---%0a> (:status: requiresRevisions:)%0a
+host:1599435097=108.32.35.122
+author:1599435090=TA_test
+diff:1599435090:1599435085:=22c22%0a%3c (:status: requiresRevisions:)%0a---%0a> (:status: noPoints:)%0a
+host:1599435090=108.32.35.122
+author:1599435085=TA_test
+diff:1599435085:1599435080:=22c22%0a%3c (:status: noPoints:)%0a---%0a> (:status: requiresRevisions:)%0a
+host:1599435085=108.32.35.122
+author:1599435080=TA_test
+diff:1599435080:1599435050:=13a14%0a> (:input default notes "{$:notes}":)%0a
+host:1599435080=108.32.35.122
+author:1599435050=TA_test
+diff:1599435050:1599435023:=4c4%0a%3c (:if2 equal {$:status} requiresRevisions:)%0a---%0a> (:if2 equal {$:status} revisionsRequired:)%0a
+host:1599435050=108.32.35.122
+author:1599435023=TA_test
+diff:1599435023:1599435014:=25c25%0a%3c (:notes: Here are the comments:)%0a---%0a> (:notes: Here are the comments.:)%0a
+host:1599435023=108.32.35.122
+author:1599435014=TA_test
+diff:1599435014:1599434973:=
+host:1599435014=108.32.35.122
+author:1599434973=TA_test
+diff:1599434973:1599434961:=23,25c23,25%0a%3c (:status: requiresRevisions:)%0a%3c %0a%3c (:notes: Here are the comments.:)%0a---%0a> (:status: complete:)%0a> %0a> (:notes: :)%0a
+host:1599434973=108.32.35.122
+author:1599434961=TA_test
+diff:1599434961:1599434956:=22,27c22%0a%3c ----%0a%3c (:status: complete:)%0a%3c %0a%3c (:notes: :)%0a%3c %0a%3c (:gradedBy: TA_test:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1599434961=108.32.35.122
+author:1599434956=TA_test
+diff:1599434956:1599434751:=9c9%0a%3c (:fox articleGrading ptvtarget={$FullName} ptvfields=status,notes,gradedBy:)%0a---%0a> (:fox articleGrading ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a
+host:1599434956=108.32.35.122
+author:1599434751=TA_test
+diff:1599434751:1599434730:=17a18,19%0a> ----%0a> %0a20,22c22%0a%3c (:ifend:)%0a%3c %0a%3c ----%0a\ No newline at end of file%0a---%0a> (:ifend:)%0a\ No newline at end of file%0a
+host:1599434751=108.32.35.122
+author:1599434730=TA_test
+diff:1599434730:1599434585:=2,5c2,5%0a%3c -> '''{$:status}''' %0a%3c (:if1 equal {$:status} complete:)-> [+ Graded by: {$:gradedBy} +](:if1end:)%0a%3c (:if2 equal {$:status} revisionsRequired:)%0a%3c [+ Notes: {$:notes} +]%0a---%0a> -> '''{=$:status}''' %0a> (:if1 equal {=$:status} complete:)-> [+ Graded by: {=$:gradedBy} +](:if1end:)%0a> (:if2 equal {=$:status} revisionsRequired:)%0a> [+ Notes: {=$:notes} +]%0a21,22c21%0a%3c (:foxend newArticle:)%0a%3c (:ifend:)%0a\ No newline at end of file%0a---%0a> (:foxend newArticle:)%0a\ No newline at end of file%0a
+host:1599434730=108.32.35.122
+author:1599434585=
+diff:1599434585:1599434585:=1,21d0%0a%3c (:if authgroup @tas:)%0a%3c -> '''{=$:status}''' %0a%3c (:if1 equal {=$:status} complete:)-> [+ Graded by: {=$:gradedBy} +](:if1end:)%0a%3c (:if2 equal {=$:status} revisionsRequired:)%0a%3c [+ Notes: {=$:notes} +]%0a%3c (:if2end:)%0a%3c ----%0a%3c %0a%3c (:fox articleGrading ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a%3c (:input default status {$:status}:)%0a%3c (:input checkbox status complete:) Complete%0a%3c (:input checkbox status requiresRevisions:) Requires Revisions %0a%3c (:input checkbox status noPoints:) No Points \\%0a%3c (:input default notes "{$:notes}":)%0a%3c (:input text notes size=80:)%0a%3c (:input hidden gradedBy {$Author}:)%0a%3c \\%0a%3c ----%0a%3c %0a%3c (:input submit post:)%0a%3c (:foxend newArticle:)%0a\ No newline at end of file%0a
+host:1599434585=108.32.35.122

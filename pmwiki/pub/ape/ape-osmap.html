@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <title>OpenStreetMap for PmWiki</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="stylesheet" href="leaflet.css" />
+  <script type="text/javascript" src="leaflet.js"></script>
+  <style>
+  html, body, #map {
+    width:100%; height:100%; padding:0; margin:0; text-align:center; background-color:#888;
+    overflow: hidden;
+  }
+  </style>
+</head>
+<body>
+  <div id="map">Embedding...</div>
+  <script type="text/javascript">
+  /**
+    Ape - Automatic Embedding of OpenStreetMaps for PmWiki
+    Written by (c) Petko Yotov 2011-2018    www.pmwiki.org/petko
+
+    This text is written for PmWiki; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published
+    by the Free Software Foundation version 2.
+
+    Version 20180126
+  */
+
+  
+  function initmap() {
+    if((!location.hash)||!parent) return;
+    var hash = location.hash.substring(1);
+    var circleradius = 0;
+    
+    var hashcoords = hash.match(/^ll=(-?[0-9.]+),(-?[0-9.]+)(,(\d+))?(,r(\d+))?$/);
+    if(hashcoords) {
+    console.log(hashcoords);
+      if(typeof hashcoords[4] == 'undefined') hashcoords[4] = 16;
+      if(typeof hashcoords[6] != 'undefined') circleradius = parseInt(hashcoords[6]);
+      var el = {
+        tagName: 'a',
+        href: "http://www.openstreetmap.org/?mlat="+hashcoords[1]+"&mlon="+hashcoords[2]
+          +"#map="+hashcoords[4]+"/"+hashcoords[1]+"/"+hashcoords[2],
+        innerHTML: ''
+      };
+      var fr = {
+      };
+      var inputLL = false;
+      console.log(el);
+    }
+    else {
+      var el = parent.document.getElementById(hash);
+      var fr = parent.document.getElementById('iframe_'+hash);
+      var inputLL = parent.document.getElementById('ape_latlon');
+    }
+
+    if(! (el && fr)) return;
+
+    var mapdiv = document.getElementById("map");
+//     mapdiv.style.height = fr.style.height;
+    
+    var tn = el.tagName.toLowerCase();
+    if(! tn.match(/^(a|dl)$/)) return;
+
+    var tileUrl = document.location.protocol + "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      tileAttr = { maxZoom: 18, attribution: '© <a target="_blank" href="http://www.openstreetmap.org">OpenStreetMap</a>' };
+
+    var map = false;
+    if(tn == 'a') {
+      var href = el.href;
+      
+      var a = href.match(/\/go\/([\w~=-]+)(\?m=)?$/);
+      if(a) { // osm short links
+        var tmp = decodeShortCode(a[1]);
+        href = "http://www.openstreetmap.org/";
+        if(a[2]) href += "?mlat="+tmp[0]+"&mlon="+tmp[1];
+        href += "#map="+tmp[2]+"/"+tmp[0]+"/"+tmp[1];
+      }
+      
+      var a = href.match(/#map=(\d+)\/(-?[\d.]+)\/(-?[\d.]+)$/);
+      if(!a) return;
+
+      var Mlat = parseFloat(a[2]), Mlon = parseFloat(a[3]), Zoom = parseInt(a[1]);
+
+      var b = false;
+      if(inputLL) var b = inputLL.value.match(/^ *(-?[\d.]+) *[,\/] *(-?[\d.]+) *$/);
+      if(b) {
+        Mlat = parseFloat(b[1]), Mlon = parseFloat(b[2]), Zoom = 15;
+      }
+
+      map = L.map('map').setView([Mlat, Mlon], Zoom);
+      L.tileLayer(tileUrl, tileAttr).addTo(map);
+      var b = href.match(/mlat=(-?[\d.]+)&mlon=(-?[\d.]+)/);
+      if(b) {
+        if(circleradius) {
+          var pin = L.circle( [ b[1], b[2] ], circleradius).addTo(map);
+          if(el.innerHTML) pin.bindPopup(el.innerHTML); 
+        }
+        else {
+          var pin = L.marker([ b[1], b[2] ]).addTo(map);
+          if(el.innerHTML) pin.bindPopup(el.innerHTML); 
+        }
+      }
+    }
+    else if(tn == 'dl') {
+      var DTs = el.getElementsByTagName('dt');
+      var topurl = parent.location.href;
+      topurl = topurl.replace(/\#.*/g, '');
+
+      var autocenter = false;
+      if(DTs && DTs.length) {
+        var cache = {};
+        var pts = [];
+        var centerzoom = false;
+        var maxLat=-90, minLat=90, maxLon=-180, minLon=180;
+        for(var i=0; i<DTs.length; i++) {
+          DTs[i].style.display = 'none';
+          var coords = DTs[i].innerText || DTs[i].textContent;
+          
+          var cz = coords.match(/cent(er|re)[ =]+(-?[.\d]+)[\/;, ]+(-?[.\d]+)[\/;, ]+zoom[ =]+(\d+)/i);
+          if(cz) { 
+            centerzoom = [parseFloat(cz[2]), parseFloat(cz[3]), 
+              Math.min(18, Math.max(1, parseInt(cz[4])))
+            ];
+            continue;
+          }
+          
+          var b = coords.replace(/^ +| +$/g, '').split(/[ ;,\/&]+/);
+          if(!b || b.length<2) continue;
+          var plat = parseFloat(b[0]), plon = parseFloat(b[1]);
+
+          pcol = (b[2]) ? b[2] : 0;
+          prad = (b[3]) ? b[3] : 0;
+
+          var dd = DTs[i].nextSibling;
+          var ddlinks = dd.getElementsByTagName('a');
+          for(var y = 0; y<ddlinks.length; y++) {
+            if(ddlinks[y].href == topurl) {
+              centerzoom = [plat, plon, 14];
+              autocenter = true;
+              break;
+            }
+          }
+          dd.style.display = 'none';
+          var ptxt = dd.innerHTML.replace(/<a/g, '<a target="_parent"');
+          pts.push([plat, plon, ptxt, pcol, prad]);
+
+          var PLAT = Math.round(plat*100)/100;
+          var PLON = Math.round(plon*100)/100;
+
+          if(! cache.hasOwnProperty(PLAT+','+PLON)) {
+            cache[PLAT+','+PLON] = {
+              rad: prad,
+              col: pcol,
+              txt: ptxt
+            };
+          }
+          else {
+            if(prad>cache[PLAT+','+PLON].rad) {
+              cache[PLAT+','+PLON].rad = prad;
+              cache[PLAT+','+PLON].col = pcol;
+            }
+            cache[PLAT+','+PLON].txt += "<br/>"+ptxt;
+          }
+
+          if(plat>maxLat) maxLat = plat;
+          if(plat<minLat) minLat = plat;
+          if(plon>maxLon) maxLon = plon;
+          if(plon<minLon) minLon = plon;
+        }
+        
+        map = L.map('map');
+        
+        if(centerzoom) map.setView( [centerzoom[0], centerzoom[1]], centerzoom[2]);
+        else map.fitBounds([ [minLat, minLon], [maxLat, maxLon] ], {maxZoom: 18, paddingTopLeft: [0, 30]});
+        
+        
+        L.tileLayer(tileUrl, tileAttr).addTo(map);
+
+        if(pts.length>1000) {
+          pts = [];
+          for(var ll in cache) {
+            var latlon=ll.split(/,/g);
+            pts.push([latlon[0], latlon[1], cache[ll].txt, cache[ll].col, cache[ll].rad ]);
+          }
+        }
+        
+        var grayIcon = new L.Icon.Default({
+          iconUrl: 'images/marker-icon-gray.png',
+          iconRetinaUrl: 'images/marker-icon-gray-2x.png'
+        });
+        
+        for(var i=0; i<pts.length; i++) {
+          var pi =  pts[i];
+          if(pi[3] && pi[3].match(/^[a-f0-9]$/i)) { // areas
+            var ismarker = 1;
+            var rad = parseFloat(pi[4]);
+            if(pi[4] && pi[4].match(/^[0-9.]+km/)) {
+              rad = parseFloat(pi[4])*1000;
+              ismarker = 0;
+            }
+            else if(pi[4] && pi[4].match(/^[0-9]+m/)) {
+              rad = parseFloat(pi[4]);
+              ismarker = 0;
+            }
+
+            if(!rad) rad = 10;
+
+            if(ismarker)
+              L.circleMarker([ pi[0], pi[1] ], { radius: rad, color: "#"+pi[3] }).addTo(map).bindPopup(pi[2]);
+
+            else
+              L.circle([ pi[0], pi[1] ], rad, { color: "#"+pi[3], fillOpacity: 0 }).addTo(map).bindPopup(pi[2]);
+
+          }
+          else {
+            if((!isNaN(pi[0])) && (!isNaN(pi[1]))) {
+              if((! autocenter) || (centerzoom[0] == pi[0] && centerzoom[1] == pi[1]) )
+                L.marker([ pi[0], pi[1] ]).addTo(map).bindPopup(pi[2]);
+              else {
+                L.marker([ pi[0], pi[1] ], {icon: grayIcon}).addTo(map).bindPopup(pi[2]);
+              }
+            }
+          }
+        }
+      }
+      else log("DTs NOT found!!");
+    }
+        
+    if(map) {
+      map.attributionControl.setPrefix('');
+      map.on('moveend', function(e) {
+        var lat = Math.round(map.getCenter().lat*100000)/100000;
+        var lon = Math.round(map.getCenter().lng*100000)/100000;
+        var z = map.getZoom();
+        map.attributionControl.setPrefix(lat+','+lon+" z"+z);
+        if(inputLL) inputLL.value = lat+','+lon;
+      });
+    }
+    if(map && inputLL) {
+      var cmarker = L.circleMarker(map.getCenter(), {radius:20, color:'#f30'})
+        .addTo(map)
+        .bindPopup("Zoom in, pan and place your location under the circle marker.");;
+      map.on('move', function () {
+        cmarker.setLatLng(map.getCenter());
+      });
+      inputLL.addEventListener('keyup', function(){
+        var b = inputLL.value.match(/^ *(-?[\d.]+) *[,\/ ;] *(-?[\d.]+) *$/);
+        if(b) {
+          var la = parseFloat(b[1]), lo = parseFloat(b[2]), z = 15;
+          map.setView([la, lo], z);
+        }
+      }, false);
+    }
+  }  
+  
+  function log(a){ console.log(a) }
+  
+  // Decode OSM short URLs function - not optimized for speed!
+  // based on a function Hatto v. Hatzfeld, based on OpenStreetMap core, License GNU GPLv2
+  // http://www.salesianer.de/util/osmshortlinks.php
+  function decodeShortCode(sc) {
+    char_array = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_~";
+    var i=0, x=0, y=0, z=-8;
+    for(i=0;i<sc.length;i++) {
+      ch=sc.charAt(i);
+      digit=char_array.indexOf(ch);
+      if(digit==-1) break;
+      // distribute 6 bits into x and y
+      x<<=3;
+      y<<=3;
+      for(j=2;j>=0;j--) {
+        x |= ((digit & (1 << (j+j+1))) == 0 ? 0 : (1 << j));
+        y |= ((digit & (1 << (j+j))) == 0 ? 0 : (1 << j));
+      }
+      z+=3;
+    }
+    x = x * Math.pow(2,2-3*i) * 90 - 180;
+    y = y * Math.pow(2,2-3*i) * 45 -  90;
+    // adjust z
+    if(i<sc.length && sc.charAt(i)=="-") {
+      z-=2;
+      if(i+1<sc.length && sc.charAt(i+1)=="-") { z++; }
+    }
+    return new Array(y,x,z);
+  }
+
+  initmap();  
+  </script>
+</body>
+</html>

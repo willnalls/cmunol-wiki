@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1613857784
+host=74.109.247.199
+name=Profiles.ChesterG
+rev=4
+targets=
+text=(:section: B:)%0a(:andrewid: ckglenn:)%0a#foxbegin 210309-213614-311870#%0a(:name: chester_g:)%0a#foxend 210309-213614-311870#
+time=1615326236
+author:1615326236=
+diff:1615326236:1615325770:=4c4%0a%3c (:name: chester_g:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326236=74.109.247.199
+author:1615325770=
+diff:1615325770:1613857789:=2,5c2%0a%3c (:andrewid: ckglenn:)%0a%3c #foxbegin 210309-213614-311870#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213614-311870#%0a\ No newline at end of file%0a---%0a> (:andrewid: ckglenn:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1613857789=chester_g
+diff:1613857789:1613857784:=1,2c1%0a%3c (:section: B:)%0a%3c (:andrewid: ckglenn:)%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1613857789=71.206.239.38
+author:1613857784=chester_g
+diff:1613857784:1613857784:=1d0%0a%3c (:section: B:)%0a\ No newline at end of file%0a
+host:1613857784=71.206.239.38

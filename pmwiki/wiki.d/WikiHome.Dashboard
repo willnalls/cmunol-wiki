@@ -1,0 +1,28 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=saraP
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1599676973
+host=108.32.35.122
+name=WikiHome.Dashboard
+rev=6
+targets=WikiHome.MyDashboard,Grading.Grading
+text=You are currently logged in as {$Author}. ([[MyDashboard?action=logout | logout]])%0a%0a%0a%0a(:if authgroup @tas:)%0a%0aYou have TA authorization. %0a* [[Grading/Grading | Grading homepage]] %0a%0a(:else:)%0a%0aYou are a student.%0a%0a[+Your Work+]%0a%0a----%0a----%0a%0a'''Articles'''%0a%0a(:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $CreatedBy={$Author}:)%0a%0a%0a'''Expansions'''%0a%0a(:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $:{$Author}=-:)%0a%0a'''ELI5 Prompts'''%0a%0a%0a(:pagelist group=ELI5 $:status=-unanswered fmt=Templates/PagelistTemplates#eli5prompts $CreatedBy={$Author}:)%0a%0a%0a%0a%0a'''ELI5 Articles'''%0a%0a%0a(:pagelist group=ELI5 $:status=unanswered fmt=Templates.PagelistTemplates#eli5answers $LastModifiedBy={$Author}:)%0a%0a(:ifend:)
+time=1599677656
+author:1599677656=saraP
+diff:1599677656:1599677582:=28,39c28%0a%3c '''ELI5 Prompts'''%0a%3c %0a%3c %0a%3c (:pagelist group=ELI5 $:status=-unanswered fmt=Templates/PagelistTemplates#eli5prompts $CreatedBy={$Author}:)%0a%3c %0a%3c %0a%3c %0a%3c %0a%3c '''ELI5 Articles'''%0a%3c %0a%3c %0a%3c (:pagelist group=ELI5 $:status=unanswered fmt=Templates.PagelistTemplates#eli5answers $LastModifiedBy={$Author}:)%0a---%0a> '''ELI5 Prompts''%0a
+host:1599677656=108.32.35.122
+author:1599677582=saraP
+diff:1599677582:1599677219:=13,28d12%0a%3c %0a%3c [+Your Work+]%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a%3c '''Articles'''%0a%3c %0a%3c (:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $CreatedBy={$Author}:)%0a%3c %0a%3c %0a%3c '''Expansions'''%0a%3c %0a%3c (:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $:{$Author}=-:)%0a%3c %0a%3c '''ELI5 Prompts''%0a
+host:1599677582=108.32.35.122
+author:1599677219=saraP
+diff:1599677219:1599677101:=1,14c1%0a%3c You are currently logged in as {$Author}. ([[MyDashboard?action=logout | logout]])%0a%3c %0a%3c %0a%3c %0a%3c (:if authgroup @tas:)%0a%3c %0a%3c You have TA authorization. %0a%3c * [[Grading/Grading | Grading homepage]] %0a%3c %0a%3c (:else:)%0a%3c %0a%3c You are a student.%0a%3c %0a%3c (:ifend:)%0a\ No newline at end of file%0a---%0a> Dashboard%0a\ No newline at end of file%0a
+host:1599677219=108.32.35.122
+author:1599677075=saraP
+diff:1599677075:1599676973:=1c1,47%0a%3c Dashboard%0a\ No newline at end of file%0a---%0a> You are currently logged in as {$Author}. ([[MyDashboard?action=logout | logout]])%0a> %0a> %0a> %0a> (:if authgroup @tas:)%0a> %0a> You have TA authorization. %0a> * [[Grading/Grading | Grading homepage]] %0a> %0a> (:else:)%0a> %0a> [+Your Work+]%0a> %0a> ----%0a> ----%0a> %0a> '''Articles'''%0a> %0a> (:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $CreatedBy={$Author}:)%0a> %0a> %0a> '''Expansions'''%0a> %0a> (:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $:{$Author}=-:)%0a> %0a> '''ELI5 Prompts'''%0a> %0a> %0a> (:pagelist group=ELI5 $:status=-unanswered fmt=Templates/PagelistTemplates#eli5prompts $CreatedBy={$Author}:)%0a> %0a> %0a> %0a> %0a> '''ELI5 Articles'''%0a> %0a> %0a> (:pagelist group=ELI5 $:status=unanswered fmt=Templates.PagelistTemplates#eli5answers $LastModifiedBy={$Author}:)%0a> %0a> ----%0a> ----%0a> %0a> %0a> '''Comments'''%0a> %0a> (:pagelist list=normal fmt=Templates/PagelistTemplates#eli5answers if='intext !!!!!{$Author} {=$FullName}':)%0a> %0a> (:ifend:)%0a
+host:1599677075=108.32.35.122
+author:1599676973=saraP
+diff:1599676973:1599676973:=1,47d0%0a%3c You are currently logged in as {$Author}. ([[MyDashboard?action=logout | logout]])%0a%3c %0a%3c %0a%3c %0a%3c (:if authgroup @tas:)%0a%3c %0a%3c You have TA authorization. %0a%3c * [[Grading/Grading | Grading homepage]] %0a%3c %0a%3c (:else:)%0a%3c %0a%3c [+Your Work+]%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a%3c '''Articles'''%0a%3c %0a%3c (:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $CreatedBy={$Author}:)%0a%3c %0a%3c %0a%3c '''Expansions'''%0a%3c %0a%3c (:pagelist group=Articles fmt=Templates/PagelistTemplates#categorypages $:{$Author}=-:)%0a%3c %0a%3c '''ELI5 Prompts'''%0a%3c %0a%3c %0a%3c (:pagelist group=ELI5 $:status=-unanswered fmt=Templates/PagelistTemplates#eli5prompts $CreatedBy={$Author}:)%0a%3c %0a%3c %0a%3c %0a%3c %0a%3c '''ELI5 Articles'''%0a%3c %0a%3c %0a%3c (:pagelist group=ELI5 $:status=unanswered fmt=Templates.PagelistTemplates#eli5answers $LastModifiedBy={$Author}:)%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a%3c %0a%3c '''Comments'''%0a%3c %0a%3c (:pagelist list=normal fmt=Templates/PagelistTemplates#eli5answers if='intext !!!!!{$Author} {=$FullName}':)%0a%3c %0a%3c (:ifend:)%0a
+host:1599676973=108.32.35.122

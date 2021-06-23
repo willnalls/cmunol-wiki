@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+author=albert_l
+charset=UTF-8
+csum=
+ctime=1612205854
+host=71.112.202.60
+name=Profiles.JacobF
+rev=5
+targets=Articles.StevenCrowderDiscriminatingAgainstAAVE
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: jfondrie \\%0a%0a[[#comments]]%0a#foxbegin 210425-022727-976580#%0a* albert_l expanded on your article [[Articles.StevenCrowderDiscriminatingAgainstAAVE|StevenCrowderDiscriminatingAgainstAAVE]] {[foxdelline button 210425-022727-976580 {$FullName} ]}%0a#foxend 210425-022727-976580#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213615-858720#%0a(:name: JacobF:)%0a#foxend 210309-213615-858720#
+time=1619317645
+author:1619317645=albert_l
+diff:1619317645:1615405872:=7,9c7%0a%3c #foxbegin 210425-022727-976580#%0a%3c * albert_l expanded on your article [[Articles.StevenCrowderDiscriminatingAgainstAAVE|StevenCrowderDiscriminatingAgainstAAVE]] {[foxdelline button 210425-022727-976580 {$FullName} ]}%0a%3c #foxend 210425-022727-976580#%0a---%0a> %0a
+host:1619317645=71.112.202.60
+author:1615405872=
+diff:1615405872:1615325770:=27c27%0a%3c (:name: JacobF:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405872=74.109.247.199
+author:1615325770=
+diff:1615325770:1612370105:=25,28c25%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213615-858720#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213615-858720#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612370105=JacobF
+diff:1612370105:1612205854:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612370105=74.109.250.114
+author:1612205854=JacobF
+diff:1612205854:1612205854:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: jfondrie \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612205854=74.109.250.114

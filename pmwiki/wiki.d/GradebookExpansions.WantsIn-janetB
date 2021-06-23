@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620428274
+host=74.98.251.138
+name=GradebookExpansions.WantsIn-janetB
+rev=2
+targets=Articles.WantsIn,Profiles.IsabelV
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Reflection on verb-preposition constructions%0a:Author: janet_b%0a:Original: [[Articles.WantsIn|WantsIn]] %0a:OriginalAuthor: [[Profiles.IsabelV|IsabelV]]%0a:Section: E%0a:Completed: 07.05.2021 - 15:57%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-223556-33720#%0a* [-11.05.2021 - 15:35-] || TA_mason marked as complete%0a#foxend 210511-223556-33720#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aBecause Midwestern English is fairly similar to SAE and I've lived in in the Midwest my whole life, I've personally experienced rather little linguistic discrimination due to my dialect. However, when I've traveled outside the area, I've been corrected and casually teased for saying things such as "I need out" "the dishes need done" "Biscuit wants down", and so on. However, because the perspective on this kind of language is that of slang and is seen as quirky and overly casual, it doesn't reflect the kind of linguistic discrimination that serves as an emphasis for other kinds of cultural discrimination.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_mason:)
+time=1620772555
+author:1620772555=TA_mason
+diff:1620772555:1620428274:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-223556-33720#%0a%3c * [-11.05.2021 - 15:35-] || TA_mason marked as complete%0a%3c #foxend 210511-223556-33720#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620772555=74.98.251.138
+author:1620428274=janet_b
+diff:1620428274:1620428274:=1,38d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Reflection on verb-preposition constructions%0a%3c :Author: janet_b%0a%3c :Original: [[Articles.WantsIn|WantsIn]] %0a%3c :OriginalAuthor: [[Profiles.IsabelV|IsabelV]]%0a%3c :Section: E%0a%3c :Completed: 07.05.2021 - 15:57%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Because Midwestern English is fairly similar to SAE and I've lived in in the Midwest my whole life, I've personally experienced rather little linguistic discrimination due to my dialect. However, when I've traveled outside the area, I've been corrected and casually teased for saying things such as "I need out" "the dishes need done" "Biscuit wants down", and so on. However, because the perspective on this kind of language is that of slang and is seen as quirky and overly casual, it doesn't reflect the kind of linguistic discrimination that serves as an emphasis for other kinds of cultural discrimination.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620428274=73.246.93.87

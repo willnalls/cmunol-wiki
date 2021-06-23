@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+author=asdff
+charset=UTF-8
+csum=
+ctime=1620434769
+host=172.58.188.25
+name=GradebookArticles.Practice
+rev=1
+targets=
+text=:Category: PracticeCategory%0a:Essential: {Category.PracticeCategory$:essential}%0a:Title: practice%0a:Author: asdff%0a:Section: %0a:Completed: 07.05.2021 - 17:46%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0apractice%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0apractice%0a%0a[[#contentends]]%0a----
+time=1620434769
+author:1620434769=asdff
+diff:1620434769:1620434769:=1,45d0%0a%3c :Category: PracticeCategory%0a%3c :Essential: {Category.PracticeCategory$:essential}%0a%3c :Title: practice%0a%3c :Author: asdff%0a%3c :Section: %0a%3c :Completed: 07.05.2021 - 17:46%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c practice%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c practice%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1620434769=172.58.188.25

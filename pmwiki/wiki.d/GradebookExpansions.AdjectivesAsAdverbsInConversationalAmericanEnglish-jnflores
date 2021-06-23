@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620532659
+host=72.95.222.76
+name=GradebookExpansions.AdjectivesAsAdverbsInConversationalAmericanEnglish-jnflores
+rev=5
+targets=Articles.AdjectivesAsAdverbsInConversationalAmericanEnglish,Profiles.MihirD
+text=:Category: Varia%0a:Expansion: Adv. and Adj. exchange%0a:Author: jnflores%0a:Original: [[Articles.AdjectivesAsAdverbsInConversationalAmericanEnglish|AdjectivesAsAdverbsInConversationalAmericanEnglish]] %0a:OriginalAuthor: [[Profiles.Mihir_D|Mihir_D]]%0a:Section: E%0a:Completed: 08.05.2021 - 20:57%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210512-120729-320070#%0a* [-12.05.2021 - 05:07-] || TA_mason marked as complete%0a#foxend 210512-120729-320070#%0a#foxbegin 210511-142245-460960#%0a* [-11.05.2021 - 07:22-] ||  marked as ungraded%0a#foxend 210511-142245-460960#%0a#foxbegin 210511-141934-584860#%0a* [-11.05.2021 - 07:19-] || Russell_E marked as complete%0a#foxend 210511-141934-584860#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aSuper interesting topic! As a native English speaker I had never thought of the negotiation between these parts of speech, and in reading your explanation of it what comes to mind is conversation. For instance, 'eat it up quick' is something my family would say to each other but never in a formal setting. The distinction between the exchange seems to be one is standard American English (adv.) and not (adj.).%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_mason:)%0a#foxbegin 210512-000933-865820#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000933-865820#
+time=1620821248
+author:1620821248=TA_mason
+diff:1620821248:1620778172:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19d16%0a%3c #foxbegin 210512-120729-320070#%0a%3c * [-12.05.2021 - 05:07-] || TA_mason marked as complete%0a%3c #foxend 210512-120729-320070#%0a47c44%0a%3c (:GradedBy: TA_mason:)%0a---%0a> (:GradedBy: Russell_E:)%0a
+host:1620821248=72.95.222.76
+author:1620778172=
+diff:1620778172:1620742965:=44,48c44%0a%3c (:GradedBy: Russell_E:)%0a%3c #foxbegin 210512-000933-865820#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000933-865820#%0a\ No newline at end of file%0a---%0a> (:GradedBy: Russell_E:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1620742965=
+diff:1620742965:1620742774:=8,9c8,9%0a%3c :Status: ungraded%0a%3c %0a---%0a> :Status: complete%0a> %0a17,19d16%0a%3c #foxbegin 210511-142245-460960#%0a%3c * [-11.05.2021 - 07:22-] ||  marked as ungraded%0a%3c #foxend 210511-142245-460960#%0a
+host:1620742965=74.109.239.200
+author:1620742774=Russell_E
+diff:1620742774:1620532659:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-141934-584860#%0a%3c * [-11.05.2021 - 07:19-] || Russell_E marked as complete%0a%3c #foxend 210511-141934-584860#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: Russell_E:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620742774=74.109.239.200
+author:1620532659=jnflores
+diff:1620532659:1620532659:=1,38d0%0a%3c :Category: Varia%0a%3c :Expansion: Adv. and Adj. exchange%0a%3c :Author: jnflores%0a%3c :Original: [[Articles.AdjectivesAsAdverbsInConversationalAmericanEnglish|AdjectivesAsAdverbsInConversationalAmericanEnglish]] %0a%3c :OriginalAuthor: [[Profiles.Mihir_D|Mihir_D]]%0a%3c :Section: E%0a%3c :Completed: 08.05.2021 - 20:57%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Super interesting topic! As a native English speaker I had never thought of the negotiation between these parts of speech, and in reading your explanation of it what comes to mind is conversation. For instance, 'eat it up quick' is something my family would say to each other but never in a formal setting. The distinction between the exchange seems to be one is standard American English (adv.) and not (adj.).%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620532659=24.126.52.178

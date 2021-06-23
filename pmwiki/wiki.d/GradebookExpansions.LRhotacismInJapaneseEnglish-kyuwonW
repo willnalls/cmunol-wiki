@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1620320558
+host=67.171.64.6
+name=GradebookExpansions.LRhotacismInJapaneseEnglish-kyuwonW
+rev=2
+targets=Articles.LRhotacismInJapaneseEnglish,Profiles.RussellE
+text=:Category: LinguisticDiscriminationInTheWild%0a:Expansion: "r" and "l" in Japanese%0a:Author: kyuwonW%0a:Original: [[Articles.LRhotacismInJapaneseEnglish|LRhotacismInJapaneseEnglish]] %0a:OriginalAuthor: [[Profiles.Russell_E|Russell_E]]%0a:Section: D%0a:Completed: 06.05.2021 - 10:02%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-021819-797720#%0a* [-10.05.2021 - 19:18-] || TA_lili marked as complete%0a#foxend 210511-021819-797720#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aIn Japanese, no sound sounds exactly like "r" or "l". Japanese  "r" sounds can be represented with ら (ra) り (ri) る (ru) れ (re) and ろ (ro), and to pronounce these syllables, the tip of the tongue should touch the back of the upper teeth. These syllables all also sound like in between the English "r" or "l", and Japanese does not necessarily distinguish the two sounds in their native language. Therefore, they can pronounce "r" with "l" or "l" with "r".  Along with rhotacism of /l/ in Japanese English, "r" can be pronounced as an "l" like in the word "difference" [ˈdɪfərəns] to [ˈdɪfələns].%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620699499
+author:1620699499=TA_lili
+diff:1620699499:1620320558:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-021819-797720#%0a%3c * [-10.05.2021 - 19:18-] || TA_lili marked as complete%0a%3c #foxend 210511-021819-797720#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620699499=67.171.64.6
+author:1620320558=kyuwonW
+diff:1620320558:1620320558:=1,38d0%0a%3c :Category: LinguisticDiscriminationInTheWild%0a%3c :Expansion: "r" and "l" in Japanese%0a%3c :Author: kyuwonW%0a%3c :Original: [[Articles.LRhotacismInJapaneseEnglish|LRhotacismInJapaneseEnglish]] %0a%3c :OriginalAuthor: [[Profiles.Russell_E|Russell_E]]%0a%3c :Section: D%0a%3c :Completed: 06.05.2021 - 10:02%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c In Japanese, no sound sounds exactly like "r" or "l". Japanese  "r" sounds can be represented with ら (ra) り (ri) る (ru) れ (re) and ろ (ro), and to pronounce these syllables, the tip of the tongue should touch the back of the upper teeth. These syllables all also sound like in between the English "r" or "l", and Japanese does not necessarily distinguish the two sounds in their native language. Therefore, they can pronounce "r" with "l" or "l" with "r".  Along with rhotacism of /l/ in Japanese English, "r" can be pronounced as an "l" like in the word "difference" [ˈdɪfərəns] to [ˈdɪfələns].%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620320558=98.42.167.123

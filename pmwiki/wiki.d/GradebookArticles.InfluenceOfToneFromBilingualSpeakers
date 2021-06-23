@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612665952
+host=74.98.251.138
+name=GradebookArticles.InfluenceOfToneFromBilingualSpeakers
+rev=3
+targets=
+text=:Category: PracticeCategory%0a:Title: Influence of tone from bilingual speakers%0a:Author: cara_s%0a:Section: E%0a:Completed: 06.02.2021 - 18:45%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210317-173311-425750#%0a* [-17.03.2021 - 10:33-] || TA_mason marked as complete%0a#foxend 210317-173311-425750#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aMost languages have different tone systems, does this transfer well into other languages?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aSince most languages have fairly unique tone systems, logically one can assume that learners/speakers of secondary languages would keep some aspects of the tone of their native language. I am curious about the effects of this tone that has been carried over. Does it make them harder to understand? or does it somehow portray a specific emotion or mentality? I am not sure if these questions will be answered in this course, but hopefully I can gain some insight and maybe enough background knowledge to research it on my own.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1616002391
+author:1616002391=TA_mason
+diff:1616002391:1614801922:=6,7c6,7%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210317-173311-425750#%0a%3c * [-17.03.2021 - 10:33-] || TA_mason marked as complete%0a%3c #foxend 210317-173311-425750#%0a---%0a> %0a46,47c44%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1616002391=74.98.251.138
+author:1614801922=
+diff:1614801922:1612665952:=4c4%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1614801922=74.109.247.199
+author:1612665952=cara_s
+diff:1612665952:1612665952:=1,44d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Influence of tone from bilingual speakers%0a%3c :Author: cara_s%0a%3c :Section: %0a%3c :Completed: 06.02.2021 - 18:45%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Most languages have different tone systems, does this transfer well into other languages?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Since most languages have fairly unique tone systems, logically one can assume that learners/speakers of secondary languages would keep some aspects of the tone of their native language. I am curious about the effects of this tone that has been carried over. Does it make them harder to understand? or does it somehow portray a specific emotion or mentality? I am not sure if these questions will be answered in this course, but hopefully I can gain some insight and maybe enough background knowledge to research it on my own.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612665952=73.236.13.47

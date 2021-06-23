@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1619767151
+host=74.98.251.138
+name=GradebookExpansions.OnAccentGeneration-EthanW
+rev=3
+targets=Articles.OnAccentGeneration,Profiles.Aryans
+text=:Category: Varia%0a:Expansion: Simulate accented data%0a:Author: EthanW%0a:Original: [[Articles.OnAccentGeneration|OnAccentGeneration]] %0a:OriginalAuthor: [[Profiles.aryans|aryans]]%0a:Section: E%0a:Completed: 30.04.2021 - 00:19%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210505-220851-214350#%0a* [-05.05.2021 - 15:08-] || TA_mason marked as complete%0a#foxend 210505-220851-214350#%0a#foxbegin 210505-220843-47570#%0a* [-05.05.2021 - 15:08-] || TA_mason marked as complete%0a#foxend 210505-220843-47570#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aOne challange in training a more intelligent model to recognize accented speech is the lack of data, which easily leads to overfitting. Data augmentation, as you mentioned in the last paragraph, could be of help. %0a%0aRecall that voice onset time (VOT) and fundamental frequency (F0) are two important acoustics parameters. I once envolved in a study where researchers manipulated VOT and FO of "b" and "p" to different degrees. The result shows that it influenced how listeners classified the manually accented audio as "beer" or "pier". Hypothetically, similar techniques can be applied to generate more accented data from the non-accented ones. %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_mason:)
+time=1620252531
+author:1620252531=TA_mason
+diff:1620252531:1620252523:=17,19d16%0a%3c #foxbegin 210505-220851-214350#%0a%3c * [-05.05.2021 - 15:08-] || TA_mason marked as complete%0a%3c #foxend 210505-220851-214350#%0a
+host:1620252531=74.98.251.138
+author:1620252523=TA_mason
+diff:1620252523:1619767151:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210505-220843-47570#%0a%3c * [-05.05.2021 - 15:08-] || TA_mason marked as complete%0a%3c #foxend 210505-220843-47570#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620252523=74.98.251.138
+author:1619767151=EthanW
+diff:1619767151:1619767151:=1,40d0%0a%3c :Category: Varia%0a%3c :Expansion: Simulate accented data%0a%3c :Author: EthanW%0a%3c :Original: [[Articles.OnAccentGeneration|OnAccentGeneration]] %0a%3c :OriginalAuthor: [[Profiles.aryans|aryans]]%0a%3c :Section: E%0a%3c :Completed: 30.04.2021 - 00:19%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c One challange in training a more intelligent model to recognize accented speech is the lack of data, which easily leads to overfitting. Data augmentation, as you mentioned in the last paragraph, could be of help. %0a%3c %0a%3c Recall that voice onset time (VOT) and fundamental frequency (F0) are two important acoustics parameters. I once envolved in a study where researchers manipulated VOT and FO of "b" and "p" to different degrees. The result shows that it influenced how listeners classified the manually accented audio as "beer" or "pier". Hypothetically, similar techniques can be applied to generate more accented data from the non-accented ones. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619767151=58.247.22.142

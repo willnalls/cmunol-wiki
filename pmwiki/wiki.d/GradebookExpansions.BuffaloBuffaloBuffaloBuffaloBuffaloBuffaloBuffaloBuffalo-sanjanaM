@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1620403560
+host=67.171.64.6
+name=GradebookExpansions.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo-sanjanaM
+rev=2
+targets=Articles.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo,Profiles.Kevinx
+text=:Category: Varia%0a:Expansion: The old man the boat.%0a:Author: sanjana_m%0a:Original: [[Articles.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo|BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo]] %0a:OriginalAuthor: [[Profiles.kevinx|kevinx]]%0a:Section: D%0a:Completed: 07.05.2021 - 09:06%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-013248-662580#%0a* [-10.05.2021 - 18:32-] || TA_lili marked as complete%0a#foxend 210511-013248-662580#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThis is another example of a sentence that seems incorrect but actually satisfies all the grammar rules. One would initally read "the old man" as one thing, and "the boat" as the other thing. Reading it this way makes no sense -- we just have two nouns next to each other. However, if you read it as "the old", referring to old people in general, "man the boat", which would mean steering or running the boat, this makes perfect sense!%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620696767
+author:1620696767=TA_lili
+diff:1620696767:1620403560:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-013248-662580#%0a%3c * [-10.05.2021 - 18:32-] || TA_lili marked as complete%0a%3c #foxend 210511-013248-662580#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620696767=67.171.64.6
+author:1620403560=sanjana_m
+diff:1620403560:1620403560:=1,38d0%0a%3c :Category: Varia%0a%3c :Expansion: The old man the boat.%0a%3c :Author: sanjana_m%0a%3c :Original: [[Articles.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo|BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo]] %0a%3c :OriginalAuthor: [[Profiles.kevinx|kevinx]]%0a%3c :Section: D%0a%3c :Completed: 07.05.2021 - 09:06%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c This is another example of a sentence that seems incorrect but actually satisfies all the grammar rules. One would initally read "the old man" as one thing, and "the boat" as the other thing. Reading it this way makes no sense -- we just have two nouns next to each other. However, if you read it as "the old", referring to old people in general, "man the boat", which would mean steering or running the boat, this makes perfect sense!%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620403560=128.237.82.1

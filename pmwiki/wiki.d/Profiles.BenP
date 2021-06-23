@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612460008
+host=74.109.247.199
+name=Profiles.BenP
+rev=4
+targets=
+text=(:section: E:)%0a(:andrewid: bpavlat:)%0a#foxbegin 210309-213613-590220#%0a(:name: BenP:)%0a#foxend 210309-213613-590220#
+time=1615401363
+author:1615401363=
+diff:1615401363:1615325770:=4c4%0a%3c (:name: BenP:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615401363=74.109.247.199
+author:1615325770=
+diff:1615325770:1612551535:=2,5c2%0a%3c (:andrewid: bpavlat:)%0a%3c #foxbegin 210309-213613-590220#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213613-590220#%0a\ No newline at end of file%0a---%0a> (:andrewid: bpavlat:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612551535=BenP
+diff:1612551535:1612460008:=1,2c1%0a%3c (:section: E:)%0a%3c (:andrewid: bpavlat:)%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1612551535=73.174.152.59
+author:1612460008=BenP
+diff:1612460008:1612460008:=1d0%0a%3c (:section: E:)%0a\ No newline at end of file%0a
+host:1612460008=73.174.152.59

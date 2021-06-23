@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=wnalls
+charset=UTF-8
+csum=
+ctime=1616510591
+host=74.109.247.199
+name=Profiles.Wnalls
+rev=2
+targets=
+text=(:section: A:)%0a(:andrewid: wnalls:)
+time=1616510596
+author:1616510596=wnalls
+diff:1616510596:1616510591:=1,2c1%0a%3c (:section: A:)%0a%3c (:andrewid: wnalls:)%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1616510596=74.109.247.199
+author:1616510591=wnalls
+diff:1616510591:1616510591:=1d0%0a%3c (:section: A:)%0a\ No newline at end of file%0a
+host:1616510591=74.109.247.199

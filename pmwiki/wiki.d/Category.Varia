@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36
+author=bellar
+charset=UTF-8
+csum=
+ctime=1611334318
+host=74.98.211.204
+name=Category.Varia
+rev=5
+targets=
+text=(:essential: no:)%0a(:deadline: 2021-05-08:)%0a(:expansiondeadline: 2021-05-08:)%0a%0a!!Varia%0a(:if equal no yes:)%0a('''essential category''')%0a(:if end:)%0a%0a----%0a%0aCome across something about language or linguistics that you find interesting, particularly as it relates to other fields, such as psycholinguistics, neurolinguistics, computational linguistics, etc? Write an article about it here!  Please be sure to use the appropriate terminology and concepts as you’ve learned in class.%0a%0aAs this is an open-ended wiki category, the expansions are similarly open-ended.%0a%0a%0a----
+time=1620494699
+author:1620494699=bellar
+diff:1620494699:1620494697:=
+host:1620494699=74.98.211.204
+author:1620494697=bellar
+diff:1620494697:1620494694:=
+host:1620494697=74.98.211.204
+author:1620494694=bellar
+diff:1620494694:1612052660:=2,4c2,4%0a%3c (:deadline: 2021-05-08:)%0a%3c (:expansiondeadline: 2021-05-08:)%0a%3c %0a---%0a> (:deadline: 2021-05-07:)%0a> (:expansiondeadline: 2021-05-14:)%0a> %0a12,14c12,14%0a%3c Come across something about language or linguistics that you find interesting, particularly as it relates to other fields, such as psycholinguistics, neurolinguistics, computational linguistics, etc? Write an article about it here!  Please be sure to use the appropriate terminology and concepts as you’ve learned in class.%0a%3c %0a%3c As this is an open-ended wiki category, the expansions are similarly open-ended.%0a---%0a> Come across something about language or linguistics that you find interesting, particularly as it relates to other fields, such as psycholinguistics, neurolinguistics, computational linguistics, etc? Write an article about it here!  Please be sure to use the appropriate terminology and concepts as you’ve learned in class.%0a> %0a> As this is an open-ended wiki category, the expansions are similarly open-ended.%0a
+host:1620494694=74.98.211.204
+author:1612052660=
+diff:1612052660:1611334318:=2,3c2,3%0a%3c (:deadline: 2021-05-07:)%0a%3c (:expansiondeadline: 2021-05-14:)%0a---%0a> (:deadline: 2021-05-10:)%0a> (:expansiondeadline: 2021-05-24:)%0a
+host:1612052660=74.109.247.199
+author:1611334318=
+diff:1611334318:1611334318:=1,17d0%0a%3c (:essential: no:)%0a%3c (:deadline: 2021-05-10:)%0a%3c (:expansiondeadline: 2021-05-24:)%0a%3c %0a%3c !!Varia%0a%3c (:if equal no yes:)%0a%3c ('''essential category''')%0a%3c (:if end:)%0a%3c %0a%3c ----%0a%3c %0a%3c Come across something about language or linguistics that you find interesting, particularly as it relates to other fields, such as psycholinguistics, neurolinguistics, computational linguistics, etc? Write an article about it here!  Please be sure to use the appropriate terminology and concepts as you’ve learned in class.%0a%3c %0a%3c As this is an open-ended wiki category, the expansions are similarly open-ended.%0a%3c %0a%3c %0a%3c ----%0a\ No newline at end of file%0a
+host:1611334318=74.109.247.199

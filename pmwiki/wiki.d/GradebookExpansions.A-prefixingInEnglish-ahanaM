@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1619277235
+host=74.111.97.246
+name=GradebookExpansions.A-prefixingInEnglish-ahanaM
+rev=2
+targets=Articles.A-prefixingInEnglish,Profiles.Gabrielz
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Uses of a-prefixing%0a:Author: ahana_m%0a:Original: [[Articles.A-prefixingInEnglish|A-prefixingInEnglish]] %0a:OriginalAuthor: [[Profiles.gabrielz|gabrielz]]%0a:Section: D%0a:Completed: 24.04.2021 - 08:13%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-145934-188660#%0a* [-06.05.2021 - 07:59-] || TA_lili marked as complete%0a#foxend 210506-145934-188660#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThere are few idiomatic expressions in use today that include a prefixing, but other than that, it has fallen out of use. These common expressions include “Time’s a-wasting!”%0aProbably the most commonly known use of this construct is in the Christmas carol Twelve Days of Christmas. The a prefixing comes after nouns with one syllable so it allows for the rhythm of the verses to be maintained. Examples are “ten lords a-leaping, eight maids a-milking, seven swans a-swimming.”%0a%0ahttps://patp.us/EFL/digressions%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620313174
+author:1620313174=TA_lili
+diff:1620313174:1619277235:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210506-145934-188660#%0a%3c * [-06.05.2021 - 07:59-] || TA_lili marked as complete%0a%3c #foxend 210506-145934-188660#%0a---%0a> %0a43,44c41%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620313174=74.111.97.246
+author:1619277235=ahana_m
+diff:1619277235:1619277235:=1,41d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Uses of a-prefixing%0a%3c :Author: ahana_m%0a%3c :Original: [[Articles.A-prefixingInEnglish|A-prefixingInEnglish]] %0a%3c :OriginalAuthor: [[Profiles.gabrielz|gabrielz]]%0a%3c :Section: D%0a%3c :Completed: 24.04.2021 - 08:13%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c There are few idiomatic expressions in use today that include a prefixing, but other than that, it has fallen out of use. These common expressions include “Time’s a-wasting!”%0a%3c Probably the most commonly known use of this construct is in the Christmas carol Twelve Days of Christmas. The a prefixing comes after nouns with one syllable so it allows for the rhythm of the verses to be maintained. Examples are “ten lords a-leaping, eight maids a-milking, seven swans a-swimming.”%0a%3c %0a%3c https://patp.us/EFL/digressions%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619277235=216.195.23.171

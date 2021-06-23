@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612805367
+host=74.109.239.200
+name=GradebookExpansions.CanAnimalsTalk-AlexisA
+rev=3
+targets=Articles.CanAnimalsTalk,Profiles.Sathyas
+text=:Category: PracticeCategory%0a:Expansion: Dogs communicate emotions through barking!%0a:Author: AlexisA%0a:Original: [[Articles.CanAnimalsTalk|CanAnimalsTalk]] %0a:OriginalAuthor: [[Profiles.sathyas|sathyas]]%0a:Section: A%0a:Completed: 08.02.2021 - 09:29%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aA South Korean company produced a dog collar that they claim can read dog emotions through their barks (https://people.com/pets/dog-collar-translates-barks-into-human-emotions/). If we interpret language as simply a way to communicate thoughts and feelings verbally, this means that dogs have (some of the basics) of language in their barks (if we believe the company, that is). %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000933-242630#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000933-242630#
+time=1620778172
+author:1620778172=
+diff:1620778172:1616289682:=38,42c38%0a%3c (:Category:)%0a%3c #foxbegin 210512-000933-242630#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000933-242630#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289682=
+diff:1616289682:1612805367:=6c6%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1616289682=74.109.247.199
+author:1612805367=AlexisA
+diff:1612805367:1612805367:=1,38d0%0a%3c :Category: PracticeCategory%0a%3c :Expansion: Dogs communicate emotions through barking!%0a%3c :Author: AlexisA%0a%3c :Original: [[Articles.CanAnimalsTalk|CanAnimalsTalk]] %0a%3c :OriginalAuthor: [[Profiles.sathyas|sathyas]]%0a%3c :Section: %0a%3c :Completed: 08.02.2021 - 09:29%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c A South Korean company produced a dog collar that they claim can read dog emotions through their barks (https://people.com/pets/dog-collar-translates-barks-into-human-emotions/). If we interpret language as simply a way to communicate thoughts and feelings verbally, this means that dogs have (some of the basics) of language in their barks (if we believe the company, that is). %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1612805367=128.237.82.1

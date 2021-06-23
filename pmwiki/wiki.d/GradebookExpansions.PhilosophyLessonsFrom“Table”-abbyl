@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1616276260
+host=74.109.239.200
+name=GradebookExpansions.PhilosophyLessonsFrom“Table”-abbyl
+rev=3
+targets=Articles.PhilosophyLessonsFrom“Table”,Profiles.TahliaA
+text=:Category: LanguageOfTheNacirema%0a:Expansion: Alternate interpretation of "Table"%0a:Author: abbyl%0a:Original: [[Articles.PhilosophyLessonsFrom“Table”|PhilosophyLessonsFrom“Table”]] %0a:OriginalAuthor: [[Profiles.Tahlia_A|Tahlia_A]]%0a:Section: B%0a:Completed: 20.03.2021 - 14:37%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aAn alternate way to consider how the word "table" reflects Nacireman society is that the Nacirema seem to be focused on statistics and measurement. For example, TABLES are often used to write and can be used to record statistics and measurements. Many words that have a meaning related to measurement or statistics are also referred to using "table". For example, data is represented in tables, the phrase "bringing to the table" is used to measure a person's contribution, and the phrase "under the table" is used as a measurement of drunkenness. The Nacirema seem to be obsessed with measuring things using a table as a unit.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000937-847460#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000937-847460#
+time=1620778172
+author:1620778172=
+diff:1620778172:1616289863:=38,42c38%0a%3c (:Category:)%0a%3c #foxbegin 210512-000937-847460#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000937-847460#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289863=
+diff:1616289863:1616276260:=6c6%0a%3c :Section: B%0a---%0a> :Section: %0a
+host:1616289863=74.109.247.199
+author:1616276260=abbyl
+diff:1616276260:1616276260:=1,38d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: Alternate interpretation of "Table"%0a%3c :Author: abbyl%0a%3c :Original: [[Articles.PhilosophyLessonsFrom“Table”|PhilosophyLessonsFrom“Table”]] %0a%3c :OriginalAuthor: [[Profiles.Tahlia_A|Tahlia_A]]%0a%3c :Section: %0a%3c :Completed: 20.03.2021 - 14:37%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c An alternate way to consider how the word "table" reflects Nacireman society is that the Nacirema seem to be focused on statistics and measurement. For example, TABLES are often used to write and can be used to record statistics and measurements. Many words that have a meaning related to measurement or statistics are also referred to using "table". For example, data is represented in tables, the phrase "bringing to the table" is used to measure a person's contribution, and the phrase "under the table" is used as a measurement of drunkenness. The Nacirema seem to be obsessed with measuring things using a table as a unit.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1616276260=24.17.178.107

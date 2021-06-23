@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1612381499
+host=74.109.247.199
+name=GradebookArticles.PortugueseAndRussian
+rev=2
+targets=
+text=:Category: PracticeCategory%0a:Title: Portuguese and Russian%0a:Author: markl%0a:Section: %0a:Completed: 03.02.2021 - 11:45%0a:Status: ungraded%0a%0a%0a#foxbegin 210205-173113-269340#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173113-269340#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aWhy does Portuguese sound like Russian?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aWhy does Portuguese sound like Russian? Do the two languages just have similar phonological profiles by happenstance, or was there some common factor in their development?%0a%0a[[#contentends]]%0a----
+time=1612546272
+author:1612546272=TA_lili
+diff:1612546272:1612381499:=9,12d8%0a%3c #foxbegin 210205-173113-269340#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173113-269340#%0a
+host:1612546272=74.109.247.199
+author:1612381499=markl
+diff:1612381499:1612381499:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Portuguese and Russian%0a%3c :Author: markl%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 11:45%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Why does Portuguese sound like Russian?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Why does Portuguese sound like Russian? Do the two languages just have similar phonological profiles by happenstance, or was there some common factor in their development?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612381499=71.206.238.233

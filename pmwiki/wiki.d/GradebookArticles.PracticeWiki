@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612375783
+host=74.98.251.138
+name=GradebookArticles.PracticeWiki
+rev=4
+targets=
+text=:Category: Varia%0a:Title: Practice Wiki%0a:Author: ZoeC%0a:Section: E%0a:Completed: 03.02.2021 - 10:09%0a:Status: complete%0a%0a%0a#foxbegin 210205-173119-641770#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173119-641770#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210505-220731-769950#%0a* [-05.05.2021 - 15:07-] || TA_mason marked as complete%0a#foxend 210505-220731-769950#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aQuestion about linguistics relating to singing%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aHow do the vocal cords and throat anatomy make noise and how does that change the sounds/pronunciation/inflection/singing?%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1620252451
+author:1620252451=TA_mason
+diff:1620252451:1614797861:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210505-220731-769950#%0a%3c * [-05.05.2021 - 15:07-] || TA_mason marked as complete%0a%3c #foxend 210505-220731-769950#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620252451=74.98.251.138
+author:1614797861=
+diff:1614797861:1612546278:=4c4%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1614797861=74.109.247.199
+author:1612546278=TA_lili
+diff:1612546278:1612375783:=9,12d8%0a%3c #foxbegin 210205-173119-641770#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173119-641770#%0a
+host:1612546278=74.109.247.199
+author:1612375783=ZoeC
+diff:1612375783:1612375783:=1,39d0%0a%3c :Category: Varia%0a%3c :Title: Practice Wiki%0a%3c :Author: ZoeC%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 10:09%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Question about linguistics relating to singing%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c How do the vocal cords and throat anatomy make noise and how does that change the sounds/pronunciation/inflection/singing?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612375783=71.206.237.79

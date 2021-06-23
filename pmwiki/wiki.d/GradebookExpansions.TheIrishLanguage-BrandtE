@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620440842
+host=74.98.251.138
+name=GradebookExpansions.TheIrishLanguage-BrandtE
+rev=2
+targets=Articles.TheIrishLanguage,Profiles.AlbertL
+text=:Category: EndangeredLanguages%0a:Expansion: Some Audio Examples of the Irish Language%0a:Author: BrandtE%0a:Original: [[Articles.TheIrishLanguage|TheIrishLanguage]] %0a:OriginalAuthor: [[Profiles.AlbertL|AlbertL]]%0a:Section: E%0a:Completed: 07.05.2021 - 19:27%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-222107-39860#%0a* [-11.05.2021 - 15:21-] || TA_mason marked as complete%0a#foxend 210511-222107-39860#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aHere are a few videos with Audio examples of the Irish language:%0ahttps://www.youtube.com/watch?v=gS9KZ5iq0bY&t=20s%0ahttps://www.youtube.com/watch?v=ZENXqHW2vC8&t=29s%0ahttps://youtu.be/9fhjS2IyoYg%0a%0aThese are all provided by the UCLA phonetics lab and there are even more examples available there%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_mason:)
+time=1620771667
+author:1620771667=TA_mason
+diff:1620771667:1620440842:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-222107-39860#%0a%3c * [-11.05.2021 - 15:21-] || TA_mason marked as complete%0a%3c #foxend 210511-222107-39860#%0a---%0a> %0a45,46c43%0a%3c (:Category:)%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620771667=74.98.251.138
+author:1620440842=BrandtE
+diff:1620440842:1620440842:=1,43d0%0a%3c :Category: EndangeredLanguages%0a%3c :Expansion: Some Audio Examples of the Irish Language%0a%3c :Author: BrandtE%0a%3c :Original: [[Articles.TheIrishLanguage|TheIrishLanguage]] %0a%3c :OriginalAuthor: [[Profiles.AlbertL|AlbertL]]%0a%3c :Section: E%0a%3c :Completed: 07.05.2021 - 19:27%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Here are a few videos with Audio examples of the Irish language:%0a%3c https://www.youtube.com/watch?v=gS9KZ5iq0bY&t=20s%0a%3c https://www.youtube.com/watch?v=ZENXqHW2vC8&t=29s%0a%3c https://youtu.be/9fhjS2IyoYg%0a%3c %0a%3c These are all provided by the UCLA phonetics lab and there are even more examples available there%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620440842=128.237.82.2

@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1619332416
+host=74.98.251.138
+name=GradebookArticles.AsianAccentDiscrimination
+rev=3
+targets=
+text=:Category: LinguisticDiscriminationInTheWild%0a:Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a:Title: Asian Accent Discrimination%0a:Author: AlexanderW%0a:Section: E%0a:Completed: 24.04.2021 - 23:33%0a:Status: needsRevised%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-222824-254420#%0a* [-11.05.2021 - 15:28-] || TA_mason marked as needsRevised%0a#foxend 210511-222824-254420#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a#foxbegin 210511-222819-440030#%0a----%0a>>rfloat%3c%3c   %0a[-11.05.2021 - 15:28-] &nbsp; %0a>>%3c%3c%0a!!!!!TA_mason%0aHi Alex, it looks like your reply may have been cut short. Can you send it to me via email or else re-submit and then I can mark you as complete? %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 210511-222819-440030 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 210511-222819-440030#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aAsian Accent Discrimination%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0ahttps://repository.upenn.edu/cgi/viewcontent.cgi?article=1299&context=pwpl%0a%0aDue to many anti-Asian sentiments still harbored in the US today - especially due to Covid-induced racism, Asian accents are sometimes looked down upon, teased, and even discriminated against. As the article states, %0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1620772104
+author:1620772104=TA_mason
+diff:1620772104:1620772099:=7,8c7,8%0a%3c :Status: needsRevised%0a%3c %0a---%0a> :Status: ungraded%0a> %0a18,20c18%0a%3c #foxbegin 210511-222824-254420#%0a%3c * [-11.05.2021 - 15:28-] || TA_mason marked as needsRevised%0a%3c #foxend 210511-222824-254420#%0a---%0a> %0a61,62c59%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620772104=74.98.251.138
+author:1620772099=TA_mason
+diff:1620772099:1619332416:=24,36c24%0a%3c #foxbegin 210511-222819-440030#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-11.05.2021 - 15:28-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!TA_mason%0a%3c Hi Alex, it looks like your reply may have been cut short. Can you send it to me via email or else re-submit and then I can mark you as complete? %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 210511-222819-440030 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 210511-222819-440030#%0a---%0a> %0a
+host:1620772099=74.98.251.138
+author:1619332416=AlexanderW
+diff:1619332416:1619332416:=1,47d0%0a%3c :Category: LinguisticDiscriminationInTheWild%0a%3c :Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a%3c :Title: Asian Accent Discrimination%0a%3c :Author: AlexanderW%0a%3c :Section: E%0a%3c :Completed: 24.04.2021 - 23:33%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Asian Accent Discrimination%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c https://repository.upenn.edu/cgi/viewcontent.cgi?article=1299&context=pwpl%0a%3c %0a%3c Due to many anti-Asian sentiments still harbored in the US today - especially due to Covid-induced racism, Asian accents are sometimes looked down upon, teased, and even discriminated against. As the article states, %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1619332416=73.90.192.150

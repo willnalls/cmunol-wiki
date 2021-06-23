@@ -1,0 +1,30 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+author=AlbertL
+charset=UTF-8
+csum=
+ctime=1612274100
+host=67.163.151.95
+name=Profiles.Tylerd
+rev=6
+targets=Articles.Nipmuc,Articles.Muskogee
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: tduic \\%0a%0a[[#comments]]%0a#foxbegin 210501-162450-771090#%0a* Mingkang_L expanded on your article [[Articles.Nipmuc|Nipmuc]] {[foxdelline button 210501-162450-771090 {$FullName} ]}%0a#foxend 210501-162450-771090#%0a#foxbegin 210508-013911-347550#%0a* AlbertL expanded on your article [[Articles.Muskogee|Muskogee]] {[foxdelline button 210508-013911-347550 {$FullName} ]}%0a#foxend 210508-013911-347550#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: C:)%0a#foxbegin 210309-213707-757520#%0a(:name: tylerd:)%0a#foxend 210309-213707-757520#
+time=1620437950
+author:1620437950=AlbertL
+diff:1620437950:1619886289:=10,12d9%0a%3c #foxbegin 210508-013911-347550#%0a%3c * AlbertL expanded on your article [[Articles.Muskogee|Muskogee]] {[foxdelline button 210508-013911-347550 {$FullName} ]}%0a%3c #foxend 210508-013911-347550#%0a
+host:1620437950=67.163.151.95
+author:1619886289=Mingkang_L
+diff:1619886289:1615399921:=7,9c7%0a%3c #foxbegin 210501-162450-771090#%0a%3c * Mingkang_L expanded on your article [[Articles.Nipmuc|Nipmuc]] {[foxdelline button 210501-162450-771090 {$FullName} ]}%0a%3c #foxend 210501-162450-771090#%0a---%0a> %0a
+host:1619886289=128.2.149.108
+author:1615399921=
+diff:1615399921:1615325825:=27c27%0a%3c (:name: tylerd:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399921=74.109.247.199
+author:1615325825=
+diff:1615325825:1612384490:=25,28c25%0a%3c (:section: C:)%0a%3c #foxbegin 210309-213707-757520#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213707-757520#%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1612384490=tylerd
+diff:1612384490:1612274100:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612384490=100.6.52.44
+author:1612274100=tylerd
+diff:1612274100:1612274100:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: tduic \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612274100=100.6.52.44

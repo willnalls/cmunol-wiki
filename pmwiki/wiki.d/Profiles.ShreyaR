@@ -1,0 +1,36 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=sgangu
+charset=UTF-8
+csum=
+ctime=1612240972
+host=173.224.102.108
+name=Profiles.ShreyaR
+rev=8
+targets=Articles.IrulaLanguage
+text=!!{$Name}'s profile%0a%0a:section: B%0a:andrewid: sraghura%0a%0a[[#comments]]%0a#foxbegin 210507-161149-435840#%0a* sanjana_m expanded on your article [[Articles.IrulaLanguage|IrulaLanguage]] {[foxdelline button 210507-161149-435840 {$FullName} ]}%0a#foxend 210507-161149-435840#%0a#foxbegin 210509-030235-515640#%0a* sgangu expanded on your article [[Articles.IrulaLanguage|IrulaLanguage]] {[foxdelline button 210509-030235-515640 {$FullName} ]}%0a#foxend 210509-030235-515640#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a#foxbegin 210309-213706-523160#%0a(:name: shreya_r:)%0a#foxend 210309-213706-523160#
+time=1620529354
+author:1620529354=sgangu
+diff:1620529354:1620403907:=10,12d9%0a%3c #foxbegin 210509-030235-515640#%0a%3c * sgangu expanded on your article [[Articles.IrulaLanguage|IrulaLanguage]] {[foxdelline button 210509-030235-515640 {$FullName} ]}%0a%3c #foxend 210509-030235-515640#%0a
+host:1620529354=173.224.102.108
+author:1620403907=sanjana_m
+diff:1620403907:1615326318:=7,9c7%0a%3c #foxbegin 210507-161149-435840#%0a%3c * sanjana_m expanded on your article [[Articles.IrulaLanguage|IrulaLanguage]] {[foxdelline button 210507-161149-435840 {$FullName} ]}%0a%3c #foxend 210507-161149-435840#%0a---%0a> %0a
+host:1620403907=128.237.82.1
+author:1615326318=
+diff:1615326318:1615325825:=26c26%0a%3c (:name: shreya_r:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326318=74.109.247.199
+author:1615325825=
+diff:1615325825:1612750996:=25,27d24%0a%3c #foxbegin 210309-213706-523160#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213706-523160#%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1612750996=wnalls
+diff:1612750996:1612642470:=3,5c3,5%0a%3c :section: B%0a%3c :andrewid: sraghura%0a%3c %0a---%0a> Section:  \\%0a> andrewid: sraghura \\%0a> %0a24a25,49%0a> !!{$Name}'s profile%0a> %0a> Section:  \\%0a> andrewid: sraghura \\%0a> %0a> [[#comments]]%0a> %0a> [[#commentsend]]%0a> %0a> %0a> ----%0a> [[#workinprogress]]%0a> !!Work in progress:%0a> %0a> (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a> %0a> [[#workinprogressend]]%0a> %0a> [[#completedwork]]%0a> !!Completed Work:%0a> %0a> (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a> %0a> [[#completedworkend]]%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1612750996=74.109.247.199
+author:1612642470=shreya_r
+diff:1612642470:1612240995:=48,49c48%0a%3c [[#completedworkend]]%0a%3c (:section: B:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612642470=128.237.82.1
+author:1612240995=shreya_r
+diff:1612240995:1612240972:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sraghura \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612240995=128.237.82.1
+author:1612240972=shreya_r
+diff:1612240972:1612240972:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: sraghura \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612240972=128.237.82.1

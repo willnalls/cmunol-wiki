@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620525980
+host=74.98.251.138
+name=GradebookExpansions.ASLAndMusic-BenP
+rev=2
+targets=Articles.ASLAndMusic,Profiles.TahliaA
+text=:Category: SignLanguage%0a:Expansion: Rhyming In Sign Language%0a:Author: BenP%0a:Original: [[Articles.ASLAndMusic|ASLAndMusic]] %0a:OriginalAuthor: [[Profiles.Tahlia_A|Tahlia_A]]%0a:Section: E%0a:Completed: 08.05.2021 - 19:06%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-224216-436060#%0a* [-11.05.2021 - 15:42-] || TA_mason marked as complete%0a#foxend 210511-224216-436060#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aIt seems like an important part to some music is rhyming, so I did a little research into how rhyming works in sign language.%0a%0aBasically, words in sign language, as you would expect, rhyme if they repeat certain parameters that make up words. Two words can use the same handshape, location, palm orientation, or movement to rhyme, while also not being the same word because other parameters are different.%0a%0aI suppose it would be hard to translate a song into sign language and still have it rhyme but that would be difficult for any language. %0a%0ahttps://www.handspeak.com/learn/index.php?id=159%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_mason:)
+time=1620772935
+author:1620772935=TA_mason
+diff:1620772935:1620525980:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-224216-436060#%0a%3c * [-11.05.2021 - 15:42-] || TA_mason marked as complete%0a%3c #foxend 210511-224216-436060#%0a---%0a> %0a46,47c44%0a%3c (:Category:)%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620772935=74.98.251.138
+author:1620525980=BenP
+diff:1620525980:1620525980:=1,44d0%0a%3c :Category: SignLanguage%0a%3c :Expansion: Rhyming In Sign Language%0a%3c :Author: BenP%0a%3c :Original: [[Articles.ASLAndMusic|ASLAndMusic]] %0a%3c :OriginalAuthor: [[Profiles.Tahlia_A|Tahlia_A]]%0a%3c :Section: E%0a%3c :Completed: 08.05.2021 - 19:06%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c It seems like an important part to some music is rhyming, so I did a little research into how rhyming works in sign language.%0a%3c %0a%3c Basically, words in sign language, as you would expect, rhyme if they repeat certain parameters that make up words. Two words can use the same handshape, location, palm orientation, or movement to rhyme, while also not being the same word because other parameters are different.%0a%3c %0a%3c I suppose it would be hard to translate a song into sign language and still have it rhyme but that would be difficult for any language. %0a%3c %0a%3c https://www.handspeak.com/learn/index.php?id=159%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620525980=73.174.152.59

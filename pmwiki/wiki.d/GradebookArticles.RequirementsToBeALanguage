@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612658706
+host=74.109.247.199
+name=GradebookArticles.RequirementsToBeALanguage
+rev=2
+targets=
+text=:Category: PracticeCategory%0a:Title: Requirements to be a Language%0a:Author: NathanW%0a:Section: B%0a:Completed: 06.02.2021 - 16:45%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aAre there necessities for something to be considered a language?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aTo me, I would think that languages can come in many different shapes and sizes so to speak. Is there some kind of sophistication that is required for a mode of communication to be considered a language, or can really any different form of communication be a language?%0a%0aWhen I looked up the exact definition of “language,” the most relevant definition that I found was “a system of communication used by a particular country or community.” However, if you and your friend make a new basic “language” that only you two know, would this be considered a new language? This “language” wouldn’t be used by a particular country or community, but it is in fact used for two individuals to communicate to one another.  Are there certain things that this “language” would require to be thought of as an actual “language?”%0a%0a[[#contentends]]%0a----
+time=1614797931
+author:1614797931=
+diff:1614797931:1612658706:=4c4%0a%3c :Section: B%0a---%0a> :Section: %0a
+host:1614797931=74.109.247.199
+author:1612658706=NathanW
+diff:1612658706:1612658706:=1,46d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Requirements to be a Language%0a%3c :Author: NathanW%0a%3c :Section: %0a%3c :Completed: 06.02.2021 - 16:45%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Are there necessities for something to be considered a language?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c To me, I would think that languages can come in many different shapes and sizes so to speak. Is there some kind of sophistication that is required for a mode of communication to be considered a language, or can really any different form of communication be a language?%0a%3c %0a%3c When I looked up the exact definition of “language,” the most relevant definition that I found was “a system of communication used by a particular country or community.” However, if you and your friend make a new basic “language” that only you two know, would this be considered a new language? This “language” wouldn’t be used by a particular country or community, but it is in fact used for two individuals to communicate to one another.  Are there certain things that this “language” would require to be thought of as an actual “language?”%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612658706=72.95.246.208

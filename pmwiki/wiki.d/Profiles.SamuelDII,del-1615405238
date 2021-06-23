@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612380329
+host=74.109.247.199
+name=Profiles.SamuelDII
+rev=4
+targets=
+text=#foxbegin 210309-213619-788500#%0a(:name: Samuel_D_II:)%0a#foxend 210309-213619-788500#
+time=1615397690
+author:1615397690=
+diff:1615397690:1615325770:=2c2%0a%3c (:name: Samuel_D_II:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615397690=74.109.247.199
+author:1615325770=
+diff:1615325770:1612547452:=1,3d0%0a%3c #foxbegin 210309-213619-788500#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213619-788500#%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612547452=wnalls
+diff:1612547452:1612380329:=0a1%0a> (:section: 80180:)%0a\ No newline at end of file%0a
+host:1612547452=74.109.247.199
+author:1612380329=Samuel_D_II
+diff:1612380329:1612380329:=1d0%0a%3c (:section: 80180:)%0a\ No newline at end of file%0a
+host:1612380329=128.237.82.2

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1620402241
+host=67.171.64.6
+name=GradebookExpansions.👁👄👁-roochis
+rev=2
+targets=Articles.👁👄👁,Profiles.ThomasHK
+text=:Category: Varia%0a:Expansion: Emoji Syntax%0a:Author: roochis%0a:Original: [[Articles.👁👄👁|👁👄👁]] %0a:OriginalAuthor: [[Profiles.Thomas_H_K|Thomas_H_K]]%0a:Section: C%0a:Completed: 07.05.2021 - 08:44%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-014230-638260#%0a* [-10.05.2021 - 18:42-] || TA_lili marked as complete%0a#foxend 210511-014230-638260#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aI recently read this experiment on emoji syntax. This behavioral scientists asked participants to pick a sequence of emojis that best correspond with a particular picture. This was in order to find out if emoji sequences match their corresponding sentence and if emoji sequences reflect the positioning of the picture. The results showed that both of the above things occur. So, emoji syntax varies more than the syntax of other languages. At the same time, the syntax isn't random. The arrangement of emojis definitely encodes information. %0a%0a%0ahttps://makingnoiseandhearingthings.com/2016/12/07/do-emojis-have-their-own-syntax/ %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620697349
+author:1620697349=TA_lili
+diff:1620697349:1620402241:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-014230-638260#%0a%3c * [-10.05.2021 - 18:42-] || TA_lili marked as complete%0a%3c #foxend 210511-014230-638260#%0a---%0a> %0a43,44c41%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620697349=67.171.64.6
+author:1620402241=roochis
+diff:1620402241:1620402241:=1,41d0%0a%3c :Category: Varia%0a%3c :Expansion: Emoji Syntax%0a%3c :Author: roochis%0a%3c :Original: [[Articles.👁👄👁|👁👄👁]] %0a%3c :OriginalAuthor: [[Profiles.Thomas_H_K|Thomas_H_K]]%0a%3c :Section: C%0a%3c :Completed: 07.05.2021 - 08:44%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I recently read this experiment on emoji syntax. This behavioral scientists asked participants to pick a sequence of emojis that best correspond with a particular picture. This was in order to find out if emoji sequences match their corresponding sentence and if emoji sequences reflect the positioning of the picture. The results showed that both of the above things occur. So, emoji syntax varies more than the syntax of other languages. At the same time, the syntax isn't random. The arrangement of emojis definitely encodes information. %0a%3c %0a%3c %0a%3c https://makingnoiseandhearingthings.com/2016/12/07/do-emojis-have-their-own-syntax/ %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620402241=69.243.178.22

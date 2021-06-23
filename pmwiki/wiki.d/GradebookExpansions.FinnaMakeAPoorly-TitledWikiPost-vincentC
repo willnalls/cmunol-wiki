@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1618641378
+host=74.111.97.246
+name=GradebookExpansions.FinnaMakeAPoorly-TitledWikiPost-vincentC
+rev=2
+targets=Articles.FinnaMakeAPoorly-TitledWikiPost,Profiles.GavinD
+text=:Category: MorphosyntacticDiversity%0a:Expansion: A short video explaining finna and a little bit more%0a:Author: vincent_c%0a:Original: [[Articles.FinnaMakeAPoorly-TitledWikiPost|FinnaMakeAPoorly-TitledWikiPost]] %0a:OriginalAuthor: [[Profiles.Gavin_D|Gavin_D]]%0a:Section: C%0a:Completed: 16.04.2021 - 23:36%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210418-224731-293640#%0a* [-18.04.2021 - 15:47-] || TA_lili marked as complete%0a#foxend 210418-224731-293640#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aI found a YouTube video (https://www.youtube.com/watch?v=_47rGBE7kng&ab_channel=ThePrimevalVoid) that nominally explains the meaning of 'finna'.%0a%0aSome examples of the use of the word 'finna' shown in the video include:%0a"I'm finna go to bed for real this time"%0a"So who finna love me"%0a%0aThe video then talks more about appropriation of AAVE and other cultures in general, which is very relevant to our discussion in class. %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1618786051
+author:1618786051=TA_lili
+diff:1618786051:1618641378:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210418-224731-293640#%0a%3c * [-18.04.2021 - 15:47-] || TA_lili marked as complete%0a%3c #foxend 210418-224731-293640#%0a---%0a> %0a46,47c44%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1618786051=74.111.97.246
+author:1618641378=vincent_c
+diff:1618641378:1618641378:=1,44d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: A short video explaining finna and a little bit more%0a%3c :Author: vincent_c%0a%3c :Original: [[Articles.FinnaMakeAPoorly-TitledWikiPost|FinnaMakeAPoorly-TitledWikiPost]] %0a%3c :OriginalAuthor: [[Profiles.Gavin_D|Gavin_D]]%0a%3c :Section: C%0a%3c :Completed: 16.04.2021 - 23:36%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I found a YouTube video (https://www.youtube.com/watch?v=_47rGBE7kng&ab_channel=ThePrimevalVoid) that nominally explains the meaning of 'finna'.%0a%3c %0a%3c Some examples of the use of the word 'finna' shown in the video include:%0a%3c "I'm finna go to bed for real this time"%0a%3c "So who finna love me"%0a%3c %0a%3c The video then talks more about appropriation of AAVE and other cultures in general, which is very relevant to our discussion in class. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1618641378=74.109.254.7

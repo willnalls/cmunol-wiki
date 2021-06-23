@@ -1,0 +1,16 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=will
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1598845325
+host=108.32.35.122
+name=FoxNotifyLists.FoxNotifyLists
+rev=1
+targets=FoxNotifyLists.MailFormTemplate,FoxNotifyLists.EmailList
+text=[[MailFormTemplate]]%0a%0a[[EmailList]]
+time=1598845325
+author:1598845325=will
+diff:1598845325:1598845325:=1,3d0%0a%3c [[MailFormTemplate]]%0a%3c %0a%3c [[EmailList]]%0a\ No newline at end of file%0a
+host:1598845325=108.32.35.122

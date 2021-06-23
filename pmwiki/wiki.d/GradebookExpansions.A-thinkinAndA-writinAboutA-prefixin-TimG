@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1619236565
+host=69.218.234.170
+name=GradebookExpansions.A-thinkinAndA-writinAboutA-prefixin-TimG
+rev=2
+targets=Articles.A-thinkinAndA-writinAboutA-prefixin,Profiles.BrandtE
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Examples of A-prefixing in Appalachian English%0a:Author: TimG%0a:Original: [[Articles.A-thinkinAndA-writinAboutA-prefixin|A-thinkinAndA-writinAboutA-prefixin]] %0a:OriginalAuthor: [[Profiles.BrandtE|BrandtE]]%0a:Section: B%0a:Completed: 23.04.2021 - 20:56%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-233703-181230#%0a* [-11.05.2021 - 16:37-] || TA_audrey marked as complete%0a#foxend 210511-233703-181230#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThis video contains many examples of Appalachian English features, and although the video mainly focuses on unique vocabulary in Appalachian English, the speakers can also be heard to use many Appalachian English grammatical constructs, including a-prefixing. Clear examples occur at 4:55, 5:30, and 8:00, though if you listen hard you may be able to hear more.%0a%0aThe Video: https://www.youtube.com/watch?v=03iwAY4KlIU%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620776223
+author:1620776223=TA_audrey
+diff:1620776223:1619236565:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-233703-181230#%0a%3c * [-11.05.2021 - 16:37-] || TA_audrey marked as complete%0a%3c #foxend 210511-233703-181230#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620776223=69.218.234.170
+author:1619236565=TimG
+diff:1619236565:1619236565:=1,40d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Examples of A-prefixing in Appalachian English%0a%3c :Author: TimG%0a%3c :Original: [[Articles.A-thinkinAndA-writinAboutA-prefixin|A-thinkinAndA-writinAboutA-prefixin]] %0a%3c :OriginalAuthor: [[Profiles.BrandtE|BrandtE]]%0a%3c :Section: B%0a%3c :Completed: 23.04.2021 - 20:56%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c This video contains many examples of Appalachian English features, and although the video mainly focuses on unique vocabulary in Appalachian English, the speakers can also be heard to use many Appalachian English grammatical constructs, including a-prefixing. Clear examples occur at 4:55, 5:30, and 8:00, though if you listen hard you may be able to hear more.%0a%3c %0a%3c The Video: https://www.youtube.com/watch?v=03iwAY4KlIU%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619236565=74.111.96.31

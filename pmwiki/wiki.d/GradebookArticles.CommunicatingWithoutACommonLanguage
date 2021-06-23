@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1612485852
+host=69.218.234.170
+name=GradebookArticles.CommunicatingWithoutACommonLanguage
+rev=5
+targets=
+text=:Category: PracticeCategory%0a:Title: Communicating Without a Common Language%0a:Author: VikramM%0a:Section: A%0a:Completed: 04.02.2021 - 16:44%0a:Status: complete%0a%0a%0a#foxbegin 210205-172636-431150#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-172636-431150#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210208-145237-274210#%0a* [-08.02.2021 - 06:52-] || TA_audrey marked as complete%0a#foxend 210208-145237-274210#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aHow people can learn a language without any commonalities with the one they speak%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI've been wondering how two people or groups that have no common language or writing system can learn the language of the other. When learning French or Spanish, for example, words are different, but the spoken languages generally share a common system of writing. In my experience, the ability to write the other language is a large part of learning/memorization. However, when trying to learn a language that doesn't share a writing system with English such as Arabic or Hebrew, there doesn't seem to be as easy a way to start learning the language without someone or something that is fluent in both languages to help bridge the gap in between them. So, my general question is how one would approach learning another language that doesn't have a common writing system with a language the learner already knows when the learner without having any resources like dictionaries, translators, etc.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1612795957
+author:1612795957=TA_audrey
+diff:1612795957:1612579403:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210208-145237-274210#%0a%3c * [-08.02.2021 - 06:52-] || TA_audrey marked as complete%0a%3c #foxend 210208-145237-274210#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1612795957=69.218.234.170
+author:1612579403=
+diff:1612579403:1612546061:=4c4%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1612579403=74.109.247.199
+author:1612546061=TA_lili
+diff:1612546061:1612545996:=9c9%0a%3c #foxbegin 210205-172636-431150#%0a---%0a> %25blue%25 '''#foxbegin 210205-172636-431150#%0a13c13%0a%3c %25blue%25 '''Grading History'''%0a---%0a> Grading History'''%0a
+host:1612546061=74.109.247.199
+author:1612545996=TA_lili
+diff:1612545996:1612485852:=9,13c9%0a%3c %25blue%25 '''#foxbegin 210205-172636-431150#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-172636-431150#%0a%3c Grading History'''%0a---%0a> %25blue%25 '''Grading History'''%0a
+host:1612545996=74.109.247.199
+author:1612485852=VikramM
+diff:1612485852:1612485852:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Communicating Without a Common Language%0a%3c :Author: VikramM%0a%3c :Section: %0a%3c :Completed: 04.02.2021 - 16:44%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c How people can learn a language without any commonalities with the one they speak%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I've been wondering how two people or groups that have no common language or writing system can learn the language of the other. When learning French or Spanish, for example, words are different, but the spoken languages generally share a common system of writing. In my experience, the ability to write the other language is a large part of learning/memorization. However, when trying to learn a language that doesn't share a writing system with English such as Arabic or Hebrew, there doesn't seem to be as easy a way to start learning the language without someone or something that is fluent in both languages to help bridge the gap in between them. So, my general question is how one would approach learning another language that doesn't have a common writing system with a language the learner already knows when the learner without having any resources like dictionaries, translators, etc.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612485852=74.111.96.40

@@ -1,0 +1,31 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=SubhasishM
+charset=UTF-8
+csum=Post deleted
+ctime=1612276003
+host=108.35.144.120
+name=Profiles.SubhasishM
+rev=6
+targets=
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: subhasim \\%0a%0a[[#comments]]%0a#foxbegin 210508-041452-853530#%0a#foxend 210508-041452-853530#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: C:)%0a#foxbegin 210309-213706-774760#%0a(:name: SubhasishM:)%0a#foxend 210309-213706-774760#
+time=1620763575
+author:1620763575=SubhasishM
+csum:1620763575=Post deleted
+diff:1620763575:1620447291:=7a8%0a> * AlexX expanded on your article [[Articles.MockingOfHarryKanesAccent|MockingOfHarryKanesAccent]] {[foxdelline button 210508-041452-853530 {$FullName} ]}%0a
+host:1620763575=108.35.144.120
+author:1620447291=AlexX
+diff:1620447291:1615405432:=7,9c7%0a%3c #foxbegin 210508-041452-853530#%0a%3c * AlexX expanded on your article [[Articles.MockingOfHarryKanesAccent|MockingOfHarryKanesAccent]] {[foxdelline button 210508-041452-853530 {$FullName} ]}%0a%3c #foxend 210508-041452-853530#%0a---%0a> %0a
+host:1620447291=71.206.238.88
+author:1615405432=
+diff:1615405432:1615325825:=27c27%0a%3c (:name: SubhasishM:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405432=74.109.247.199
+author:1615325825=
+diff:1615325825:1612487152:=25,28c25%0a%3c (:section: C:)%0a%3c #foxbegin 210309-213706-774760#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213706-774760#%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1612487152=SubhasishM
+diff:1612487152:1612276003:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612487152=173.63.125.113
+author:1612276003=SubhasishM
+diff:1612276003:1612276003:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: subhasim \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612276003=173.63.125.113

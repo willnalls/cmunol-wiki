@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1619277729
+host=74.111.97.246
+name=GradebookExpansions.DramaSO-ahanaM
+rev=4
+targets=Articles.DramaSO,Profiles.ZoeC
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Uses of SO%0a:Author: ahana_m%0a:Original: [[Articles.DramaSO|DramaSO]] %0a:OriginalAuthor: [[Profiles.ZoeC|ZoeC]]%0a:Section: D%0a:Completed: 24.04.2021 - 08:22%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-150027-444430#%0a* [-06.05.2021 - 08:00-] || TA_lili marked as complete%0a#foxend 210506-150027-444430#%0a#foxbegin 210506-150026-540050#%0a* [-06.05.2021 - 08:00-] || TA_lili marked as complete%0a#foxend 210506-150026-540050#%0a#foxbegin 210506-145955-912070#%0a* [-06.05.2021 - 07:59-] || TA_lili marked as complete%0a#foxend 210506-145955-912070#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThe use of drama SO has also been called GenX SO by Arnold Zwicky. This is because there are stereotypical associations between the use of SO and young white women. This stereotype comes from the movie Clueless in which a young woman used sentences like “Oh Josh, I SO need lessons from you on how to be cool”. It’s interesting that the actual usage of SO  plus a verb is smaller than the stereotype would suggest. Additionally, many people other than young white women use the phrase. %0a%0ahttps://nancyfriedman.typepad.com/away_with_words/2013/06/shopgirl-so.html%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620313227
+author:1620313227=TA_lili
+diff:1620313227:1620313226:=17,19d16%0a%3c #foxbegin 210506-150027-444430#%0a%3c * [-06.05.2021 - 08:00-] || TA_lili marked as complete%0a%3c #foxend 210506-150027-444430#%0a
+host:1620313227=74.111.97.246
+author:1620313226=TA_lili
+diff:1620313226:1620313194:=17,19d16%0a%3c #foxbegin 210506-150026-540050#%0a%3c * [-06.05.2021 - 08:00-] || TA_lili marked as complete%0a%3c #foxend 210506-150026-540050#%0a
+host:1620313226=74.111.97.246
+author:1620313194=TA_lili
+diff:1620313194:1619277729:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210506-145955-912070#%0a%3c * [-06.05.2021 - 07:59-] || TA_lili marked as complete%0a%3c #foxend 210506-145955-912070#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620313194=74.111.97.246
+author:1619277729=ahana_m
+diff:1619277729:1619277729:=1,40d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Uses of SO%0a%3c :Author: ahana_m%0a%3c :Original: [[Articles.DramaSO|DramaSO]] %0a%3c :OriginalAuthor: [[Profiles.ZoeC|ZoeC]]%0a%3c :Section: D%0a%3c :Completed: 24.04.2021 - 08:22%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c The use of drama SO has also been called GenX SO by Arnold Zwicky. This is because there are stereotypical associations between the use of SO and young white women. This stereotype comes from the movie Clueless in which a young woman used sentences like “Oh Josh, I SO need lessons from you on how to be cool”. It’s interesting that the actual usage of SO  plus a verb is smaller than the stereotype would suggest. Additionally, many people other than young white women use the phrase. %0a%3c %0a%3c https://nancyfriedman.typepad.com/away_with_words/2013/06/shopgirl-so.html%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619277729=216.195.23.171

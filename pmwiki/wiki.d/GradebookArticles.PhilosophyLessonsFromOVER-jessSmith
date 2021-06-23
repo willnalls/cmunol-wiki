@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620249850
+host=72.95.222.76
+name=GradebookArticles.PhilosophyLessonsFromOVER-jessSmith
+rev=3
+targets=
+text=(:Status: complete:)%0a%0a(:GradedBy: TA_mason:)
+time=1620821609
+author:1620821609=TA_mason
+diff:1620821609:1620774234:=3c3%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> (:GradedBy: NickG:)%0a\ No newline at end of file%0a
+host:1620821609=72.95.222.76
+author:1620774234=NickG
+diff:1620774234:1620249850:=3c3%0a%3c (:GradedBy: NickG:)%0a\ No newline at end of file%0a---%0a> (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a
+host:1620774234=74.109.239.200
+author:1620249850=TA_mason
+diff:1620249850:1620249850:=1,3d0%0a%3c (:Status: complete:)%0a%3c %0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a
+host:1620249850=74.98.251.138

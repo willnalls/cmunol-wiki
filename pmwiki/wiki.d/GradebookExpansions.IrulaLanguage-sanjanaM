@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1620403907
+host=67.171.64.6
+name=GradebookExpansions.IrulaLanguage-sanjanaM
+rev=2
+targets=Articles.IrulaLanguage,Profiles.ShreyaR
+text=:Category: EndangeredLanguages%0a:Expansion: An Irula Folksong%0a:Author: sanjana_m%0a:Original: [[Articles.IrulaLanguage|IrulaLanguage]] %0a:OriginalAuthor: [[Profiles.shreya_r|shreya_r]]%0a:Section: D%0a:Completed: 07.05.2021 - 09:11%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-020143-70680#%0a* [-10.05.2021 - 19:01-] || TA_lili marked as complete%0a#foxend 210511-020143-70680#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aWhen I was younger, I actually visited an area in which people spoke this language, and at the time, I did not know that it was different than Tamil, which was spoken in all the surrounding areas. After reading this article, I was curious to see if I could find any examples of the language online. Sadly, there are little to no resources that could help somebody learn the language easily accessible on line, and after searching for audio/video clips of the spoken language, I couldn't find anything. However, I did find some songs in the Irula language, one of which I have linked below.%0a%0ahttps://youtu.be/ZGD2_qndYk0%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620698503
+author:1620698503=TA_lili
+diff:1620698503:1620403907:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-020143-70680#%0a%3c * [-10.05.2021 - 19:01-] || TA_lili marked as complete%0a%3c #foxend 210511-020143-70680#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620698503=67.171.64.6
+author:1620403907=sanjana_m
+diff:1620403907:1620403907:=1,40d0%0a%3c :Category: EndangeredLanguages%0a%3c :Expansion: An Irula Folksong%0a%3c :Author: sanjana_m%0a%3c :Original: [[Articles.IrulaLanguage|IrulaLanguage]] %0a%3c :OriginalAuthor: [[Profiles.shreya_r|shreya_r]]%0a%3c :Section: D%0a%3c :Completed: 07.05.2021 - 09:11%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c When I was younger, I actually visited an area in which people spoke this language, and at the time, I did not know that it was different than Tamil, which was spoken in all the surrounding areas. After reading this article, I was curious to see if I could find any examples of the language online. Sadly, there are little to no resources that could help somebody learn the language easily accessible on line, and after searching for audio/video clips of the spoken language, I couldn't find anything. However, I did find some songs in the Irula language, one of which I have linked below.%0a%3c %0a%3c https://youtu.be/ZGD2_qndYk0%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620403907=128.237.82.1

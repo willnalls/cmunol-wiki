@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612358562
+host=72.95.222.76
+name=GradebookExpansions.IsMathALanguage-mengS
+rev=5
+targets=Articles.IsMathALanguage,Profiles.EmmaP
+text=:Category: PracticeCategory%0a:Expansion: Math is indeed a language.%0a:Author: meng_s%0a:Original: [[Articles.IsMathALanguage|IsMathALanguage]] %0a:OriginalAuthor: [[Profiles.emma_p|emma_p]]%0a:Section: E%0a:Completed: 03.02.2021 - 05:22%0a:Status: complete%0a%0a%0a#foxbegin 210205-173638-879740#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173638-879740#%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210512-121430-118010#%0a* [-12.05.2021 - 05:14-] || TA_mason marked as complete%0a#foxend 210512-121430-118010#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aIf a language defined as a system of communication, then I do think that Math is a language. I believe that language simply needs to serve the communicative needs the community that uses them, not every being in the world. As you mentioned, users can usually write mathematical statements using existing symbols, which means Math does serve the needs of the mathematical community. In fact, the Amazonian tribe, Amondawa, do not have a way to express time nor have numbers beyond four or five, unlike most languages in the world. Yet, their system of communication they use is still considered a language, since it does help the community convey their thoughts to one another. Perhaps Math is not a language in the conventional sense, but it’s still a language nonetheless.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000935-875760#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000935-875760#%0a(:GradedBy: TA_mason:)
+time=1620821670
+author:1620821670=TA_mason
+diff:1620821670:1620778172:=8,10c8,10%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a18,20c18%0a%3c #foxbegin 210512-121430-118010#%0a%3c * [-12.05.2021 - 05:14-] || TA_mason marked as complete%0a%3c #foxend 210512-121430-118010#%0a---%0a> %0a45,46c43%0a%3c #foxend 210512-000935-875760#%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> #foxend 210512-000935-875760#%0a\ No newline at end of file%0a
+host:1620821670=72.95.222.76
+author:1620778172=
+diff:1620778172:1616289822:=39,43c39%0a%3c (:Category:)%0a%3c #foxbegin 210512-000935-875760#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000935-875760#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289822=
+diff:1616289822:1612546598:=6c6%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1616289822=74.109.247.199
+author:1612546598=TA_lili
+diff:1612546598:1612358562:=11,14d10%0a%3c #foxbegin 210205-173638-879740#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173638-879740#%0a
+host:1612546598=74.109.247.199
+author:1612358562=meng_s
+diff:1612358562:1612358562:=1,35d0%0a%3c :Category: PracticeCategory%0a%3c :Expansion: Math is indeed a language.%0a%3c :Author: meng_s%0a%3c :Original: [[Articles.IsMathALanguage|IsMathALanguage]] %0a%3c :OriginalAuthor: [[Profiles.emma_p|emma_p]]%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 05:22%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c If a language defined as a system of communication, then I do think that Math is a language. I believe that language simply needs to serve the communicative needs the community that uses them, not every being in the world. As you mentioned, users can usually write mathematical statements using existing symbols, which means Math does serve the needs of the mathematical community. In fact, the Amazonian tribe, Amondawa, do not have a way to express time nor have numbers beyond four or five, unlike most languages in the world. Yet, their system of communication they use is still considered a language, since it does help the community convey their thoughts to one another. Perhaps Math is not a language in the conventional sense, but it’s still a language nonetheless.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1612358562=116.88.125.89

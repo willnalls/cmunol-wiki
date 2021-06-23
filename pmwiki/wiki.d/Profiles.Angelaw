@@ -1,0 +1,39 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=MarkC
+charset=UTF-8
+csum=
+ctime=1612228065
+host=76.219.216.90
+name=Profiles.Angelaw
+rev=9
+targets=Articles.FrontRoundedVowelsComparingEnglishAndMandarin,Articles.PersonalDatives,Articles.PhilosophyLessonsFromWALK,Articles.ExpansionAndStandardizationOfCSL
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: aywei \\%0a%0a[[#comments]]%0a#foxbegin 210227-175627-127290#%0a* sebastiang expanded on your article [[Articles.FrontRoundedVowelsComparingEnglishAndMandarin|FrontRoundedVowelsComparingEnglishAndMandarin]] {[foxdelline button 210227-175627-127290 {$FullName} ]}%0a#foxend 210227-175627-127290#%0a#foxbegin 210227-210011-666000#%0a* kyuwonW expanded on your article [[Articles.FrontRoundedVowelsComparingEnglishAndMandarin|FrontRoundedVowelsComparingEnglishAndMandarin]] {[foxdelline button 210227-210011-666000 {$FullName} ]}%0a#foxend 210227-210011-666000#%0a#foxbegin 210425-020720-153990#%0a* vincent_c expanded on your article [[Articles.PersonalDatives|PersonalDatives]] {[foxdelline button 210425-020720-153990 {$FullName} ]}%0a#foxend 210425-020720-153990#%0a#foxbegin 210507-224338-526360#%0a* janet_b expanded on your article [[Articles.PhilosophyLessonsFromWALK|PhilosophyLessonsFromWALK]] {[foxdelline button 210507-224338-526360 {$FullName} ]}%0a#foxend 210507-224338-526360#%0a#foxbegin 210509-030914-615580#%0a* MarkC expanded on your article [[Articles.ExpansionAndStandardizationOfCSL|ExpansionAndStandardizationOfCSL]] {[foxdelline button 210509-030914-615580 {$FullName} ]}%0a#foxend 210509-030914-615580#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: F:)%0a#foxbegin 210309-213612-906220#%0a(:name: angelaw:)%0a#foxend 210309-213612-906220#
+time=1620529753
+author:1620529753=MarkC
+diff:1620529753:1620427417:=19,21d18%0a%3c #foxbegin 210509-030914-615580#%0a%3c * MarkC expanded on your article [[Articles.ExpansionAndStandardizationOfCSL|ExpansionAndStandardizationOfCSL]] {[foxdelline button 210509-030914-615580 {$FullName} ]}%0a%3c #foxend 210509-030914-615580#%0a
+host:1620529753=76.219.216.90
+author:1620427417=janet_b
+diff:1620427417:1619316439:=16,18d15%0a%3c #foxbegin 210507-224338-526360#%0a%3c * janet_b expanded on your article [[Articles.PhilosophyLessonsFromWALK|PhilosophyLessonsFromWALK]] {[foxdelline button 210507-224338-526360 {$FullName} ]}%0a%3c #foxend 210507-224338-526360#%0a
+host:1620427417=73.246.93.87
+author:1619316439=vincent_c
+diff:1619316439:1615399694:=13,15d12%0a%3c #foxbegin 210425-020720-153990#%0a%3c * vincent_c expanded on your article [[Articles.PersonalDatives|PersonalDatives]] {[foxdelline button 210425-020720-153990 {$FullName} ]}%0a%3c #foxend 210425-020720-153990#%0a
+host:1619316439=74.109.254.7
+author:1615399694=
+diff:1615399694:1615325770:=32c32%0a%3c (:name: angelaw:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399694=74.109.247.199
+author:1615325770=
+diff:1615325770:1614459609:=30,33c30%0a%3c (:section: F:)%0a%3c #foxbegin 210309-213612-906220#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213612-906220#%0a\ No newline at end of file%0a---%0a> (:section: F:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614459609=kyuwonW
+diff:1614459609:1614448585:=10,12d9%0a%3c #foxbegin 210227-210011-666000#%0a%3c * kyuwonW expanded on your article [[Articles.FrontRoundedVowelsComparingEnglishAndMandarin|FrontRoundedVowelsComparingEnglishAndMandarin]] {[foxdelline button 210227-210011-666000 {$FullName} ]}%0a%3c #foxend 210227-210011-666000#%0a
+host:1614459609=98.42.167.123
+author:1614448585=sebastiang
+diff:1614448585:1612416510:=7,9c7%0a%3c #foxbegin 210227-175627-127290#%0a%3c * sebastiang expanded on your article [[Articles.FrontRoundedVowelsComparingEnglishAndMandarin|FrontRoundedVowelsComparingEnglishAndMandarin]] {[foxdelline button 210227-175627-127290 {$FullName} ]}%0a%3c #foxend 210227-175627-127290#%0a---%0a> %0a
+host:1614448585=128.237.82.1
+author:1612416510=angelaw
+diff:1612416510:1612228065:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: F:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612416510=73.138.180.33
+author:1612228065=angelaw
+diff:1612228065:1612228065:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: aywei \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612228065=73.138.180.33

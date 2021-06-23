@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1618785576
+host=74.109.239.200
+name=GradebookArticles.PhilosophyLessonsFromCOUNT-solanaM
+rev=4
+targets=
+text=(:Status: ungraded:)%0a%0a(:GradedBy: TA_lili:)
+time=1620321719
+author:1620321719=
+diff:1620321719:1620312863:=1c1%0a%3c (:Status: ungraded:)%0a---%0a> (:Status: complete:)%0a
+host:1620321719=74.109.239.200
+author:1620312863=TA_lili
+diff:1620312863:1618785662:=1c1%0a%3c (:Status: complete:)%0a---%0a> (:Status: noCredit:)%0a
+host:1620312863=74.111.97.246
+author:1618785662=TA_lili
+diff:1618785662:1618785576:=1c1%0a%3c (:Status: noCredit:)%0a---%0a> (:Status: needsRevised:)%0a
+host:1618785662=74.111.97.246
+author:1618785576=TA_lili
+diff:1618785576:1618785576:=1,3d0%0a%3c (:Status: needsRevised:)%0a%3c %0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a
+host:1618785576=74.111.97.246

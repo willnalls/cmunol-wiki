@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620078836
+host=74.98.251.138
+name=GradebookExpansions.Jejueo-leahW
+rev=2
+targets=Articles.Jejueo,Profiles.SpencerL
+text=:Category: EndangeredLanguages%0a:Expansion: Video of Jejueo%0a:Author: leah_w%0a:Original: [[Articles.Jejueo|Jejueo]] %0a:OriginalAuthor: [[Profiles.Spencer_L|Spencer_L]]%0a:Section: E%0a:Completed: 03.05.2021 - 14:53%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210505-211636-299500#%0a* [-05.05.2021 - 14:16-] || TA_mason marked as complete%0a#foxend 210505-211636-299500#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aListed below is a link to video of a man speaking Jejueo. I found it interesting reading through some of the comments. One person stated that he is Korean and can understand a little bit of what Hyun is saying, but also said the language is much different than any dialect he has heard before. Another person comments about how calm the language is. Others comment about how the language is endangered and how they want it to still be taught. %0a%0ahttps://www.youtube.com/watch?v=BTdYsYaoRn0  %0a%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_mason:)
+time=1620249396
+author:1620249396=TA_mason
+diff:1620249396:1620078836:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210505-211636-299500#%0a%3c * [-05.05.2021 - 14:16-] || TA_mason marked as complete%0a%3c #foxend 210505-211636-299500#%0a---%0a> %0a43,44c41%0a%3c (:Category:)%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620249396=74.98.251.138
+author:1620078836=leah_w
+diff:1620078836:1620078836:=1,41d0%0a%3c :Category: EndangeredLanguages%0a%3c :Expansion: Video of Jejueo%0a%3c :Author: leah_w%0a%3c :Original: [[Articles.Jejueo|Jejueo]] %0a%3c :OriginalAuthor: [[Profiles.Spencer_L|Spencer_L]]%0a%3c :Section: E%0a%3c :Completed: 03.05.2021 - 14:53%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Listed below is a link to video of a man speaking Jejueo. I found it interesting reading through some of the comments. One person stated that he is Korean and can understand a little bit of what Hyun is saying, but also said the language is much different than any dialect he has heard before. Another person comments about how calm the language is. Others comment about how the language is endangered and how they want it to still be taught. %0a%3c %0a%3c https://www.youtube.com/watch?v=BTdYsYaoRn0  %0a%3c %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620078836=71.245.186.13

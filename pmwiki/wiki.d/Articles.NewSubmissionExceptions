@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux aarch64; rv:83.0) Gecko/20100101 Firefox/83.0
+author=wnalls
+charset=UTF-8
+csum=
+ctime=1612750334
+host=74.109.247.199
+name=Articles.NewSubmissionExceptions
+rev=2
+targets=
+text=(:foxform Site.FoxForms#newarticleexception:)%0a%0a(:foxmessages:)%0a%0a
+time=1612750583
+author:1612750583=wnalls
+diff:1612750583:1612750334:=
+host:1612750583=74.109.247.199
+author:1612750334=wnalls
+diff:1612750334:1612750334:=1,4d0%0a%3c (:foxform Site.FoxForms#newarticleexception:)%0a%3c %0a%3c (:foxmessages:)%0a%3c %0a
+host:1612750334=74.109.247.199

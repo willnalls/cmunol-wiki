@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1619063019
+host=69.218.234.170
+name=GradebookExpansions.A-prefixingInEnglish-sgangu
+rev=2
+targets=Articles.A-prefixingInEnglish,Profiles.Gabrielz
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Possible meaning of the a- prefix %0a:Author: sgangu%0a:Original: [[Articles.A-prefixingInEnglish|A-prefixingInEnglish]] %0a:OriginalAuthor: [[Profiles.gabrielz|gabrielz]]%0a:Section: A%0a:Completed: 21.04.2021 - 20:43%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-001710-904890#%0a* [-10.05.2021 - 17:17-] || TA_audrey marked as complete%0a#foxend 210511-001710-904890#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aIt seems that this prefix can indicate being in the process of something or being in a particular state. In your example, you give the example "a-reading" which can imply that the person is currently in the process of reading. This same prefix can sometimes be added to adjectives to indicate that the adjective describes its noun in the present - such as in "the lantern is aglow". %0a%0aSource: %0ahttps://www.englishclub.com/vocabulary/prefixes.htm%0a%0a%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620692230
+author:1620692230=TA_audrey
+diff:1620692230:1619063019:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-001710-904890#%0a%3c * [-10.05.2021 - 17:17-] || TA_audrey marked as complete%0a%3c #foxend 210511-001710-904890#%0a---%0a> %0a45,46c43%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620692230=69.218.234.170
+author:1619063019=sgangu
+diff:1619063019:1619063019:=1,43d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Possible meaning of the a- prefix %0a%3c :Author: sgangu%0a%3c :Original: [[Articles.A-prefixingInEnglish|A-prefixingInEnglish]] %0a%3c :OriginalAuthor: [[Profiles.gabrielz|gabrielz]]%0a%3c :Section: A%0a%3c :Completed: 21.04.2021 - 20:43%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c It seems that this prefix can indicate being in the process of something or being in a particular state. In your example, you give the example "a-reading" which can imply that the person is currently in the process of reading. This same prefix can sometimes be added to adjectives to indicate that the adjective describes its noun in the present - such as in "the lantern is aglow". %0a%3c %0a%3c Source: %0a%3c https://www.englishclub.com/vocabulary/prefixes.htm%0a%3c %0a%3c %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619063019=173.224.102.108

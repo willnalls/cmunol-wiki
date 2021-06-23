@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612549546
+host=74.109.247.199
+name=Profiles.Ajolicoe
+rev=4
+targets=
+text=(:section: D:)%0a(:andrewid: ajolicoe:)%0a#foxbegin 210309-213612-982100#%0a(:name: ajolicoe:)%0a#foxend 210309-213612-982100#
+time=1615400063
+author:1615400063=
+diff:1615400063:1615325770:=4c4%0a%3c (:name: ajolicoe:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615400063=74.109.247.199
+author:1615325770=
+diff:1615325770:1612549552:=2,5c2%0a%3c (:andrewid: ajolicoe:)%0a%3c #foxbegin 210309-213612-982100#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213612-982100#%0a\ No newline at end of file%0a---%0a> (:andrewid: ajolicoe:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612549552=ajolicoe
+diff:1612549552:1612549546:=1,2c1%0a%3c (:section: D:)%0a%3c (:andrewid: ajolicoe:)%0a\ No newline at end of file%0a---%0a> (:section: D:)%0a\ No newline at end of file%0a
+host:1612549552=128.237.82.1
+author:1612549546=ajolicoe
+diff:1612549546:1612549546:=1d0%0a%3c (:section: D:)%0a\ No newline at end of file%0a
+host:1612549546=128.237.82.1

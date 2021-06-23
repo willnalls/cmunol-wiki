@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=roochis
+charset=UTF-8
+csum=
+ctime=1612408545
+host=69.243.178.22
+name=Profiles.Roochis
+rev=4
+targets=
+text=(:section: C:)%0a#foxbegin 210309-213619-94370#%0a(:name: roochis:)%0a#foxend 210309-213619-94370#%0a(:andrewid: rtshah:)
+time=1616300422
+author:1616300422=roochis
+diff:1616300422:1615399744:=4,5c4%0a%3c #foxend 210309-213619-94370#%0a%3c (:andrewid: rtshah:)%0a\ No newline at end of file%0a---%0a> #foxend 210309-213619-94370#%0a\ No newline at end of file%0a
+host:1616300422=69.243.178.22
+author:1615399744=
+diff:1615399744:1615325770:=3c3%0a%3c (:name: roochis:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399744=74.109.247.199
+author:1615325770=
+diff:1615325770:1612408545:=1,4c1%0a%3c (:section: C:)%0a%3c #foxbegin 210309-213619-94370#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213619-94370#%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612408545=roochis
+diff:1612408545:1612408545:=1d0%0a%3c (:section: C:)%0a\ No newline at end of file%0a
+host:1612408545=73.45.110.132

@@ -1,0 +1,48 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=Simon_Y
+charset=UTF-8
+csum=
+ctime=1612267267
+host=71.197.127.14
+name=Profiles.MingkangL
+rev=12
+targets=Articles.DialectsVsLanguages,Articles.PhilosophyLessonsFromSTICK,Articles.OnTheWinnebagoTribeOfNebraska,Articles.DiscriminationAgainstChineseAccentsOfEnglish
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: mingkanl \\%0a%0a[[#comments]]%0a#foxbegin 210203-195446-499700#%0a* markl expanded on your article [[Articles.DialectsVsLanguages|DialectsVsLanguages]] {[foxdelline button 210203-195446-499700 {$FullName} ]}%0a#foxend 210203-195446-499700#%0a#foxbegin 210204-181835-34380#%0a* BenP expanded on your article [[Articles.DialectsVsLanguages|DialectsVsLanguages]] {[foxdelline button 210204-181835-34380 {$FullName} ]}%0a#foxend 210204-181835-34380#%0a#foxbegin 210327-224606-384530#%0a* vincent_c expanded on your article [[Articles.PhilosophyLessonsFromSTICK|PhilosophyLessonsFromSTICK]] {[foxdelline button 210327-224606-384530 {$FullName} ]}%0a#foxend 210327-224606-384530#%0a#foxbegin 210403-052214-858720#%0a* roochis expanded on your article [[Articles.OnTheWinnebagoTribeOfNebraska|OnTheWinnebagoTribeOfNebraska]] {[foxdelline button 210403-052214-858720 {$FullName} ]}%0a#foxend 210403-052214-858720#%0a#foxbegin 210505-232812-594280#%0a* JasonE expanded on your article [[Articles.PhilosophyLessonsFromSTICK|PhilosophyLessonsFromSTICK]] {[foxdelline button 210505-232812-594280 {$FullName} ]}%0a#foxend 210505-232812-594280#%0a#foxbegin 210509-010647-181030#%0a* Simon_Y expanded on your article [[Articles.DiscriminationAgainstChineseAccentsOfEnglish|DiscriminationAgainstChineseAccentsOfEnglish]] {[foxdelline button 210509-010647-181030 {$FullName} ]}%0a#foxend 210509-010647-181030#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: mingkanl \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: mingkanl \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213618-994740#%0a(:name: MingKang_L:)%0a#foxend 210309-213618-994740#
+time=1620522406
+author:1620522406=Simon_Y
+diff:1620522406:1620257291:=22,24d21%0a%3c #foxbegin 210509-010647-181030#%0a%3c * Simon_Y expanded on your article [[Articles.DiscriminationAgainstChineseAccentsOfEnglish|DiscriminationAgainstChineseAccentsOfEnglish]] {[foxdelline button 210509-010647-181030 {$FullName} ]}%0a%3c #foxend 210509-010647-181030#%0a
+host:1620522406=71.197.127.14
+author:1620257291=JasonE
+diff:1620257291:1617427333:=19,21d18%0a%3c #foxbegin 210505-232812-594280#%0a%3c * JasonE expanded on your article [[Articles.PhilosophyLessonsFromSTICK|PhilosophyLessonsFromSTICK]] {[foxdelline button 210505-232812-594280 {$FullName} ]}%0a%3c #foxend 210505-232812-594280#%0a
+host:1620257291=71.206.239.38
+author:1617427333=roochis
+diff:1617427333:1616885164:=16,18d15%0a%3c #foxbegin 210403-052214-858720#%0a%3c * roochis expanded on your article [[Articles.OnTheWinnebagoTribeOfNebraska|OnTheWinnebagoTribeOfNebraska]] {[foxdelline button 210403-052214-858720 {$FullName} ]}%0a%3c #foxend 210403-052214-858720#%0a
+host:1617427333=69.243.178.22
+author:1616885164=vincent_c
+diff:1616885164:1615326360:=13,15d12%0a%3c #foxbegin 210327-224606-384530#%0a%3c * vincent_c expanded on your article [[Articles.PhilosophyLessonsFromSTICK|PhilosophyLessonsFromSTICK]] {[foxdelline button 210327-224606-384530 {$FullName} ]}%0a%3c #foxend 210327-224606-384530#%0a
+host:1616885164=74.109.254.7
+author:1615326360=
+diff:1615326360:1615325770:=80c80%0a%3c (:name: MingKang_L:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615326360=74.109.247.199
+author:1615325770=
+diff:1615325770:1613849197:=78,81c78%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213618-994740#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213618-994740#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1613849197=Mingkang_L
+diff:1613849197:1612462714:=77,78c77%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613849197=8.210.104.90
+author:1612462714=BenP
+diff:1612462714:1612382085:=10,12d9%0a%3c #foxbegin 210204-181835-34380#%0a%3c * BenP expanded on your article [[Articles.DialectsVsLanguages|DialectsVsLanguages]] {[foxdelline button 210204-181835-34380 {$FullName} ]}%0a%3c #foxend 210204-181835-34380#%0a
+host:1612462714=73.174.152.59
+author:1612382085=markl
+diff:1612382085:1612268937:=7,9c7%0a%3c #foxbegin 210203-195446-499700#%0a%3c * markl expanded on your article [[Articles.DialectsVsLanguages|DialectsVsLanguages]] {[foxdelline button 210203-195446-499700 {$FullName} ]}%0a%3c #foxend 210203-195446-499700#%0a---%0a> %0a
+host:1612382085=71.206.238.233
+author:1612268937=Mingkang_L
+diff:1612268937:1612267281:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: mingkanl \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612268937=8.210.104.90
+author:1612267281=Mingkang_L
+diff:1612267281:1612267267:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: mingkanl \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612267281=8.210.104.90
+author:1612267267=Mingkang_L
+diff:1612267267:1612267267:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: mingkanl \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612267267=8.210.104.90

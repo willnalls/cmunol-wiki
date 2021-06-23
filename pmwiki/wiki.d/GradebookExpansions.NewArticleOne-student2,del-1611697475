@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=student2
+charset=UTF-8
+csum=
+ctime=1611697110
+host=74.109.247.199
+name=GradebookExpansions.NewArticleOne-student2
+rev=1
+targets=Articles.NewArticleOne,Profiles.Student1
+text=:Category: {Articles.NewArticleOne$:category%0a:Expansion: This is my expansion%0a:Author: student2%0a:Original: [[Articles.NewArticleOne|NewArticleOne]] %0a:OriginalAuthor: [[Profiles.student1|student1]]%0a:Section: %0a:Completed: 26.01.2021 - 13:38%0a:Status: ungraded%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aHello!%0a%0a[[#contentends]]%0a----%0a(:Category:)
+time=1611697110
+author:1611697110=student2
+diff:1611697110:1611697110:=1,35d0%0a%3c :Category: {Articles.NewArticleOne$:category%0a%3c :Expansion: This is my expansion%0a%3c :Author: student2%0a%3c :Original: [[Articles.NewArticleOne|NewArticleOne]] %0a%3c :OriginalAuthor: [[Profiles.student1|student1]]%0a%3c :Section: %0a%3c :Completed: 26.01.2021 - 13:38%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Hello!%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1611697110=74.109.247.199

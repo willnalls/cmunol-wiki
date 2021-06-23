@@ -1,0 +1,30 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51
+author=janet_b
+charset=UTF-8
+csum=
+ctime=1612233086
+host=73.246.93.87
+name=Profiles.ShahinC
+rev=6
+targets=Articles.AccentDiscriminationAgainstAsiansInMedia,Articles.LessonsOnTheWordTAKE
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: shahinc \\%0a%0a[[#comments]]%0a#foxbegin 210503-034038-511420#%0a* sathyas expanded on your article [[Articles.AccentDiscriminationAgainstAsiansInMedia|AccentDiscriminationAgainstAsiansInMedia]] {[foxdelline button 210503-034038-511420 {$FullName} ]}%0a#foxend 210503-034038-511420#%0a#foxbegin 210507-224858-419740#%0a* janet_b expanded on your article [[Articles.LessonsOnTheWordTAKE|LessonsOnTheWordTAKE]] {[foxdelline button 210507-224858-419740 {$FullName} ]}%0a#foxend 210507-224858-419740#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213705-695880#%0a(:name: ShahinC:)%0a#foxend 210309-213705-695880#
+time=1620427737
+author:1620427737=janet_b
+diff:1620427737:1620013237:=10,12d9%0a%3c #foxbegin 210507-224858-419740#%0a%3c * janet_b expanded on your article [[Articles.LessonsOnTheWordTAKE|LessonsOnTheWordTAKE]] {[foxdelline button 210507-224858-419740 {$FullName} ]}%0a%3c #foxend 210507-224858-419740#%0a
+host:1620427737=73.246.93.87
+author:1620013237=sathyas
+diff:1620013237:1615405802:=7,9c7%0a%3c #foxbegin 210503-034038-511420#%0a%3c * sathyas expanded on your article [[Articles.AccentDiscriminationAgainstAsiansInMedia|AccentDiscriminationAgainstAsiansInMedia]] {[foxdelline button 210503-034038-511420 {$FullName} ]}%0a%3c #foxend 210503-034038-511420#%0a---%0a> %0a
+host:1620013237=71.206.247.117
+author:1615405802=
+diff:1615405802:1615325825:=27c27%0a%3c (:name: ShahinC:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405802=74.109.247.199
+author:1615325825=
+diff:1615325825:1612650193:=25,28c25%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213705-695880#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213705-695880#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1612650193=ShahinC
+diff:1612650193:1612233086:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612650193=73.60.194.7
+author:1612233086=ShahinC
+diff:1612233086:1612233086:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: shahinc \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612233086=73.60.194.7

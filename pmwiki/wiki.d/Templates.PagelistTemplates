@@ -1,0 +1,706 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+cauthor=
+charset=UTF-8
+csum=
+ctime=1598554726
+host=74.109.239.200
+name=Templates.PagelistTemplates
+rev=231
+targets=Templates.Name,Group.Group,Group.Name,Templates.FullName,Articles.Name,Articles.Original,GradebookArticles.Name
+text=(:if false:)%0a[[#titlespaced]]%0a(:template each:)%0a* {=$Titlespaced}%0a[[#titlespacedend]]%0a(:if end:)%0a%0a(:if false:)%0a[[#bycreation]]%0a(:template each:)%0a* {=$FullName?action=edit}%0a[[#bycreationend]]%0a(:if end:)%0a%0a(:if false:)%0a[[#fullname]]%0a(:template each:)%0a{=$FullName}%0a[[#fullnameend]]%0a(:if end:)%0a%0a(:if false:)%0a[[#profiles]]%0a(:template each:)%0a* [[{=$Name}]]%0a** section: {=$:section}%0a** andrew id: {=$:andrewid}%0a** name: {=$:name}%0a[[#profilesend]]%0a(:if end:)%0a%0a(:if false:)%0a[[#expansions]]%0a(:template each:)%0a* [[{=$Name}]]%0a** {=$:Category}%0a** {=$:Status}%0a[[#expansionsend]]%0a(:if end:)%0a%0a%0a(:if false:)%0a[[#deletearticles]]%0a(:template each:)%0a(:input checkbox articles[] value={=$FullName} label={=$FullName}:) \\%0a[[#deletearticlesend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#bygrouptitle]]%0a(:if2 ! equal {=$Group} {%3c$Group}:)%0a%0a:[[{=$Group}/]] /:%0a(:if2:)%0a: :[[{=$Group}/[[{=$Name} | + ]]%0a[[#bygrouptitleend]]%0a(:if end:)%0a%0a(:if false:)%0a[[#categorylist]]%0a(:template each:)%0a(:if1 equal {{=$FullName}$:essential} yes:)%0a* '''[[{=$FullName} | {=$Titlespaced}]]''' (essential)%0a(:else1:)%0a* [[{=$FullName} | {=$Titlespaced}]]%0a(:if1end:)%0a-> Deadline: {{=$FullName}$:deadline}%0a-> Expansion deadline: {{=$FullName}$:expansiondeadline}%0a[[#categorylistend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#selectcategory]]%0a(:template each:)%0a(:if1 date ..{{=$:deadline}:)%0a(:input select Category {=$Name} label="{=$Titlespaced}":)%0a(:else1:)%0a(:input select Category {=$Name} label="{=$Titlespaced} (article deadline passed)":)%0a(:if1end:)%0a[[#selectcategoryend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#pickStudent]]%0a(:template each:)%0a(:input select student {Profiles.{=$Name}$:name}:)%0a[[#pickStudentend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#name]]%0a(:template each:)%0a* {=$FullName}%0a** {=$:name}%0a[[#nameend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#selectdeletecategory]]%0a(:template each:)%0a(:input select deletecategory {=$Name}:)%0a[[#selectdeletecategoryend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#categorypages]]%0a(:template each:)%0a----%0a%0a* [[{=$FullName}|{=$Titlespaced}]] -- {=$:Author}%0a%0a-> (:include {=$FullName}#summary:)%0a%0a(:template last:)%0a%0a----%0a----%0a%0a(:template none:)%0a%0a--%0a%0a[[#categorypagesend]]%0a(:if end:)%0a%0a%0a(:if false:)%0a[[#sidebarcategories]]%0a(:template each:)%0a(:if1 equal {=$:essential} yes:)%0a* [[{=$FullName} | '''{=$Titlespaced}''']]%0a(:else1:)%0a* [[{=$FullName} | {=$Titlespaced}]]%0a(:if1end:)%0a[[#sidebarcategoriesend]]%0a(:if end:)%0a%0a%0a(:if false:)%0a[[#allarticles]]%0a(:template first:)%0a[++All Articles:++]%0a%0a(:template each:)%0a%0a----%0a%0a* [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a-> Category: (:include {=$FullName} lines=1:)%0a-> (:include {=$FullName}#summary:)%0a%0a(:template last:)%0a%0a----%0a----%0a%0aTotal of {$$PageCount} articles.%0a[[#allarticlesend]]%0a(:if end:)%0a%0a%0a%0a(:if false:)%0a[[#dashboardAnR]]%0a(:template none:)%0a(:template each:)%0a'''Needs Revised:'''%0a* [[Articles.{=$Name} | {=$Name}]]%0a-> Category: {=$:Category}%0a-> graded by: {=$:GradedBy}%0a-> Comments:%0a(:include GradebookArticles.{$Name}#comments :)%0a-> [[Articles.{=$Name}?action=edit | Edit article ]]%0a>>rfloat%3c%3c%0a(:fox markRevised:)%0a(:foxptv ptvtarget=GradebookArticles.{=$Name} ptvfields=Status :)%0a(:foxadd target=GradebookArticles.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a(:input hidden Status revised:)%0a(:input submit post "Mark Revised":)%0a(:foxend markRevised:)%0a>>%3c%3c%0a----%0a[[#dashboardAnRend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#dashboardwip]]%0a(:template each:)%0a* [[Articles.{=$Name} | {=$Name}]]%0a-> Category: {=$:Category}%0a-> '''status:''' {=$:Status}%0a-> graded by: {=$:GradedBy}%0a-> [[Articles.{=$Name}?action=edit | Edit my article ]]%0a[[#dashboardwipend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#dashboardexpnR]]%0a(:template none:)%0a(:template each:)%0a'''Expansion needs Revised:'''%0a* Original article: [[Articles.{=$:Original} | {=$Original}]]%0a-> Category: {=$:Category}%0a-> graded by: {=$:GradedBy}%0a-> Comments:%0a(:include GradebookExpansions.{=$Name}#comments :)%0a-> [[Articles.{=$:Original}?action=edit | Edit article ]]%0a>>rfloat%3c%3c%0a(:fox markRevised:)%0a(:foxptv ptvtarget=GradebookExpansions.{=$Name} ptvfields=Status :)%0a(:foxadd target=GradebookExpansions.{=$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a(:input hidden Status revised:)%0a(:input submit post "Mark Revised":)%0a(:foxend markRevised:)%0a>>%3c%3c%0a----%0a[[#dashboardexpnRend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#dashboardexpwip]]%0a(:template each:)%0a* Expansion on {=$:Original}%0a-> Expansion: {=$:Expansion}%0a-> Category: {=$:Category}%0a-> '''status:''' {=$:Status}%0a-> graded by: {=$:GradedBy}%0a[[#dashboardexpwipend]]%0a(:ifend:)%0a%0a%0a(:if false:)%0a[[#dashboardac]]%0a* [[Articles.{=$Name} | {=$Name}]]%0a-> Category: {=$:Category}%0a-> '''status:''' {=$:Status}%0a-> graded by: {=$:GradedBy}%0a[[#dashboardacend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#dashboardexpc]]%0a(:template each:)%0a* Expansion on {=$:Original}%0a-> Expansion: {=$:Expansion}%0a-> Category: {=$:Category}%0a-> '''status:''' {=$:Status}%0a-> graded by: {=$:GradedBy}%0a[[#dashboardexpcend]]%0a(:ifend:)%0a%0a%0a%0a(:if false:)%0a[[#simplecount]]%0a(:template none:)%0a--%0a(:template last:)%0a{$$PageCount}%0a[[#simplecountend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#gradebooklist]]%0a(:template each:)%0a* [[GradebookArticles.{=$Name} | {=$Name}]]%0a-> Category: {=$:Category}%0a-> '''status:''' {=$:Status}%0a-> graded by: {=$:GradedBy}%0a-> Completed: {=$:Completed}%0a[[#gradebooklistend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#gradebookcomments]]%0a(:template each:)%0a* [[Articles.{=$Name} | {=$Name}]]%0a-> Category: {=$:Category}%0a[[#gradebookcommentsend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#gradebookexplist]]%0a(:template each:)%0a* Expansion on {=$:Original}%0a-> Expansion: [[{=$FullName}|{=$:Expansion}]]%0a-> Category: {=$:Category}%0a-> '''status:''' {=$:Status}%0a-> graded by: {=$:GradedBy}%0a-> Completed: {=$:Completed}%0a[[#gradebookexplistend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#fixsections]]%0a(:template each:)%0a* {=$FullName}%0a* Section in gradebook: {=$:Section}%0a** Author: {=$:Author}%0a** Author section: {Profiles.{=$:Author}$:section}%0a(:fox fixSection foxaction=ptv ptvtarget={=$FullName} ptvfields=Section:)%0a(:input hidden Section {Profiles.{=$:Author}$:section}:)%0a(:input submit post 'sync':)%0a(:foxend fixSection:)%0a[[#fixsectionsend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#setSection]]%0a(:template each:)%0a(:input select student {=$Name}:)%0a[[#setSectionend]]%0a(:ifend:)%0a%0a(:if false:)%0a[[#fixgradebook]]%0a(:template each:)%0a* [[{=$FullName}]]%0a(:fox fixgradebook foxaction=add target={=$FullName} mark="%25red%25" put=above template=Site.FoxTemplates#gradinginterface:)%0a(:input submit post 'sync':)%0a(:foxend fixgradebook:)%0a[[#fixgradebook]]%0a(:ifend:)%0a(:Section: :)
+time=1621538407
+author:1621538407=
+diff:1621538407:1620778016:=28d27%0a%3c ** name: {=$:name}%0a
+host:1621538407=74.109.239.200
+author:1620778016=
+diff:1620778016:1620322415:=13,19d12%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#fullname]]%0a%3c (:template each:)%0a%3c {=$FullName}%0a%3c [[#fullnameend]]%0a
+host:1620778016=74.109.239.200
+author:1620322415=
+diff:1620322415:1616289578:=6,12d5%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#bycreation]]%0a%3c (:template each:)%0a%3c * {=$FullName?action=edit}%0a%3c [[#bycreationend]]%0a
+host:1620322415=74.109.239.200
+author:1616289578=
+diff:1616289578:1615755790:=15,23d14%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#expansions]]%0a%3c (:template each:)%0a%3c * [[{=$Name}]]%0a%3c ** {=$:Category}%0a%3c ** {=$:Status}%0a%3c [[#expansionsend]]%0a
+host:1616289578=74.109.247.199
+author:1615755790=
+diff:1615755790:1615400317:=12,13c12,13%0a%3c ** section: {=$:section}%0a%3c ** andrew id: {=$:andrewid}%0a---%0a> ** Section: {=$:section}%0a> ** Andrew ID: {=$:andrewid}%0a
+host:1615755790=74.109.247.199
+author:1615400317=
+diff:1615400317:1615397901:=248,255d247%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#gradebookcomments]]%0a%3c (:template each:)%0a%3c * [[Articles.{=$Name} | {=$Name}]]%0a%3c -> Category: {=$:Category}%0a%3c [[#gradebookcommentsend]]%0a
+host:1615400317=74.109.247.199
+author:1615397901=
+diff:1615397901:1615326086:=62c62%0a%3c (:input select student {Profiles.{=$Name}$:name}:)%0a---%0a> (:input select student {Profiles.{=$Name}}:)%0a
+host:1615397901=74.109.247.199
+author:1615326086=
+diff:1615326086:1615325530:=62c62%0a%3c (:input select student {Profiles.{=$Name}}:)%0a---%0a> (:input select student {Profiles.{=$Name}$:)%0a
+host:1615326086=74.109.247.199
+author:1615325530=
+diff:1615325530:1615325269:=69,70c69%0a%3c * {=$FullName}%0a%3c ** {=$:name}%0a---%0a> {=$FullName},%0a
+host:1615325530=74.109.247.199
+author:1615325269=
+diff:1615325269:1615325232:=69c69%0a%3c {=$FullName},%0a---%0a> {=$Name},%0a
+host:1615325269=74.109.247.199
+author:1615325232=
+diff:1615325232:1615324838:=69c69,70%0a%3c {=$Name},%0a---%0a> * {=$Name}%0a> ** {=$:name}%0a
+host:1615325232=74.109.247.199
+author:1615324838=
+diff:1615324838:1614798616:=62,71c62,63%0a%3c (:input select student {Profiles.{=$Name}$:)%0a%3c [[#pickStudentend]]%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#name]]%0a%3c (:template each:)%0a%3c * {=$Name}%0a%3c ** {=$:name}%0a%3c [[#nameend]]%0a---%0a> (:input select student {=$Name}:)%0a> [[#pickStudent]]%0a
+host:1615324838=74.109.247.199
+author:1614798616=
+diff:1614798616:1614798342:=271c271%0a%3c (:input select student {=$Name}:)%0a---%0a> (:input select student {$Name}:)%0a
+host:1614798616=74.109.247.199
+author:1614798342=
+diff:1614798342:1614190294:=266,272d265%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#setSection]]%0a%3c (:template each:)%0a%3c (:input select student {$Name}:)%0a%3c [[#setSectionend]]%0a
+host:1614798342=74.109.247.199
+author:1614190294=will
+diff:1614190294:1612546924:=57,63d56%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#pickStudent]]%0a%3c (:template each:)%0a%3c (:input select student {=$Name}:)%0a%3c [[#pickStudent]]%0a
+host:1614190294=74.109.247.199
+author:1612546924=TA_lili
+diff:1612546924:1612546793:=11c11%0a%3c * [[{=$Name}]]%0a---%0a> * {=$Name}%0a
+host:1612546924=74.109.247.199
+author:1612546793=TA_lili
+diff:1612546793:1612546447:=7,16d6%0a%3c %0a%3c (:if false:)%0a%3c [[#profiles]]%0a%3c (:template each:)%0a%3c * {=$Name}%0a%3c ** Section: {=$:section}%0a%3c ** Andrew ID: {=$:andrewid}%0a%3c [[#profilesend]]%0a%3c (:if end:)%0a%3c %0a
+host:1612546793=74.109.247.199
+author:1612546447=TA_lili
+diff:1612546447:1612545992:=255c255%0a%3c (:fox fixgradebook foxaction=add target={=$FullName} mark="%25red%25" put=above template=Site.FoxTemplates#gradinginterface:)%0a---%0a> (:fox fixgradebook foxaction=add target={=$FullName} mark="%25blue%25" put=above template=Site.FoxTemplates#gradinginterface:)%0a
+host:1612546447=74.109.247.199
+author:1612545992=TA_lili
+diff:1612545992:1612545931:=255c255%0a%3c (:fox fixgradebook foxaction=add target={=$FullName} mark="%25blue%25" put=above template=Site.FoxTemplates#gradinginterface:)%0a---%0a> (:fox fixgradebook foxaction=add target={=$FullName} mark="Grading History" put=above template=Site.FoxTemplates#gradinginterface:)%0a
+host:1612545992=74.109.247.199
+author:1612545931=TA_lili
+diff:1612545931:1612545896:=254c254%0a%3c * [[{=$FullName}]]%0a---%0a> * {=$FullName}%0a
+host:1612545931=74.109.247.199
+author:1612545896=TA_lili
+diff:1612545896:1612475611:=249,258d248%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#fixgradebook]]%0a%3c (:template each:)%0a%3c * {=$FullName}%0a%3c (:fox fixgradebook foxaction=add target={=$FullName} mark="Grading History" put=above template=Site.FoxTemplates#gradinginterface:)%0a%3c (:input submit post 'sync':)%0a%3c (:foxend fixgradebook:)%0a%3c [[#fixgradebook]]%0a
+host:1612545896=74.109.247.199
+author:1612475611=TA_lili
+diff:1612475611:1612475260:=241,243c241,242%0a%3c * Section in gradebook: {=$:Section}%0a%3c ** Author: {=$:Author}%0a%3c ** Author section: {Profiles.{=$:Author}$:section}%0a---%0a> ** {=$:Author}%0a> ** {Profiles.{=$:Author}$:section}%0a246c245%0a%3c (:input submit post 'sync':)%0a---%0a> (:input submit post:)%0a
+host:1612475611=74.109.247.199
+author:1612475260=TA_lili
+diff:1612475260:1612475165:=241c241%0a%3c ** {=$:Author}%0a---%0a> ** {=$Author}%0a
+host:1612475260=74.109.247.199
+author:1612475165=TA_lili
+diff:1612475165:1612475118:=242c242%0a%3c ** {Profiles.{=$:Author}$:section}%0a---%0a> ** {Profiles.{=$Author}$:section}%0a244c244%0a%3c (:input hidden Section {Profiles.{=$:Author}$:section}:)%0a---%0a> (:input hidden Section {Profiles.{=$Author}$:section}:)%0a
+host:1612475165=74.109.247.199
+author:1612475118=TA_lili
+diff:1612475118:1612475014:=241,242d240%0a%3c ** {=$Author}%0a%3c ** {Profiles.{=$Author}$:section}%0a
+host:1612475118=74.109.247.199
+author:1612475014=TA_lili
+diff:1612475014:1612474989:=241c241%0a%3c (:fox fixSection foxaction=ptv ptvtarget={=$FullName} ptvfields=Section:)%0a---%0a> (:fox fixSection foxaction=ptv ptvtarget={$FullName} ptvfields=Section:)%0a
+host:1612475014=74.109.247.199
+author:1612474989=TA_lili
+diff:1612474989:1612474973:=246,247c246%0a%3c (:ifend:)%0a%3c (:Section: :)%0a\ No newline at end of file%0a---%0a> (:ifend:)%0a\ No newline at end of file%0a
+host:1612474989=74.109.247.199
+author:1612474973=TA_lili
+diff:1612474973:1612474805:=241,242c241,244%0a%3c (:fox fixSection foxaction=ptv ptvtarget={$FullName} ptvfields=Section:)%0a%3c (:input hidden Section {Profiles.{=$Author}$:section}:)%0a---%0a> (:fox fixSection foxaction=replace put=string target={=$FullName}:)%0a> (:input hidden section {Profiles.{=$Author}$:section}:)%0a> (:input hidden mark ":Section: ":)%0a> (:foxtemplate ":Section: {$$section}":)%0a
+host:1612474973=74.109.247.199
+author:1612474805=TA_lili
+diff:1612474805:1612474762:=244c244%0a%3c (:foxtemplate ":Section: {$$section}":)%0a---%0a> (:foxtemplate ":Section: {$$section":)%0a
+host:1612474805=74.109.247.199
+author:1612474762=TA_lili
+diff:1612474762:1612474672:=240d239%0a%3c * {=$FullName}%0a
+host:1612474762=74.109.247.199
+author:1612474672=TA_lili
+diff:1612474672:1612469096:=235,246d234%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#fixsections]]%0a%3c (:template each:)%0a%3c (:fox fixSection foxaction=replace put=string target={=$FullName}:)%0a%3c (:input hidden section {Profiles.{=$Author}$:section}:)%0a%3c (:input hidden mark ":Section: ":)%0a%3c (:foxtemplate ":Section: {$$section":)%0a%3c (:input submit post:)%0a%3c (:foxend fixSection:)%0a%3c [[#fixsectionsend]]%0a
+host:1612474672=74.109.247.199
+author:1612469096=TA_lili
+diff:1612469096:1612468955:=225,235d224%0a%3c (:if false:)%0a%3c [[#gradebookexplist]]%0a%3c (:template each:)%0a%3c * Expansion on {=$:Original}%0a%3c -> Expansion: [[{=$FullName}|{=$:Expansion}]]%0a%3c -> Category: {=$:Category}%0a%3c -> '''status:''' {=$:Status}%0a%3c -> graded by: {=$:GradedBy}%0a%3c -> Completed: {=$:Completed}%0a%3c [[#gradebookexplistend]]%0a%3c (:ifend:)%0a\ No newline at end of file%0a
+host:1612469096=74.109.247.199
+author:1612468955=TA_lili
+diff:1612468955:1612364309:=212,222d211%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#gradebooklist]]%0a%3c (:template each:)%0a%3c * [[GradebookArticles.{=$Name} | {=$Name}]]%0a%3c -> Category: {=$:Category}%0a%3c -> '''status:''' {=$:Status}%0a%3c -> graded by: {=$:GradedBy}%0a%3c -> Completed: {=$:Completed}%0a%3c [[#gradebooklistend]]%0a
+host:1612468955=74.109.247.199
+author:1612364309=
+diff:1612364309:1611960802:=144d143%0a%3c -> [[Articles.{=$Name}?action=edit | Edit my article ]]%0a
+host:1612364309=74.109.247.199
+author:1611960802=
+diff:1611960802:1611960697:=11c11%0a%3c (:input checkbox articles[] value={=$FullName} label={=$FullName}:) \\%0a---%0a> (:input checkbox articles[] value={=$FullName} label={=$FullName}:)%0a
+host:1611960802=74.109.247.199
+author:1611960697=
+diff:1611960697:1611959946:=3d2%0a%3c (:template each:)%0a10,11c9,10%0a%3c (:template each:)%0a%3c (:input checkbox articles[] value={=$FullName} label={=$FullName}:)%0a---%0a> * {=$Name}%0a> -> {[foxdelpage button target=Articles.{=$Name},GradebookArticles.{=$Name} label="Delete article and gradebook entry"]}%0a
+host:1611960697=74.109.247.199
+author:1611959946=
+diff:1611959946:1611959836:=9,10c9%0a%3c * {=$Name}%0a%3c -> {[foxdelpage button target=Articles.{=$Name},GradebookArticles.{=$Name} label="Delete article and gradebook entry"]}%0a---%0a> * {[foxdelpage button target=Articles.{=$Name},GradebookArticles.{=$Name} label="Delete article and gradebook entry"]}%0a
+host:1611959946=74.109.247.199
+author:1611959836=
+diff:1611959836:1611958597:=6,11d5%0a%3c %0a%3c (:if false:)%0a%3c [[#deletearticles]]%0a%3c * {[foxdelpage button target=Articles.{=$Name},GradebookArticles.{=$Name} label="Delete article and gradebook entry"]}%0a%3c [[#deletearticlesend]]%0a%3c (:ifend:)%0a
+host:1611959836=74.109.247.199
+author:1611958597=
+diff:1611958597:1611935162:=
+host:1611958597=74.109.247.199
+author:1611935162=student1
+diff:1611935162:1611878989:=53c53%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$:Author}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a
+host:1611935162=74.109.247.199
+author:1611878989=student2
+diff:1611878989:1611878316:=198,199d197%0a%3c (:template none:)%0a%3c --%0a
+host:1611878989=74.109.247.199
+author:1611878316=student2
+diff:1611878316:1611877664:=194c194,209%0a%3c %0a---%0a> (:if false:)%0a> [[#gradebooksummary]]%0a> (:template each:)%0a> !!{=$Name}%0a> !!!! Ungraded%0a> -> articles: (:pagelist group=GradebookArticles $:Category={$$category} $:Status=ungraded fmt=Templates.PagelistTemplates#simplecount :)%0a> -> expansions: (:pagelist group=GradebookExpansions $:Category={$$category} $:Status=ungraded fmt=Templates.PagelistTemplates#simplecount :)%0a> !!!! Needs Revised%0a> %0a> !!!! Revised%0a> %0a> !!!! Complete%0a> %0a> !!!! No points%0a> [[#gradebooksummaryend]]%0a> (:ifend:)%0a
+host:1611878316=74.109.247.199
+author:1611877664=student2
+diff:1611877664:1611805264:=1c1%0a%3c (:if false:)%0a---%0a> '^Superscript^'(:if false:)%0a34c34%0a%3c (:input select Category {=$Name} label="{=$Titlespaced}":)%0a---%0a> (:input select category {=$Name} label="{=$Titlespaced}":)%0a36c36%0a%3c (:input select Category {=$Name} label="{=$Titlespaced} (article deadline passed)":)%0a---%0a> (:input select category {=$Name} label="{=$Titlespaced} (article deadline passed)":)%0a
+host:1611877664=74.109.247.199
+author:1611805264=
+diff:1611805264:1611778657:=1c1%0a%3c '^Superscript^'(:if false:)%0a---%0a> (:if false:)%0a192,215d191%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#gradebooksummary]]%0a%3c (:template each:)%0a%3c !!{=$Name}%0a%3c !!!! Ungraded%0a%3c -> articles: (:pagelist group=GradebookArticles $:Category={$$category} $:Status=ungraded fmt=Templates.PagelistTemplates#simplecount :)%0a%3c -> expansions: (:pagelist group=GradebookExpansions $:Category={$$category} $:Status=ungraded fmt=Templates.PagelistTemplates#simplecount :)%0a%3c !!!! Needs Revised%0a%3c %0a%3c !!!! Revised%0a%3c %0a%3c !!!! Complete%0a%3c %0a%3c !!!! No points%0a%3c [[#gradebooksummaryend]]%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#simplecount]]%0a%3c (:template last:)%0a%3c {$$PageCount}%0a%3c [[#simplecountend]]%0a
+host:1611805264=74.109.247.199
+author:1611778657=student2
+diff:1611778657:1611696954:=175,191c175,177%0a%3c [[#dashboardac]]%0a%3c * [[Articles.{=$Name} | {=$Name}]]%0a%3c -> Category: {=$:Category}%0a%3c -> '''status:''' {=$:Status}%0a%3c -> graded by: {=$:GradedBy}%0a%3c [[#dashboardacend]]%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardexpc]]%0a%3c (:template each:)%0a%3c * Expansion on {=$:Original}%0a%3c -> Expansion: {=$:Expansion}%0a%3c -> Category: {=$:Category}%0a%3c -> '''status:''' {=$:Status}%0a%3c -> graded by: {=$:GradedBy}%0a%3c [[#dashboardexpcend]]%0a---%0a> [[#dashboardcomplete]]%0a> %0a> [[#dashboardcompleteend]]%0a
+host:1611778657=74.109.247.199
+author:1611696954=student1
+diff:1611696954:1611693428:=134c134%0a%3c -> '''status:''' {=$:Status}%0a---%0a> -> '''status:''' {=$Status}%0a137,159d136%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardexpnR]]%0a%3c (:template none:)%0a%3c (:template each:)%0a%3c '''Expansion needs Revised:'''%0a%3c * Original article: [[Articles.{=$:Original} | {=$Original}]]%0a%3c -> Category: {=$:Category}%0a%3c -> graded by: {=$:GradedBy}%0a%3c -> Comments:%0a%3c (:include GradebookExpansions.{=$Name}#comments :)%0a%3c -> [[Articles.{=$:Original}?action=edit | Edit article ]]%0a%3c >>rfloat%3c%3c%0a%3c (:fox markRevised:)%0a%3c (:foxptv ptvtarget=GradebookExpansions.{=$Name} ptvfields=Status :)%0a%3c (:foxadd target=GradebookExpansions.{=$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a%3c (:input hidden Status revised:)%0a%3c (:input submit post "Mark Revised":)%0a%3c (:foxend markRevised:)%0a%3c >>%3c%3c%0a%3c ----%0a%3c [[#dashboardexpnRend]]%0a
+host:1611696954=74.109.247.199
+author:1611693428=student1
+diff:1611693428:1611615372:=1,6d0%0a%3c (:if false:)%0a%3c [[#titlespaced]]%0a%3c * {=$Titlespaced}%0a%3c [[#titlespacedend]]%0a%3c (:if end:)%0a%3c %0a
+host:1611693428=74.109.247.199
+author:1611615372=ta1
+diff:1611615372:1611615242:=137c137%0a%3c -> Expansion: {=$:Expansion}%0a---%0a> -> [[Articles/{=$:Original}#expansions|{=$:Expansion}]]%0a
+host:1611615372=74.109.247.199
+author:1611615242=ta1
+diff:1611615242:1611614887:=106d105%0a%3c -> Category: {=$:Category}%0a127d125%0a%3c -> Category: {=$:Category}%0a136,138c134,135%0a%3c * Expansion on {=$:Original}%0a%3c -> [[Articles/{=$:Original}#expansions|{=$:Expansion}]]%0a%3c -> Category: {=$:Category}%0a---%0a> * Expansion on [[Articles/{=$:Original}|{=$:Original}]]%0a> -> ''{=$:Expansion}''%0a
+host:1611615242=74.109.247.199
+author:1611614887=ta1
+diff:1611614887:1611614586:=134c134%0a%3c * Expansion on [[Articles/{=$:Original}|{=$:Original}]]%0a---%0a> * Expansion on [[Articles.{=$:Original}| {=$:Original}]]%0a
+host:1611614887=74.109.247.199
+author:1611614586=ta1
+diff:1611614586:1611614186:=134c134%0a%3c * Expansion on [[Articles.{=$:Original}| {=$:Original}]]%0a---%0a> * Expansion on [[Articles.{=$:Original} | {=$:Original}]]%0a
+host:1611614586=74.109.247.199
+author:1611614186=student1
+diff:1611614186:1611613667:=126d125%0a%3c -> '''status:''' {=$Status}%0a129,138d127%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardexpwip]]%0a%3c (:template each:)%0a%3c * Expansion on [[Articles.{=$:Original} | {=$:Original}]]%0a%3c -> ''{=$:Expansion}''%0a%3c -> '''status:''' {=$:Status}%0a%3c -> graded by: {=$:GradedBy}%0a%3c [[#dashboardexpwipend]]%0a
+host:1611614186=74.109.247.199
+author:1611613667=student1
+diff:1611613667:1611613433:=98,99d97%0a%3c %0a%3c %0a101c99%0a%3c [[#dashboardAnR]]%0a---%0a> [[#dashboardneedsr]]%0a102a101%0a> (no work needs to be revised at this time)%0a104c103%0a%3c '''Needs Revised:'''%0a---%0a> (:if1 equal {=$Group} GradebookArticles:)%0a105a105,124%0a> -> '''status:''' {=$:Status}%0a> -> '''graded by:''' {=$:GradedBy}%0a> %0a> Notes:%0a> %0a> (:include {=$FullName}#comments :)%0a> %0a> (:if1else:)%0a> %0a> (:if1end:)%0a> [[#dashboardneedsrend]]%0a> (:ifend:)%0a> %0a> (:if false:)%0a> [[#dashboardAnR]]%0a> (:template none:)%0a> (:template each:)%0a> (:if1 equal {=$Group} GradebookArticles:)%0a> '''Needs Revised:'''%0a> * [[Articles.{=$Name} | {=$Name}]]%0a121,129d139%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardwip]]%0a%3c (:template each:)%0a%3c * [[Articles.{=$Name} | {=$Name}]]%0a%3c -> graded by: {=$:GradedBy}%0a%3c [[#dashboardwipend]]%0a%3c (:ifend:)%0a%3c %0a
+host:1611613667=74.109.247.199
+author:1611613433=student1
+diff:1611613433:1611613290:=119c119%0a%3c [[#dashboardAnR]]%0a---%0a> [[#dashboardnR]]%0a132d131%0a%3c (:foxadd target=GradebookArticles.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a137,138c136,137%0a%3c ----%0a%3c [[#dashboardAnRend]]%0a---%0a> %0a> [[#dashboardnRend]]%0a
+host:1611613433=74.109.247.199
+author:1611613290=student1
+diff:1611613290:1611613200:=129,135c129%0a%3c >>rfloat%3c%3c%0a%3c (:fox markRevised:)%0a%3c (:foxptv ptvtarget=GradebookArticles.{=$Name} ptvfields=Status :)%0a%3c (:input hidden Status revised:)%0a%3c (:input submit post "Mark Revised":)%0a%3c (:foxend markRevised:)%0a%3c >>%3c%3c%0a---%0a> -> (:foxform Site.FoxForms#markRevised:)%0a
+host:1611613290=74.109.247.199
+author:1611613200=student1
+diff:1611613200:1611613078:=130c130,132%0a%3c %0a---%0a> (:if1else:)%0a> %0a> (:if1end:)%0a
+host:1611613200=74.109.247.199
+author:1611613078=student1
+diff:1611613078:1611612969:=128,129c128,129%0a%3c -> [[Articles.{=$Name}?action=edit | Edit article ]]%0a%3c -> (:foxform Site.FoxForms#markRevised:)%0a---%0a> -> [[Articles.{=$Name}#content?action=edit | Edit article ]]%0a> -> (:foxform Site.FoxForms#markRevised name={=$Name}:)%0a
+host:1611613078=74.109.247.199
+author:1611612969=student1
+diff:1611612969:1611612894:=124,125c124,125%0a%3c * [[Articles.{=$Name} | {=$Name}]]%0a%3c -> graded by: {=$:GradedBy}%0a---%0a> * [[Articles.{$Name} | {$Name}]]%0a> -> [- graded by: {=$:GradedBy} -]%0a128c128%0a%3c -> [[Articles.{=$Name}#content?action=edit | Edit article ]]%0a---%0a> -> [[Articles.{$Name}#content?action=edit | Edit article ]]%0a
+host:1611612969=74.109.247.199
+author:1611612894=student1
+diff:1611612894:1611612837:=129c129%0a%3c -> (:foxform Site.FoxForms#markRevised name={=$Name}:)%0a---%0a> -> (:foxform name={=$Name} Site.FoxForms#markRevised:)%0a
+host:1611612894=74.109.247.199
+author:1611612837=student1
+diff:1611612837:1611612765:=133c133%0a%3c [[#dashboardnRend]]%0a---%0a> [[#dashboardwipend]]%0a
+host:1611612837=74.109.247.199
+author:1611612765=student1
+diff:1611612765:1611603551:=119c119%0a%3c [[#dashboardnR]]%0a---%0a> [[#dashboardwip]]%0a120a121%0a> --%0a123,129c124,125%0a%3c '''Needs Revised:'''%0a%3c * [[Articles.{$Name} | {$Name}]]%0a%3c -> [- graded by: {=$:GradedBy} -]%0a%3c -> Comments:%0a%3c (:include GradebookArticles.{$Name}#comments :)%0a%3c -> [[Articles.{$Name}#content?action=edit | Edit article ]]%0a%3c -> (:foxform name={=$Name} Site.FoxForms#markRevised:)%0a---%0a> * [[Articles.{=$Name} | {=$Name}]]%0a> -> '''status:''' {=$:Status}%0a
+host:1611612765=74.109.247.199
+author:1611603551=student1
+diff:1611603551:1611603229:=97,116d96%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardneedsr]]%0a%3c (:template none:)%0a%3c (no work needs to be revised at this time)%0a%3c (:template each:)%0a%3c (:if1 equal {=$Group} GradebookArticles:)%0a%3c * [[Articles.{=$Name} | {=$Name}]]%0a%3c -> '''status:''' {=$:Status}%0a%3c -> '''graded by:''' {=$:GradedBy}%0a%3c %0a%3c Notes:%0a%3c %0a%3c (:include {=$FullName}#comments :)%0a%3c %0a%3c (:if1else:)%0a%3c %0a%3c (:if1end:)%0a%3c [[#dashboardneedsrend]]%0a%3c (:ifend:)%0a
+host:1611603551=74.109.247.199
+author:1611603229=student1
+diff:1611603229:1611600634:=1a2,9%0a> [[#testptvs]]%0a> (:template each:)%0a> * [[{=$FullName}]]%0a> -> {=$:author}%0a> [[#testptvsend]]%0a> (:if end:)%0a> %0a> (:if false:)%0a98,116c106%0a%3c (:if false:)%0a%3c [[#dashboardwip]]%0a%3c (:template none:)%0a%3c --%0a%3c (:template each:)%0a%3c (:if1 equal {=$Group} GradebookArticles:)%0a%3c * [[Articles.{=$Name} | {=$Name}]]%0a%3c -> '''status:''' {=$:Status}%0a%3c (:if1else:)%0a%3c %0a%3c (:if1end:)%0a%3c [[#dashboardwipend]]%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardcomplete]]%0a%3c %0a%3c [[#dashboardcompleteend]]%0a%3c (:ifend:)%0a---%0a> %0a
+host:1611603229=74.109.247.199
+author:1611600634=student1
+diff:1611600634:1611600566:=4c4%0a%3c * [[{=$FullName}]]%0a---%0a> * [[{$FullName}]]%0a
+host:1611600634=74.109.247.199
+author:1611600566=student1
+diff:1611600566:1611600513:=
+host:1611600566=74.109.247.199
+author:1611600513=student1
+diff:1611600513:1610641738:=1,8d0%0a%3c (:if false:)%0a%3c [[#testptvs]]%0a%3c (:template each:)%0a%3c * [[{$FullName}]]%0a%3c -> {=$:author}%0a%3c [[#testptvsend]]%0a%3c (:if end:)%0a%3c %0a
+host:1611600513=74.109.247.199
+author:1610641738=
+diff:1610641738:1608224108:=44a45,56%0a> %0a> (:if false:)%0a> [[#sidebarcategories]]%0a> (:template each:)%0a> (:if1 equal {=$:essential} yes:)%0a> * [[{=$FullName} | '''{=$Titlespaced}''']]%0a> (:else1:)%0a> * [[{=$FullName} | {=$Titlespaced}]]%0a> (:if1end:)%0a> [[#sidebarcategoriesend]]%0a> (:if end:)%0a> %0a61,72d72%0a%3c (:if end:)%0a%3c %0a%3c %0a%3c (:if false:)%0a%3c [[#sidebarcategories]]%0a%3c (:template each:)%0a%3c (:if1 equal {=$:essential} yes:)%0a%3c * [[{=$FullName} | '''{=$Titlespaced}''']]%0a%3c (:else1:)%0a%3c * [[{=$FullName} | {=$Titlespaced}]]%0a%3c (:if1end:)%0a%3c [[#sidebarcategoriesend]]%0a
+host:1610641738=74.109.247.199
+author:1608224108=
+diff:1608224108:1608224037:=30c30%0a%3c (:input select category {=$Name} label="{=$Titlespaced} (article deadline passed)":)%0a---%0a> (:input select category {=$Name} label="{=$Titlespaced} (late)":)%0a
+host:1608224108=74.109.247.199
+author:1608224037=
+diff:1608224037:1608223897:=28,29d27%0a%3c (:input select category {=$Name} label="{=$Titlespaced}":)%0a%3c (:else1:)%0a30a29,30%0a> (:else1:)%0a> (:input select category {=$Name} label="{=$Titlespaced}":)%0a
+host:1608224037=74.109.247.199
+author:1608223897=
+diff:1608223897:1608223652:=27,31c27%0a%3c (:if1 date ..{{=$:deadline}:)%0a%3c (:input select category {=$Name} label="{=$Titlespaced} (late)":)%0a%3c (:else1:)%0a%3c (:input select category {=$Name} label="{=$Titlespaced}":)%0a%3c (:if1end:)%0a---%0a> (:input select category {=$Name}:)%0a
+host:1608223897=74.109.247.199
+author:1608223652=
+diff:1608223652:1608160204:=46c46%0a%3c * [[{=$FullName} | '''{=$Titlespaced}''']]%0a---%0a> * '''{=$Titlespaced}'''%0a48c48%0a%3c * [[{=$FullName} | {=$Titlespaced}]]%0a---%0a> * {=$Titlespaced}%0a
+host:1608223652=74.109.247.199
+author:1608160204=
+diff:1608160204:1608160202:=
+host:1608160204=74.109.247.199
+author:1608160202=
+diff:1608160202:1608156559:=29,35d28%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#selectdeletecategory]]%0a%3c (:template each:)%0a%3c (:input select deletecategory {=$Name}:)%0a%3c [[#selectdeletecategoryend]]%0a
+host:1608160202=74.109.247.199
+author:1608156559=
+diff:1608156559:1608147289:=20d19%0a%3c -> Expansion deadline: {{=$FullName}$:expansiondeadline}%0a
+host:1608156559=74.109.247.199
+author:1608147289=
+diff:1608147289:1608147199:=42c42%0a%3c [[#sidebarcategoriesend]]%0a---%0a> [[#categorypagesend]]%0a
+host:1608147289=74.109.247.199
+author:1608147199=
+diff:1608147199:1608071442:=33,43d32%0a%3c %0a%3c (:if false:)%0a%3c [[#sidebarcategories]]%0a%3c (:template each:)%0a%3c (:if1 equal {=$:essential} yes:)%0a%3c * '''{=$Titlespaced}'''%0a%3c (:else1:)%0a%3c * {=$Titlespaced}%0a%3c (:if1end:)%0a%3c [[#categorypagesend]]%0a%3c (:if end:)%0a
+host:1608147199=74.109.247.199
+author:1608071442=
+diff:1608071442:1608059848:=21,27d20%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#selectcategory]]%0a%3c (:template each:)%0a%3c (:input select category {=$Name}:)%0a%3c [[#selectcategoryend]]%0a
+host:1608071442=74.109.247.199
+author:1608059848=
+diff:1608059848:1608059776:=15c15%0a%3c * '''[[{=$FullName} | {=$Titlespaced}]]''' (essential)%0a---%0a> * '''{=$FullName}'''%0a17c17%0a%3c * [[{=$FullName} | {=$Titlespaced}]]%0a---%0a> * {=$FullName}%0a
+host:1608059848=74.109.247.199
+author:1608059776=
+diff:1608059776:1608059745:=19c19%0a%3c -> Deadline: {{=$FullName}$:deadline}%0a---%0a> * Deadline: {{=$FullName}$:essential}%0a
+host:1608059776=74.109.247.199
+author:1608059745=
+diff:1608059745:1608059628:=16c16%0a%3c (:else1:)%0a---%0a> (:if1 else:)%0a
+host:1608059745=74.109.247.199
+author:1608059628=
+diff:1608059628:1601586920:=12c12%0a%3c [[#categorylist]]%0a---%0a> [[#fullname]]%0a14,16d13%0a%3c (:if1 equal {{=$FullName}$:essential} yes:)%0a%3c * '''{=$FullName}'''%0a%3c (:if1 else:)%0a18,20c15%0a%3c (:if1end:)%0a%3c * Deadline: {{=$FullName}$:essential}%0a%3c [[#categorylistend]]%0a---%0a> [[#fullnameend]]%0a68a64,332%0a> %0a> %0a> %0a> (:if false:)%0a> [[#gradingarticles]]%0a> (:template first:)%0a> [++ Articles ++]%0a> ----%0a> (:template each:)%0a> ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$CreatedBy} %0a> \\%0a> -> '''{=$:status}''' %0a> (:if1 equal {=$:status} complete:)-> [+ Graded by: {=$:gradedBy} +](:if1end:)%0a> (:if2 equal {=$:status} requiresRevisions:)%0a> [+ Notes: {=$:notes} +]%0a> (:if2end:)%0a> %0a> \\%0a> (:fox newArticle ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a> (:input default status {$:status}:)%0a> (:input checkbox status complete:) Complete%0a> (:input checkbox status requiresRevisions:) Requires Revisions %0a> (:input checkbox status noPoints:) No Points \\%0a> (:input default notes "{$:notes}":)%0a> (:input text notes size=80:)%0a> (:input hidden gradedBy {$Author}:)%0a> \\%0a> %0a> (:input submit post:)%0a> (:foxend newArticle:)%0a> %0a> ----%0a> %0a> (:template none:)%0a> (no articles)%0a> [[#gradingarticlesend]]%0a> (:ifend:)%0a> %0a> (:if false:)%0a> [[#gradingexpansions]]%0a> (:template first:)%0a> [++ Expansions ++]%0a> ----%0a> (:template each:)%0a> %0a> [+[[{=$FullName}|{=$Titlespaced}]]+]%0a> (:include {=$FullName}#expansions:)%0a> (:fox expansion ptvtarget={=$FullName} ptvfields={*$:student},{*$:student}notes:)%0a> (:input default {*$:student} {=$:{*$:student}}:)%0a> (:input select name="{*$:student}" value=submitted label="submitted":)%0a> (:input select name="{*$:student}" value=complete label="complete":)%0a> (:input select name="{*$:student}" value=requiresRevisions label="requires revisions":) %0a> (:input select name="{*$:student}" value=noPoints label="no points":) %0a> (:input default {*$:student}notes "{$:notes}":)%0a> (:input text {*$:student}notes size=80:)%0a> (:input hidden gradedBy {$Author}:)%0a> (:input submit post:)%0a> (:foxend expansion:)%0a> %0a> (:include {=$FullName}#expansions:)%0a> %0a> ----%0a> %0a> (:template none:)%0a> (no expansions)%0a> [[#gradingexpansionsend]]%0a> (:ifend:)%0a> %0a> %0a> (:if false:)%0a> [[#simpleexpansion]]%0a> (:template each:)%0a> [+ Article: +] [[{=$FullName}|{=$Titlespaced}]] \\%0a> [+ Expansion status: +] {=$:{$$student}} \\%0a> (:template none:)%0a> (no expansions)%0a> ----%0a> (:template last:)%0a> ----%0a> [[#simpleexpansionend]]%0a> (:ifend:)%0a> %0a> %0a> (:if false:)%0a> [[#gradingeli5]]%0a> (:template first:)%0a> [++ ELI5 ++]%0a> ----%0a> (:template each:)%0a> [+[[{=$FullName}|{=$Titlespaced}]]+]%0a> (:include {=$FullName}#expansions:)%0a> \\%0a> (:fox expansion ptvtarget={=$FullName} ptvfields={*$:student},{*$:student}notes:)%0a> (:input default {*$:student} {=$:{*$:student}}:)%0a> (:input select name="{*$:student}" value=submitted label="submitted":)%0a> (:input select name="{*$:student}" value=complete label="complete":)%0a> (:input select name="{*$:student}" value=requiresRevisions label="requires revisions":) %0a> (:input select name="{*$:student}" value=noPoints label="no points":) %0a> %0a> (:input default {*$:student}notes "{$:notes}":)%0a> (:input text {*$:student}notes size=80:)%0a> (:input hidden gradedBy {$Author}:)%0a> \\%0a> (:input submit post:)%0a> (:foxend expansion:)%0a> (:template none:)%0a> (no ELI5 articles)%0a> [[#gradingeli5end]]%0a> (:ifend:)%0a> %0a> %0a> %0a> %0a> %0a> (:if false:)%0a> [[#eli5prompts]]%0a> (:template each:)%0a> %0a> ----%0a> %0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a> %0a> (:template last:)%0a> %0a> ----%0a> ----%0a> %0a> (:template none:)%0a> %0a> --%0a> %0a> [[#eli5promptsend]]%0a> (:ifend:)%0a> %0a> %0a> %0a> %0a> (:if false:)%0a> [[#eli5answers]]%0a> (:template each:)%0a> %0a> ----%0a> %0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a> %0a> -> (:include {=$FullName}#summary:)%0a> %0a> (:template last:)%0a> %0a> ----%0a> ----%0a> %0a> (:template none:)%0a> %0a> --%0a> %0a> [[#eli5answersend]]%0a> (:ifend:)%0a> %0a> %0a> (:if false:)%0a> [[#simplesection]]%0a> (:template first:)%0a> {=$Name}%0a> [[#simplesectionend]]%0a> (:ifend:)%0a> %0a> (:if false:)%0a> [[#simplearticle]]%0a> (:template each:)%0a> [-[[{=$Name}]]-] -- [-{=$:status}-]%0a> (:template none:)%0a> --%0a> [[#simplearticleend]]%0a> (:ifend:)%0a> %0a> (:if false:)%0a> [[#simpleexpansion]]%0a> (:template each:)%0a> [-[[{=$Name}]]-] -- [-{=$:{*$Name}}-]%0a> (:template none:)%0a> --%0a> [[#simpleexpansionend]]%0a> (:ifend:)%0a> %0a> (:if false:)%0a> [[#simplecount]]%0a> (:template last:)%0a> {$$PageCount}%0a> (:template none:)%0a> 0%0a> [[#simplecountend]]%0a> (:ifend:)%0a> %0a> %0a> (:if false:)%0a> [[#tidbits]]%0a> (:template each:)%0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a> (:template none:)%0a> --%0a> [[#tidbitsend]]%0a> (:ifend:)%0a> %0a> %0a> (:if false:)%0a> [[#dashboardarticles]]%0a> (:template each:)%0a> * [[{=$FullName}|{=$Titlespaced}]]%0a> -> '''status:''' {=$:status}%0a> (:if2 equal {=$:status} requiresRevisions:)%0a> -> '''notes:''' {=$:notes} %0a> (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a> (:input hidden status revised:)%0a> -> '''mark revised:''' (:input submit post:)%0a> (:foxend markRevised:)%0a> (:if2end:)%0a> -> '''graded By:''' {=$:gradedBy}%0a> -> '''category:''' (:include {=$FullName} lines=1:)%0a> (:template none:)%0a> [[#dashboardarticlesend]]%0a> (:if end:)%0a> %0a> %0a> (:if false:)%0a> [[#dashboardexpansions]]%0a> (:template each:)%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) %0a> -> '''status:''' {{=$FullName}$:{=$Author}}%0a> (:if2 equal {{=$FullName}$:{=$Author}} requiresRevisions:)%0a> -> '''notes:''' {{=$FullName}$:{=$Author}notes} %0a> (:if2end:)%0a> -> '''graded By:''' {{=$FullName}$:{=$Author}gradedBy}%0a> -> '''category:''' (:include {=$FullName} lines=1:)%0a> (:template none:)%0a> [[#dashboardexpansionsend]]%0a> (:if end:)%0a> %0a> (:if false:)%0a> [[#dashboardeli5]]%0a> (:template each:)%0a> * [[{=$FullName}|{=$Titlespaced}]] (eli5 question)%0a> -> '''status:''' {=$:status}%0a> (:if2 equal {=$:status} requiresRevisions:)%0a> -> '''notes:''' {=$:notes} %0a> (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a> (:input hidden status revised:)%0a> -> '''mark revised:''' (:input submit post:)%0a> (:foxend markRevised:)%0a> (:if2end:)%0a> -> '''graded By:''' {=$:gradedBy}%0a> -> '''category:''' (:include {=$FullName} lines=1:)%0a> (:template none:)%0a> [[#dashboardeli5end]]%0a> (:if end:)%0a> %0a> (:if false:)%0a> [[#dashboardeli5answers]]%0a> (:template each:)%0a> * [[{=$FullName}|{=$Titlespaced}]] (eli5 answer)%0a> -> {{=$FullName}$:{=$Author}}%0a> (:if2 equal {{=$FullName}$:{=$Author}} requiresRevisions:)%0a> -> '''notes:''' {{=$FullName}$:{=$Author}notes} %0a> (:if2end:)%0a> -> '''graded By:''' {{=$FullName}$:{=$Author}gradedBy}%0a> -> '''category:''' (:include {=$FullName} lines=1:)%0a> (:template none:)%0a> [[#dashboardeli5answersend]]%0a> (:if end:)%0a
+host:1608059628=74.109.247.199
+author:1601586920=
+diff:1601586920:1601059148:=207c207%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$LastModifiedBy}%0a
+host:1601586920=108.32.35.122
+author:1601059148=
+diff:1601059148:1600974677:=291,292c291,292%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) %0a%3c -> '''status:''' {{=$FullName}$:{=$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {{=$FullName}$:{=$Author}}%0a> -> status: {{=$FullName}$:{=$Author}}%0a
+host:1601059148=108.32.35.122
+author:1600974677=will
+diff:1600974677:1600974638:=14c14%0a%3c * {=$FullName}%0a---%0a> * {$FullName}%0a
+host:1600974677=108.32.35.122
+author:1600974638=will
+diff:1600974638:1600719661:=11,16d10%0a%3c (:if false:)%0a%3c [[#fullname]]%0a%3c (:template each:)%0a%3c * {$FullName}%0a%3c [[#fullnameend]]%0a%3c (:ifend:)%0a
+host:1600974638=108.32.35.122
+author:1600719661=test_TA
+diff:1600719661:1600634097:=45c45%0a%3c -> Category: (:include {=$FullName} lines=1:)%0a---%0a> %0a
+host:1600719661=108.32.35.122
+author:1600634097=
+diff:1600634097:1600633951:=131c131%0a%3c [+ Expansion status: +] {=$:{$$student}} \\%0a---%0a> [+ Expansion status: +] {=$:{$$student}}%0a
+host:1600634097=108.32.35.122
+author:1600633951=
+diff:1600633951:1600633659:=129a130%0a> %0a
+host:1600633951=108.32.35.122
+author:1600633659=
+diff:1600633659:1600633593:=130d129%0a%3c %0a132c131,132%0a%3c [+ Expansion status: +] {=$:{$$student}}%0a---%0a> [+ Expansion status: +] {=$:{$$student}} \\%0a> ----%0a135,137d134%0a%3c ----%0a%3c (:template last:)%0a%3c ----%0a
+host:1600633659=108.32.35.122
+author:1600633593=
+diff:1600633593:1600633420:=130,132c130,131%0a%3c [+ Article: +] [[{=$FullName}|{=$Titlespaced}]] \\%0a%3c [+ Expansion status: +] {=$:{$$student}} \\%0a%3c ----%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] \\%0a> Expansion status: {=$:{$$student}} \\%0a
+host:1600633593=108.32.35.122
+author:1600633420=
+diff:1600633420:1600633397:=130c130%0a%3c [[{=$FullName}|{=$Titlespaced}]] \\%0a---%0a> [[{=$FullName}|{=$Titlespaced]] \\%0a
+host:1600633420=108.32.35.122
+author:1600633397=
+diff:1600633397:1600572885:=130c130%0a%3c [[{=$FullName}|{=$Titlespaced]] \\%0a---%0a> [[{=$FullName}]] \\%0a
+host:1600633397=108.32.35.122
+author:1600572885=will
+diff:1600572885:1600572836:=130a131%0a> Article Author: {=$CreatedBy} \\%0a
+host:1600572885=108.32.35.122
+author:1600572836=will
+diff:1600572836:1600572309:=
+host:1600572836=108.32.35.122
+author:1600572309=will
+diff:1600572309:1600572198:=128a129,131%0a> (:template first:)%0a> [++ Expansions ++]%0a> ----%0a129a133%0a> %0a
+host:1600572309=108.32.35.122
+author:1600572198=will
+diff:1600572198:1600570806:=136c136,137%0a%3c Expansion status: {=$:{$$student}} \\%0a---%0a> Expansions: \\%0a> (:include {=$FullName#expansions}:)%0a
+host:1600572198=108.32.35.122
+author:1600570806=will
+diff:1600570806:1600570698:=134c134%0a%3c [[{=$FullName}]] \\%0a---%0a> [[{=$Name}]] \\%0a
+host:1600570806=108.32.35.122
+author:1600570698=will
+diff:1600570698:1600392533:=125,142d124%0a%3c %0a%3c %0a%3c (:if false:)%0a%3c [[#simpleexpansion]]%0a%3c (:template first:)%0a%3c [++ Expansions ++]%0a%3c ----%0a%3c (:template each:)%0a%3c %0a%3c [[{=$Name}]] \\%0a%3c Article Author: {=$CreatedBy} \\%0a%3c Expansions: \\%0a%3c (:include {=$FullName#expansions}:)%0a%3c (:template none:)%0a%3c (no expansions)%0a%3c [[#simpleexpansionend]]%0a%3c (:ifend:)%0a%3c %0a
+host:1600570698=108.32.35.122
+author:1600392533=will
+diff:1600392533:1600302163:=
+host:1600392533=108.32.35.122
+author:1600302163=will
+diff:1600302163:1600302101:=293c293%0a%3c -> '''graded By:''' {=$:gradedBy}%0a---%0a> -> graded By: {=$:gradedBy}%0a
+host:1600302163=108.32.35.122
+author:1600302101=will
+diff:1600302101:1600300996:=254a255%0a> -> '''graded By:''' {=$:gradedBy}%0a260d260%0a%3c -> '''graded By:''' {=$:gradedBy}%0a274d273%0a%3c (:if2end:)%0a275a275%0a> (:if2end:)%0a287a288%0a> -> graded By: {=$:gradedBy}%0a293d293%0a%3c -> graded By: {=$:gradedBy}%0a306d305%0a%3c (:if2end:)%0a307a307%0a> (:if2end:)%0a
+host:1600302101=108.32.35.122
+author:1600300996=will
+diff:1600300996:1600300070:=289,292d288%0a%3c (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a%3c (:input hidden status revised:)%0a%3c -> '''mark revised:''' (:input submit post:)%0a%3c (:foxend markRevised:)%0a
+host:1600300996=108.32.35.122
+author:1600300070=will
+diff:1600300070:1600299923:=274a275,278%0a> (:fox markRevised ptvtarget={=$FullName} ptvfields={=$Author}:)%0a> (:input hidden {=$Author} revised:)%0a> -> '''mark revised:''' (:input submit post:)%0a> (:foxend markRevised:)%0a288a293,296%0a> (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a> (:input hidden status revised:)%0a> -> '''mark revised:''' (:input submit post:)%0a> (:foxend markRevised:)%0a302a311,314%0a> (:fox markRevised ptvtarget={=$FullName} ptvfields={=$Author}:)%0a> (:input hidden {=$Author} revised:)%0a> -> '''mark revised:''' (:input submit post:)%0a> (:foxend markRevised:)%0a
+host:1600300070=108.32.35.122
+author:1600299923=will
+diff:1600299923:1600294835:=275,278d274%0a%3c (:fox markRevised ptvtarget={=$FullName} ptvfields={=$Author}:)%0a%3c (:input hidden {=$Author} revised:)%0a%3c -> '''mark revised:''' (:input submit post:)%0a%3c (:foxend markRevised:)%0a293,296d288%0a%3c (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a%3c (:input hidden status revised:)%0a%3c -> '''mark revised:''' (:input submit post:)%0a%3c (:foxend markRevised:)%0a311,314d302%0a%3c (:fox markRevised ptvtarget={=$FullName} ptvfields={=$Author}:)%0a%3c (:input hidden {=$Author} revised:)%0a%3c -> '''mark revised:''' (:input submit post:)%0a%3c (:foxend markRevised:)%0a
+host:1600299923=108.32.35.122
+author:1600294835=will
+diff:1600294835:1600294385:=247a248%0a> %0a256,259d256%0a%3c (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a%3c (:input hidden status revised:)%0a%3c -> '''mark revised:''' (:input submit post:)%0a%3c (:foxend markRevised:)%0a263a261,278%0a> (:if end:)%0a> %0a> (:if false:)%0a> [[#dashboardarticles2]]%0a> (:template each:)%0a> * [[{=$FullName}|{=$Titlespaced}]]%0a> -> '''status:''' {=$:status}%0a> (:if2 equal {=$:status} requiresRevisions:)%0a> -> '''notes:''' {=$:notes} %0a> -> '''graded By:''' {=$:gradedBy}%0a> (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a> (:input hidden status revised:)%0a> -> '''mark revised:''' (:input submit post:)%0a> (:foxend markRevised:)%0a> (:if2end:)%0a> -> '''category:''' (:include {=$FullName} lines=1:)%0a> (:template none:)%0a> [[#dashboardarticles2end]]%0a
+host:1600294835=108.32.35.122
+author:1600294385=will
+diff:1600294385:1600294058:=273c273%0a%3c -> '''mark revised:''' (:input submit post:)%0a---%0a> Mark revised: (:input submit post:)%0a
+host:1600294385=108.32.35.122
+author:1600294058=will
+diff:1600294058:1600197834:=262,280d261%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardarticles2]]%0a%3c (:template each:)%0a%3c * [[{=$FullName}|{=$Titlespaced}]]%0a%3c -> '''status:''' {=$:status}%0a%3c (:if2 equal {=$:status} requiresRevisions:)%0a%3c -> '''notes:''' {=$:notes} %0a%3c -> '''graded By:''' {=$:gradedBy}%0a%3c (:fox markRevised ptvtarget={=$FullName} ptvfields=status:)%0a%3c (:input hidden status revised:)%0a%3c Mark revised: (:input submit post:)%0a%3c (:foxend markRevised:)%0a%3c (:if2end:)%0a%3c -> '''category:''' (:include {=$FullName} lines=1:)%0a%3c (:template none:)%0a%3c [[#dashboardarticles2end]]%0a%3c (:if end:)%0a%3c %0a
+host:1600294058=108.32.35.122
+author:1600197834=test_student
+diff:1600197834:1600197795:=20c20%0a%3c -> (:include {=$FullName}#summary:)%0a---%0a> -> (:include #summary:)%0a
+host:1600197834=108.32.35.122
+author:1600197795=test_student
+diff:1600197795:1600105475:=20c20%0a%3c -> (:include #summary:)%0a---%0a> -> (:include {=$FullName}#summary:)%0a
+host:1600197795=108.32.35.122
+author:1600105475=will
+diff:1600105475:1600105396:=253c253%0a%3c -> '''status:''' {=$:status}%0a---%0a> -> ''status:'' {=$:status}%0a255,256c255,256%0a%3c -> '''notes:''' {=$:notes} %0a%3c -> '''graded By:''' {=$:gradedBy}%0a---%0a> -> ''notes:'' {=$:notes} %0a> -> ''graded By:'' {=$:gradedBy}%0a
+host:1600105475=108.32.35.122
+author:1600105396=will
+diff:1600105396:1600100689:=253c253%0a%3c -> ''status:'' {=$:status}%0a---%0a> -> status: {=$:status}%0a255,256c255,256%0a%3c -> ''notes:'' {=$:notes} %0a%3c -> ''graded By:'' {=$:gradedBy}%0a---%0a> -> notes: {=$:notes} %0a> -> graded By: {=$:gradedBy}%0a258c258%0a%3c -> '''category:''' (:include {=$FullName} lines=1:)%0a---%0a> -> category: (:include {=$FullName} lines=1:)%0a269,270c269,270%0a%3c -> '''notes:''' {{=$FullName}$:{=$Author}notes} %0a%3c -> '''graded By:''' {{=$FullName}$:{=$Author}gradedBy}%0a---%0a> -> notes: {{=$FullName}$:{=$Author}notes} %0a> -> graded By: {{=$FullName}$:{=$Author}gradedBy}%0a272c272%0a%3c -> '''category:''' (:include {=$FullName} lines=1:)%0a---%0a> -> category: (:include {=$FullName} lines=1:)%0a281c281%0a%3c -> '''status:''' {=$:status}%0a---%0a> -> status: {=$:status}%0a283c283%0a%3c -> '''notes:''' {=$:notes} %0a---%0a> -> notes: {=$:notes} %0a286c286%0a%3c -> '''category:''' (:include {=$FullName} lines=1:)%0a---%0a> -> category: (:include {=$FullName} lines=1:)%0a297,298c297,298%0a%3c -> '''notes:''' {{=$FullName}$:{=$Author}notes} %0a%3c -> '''graded By:''' {{=$FullName}$:{=$Author}gradedBy}%0a---%0a> -> notes: {{=$FullName}$:{=$Author}notes} %0a> -> graded By: {{=$FullName}$:{=$Author}gradedBy}%0a300c300%0a%3c -> '''category:''' (:include {=$FullName} lines=1:)%0a---%0a> -> category: (:include {=$FullName} lines=1:)%0a
+host:1600105396=108.32.35.122
+author:1600100689=ayeshaG
+diff:1600100689:1600099523:=252,253c252%0a%3c * [[{=$FullName}|{=$Titlespaced}]]%0a%3c -> status: {=$:status}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$:status}%0a267,270c266,268%0a%3c -> status: {{=$FullName}$:{=$Author}}%0a%3c (:if2 equal {{=$FullName}$:{=$Author}} requiresRevisions:)%0a%3c -> notes: {{=$FullName}$:{=$Author}notes} %0a%3c -> graded By: {{=$FullName}$:{=$Author}gradedBy}%0a---%0a> (:if2 equal {=$:status} requiresRevisions:)%0a> -> notes: {=$:notes} %0a> -> graded By: {=$:gradedBy}%0a280,281c278%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (eli5 question)%0a%3c -> status: {=$:status}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (eli5 question) -- {=$:status}%0a294,298c291,294%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (eli5 answer)%0a%3c -> {{=$FullName}$:{=$Author}}%0a%3c (:if2 equal {{=$FullName}$:{=$Author}} requiresRevisions:)%0a%3c -> notes: {{=$FullName}$:{=$Author}notes} %0a%3c -> graded By: {{=$FullName}$:{=$Author}gradedBy}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (eli5 answer) -- {{=$FullName}$:{=$Author}}%0a> (:if2 equal {=$:status} requiresRevisions:)%0a> -> notes: {=$:notes} %0a> -> graded By: {=$:gradedBy}%0a
+host:1600100689=108.32.35.122
+author:1600099523=rachelY
+diff:1600099523:1600099490:=258a259%0a> --%0a271a273%0a> --%0a284a287%0a> --%0a297a301%0a> --%0a
+host:1600099523=108.32.35.122
+author:1600099490=rachelY
+diff:1600099490:1600099437:=236,237c236,237%0a%3c %0a%3c %0a---%0a> %3c%3c%3c%3c%3c%3c%3c %0a> %0a246,248c246,248%0a%3c %0a%3c %0a%3c %0a---%0a> =======%0a> %0a> %0a304c304%0a%3c %0a---%0a> >>>>>>> %0a
+host:1600099490=108.32.35.122
+author:1600099437=
+diff:1600099437:1599951891:=236,237c236,237%0a%3c %3c%3c%3c%3c%3c%3c%3c %0a%3c %0a---%0a> %0a> %0a239c239%0a%3c [[#tidbits]]%0a---%0a> [[#dashboardarticles]]%0a241c241,246%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$:status}%0a> (:if2 equal {=$:status} requiresRevisions:)%0a> -> notes: {=$:notes} %0a> -> graded By: {=$:gradedBy}%0a> (:if2end:)%0a> -> category: (:include {=$FullName} lines=1:)%0a244,248c249,251%0a%3c [[#tidbitsend]]%0a%3c (:ifend:)%0a%3c =======%0a%3c %0a%3c %0a---%0a> [[#dashboardarticlesend]]%0a> (:if end:)%0a> %0a250c253%0a%3c [[#dashboardarticles]]%0a---%0a> [[#dashboardexpansions]]%0a252c255%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$:status}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {{=$FullName}$:{=$Author}}%0a260c263%0a%3c [[#dashboardarticlesend]]%0a---%0a> [[#dashboardexpansionsend]]%0a264c267%0a%3c [[#dashboardexpansions]]%0a---%0a> [[#dashboardeli5]]%0a266c269%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {{=$FullName}$:{=$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (eli5 question) -- {=$:status}%0a274c277%0a%3c [[#dashboardexpansionsend]]%0a---%0a> [[#dashboardeli5end]]%0a278c281%0a%3c [[#dashboardeli5]]%0a---%0a> [[#dashboardeli5answers]]%0a280c283%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (eli5 question) -- {=$:status}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (eli5 answer) -- {{=$FullName}$:{=$Author}}%0a288,301d290%0a%3c [[#dashboardeli5end]]%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardeli5answers]]%0a%3c (:template each:)%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (eli5 answer) -- {{=$FullName}$:{=$Author}}%0a%3c (:if2 equal {=$:status} requiresRevisions:)%0a%3c -> notes: {=$:notes} %0a%3c -> graded By: {=$:gradedBy}%0a%3c (:if2end:)%0a%3c -> category: (:include {=$FullName} lines=1:)%0a%3c (:template none:)%0a%3c --%0a303,304c292%0a%3c (:if end:)%0a%3c >>>>>>> %0a---%0a> (:if end:)%0a\ No newline at end of file%0a
+host:1600099437=108.32.35.122
+author:1599951891=test_student
+diff:1599951891:1599951737:=269c269%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (eli5 question) -- {=$:status}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$:status}%0a283c283%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (eli5 answer) -- {{=$FullName}$:{=$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {{=$FullName}$:{=$Author}}%0a
+host:1599951891=108.32.35.122
+author:1599951737=test_student
+diff:1599951737:1599951582:=260a261%0a> ----%0a288a290%0a> ----%0a
+host:1599951737=108.32.35.122
+author:1599951582=
+diff:1599951582:1599951052:=265,293d264%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardeli5]]%0a%3c (:template each:)%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$:status}%0a%3c (:if2 equal {=$:status} requiresRevisions:)%0a%3c -> notes: {=$:notes} %0a%3c -> graded By: {=$:gradedBy}%0a%3c (:if2end:)%0a%3c -> category: (:include {=$FullName} lines=1:)%0a%3c (:template none:)%0a%3c --%0a%3c [[#dashboardeli5end]]%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardeli5answers]]%0a%3c (:template each:)%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {{=$FullName}$:{=$Author}}%0a%3c (:if2 equal {=$:status} requiresRevisions:)%0a%3c -> notes: {=$:notes} %0a%3c -> graded By: {=$:gradedBy}%0a%3c (:if2end:)%0a%3c -> category: (:include {=$FullName} lines=1:)%0a%3c ----%0a%3c (:template none:)%0a%3c --%0a%3c [[#dashboardeli5answersend]]%0a
+host:1599951582=108.32.35.122
+author:1599951052=test_student
+diff:1599951052:1599951027:=255c255%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {{=$FullName}$:{=$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$FullName}$:{=$Author}}%0a
+host:1599951052=108.32.35.122
+author:1599951027=test_student
+diff:1599951027:1599950950:=255c255%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$FullName}$:{=$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:'{=$Author}'}%0a
+host:1599951027=108.32.35.122
+author:1599950950=test_student
+diff:1599950950:1599950823:=255c255%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:'{=$Author}'}%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:test_student}%0a
+host:1599950950=108.32.35.122
+author:1599950823=test_student
+diff:1599950823:1599950791:=255c255%0a%3c [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:test_student}%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{=$Author}}%0a
+host:1599950823=108.32.35.122
+author:1599950791=test_student
+diff:1599950791:1599950778:=255c255%0a%3c [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{=$Author}}%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] (expansion) -- =$:{=$Author}%0a
+host:1599950791=108.32.35.122
+author:1599950778=test_student
+diff:1599950778:1599950699:=255c255%0a%3c [[{=$FullName}|{=$Titlespaced}]] (expansion) -- =$:{=$Author}%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] (expansion) -- =$:{*$Author}%0a
+host:1599950778=108.32.35.122
+author:1599950699=test_student
+diff:1599950699:1599950660:=255c255%0a%3c [[{=$FullName}|{=$Titlespaced}]] (expansion) -- =$:{*$Author}%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{*$AuthorId}}%0a
+host:1599950699=108.32.35.122
+author:1599950660=test_student
+diff:1599950660:1599950546:=255c255%0a%3c [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{*$AuthorId}}%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{*$Author}}%0a
+host:1599950660=108.32.35.122
+author:1599950546=test_student
+diff:1599950546:1599950492:=255c255,256%0a%3c [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{*$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- %0a> {=$:{*$Author}}%0a261d261%0a%3c ----%0a
+host:1599950546=108.32.35.122
+author:1599950492=test_student
+diff:1599950492:1599950393:=255,256c255%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- %0a%3c {=$:{*$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{=$Author}}%0a
+host:1599950492=108.32.35.122
+author:1599950393=test_student
+diff:1599950393:1599949794:=255c255%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{=$Author}}%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{*$Author}}%0a
+host:1599950393=108.32.35.122
+author:1599949794=student_test
+diff:1599949794:1599949658:=250,263d249%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardexpansions]]%0a%3c (:template each:)%0a%3c * [[{=$FullName}|{=$Titlespaced}]] (expansion) -- {=$:{*$Author}}%0a%3c (:if2 equal {=$:status} requiresRevisions:)%0a%3c -> notes: {=$:notes} %0a%3c -> graded By: {=$:gradedBy}%0a%3c (:if2end:)%0a%3c -> category: (:include {=$FullName} lines=1:)%0a%3c (:template none:)%0a%3c --%0a%3c [[#dashboardexpansionsend]]%0a
+host:1599949794=108.32.35.122
+author:1599949658=student_test
+diff:1599949658:1599949581:=243,244c243,244%0a%3c -> notes: {=$:notes} %0a%3c -> graded By: {=$:gradedBy}%0a---%0a> Notes: {=$:notes} %0a> Graded By: {=$:gradedBy}%0a246c246%0a%3c -> category: (:include {=$FullName} lines=1:)%0a---%0a> Category: (:include {=$FullName} lines=1:)%0a
+host:1599949658=108.32.35.122
+author:1599949581=student_test
+diff:1599949581:1599949469:=246c246%0a%3c Category: (:include {=$FullName} lines=1:)%0a---%0a> (:include {=$FullName} lines=1:)%0a
+host:1599949581=108.32.35.122
+author:1599949469=student_test
+diff:1599949469:1599948776:=71c71%0a%3c (:if2 equal {=$:status} requiresRevisions:)%0a---%0a> (:if2 equal {=$:status} revisionsRequired:)%0a242,245d241%0a%3c (:if2 equal {=$:status} requiresRevisions:)%0a%3c Notes: {=$:notes} %0a%3c Graded By: {=$:gradedBy}%0a%3c (:if2end:)%0a
+host:1599949469=108.32.35.122
+author:1599948776=
+diff:1599948776:1599755989:=236,246d235%0a%3c %0a%3c %0a%3c (:if false:)%0a%3c [[#dashboardarticles]]%0a%3c (:template each:)%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$:status}%0a%3c (:include {=$FullName} lines=1:)%0a%3c (:template none:)%0a%3c --%0a%3c [[#dashboardarticlesend]]%0a%3c (:if end:)%0a\ No newline at end of file%0a
+host:1599948776=108.32.35.122
+author:1599755989=
+diff:1599755989:1599755845:=88,90d87%0a%3c %0a%3c ----%0a%3c %0a228d224%0a%3c (:if false:)%0a235c231%0a%3c (:ifend:)%0a---%0a> %0a
+host:1599755989=108.32.35.122
+author:1599755845=
+diff:1599755845:1599754329:=225,230d224%0a%3c [[#simplecount]]%0a%3c (:template last:)%0a%3c {$$PageCount}%0a%3c (:template none:)%0a%3c 0%0a%3c [[#simplecountend]]%0a
+host:1599755845=108.32.35.122
+author:1599754329=
+diff:1599754329:1599754252:=114,115d113%0a%3c (:include {=$FullName}#expansions:)%0a%3c %0a126c124%0a%3c [++ ELI5 ++]%0a---%0a> [++ Expansions ++]%0a
+host:1599754329=108.32.35.122
+author:1599754252=
+diff:1599754252:1599753813:=99d98%0a%3c %0a101a101%0a> \\%0a107a108%0a> \\%0a110a112%0a> %0a113c115%0a%3c %0a---%0a> \\%0a115d116%0a%3c %0a
+host:1599754252=108.32.35.122
+author:1599753813=
+diff:1599753813:1599753747:=116d115%0a%3c ----%0a
+host:1599753813=108.32.35.122
+author:1599753747=
+diff:1599753747:1599673317:=108c108%0a%3c \\%0a---%0a> %0a112c112%0a%3c %0a---%0a> \\%0a115d114%0a%3c \\%0a
+host:1599753747=108.32.35.122
+author:1599673317=will
+diff:1599673317:1599672935:=207c207%0a%3c [-[[{=$Name}]]-] -- [-{=$:status}-]%0a---%0a> [-[[{=$Name}]]-] -- {=$:status}%0a216c216%0a%3c [-[[{=$Name}]]-] -- [-{=$:{*$Name}}-]%0a---%0a> [-[[{=$Name}]]-] -- {=$:{*$Name}}%0a
+host:1599673317=108.32.35.122
+author:1599672935=
+diff:1599672935:1599672076:=212,222d211%0a%3c %0a%3c (:if false:)%0a%3c [[#simpleexpansion]]%0a%3c (:template each:)%0a%3c [-[[{=$Name}]]-] -- {=$:{*$Name}}%0a%3c (:template none:)%0a%3c --%0a%3c [[#simpleexpansionend]]%0a%3c (:ifend:)%0a%3c %0a%3c %0a
+host:1599672935=108.32.35.122
+author:1599672076=
+diff:1599672076:1599671931:=208,209d207%0a%3c (:template none:)%0a%3c --%0a
+host:1599672076=108.32.35.122
+author:1599671931=
+diff:1599671931:1599671768:=207c207%0a%3c [-[[{=$Name}]]-] -- {=$:status}%0a---%0a> [-{=$Name}-] -- {=$:status}%0a
+host:1599671931=108.32.35.122
+author:1599671768=
+diff:1599671768:1599671054:=207c207%0a%3c [-{=$Name}-] -- {=$:status}%0a---%0a> {=$Name} -- {=$:status}%0a
+host:1599671768=108.32.35.122
+author:1599671054=
+diff:1599671054:1599667423:=202,209c202%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#simplearticle]]%0a%3c (:template each:)%0a%3c {=$Name} -- {=$:status}%0a%3c [[#simplearticleend]]%0a%3c (:ifend:)%0a---%0a> (:ifend:)%0a\ No newline at end of file%0a
+host:1599671054=108.32.35.122
+author:1599667423=
+diff:1599667423:1599658733:=196,202d195%0a%3c %0a%3c (:if false:)%0a%3c [[#simplesection]]%0a%3c (:template first:)%0a%3c {=$Name}%0a%3c [[#simplesectionend]]%0a%3c (:ifend:)%0a\ No newline at end of file%0a
+host:1599667423=108.32.35.122
+author:1599658733=
+diff:1599658733:1599658034:=58,60d57%0a%3c %0a%3c %0a%3c %0a62,65c59%0a%3c [[#gradingarticles]]%0a%3c (:template first:)%0a%3c [++ Articles ++]%0a%3c ----%0a---%0a> [[#eli5prompts]]%0a67,96c61%0a%3c ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$CreatedBy} %0a%3c \\%0a%3c -> '''{=$:status}''' %0a%3c (:if1 equal {=$:status} complete:)-> [+ Graded by: {=$:gradedBy} +](:if1end:)%0a%3c (:if2 equal {=$:status} revisionsRequired:)%0a%3c [+ Notes: {=$:notes} +]%0a%3c (:if2end:)%0a%3c %0a%3c \\%0a%3c (:fox newArticle ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a%3c (:input default status {$:status}:)%0a%3c (:input checkbox status complete:) Complete%0a%3c (:input checkbox status requiresRevisions:) Requires Revisions %0a%3c (:input checkbox status noPoints:) No Points \\%0a%3c (:input default notes "{$:notes}":)%0a%3c (:input text notes size=80:)%0a%3c (:input hidden gradedBy {$Author}:)%0a%3c \\%0a%3c %0a%3c (:input submit post:)%0a%3c (:foxend newArticle:)%0a%3c (:template none:)%0a%3c (no articles)%0a%3c [[#gradingarticlesend]]%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#gradingexpansions]]%0a%3c (:template first:)%0a%3c [++ Expansions ++]%0a---%0a> %0a97a63,82%0a> %0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a> %0a> (:template last:)%0a> %0a> ----%0a> ----%0a> %0a> (:template none:)%0a> %0a> --%0a> %0a> [[#eli5promptsend]]%0a> (:if end:)%0a> %0a> %0a> %0a> %0a> (:if false:)%0a> [[#eli5answers]]%0a99,123c84%0a%3c [+[[{=$FullName}|{=$Titlespaced}]]+]%0a%3c (:include {=$FullName}#expansions:)%0a%3c \\%0a%3c (:fox expansion ptvtarget={=$FullName} ptvfields={*$:student},{*$:student}notes:)%0a%3c (:input default {*$:student} {=$:{*$:student}}:)%0a%3c (:input select name="{*$:student}" value=submitted label="submitted":)%0a%3c (:input select name="{*$:student}" value=complete label="complete":)%0a%3c (:input select name="{*$:student}" value=requiresRevisions label="requires revisions":) %0a%3c (:input select name="{*$:student}" value=noPoints label="no points":) %0a%3c %0a%3c (:input default {*$:student}notes "{$:notes}":)%0a%3c (:input text {*$:student}notes size=80:)%0a%3c (:input hidden gradedBy {$Author}:)%0a%3c \\%0a%3c (:input submit post:)%0a%3c (:foxend expansion:)%0a%3c (:template none:)%0a%3c (no expansions)%0a%3c [[#gradingexpansionsend]]%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#gradingeli5]]%0a%3c (:template first:)%0a%3c [++ Expansions ++]%0a---%0a> %0a124a86,108%0a> %0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$LastModifiedBy}%0a> %0a> -> (:include {=$FullName}#summary:)%0a> %0a> (:template last:)%0a> %0a> ----%0a> ----%0a> %0a> (:template none:)%0a> %0a> --%0a> %0a> [[#eli5answersend]]%0a> (:if end:)%0a> %0a> %0a> (:if false:)%0a> [[#gradingarticles]]%0a> (:template first:)%0a> [++ Articles ++]%0a> ----%0a126,127c110%0a%3c [+[[{=$FullName}|{=$Titlespaced}]]+]%0a%3c (:include {=$FullName}#expansions:)%0a---%0a> ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$CreatedBy} %0a129,138c112,117%0a%3c (:fox expansion ptvtarget={=$FullName} ptvfields={*$:student},{*$:student}notes:)%0a%3c (:input default {*$:student} {=$:{*$:student}}:)%0a%3c (:input select name="{*$:student}" value=submitted label="submitted":)%0a%3c (:input select name="{*$:student}" value=complete label="complete":)%0a%3c (:input select name="{*$:student}" value=requiresRevisions label="requires revisions":) %0a%3c (:input select name="{*$:student}" value=noPoints label="no points":) %0a%3c %0a%3c (:input default {*$:student}notes "{$:notes}":)%0a%3c (:input text {*$:student}notes size=80:)%0a%3c (:input hidden gradedBy {$Author}:)%0a---%0a> -> '''{=$:status}''' %0a> (:if1 equal {=$:status} complete:)-> [+ Graded by: {=$:gradedBy} +](:if1end:)%0a> (:if2 equal {=$:status} revisionsRequired:)%0a> [+ Notes: {=$:notes} +]%0a> (:if2end:)%0a> %0a139a119,128%0a> (:fox newArticle ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a> (:input default status {$:status}:)%0a> (:input checkbox status complete:) Complete%0a> (:input checkbox status requiresRevisions:) Requires Revisions %0a> (:input checkbox status noPoints:) No Points \\%0a> (:input default notes "{$:notes}":)%0a> (:input text notes size=80:)%0a> (:input hidden gradedBy {$Author}:)%0a> \\%0a> %0a141c130%0a%3c (:foxend expansion:)%0a---%0a> (:foxend newArticle:)%0a143,144c132,133%0a%3c (no ELI5 articles)%0a%3c [[#gradingeli5end]]%0a---%0a> (no articles)%0a> [[#gradingarticlesend]]%0a147,150d135%0a%3c %0a%3c %0a%3c %0a%3c %0a152c137,140%0a%3c [[#eli5prompts]]%0a---%0a> [[#gradingexpansions]]%0a> (:template first:)%0a> [++ Expansions ++]%0a> ----%0a154,163c142,157%0a%3c %0a%3c ----%0a%3c %0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a%3c %0a%3c (:template last:)%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a---%0a> [+[[{=$FullName}|{=$Titlespaced}]]+]%0a> (:include {=$FullName}#expansions:)%0a> \\%0a> (:fox expansion ptvtarget={=$FullName} ptvfields={*$:student},{*$:student}notes:)%0a> (:input default {*$:student} {=$:{*$:student}}:)%0a> (:input select name="{*$:student}" value=submitted label="submitted":)%0a> (:input select name="{*$:student}" value=complete label="complete":)%0a> (:input select name="{*$:student}" value=requiresRevisions label="requires revisions":) %0a> (:input select name="{*$:student}" value=noPoints label="no points":) %0a> %0a> (:input default {*$:student}notes "{$:notes}":)%0a> (:input text {*$:student}notes size=80:)%0a> (:input hidden gradedBy {$Author}:)%0a> \\%0a> (:input submit post:)%0a> (:foxend expansion:)%0a165,168c159,160%0a%3c %0a%3c --%0a%3c %0a%3c [[#eli5promptsend]]%0a---%0a> (no expansions)%0a> [[#gradingexpansionsend]]%0a171,194d162%0a%3c %0a%3c %0a%3c %0a%3c (:if false:)%0a%3c [[#eli5answers]]%0a%3c (:template each:)%0a%3c %0a%3c ----%0a%3c %0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$LastModifiedBy}%0a%3c %0a%3c -> (:include {=$FullName}#summary:)%0a%3c %0a%3c (:template last:)%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a%3c (:template none:)%0a%3c %0a%3c --%0a%3c %0a%3c [[#eli5answersend]]%0a%3c (:ifend:)%0a
+host:1599658733=108.32.35.122
+author:1599658034=
+diff:1599658034:1599657955:=107c107%0a%3c [++ Articles ++]%0a---%0a> [+ Articles +]%0a139c139%0a%3c [++ Expansions ++]%0a---%0a> [+ Expansions +]%0a
+host:1599658034=108.32.35.122
+author:1599657955=
+diff:1599657955:1599657763:=113c113%0a%3c (:if1 equal {=$:status} complete:)-> [+ Graded by: {=$:gradedBy} +](:if1end:)%0a---%0a> (:if1 equal {=$:status} complete:)-> [+ Graded by: {$:gradedBy} +](:if1end:)%0a131,132c131,137%0a%3c (:template none:)%0a%3c (no articles)%0a---%0a> %0a> %0a> %0a> ----%0a> ----%0a> ----%0a> %0a140a146,148%0a> ||width=*%0a> ||!Article ||! Status||%0a> ----%0a155a164%0a> %0a158,159c167,173%0a%3c (:template none:)%0a%3c (no expansions)%0a---%0a> %0a> %0a> %0a> ----%0a> ----%0a> ----%0a> %0a
+host:1599657955=108.32.35.122
+author:1599657763=
+diff:1599657763:1599657671:=107a108,110%0a> ----%0a> ||width=*%0a> ||!Article ||! By||%0a
+host:1599657763=108.32.35.122
+author:1599657671=
+diff:1599657671:1599657616:=147d146%0a%3c [+ Expansions +]%0a
+host:1599657671=108.32.35.122
+author:1599657616=
+diff:1599657616:1599656522:=107d106%0a%3c [+ Articles +]%0a108a108%0a> ----%0a113c113%0a%3c ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$CreatedBy} %0a---%0a> ||[++[[{=$FullName}|{=$Titlespaced}]]++] || {=$CreatedBy} %0a
+host:1599657616=108.32.35.122
+author:1599656522=
+diff:1599656522:1599603846:=152,153c152%0a%3c [+[[{=$FullName}|{=$Titlespaced}]]+]%0a%3c (:include {=$FullName}#expansions:)%0a---%0a> ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {*$:student}, {=$:willNalls} || %0a168c167%0a%3c (:foxend expansion:)%0a---%0a> (:foxend newArticle:)%0a
+host:1599656522=108.32.35.122
+author:1599603846=
+diff:1599603846:1599603743:=152c152%0a%3c ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {*$:student}, {=$:willNalls} || %0a---%0a> ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$:"{*$:student}"} ||%0a
+host:1599603846=108.32.35.122
+author:1599603743=
+diff:1599603743:1599603679:=152c152%0a%3c ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$:"{*$:student}"} ||%0a---%0a> ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$:{*$:student}} ||%0a
+host:1599603743=108.32.35.122
+author:1599603679=
+diff:1599603679:1599603518:=152c152%0a%3c ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$:{*$:student}} ||%0a---%0a> ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$:{*$:student}}%0a
+host:1599603679=108.32.35.122
+author:1599603518=
+diff:1599603518:1599603342:=156d155%0a%3c (:input select name="{*$:student}" value=submitted label="submitted":)%0a
+host:1599603518=108.32.35.122
+author:1599603342=
+diff:1599603342:1599603302:=
+host:1599603342=108.32.35.122
+author:1599603302=
+diff:1599603302:1599603204:=149c149%0a%3c ||!Article ||! Status||%0a---%0a> ||!Article ||! Time||!By ||!Change%0a152c152,154%0a%3c ||[+[[{=$FullName}|{=$Titlespaced}]]+] || {=$:{*$:student}}%0a---%0a> ||[+[[{=$FullName}|{=$Titlespaced}]]+] ||[[{=$FullName}?action=diff|{=$LastModified}]]||[[{$LastModifiedBy}]]||{=$LastModifiedSummary}]]%0a> \\%0a> %0a
+host:1599603302=108.32.35.122
+author:1599603204=
+diff:1599603204:1599603098:=158,160c158,160%0a%3c (:input select name="{*$:student}" value=complete label="complete":)%0a%3c (:input select name="{*$:student}" value=requiresRevisions label="requires revisions":) %0a%3c (:input select name="{*$:student}" value=noPoints label="no points":) %0a---%0a> (:input select name={*$:student} value=complete:) Complete%0a> (:input select name={*$:student} value=requiresRevisions:) Requires Revisions %0a> (:input select name={*$:student} value=noPoints:) No Points %0a
+host:1599603204=108.32.35.122
+author:1599603098=
+diff:1599603098:1599602820:=157,160c157,160%0a%3c (:input default {*$:student} {=$:{*$:student}}:)%0a%3c (:input select name={*$:student} value=complete:) Complete%0a%3c (:input select name={*$:student} value=requiresRevisions:) Requires Revisions %0a%3c (:input select name={*$:student} value=noPoints:) No Points %0a---%0a> (:input default {*$:student} {*$:student}:)%0a> (:input select {*$:student} complete:) Complete%0a> (:input select {*$:student} requiresRevisions:) Requires Revisions %0a> (:input select {*$:student} noPoints:) No Points %0a
+host:1599603098=108.32.35.122
+author:1599602820=
+diff:1599602820:1599602188:=156,163c156,162%0a%3c (:fox expansion ptvtarget={=$FullName} ptvfields={*$:student},{*$:student}notes:)%0a%3c (:input default {*$:student} {*$:student}:)%0a%3c (:input select {*$:student} complete:) Complete%0a%3c (:input select {*$:student} requiresRevisions:) Requires Revisions %0a%3c (:input select {*$:student} noPoints:) No Points %0a%3c %0a%3c (:input default {*$:student}notes "{$:notes}":)%0a%3c (:input text {*$:student}notes size=80:)%0a---%0a> (:fox newArticle ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a> (:input default status {$:status}:)%0a> (:input checkbox status complete:) Complete%0a> (:input checkbox status requiresRevisions:) Requires Revisions %0a> (:input checkbox status noPoints:) No Points \\%0a> (:input default notes "{$:notes}":)%0a> (:input text notes size=80:)%0a
+host:1599602820=108.32.35.122
+author:1599602188=
+diff:1599602188:1599602140:=110c110%0a%3c ||!Article ||! By||%0a---%0a> ||!Article ||!By %0a
+host:1599602188=108.32.35.122
+author:1599602140=
+diff:1599602140:1599597927:=110c110%0a%3c ||!Article ||!By %0a---%0a> ||!Article ||!By ||%0a113c113%0a%3c ||[++[[{=$FullName}|{=$Titlespaced}]]++] || {=$CreatedBy} %0a---%0a> ||[++[[{=$FullName}|{=$Titlespaced}]] || {=$CreatedBy} || %0a
+host:1599602140=108.32.35.122
+author:1599597927=will
+diff:1599597927:1599586898:=108,111c108%0a%3c ----%0a%3c ||width=*%0a%3c ||!Article ||!By ||%0a%3c ----%0a---%0a> %0a113c110,111%0a%3c ||[++[[{=$FullName}|{=$Titlespaced}]] || {=$CreatedBy} || %0a---%0a> %0a> [++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}++]%0a145a144%0a> (:template defaults trail=Grading.EditsList:)%0a178c177,181%0a%3c %0a---%0a> (:if false:)%0a> [[#simplelist]]%0a> (:template each:){=$FullName},%0a> [[#simplelistend]]%0a> (:ifend:)%0a
+host:1599597927=108.32.35.122
+author:1599586898=will
+diff:1599586898:1599586857:=179,180c179%0a%3c (:template each:){=$FullName},%0a%3c [[#simplelistend]]%0a---%0a> (:template each:){=$FullName},[[#simplelistend]]%0a
+host:1599586898=108.32.35.122
+author:1599586857=will
+diff:1599586857:1599586764:=179c179,180%0a%3c (:template each:){=$FullName},[[#simplelistend]]%0a---%0a> (:template each:){=$FullName},%0a> [[#simplelistend]]%0a
+host:1599586857=108.32.35.122
+author:1599586764=will
+diff:1599586764:1599578189:=177,181c177%0a%3c (:if false:)%0a%3c [[#simplelist]]%0a%3c (:template each:){=$FullName},%0a%3c [[#simplelistend]]%0a%3c (:ifend:)%0a---%0a> %0a
+host:1599586764=108.32.35.122
+author:1599578189=
+diff:1599578189:1599507322:=
+host:1599578189=108.32.35.122
+author:1599507322=
+diff:1599507322:1599504492:=144c144%0a%3c (:template defaults trail=Grading.EditsList:)%0a---%0a> (:template defaults trail=Grading.AllEdits:)%0a147,149c147%0a%3c ||width=*%0a%3c ||!Article ||! Time||!By ||!Change%0a%3c ----%0a---%0a> %0a151c149,150%0a%3c ||[+[[{=$FullName}|{=$Titlespaced}]]+] ||[[{=$FullName}?action=diff|{=$LastModified}]]||[[{$LastModifiedBy}]]||{=$LastModifiedSummary}]]%0a---%0a> %0a> [++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}++]%0a152a152,156%0a> -> '''{=$:status}''' %0a> (:if1 equal {=$:status} complete:)-> [+ Graded by: {$:gradedBy} +](:if1end:)%0a> (:if2 equal {=$:status} revisionsRequired:)%0a> [+ Notes: {=$:notes} +]%0a> (:if2end:)%0a
+host:1599507322=108.32.35.122
+author:1599504492=
+diff:1599504492:1599341975:=138a139%0a> %0a140,181d140%0a%3c (:ifend:)%0a%3c %0a%3c (:if false:)%0a%3c [[#gradingexpansions]]%0a%3c (:template defaults trail=Grading.AllEdits:)%0a%3c (:template first:)%0a%3c ----%0a%3c %0a%3c (:template each:)%0a%3c %0a%3c [++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}++]%0a%3c \\%0a%3c -> '''{=$:status}''' %0a%3c (:if1 equal {=$:status} complete:)-> [+ Graded by: {$:gradedBy} +](:if1end:)%0a%3c (:if2 equal {=$:status} revisionsRequired:)%0a%3c [+ Notes: {=$:notes} +]%0a%3c (:if2end:)%0a%3c %0a%3c \\%0a%3c (:fox newArticle ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a%3c (:input default status {$:status}:)%0a%3c (:input checkbox status complete:) Complete%0a%3c (:input checkbox status requiresRevisions:) Requires Revisions %0a%3c (:input checkbox status noPoints:) No Points \\%0a%3c (:input default notes "{$:notes}":)%0a%3c (:input text notes size=80:)%0a%3c (:input hidden gradedBy {$Author}:)%0a%3c \\%0a%3c %0a%3c (:input submit post:)%0a%3c (:foxend newArticle:)%0a%3c %0a%3c %0a%3c %0a%3c ----%0a%3c ----%0a%3c ----%0a%3c %0a%3c [[#gradingexpansionsend]]%0a%3c (:ifend:)%0a%3c %0a%3c %0a
+host:1599504492=108.32.35.122
+author:1599341975=
+diff:1599341975:1599341745:=111c111%0a%3c [++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}++]%0a---%0a> [+++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}+++]%0a
+host:1599341975=108.32.35.122
+author:1599341745=
+diff:1599341745:1599341651:=112,114c112%0a%3c \\%0a%3c -> '''{=$:status}''' %0a%3c (:if1 equal {=$:status} complete:)-> [+ Graded by: {$:gradedBy} +](:if1end:)%0a---%0a> -> '''{=$:status}''' (:if1 equal {=$:status} complete:) Graded by: {$:gradedBy} (:if1end:)%0a
+host:1599341745=108.32.35.122
+author:1599341651=
+diff:1599341651:1599326232:=111c111%0a%3c [+++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}+++]%0a---%0a> * [++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}++]%0a116c116%0a%3c %0a---%0a> ----%0a
+host:1599341651=108.32.35.122
+author:1599326232=
+diff:1599326232:1599258397:=132,133d131%0a%3c %0a%3c ----%0a
+host:1599326232=108.32.35.122
+author:1599258397=TA_james
+diff:1599258397:1599250470:=
+host:1599258397=108.32.35.122
+author:1599250470=TA_james
+diff:1599250470:1599250394:=113d112%0a%3c (:if2 equal {=$:status} revisionsRequired:)%0a115c114%0a%3c (:if2end:)%0a---%0a> %0a
+host:1599250470=108.32.35.122
+author:1599250394=TA_james
+diff:1599250394:1599250347:=130d129%0a%3c %0a133d131%0a%3c %0a
+host:1599250394=108.32.35.122
+author:1599250347=TA_james
+diff:1599250347:1599250273:=111c111%0a%3c * [++[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}++]%0a---%0a> * [+[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}+]%0a
+host:1599250347=108.32.35.122
+author:1599250273=TA_james
+diff:1599250273:1599250204:=114,116d113%0a%3c %0a%3c ----%0a%3c \\%0a125,126d121%0a%3c \\%0a%3c %0a
+host:1599250273=108.32.35.122
+author:1599250204=TA_james
+diff:1599250204:1599250130:=113c113%0a%3c [+ Notes: {=$:notes} +]%0a---%0a> -> [+ {=$:notes} +]%0a
+host:1599250204=108.32.35.122
+author:1599250130=TA_james
+diff:1599250130:1599249934:=112,113c112,113%0a%3c -> '''{=$:status}''' (:if1 equal {=$:status} complete:) Graded by: {$:gradedBy} (:if1end:)%0a%3c -> [+ {=$:notes} +]%0a---%0a> -> '''{$:status}''' (:if1 equal {$:status} complete:) Graded by: {$:gradedBy} (:if1end:)%0a> -> '''"{$:notes}"'''%0a
+host:1599250130=108.32.35.122
+author:1599249934=TA_james
+diff:1599249934:1599249898:=114c114%0a%3c (:fox newArticle ptvtarget={=$FullName} ptvfields=status,notes,gradedBy:)%0a---%0a> (:fox newArticle ptvtarget={=$FullName} ptvfields=status,comment,gradedBy:)%0a
+host:1599249934=108.32.35.122
+author:1599249898=TA_james
+diff:1599249898:1599249865:=113c113%0a%3c -> '''"{$:notes}"'''%0a---%0a> -> '''"{$:comment}"'''%0a
+host:1599249898=108.32.35.122
+author:1599249865=TA_james
+diff:1599249865:1599249639:=113c113%0a%3c -> '''"{$:comment}"'''%0a---%0a> {$:comment}%0a
+host:1599249865=108.32.35.122
+author:1599249639=TA_james
+diff:1599249639:1599249574:=119,120c119,120%0a%3c (:input default notes "{$:notes}":)%0a%3c (:input text notes size=80:)%0a---%0a> (:input default comment "{$:comment}":)%0a> (:input text comment size=80:)%0a
+host:1599249639=108.32.35.122
+author:1599249574=TA_james
+diff:1599249574:1599249436:=112,113c112,113%0a%3c -> '''{$:status}''' (:if1 equal {$:status} complete:) Graded by: {$:gradedBy} (:if1end:)%0a%3c {$:comment}%0a---%0a> -> '''{$:status}''' (:if1 equal {$:status} complete:) Graded by: {$gradedBy} (:if1end:)%0a> (:if2 equal {$:status} requiresRevisions:) Comments: {$:comment} (:if2end:)%0a
+host:1599249574=108.32.35.122
+author:1599249436=TA_james
+diff:1599249436:1599249190:=113d112%0a%3c (:if2 equal {$:status} requiresRevisions:) Comments: {$:comment} (:if2end:)%0a
+host:1599249436=108.32.35.122
+author:1599249190=TA_james
+diff:1599249190:1599249131:=118c118%0a%3c (:input default comment "{$:comment}":)%0a---%0a> (:input default comment {$:comment}:)%0a
+host:1599249190=108.32.35.122
+author:1599249131=TA_james
+diff:1599249131:1599249033:=
+host:1599249131=108.32.35.122
+author:1599249033=TA_james
+diff:1599249033:1599248155:=118d117%0a%3c (:input default comment {$:comment}:)%0a
+host:1599249033=108.32.35.122
+author:1599248155=TA_james
+diff:1599248155:1599248021:=114d113%0a%3c (:input default status {$:status}:)%0a
+host:1599248155=108.32.35.122
+author:1599248021=TA_james
+diff:1599248021:1599243459:=111c111%0a%3c * [+[[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}+]%0a---%0a> * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a
+host:1599248021=108.32.35.122
+author:1599243459=
+diff:1599243459:1599243021:=112c112%0a%3c -> '''{$:status}''' (:if1 equal {$:status} complete:) Graded by: {$gradedBy} (:if1end:)%0a---%0a> -> '''{$:status}''' (:if equal {$:status} complete:) Graded by: {$gradedBy} (:ifend:)%0a
+host:1599243459=108.32.35.122
+author:1599243021=
+diff:1599243021:1599242011:=112,113c112,113%0a%3c -> '''{$:status}''' (:if equal {$:status} complete:) Graded by: {$gradedBy} (:ifend:)%0a%3c (:fox newArticle ptvtarget={=$FullName} ptvfields=status,comment,gradedBy:)%0a---%0a> -> '''{$:status}'''%0a> (:fox newArticle ptvtarget={=$FullName} ptvfields=status,comment:)%0a118d117%0a%3c (:input hidden gradedBy {$Author}:)%0a
+host:1599243021=108.32.35.122
+author:1599242011=
+diff:1599242011:1599167622:=120d119%0a%3c %0a123d121%0a%3c %0a
+host:1599242011=108.32.35.122
+author:1599167622=will
+diff:1599167622:1599167526:=115,116c115%0a%3c (:input checkbox status requiresRevisions:) Requires Revisions %0a%3c (:input checkbox status noPoints:) No Points \\%0a---%0a> (:input checkbox status requiresRevisions:) Requires Revisions \\%0a
+host:1599167622=108.32.35.122
+author:1599167526=will
+diff:1599167526:1599166624:=119c119%0a%3c ----%0a---%0a> %0a
+host:1599167526=108.32.35.122
+author:1599166624=will
+diff:1599166624:1599166282:=107a108,109%0a> [+Grading articles in {Grading/Articles$:category}.+]%0a> [+ Section: {Grading/Articles$:section} +]%0a
+host:1599166624=108.32.35.122
+author:1599166282=will
+diff:1599166282:1599166053:=108,109c108,109%0a%3c [+Grading articles in {Grading/Articles$:category}.+]%0a%3c [+ Section: {Grading/Articles$:section} +]%0a---%0a> [+Grading articles in {$:category}.+]%0a> [+ Section: {$:section} +]%0a
+host:1599166282=108.32.35.122
+author:1599166053=will
+diff:1599166053:1599165508:=114c114%0a%3c -> '''{$:status}'''%0a---%0a> -> '''{$:status}%0a
+host:1599166053=108.32.35.122
+author:1599165508=
+diff:1599165508:1599165038:=114,115c114,115%0a%3c -> '''{$:status}%0a%3c (:fox newArticle ptvtarget={=$FullName} ptvfields=status,comment:)%0a---%0a> %0a> (:fox newArticle ptvtarget=Grading.Articles ptvfields=status,comment:)%0a117,118c117,118%0a%3c (:input checkbox status requiresRevisions:) Requires Revisions \\%0a%3c (:input text comment size=80:)%0a---%0a> (:input checkbox status requiresRevisions:) Requires Revisions%0a> (:input textarea comment rows=3 cols=10:)%0a
+host:1599165508=108.32.35.122
+author:1599165038=
+diff:1599165038:1599161884:=115c115%0a%3c (:fox newArticle ptvtarget=Grading.Articles ptvfields=status,comment:)%0a---%0a> (:fox newArticle:)%0a117,119c117,121%0a%3c (:input checkbox status requiresRevisions:) Requires Revisions%0a%3c (:input textarea comment rows=3 cols=10:)%0a%3c (:input submit post:)%0a---%0a> (:input checkbox status requiresRevisions:)%0a> %0a> Status: {$:status}%0a> Comments: {$:comment}%0a> %0a
+host:1599165038=108.32.35.122
+author:1599161884=
+diff:1599161884:1598810227:=3,4c3,4%0a%3c (:if2 ! equal {=$Group} {%3c$Group}:)%0a%3c %0a---%0a> (:if ! equal {=$Group} {%3c$Group}:)%0a> %0a6c6%0a%3c (:if2:)%0a---%0a> (:if:)%0a104,125c104,108%0a%3c (:if false:)%0a%3c [[#gradingarticles]]%0a%3c (:template first:)%0a%3c ----%0a%3c [+Grading articles in {$:category}.+]%0a%3c [+ Section: {$:section} +]%0a%3c %0a%3c (:template each:)%0a%3c %0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a%3c %0a%3c (:fox newArticle:)%0a%3c (:input checkbox status complete:) Complete%0a%3c (:input checkbox status requiresRevisions:)%0a%3c %0a%3c Status: {$:status}%0a%3c Comments: {$:comment}%0a%3c %0a%3c (:foxend newArticle:)%0a%3c %0a%3c ----%0a%3c [[#gradingarticlesend]]%0a---%0a> %0a> %0a> %0a> %0a> %0a
+host:1599161884=108.32.35.122
+author:1598810227=will
+diff:1598810227:1598809988:=18,19c18,19%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a%3c %0a---%0a> [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a> %0a44,45c44,45%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a%3c %0a---%0a> [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a> %0a64,65c64,65%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a%3c %0a---%0a> [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a> %0a87c87%0a%3c * [[{=$FullName}|{=$Titlespaced}]] -- {=$LastModifiedBy}%0a---%0a> [[{=$FullName}|{=$Titlespaced}]] -- {=$LastModifiedBy}%0a
+host:1598810227=108.32.35.122
+author:1598809988=will
+diff:1598809988:1598809895:=70a71%0a> Total of {$$PageCount} articles.%0a95a97%0a> Total of {$$PageCount} articles.%0a
+host:1598809988=108.32.35.122
+author:1598809895=will
+diff:1598809895:1598809436:=83a84,86%0a> (:template first:)%0a> [++ELI5 Articles:++]%0a> %0a
+host:1598809895=108.32.35.122
+author:1598809436=will
+diff:1598809436:1598735665:=13a14,16%0a> (:template first:)%0a> [++Articles in this category:++]%0a> %0a59a63,65%0a> (:template first:)%0a> [++ELI5 Prompts:++]%0a> %0a
+host:1598809436=108.32.35.122
+author:1598735665=christina
+diff:1598735665:1598734717:=85,87d84%0a%3c %0a%3c %0a%3c %0a117c114,124%0a%3c %0a---%0a> (:if false:)%0a> [[#teasers]]%0a> || '''[[{=$FullName}]]''' - [[Edit -> {=$FullName}?action=edit]]||%0a> %0a> (:include {=$FullName} lines=4:)%0a> %0a> (:if ! equal {>$Group}:)%0a> -----%0a> (:if:) %0a> [[#teasersend]]%0a> (:if end:)%0a
+host:1598735665=108.32.35.122
+author:1598734717=christina
+diff:1598734717:1598717727:=32,33c32%0a%3c --%0a%3c %0a---%0a> Total of {$$PageCount} articles.%0a113,114d111%0a%3c %0a%3c (:if false:)%0a124c121%0a%3c (:if end:)%0a---%0a> %0a
+host:1598734717=108.32.35.122
+author:1598717727=christina
+diff:1598717727:1598631924:=0a1%0a> %0a30,31d30%0a%3c (:template none:)%0a%3c %0a79,80c78%0a%3c --%0a%3c %0a---%0a> [+ No ELI5 Prompts yet +]%0a105,106c103%0a%3c --%0a%3c %0a---%0a> [+ No ELI5 Articles yet +]%0a
+host:1598717727=108.32.35.122
+author:1598631924=will
+diff:1598631924:1598630837:=1,2d0%0a%3c %0a%3c (:if false:)%0a10,12c8,10%0a%3c (:if end:)%0a%3c %0a%3c %0a---%0a> %0a> %0a> %0a120a119%0a> (:if end:)%0a\ No newline at end of file%0a
+host:1598631924=108.32.35.122
+author:1598630837=will
+diff:1598630837:1598627929:=11c11%0a%3c (:if false:)%0a---%0a> %0a29a30%0a> %0a31,34c32%0a%3c (:if end:)%0a%3c %0a%3c %0a%3c (:if false:)%0a---%0a> %0a52a51%0a> %0a54,103c53%0a%3c (:if end:)%0a%3c %0a%3c %0a%3c (:if false:)%0a%3c [[#eli5prompts]]%0a%3c (:template first:)%0a%3c [++ELI5 Prompts:++]%0a%3c %0a%3c (:template each:)%0a%3c %0a%3c ----%0a%3c %0a%3c [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a%3c %0a%3c (:template last:)%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a%3c Total of {$$PageCount} articles.%0a%3c (:template none:)%0a%3c %0a%3c [+ No ELI5 Prompts yet +]%0a%3c [[#eli5promptsend]]%0a%3c (:if end:)%0a%3c %0a%3c (:if false:)%0a%3c [[#eli5answers]]%0a%3c (:template first:)%0a%3c [++ELI5 Articles:++]%0a%3c %0a%3c (:template each:)%0a%3c %0a%3c ----%0a%3c %0a%3c [[{=$FullName}|{=$Titlespaced}]] -- {=$LastModifiedBy}%0a%3c %0a%3c -> (:include {=$FullName}#summary:)%0a%3c %0a%3c (:template last:)%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a%3c Total of {$$PageCount} articles.%0a%3c (:template none:)%0a%3c %0a%3c [+ No ELI5 Articles yet +]%0a%3c [[#eli5answersend]]%0a%3c (:if end:)%0a---%0a> %0a
+host:1598630837=108.32.35.122
+author:1598627929=will
+diff:1598627929:1598559789:=0a1,4%0a> (:if false:)%0a> %0a> %0a> %0a32,52d35%0a%3c %0a%3c [[#allarticles]]%0a%3c (:template first:)%0a%3c [++All Articles:++]%0a%3c %0a%3c (:template each:)%0a%3c %0a%3c ----%0a%3c %0a%3c [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a%3c %0a%3c -> (:include {=$FullName}#summary:)%0a%3c %0a%3c (:template last:)%0a%3c %0a%3c ----%0a%3c ----%0a%3c %0a%3c Total of {$$PageCount} articles.%0a%3c %0a%3c [[#allarticlesend]]%0a
+host:1598627929=108.32.35.122
+author:1598559789=will
+diff:1598559789:1598558913:=20,21d19%0a%3c (:template each:)%0a%3c %0a23a22,23%0a> (:template each:)%0a> %0a27a28,29%0a> ---- %0a> %0a29,31d30%0a%3c %0a%3c ----%0a%3c ----%0a
+host:1598559789=108.32.35.122
+author:1598558913=will
+diff:1598558913:1598558770:=24c24%0a%3c [[{=$FullName}|{=$Titlespaced}]] -- {=$CreatedBy}%0a---%0a> [+[[{=$Fullname}|{=$Titlespaced}]] -- {=$CreatedBy} +]%0a
+host:1598558913=108.32.35.122
+author:1598558770=will
+diff:1598558770:1598558640:=24c24%0a%3c [+[[{=$Fullname}|{=$Titlespaced}]] -- {=$CreatedBy} +]%0a---%0a> [+[[={$Fullname} | {=$Titlespaced}]] -- {=$CreatedBy} +]%0a
+host:1598558770=108.32.35.122
+author:1598558640=will
+diff:1598558640:1598558401:=24c24%0a%3c [+[[={$Fullname} | {=$Titlespaced}]] -- {=$CreatedBy} +]%0a---%0a> [+[[{=$Titlespaced}]] -- {=$CreatedBy} +]%0a
+host:1598558640=108.32.35.122
+author:1598558401=will
+diff:1598558401:1598558296:=24,25c24,25%0a%3c [+[[{=$Titlespaced}]] -- {=$CreatedBy} +]%0a%3c %0a---%0a> * [+[[{=$Titlespaced}]]+] -- {=$CreatedBy}%0a> %0a31d30%0a%3c %0a33d31%0a%3c %0a
+host:1598558401=108.32.35.122
+author:1598558296=will
+diff:1598558296:1598558234:=18,21c18%0a%3c [++Articles in this category:++]%0a%3c %0a%3c ----%0a%3c %0a---%0a> [+Articles in this category:+]%0a23d19%0a%3c %0a25d20%0a%3c %0a27,29d21%0a%3c %0a%3c ---- %0a%3c %0a
+host:1598558296=108.32.35.122
+author:1598558234=will
+diff:1598558234:1598557443:=1,4d0%0a%3c (:if false:)%0a%3c %0a%3c %0a%3c %0a13,15d8%0a%3c %0a%3c %0a%3c %0a20,21c13,14%0a%3c * [+[[{=$Titlespaced}]]+] -- {=$CreatedBy}%0a%3c -> (:include {=$FullName}#summary:)%0a---%0a> * [[{=$Titlespaced}]] -- {=$CreatedBy}%0a> -> [-(:include {=$FullName}#summary:)-]%0a26,28d18%0a%3c %0a%3c %0a%3c %0a37,41c27%0a%3c [[#teasersend]]%0a%3c %0a%3c %0a%3c %0a%3c (:if end:)%0a\ No newline at end of file%0a---%0a> [[#teasersend]]%0a\ No newline at end of file%0a
+host:1598558234=108.32.35.122
+author:1598557443=will
+diff:1598557443:1598556304:=14c14%0a%3c -> [-(:include {=$FullName}#summary:)-]%0a---%0a> ** (:include {=$FullName}#summary:)%0a
+host:1598557443=108.32.35.122
+author:1598556304=will
+diff:1598556304:1598556175:=11c11%0a%3c [+Articles in this category:+]%0a---%0a> Pages in the list:%0a13c13%0a%3c * [[{=$Titlespaced}]] -- {=$CreatedBy}%0a---%0a> * [[{=$Titlespaced}]] -- [-{=$CreatedBy}-]%0a16c16%0a%3c Total of {$$PageCount} articles.%0a---%0a> Displayed {$$PageCount} pages.%0a
+host:1598556304=108.32.35.122
+author:1598556175=will
+diff:1598556175:1598555173:=13,14c13%0a%3c * [[{=$Titlespaced}]] -- [-{=$CreatedBy}-]%0a%3c ** (:include {=$FullName}#summary:)%0a---%0a> * [[{=$Titlespaced}]] -- [-{=$Author}-]%0a
+host:1598556175=108.32.35.122
+author:1598555173=
+diff:1598555173:1598555114:=13c13%0a%3c * [[{=$Titlespaced}]] -- [-{=$Author}-]%0a---%0a> * [[{=$TitleSpaced}]] -- [-{=$:Summary}-]%0a16,26c16%0a%3c [[#categorypagesend]]%0a%3c %0a%3c [[#teasers]]%0a%3c || '''[[{=$FullName}]]''' - [[Edit -> {=$FullName}?action=edit]]||%0a%3c %0a%3c (:include {=$FullName} lines=4:)%0a%3c %0a%3c (:if ! equal {>$Group}:)%0a%3c -----%0a%3c (:if:) %0a%3c [[#teasersend]]%0a\ No newline at end of file%0a---%0a> [[#categorypagesend]]%0a\ No newline at end of file%0a
+host:1598555173=108.32.35.122
+author:1598555114=
+diff:1598555114:1598554954:=13c13,14%0a%3c * [[{=$TitleSpaced}]] -- [-{=$:Summary}-]%0a---%0a> * [[{=$FullName}]] -- [[{=$:AuthorId}]]%0a> ** [-{=$:Summary}-]%0a
+host:1598555114=108.32.35.122
+author:1598554954=
+diff:1598554954:1598554885:=13c13%0a%3c * [[{=$FullName}]] -- [[{=$:AuthorId}]]%0a---%0a> * [[{=$FullName}]] -- [[{=$AuthorId}]]%0a
+host:1598554954=108.32.35.122
+author:1598554885=
+diff:1598554885:1598554860:=13c13%0a%3c * [[{=$FullName}]] -- [[{=$AuthorId}]]%0a---%0a> * [[{=$FullName}]] -- [[{=$Author}]]%0a
+host:1598554885=108.32.35.122
+author:1598554860=
+diff:1598554860:1598554726:=13,14c13%0a%3c * [[{=$FullName}]] -- [[{=$Author}]]%0a%3c ** [-{=$:Summary}-]%0a---%0a> * [[{=$FullName}]] [-{=$:Summary}-]%0a
+host:1598554860=108.32.35.122
+author:1598554726=
+diff:1598554726:1598554726:=1,16d0%0a%3c [[#bygrouptitle]]%0a%3c (:if ! equal {=$Group} {%3c$Group}:)%0a%3c %0a%3c :[[{=$Group}/]] /:%0a%3c (:if:)%0a%3c : :[[{=$Group}/[[{=$Name} | + ]]%0a%3c [[#bygrouptitleend]]%0a%3c %0a%3c [[#categorypages]]%0a%3c (:template first:)%0a%3c Pages in the list:%0a%3c (:template each:)%0a%3c * [[{=$FullName}]] [-{=$:Summary}-]%0a%3c (:template last:)%0a%3c Displayed {$$PageCount} pages.%0a%3c [[#categorypagesend]]%0a\ No newline at end of file%0a
+host:1598554726=108.32.35.122

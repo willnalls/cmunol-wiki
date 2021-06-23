@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612462922
+host=74.98.251.138
+name=GradebookArticles.Whistling
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Whistling, Phonology, and (some) Physics%0a:Author: david_h%0a:Section: E%0a:Completed: 04.02.2021 - 10:22%0a:Status: complete%0a%0a%0a#foxbegin 210205-173311-744810#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173311-744810#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210317-174431-569140#%0a* [-17.03.2021 - 10:44-] || TA_mason marked as complete%0a#foxend 210317-174431-569140#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aHow do "whistled languages" affect the standard views on phonology?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI once watched a video (https://www.youtube.com/watch?v=l117wfB0g3o) that introduced a whistled language called kuş dili from Turkey. This then raised a few questions: Does whistling involve a different mechanism from "spoken speech?" Is there a standard to write such a language (does IPA work)? How did such languages develop?%0a%0aIt might be interesting to see whether such languages develop separately from the local spoken language, like how sign languages are independent of the local spoken language.%0a%0aAnother cool discussion is the physics of the sound. Different sound frequencies attenuate faster than others (see https://en.wikipedia.org/wiki/Stokes%2527s_law_of_sound_attenuation). As such languages are usually developed to ease communication in mountainous areas, are there some sounds that are not as feasible to use in certain situations?%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_mason:)
+time=1616003070
+author:1616003070=TA_mason
+diff:1616003070:1614801953:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210317-174431-569140#%0a%3c * [-17.03.2021 - 10:44-] || TA_mason marked as complete%0a%3c #foxend 210317-174431-569140#%0a---%0a> %0a49,50c47%0a%3c ----%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1616003070=74.98.251.138
+author:1614801953=
+diff:1614801953:1612546390:=4c4%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1614801953=74.109.247.199
+author:1612546390=TA_lili
+diff:1612546390:1612462922:=9,12d8%0a%3c #foxbegin 210205-173311-744810#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173311-744810#%0a
+host:1612546390=74.109.247.199
+author:1612462922=david_h
+diff:1612462922:1612462922:=1,43d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Whistling, Phonology, and (some) Physics%0a%3c :Author: david_h%0a%3c :Section: %0a%3c :Completed: 04.02.2021 - 10:22%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c How do "whistled languages" affect the standard views on phonology?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I once watched a video (https://www.youtube.com/watch?v=l117wfB0g3o) that introduced a whistled language called kuş dili from Turkey. This then raised a few questions: Does whistling involve a different mechanism from "spoken speech?" Is there a standard to write such a language (does IPA work)? How did such languages develop?%0a%3c %0a%3c It might be interesting to see whether such languages develop separately from the local spoken language, like how sign languages are independent of the local spoken language.%0a%3c %0a%3c Another cool discussion is the physics of the sound. Different sound frequencies attenuate faster than others (see https://en.wikipedia.org/wiki/Stokes%2527s_law_of_sound_attenuation). As such languages are usually developed to ease communication in mountainous areas, are there some sounds that are not as feasible to use in certain situations?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612462922=74.98.232.230

@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1611284112
+host=74.109.247.199
+name=Category.MorphosyntacticDiversity
+rev=7
+targets=
+text=(:essential: yes:)%0a(:deadline: 2021-04-17:)%0a(:expansiondeadline: 2021-04-24:)%0a%0a!!Morphosyntactic diversity%0a(:if equal yes yes:)%0a('''essential category''')%0a(:if end:)%0a%0a----%0a%0aIn this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity in English dialects.  There are many excellent resources out there, and one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a%0aFor an article of this kind, you are asked to provide a brief summary of a grammatical construction from any dialect that is not Standardized American English, with examples.  You do not have to limit yourself to Englishes of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English, etc.%0a%0a!!Expansions%0a%0aSome ideas for expansions of this category are:%0a%0a* [+ Find additional examples of the grammatical construction in question, either in written texts or in a video. +]%0a* [+ If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction. +]%0a* [+ Find a non-English language that exhibits the same construction, and provide a brief summary with glossed examples showing the parallelism. +]%0a%0a----%0a%0a!!Deadline extended!
+time=1618266275
+author:1618266275=
+diff:1618266275:1618266261:=26c26%0a%3c !!Deadline extended!%0a\ No newline at end of file%0a---%0a> %25red%25 !!Deadline extended!%0a\ No newline at end of file%0a
+host:1618266275=74.109.247.199
+author:1618266261=
+diff:1618266261:1618266241:=26c26%0a%3c %25red%25 !!Deadline extended!%0a\ No newline at end of file%0a---%0a> !!Deadline extended!%0a\ No newline at end of file%0a
+host:1618266261=74.109.247.199
+author:1618266241=
+diff:1618266241:1618264464:=24,26c24%0a%3c ----%0a%3c %0a%3c !!Deadline extended!%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1618266241=74.109.247.199
+author:1618264464=
+diff:1618264464:1612137476:=2,3c2,3%0a%3c (:deadline: 2021-04-17:)%0a%3c (:expansiondeadline: 2021-04-24:)%0a---%0a> (:deadline: 2021-04-10:)%0a> (:expansiondeadline: 2021-04-17:)%0a
+host:1618264464=74.109.247.199
+author:1612137476=christina
+diff:1612137476:1612050595:=12,21c12,21%0a%3c In this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity in English dialects.  There are many excellent resources out there, and one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a%3c %0a%3c For an article of this kind, you are asked to provide a brief summary of a grammatical construction from any dialect that is not Standardized American English, with examples.  You do not have to limit yourself to Englishes of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English, etc.%0a%3c %0a%3c !!Expansions%0a%3c %0a%3c Some ideas for expansions of this category are:%0a%3c %0a%3c * [+ Find additional examples of the grammatical construction in question, either in written texts or in a video. +]%0a%3c * [+ If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction. +]%0a---%0a> In this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity in English dialects.  There are many excellent resources out there, and one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a> %0a> For an article of this kind, you are asked to provide a brief summary of a grammatical construction from a non-standardized dialect of English, with examples.  You do not have to limit yourself to Englishes of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English (as spoken in India), etc.%0a> %0a> !!Expansions%0a> %0a> Some ideas for expansions of this category are:%0a> %0a> * [+ Find additional examples of the grammatical construction in question, either in written texts or in a video. +]%0a> * [+ If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction. +]%0a
+host:1612137476=98.111.230.107
+author:1612050595=
+diff:1612050595:1611284112:=2,3c2,3%0a%3c (:deadline: 2021-04-10:)%0a%3c (:expansiondeadline: 2021-04-17:)%0a---%0a> (:deadline: 2021-04-12:)%0a> (:expansiondeadline: 2021-04-12:)%0a
+host:1612050595=74.109.247.199
+author:1611284112=
+diff:1611284112:1611284112:=1,24d0%0a%3c (:essential: yes:)%0a%3c (:deadline: 2021-04-12:)%0a%3c (:expansiondeadline: 2021-04-12:)%0a%3c %0a%3c !!Morphosyntactic diversity%0a%3c (:if equal yes yes:)%0a%3c ('''essential category''')%0a%3c (:if end:)%0a%3c %0a%3c ----%0a%3c %0a%3c In this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity in English dialects.  There are many excellent resources out there, and one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a%3c %0a%3c For an article of this kind, you are asked to provide a brief summary of a grammatical construction from a non-standardized dialect of English, with examples.  You do not have to limit yourself to Englishes of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English (as spoken in India), etc.%0a%3c %0a%3c !!Expansions%0a%3c %0a%3c Some ideas for expansions of this category are:%0a%3c %0a%3c * [+ Find additional examples of the grammatical construction in question, either in written texts or in a video. +]%0a%3c * [+ If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction. +]%0a%3c * [+ Find a non-English language that exhibits the same construction, and provide a brief summary with glossed examples showing the parallelism. +]%0a%3c %0a%3c ----%0a\ No newline at end of file%0a
+host:1611284112=74.109.247.199

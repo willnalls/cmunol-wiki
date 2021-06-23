@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612805153
+host=74.109.247.199
+name=Profiles.JosephG
+rev=3
+targets=
+text=(:section: A:)%0a(:andrewid: jglanzbe:)%0a#foxbegin 210309-213616-583600#%0a(:name: {$Name}:)%0a#foxend 210309-213616-583600#
+time=1615325770
+author:1615325770=
+diff:1615325770:1612805162:=2,5c2%0a%3c (:andrewid: jglanzbe:)%0a%3c #foxbegin 210309-213616-583600#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213616-583600#%0a\ No newline at end of file%0a---%0a> (:andrewid: jglanzbe:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612805162=JosephG
+diff:1612805162:1612805153:=1,2c1%0a%3c (:section: A:)%0a%3c (:andrewid: jglanzbe:)%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1612805162=98.239.240.49
+author:1612805153=JosephG
+diff:1612805153:1612805153:=1d0%0a%3c (:section: A:)%0a\ No newline at end of file%0a
+host:1612805153=98.239.240.49

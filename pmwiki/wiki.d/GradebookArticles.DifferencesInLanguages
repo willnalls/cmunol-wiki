@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1612492100
+host=74.111.97.246
+name=GradebookArticles.DifferencesInLanguages
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Differences in Languages%0a:Author: solanaM%0a:Section: C%0a:Completed: 04.02.2021 - 18:28%0a:Status: complete%0a%0a%0a#foxbegin 210205-172828-510810#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-172828-510810#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-150703-517160#%0a* [-06.05.2021 - 08:07-] || TA_lili marked as complete%0a#foxend 210506-150703-517160#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aCan you train yourself to pick up on distinct sounds in other languages?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI remember learning a while ago in a neuro or psych course about how some languages have differences in sounds/utterances that are so small (compared to sounds we have in English) to English speakers we do not notice them. This is one of the reasons learning a new language later in life is more difficult and almost impossible to reach native fluency in. I wonder how much training it would take for a non native speaker of a language to begin to pick up on such sounds, if they could at all? I also wonder at what age/stage in brain and language development this becomes harder in? Do individuals fluent two such different languages have better sound discrimination abilities that can be generalized elsewhere?%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_lili:)
+time=1620313623
+author:1620313623=TA_lili
+diff:1620313623:1614801910:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210506-150703-517160#%0a%3c * [-06.05.2021 - 08:07-] || TA_lili marked as complete%0a%3c #foxend 210506-150703-517160#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1620313623=74.111.97.246
+author:1614801910=
+diff:1614801910:1612546108:=4c4%0a%3c :Section: C%0a---%0a> :Section: %0a
+host:1614801910=74.109.247.199
+author:1612546108=TA_lili
+diff:1612546108:1612492100:=9,12d8%0a%3c #foxbegin 210205-172828-510810#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-172828-510810#%0a
+host:1612546108=74.109.247.199
+author:1612492100=solanaM
+diff:1612492100:1612492100:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Differences in Languages%0a%3c :Author: solanaM%0a%3c :Section: %0a%3c :Completed: 04.02.2021 - 18:28%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Can you train yourself to pick up on distinct sounds in other languages?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I remember learning a while ago in a neuro or psych course about how some languages have differences in sounds/utterances that are so small (compared to sounds we have in English) to English speakers we do not notice them. This is one of the reasons learning a new language later in life is more difficult and almost impossible to reach native fluency in. I wonder how much training it would take for a non native speaker of a language to begin to pick up on such sounds, if they could at all? I also wonder at what age/stage in brain and language development this becomes harder in? Do individuals fluent two such different languages have better sound discrimination abilities that can be generalized elsewhere?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612492100=73.79.229.20

@@ -1,0 +1,81 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=Russell_E
+charset=UTF-8
+csum=
+ctime=1612349186
+host=99.171.140.109
+name=Profiles.SpencerL
+rev=23
+targets=Articles.KizhOrTongvaOfCA,Articles.Hashtag,Articles.StressedBIN,Articles.Hashtags,Articles.IndianAccentInTVShows,Articles.SyntaxOfASL,Articles.Jejueo
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: syl2 \\%0a%0a[[#comments]]%0a#foxbegin 210324-061718-624230#%0a* evelynC expanded on your article [[Articles.KizhOrTongvaOfCA|KizhOrTongvaOfCA]] {[foxdelline button 210324-061718-624230 {$FullName} ]}%0a#foxend 210324-061718-624230#%0a#foxbegin 210324-061719-109610#%0a* evelynC expanded on your article [[Articles.KizhOrTongvaOfCA|KizhOrTongvaOfCA]] {[foxdelline button 210324-061719-109610 {$FullName} ]}%0a#foxend 210324-061719-109610#%0a#foxbegin 210404-020037-331050#%0a* abbyl expanded on your article [[Articles.Hashtag|Hashtag]] {[foxdelline button 210404-020037-331050 {$FullName} ]}%0a#foxend 210404-020037-331050#%0a#foxbegin 210410-155328-610080#%0a* angelaw expanded on your article [[Articles.StressedBIN|StressedBIN]] {[foxdelline button 210410-155328-610080 {$FullName} ]}%0a#foxend 210410-155328-610080#%0a#foxbegin 210420-042628-172010#%0a* abbyl expanded on your article [[Articles.Hashtags|Hashtags]] {[foxdelline button 210420-042628-172010 {$FullName} ]}%0a#foxend 210420-042628-172010#%0a#foxbegin 210421-092858-447220#%0a* EthanW expanded on your article [[Articles.IndianAccentInTVShows|IndianAccentInTVShows]] {[foxdelline button 210421-092858-447220 {$FullName} ]}%0a#foxend 210421-092858-447220#%0a#foxbegin 210424-043145-689460#%0a* nithyas expanded on your article [[Articles.IndianAccentInTVShows|IndianAccentInTVShows]] {[foxdelline button 210424-043145-689460 {$FullName} ]}%0a#foxend 210424-043145-689460#%0a#foxbegin 210425-034716-596620#%0a* shreya_r expanded on your article [[Articles.IndianAccentInTVShows|IndianAccentInTVShows]] {[foxdelline button 210425-034716-596620 {$FullName} ]}%0a#foxend 210425-034716-596620#%0a#foxbegin 210430-064400-629490#%0a* EthanW expanded on your article [[Articles.SyntaxOfASL|SyntaxOfASL]] {[foxdelline button 210430-064400-629490 {$FullName} ]}%0a#foxend 210430-064400-629490#%0a#foxbegin 210430-070159-631610#%0a* EthanW expanded on your article [[Articles.Jejueo|Jejueo]] {[foxdelline button 210430-070159-631610 {$FullName} ]}%0a#foxend 210430-070159-631610#%0a#foxbegin 210503-215357-757750#%0a* leah_w expanded on your article [[Articles.Jejueo|Jejueo]] {[foxdelline button 210503-215357-757750 {$FullName} ]}%0a#foxend 210503-215357-757750#%0a#foxbegin 210508-011308-404890#%0a* CharlieP expanded on your article [[Articles.KizhOrTongvaOfCA|KizhOrTongvaOfCA]] {[foxdelline button 210508-011308-404890 {$FullName} ]}%0a#foxend 210508-011308-404890#%0a#foxbegin 210509-035008-753940#%0a* Russell_E expanded on your article [[Articles.Jejueo|Jejueo]] {[foxdelline button 210509-035008-753940 {$FullName} ]}%0a#foxend 210509-035008-753940#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: syl2 \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: syl2 \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: syl2 \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: syl2 \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: syl2 \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: syl2 \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: D:)%0a#foxbegin 210309-213706-648910#%0a(:name: Spencer_L:)%0a#foxend 210309-213706-648910#
+time=1620532207
+author:1620532207=Russell_E
+diff:1620532207:1620436387:=43,45d42%0a%3c #foxbegin 210509-035008-753940#%0a%3c * Russell_E expanded on your article [[Articles.Jejueo|Jejueo]] {[foxdelline button 210509-035008-753940 {$FullName} ]}%0a%3c #foxend 210509-035008-753940#%0a
+host:1620532207=99.171.140.109
+author:1620436387=CharlieP
+diff:1620436387:1620078836:=40,42d39%0a%3c #foxbegin 210508-011308-404890#%0a%3c * CharlieP expanded on your article [[Articles.KizhOrTongvaOfCA|KizhOrTongvaOfCA]] {[foxdelline button 210508-011308-404890 {$FullName} ]}%0a%3c #foxend 210508-011308-404890#%0a
+host:1620436387=74.109.251.161
+author:1620078836=leah_w
+diff:1620078836:1619766118:=37,39d36%0a%3c #foxbegin 210503-215357-757750#%0a%3c * leah_w expanded on your article [[Articles.Jejueo|Jejueo]] {[foxdelline button 210503-215357-757750 {$FullName} ]}%0a%3c #foxend 210503-215357-757750#%0a
+host:1620078836=71.245.186.13
+author:1619766118=EthanW
+diff:1619766118:1619765039:=34,36d33%0a%3c #foxbegin 210430-070159-631610#%0a%3c * EthanW expanded on your article [[Articles.Jejueo|Jejueo]] {[foxdelline button 210430-070159-631610 {$FullName} ]}%0a%3c #foxend 210430-070159-631610#%0a
+host:1619766118=206.190.157.238
+author:1619765039=EthanW
+diff:1619765039:1619322434:=31,33d30%0a%3c #foxbegin 210430-064400-629490#%0a%3c * EthanW expanded on your article [[Articles.SyntaxOfASL|SyntaxOfASL]] {[foxdelline button 210430-064400-629490 {$FullName} ]}%0a%3c #foxend 210430-064400-629490#%0a
+host:1619765039=206.190.157.238
+author:1619322434=shreya_r
+diff:1619322434:1619238704:=28,30d27%0a%3c #foxbegin 210425-034716-596620#%0a%3c * shreya_r expanded on your article [[Articles.IndianAccentInTVShows|IndianAccentInTVShows]] {[foxdelline button 210425-034716-596620 {$FullName} ]}%0a%3c #foxend 210425-034716-596620#%0a
+host:1619322434=128.237.82.1
+author:1619238704=nithyas
+diff:1619238704:1618997335:=25,27d24%0a%3c #foxbegin 210424-043145-689460#%0a%3c * nithyas expanded on your article [[Articles.IndianAccentInTVShows|IndianAccentInTVShows]] {[foxdelline button 210424-043145-689460 {$FullName} ]}%0a%3c #foxend 210424-043145-689460#%0a
+host:1619238704=73.154.179.162
+author:1618997335=EthanW
+diff:1618997335:1618892787:=22,24d21%0a%3c #foxbegin 210421-092858-447220#%0a%3c * EthanW expanded on your article [[Articles.IndianAccentInTVShows|IndianAccentInTVShows]] {[foxdelline button 210421-092858-447220 {$FullName} ]}%0a%3c #foxend 210421-092858-447220#%0a
+host:1618997335=206.190.157.238
+author:1618892787=abbyl
+diff:1618892787:1618070007:=19,21d18%0a%3c #foxbegin 210420-042628-172010#%0a%3c * abbyl expanded on your article [[Articles.Hashtags|Hashtags]] {[foxdelline button 210420-042628-172010 {$FullName} ]}%0a%3c #foxend 210420-042628-172010#%0a
+host:1618892787=24.17.178.107
+author:1618070007=angelaw
+diff:1618070007:1617501636:=16,18d15%0a%3c #foxbegin 210410-155328-610080#%0a%3c * angelaw expanded on your article [[Articles.StressedBIN|StressedBIN]] {[foxdelline button 210410-155328-610080 {$FullName} ]}%0a%3c #foxend 210410-155328-610080#%0a
+host:1618070007=24.61.22.234
+author:1617501636=abbyl
+diff:1617501636:1616566638:=13,15d12%0a%3c #foxbegin 210404-020037-331050#%0a%3c * abbyl expanded on your article [[Articles.Hashtag|Hashtag]] {[foxdelline button 210404-020037-331050 {$FullName} ]}%0a%3c #foxend 210404-020037-331050#%0a
+host:1617501636=24.17.178.107
+author:1616566638=evelynC
+diff:1616566638:1616566637:=10,12d9%0a%3c #foxbegin 210324-061719-109610#%0a%3c * evelynC expanded on your article [[Articles.KizhOrTongvaOfCA|KizhOrTongvaOfCA]] {[foxdelline button 210324-061719-109610 {$FullName} ]}%0a%3c #foxend 210324-061719-109610#%0a
+host:1616566638=199.247.108.174
+author:1616566637=evelynC
+diff:1616566637:1615397580:=7,9c7%0a%3c #foxbegin 210324-061718-624230#%0a%3c * evelynC expanded on your article [[Articles.KizhOrTongvaOfCA|KizhOrTongvaOfCA]] {[foxdelline button 210324-061718-624230 {$FullName} ]}%0a%3c #foxend 210324-061718-624230#%0a---%0a> %0a
+host:1616566637=199.247.108.174
+author:1615397580=
+diff:1615397580:1615325825:=171c171%0a%3c (:name: Spencer_L:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615397580=74.109.247.199
+author:1615325825=
+diff:1615325825:1612504573:=169,172c169%0a%3c (:section: D:)%0a%3c #foxbegin 210309-213706-648910#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213706-648910#%0a\ No newline at end of file%0a---%0a> (:section: D:)%0a\ No newline at end of file%0a
+host:1615325825=74.109.247.199
+author:1612504573=Spencer_L
+diff:1612504573:1612351560:=168,169c168%0a%3c [[#completedworkend]]%0a%3c (:section: D:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612504573=47.145.195.142
+author:1612351560=Spencer_L
+diff:1612351560:1612350670:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: syl2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612351560=47.145.195.142
+author:1612350670=Spencer_L
+diff:1612350670:1612350607:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: syl2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612350670=47.145.195.142
+author:1612350607=Spencer_L
+diff:1612350607:1612349465:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: syl2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612350607=47.145.195.142
+author:1612349465=Spencer_L
+diff:1612349465:1612349417:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: syl2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612349465=47.145.195.142
+author:1612349417=Spencer_L
+diff:1612349417:1612349386:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: syl2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612349417=47.145.195.142
+author:1612349386=Spencer_L
+diff:1612349386:1612349186:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: syl2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612349386=47.145.195.142
+author:1612349186=Spencer_L
+diff:1612349186:1612349186:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: syl2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612349186=47.145.195.142

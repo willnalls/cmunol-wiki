@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1615398883
+host=74.109.247.199
+name=Test.Ruiranx
+rev=1
+targets=
+text=(:name: ruiranx:)
+time=1615398883
+author:1615398883=
+diff:1615398883:1615398883:=1d0%0a%3c (:name: ruiranx:)%0a\ No newline at end of file%0a
+host:1615398883=74.109.247.199

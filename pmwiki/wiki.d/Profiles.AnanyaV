@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+author=Mihir_D
+charset=UTF-8
+csum=
+ctime=1612222915
+host=108.16.220.220
+name=Profiles.AnanyaV
+rev=7
+targets=Articles.PhilosophyLessonsFromPLAY,Articles.TheUseOfOnlyInIndianEnglish
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ananyav \\%0a%0a[[#comments]]%0a#foxbegin 210328-012110-948660#%0a* AlbertL expanded on your article [[Articles.PhilosophyLessonsFromPLAY|PhilosophyLessonsFromPLAY]] {[foxdelline button 210328-012110-948660 {$FullName} ]}%0a#foxend 210328-012110-948660#%0a#foxbegin 210411-205943-64500#%0a* sanjana_m expanded on your article [[Articles.TheUseOfOnlyInIndianEnglish|TheUseOfOnlyInIndianEnglish]] {[foxdelline button 210411-205943-64500 {$FullName} ]}%0a#foxend 210411-205943-64500#%0a#foxbegin 210416-153255-489140#%0a* Mihir_D expanded on your article [[Articles.TheUseOfOnlyInIndianEnglish|TheUseOfOnlyInIndianEnglish]] {[foxdelline button 210416-153255-489140 {$FullName} ]}%0a#foxend 210416-153255-489140#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: E:)%0a#foxbegin 210309-213612-701840#%0a(:name: AnanyaV:)%0a#foxend 210309-213612-701840#
+time=1618587174
+author:1618587174=Mihir_D
+diff:1618587174:1618174781:=13,15d12%0a%3c #foxbegin 210416-153255-489140#%0a%3c * Mihir_D expanded on your article [[Articles.TheUseOfOnlyInIndianEnglish|TheUseOfOnlyInIndianEnglish]] {[foxdelline button 210416-153255-489140 {$FullName} ]}%0a%3c #foxend 210416-153255-489140#%0a
+host:1618587174=108.16.220.220
+author:1618174781=sanjana_m
+diff:1618174781:1616894469:=10,12d9%0a%3c #foxbegin 210411-205943-64500#%0a%3c * sanjana_m expanded on your article [[Articles.TheUseOfOnlyInIndianEnglish|TheUseOfOnlyInIndianEnglish]] {[foxdelline button 210411-205943-64500 {$FullName} ]}%0a%3c #foxend 210411-205943-64500#%0a
+host:1618174781=128.237.82.2
+author:1616894469=AlbertL
+diff:1616894469:1615405918:=7,9c7%0a%3c #foxbegin 210328-012110-948660#%0a%3c * AlbertL expanded on your article [[Articles.PhilosophyLessonsFromPLAY|PhilosophyLessonsFromPLAY]] {[foxdelline button 210328-012110-948660 {$FullName} ]}%0a%3c #foxend 210328-012110-948660#%0a---%0a> %0a
+host:1616894469=67.163.151.95
+author:1615405918=
+diff:1615405918:1615325770:=27c27%0a%3c (:name: AnanyaV:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405918=74.109.247.199
+author:1615325770=
+diff:1615325770:1613273273:=25,28c25%0a%3c (:section: E:)%0a%3c #foxbegin 210309-213612-701840#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213612-701840#%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1613273273=AnanyaV
+diff:1613273273:1612222915:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: E:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613273273=96.236.208.198
+author:1612222915=AnanyaV
+diff:1612222915:1612222915:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ananyav \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612222915=96.236.208.198

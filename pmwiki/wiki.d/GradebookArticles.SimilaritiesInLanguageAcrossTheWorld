@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1612381316
+host=69.218.234.170
+name=GradebookArticles.SimilaritiesInLanguageAcrossTheWorld
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Similarities in language across the world%0a:Author: khushiw%0a:Section: B%0a:Completed: 03.02.2021 - 11:41%0a:Status: complete%0a%0a%0a#foxbegin 210205-173218-654600#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173218-654600#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210208-145922-152630#%0a* [-08.02.2021 - 06:59-] || TA_audrey marked as complete%0a#foxend 210208-145922-152630#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aHow does the process of adoption work for similar languages across the world?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI think it's really interesting how languages on opposite sides of the globe can be really similar. I understand that these similarities come from the fact that colonizers come to new lands and establish their language by force or over time. I wonder how the actual process of blending two languages works. How is it mutually decided which parts of each language stay? How do communities willingly/unwillingly begin to adopt a new language? Are there certain parts of a language that are universally adopted first?%0a%0aThese are just some questions that I think would be interesting to explore. I don't know if there are any patterns when it comes to the combining of languages but I think that there should be some worthy of acknowledging.%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1612796361
+author:1612796361=TA_audrey
+diff:1612796361:1612546337:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210208-145922-152630#%0a%3c * [-08.02.2021 - 06:59-] || TA_audrey marked as complete%0a%3c #foxend 210208-145922-152630#%0a---%0a> %0a47,48c45%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1612796361=69.218.234.170
+author:1612546337=TA_lili
+diff:1612546337:1612475377:=9,12d8%0a%3c #foxbegin 210205-173218-654600#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173218-654600#%0a
+host:1612546337=74.109.247.199
+author:1612475377=TA_lili
+diff:1612475377:1612381316:=4c4%0a%3c :Section: B%0a---%0a> :Section: %0a
+host:1612475377=74.109.247.199
+author:1612381316=khushiw
+diff:1612381316:1612381316:=1,41d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Similarities in language across the world%0a%3c :Author: khushiw%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 11:41%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c How does the process of adoption work for similar languages across the world?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I think it's really interesting how languages on opposite sides of the globe can be really similar. I understand that these similarities come from the fact that colonizers come to new lands and establish their language by force or over time. I wonder how the actual process of blending two languages works. How is it mutually decided which parts of each language stay? How do communities willingly/unwillingly begin to adopt a new language? Are there certain parts of a language that are universally adopted first?%0a%3c %0a%3c These are just some questions that I think would be interesting to explore. I don't know if there are any patterns when it comes to the combining of languages but I think that there should be some worthy of acknowledging.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612381316=128.2.149.254

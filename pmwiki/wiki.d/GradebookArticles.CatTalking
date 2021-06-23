@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1612561883
+host=69.218.234.170
+name=GradebookArticles.CatTalking
+rev=3
+targets=
+text=:Category: PracticeCategory%0a:Title: Cat talking%0a:Author: kyuwonW%0a:Section: D%0a:Completed: 05.02.2021 - 13:51%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210208-145211-854970#%0a* [-08.02.2021 - 06:52-] || TA_audrey marked as complete%0a#foxend 210208-145211-854970#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0avariability in the communication form %0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI recently adopted a cat that is really really talkative, who meows and purrs all the time. I found out that these vocalizations are only done when they are talking to humans, so when cats interact with other cats, they usually use their physical and body language. Then I wonder, if cats find a new way of communicating to those from different species, what do humans do when they interact with those from the other species. How variable can human communication be depending on the subject we are communicating with. %0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1612795931
+author:1612795931=TA_audrey
+diff:1612795931:1612579396:=6,7c6,7%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210208-145211-854970#%0a%3c * [-08.02.2021 - 06:52-] || TA_audrey marked as complete%0a%3c #foxend 210208-145211-854970#%0a---%0a> %0a46,47c44%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1612795931=69.218.234.170
+author:1612579396=
+diff:1612579396:1612561883:=4c4%0a%3c :Section: D%0a---%0a> :Section: %0a
+host:1612579396=74.109.247.199
+author:1612561883=kyuwonW
+diff:1612561883:1612561883:=1,44d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Cat talking%0a%3c :Author: kyuwonW%0a%3c :Section: %0a%3c :Completed: 05.02.2021 - 13:51%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c variability in the communication form %0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I recently adopted a cat that is really really talkative, who meows and purrs all the time. I found out that these vocalizations are only done when they are talking to humans, so when cats interact with other cats, they usually use their physical and body language. Then I wonder, if cats find a new way of communicating to those from different species, what do humans do when they interact with those from the other species. How variable can human communication be depending on the subject we are communicating with. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612561883=98.42.167.123

@@ -1,0 +1,30 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612213171
+host=74.109.247.199
+name=Profiles.JasonL
+rev=6
+targets=
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: jxlu \\%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: F:)%0a#foxbegin 210309-213616-674510#%0a(:name: JasonL:)%0a#foxend 210309-213616-674510#
+time=1615405980
+author:1615405980=
+diff:1615405980:1615325770:=27c27%0a%3c (:name: JasonL:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615405980=74.109.247.199
+author:1615325770=
+diff:1615325770:1612368550:=25,28c25%0a%3c (:section: F:)%0a%3c #foxbegin 210309-213616-674510#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213616-674510#%0a\ No newline at end of file%0a---%0a> (:section: F:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612368550=JasonL
+diff:1612368550:1612367394:=25c25%0a%3c (:section: F:)%0a\ No newline at end of file%0a---%0a> (:section: 1:)%0a\ No newline at end of file%0a
+host:1612368550=71.206.238.88
+author:1612367394=JasonL
+diff:1612367394:1612366237:=25c25%0a%3c (:section: 1:)%0a\ No newline at end of file%0a---%0a> (:section: F:)%0a\ No newline at end of file%0a
+host:1612367394=71.206.238.88
+author:1612366237=JasonL
+diff:1612366237:1612213171:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: F:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612366237=71.206.238.88
+author:1612213171=JasonL
+diff:1612213171:1612213171:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: jxlu \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612213171=71.206.238.88

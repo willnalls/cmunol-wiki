@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1612379318
+host=69.218.234.170
+name=GradebookArticles.NumbersInLanguages
+rev=4
+targets=
+text=:Category: PracticeCategory%0a:Title: Numbers in Languages%0a:Author: abbyl%0a:Section: B%0a:Completed: 03.02.2021 - 11:08%0a:Status: complete%0a%0a%0a#foxbegin 210205-173108-457340#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173108-457340#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210208-145736-831060#%0a* [-08.02.2021 - 06:57-] || TA_audrey marked as complete%0a#foxend 210208-145736-831060#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aWhy do some languages use strange names for their numbers?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI know languages like English and Mandarin Chinese where numbers are described in base-10 (eg: 324 would be three-hundred and twenty-four in English), but then there are also languages like French where some numbers are not described in base-10 like 99, which is roughly translated to "four times twenty plus nineteen" in English. Is there any reason why languages like French would seemingly randomly deviate from base-10 in their descriptions for numbers?%0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1612796256
+author:1612796256=TA_audrey
+diff:1612796256:1612546267:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210208-145736-831060#%0a%3c * [-08.02.2021 - 06:57-] || TA_audrey marked as complete%0a%3c #foxend 210208-145736-831060#%0a---%0a> %0a45,46c43%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1612796256=69.218.234.170
+author:1612546267=TA_lili
+diff:1612546267:1612475354:=9,12d8%0a%3c #foxbegin 210205-173108-457340#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173108-457340#%0a
+host:1612546267=74.109.247.199
+author:1612475354=TA_lili
+diff:1612475354:1612379318:=4c4%0a%3c :Section: B%0a---%0a> :Section: %0a
+host:1612475354=74.109.247.199
+author:1612379318=abbyl
+diff:1612379318:1612379318:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Numbers in Languages%0a%3c :Author: abbyl%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 11:08%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Why do some languages use strange names for their numbers?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I know languages like English and Mandarin Chinese where numbers are described in base-10 (eg: 324 would be three-hundred and twenty-four in English), but then there are also languages like French where some numbers are not described in base-10 like 99, which is roughly translated to "four times twenty plus nineteen" in English. Is there any reason why languages like French would seemingly randomly deviate from base-10 in their descriptions for numbers?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612379318=24.17.178.107

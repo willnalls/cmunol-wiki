@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1612461669
+host=72.95.222.76
+name=GradebookExpansions.NumbersInLanguages-davidH
+rev=5
+targets=Articles.NumbersInLanguages,Profiles.Abbyl
+text=:Category: PracticeCategory%0a:Expansion: Different scales for large numbers%0a:Author: david_h%0a:Original: [[Articles.NumbersInLanguages|NumbersInLanguages]] %0a:OriginalAuthor: [[Profiles.abbyl|abbyl]]%0a:Section: E%0a:Completed: 04.02.2021 - 10:01%0a:Status: complete%0a%0a%0a#foxbegin 210205-173648-828410#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173648-828410#%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210512-125247-173400#%0a* [-12.05.2021 - 05:52-] || TA_mason marked as complete%0a#foxend 210512-125247-173400#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThere are also some differences when talking about counting between increasing orders of magnitude. For instance, English groups these in 3s (e.g. ones, tens, hundreds is one group, thousands, ten thousands, hundred thousands is another group). This is also most evident when separating numbers when written in figures. 3,000,000 for three million.%0a%0aOn the other hand, Chinese groups them in 4s in everyday usage (e.g. 1, 10, 100, 1000 is one group, 10^4, 10^5, 10^6, 10^7 is another group). This makes three million said or written more like 300,0000 in Chinese characters. (Not quite sure if other Chinese speakers use it like so, but I learned it that way.)%0a%0aWhat factors influenced such differences? How does standardization (SI) work in these cases?%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000937-181990#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000937-181990#%0a(:GradedBy: TA_mason:)
+time=1620823967
+author:1620823967=TA_mason
+diff:1620823967:1620778172:=8,10c8,10%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a18,20c18%0a%3c #foxbegin 210512-125247-173400#%0a%3c * [-12.05.2021 - 05:52-] || TA_mason marked as complete%0a%3c #foxend 210512-125247-173400#%0a---%0a> %0a49,50c47%0a%3c #foxend 210512-000937-181990#%0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a---%0a> #foxend 210512-000937-181990#%0a\ No newline at end of file%0a
+host:1620823967=72.95.222.76
+author:1620778172=
+diff:1620778172:1616289842:=43,47c43%0a%3c (:Category:)%0a%3c #foxbegin 210512-000937-181990#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000937-181990#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289842=
+diff:1616289842:1612546607:=6c6%0a%3c :Section: E%0a---%0a> :Section: %0a
+host:1616289842=74.109.247.199
+author:1612546607=TA_lili
+diff:1612546607:1612461669:=11,14d10%0a%3c #foxbegin 210205-173648-828410#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173648-828410#%0a
+host:1612546607=74.109.247.199
+author:1612461669=david_h
+diff:1612461669:1612461669:=1,39d0%0a%3c :Category: PracticeCategory%0a%3c :Expansion: Different scales for large numbers%0a%3c :Author: david_h%0a%3c :Original: [[Articles.NumbersInLanguages|NumbersInLanguages]] %0a%3c :OriginalAuthor: [[Profiles.abbyl|abbyl]]%0a%3c :Section: %0a%3c :Completed: 04.02.2021 - 10:01%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c There are also some differences when talking about counting between increasing orders of magnitude. For instance, English groups these in 3s (e.g. ones, tens, hundreds is one group, thousands, ten thousands, hundred thousands is another group). This is also most evident when separating numbers when written in figures. 3,000,000 for three million.%0a%3c %0a%3c On the other hand, Chinese groups them in 4s in everyday usage (e.g. 1, 10, 100, 1000 is one group, 10^4, 10^5, 10^6, 10^7 is another group). This makes three million said or written more like 300,0000 in Chinese characters. (Not quite sure if other Chinese speakers use it like so, but I learned it that way.)%0a%3c %0a%3c What factors influenced such differences? How does standardization (SI) work in these cases?%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1612461669=74.98.232.230

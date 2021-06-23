@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1614106409
+host=74.109.239.200
+name=GradebookExpansions.AbsenceOfCommonConsonantsComparingEnglishAndHawaiian-bellar
+rev=3
+targets=Articles.AbsenceOfCommonConsonantsComparingEnglishAndHawaiian,Profiles.KushalD
+text=:Category: TypologyOfPhoneticContrasts%0a:Expansion: /w/ and /v/ in Hawaiian %0a:Author: bellar%0a:Original: [[Articles.AbsenceOfCommonConsonantsComparingEnglishAndHawaiian|AbsenceOfCommonConsonantsComparingEnglishAndHawaiian]] %0a:OriginalAuthor: [[Profiles.Kushal_D|Kushal_D]]%0a:Section: B%0a:Completed: 23.02.2021 - 10:53%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aHawaiian does not use fricative consonants but includes /w/, which sounds kind of in between the /w/ and /v/ sounds in English. Foreigners to Hawaii sometimes mistake the /w/ sound as /v/. The Hawaiian /w/ is a bilabial consonant so it can be pronounced with lips barely touching or more voiced with more lip contact. But because the teeth are not involved the v ends up sounding softer, like the w sound. According to the article, any words with the v sound in Hawaiian have been derived from foreign languages. %0a%0aSource: http://www.ulukau.org/elib/cgi-bin/library?e=d-0voicesofeden-000Sec--11en-50-20-contact-book--1-010escapewin&a=d&d=D0.9&toc=0%0a%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a#foxbegin 210512-000932-234190#%0a!!Backup interface%0a(:foxform Site.FoxForms#gradeExpansion:)%0a#foxend 210512-000932-234190#
+time=1620778172
+author:1620778172=
+diff:1620778172:1616289678:=41,45c41%0a%3c (:Category:)%0a%3c #foxbegin 210512-000932-234190#%0a%3c !!Backup interface%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c #foxend 210512-000932-234190#%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620778172=74.109.239.200
+author:1616289678=
+diff:1616289678:1614106409:=6c6%0a%3c :Section: B%0a---%0a> :Section: %0a
+host:1616289678=74.109.247.199
+author:1614106409=bellar
+diff:1614106409:1614106409:=1,41d0%0a%3c :Category: TypologyOfPhoneticContrasts%0a%3c :Expansion: /w/ and /v/ in Hawaiian %0a%3c :Author: bellar%0a%3c :Original: [[Articles.AbsenceOfCommonConsonantsComparingEnglishAndHawaiian|AbsenceOfCommonConsonantsComparingEnglishAndHawaiian]] %0a%3c :OriginalAuthor: [[Profiles.Kushal_D|Kushal_D]]%0a%3c :Section: %0a%3c :Completed: 23.02.2021 - 10:53%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Hawaiian does not use fricative consonants but includes /w/, which sounds kind of in between the /w/ and /v/ sounds in English. Foreigners to Hawaii sometimes mistake the /w/ sound as /v/. The Hawaiian /w/ is a bilabial consonant so it can be pronounced with lips barely touching or more voiced with more lip contact. But because the teeth are not involved the v ends up sounding softer, like the w sound. According to the article, any words with the v sound in Hawaiian have been derived from foreign languages. %0a%3c %0a%3c Source: http://www.ulukau.org/elib/cgi-bin/library?e=d-0voicesofeden-000Sec--11en-50-20-contact-book--1-010escapewin&a=d&d=D0.9&toc=0%0a%3c %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1614106409=128.237.82.1

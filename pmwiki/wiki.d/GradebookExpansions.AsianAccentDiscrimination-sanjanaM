@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1619823691
+host=74.111.97.246
+name=GradebookExpansions.AsianAccentDiscrimination-sanjanaM
+rev=2
+targets=Articles.AsianAccentDiscrimination,Profiles.AlexanderW
+text=:Category: LinguisticDiscriminationInTheWild%0a:Expansion: A similar example in the Colombian accent%0a:Author: sanjana_m%0a:Original: [[Articles.AsianAccentDiscrimination|AsianAccentDiscrimination]] %0a:OriginalAuthor: [[Profiles.AlexanderW|AlexanderW]]%0a:Section: D%0a:Completed: 30.04.2021 - 16:01%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210505-020917-158070#%0a* [-04.05.2021 - 19:09-] || TA_lili marked as complete%0a#foxend 210505-020917-158070#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aNot being able to distinguish between vowels is an issue that is common in many accents. The sheep example reminds me of a similar confusion with the Colombian accent in the show Modern Family. One of the main characters, Gloria, has a thick Colombian accent, which is often used for comedic purposes. Another character's name is Luke, and in one scene, she is telling "Luke" to "look." However, with her accent, the vowels sounded the same, and it caused a lot of confusion for Luke. %0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620180556
+author:1620180556=TA_lili
+diff:1620180556:1619823691:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210505-020917-158070#%0a%3c * [-04.05.2021 - 19:09-] || TA_lili marked as complete%0a%3c #foxend 210505-020917-158070#%0a---%0a> %0a40,41c38%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620180556=74.111.97.246
+author:1619823691=sanjana_m
+diff:1619823691:1619823691:=1,38d0%0a%3c :Category: LinguisticDiscriminationInTheWild%0a%3c :Expansion: A similar example in the Colombian accent%0a%3c :Author: sanjana_m%0a%3c :Original: [[Articles.AsianAccentDiscrimination|AsianAccentDiscrimination]] %0a%3c :OriginalAuthor: [[Profiles.AlexanderW|AlexanderW]]%0a%3c :Section: D%0a%3c :Completed: 30.04.2021 - 16:01%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Not being able to distinguish between vowels is an issue that is common in many accents. The sheep example reminds me of a similar confusion with the Colombian accent in the show Modern Family. One of the main characters, Gloria, has a thick Colombian accent, which is often used for comedic purposes. Another character's name is Luke, and in one scene, she is telling "Luke" to "look." However, with her accent, the vowels sounded the same, and it caused a lot of confusion for Luke. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619823691=128.2.149.254

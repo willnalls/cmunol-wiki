@@ -1,0 +1,19 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+author=will
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1598556101
+host=108.32.35.122
+name=Templates.Article
+rev=2
+targets=Category.ParentCategory
+text=[[!{$$ParentCategory}]]%0a%0a----%0a%0a[+++ article_title +++]%0a%0a'''Authored by:'''%0a%0ayour_name_here%0a%0a----%0a%0acontent_goes_here.%0a%0a----%0a%0a%0a(:if false:)%0a[[#summary]]%0a%0a1-2 sentence_summary_of_article%0a%0a[[#summaryend]]%0a(:ifend:)%0a%0a%0a%0a%0a%0a
+time=1598556792
+author:1598556792=will
+diff:1598556792:1598556101:=1c1%0a%3c [[!{$$ParentCategory}]]%0a---%0a> [[!{$Name}]]%0a
+host:1598556792=108.32.35.122
+author:1598556101=will
+diff:1598556101:1598556101:=1,29d0%0a%3c [[!{$Name}]]%0a%3c %0a%3c ----%0a%3c %0a%3c [+++ article_title +++]%0a%3c %0a%3c '''Authored by:'''%0a%3c %0a%3c your_name_here%0a%3c %0a%3c ----%0a%3c %0a%3c content_goes_here.%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c (:if false:)%0a%3c [[#summary]]%0a%3c %0a%3c 1-2 sentence_summary_of_article%0a%3c %0a%3c [[#summaryend]]%0a%3c (:ifend:)%0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a
+host:1598556101=108.32.35.122

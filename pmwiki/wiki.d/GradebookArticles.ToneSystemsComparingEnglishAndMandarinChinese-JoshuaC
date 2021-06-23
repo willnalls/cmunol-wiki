@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_mason
+charset=UTF-8
+csum=
+ctime=1620251617
+host=74.98.251.138
+name=GradebookArticles.ToneSystemsComparingEnglishAndMandarinChinese-JoshuaC
+rev=1
+targets=
+text=(:Status: complete:)%0a%0a(:GradedBy: TA_mason:)
+time=1620251617
+author:1620251617=TA_mason
+diff:1620251617:1620251617:=1,3d0%0a%3c (:Status: complete:)%0a%3c %0a%3c (:GradedBy: TA_mason:)%0a\ No newline at end of file%0a
+host:1620251617=74.98.251.138

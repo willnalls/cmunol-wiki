@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1618183125
+host=69.218.234.170
+name=GradebookExpansions.TheSeminoleTribe-aryans
+rev=2
+targets=Articles.TheSeminoleTribe,Profiles.ConnorG
+text=:Category: IndigenousLanguagesOfTheAmericas%0a:Expansion: Some characteristics of the Mikasuki language%0a:Author: aryans%0a:Original: [[Articles.TheSeminoleTribe|TheSeminoleTribe]] %0a:OriginalAuthor: [[Profiles.Connor_G|Connor_G]]%0a:Section: B%0a:Completed: 11.04.2021 - 16:18%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210511-234330-227030#%0a* [-11.05.2021 - 16:43-] || TA_audrey marked as complete%0a#foxend 210511-234330-227030#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aThe Mikasuki language uses suffixes to mark the grammatical function of nouns. For example, "-ot" is the subject marker, "-on" is the object marker, and "-ee" is the question marker. There are words for pronouns like "I", "me", and "you", but they are rarely used. Instead, person is usually distinguished by affixes on the verb. We also know that Mikasuki is a tonal language with three different tones. Vowel length is contrastive as well -- for example, [iti] means "eye" while [i:ti] means "fire".%0a%0aSource:  https://en.wikipedia.org/wiki/Mikasuki_language%0a%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_audrey:)
+time=1620776610
+author:1620776610=TA_audrey
+diff:1620776610:1618183125:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210511-234330-227030#%0a%3c * [-11.05.2021 - 16:43-] || TA_audrey marked as complete%0a%3c #foxend 210511-234330-227030#%0a---%0a> %0a43,44c41%0a%3c (:Category:)%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620776610=69.218.234.170
+author:1618183125=aryans
+diff:1618183125:1618183125:=1,41d0%0a%3c :Category: IndigenousLanguagesOfTheAmericas%0a%3c :Expansion: Some characteristics of the Mikasuki language%0a%3c :Author: aryans%0a%3c :Original: [[Articles.TheSeminoleTribe|TheSeminoleTribe]] %0a%3c :OriginalAuthor: [[Profiles.Connor_G|Connor_G]]%0a%3c :Section: B%0a%3c :Completed: 11.04.2021 - 16:18%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c The Mikasuki language uses suffixes to mark the grammatical function of nouns. For example, "-ot" is the subject marker, "-on" is the object marker, and "-ee" is the question marker. There are words for pronouns like "I", "me", and "you", but they are rarely used. Instead, person is usually distinguished by affixes on the verb. We also know that Mikasuki is a tonal language with three different tones. Vowel length is contrastive as well -- for example, [iti] means "eye" while [i:ti] means "fire".%0a%3c %0a%3c Source:  https://en.wikipedia.org/wiki/Mikasuki_language%0a%3c %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1618183125=184.190.142.79

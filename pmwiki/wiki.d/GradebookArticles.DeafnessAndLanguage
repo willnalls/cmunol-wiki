@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=TA_audrey
+charset=UTF-8
+csum=
+ctime=1612404257
+host=69.218.234.170
+name=GradebookArticles.DeafnessAndLanguage
+rev=7
+targets=
+text=:Category: PracticeCategory%0a:Title: Deafness and Language%0a:Author: xiranw%0a:Section:B%0a:Completed: 03.02.2021 - 18:04%0a:Status: complete%0a%0a%0a#foxbegin 210205-172817-248730#%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-172817-248730#%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210208-145316-885040#%0a* [-08.02.2021 - 06:53-] || TA_audrey marked as complete%0a#foxend 210208-145316-885040#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aWhat language(s) do deaf people use when thinking?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aWhen the question of what constitutes a language came up during class on Monday, a common response from students was that language is a means of communication between humans. But we do not use languages only to communicate to others; we think to ourselves using languages too. The main difference between the two scenarios is that the former tends to be vocal while the latter not. When I think, instead of making sounds, I imagine myself making sounds.%0aThis brings me to my question: when deaf people think, how do they, well, imagine themselves making sounds? Do they perhaps picture the lip and jaw movement? Do they think in sign language? On a related note, I also wonder what languages babies use when thinking. %0a%0a[[#contentends]]%0a----%0a(:GradedBy: TA_audrey:)
+time=1612795996
+author:1612795996=TA_audrey
+diff:1612795996:1612546096:=6,8c6,8%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a16,18c16%0a%3c #foxbegin 210208-145316-885040#%0a%3c * [-08.02.2021 - 06:53-] || TA_audrey marked as complete%0a%3c #foxend 210208-145316-885040#%0a---%0a> %0a46,47c44%0a%3c ----%0a%3c (:GradedBy: TA_audrey:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1612795996=69.218.234.170
+author:1612546096=TA_lili
+diff:1612546096:1612475329:=9,12d8%0a%3c #foxbegin 210205-172817-248730#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-172817-248730#%0a
+host:1612546096=74.109.247.199
+author:1612475329=TA_lili
+diff:1612475329:1612474871:=4c4%0a%3c :Section:B%0a---%0a> :Section:%0a
+host:1612475329=74.109.247.199
+author:1612474871=TA_lili
+diff:1612474871:1612474867:=4c4%0a%3c :Section:%0a---%0a> :Section: %0a
+host:1612474871=74.109.247.199
+author:1612474867=TA_lili
+diff:1612474867:1612474812:=4c4%0a%3c :Section: %0a---%0a> :Section: {$$section%0a36c36%0a%3c When the question of what constitutes a language came up during class on Monday, a common response from students was that language is a means of communication between humans. But we do not use languages only to communicate to others; we think to ourselves using languages too. The main difference between the two scenarios is that the former tends to be vocal while the latter not. When I think, instead of making sounds, I imagine myself making sounds.%0a---%0a> When the question of what constitutes a language came up during class on Monday, a common response from students was that language is a means of communication between humans. But we do not use languages only to communicate to others; we think to ourselves using languages too. The main difference between the two scenarios is that the former tends to be vocal while the latter not. When I think, instead of making sounds, I imagine myself making sounds.%0a
+host:1612474867=74.109.247.199
+author:1612474812=TA_lili
+diff:1612474812:1612404257:=4c4%0a%3c :Section: {$$section%0a---%0a> :Section: %0a
+host:1612474812=74.109.247.199
+author:1612404257=xiranw
+diff:1612404257:1612404257:=1,40d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Deafness and Language%0a%3c :Author: xiranw%0a%3c :Section: %0a%3c :Completed: 03.02.2021 - 18:04%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c What language(s) do deaf people use when thinking?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c When the question of what constitutes a language came up during class on Monday, a common response from students was that language is a means of communication between humans. But we do not use languages only to communicate to others; we think to ourselves using languages too. The main difference between the two scenarios is that the former tends to be vocal while the latter not. When I think, instead of making sounds, I imagine myself making sounds.%0a%3c This brings me to my question: when deaf people think, how do they, well, imagine themselves making sounds? Do they perhaps picture the lip and jaw movement? Do they think in sign language? On a related note, I also wonder what languages babies use when thinking. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612404257=66.27.77.226

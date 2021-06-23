@@ -1,0 +1,30 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36
+author=christina
+charset=UTF-8
+csum=
+ctime=1612304607
+host=98.111.230.107
+name=Profiles.KyuwonW
+rev=6
+targets=Articles.DiversityInASL,Articles.Psycholinguistics
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: kweon \\%0a%0a[[#comments]]%0a#foxbegin 210509-034349-487090#%0a* ruiranx expanded on your article [[Articles.DiversityInASL|DiversityInASL]] {[foxdelline button 210509-034349-487090 {$FullName} ]}%0a#foxend 210509-034349-487090#%0a#foxbegin 210513-233231-593480#%0a* christina expanded on your article [[Articles.Psycholinguistics|Psycholinguistics]] {[foxdelline button 210513-233231-593480 {$FullName} ]}%0a#foxend 210513-233231-593480#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: D:)%0a#foxbegin 210309-213617-639000#%0a(:name: kyuwonW:)%0a#foxend 210309-213617-639000#
+time=1620948750
+author:1620948750=christina
+diff:1620948750:1620531828:=10,12d9%0a%3c #foxbegin 210513-233231-593480#%0a%3c * christina expanded on your article [[Articles.Psycholinguistics|Psycholinguistics]] {[foxdelline button 210513-233231-593480 {$FullName} ]}%0a%3c #foxend 210513-233231-593480#%0a
+host:1620948750=98.111.230.107
+author:1620531828=ruiranx
+diff:1620531828:1615399975:=7,9c7%0a%3c #foxbegin 210509-034349-487090#%0a%3c * ruiranx expanded on your article [[Articles.DiversityInASL|DiversityInASL]] {[foxdelline button 210509-034349-487090 {$FullName} ]}%0a%3c #foxend 210509-034349-487090#%0a---%0a> %0a
+host:1620531828=74.109.250.254
+author:1615399975=
+diff:1615399975:1615325770:=27c27%0a%3c (:name: kyuwonW:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615399975=74.109.247.199
+author:1615325770=
+diff:1615325770:1612560581:=25,28c25%0a%3c (:section: D:)%0a%3c #foxbegin 210309-213617-639000#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213617-639000#%0a\ No newline at end of file%0a---%0a> (:section: D:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612560581=kyuwonW
+diff:1612560581:1612304607:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: D:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612560581=98.42.167.123
+author:1612304607=kyuwonW
+diff:1612304607:1612304607:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: kweon \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612304607=98.42.167.123

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=TA_lili
+charset=UTF-8
+csum=
+ctime=1619316439
+host=74.111.97.246
+name=GradebookExpansions.PersonalDatives-vincentC
+rev=2
+targets=Articles.PersonalDatives,Profiles.Angelaw
+text=:Category: MorphosyntacticDiversity%0a:Expansion: Soulja Boy's "I GOT ME SOME BAPES"%0a:Author: vincent_c%0a:Original: [[Articles.PersonalDatives|PersonalDatives]] %0a:OriginalAuthor: [[Profiles.angelaw|angelaw]]%0a:Section: C%0a:Completed: 24.04.2021 - 19:07%0a:Status: complete%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-145814-382330#%0a* [-06.05.2021 - 07:58-] || TA_lili marked as complete%0a#foxend 210506-145814-382330#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aLink: https://www.youtube.com/watch?v=PDFb_WhK-tU&ab_channel=BrickSquadGermany%0a%0aSoulja Boy has a song titled "I got me some Bapes" that exhibits the use of a personal dative where the subject and object both refer to the first person singular.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: TA_lili:)
+time=1620313093
+author:1620313093=TA_lili
+diff:1620313093:1619316439:=8,9c8,9%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a17,19c17%0a%3c #foxbegin 210506-145814-382330#%0a%3c * [-06.05.2021 - 07:58-] || TA_lili marked as complete%0a%3c #foxend 210506-145814-382330#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: TA_lili:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620313093=74.111.97.246
+author:1619316439=vincent_c
+diff:1619316439:1619316439:=1,40d0%0a%3c :Category: MorphosyntacticDiversity%0a%3c :Expansion: Soulja Boy's "I GOT ME SOME BAPES"%0a%3c :Author: vincent_c%0a%3c :Original: [[Articles.PersonalDatives|PersonalDatives]] %0a%3c :OriginalAuthor: [[Profiles.angelaw|angelaw]]%0a%3c :Section: C%0a%3c :Completed: 24.04.2021 - 19:07%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c Link: https://www.youtube.com/watch?v=PDFb_WhK-tU&ab_channel=BrickSquadGermany%0a%3c %0a%3c Soulja Boy has a song titled "I got me some Bapes" that exhibits the use of a personal dative where the subject and object both refer to the first person singular.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1619316439=74.109.254.7

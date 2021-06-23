@@ -1,0 +1,333 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1610559470
+host=74.109.239.200
+name=Test.Test
+rev=107
+targets=
+text=(:pagelist $:Author=BrandynA:)%0a%0a----%0a%0a(:foxmessages:)%0a%0aAdding expansion-grading form to bottom.%0a%0a(:fox selfExpansion target=GradebookExpansions.AbsenceOfCommonConsonantsComparingEnglishAndHawaiian-bellar,GradebookExpansions.AdjectivesAsAdverbsInConversationalAmericanEnglish-jnflores,GradebookExpansions.AIDecipheringLostLanguages-BenP,GradebookExpansions.AsianAccentDiscrimination-ruiranx,GradebookExpansions.BagOfWordsModelInNaturalLanguageProcessing-RussellE,GradebookExpansions.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo-ConnorG,GradebookExpansions.CanAnimalsTalk-abbyl,GradebookExpansions.CanAnimalsTalk-AlexisA,GradebookExpansions.ComparingEnglishAndOneida-GavinD,GradebookExpansions.ConstructedLanguages-gabrielz,GradebookExpansions.ConstructedLanguages-RussellE,GradebookExpansions.DialectsVsLanguages-BenP,GradebookExpansions.DialectsVsLanguages-markl,GradebookExpansions.DiversityInASL-ruiranx,GradebookExpansions.EthicIssuesWithTextGenerator-ruiranx,GradebookExpansions.ExpansionAndStandardizationOfCSL-MarkC,GradebookExpansions.FrontRoundedVowelsComparingEnglishAndMandarin-sebastiang,GradebookExpansions.GenderBiasInMachineTranslation-AlexX,GradebookExpansions.GradebookExpansions,GradebookExpansions.IsMathALanguage-mengS,GradebookExpansions.IsMathALanguage-ShahinC,GradebookExpansions.IsShakespeareEvenEnglish-MingkangL,GradebookExpansions.JapaneseSwitchingLsAndRs-MitulS,GradebookExpansions.LanguagesWhyWeMustSaveDyingTongues-sathyas,GradebookExpansions.LanguageThought-gabrielz,GradebookExpansions.LearningANewLanguage-AlexanderW,GradebookExpansions.Manchu-ruiranx,GradebookExpansions.Maskókî-AlexisA,GradebookExpansions.MockingOfHarryKanesAccent-AlexX,GradebookExpansions.Muskogee-AlbertL,GradebookExpansions.Neurolinguistics-RussellE,GradebookExpansions.No-angelaw,GradebookExpansions.NumbersInLanguages-davidH,GradebookExpansions.PhilosophyLessonsFromCATCH-bellar,GradebookExpansions.PhilosophyLessonsFromCHAIR-AlexisA,GradebookExpansions.PhilosophyLessonsFrom“Table”-abbyl,GradebookExpansions.PresenceOfUncommonConsonantsComparingEnglishAndZulu-ZoeC,GradebookExpansions.ProgrammingLanguagesAndLanguageAptitude-RussellE,GradebookExpansions.RecentChanges,GradebookExpansions.SearlesChineseRoomArgument-AlbertL,GradebookExpansions.ShowingPersonalityThroughLanguageInTV-MarkC,GradebookExpansions.ThatMultilingualVoiceInYourHead…-VikramM,GradebookExpansions.TheCherokee-sebastiang,GradebookExpansions.TheColorNamingDebate-JoshuaC,GradebookExpansions.TheColorNamingDebate-RussellE,GradebookExpansions.ToneInEnglishAndJapanese-TimG,GradebookExpansions.ToneSystemsComparingEnglishAndMandarin-davidH,GradebookExpansions.ToneSystemsComparingEnglishAndMandarinChinese-JacobF,GradebookExpansions.ToneSystemsComparingEnglishAndMandarinChinese-JoshuaC,GradebookExpansions.ToneSystemsComparingEnglishAndSouthernMin-MingkangL,GradebookExpansions.TryAndInEnglish-bellar,GradebookExpansions.UncommonConsonantsComparingEnglishAndArabic-rachelc,GradebookExpansions.VarietyOfSounds-TimG,GradebookExpansions.VowelInventoriesComparingEnglishAndRussian-sathyas,GradebookExpansions.WhatIsTheMostImportantHumanInvention-EthanW,GradebookExpansions.WhatLanguageDoYouSpeakDoYourBilingualFriends-RussellE,GradebookExpansions.WhatLanguageDoYouSpeakDoYourBilingualFriends-sebastiang put=bottom template=Site.FoxTemplates#expansiongrading:)%0a%0a%0a(:input submit post:)%0a(:foxend selfExpansion:)%0a%0a%0a----%0a%0a%0a(:pagelist group=GradebookExpansions $:Status=ungraded fmt=Templates.PagelistTemplates#fullname:)
+time=1621632085
+author:1621632085=
+diff:1621632085:1620778165:=1,4d0%0a%3c (:pagelist $:Author=BrandynA:)%0a%3c %0a%3c ----%0a%3c %0a
+host:1621632085=74.109.239.200
+author:1620778165=
+diff:1620778165:1620778092:=5c5%0a%3c (:fox selfExpansion target=GradebookExpansions.AbsenceOfCommonConsonantsComparingEnglishAndHawaiian-bellar,GradebookExpansions.AdjectivesAsAdverbsInConversationalAmericanEnglish-jnflores,GradebookExpansions.AIDecipheringLostLanguages-BenP,GradebookExpansions.AsianAccentDiscrimination-ruiranx,GradebookExpansions.BagOfWordsModelInNaturalLanguageProcessing-RussellE,GradebookExpansions.BuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffaloBuffalo-ConnorG,GradebookExpansions.CanAnimalsTalk-abbyl,GradebookExpansions.CanAnimalsTalk-AlexisA,GradebookExpansions.ComparingEnglishAndOneida-GavinD,GradebookExpansions.ConstructedLanguages-gabrielz,GradebookExpansions.ConstructedLanguages-RussellE,GradebookExpansions.DialectsVsLanguages-BenP,GradebookExpansions.DialectsVsLanguages-markl,GradebookExpansions.DiversityInASL-ruiranx,GradebookExpansions.EthicIssuesWithTextGenerator-ruiranx,GradebookExpansions.ExpansionAndStandardizationOfCSL-MarkC,GradebookExpansions.FrontRoundedVowelsComparingEnglishAndMandarin-sebastiang,GradebookExpansions.GenderBiasInMachineTranslation-AlexX,GradebookExpansions.GradebookExpansions,GradebookExpansions.IsMathALanguage-mengS,GradebookExpansions.IsMathALanguage-ShahinC,GradebookExpansions.IsShakespeareEvenEnglish-MingkangL,GradebookExpansions.JapaneseSwitchingLsAndRs-MitulS,GradebookExpansions.LanguagesWhyWeMustSaveDyingTongues-sathyas,GradebookExpansions.LanguageThought-gabrielz,GradebookExpansions.LearningANewLanguage-AlexanderW,GradebookExpansions.Manchu-ruiranx,GradebookExpansions.Maskókî-AlexisA,GradebookExpansions.MockingOfHarryKanesAccent-AlexX,GradebookExpansions.Muskogee-AlbertL,GradebookExpansions.Neurolinguistics-RussellE,GradebookExpansions.No-angelaw,GradebookExpansions.NumbersInLanguages-davidH,GradebookExpansions.PhilosophyLessonsFromCATCH-bellar,GradebookExpansions.PhilosophyLessonsFromCHAIR-AlexisA,GradebookExpansions.PhilosophyLessonsFrom“Table”-abbyl,GradebookExpansions.PresenceOfUncommonConsonantsComparingEnglishAndZulu-ZoeC,GradebookExpansions.ProgrammingLanguagesAndLanguageAptitude-RussellE,GradebookExpansions.RecentChanges,GradebookExpansions.SearlesChineseRoomArgument-AlbertL,GradebookExpansions.ShowingPersonalityThroughLanguageInTV-MarkC,GradebookExpansions.ThatMultilingualVoiceInYourHead…-VikramM,GradebookExpansions.TheCherokee-sebastiang,GradebookExpansions.TheColorNamingDebate-JoshuaC,GradebookExpansions.TheColorNamingDebate-RussellE,GradebookExpansions.ToneInEnglishAndJapanese-TimG,GradebookExpansions.ToneSystemsComparingEnglishAndMandarin-davidH,GradebookExpansions.ToneSystemsComparingEnglishAndMandarinChinese-JacobF,GradebookExpansions.ToneSystemsComparingEnglishAndMandarinChinese-JoshuaC,GradebookExpansions.ToneSystemsComparingEnglishAndSouthernMin-MingkangL,GradebookExpansions.TryAndInEnglish-bellar,GradebookExpansions.UncommonConsonantsComparingEnglishAndArabic-rachelc,GradebookExpansions.VarietyOfSounds-TimG,GradebookExpansions.VowelInventoriesComparingEnglishAndRussian-sathyas,GradebookExpansions.WhatIsTheMostImportantHumanInvention-EthanW,GradebookExpansions.WhatLanguageDoYouSpeakDoYourBilingualFriends-RussellE,GradebookExpansions.WhatLanguageDoYouSpeakDoYourBilingualFriends-sebastiang put=bottom template=Site.FoxTemplates#expansiongrading:)%0a---%0a> (:fox selfExpansion target=GradebookExpansions.PresenceOfUncommonConsonantsComparingZuluAndEnglish-MihirD put=bottom template=Site.FoxTemplates#expansiongrading:)%0a
+host:1620778165=74.109.239.200
+author:1620778092=
+diff:1620778092:1620778064:=15c15%0a%3c (:pagelist group=GradebookExpansions $:Status=ungraded fmt=Templates.PagelistTemplates#fullname:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles $:Status=ungraded fmt=Templates.PagelistTemplates#fullname:)%0a\ No newline at end of file%0a
+host:1620778092=74.109.239.200
+author:1620778064=
+diff:1620778064:1620778051:=15c15%0a%3c (:pagelist group=GradebookArticles $:Status=ungraded fmt=Templates.PagelistTemplates#fullname:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles $:Status=ungraded fmt=Templates.PagelistTemplates#fullname)%0a\ No newline at end of file%0a
+host:1620778064=74.109.239.200
+author:1620778051=
+diff:1620778051:1620777964:=15c15%0a%3c (:pagelist group=GradebookArticles $:Status=ungraded fmt=Templates.PagelistTemplates#fullname)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles $:Status=ungraded:)%0a\ No newline at end of file%0a
+host:1620778051=74.109.239.200
+author:1620777964=
+diff:1620777964:1620777838:=13,15d12%0a%3c %0a%3c %0a%3c (:pagelist group=GradebookArticles $:Status=ungraded:)%0a\ No newline at end of file%0a
+host:1620777964=74.109.239.200
+author:1620777838=
+diff:1620777838:1620742878:=3,11c3,9%0a%3c Adding expansion-grading form to bottom.%0a%3c %0a%3c (:fox selfExpansion target=GradebookExpansions.PresenceOfUncommonConsonantsComparingZuluAndEnglish-MihirD put=bottom template=Site.FoxTemplates#expansiongrading:)%0a%3c %0a%3c %0a%3c (:input submit post:)%0a%3c (:foxend selfExpansion:)%0a%3c %0a%3c %0a---%0a> %0a> Author is: {$Author}%0a> %0a> AuthID is: {$AuthID}%0a> %0a> %0a> %0a12a11%0a> (:pagelist $:Category=-PracticeCategory group=GradebookExpansions order=$:Completed:)%0a\ No newline at end of file%0a
+host:1620777838=74.109.239.200
+author:1620742878=Russell_E
+diff:1620742878:1620322562:=4,6c4%0a%3c Author is: {$Author}%0a%3c %0a%3c AuthID is: {$AuthID}%0a---%0a> %0a
+host:1620742878=74.109.239.200
+author:1620322562=
+diff:1620322562:1620322437:=9c9%0a%3c (:pagelist $:Category=-PracticeCategory group=GradebookExpansions order=$:Completed:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions order=$:Completed:)%0a\ No newline at end of file%0a
+host:1620322562=74.109.239.200
+author:1620322437=
+diff:1620322437:1620322141:=9c9%0a%3c (:pagelist group=GradebookExpansions order=$:Completed:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions if="intext 'gradeitem' $FullName":)%0a\ No newline at end of file%0a
+host:1620322437=74.109.239.200
+author:1620322141=
+diff:1620322141:1620321596:=9c9%0a%3c (:pagelist group=GradebookExpansions if="intext 'gradeitem' $FullName":)%0a\ No newline at end of file%0a---%0a> (:pagelist $:Author=solanaM:)%0a\ No newline at end of file%0a
+host:1620322141=74.109.239.200
+author:1620321596=
+diff:1620321596:1618507870:=9c9%0a%3c (:pagelist $:Author=solanaM:)%0a\ No newline at end of file%0a---%0a> (:pagelist link=Category.IndigenousLanguagesOfTheAmericas:)%0a\ No newline at end of file%0a
+host:1620321596=74.109.239.200
+author:1618507870=
+diff:1618507870:1618265606:=4c4,6%0a%3c %0a---%0a> Adding self-expansion to articles in Indigenous..:%0a> %0a> (:foxform Site.FoxForms#selfexpansion:)%0a
+host:1618507870=74.109.247.199
+author:1618265606=
+diff:1618265606:1618265593:=11c11%0a%3c (:pagelist link=Category.IndigenousLanguagesOfTheAmericas:)%0a\ No newline at end of file%0a---%0a> (:pagelist link=IndigenousLanguagesOfTheAmericas:)%0a\ No newline at end of file%0a
+host:1618265606=74.109.247.199
+author:1618265593=
+diff:1618265593:1618265446:=11c11%0a%3c (:pagelist link=IndigenousLanguagesOfTheAmericas:)%0a\ No newline at end of file%0a---%0a> (:pagelist Category=IndigenousLanguagesOfTheAmericas:)%0a\ No newline at end of file%0a
+host:1618265593=74.109.247.199
+author:1618265446=
+diff:1618265446:1618265101:=11c11,19%0a%3c (:pagelist Category=IndigenousLanguagesOfTheAmericas:)%0a\ No newline at end of file%0a---%0a> !!Articles:%0a> %0a> (:pagelist group=GradebookArticles $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a> %0a> ----%0a> %0a> !!Expansions%0a> %0a> (:pagelist group=GradebookExpansions $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1618265446=74.109.247.199
+author:1618265101=
+diff:1618265101:1617733340:=0a1%0a> %0a2,8d2%0a%3c %0a%3c %0a%3c Adding self-expansion to articles in Indigenous..:%0a%3c %0a%3c (:foxform Site.FoxForms#selfexpansion:)%0a%3c %0a%3c %0a
+host:1618265101=74.109.247.199
+author:1617733340=
+diff:1617733340:1616612299:=1c1,12%0a%3c %0a---%0a> Set student name here:%0a> %0a> (:fox setName:)%0a> (:foxptv target=Profiles.{$$student} ptvfields=name:)%0a> %0a> (:pagelist group=Profiles fmt=Templates.PagelistTemplates#pickStudent:)%0a> %0a> (:input hidden name {$$student}:)%0a> %0a> (:input submit post:)%0a> (:foxend setName:)%0a> %0a5,13c16,17%0a%3c !!Articles:%0a%3c %0a%3c (:pagelist group=GradebookArticles $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a%3c %0a%3c ----%0a%3c %0a%3c !!Expansions%0a%3c %0a%3c (:pagelist group=GradebookExpansions $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> %0a> (:pagelist group=GradebookArticles $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1617733340=74.109.247.199
+author:1616612299=wnalls
+diff:1616612299:1616289673:=17c17%0a%3c (:pagelist group=GradebookArticles $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1616612299=74.109.247.199
+author:1616289673=
+diff:1616289673:1616289606:=17c17%0a%3c (:pagelist group=GradebookExpansions $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions order=$:Category list=normal fmt=Templates.PagelistTemplates#expansions:)%0a\ No newline at end of file%0a
+host:1616289673=74.109.247.199
+author:1616289606=
+diff:1616289606:1616289468:=17c17%0a%3c (:pagelist group=GradebookExpansions order=$:Category list=normal fmt=Templates.PagelistTemplates#expansions:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions list=normal:)%0a\ No newline at end of file%0a
+host:1616289606=74.109.247.199
+author:1616289468=
+diff:1616289468:1615919250:=17c17%0a%3c (:pagelist group=GradebookExpansions list=normal:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1616289468=74.109.247.199
+author:1615919250=
+diff:1615919250:1615753594:=17c17%0a%3c (:pagelist group=GradebookArticles $:Section=-?* list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles $:Section=-?* fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1615919250=74.109.247.199
+author:1615753594=
+diff:1615753594:1615401408:=17c17%0a%3c (:pagelist group=GradebookArticles $:Section=-?* fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist if='intext "!!!!!" {=$FullName}':)%0a\ No newline at end of file%0a
+host:1615753594=74.109.247.199
+author:1615401408=
+diff:1615401408:1615398976:=8c8%0a%3c (:input hidden name {$$student}:)%0a---%0a> (:input text name:)%0a
+host:1615401408=74.109.247.199
+author:1615398976=
+diff:1615398976:1615398487:=4c4%0a%3c (:foxptv target=Profiles.{$$student} ptvfields=name:)%0a---%0a> (:foxptv target={$$student} ptvfields=name:)%0a
+host:1615398976=74.109.247.199
+author:1615398487=
+diff:1615398487:1615396954:=17c17%0a%3c (:pagelist if='intext "!!!!!" {=$FullName}':)%0a\ No newline at end of file%0a---%0a> (:pagelist if='intext "sarah_tandean" {=$FullName}':)%0a\ No newline at end of file%0a
+host:1615398487=74.109.247.199
+author:1615396954=
+diff:1615396954:1615395988:=17c17%0a%3c (:pagelist if='intext "sarah_tandean" {=$FullName}':)%0a\ No newline at end of file%0a---%0a> (:pagelist if='intext "sarah_t" {=$FullName}':)%0a\ No newline at end of file%0a
+host:1615396954=74.109.247.199
+author:1615395988=
+diff:1615395988:1615326832:=1c1%0a%3c Set student name here:%0a---%0a> Set student section here:%0a
+host:1615395988=74.109.247.199
+author:1615326832=
+diff:1615326832:1615326790:=17c17%0a%3c (:pagelist if='intext "sarah_t" {=$FullName}':)%0a\ No newline at end of file%0a---%0a> (:pagelist $:Author='sarah_t':)%0a\ No newline at end of file%0a
+host:1615326832=74.109.247.199
+author:1615326790=
+diff:1615326790:1615326116:=17c17%0a%3c (:pagelist $:Author='sarah_t':)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles fmt=Templates.PagelistTemplates#name:)%0a\ No newline at end of file%0a
+host:1615326790=74.109.247.199
+author:1615326116=
+diff:1615326116:1615326093:=6c6%0a%3c (:pagelist group=Profiles fmt=Templates.PagelistTemplates#pickStudent:)%0a---%0a> (:pagelist group=Profiles fmt=PagelistTemplates#pickStudent:)%0a
+host:1615326116=74.109.247.199
+author:1615326093=
+diff:1615326093:1615326015:=4c4%0a%3c (:foxptv target={$$student} ptvfields=name:)%0a---%0a> (:foxptv target=Profiles.{$$student} ptvfields=name:)%0a
+host:1615326093=74.109.247.199
+author:1615326015=
+diff:1615326015:1615326001:=12,13d11%0a%3c %0a%3c (:foxmessages:)%0a
+host:1615326015=74.109.247.199
+author:1615326001=
+diff:1615326001:1615325857:=4,8c4,6%0a%3c (:foxptv target=Profiles.{$$student} ptvfields=name:)%0a%3c %0a%3c (:pagelist group=Profiles fmt=PagelistTemplates#pickStudent:)%0a%3c %0a%3c (:input text name:)%0a---%0a> %0a> (:foxadd target=Profiles.ShahinC,Profiles.ShreyaR,Profiles.SimonY,Profiles.SirishaB,Profiles.SolanaM,Profiles.SpencerL,Profiles.Student1,Profiles.Student2,Profiles.SubhasishM,Profiles.Ta1,Profiles.TahliaA,Profiles.ThomasHK,Profiles.ThomasM,Profiles.Tim,Profiles.TimG,Profiles.TongH,Profiles.Tylerd,Profiles.VikramM,Profiles.Will,Profiles.Wnalls,Profiles.Xiranw,Profiles.Yuluz,Profiles.ZoeC template=Site.FoxTemplates#name:)%0a> %0a
+host:1615326001=74.109.247.199
+author:1615325857=
+diff:1615325857:1615325822:=12,13c12%0a%3c %0a%3c (:pagelist group=Profiles fmt=Templates.PagelistTemplates#name:)%0a\ No newline at end of file%0a---%0a> (:foxmessages:)%0a\ No newline at end of file%0a
+host:1615325857=74.109.247.199
+author:1615325822=
+diff:1615325822:1615325764:=5c5%0a%3c (:foxadd target=Profiles.ShahinC,Profiles.ShreyaR,Profiles.SimonY,Profiles.SirishaB,Profiles.SolanaM,Profiles.SpencerL,Profiles.Student1,Profiles.Student2,Profiles.SubhasishM,Profiles.Ta1,Profiles.TahliaA,Profiles.ThomasHK,Profiles.ThomasM,Profiles.Tim,Profiles.TimG,Profiles.TongH,Profiles.Tylerd,Profiles.VikramM,Profiles.Will,Profiles.Wnalls,Profiles.Xiranw,Profiles.Yuluz,Profiles.ZoeC template=Site.FoxTemplates#name:)%0a---%0a> (:foxadd target=Profiles.AbiS,Profiles.AhanaM,Profiles.Ajolicoe,Profiles.AkshayaV,Profiles.AlbertL,Profiles.AlexanderW,Profiles.AlexisA,Profiles.AlexX,Profiles.AnanyaV,Profiles.Angelaw,Profiles.Angiej,Profiles.Aryans,Profiles.AyushD,Profiles.Bellar,Profiles.BenP,Profiles.Bradp4856,Profiles.Brandonf,Profiles.BrandonN,Profiles.BrandonW,Profiles.BrandtE,Profiles.CaraS,Profiles.Caseywalker,Profiles.ChesterG,Profiles.ChrisC,Profiles.Danielz,Profiles.Dannat,Profiles.DavidH,Profiles.Dhrutik,Profiles.EmmaP,Profiles.EthanR,Profiles.EthanW,Profiles.EvelynC,Profiles.Gabrielz,Profiles.GavinD,Profiles.GroupAttributes,Profiles.IsabelV,Profiles.JacobF,Profiles.JanetB,Profiles.JasonE,Profiles.JasonL,Profiles.JessSmith,Profiles.Jjmonroe,Profiles.Jnflores,Profiles.JosephG,Profiles.JoshuaC,Profiles.Khushiw,Profiles.KushalD,Profiles.KyuwonW,Profiles.Lauray,Profiles.LeahW,Profiles.Ll223,Profiles.MengS,Profiles.MihirD,Profiles.MindeeL,Profiles.MingkangL,Profiles.MitulS,Profiles.NathanW,Profiles.NickG,Profiles.Nithyas,Profiles.Profiles,Profiles.Rachelc,Profiles.RajeevG,Profiles.RecentChanges,Profiles.Roochis,Profiles.Ruiranx,Profiles.RuizheZ,Profiles.RussellE,Profiles.SaishaRao,Profiles.SamuelDII,Profiles.SamV,Profiles.SanjanaM,Profiles.SarahT,Profiles.Saraht,Profiles.Sathyas,Profiles.SaumyaB,Profiles.Sebastiang,Profiles.Sgangu template=Site.FoxTemplates#name:)%0a
+host:1615325822=74.109.247.199
+author:1615325764=
+diff:1615325764:1615325685:=5c5%0a%3c (:foxadd target=Profiles.AbiS,Profiles.AhanaM,Profiles.Ajolicoe,Profiles.AkshayaV,Profiles.AlbertL,Profiles.AlexanderW,Profiles.AlexisA,Profiles.AlexX,Profiles.AnanyaV,Profiles.Angelaw,Profiles.Angiej,Profiles.Aryans,Profiles.AyushD,Profiles.Bellar,Profiles.BenP,Profiles.Bradp4856,Profiles.Brandonf,Profiles.BrandonN,Profiles.BrandonW,Profiles.BrandtE,Profiles.CaraS,Profiles.Caseywalker,Profiles.ChesterG,Profiles.ChrisC,Profiles.Danielz,Profiles.Dannat,Profiles.DavidH,Profiles.Dhrutik,Profiles.EmmaP,Profiles.EthanR,Profiles.EthanW,Profiles.EvelynC,Profiles.Gabrielz,Profiles.GavinD,Profiles.GroupAttributes,Profiles.IsabelV,Profiles.JacobF,Profiles.JanetB,Profiles.JasonE,Profiles.JasonL,Profiles.JessSmith,Profiles.Jjmonroe,Profiles.Jnflores,Profiles.JosephG,Profiles.JoshuaC,Profiles.Khushiw,Profiles.KushalD,Profiles.KyuwonW,Profiles.Lauray,Profiles.LeahW,Profiles.Ll223,Profiles.MengS,Profiles.MihirD,Profiles.MindeeL,Profiles.MingkangL,Profiles.MitulS,Profiles.NathanW,Profiles.NickG,Profiles.Nithyas,Profiles.Profiles,Profiles.Rachelc,Profiles.RajeevG,Profiles.RecentChanges,Profiles.Roochis,Profiles.Ruiranx,Profiles.RuizheZ,Profiles.RussellE,Profiles.SaishaRao,Profiles.SamuelDII,Profiles.SamV,Profiles.SanjanaM,Profiles.SarahT,Profiles.Saraht,Profiles.Sathyas,Profiles.SaumyaB,Profiles.Sebastiang,Profiles.Sgangu template=Site.FoxTemplates#name:)%0a---%0a> (:foxadd target=Profiles.Abbyl template=Site.FoxTemplates#name:)%0a
+host:1615325764=74.109.247.199
+author:1615325685=
+diff:1615325685:1615325565:=5c5,6%0a%3c (:foxadd target=Profiles.Abbyl template=Site.FoxTemplates#name:)%0a---%0a> (:foxadd target=Profiles.Abbyl,Profiles.AbiS,Profiles.AhanaM,Profiles.Ajolicoe,Profiles.AkshayaV,Profiles.AlbertL,Profiles.AlexanderW,Profiles.AlexisA,Profiles.AlexX,Profiles.AnanyaV,Profiles.Angelaw,Profiles.Angiej,Profiles.Aryans,Profiles.AyushD,Profiles.Bellar,Profiles.BenP,Profiles.Bradp4856,Profiles.Brandonf,Profiles.BrandonN,Profiles.BrandonW,Profiles.BrandtE,Profiles.CaraS,Profiles.Caseywalker,Profiles.ChesterG,Profiles.ChrisC,Profiles.Danielz,Profiles.Dannat,Profiles.DavidH,Profiles.Dhrutik,Profiles.EmmaP,Profiles.EthanR,Profiles.EthanW,Profiles.EvelynC,Profiles.Gabrielz,Profiles.GavinD,Profiles.GroupAttributes,Profiles.IsabelV,Profiles.JacobF,Profiles.JanetB,Profiles.JasonE,Profiles.JasonL,Profiles.JessSmith,Profiles.Jjmonroe,Profiles.Jnflores,Profiles.JosephG,Profiles.JoshuaC,Profiles.Khushiw,Profiles.KushalD,Profiles.KyuwonW,Profiles.Lauray,Profiles.LeahW,Profiles.Ll223,Profiles.MengS,Profiles.MihirD,Profiles.MindeeL,Profiles.MingkangL,Profiles.MitulS,Profiles.NathanW,Profiles.NickG,Profiles.Nithyas,Profiles.Profiles,Profiles.Rachelc,Profiles.RajeevG,Profiles.RecentChanges,Profiles.Roochis,Profiles.Ruiranx,Profiles.RuizheZ,Profiles.RussellE,Profiles.SaishaRao,Profiles.SamuelDII,Profiles.SamV,Profiles.SanjanaM,Profiles.SarahT,Profiles.Saraht,Profiles.Sathyas,Profiles.SaumyaB,Profiles.Sebastiang,Profiles.Sgangu,Profiles.ShahinC,Profiles.ShreyaR,Profiles.SimonY,Profiles.SirishaB,Profiles.SolanaM,Profiles.SpencerL,Profiles.Student1,Profiles.Student2,Profiles.SubhasishM,Profiles.Ta1,Profiles.TahliaA,Profiles.ThomasHK,Profiles.ThomasM,Profiles.Tim,Profiles.TimG,Profiles.TongH,Profiles.Tylerd,Profiles.VikramM,Profiles.Will,Profiles.Wnalls,Profiles.Xiranw,Profiles.Yuluz,Profiles.ZoeC template=Site.FoxTemplates#name:)%0a> %0a
+host:1615325685=74.109.247.199
+author:1615325565=
+diff:1615325565:1615325480:=13c13,14%0a%3c (:foxmessages:)%0a\ No newline at end of file%0a---%0a> %0a> (:pagelist group=Profiles fmt=Templates.PagelistTemplates#name:)%0a\ No newline at end of file%0a
+host:1615325565=74.109.247.199
+author:1615325480=
+diff:1615325480:1615325240:=5,8c5,8%0a%3c (:foxadd target=Profiles.Abbyl,Profiles.AbiS,Profiles.AhanaM,Profiles.Ajolicoe,Profiles.AkshayaV,Profiles.AlbertL,Profiles.AlexanderW,Profiles.AlexisA,Profiles.AlexX,Profiles.AnanyaV,Profiles.Angelaw,Profiles.Angiej,Profiles.Aryans,Profiles.AyushD,Profiles.Bellar,Profiles.BenP,Profiles.Bradp4856,Profiles.Brandonf,Profiles.BrandonN,Profiles.BrandonW,Profiles.BrandtE,Profiles.CaraS,Profiles.Caseywalker,Profiles.ChesterG,Profiles.ChrisC,Profiles.Danielz,Profiles.Dannat,Profiles.DavidH,Profiles.Dhrutik,Profiles.EmmaP,Profiles.EthanR,Profiles.EthanW,Profiles.EvelynC,Profiles.Gabrielz,Profiles.GavinD,Profiles.GroupAttributes,Profiles.IsabelV,Profiles.JacobF,Profiles.JanetB,Profiles.JasonE,Profiles.JasonL,Profiles.JessSmith,Profiles.Jjmonroe,Profiles.Jnflores,Profiles.JosephG,Profiles.JoshuaC,Profiles.Khushiw,Profiles.KushalD,Profiles.KyuwonW,Profiles.Lauray,Profiles.LeahW,Profiles.Ll223,Profiles.MengS,Profiles.MihirD,Profiles.MindeeL,Profiles.MingkangL,Profiles.MitulS,Profiles.NathanW,Profiles.NickG,Profiles.Nithyas,Profiles.Profiles,Profiles.Rachelc,Profiles.RajeevG,Profiles.RecentChanges,Profiles.Roochis,Profiles.Ruiranx,Profiles.RuizheZ,Profiles.RussellE,Profiles.SaishaRao,Profiles.SamuelDII,Profiles.SamV,Profiles.SanjanaM,Profiles.SarahT,Profiles.Saraht,Profiles.Sathyas,Profiles.SaumyaB,Profiles.Sebastiang,Profiles.Sgangu,Profiles.ShahinC,Profiles.ShreyaR,Profiles.SimonY,Profiles.SirishaB,Profiles.SolanaM,Profiles.SpencerL,Profiles.Student1,Profiles.Student2,Profiles.SubhasishM,Profiles.Ta1,Profiles.TahliaA,Profiles.ThomasHK,Profiles.ThomasM,Profiles.Tim,Profiles.TimG,Profiles.TongH,Profiles.Tylerd,Profiles.VikramM,Profiles.Will,Profiles.Wnalls,Profiles.Xiranw,Profiles.Yuluz,Profiles.ZoeC template=Site.FoxTemplates#name:)%0a%3c %0a%3c %0a%3c %0a---%0a> (:foxadd target=Profiles.{$$student} template=Site.FoxTemplates#name:)%0a> %0a> %0a> %0a10c10%0a%3c (:foxend setName:)%0a---%0a> (:foxend setSection:)%0a
+host:1615325480=74.109.247.199
+author:1615325240=
+diff:1615325240:1615324865:=3,8c3,9%0a%3c (:fox setName:)%0a%3c %0a%3c (:foxadd target=Profiles.{$$student} template=Site.FoxTemplates#name:)%0a%3c %0a%3c %0a%3c %0a---%0a> (:fox setSection:)%0a> %0a> (:foxptv target=Profiles.{$$student} ptvfields=section:)%0a> %0a> (:pagelist group=Profiles list=normal $:section=-?* fmt=Templates.PagelistTemplates#setSection:)%0a> %0a> (:input text section:)%0a
+host:1615325240=74.109.247.199
+author:1615324865=
+diff:1615324865:1615323216:=15c15%0a%3c (:pagelist group=Profiles fmt=Templates.PagelistTemplates#name:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Articles if='intext "!!!!!" {=$FullName}':)%0a\ No newline at end of file%0a
+host:1615324865=74.109.247.199
+author:1615323216=
+diff:1615323216:1614801901:=15c15%0a%3c (:pagelist group=Articles if='intext "!!!!!" {=$FullName}':)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles list=normal $:Section=-?* fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1615323216=74.109.247.199
+author:1614801901=
+diff:1614801901:1614801869:=13,15c13,15%0a%3c ----%0a%3c %0a%3c (:pagelist group=GradebookArticles list=normal $:Section=-?* fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> %0a> %0a> (:pagelist group=GradebookArticles list=normal fmt=Templates.PageslistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1614801901=74.109.247.199
+author:1614801869=
+diff:1614801869:1614801825:=15c15%0a%3c (:pagelist group=GradebookArticles list=normal fmt=Templates.PageslistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles list=normal $:Section=-?* fmt=Templates.PageslistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1614801869=74.109.247.199
+author:1614801825=
+diff:1614801825:1614801393:=12,15d11%0a%3c %0a%3c %0a%3c %0a%3c (:pagelist group=GradebookArticles list=normal $:Section=-?* fmt=Templates.PageslistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1614801825=74.109.247.199
+author:1614801393=
+diff:1614801393:1614798640:=7c7%0a%3c (:pagelist group=Profiles list=normal $:section=-?* fmt=Templates.PagelistTemplates#setSection:)%0a---%0a> (:pagelist group=Profiles $:section=-?* fmt=Templates.PagelistTemplates#setSection:)%0a
+host:1614801393=74.109.247.199
+author:1614798640=
+diff:1614798640:1614798408:=1,2d0%0a%3c Set student section here:%0a%3c %0a
+host:1614798640=74.109.247.199
+author:1614798408=
+diff:1614798408:1614797713:=1,9c1%0a%3c (:fox setSection:)%0a%3c %0a%3c (:foxptv target=Profiles.{$$student} ptvfields=section:)%0a%3c %0a%3c (:pagelist group=Profiles $:section=-?* fmt=Templates.PagelistTemplates#setSection:)%0a%3c %0a%3c (:input text section:)%0a%3c (:input submit post:)%0a%3c (:foxend setSection:)%0a---%0a> (:pagelist group=GradebookArticles list=normal $:Section=-?* fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1614798408=74.109.247.199
+author:1614797713=
+diff:1614797713:1614797684:=1c1%0a%3c (:pagelist group=GradebookArticles list=normal $:Section=-?* fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1614797713=74.109.247.199
+author:1614797684=
+diff:1614797684:1614797608:=1c1%0a%3c (:pagelist group=GradebookArticles list=normal fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles list=normal $:Section=?*:)%0a\ No newline at end of file%0a
+host:1614797684=74.109.247.199
+author:1614797608=
+diff:1614797608:1614797550:=1c1,13%0a%3c (:pagelist group=GradebookArticles list=normal $:Section=?*:)%0a\ No newline at end of file%0a---%0a> (:fox setSection:)%0a> (:foxptv target={$Name} ptvfields=Section:)%0a> (:input select Section A:)%0a> (:input select Section B:)%0a> (:input select Section C:)%0a> (:input select Section D:)%0a> (:input select Section E:)%0a> (:input select Section F:)%0a> (:input submit post:)%0a> (:foxend setSection:)%0a> %0a> (:pagelist group=Profiles $:section={$:Section} list=normal:)%0a> (:Section: F:)%0a\ No newline at end of file%0a
+host:1614797608=74.109.247.199
+author:1614797550=
+diff:1614797550:1614797511:=13c13%0a%3c (:Section: F:)%0a\ No newline at end of file%0a---%0a> (:Section: E:)%0a\ No newline at end of file%0a
+host:1614797550=74.109.247.199
+author:1614797511=
+diff:1614797511:1614797407:=13c13%0a%3c (:Section: E:)%0a\ No newline at end of file%0a---%0a> (:Section: D:)%0a\ No newline at end of file%0a
+host:1614797511=74.109.247.199
+author:1614797407=
+diff:1614797407:1614797367:=13c13%0a%3c (:Section: D:)%0a\ No newline at end of file%0a---%0a> (:Section: C:)%0a\ No newline at end of file%0a
+host:1614797407=74.109.247.199
+author:1614797367=
+diff:1614797367:1614797360:=12,13c12%0a%3c (:pagelist group=Profiles $:section={$:Section} list=normal:)%0a%3c (:Section: C:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles $:section={$:Section} list=normal:)%0a\ No newline at end of file%0a
+host:1614797367=74.109.247.199
+author:1614797360=
+diff:1614797360:1614797252:=1,10c1%0a%3c (:fox setSection:)%0a%3c (:foxptv target={$Name} ptvfields=Section:)%0a%3c (:input select Section A:)%0a%3c (:input select Section B:)%0a%3c (:input select Section C:)%0a%3c (:input select Section D:)%0a%3c (:input select Section E:)%0a%3c (:input select Section F:)%0a%3c (:input submit post:)%0a%3c (:foxend setSection:)%0a---%0a> :Section: B%0a
+host:1614797360=74.109.247.199
+author:1614797252=
+diff:1614797252:1614797208:=1c1%0a%3c :Section: B%0a---%0a> :Section: A%0a
+host:1614797252=74.109.247.199
+author:1614797208=
+diff:1614797208:1614796969:=1,3c1,7%0a%3c :Section: A%0a%3c %0a%3c (:pagelist group=Profiles $:section={$:Section} list=normal:)%0a\ No newline at end of file%0a---%0a> Profiles without section set:%0a> %0a> (:pagelist group=Profiles $:section=-?* list=normal name=-will:)%0a> %0a> Gradebook Articles with section unset:%0a> %0a> (:pagelist group=GradebookArticles $:Section=-?* $:Category=TypologyOfPhoneticContrasts :)%0a\ No newline at end of file%0a
+host:1614797208=74.109.247.199
+author:1614796969=
+diff:1614796969:1614796955:=5,7c5,7%0a%3c Gradebook Articles with section unset:%0a%3c %0a%3c (:pagelist group=GradebookArticles $:Section=-?* $:Category=TypologyOfPhoneticContrasts :)%0a\ No newline at end of file%0a---%0a> Gradebook Articles with section set:%0a> %0a> (:pagelist group=GradebookArticles $:Section=?* $:Category=TypologyOfPhoneticContrasts :)%0a\ No newline at end of file%0a
+host:1614796969=74.109.247.199
+author:1614796955=
+diff:1614796955:1614796909:=
+host:1614796955=74.109.247.199
+author:1614796909=
+diff:1614796909:1614711578:=3,7c3%0a%3c (:pagelist group=Profiles $:section=-?* list=normal name=-will:)%0a%3c %0a%3c Gradebook Articles with section set:%0a%3c %0a%3c (:pagelist group=GradebookArticles $:Section=?* $:Category=TypologyOfPhoneticContrasts :)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles $:section=-?* list=normal name=-will:)%0a\ No newline at end of file%0a
+host:1614796909=74.109.247.199
+author:1614711578=will
+diff:1614711578:1614711558:=3c3%0a%3c (:pagelist group=Profiles $:section=-?* list=normal name=-will:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles $:section=-?* :)%0a\ No newline at end of file%0a
+host:1614711578=74.109.247.199
+author:1614711558=will
+diff:1614711558:1614188589:=1,2d0%0a%3c Profiles without section set:%0a%3c %0a
+host:1614711558=74.109.247.199
+author:1614188589=
+diff:1614188589:1612579329:=1c1,4%0a%3c (:pagelist group=Profiles $:section=-?* :)%0a\ No newline at end of file%0a---%0a> (:foxmessages:)%0a> (:pagelist group=GradebookExpansions,GradebookArticles fmt=Templates.PagelistTemplates#fixsection:)%0a> %0a> (:pagelist group=GradebookArticles:)%0a
+host:1614188589=74.109.247.199
+author:1612579329=
+diff:1612579329:1612579296:=4c4%0a%3c (:pagelist group=GradebookArticles:)%0a---%0a> (:pagelist:)%0a
+host:1612579329=74.109.247.199
+author:1612579296=
+diff:1612579296:1612579245:=2,4c2%0a%3c (:pagelist group=GradebookExpansions,GradebookArticles fmt=Templates.PagelistTemplates#fixsection:)%0a%3c %0a%3c (:pagelist:)%0a---%0a> (:pagelist group=GradebookExpansions,GradebookArticles fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a
+host:1612579296=74.109.247.199
+author:1612579245=wnalls
+diff:1612579245:1612578931:=2c2%0a%3c (:pagelist group=GradebookExpansions,GradebookArticles fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions,GradebookArticles if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a
+host:1612579245=74.109.247.199
+author:1612578931=wnalls
+diff:1612578931:1612546712:=2c2%0a%3c (:pagelist group=GradebookExpansions,GradebookArticles if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a
+host:1612578931=74.109.247.199
+author:1612546712=TA_lili
+diff:1612546712:1612546684:=2c2%0a%3c (:pagelist group=GradebookExpansions if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions,GradebookArticles if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a
+host:1612546712=74.109.247.199
+author:1612546684=TA_lili
+diff:1612546684:1612546409:=2c2%0a%3c (:pagelist group=GradebookExpansions,GradebookArticles if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsection:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions if='! intext "foxbegin" {=$FullName}' fmt=Templates.PagelistTemplates#fixgradebook:)%0a\ No newline at end of file%0a
+host:1612546684=74.109.247.199
+author:1612546409=TA_lili
+diff:1612546409:1612546237:=2c2%0a%3c (:pagelist group=GradebookExpansions if='! intext "foxbegin" {=$FullName}' fmt=Templates.PagelistTemplates#fixgradebook:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles if='! intext "foxbegin" {=$FullName}' fmt=Templates.PagelistTemplates#fixgradebook:)%0a\ No newline at end of file%0a
+host:1612546409=74.109.247.199
+author:1612546237=TA_lili
+diff:1612546237:1612545909:=2c2%0a%3c (:pagelist group=GradebookArticles if='! intext "foxbegin" {=$FullName}' fmt=Templates.PagelistTemplates#fixgradebook:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles fmt=Templates.PagelistTemplates#fixgradebook:)%0a\ No newline at end of file%0a
+host:1612546237=74.109.247.199
+author:1612545909=TA_lili
+diff:1612545909:1612545079:=2c2%0a%3c (:pagelist group=GradebookArticles fmt=Templates.PagelistTemplates#fixgradebook:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1612545909=74.109.247.199
+author:1612545079=TA_lili
+diff:1612545079:1612544968:=2c2%0a%3c (:pagelist group=GradebookExpansions if='! equal {Profiles.{=$:Author}$:section} {=$:Section}' fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1612545079=74.109.247.199
+author:1612544968=TA_lili
+diff:1612544968:1612492447:=
+host:1612544968=74.109.247.199
+author:1612492447=
+diff:1612492447:1612475479:=2c2%0a%3c (:pagelist group=GradebookExpansions fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1612492447=179.61.131.176
+author:1612475479=TA_lili
+diff:1612475479:1612474893:=2c2%0a%3c (:pagelist group=GradebookArticles fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles $:Section='' fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a
+host:1612475479=74.109.247.199
+author:1612474893=TA_lili
+diff:1612474893:1612474736:=1d0%0a%3c (:foxmessages:)%0a
+host:1612474893=74.109.247.199
+author:1612474736=TA_lili
+diff:1612474736:1612474036:=1c1%0a%3c (:pagelist group=GradebookArticles $:Section='' fmt=Templates.PagelistTemplates#fixsections:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles :)%0a\ No newline at end of file%0a
+host:1612474736=74.109.247.199
+author:1612474036=TA_lili
+diff:1612474036:1612473719:=1c1%0a%3c (:pagelist group=GradebookArticles :)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Articles if='! exists GradebookArticles.{=$Name}' :)%0a\ No newline at end of file%0a
+host:1612474036=74.109.247.199
+author:1612473719=TA_lili
+diff:1612473719:1612371525:=1c1,16%0a%3c (:pagelist group=Articles if='! exists GradebookArticles.{=$Name}' :)%0a\ No newline at end of file%0a---%0a> Author name: JasonL \\%0a> Author section: {Profiles.JasonL$:section} \\%0a> %0a> (:if equal {Profiles.JasonL$:section} '':)%0a> %0a> '''Oops''', sorry, your SIO section wasn't recorded -- please re-enter it here:%0a> %0a> (:fox setSection:)%0a> Section: (:input text section:) \\%0a> (:input submit post:)%0a> (:foxptv ptvtarget=Profiles.JasonL ptvfields=section:)%0a> (:foxend setSection:)%0a> %0a> (:ifend:)%0a> %0a> {Profiles.JasonL$:section}%0a\ No newline at end of file%0a
+host:1612473719=74.109.247.199
+author:1612371525=wnalls
+diff:1612371525:1612371456:=1,5c1,5%0a%3c Author name: JasonL \\%0a%3c Author section: {Profiles.JasonL$:section} \\%0a%3c %0a%3c (:if equal {Profiles.JasonL$:section} '':)%0a%3c %0a---%0a> Author name: {$Author} \\%0a> Author section: {Profiles.{$Author}$:section} \\%0a> %0a> (:if equal {Profiles.{$Author}$:section} '':)%0a> %0a11c11%0a%3c (:foxptv ptvtarget=Profiles.JasonL ptvfields=section:)%0a---%0a> (:foxptv ptvtarget=Profiles.{$Author} ptvfields=section:)%0a
+host:1612371525=74.109.247.199
+author:1612371456=wnalls
+diff:1612371456:1612371398:=
+host:1612371456=74.109.247.199
+author:1612371398=wnalls
+diff:1612371398:1612371296:=1,2c1,2%0a%3c Author name: {$Author} \\%0a%3c Author section: {Profiles.{$Author}$:section} \\%0a---%0a> Author name: {$Author}%0a> Author section: {Profiles.{$Author}$:section}%0a
+host:1612371398=74.109.247.199
+author:1612371296=wnalls
+diff:1612371296:1612370925:=1,3d0%0a%3c Author name: {$Author}%0a%3c Author section: {Profiles.{$Author}$:section}%0a%3c %0a
+host:1612371296=74.109.247.199
+author:1612370925=
+diff:1612370925:1612364729:=11,13c11%0a%3c (:ifend:)%0a%3c %0a%3c {Profiles.JasonL$:section}%0a\ No newline at end of file%0a---%0a> (:ifend:)%0a\ No newline at end of file%0a
+host:1612370925=74.109.247.199
+author:1612364729=wnalls
+diff:1612364729:1611602152:=1,11c1,28%0a%3c (:if equal {Profiles.{$Author}$:section} '':)%0a%3c %0a%3c '''Oops''', sorry, your SIO section wasn't recorded -- please re-enter it here:%0a%3c %0a%3c (:fox setSection:)%0a%3c Section: (:input text section:) \\%0a%3c (:input submit post:)%0a%3c (:foxptv ptvtarget=Profiles.{$Author} ptvfields=section:)%0a%3c (:foxend setSection:)%0a%3c %0a%3c (:ifend:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookArticles fmt=Templates.PagelistTemplates#testptvs $:Author=student1 :)%0a> %0a> (:pagelist group=Test fmt=Templates.PagelistTemplates#testptvs $:Author=student1 :)%0a> %0a> (:pagelist group=Articles fmt=Templates.PagelistTemplates#testptvs $:Author=student1 :)%0a> ----%0a> %0a> {GradebookArticles/MorphoArticlesOne$:author}%0a> %0a> {GradebookArticles/MorphoArticlesOne$:completed}%0a> %0a> {GradebookArticles/MorphoArticlesOne$:title}%0a> %0a> %0a> %0a> %0a> !Large Title%0a> %0a> !!Small Title%0a> %0a> !!!Smaller Title%0a> %0a> (:foxmessages:)%0a> %0a> %0a> (:input textarea cols=20 rows=4:)%0a> %0a> (:input textareasmall cols=40 rows=10:)%0a\ No newline at end of file%0a
+host:1612364729=74.109.247.199
+author:1611602152=student1
+diff:1611602152:1611602026:=
+host:1611602152=74.109.247.199
+author:1611602026=student1
+diff:1611602026:1611601962:=4,5d3%0a%3c %0a%3c (:pagelist group=Articles fmt=Templates.PagelistTemplates#testptvs $:Author=student1 :)%0a
+host:1611602026=74.109.247.199
+author:1611601962=student1
+diff:1611601962:1611601002:=1,3c1%0a%3c (:pagelist group=GradebookArticles fmt=Templates.PagelistTemplates#testptvs $:Author=student1 :)%0a%3c %0a%3c (:pagelist group=Test fmt=Templates.PagelistTemplates#testptvs $:Author=student1 :)%0a---%0a> (:pagelist group=Test $:author=student1 :)%0a11,12d8%0a%3c %0a%3c %0a
+host:1611601962=74.109.247.199
+author:1611601002=
+diff:1611601002:1611599884:=3,9d2%0a%3c %0a%3c {GradebookArticles/MorphoArticlesOne$:author}%0a%3c %0a%3c {GradebookArticles/MorphoArticlesOne$:completed}%0a%3c %0a%3c {GradebookArticles/MorphoArticlesOne$:title}%0a%3c %0a
+host:1611601002=74.109.247.199
+author:1611599884=student1
+diff:1611599884:1611341983:=1c1%0a%3c (:pagelist group=Test $:author=student1 :)%0a---%0a> (:pagelist group=Test:)%0a
+host:1611599884=74.109.247.199
+author:1611341983=student1
+diff:1611341983:1611341545:=13,15c13,15%0a%3c (:input textarea cols=20 rows=4:)%0a%3c %0a%3c (:input textareasmall cols=40 rows=10:)%0a\ No newline at end of file%0a---%0a> (:input textarea:)%0a> %0a> (:input textareasmall:)%0a\ No newline at end of file%0a
+host:1611341983=74.109.247.199
+author:1611341545=student1
+diff:1611341545:1611341521:=
+host:1611341545=74.109.247.199
+author:1611341521=student1
+diff:1611341521:1611246644:=10,15c10%0a%3c (:foxmessages:)%0a%3c %0a%3c %0a%3c (:input textarea:)%0a%3c %0a%3c (:input textareasmall:)%0a\ No newline at end of file%0a---%0a> (:foxmessages:)%0a\ No newline at end of file%0a
+host:1611341521=74.109.247.199
+author:1611246644=student1
+diff:1611246644:1610561821:=4,8c4,24%0a%3c !Large Title%0a%3c %0a%3c !!Small Title%0a%3c %0a%3c !!!Smaller Title%0a---%0a> (:fox newtest:)%0a> (:input text newedit size=20:)(:input submit post "Create Page":)%0a> (:foxend newtest:)%0a> %0a> %0a> ----%0a> (:fox newpagefrm1 :)%0a> (:input text newedit size=20:)(:input submit post "Create Page":)%0a> (:foxend newpagefrm1:)%0a> %0a> ----%0a> %0a> (:fox addArticle target=Articles.{$$name} template=Templates.NewArticle:)%0a> (:input default request=1:)%0a> %25blue%25 '''Title:''' %0a> (:input text name:) \\%0a> %0a> (:input submit post:)%0a> %0a> (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$name}:)%0a> (:foxend addArticle:)%0a
+host:1611246644=74.109.247.199
+author:1610561821=
+diff:1610561821:1610559977:=5c5%0a%3c (:input text newedit size=20:)(:input submit post "Create Page":)%0a---%0a> (:input text title size=20:)(:input submit post "Create Page":)%0a12,26c12%0a%3c (:foxend newpagefrm1:)%0a%3c %0a%3c ----%0a%3c %0a%3c (:fox addArticle target=Articles.{$$name} template=Templates.NewArticle:)%0a%3c (:input default request=1:)%0a%3c %25blue%25 '''Title:''' %0a%3c (:input text name:) \\%0a%3c %0a%3c (:input submit post:)%0a%3c %0a%3c (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$name}:)%0a%3c (:foxend addArticle:)%0a%3c %0a%3c (:foxmessages:)%0a\ No newline at end of file%0a---%0a> (:foxend newpagefrm1:)%0a\ No newline at end of file%0a
+host:1610561821=74.109.247.199
+author:1610559977=
+diff:1610559977:1610559976:=
+host:1610559977=74.109.247.199
+author:1610559976=
+diff:1610559976:1610559852:=4,6c4,6%0a%3c (:fox newtest:)%0a%3c (:input text title size=20:)(:input submit post "Create Page":)%0a%3c (:foxend newtest:)%0a---%0a> (:fox newTest:)%0a> (:input text title size=20:)(:input submit post:)%0a> (:foxend newTest:)%0a
+host:1610559976=74.109.247.199
+author:1610559852=
+diff:1610559852:1610559779:=4,5c4,9%0a%3c (:fox newTest:)%0a%3c (:input text title size=20:)(:input submit post:)%0a---%0a> (:fox newTest foxgroup=Test foxtemplate="here iss a page":)%0a> %0a> (:input text title:)%0a> %0a> (:input submit post:)%0a> %0a
+host:1610559852=74.109.247.199
+author:1610559779=
+diff:1610559779:1610559761:=10c10%0a%3c (:foxend newTest:)%0a---%0a> (:foxend newTest :)%0a
+host:1610559779=74.109.247.199
+author:1610559761=
+diff:1610559761:1610559555:=4,5c4,5%0a%3c (:fox newTest foxgroup=Test foxtemplate="here iss a page":)%0a%3c %0a---%0a> (:fox newTest:)%0a> %0a7a8%0a> (:foxadd target=Test.{$$title} foxtemplate="new test":)%0a10c11%0a%3c (:foxend newTest :)%0a---%0a> (:foxend newTest:)%0a
+host:1610559761=74.109.247.199
+author:1610559555=
+diff:1610559555:1610559480:=8c8%0a%3c (:foxadd target=Test.{$$title} foxtemplate="new test":)%0a---%0a> (:foxadd target=Test."{$$title}" foxtemplate="new test":)%0a12,17c12%0a%3c %0a%3c %0a%3c ----%0a%3c (:fox newpagefrm1 :)%0a%3c (:input text newedit size=20:)(:input submit post "Create Page":)%0a%3c (:foxend newpagefrm1:)%0a\ No newline at end of file%0a---%0a> new test%0a\ No newline at end of file%0a
+host:1610559555=74.109.247.199
+author:1610559480=
+diff:1610559480:1610559470:=11,12c11%0a%3c (:foxend newTest:)%0a%3c new test%0a\ No newline at end of file%0a---%0a> (:foxend newTest:)%0a\ No newline at end of file%0a
+host:1610559480=74.109.247.199
+author:1610559470=
+diff:1610559470:1610559470:=1,11d0%0a%3c (:pagelist group=Test:)%0a%3c ----%0a%3c %0a%3c (:fox newTest:)%0a%3c %0a%3c (:input text title:)%0a%3c %0a%3c (:foxadd target=Test."{$$title}" foxtemplate="new test":)%0a%3c (:input submit post:)%0a%3c %0a%3c (:foxend newTest:)%0a\ No newline at end of file%0a
+host:1610559470=74.109.247.199

@@ -1,0 +1,122 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=
+charset=UTF-8
+csum=
+host=74.109.247.199
+name=Category.GroupFooter
+rev=110
+targets=Articles.NewSubmission
+text=\\%0a%0a'''Articles due: {(ftime when={*$:deadline} fmt="%25A, %25B, %25d")}''' \\%0a'''Expansions due: {(ftime when={*$:expansiondeadline} fmt="%25A, %25B, %25d")} ''' \\%0a%0a\\%0a%0a(:if date ..{*$:deadline}:)%0a%0a[[Articles.NewSubmission | Submit a new article]]%0a%0a(:else:)%0a%0aDeadline for submitting articles has passed.%0a%0a(:ifend:)%0a\\%0a%0a----%0a----%0a%0a(:foxmessages:)%0a%0a%0a%0a(:pagelist link={*$FullName} list=normal fmt=Templates.PagelistTemplates#categorypages group=Articles:)%0a
+time=1612052506
+author:1612052506=
+diff:1612052506:1612052351:=1a2,19%0a> {*$=Name}%0a> (:if1 equal {*$=Name} "Varia" :)%0a> %0a> (flagged)%0a> '''Articles due: {(ftime when="2021-05-07" fmt="%25A, %25B, %25d")}''' \\%0a> '''Expansions due: {(ftime when="2021-05-14" fmt="%25A, %25B, %25d")} ''' \\%0a> %0a> (:if2 date ..{*$:deadline}:)%0a> %0a> [[Articles.NewSubmission | Submit a new article]]%0a> %0a> (:else2:)%0a> %0a> Deadline for submitting articles has passed.%0a> %0a> (:if2end:)%0a> %0a> (:if1end:)%0a
+host:1612052506=74.109.247.199
+author:1612052351=
+diff:1612052351:1612052301:=2c2%0a%3c {*$=Name}%0a---%0a> %0a
+host:1612052351=74.109.247.199
+author:1612052301=
+diff:1612052301:1612052245:=3c3%0a%3c (:if1 equal {*$=Name} "Varia" :)%0a---%0a> (:if1 [ [ equal {*$=Name} "Varia" || equal {*$=Name} "SignLanguage" ] || equal {*$=Name} "EndangeredLanguages" ]:)%0a
+host:1612052301=74.109.247.199
+author:1612052245=
+diff:1612052245:1612052119:=5d4%0a%3c (flagged)%0a
+host:1612052245=74.109.247.199
+author:1612052119=
+diff:1612052119:1611935168:=2,18d1%0a%3c %0a%3c (:if1 [ [ equal {*$=Name} "Varia" || equal {*$=Name} "SignLanguage" ] || equal {*$=Name} "EndangeredLanguages" ]:)%0a%3c %0a%3c '''Articles due: {(ftime when="2021-05-07" fmt="%25A, %25B, %25d")}''' \\%0a%3c '''Expansions due: {(ftime when="2021-05-14" fmt="%25A, %25B, %25d")} ''' \\%0a%3c %0a%3c (:if2 date ..{*$:deadline}:)%0a%3c %0a%3c [[Articles.NewSubmission | Submit a new article]]%0a%3c %0a%3c (:else2:)%0a%3c %0a%3c Deadline for submitting articles has passed.%0a%3c %0a%3c (:if2end:)%0a%3c %0a%3c (:if1end:)%0a
+host:1612052119=74.109.247.199
+author:1611935168=student1
+diff:1611935168:1610641764:=
+host:1611935168=74.109.247.199
+author:1610641764=
+diff:1610641764:1610641645:=26c26%0a%3c (:pagelist link={*$FullName} list=normal fmt=Templates.PagelistTemplates#categorypages group=Articles:)%0a---%0a> (:pagelist list=normal fmt=Templates.PagelistTemplates#categorypages group=Articles:)%0a
+host:1610641764=74.109.247.199
+author:1610641645=
+diff:1610641645:1610573794:=26c26%0a%3c (:pagelist list=normal fmt=Templates.PagelistTemplates#categorypages group=Articles:)%0a---%0a> (:pagelist link={*$FullName} list=normal fmt=Templates.PagelistTemplates#categorypages group=Articles:)%0a
+host:1610641645=74.109.247.199
+author:1610573794=
+diff:1610573794:1610561692:=10,11c10,20%0a%3c [[Articles.NewSubmission | Submit a new article]]%0a%3c %0a---%0a> (:fox addArticle target=Articles.{$$name} template=Templates.NewArticle:)%0a> (:input default request=1:)%0a> %25blue%25 '''Title:''' %0a> (:input text name:) \\%0a> %0a> (:input submit post:)%0a> %0a> (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$name}:)%0a> (:foxend addArticle:)%0a> %0a> %0a15d23%0a%3c %0a
+host:1610573794=74.109.247.199
+author:1610561692=
+diff:1610561692:1610561456:=10c10%0a%3c (:fox addArticle target=Articles.{$$name} template=Templates.NewArticle:)%0a---%0a> (:fox addArticle target=Articles.{$$target} template=Templates.NewArticle:)%0a13,14c13,14%0a%3c (:input text name:) \\%0a%3c %0a---%0a> (:input text target:) \\%0a> %0a17c17%0a%3c (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$name}:)%0a---%0a> (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$target}:)%0a
+host:1610561692=74.109.247.199
+author:1610561456=
+diff:1610561456:1610561232:=17c17%0a%3c (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$target}:)%0a---%0a> (:foxcopy target=GradebookArticles.{$$target} template=Templates.GradebookArticle:)%0a
+host:1610561456=74.109.247.199
+author:1610561232=
+diff:1610561232:1610561129:=10c10%0a%3c (:fox addArticle target=Articles.{$$target} template=Templates.NewArticle:)%0a---%0a> (:fox addArticle foxgroup=Articles template=Templates.NewArticle:)%0a17c17%0a%3c (:foxcopy target=GradebookArticles.{$$target} template=Templates.GradebookArticle:)%0a---%0a> (:foxcopy foxgroup=GradebookArticles template=Templates.GradebookArticle:)%0a
+host:1610561232=74.109.247.199
+author:1610561129=
+diff:1610561129:1610561066:=17c17%0a%3c (:foxcopy foxgroup=GradebookArticles template=Templates.GradebookArticle:)%0a---%0a> (:foxcopy target=GradebookArticles.{$$target} template=Templates.GradebookArticle:)%0a
+host:1610561129=74.109.247.199
+author:1610561066=
+diff:1610561066:1610560952:=17d16%0a%3c (:foxcopy target=GradebookArticles.{$$target} template=Templates.GradebookArticle:)%0a
+host:1610561066=74.109.247.199
+author:1610560952=
+diff:1610560952:1610560873:=
+host:1610560952=74.109.247.199
+author:1610560873=
+diff:1610560873:1610560793:=10c10%0a%3c (:fox addArticle foxgroup=Articles template=Templates.NewArticle:)%0a---%0a> (:fox addArticle foxgroup=Articles template="new":)%0a
+host:1610560873=74.109.247.199
+author:1610560793=
+diff:1610560793:1610560760:=10c10%0a%3c (:fox addArticle foxgroup=Articles template="new":)%0a---%0a> (:fox addArticle foxtemplate="new":)%0a
+host:1610560793=74.109.247.199
+author:1610560760=
+diff:1610560760:1610560596:=14a15,27%0a> %25red%25(:foxmessages target:)%0a> %0a> %25blue%25 '''Summary:''' %0a> (:input text summary size=60 label="summary":) \\%0a> %0a> (:input hidden author {$Author}:)%0a> (:input hidden category {*$Name}:)%0a> (:input hidden date {$$(timestamp):)%0a> %0a> %0a> %25blue%25 '''Content:'''%0a> (:input textarea content label="Category description/instructions":) \\%0a> %0a16a30,32%0a> ----%0a> %0a> (:foxcheck target if='!exists Articles.{$$target}':)%0a
+host:1610560760=74.109.247.199
+author:1610560596=
+diff:1610560596:1610560539:=15,16c15,16%0a%3c %25red%25(:foxmessages target:)%0a%3c %0a---%0a> %25red%25(:foxmessages title:)%0a> %0a32c32%0a%3c (:foxcheck target if='!exists Articles.{$$target}':)%0a---%0a> (:foxcheck title if='!exists Articles.{$$target}':)%0a
+host:1610560596=74.109.247.199
+author:1610560539=
+diff:1610560539:1610560474:=10c10%0a%3c (:fox addArticle foxtemplate="new":)%0a---%0a> (:fox addArticle foxtemplate="":)%0a13,14c13,14%0a%3c (:input text target:) \\%0a%3c %0a---%0a> (:input text title:) \\%0a> %0a23,24c23,24%0a%3c %0a%3c %0a---%0a> (:input hidden target {$$title}:)%0a> %0a32c32%0a%3c (:foxcheck title if='!exists Articles.{$$target}':)%0a---%0a> (:foxcheck title if='!exists Articles.{$$title}':)%0a
+host:1610560539=74.109.247.199
+author:1610560474=
+diff:1610560474:1610560391:=9d8%0a%3c %0a23,24c22,23%0a%3c (:input hidden target {$$title}:)%0a%3c %0a---%0a> (:input hidden target Articles.{$$title}:)%0a> %0a32a32,33%0a> (:foxadd foxgroup=Articles template=Templates.NewArticle:)%0a> (:foxadd foxgroup=GradebookArticles template=Templates.GradebookArticle:)%0a
+host:1610560474=74.109.247.199
+author:1610560391=
+diff:1610560391:1610560269:=9c9%0a%3c (:fox addArticle foxtemplate="":)%0a---%0a> (:fox addArticle:)%0a
+host:1610560391=74.109.247.199
+author:1610560269=
+diff:1610560269:1610558865:=22,23c22%0a%3c (:input hidden target Articles.{$$title}:)%0a%3c %0a---%0a> %0a32,33c31,32%0a%3c (:foxadd foxgroup=Articles template=Templates.NewArticle:)%0a%3c (:foxadd foxgroup=GradebookArticles template=Templates.GradebookArticle:)%0a---%0a> (:foxadd target=Articles.{$$title} template=Templates.NewArticle:)%0a> (:foxadd target=GradebookArticles.{$$title} template=Templates.GradebookArticle:)%0a
+host:1610560269=74.109.247.199
+author:1610558865=
+diff:1610558865:1610558641:=12c12%0a%3c (:input text title:) \\%0a---%0a> (:input text title label="name":) \\%0a
+host:1610558865=74.109.247.199
+author:1610558641=
+diff:1610558641:1610558480:=31,32c31,32%0a%3c (:foxadd target=Articles.{$$title} template=Templates.NewArticle:)%0a%3c (:foxadd target=GradebookArticles.{$$title} template=Templates.GradebookArticle:)%0a---%0a> (:foxadd target=Articles.{$$name} template=Templates.NewArticle:)%0a> (:foxadd target=GradebookArticles.{$$name} template=Templates.GradebookArticle:)%0a
+host:1610558641=74.109.247.199
+author:1610558480=
+diff:1610558480:1610558193:=44,45d43%0a%3c %0a%3c (:foxmessages:)%0a
+host:1610558480=74.109.247.199
+author:1610558193=
+diff:1610558193:1610547390:=11c11%0a%3c %25blue%25 '''Title:''' %0a---%0a> '''Title:''' %0a16c16%0a%3c %25blue%25 '''Summary:''' %0a---%0a> '''Summary:''' %0a21,23c21,22%0a%3c (:input hidden date {$$(timestamp):)%0a%3c %0a%3c %25blue%25 '''Content:'''%0a---%0a> %0a> '''Content:'''%0a
+host:1610558193=74.109.247.199
+author:1610547390=
+diff:1610547390:1610497555:=14,15d13%0a%3c %25red%25(:foxmessages title:)%0a%3c %0a22,24c20,22%0a%3c '''Content:'''%0a%3c (:input textarea content label="Category description/instructions":) \\%0a%3c %0a---%0a> '''Content:'''(formatting tips below) %0a> (:input textarea description label="Category description/instructions":) \\%0a> %0a29c27,29%0a%3c (:foxcheck title if='!exists Articles.{$$title}':)%0a---%0a> $[Formatting tips:]\\%0a> (:include $[{$SiteGroup}/EditQuickReference]:)%0a> %0a31d30%0a%3c (:foxadd target=GradebookArticles.{$$name} template=Templates.GradebookArticle:)%0a
+host:1610547390=74.109.247.199
+author:1610497555=
+diff:1610497555:1610497359:=11,22c11,18%0a%3c '''Title:''' %0a%3c (:input text title label="name":) \\%0a%3c %0a%3c '''Summary:''' %0a%3c (:input text summary size=60 label="summary":) \\%0a%3c %0a%3c (:input hidden author {$Author}:)%0a%3c (:input hidden category {*$Name}:)%0a%3c %0a%3c '''Content:'''(formatting tips below) %0a%3c (:input textarea description label="Category description/instructions":) \\%0a%3c %0a---%0a> Title: (:input text title label="name":) \\%0a> Summary: (:input text summary size=60 label="summary":) \\%0a> (:input hidden author {$Author}:) \\%0a> (:input hidden category {*$Name}:) \\%0a> %0a> Content: (:input textarea description label="Category description/instructions":)%0a> $[Formatting tips:]\\%0a> (:include $[{$SiteGroup}/EditQuickReference]:)%0a24a21,24%0a> %0a> (:foxadd target=Articles.{$$name} template=Templates.NewArticle:)%0a> (:foxend addArticle:)%0a> %0a26,31d25%0a%3c %0a%3c $[Formatting tips:]\\%0a%3c (:include $[{$SiteGroup}/EditQuickReference]:)%0a%3c %0a%3c (:foxadd target=Articles.{$$name} template=Templates.NewArticle:)%0a%3c (:foxend addArticle:)%0a
+host:1610497555=74.109.247.199
+author:1610497359=
+diff:1610497359:1610491883:=9,18c9,13%0a%3c (:fox addArticle:)%0a%3c (:input default request=1:)%0a%3c Title: (:input text title label="name":) \\%0a%3c Summary: (:input text summary size=60 label="summary":) \\%0a%3c (:input hidden author {$Author}:) \\%0a%3c (:input hidden category {*$Name}:) \\%0a%3c %0a%3c Content: (:input textarea description label="Category description/instructions":)%0a%3c $[Formatting tips:]\\%0a%3c (:include $[{$SiteGroup}/EditQuickReference]:)%0a---%0a> (:fox newArticle:)%0a> (:input text title size=30 value="Title of your Article":)%0a> (:input hidden category {*$Name}:)%0a> (:input hidden author {$Author}:)%0a> (:foxadd target=Articles.{$$title} template=Templates.NewArticle:)%0a20,25c15%0a%3c %0a%3c %0a%3c (:foxadd target=Articles.{$$name} template=Templates.NewArticle:)%0a%3c (:foxend addArticle:)%0a%3c %0a%3c ----%0a---%0a> (:foxend newArticle:)%0a
+host:1610497359=74.109.247.199
+author:1610491883=
+diff:1610491883:1610491751:=9c9%0a%3c (:fox newArticle:)%0a---%0a> (:fox newArticle template="Templates.NewArticle" target=Articles.{$$title} redirect=1:)%0a13d12%0a%3c (:foxadd target=Articles.{$$title} template=Templates.NewArticle:)%0a
+host:1610491883=74.109.247.199
+author:1610491751=
+diff:1610491751:1610491661:=9c9%0a%3c (:fox newArticle template="Templates.NewArticle" target=Articles.{$$title} redirect=1:)%0a---%0a> (:fox newArticle template="Templates.NewArticle" target=Articles.{$$title}:)%0a
+host:1610491751=74.109.247.199
+author:1610491661=
+diff:1610491661:1610491104:=9,15c9%0a%3c (:fox newArticle template="Templates.NewArticle" target=Articles.{$$title}:)%0a%3c (:input text title size=30 value="Title of your Article":)%0a%3c (:input hidden category {*$Name}:)%0a%3c (:input hidden author {$Author}:)%0a%3c (:input submit post:)%0a%3c (:foxend newArticle:)%0a%3c %0a---%0a> (:newpagebox base=Articles.Articles template="Templates.NewArticle" value="Article Title" button="left" focus="true" size=40 category={*$Name} label="New Article":)%0a
+host:1610491661=74.109.247.199
+author:1610491104=
+diff:1610491104:1610490888:=9c9%0a%3c (:newpagebox base=Articles.Articles template="Templates.NewArticle" value="Article Title" button="left" focus="true" size=40 category={*$Name} label="New Article":)%0a---%0a> (:newpagebox base=Articles.Articles template="Templates.NewArticle" value="Article Title" button="left" focus="true" size=40 label="New Article":)%0a
+host:1610491104=74.109.247.199
+author:1610490888=
+diff:1610490888:1608223575:=9c9%0a%3c (:newpagebox base=Articles.Articles template="Templates.NewArticle" value="Article Title" button="left" focus="true" size=40 label="New Article":)%0a---%0a> (:newpagebox base=Articles.Articles template="Templates.{$Name}" value="Article Title" button="left" focus="true" size=40 label="New Article":)%0a
+host:1610490888=74.109.247.199
+author:1608223575=
+diff:1608223575:1608154924:=
+host:1608223575=74.109.247.199
+author:1608154924=
+diff:1608154924:1511113873:=1,16c1%0a%3c \\%0a%3c %0a%3c '''Articles due: {(ftime when={*$:deadline} fmt="%25A, %25B, %25d")}''' \\%0a%3c '''Expansions due: {(ftime when={*$:expansiondeadline} fmt="%25A, %25B, %25d")} ''' \\%0a%3c %0a%3c \\%0a%3c %0a%3c (:if date ..{*$:deadline}:)%0a%3c (:newpagebox base=Articles.Articles template="Templates.{$Name}" value="Article Title" button="left" focus="true" size=40 label="New Article":)%0a%3c %0a%3c (:else:)%0a%3c %0a%3c Deadline for submitting articles has passed.%0a%3c (:ifend:)%0a%3c \\%0a%3c %0a---%0a> (:Summary:content generated for Category list pages:)%0a18,22c3,4%0a%3c ----%0a%3c %0a%3c %0a%3c %0a%3c (:pagelist link={*$FullName} list=normal fmt=Templates.PagelistTemplates#categorypages group=Articles:)%0a---%0a> [--'''{*$:Summary}'''--]%0a> (:pagelist link={*$FullName} list=normal request=1:)%0a
+host:1608154924=74.109.247.199

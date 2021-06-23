@@ -1,0 +1,33 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+author=AlexisA
+charset=UTF-8
+csum=
+ctime=1612303572
+host=128.237.82.1
+name=Profiles.JessSmith
+rev=7
+targets=Articles.MorphosynaticDiversityOfThePerfectiveDone
+text=!!{$Name}'s profile%0a%0asection: {$:section} \\%0aandrewid: jmsmith2 \\%0a%0a[[#comments]]%0a#foxbegin 210329-180127-564140#%0a* AlexisA expanded on your article [[Articles.MorphosynaticDiversityOfThePerfectiveDone|MorphosynaticDiversityOfThePerfectiveDone]] {[foxdelline button 210329-180127-564140 {$FullName} ]}%0a#foxend 210329-180127-564140#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: E:)%0a#foxbegin 210309-213616-527040#%0a(:name: jess_smith:)%0a#foxend 210309-213616-527040#
+time=1617040886
+author:1617040886=AlexisA
+diff:1617040886:1615397399:=7,9c7%0a%3c #foxbegin 210329-180127-564140#%0a%3c * AlexisA expanded on your article [[Articles.MorphosynaticDiversityOfThePerfectiveDone|MorphosynaticDiversityOfThePerfectiveDone]] {[foxdelline button 210329-180127-564140 {$FullName} ]}%0a%3c #foxend 210329-180127-564140#%0a---%0a> %0a
+host:1617040886=128.237.82.1
+author:1615397399=
+diff:1615397399:1615325770:=27c27%0a%3c (:name: jess_smith:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615397399=74.109.247.199
+author:1615325770=
+diff:1615325770:1614187396:=25,28c25%0a%3c (:section: E:)%0a%3c #foxbegin 210309-213616-527040#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213616-527040#%0a\ No newline at end of file%0a---%0a> (:section: E:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614187396=
+diff:1614187396:1613848844:=3c3,27%0a%3c section: {$:section} \\%0a---%0a> Section:  \\%0a> andrewid: jmsmith2 \\%0a> %0a> [[#comments]]%0a> %0a> [[#commentsend]]%0a> %0a> %0a> ----%0a> [[#workinprogress]]%0a> !!Work in progress:%0a> %0a> (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a> %0a> [[#workinprogressend]]%0a> %0a> [[#completedwork]]%0a> !!Completed Work:%0a> %0a> (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a> %0a> [[#completedworkend]]%0a> !!{$Name}'s profile%0a> %0a> Section:  \\%0a
+host:1614187396=74.109.247.199
+author:1613848844=jess_smith
+diff:1613848844:1612303597:=48,49c48%0a%3c [[#completedworkend]]%0a%3c (:section: E:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613848844=173.71.184.46
+author:1612303597=jess_smith
+diff:1612303597:1612303572:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: jmsmith2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a
+host:1612303597=173.71.184.46
+author:1612303572=jess_smith
+diff:1612303572:1612303572:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: jmsmith2 \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612303572=173.71.184.46

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+author=
+charset=UTF-8
+csum=
+ctime=1612650169
+host=74.109.247.199
+name=GradebookArticles.AreThereUniversalPrinciplesOfLanguagesThatAreUniformAcrossAllLanguages
+rev=2
+targets=
+text=:Category: PracticeCategory%0a:Title: Are there universal principles of languages that are uniform across all languages%0a:Author: ShahinC%0a:Section: A%0a:Completed: 06.02.2021 - 14:22%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aIn terms of learning new languages, are there common standards or tools that exist in each language that can help you learn the language well?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0aI'm interested in knowing if there are common standards or principles that exist in each language that would make it easier for non-native speakers to learn that particular language. For example, in math, even though we have different branches of math along with sophisticated formulas that have quite a bit going on, we can still drill down and derive them with addition, subtraction, multiplication and division. With language, it seems like that's also the case, but math is one language, whereas there are several different languages that are spoken. %0a%0a[[#contentends]]%0a----
+time=1614797731
+author:1614797731=
+diff:1614797731:1612650169:=4c4%0a%3c :Section: A%0a---%0a> :Section: %0a
+host:1614797731=74.109.247.199
+author:1612650169=ShahinC
+diff:1612650169:1612650169:=1,44d0%0a%3c :Category: PracticeCategory%0a%3c :Title: Are there universal principles of languages that are uniform across all languages%0a%3c :Author: ShahinC%0a%3c :Section: %0a%3c :Completed: 06.02.2021 - 14:22%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c In terms of learning new languages, are there common standards or tools that exist in each language that can help you learn the language well?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c I'm interested in knowing if there are common standards or principles that exist in each language that would make it easier for non-native speakers to learn that particular language. For example, in math, even though we have different branches of math along with sophisticated formulas that have quite a bit going on, we can still drill down and derive them with addition, subtraction, multiplication and division. With language, it seems like that's also the case, but math is one language, whereas there are several different languages that are spoken. %0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1612650169=73.60.194.7

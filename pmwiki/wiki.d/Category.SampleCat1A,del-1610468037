@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1608059709
+host=74.109.247.199
+name=Category.SampleCat1A
+rev=3
+targets=
+text=(:essential: no:)%0a(:deadline: 2020-12-15:)%0a(:expansiondeadline: 2020-12-18:)
+time=1608223969
+author:1608223969=
+diff:1608223969:1608159005:=1,3c1,3%0a%3c (:essential: no:)%0a%3c (:deadline: 2020-12-15:)%0a%3c (:expansiondeadline: 2020-12-18:)%0a\ No newline at end of file%0a---%0a> (:essential: yes:)%0a> (:deadline: 12092020:)%0a> (:expansiondeadline: :)%0a\ No newline at end of file%0a
+host:1608223969=74.109.247.199
+author:1608159005=
+diff:1608159005:1608059709:=2,3c2%0a%3c (:deadline: 12092020:)%0a%3c (:expansiondeadline: :)%0a\ No newline at end of file%0a---%0a> (:deadline: 12092020:)%0a\ No newline at end of file%0a
+host:1608159005=74.109.247.199
+author:1608059709=
+diff:1608059709:1608059709:=1,2d0%0a%3c (:essential: yes:)%0a%3c (:deadline: 12092020:)%0a\ No newline at end of file%0a
+host:1608059709=74.109.247.199

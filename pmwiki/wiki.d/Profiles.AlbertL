@@ -1,0 +1,39 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+author=AnanyaV
+charset=UTF-8
+csum=
+ctime=1612360557
+host=96.236.208.198
+name=Profiles.AlbertL
+rev=9
+targets=Articles.PhilosophyLessonsFromEAT,Articles.TheIrishLanguage,Articles.GenderBiasInMachineTranslation,Articles.FillerSoundsAndWords
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: aylu \\%0a%0a[[#comments]]%0a#foxbegin 210327-192949-559250#%0a* sirisha_b expanded on your article [[Articles.PhilosophyLessonsFromEAT|PhilosophyLessonsFromEAT]] {[foxdelline button 210327-192949-559250 {$FullName} ]}%0a#foxend 210327-192949-559250#%0a#foxbegin 210508-022723-509420#%0a* BrandtE expanded on your article [[Articles.TheIrishLanguage|TheIrishLanguage]] {[foxdelline button 210508-022723-509420 {$FullName} ]}%0a#foxend 210508-022723-509420#%0a#foxbegin 210508-045258-6660#%0a* AlexX expanded on your article [[Articles.GenderBiasInMachineTranslation|GenderBiasInMachineTranslation]] {[foxdelline button 210508-045258-6660 {$FullName} ]}%0a#foxend 210508-045258-6660#%0a#foxbegin 210509-024913-174000#%0a* Simon_Y expanded on your article [[Articles.FillerSoundsAndWords|FillerSoundsAndWords]] {[foxdelline button 210509-024913-174000 {$FullName} ]}%0a#foxend 210509-024913-174000#%0a#foxbegin 210509-030105-398040#%0a* AnanyaV expanded on your article [[Articles.TheIrishLanguage|TheIrishLanguage]] {[foxdelline button 210509-030105-398040 {$FullName} ]}%0a#foxend 210509-030105-398040#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: A:)%0a#foxbegin 210309-213612-919120#%0a(:name: albert_l:)%0a#foxend 210309-213612-919120#
+time=1620529264
+author:1620529264=AnanyaV
+diff:1620529264:1620528552:=19,21d18%0a%3c #foxbegin 210509-030105-398040#%0a%3c * AnanyaV expanded on your article [[Articles.TheIrishLanguage|TheIrishLanguage]] {[foxdelline button 210509-030105-398040 {$FullName} ]}%0a%3c #foxend 210509-030105-398040#%0a
+host:1620529264=96.236.208.198
+author:1620528552=Simon_Y
+diff:1620528552:1620449577:=16,18d15%0a%3c #foxbegin 210509-024913-174000#%0a%3c * Simon_Y expanded on your article [[Articles.FillerSoundsAndWords|FillerSoundsAndWords]] {[foxdelline button 210509-024913-174000 {$FullName} ]}%0a%3c #foxend 210509-024913-174000#%0a
+host:1620528552=71.197.127.14
+author:1620449577=AlexX
+diff:1620449577:1620440842:=13,15d12%0a%3c #foxbegin 210508-045258-6660#%0a%3c * AlexX expanded on your article [[Articles.GenderBiasInMachineTranslation|GenderBiasInMachineTranslation]] {[foxdelline button 210508-045258-6660 {$FullName} ]}%0a%3c #foxend 210508-045258-6660#%0a
+host:1620449577=71.206.238.88
+author:1620440842=BrandtE
+diff:1620440842:1616873387:=10,12d9%0a%3c #foxbegin 210508-022723-509420#%0a%3c * BrandtE expanded on your article [[Articles.TheIrishLanguage|TheIrishLanguage]] {[foxdelline button 210508-022723-509420 {$FullName} ]}%0a%3c #foxend 210508-022723-509420#%0a
+host:1620440842=128.237.82.2
+author:1616873387=sirisha_b
+diff:1616873387:1615397377:=7,9c7%0a%3c #foxbegin 210327-192949-559250#%0a%3c * sirisha_b expanded on your article [[Articles.PhilosophyLessonsFromEAT|PhilosophyLessonsFromEAT]] {[foxdelline button 210327-192949-559250 {$FullName} ]}%0a%3c #foxend 210327-192949-559250#%0a---%0a> %0a
+host:1616873387=68.100.29.45
+author:1615397377=
+diff:1615397377:1615325770:=27c27%0a%3c (:name: albert_l:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615397377=74.109.247.199
+author:1615325770=
+diff:1615325770:1614801072:=25,28c25%0a%3c (:section: A:)%0a%3c #foxbegin 210309-213612-919120#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213612-919120#%0a\ No newline at end of file%0a---%0a> (:section: A:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1614801072=
+diff:1614801072:1612360557:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: A:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1614801072=74.109.247.199
+author:1612360557=AlbertL
+diff:1612360557:1612360557:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: aylu \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612360557=67.163.151.95

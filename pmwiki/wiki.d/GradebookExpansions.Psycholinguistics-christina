@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36
+author=christina
+charset=UTF-8
+csum=
+ctime=1620948750
+host=98.111.230.107
+name=GradebookExpansions.Psycholinguistics-christina
+rev=1
+targets=Articles.Psycholinguistics,Profiles.KyuwonW
+text=:Category: Varia%0a:Expansion: test%0a:Author: christina%0a:Original: [[Articles.Psycholinguistics|Psycholinguistics]] %0a:OriginalAuthor: [[Profiles.kyuwonW|kyuwonW]]%0a:Section: %0a:Completed: 13.05.2021 - 16:32%0a:Status: ungraded%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0atest%0a%0a[[#contentends]]%0a----%0a(:Category:)
+time=1620948750
+author:1620948750=christina
+diff:1620948750:1620948750:=1,38d0%0a%3c :Category: Varia%0a%3c :Expansion: test%0a%3c :Author: christina%0a%3c :Original: [[Articles.Psycholinguistics|Psycholinguistics]] %0a%3c :OriginalAuthor: [[Profiles.kyuwonW|kyuwonW]]%0a%3c :Section: %0a%3c :Completed: 13.05.2021 - 16:32%0a%3c :Status: ungraded%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c test%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1620948750=98.111.230.107

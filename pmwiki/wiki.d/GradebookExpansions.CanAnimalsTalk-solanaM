@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1612492610
+host=74.109.239.200
+name=GradebookExpansions.CanAnimalsTalk-solanaM
+rev=5
+targets=Articles.CanAnimalsTalk,Profiles.Sathyas
+text=:Category: PracticeCategory%0a:Expansion: Yes%0a:Author: solanaM%0a:Original: [[Articles.CanAnimalsTalk|CanAnimalsTalk]] %0a:OriginalAuthor: [[Profiles.sathyas|sathyas]]%0a:Section: C%0a:Completed: 04.02.2021 - 18:36%0a:Status: complete%0a%0a%0a#foxbegin 210205-173621-458710#%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a#foxend 210205-173621-458710#%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 210506-172934-235690#%0a* [-06.05.2021 - 10:29-] ||  marked as complete%0a#foxend 210506-172934-235690#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0a%0a----%0a[[#content]]%0a%0aAs someone already mentioned above, some animals have different warning calls for different predators so the others in their group know what to look out for. Here is a brief article that mentions some of the ways that primates communicate: https://www.nature.com/scitable/knowledge/library/primate-communication-67560503/.%0aAlso, insects such as bees do those little dances to tell each other where to pollinate.%0a%0a[[#contentends]]%0a----%0a(:Category:)%0a(:GradedBy: :)
+time=1620322174
+author:1620322174=
+diff:1620322174:1620321983:=8,10c8,10%0a%3c :Status: complete%0a%3c %0a%3c %0a---%0a> :Status: ungraded%0a> %0a> %0a18,20c18%0a%3c #foxbegin 210506-172934-235690#%0a%3c * [-06.05.2021 - 10:29-] ||  marked as complete%0a%3c #foxend 210506-172934-235690#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: :)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1620322174=74.109.239.200
+author:1620321983=
+diff:1620321983:1616289685:=12c12%0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a---%0a> (:foxform Site.FoxForms#gradeitem:)%0a35c35%0a%3c As someone already mentioned above, some animals have different warning calls for different predators so the others in their group know what to look out for. Here is a brief article that mentions some of the ways that primates communicate: https://www.nature.com/scitable/knowledge/library/primate-communication-67560503/.%0a---%0a> As someone already mentioned above, some animals have different warning calls for different predators so the others in their group know what to look out for. Here is a brief article that mentions some of the ways that primates communicate: https://www.nature.com/scitable/knowledge/library/primate-communication-67560503/.%0a
+host:1620321983=74.109.239.200
+author:1616289685=
+diff:1616289685:1612546580:=6c6%0a%3c :Section: C%0a---%0a> :Section: %0a
+host:1616289685=74.109.247.199
+author:1612546580=TA_lili
+diff:1612546580:1612492610:=11,14d10%0a%3c #foxbegin 210205-173621-458710#%0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c #foxend 210205-173621-458710#%0a
+host:1612546580=74.109.247.199
+author:1612492610=solanaM
+diff:1612492610:1612492610:=1,36d0%0a%3c :Category: PracticeCategory%0a%3c :Expansion: Yes%0a%3c :Author: solanaM%0a%3c :Original: [[Articles.CanAnimalsTalk|CanAnimalsTalk]] %0a%3c :OriginalAuthor: [[Profiles.sathyas|sathyas]]%0a%3c :Section: %0a%3c :Completed: 04.02.2021 - 18:36%0a%3c :Status: ungraded%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c As someone already mentioned above, some animals have different warning calls for different predators so the others in their group know what to look out for. Here is a brief article that mentions some of the ways that primates communicate: https://www.nature.com/scitable/knowledge/library/primate-communication-67560503/.%0a%3c Also, insects such as bees do those little dances to tell each other where to pollinate.%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1612492610=73.79.229.20

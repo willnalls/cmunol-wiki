@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+author=Gavin_D
+charset=UTF-8
+csum=
+ctime=1612379331
+host=73.154.246.12
+name=Profiles.GavinD
+rev=4
+targets=
+text=(:section: B:)%0a#foxbegin 210309-213615-142470#%0a(:name: Gavin_D:)%0a#foxend 210309-213615-142470#%0a(:andrewid: gdeiss:)
+time=1616377967
+author:1616377967=Gavin_D
+diff:1616377967:1615397620:=4,5c4%0a%3c #foxend 210309-213615-142470#%0a%3c (:andrewid: gdeiss:)%0a\ No newline at end of file%0a---%0a> #foxend 210309-213615-142470#%0a\ No newline at end of file%0a
+host:1616377967=73.154.246.12
+author:1615397620=
+diff:1615397620:1615325770:=3c3%0a%3c (:name: Gavin_D:)%0a---%0a> (:name: {$Name}:)%0a
+host:1615397620=74.109.247.199
+author:1615325770=
+diff:1615325770:1612379331:=1,4c1%0a%3c (:section: B:)%0a%3c #foxbegin 210309-213615-142470#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213615-142470#%0a\ No newline at end of file%0a---%0a> (:section: B:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1612379331=Gavin_D
+diff:1612379331:1612379331:=1d0%0a%3c (:section: B:)%0a\ No newline at end of file%0a
+host:1612379331=173.13.48.209

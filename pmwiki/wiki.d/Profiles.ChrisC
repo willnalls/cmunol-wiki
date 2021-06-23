@@ -1,0 +1,39 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+author=Simon_Y
+charset=UTF-8
+csum=
+ctime=1612197335
+host=71.197.127.14
+name=Profiles.ChrisC
+rev=9
+targets=Articles.ConstructedLanguages
+text=!!{$Name}'s profile%0a%0aSection:  \\%0aandrewid: ccrawfor \\%0a%0a[[#comments]]%0a#foxbegin 210508-024623-577090#%0a* gabrielz expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210508-024623-577090 {$FullName} ]}%0a#foxend 210508-024623-577090#%0a#foxbegin 210508-040520-856400#%0a* lauray expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210508-040520-856400 {$FullName} ]}%0a#foxend 210508-040520-856400#%0a#foxbegin 210509-022853-234480#%0a* Russell_E expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210509-022853-234480 {$FullName} ]}%0a#foxend 210509-022853-234480#%0a#foxbegin 210509-023037-299760#%0a* Simon_Y expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210509-023037-299760 {$FullName} ]}%0a#foxend 210509-023037-299760#%0a[[#commentsend]]%0a%0a%0a----%0a[[#workinprogress]]%0a!!Work in progress:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%0a[[#workinprogressend]]%0a%0a[[#completedwork]]%0a!!Completed Work:%0a%0a(:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%0a[[#completedworkend]]%0a(:section: C:)%0a(:name: ChrisC_:)
+time=1620527436
+author:1620527436=Simon_Y
+diff:1620527436:1620527332:=16,18d15%0a%3c #foxbegin 210509-023037-299760#%0a%3c * Simon_Y expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210509-023037-299760 {$FullName} ]}%0a%3c #foxend 210509-023037-299760#%0a
+host:1620527436=71.197.127.14
+author:1620527332=Russell_E
+diff:1620527332:1620446719:=13,15d12%0a%3c #foxbegin 210509-022853-234480#%0a%3c * Russell_E expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210509-022853-234480 {$FullName} ]}%0a%3c #foxend 210509-022853-234480#%0a
+host:1620527332=99.171.140.109
+author:1620446719=lauray
+diff:1620446719:1620441982:=10,12d9%0a%3c #foxbegin 210508-040520-856400#%0a%3c * lauray expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210508-040520-856400 {$FullName} ]}%0a%3c #foxend 210508-040520-856400#%0a
+host:1620446719=128.237.82.2
+author:1620441982=gabrielz
+diff:1620441982:1615401563:=7,9c7%0a%3c #foxbegin 210508-024623-577090#%0a%3c * gabrielz expanded on your article [[Articles.ConstructedLanguages|ConstructedLanguages]] {[foxdelline button 210508-024623-577090 {$FullName} ]}%0a%3c #foxend 210508-024623-577090#%0a---%0a> %0a28c26%0a%3c (:name: ChrisC_:)%0a\ No newline at end of file%0a---%0a> (:name: ChrisC_:)%0a
+host:1620441982=24.131.18.47
+author:1615401563=
+diff:1615401563:1615325770:=26a27,29%0a> #foxbegin 210309-213614-903340#%0a> (:name: {$Name}:)%0a> #foxend 210309-213614-903340#%0a\ No newline at end of file%0a
+host:1615401563=74.109.247.199
+author:1615325770=
+diff:1615325770:1615324157:=26,29c26%0a%3c (:name: ChrisC_:)%0a%3c #foxbegin 210309-213614-903340#%0a%3c (:name: {$Name}:)%0a%3c #foxend 210309-213614-903340#%0a\ No newline at end of file%0a---%0a> (:name: ChrisC_:)%0a\ No newline at end of file%0a
+host:1615325770=74.109.247.199
+author:1615324157=
+diff:1615324157:1613853192:=25,26c25%0a%3c (:section: C:)%0a%3c (:name: ChrisC_:)%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1615324157=74.109.247.199
+author:1613853192=ChrisC_
+diff:1613853192:1612197335:=24,25c24%0a%3c [[#completedworkend]]%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1613853192=128.2.149.72
+author:1612197335=ChrisC_
+diff:1612197335:1612197335:=1,24d0%0a%3c !!{$Name}'s profile%0a%3c %0a%3c Section:  \\%0a%3c andrewid: ccrawfor \\%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c %0a%3c ----%0a%3c [[#workinprogress]]%0a%3c !!Work in progress:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=ungraded,needsRevised,revised $:Author={$Name}:)%0a%3c %0a%3c [[#workinprogressend]]%0a%3c %0a%3c [[#completedwork]]%0a%3c !!Completed Work:%0a%3c %0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Status=complete $:Author={$Name}:)%0a%3c %0a%3c [[#completedworkend]]%0a\ No newline at end of file%0a
+host:1612197335=128.2.149.72
