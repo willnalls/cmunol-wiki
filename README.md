@@ -26,7 +26,11 @@ Only registered users may access or view the wiki. Users must register as either
     * In line 8, add the title of your wiki. 
 3. Navigate to the folder /pmwiki/pub/skins/stab/.
     * To change the color of the header of your website: in the file pmwiki.css, change the value of 'color' in #page (line 21) to a hex code of your choosing.
-    * To 
+    * Replace the file /pmwiki/pub/skins/stab/logo.png with your own school's logo. Should be approximately 150x150 pixels^2. 
+4. Create your instructor account.
+    * Navigate to your website, and log in as admin. (username 'admin', with the password you chose above)
+    * From 'My Dashboard', select 'User Management' and 'Register as a new user'. Enter your details.
+    * Again under 'User Management', select 'Edit user group'. 
 
 
 ## usage
