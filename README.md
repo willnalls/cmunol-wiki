@@ -29,9 +29,10 @@ Only registered users may access or view the wiki. Users must register as either
     * Replace the file /pmwiki/pub/skins/stab/logo.png with your own school's logo. Should be approximately 150x150 pixels^2. 
 4. Create your instructor account.
     * Navigate to your website, and log in as admin. (username 'admin', with the password you chose above)
-    * From 'My Dashboard', select 'User Management' and 'Register as a new user'. Enter your details.
-    * Again under 'User Management', select 'Edit user group'. 
-
+    * From 'My Dashboard', select 'User Management' and 'Register as a new user'. Enter your details, and select both the 'admin' and 'TA' groups.
+5. Add your TA accounts.
+    * Navigate to your website, and log in as admin. (username 'admin', with the password you chose above)
+    * From 'My Dashboard', select 'User Management' and 'Register as a new user'. For each TA, enter their details and a temporary password (they can change this later), and select the 'TA' group.
 
 ## usage
 ### administrator
