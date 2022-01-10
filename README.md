@@ -54,8 +54,13 @@ Only registered users may access or view the wiki. Users must register as either
 
 ### expanding an article
 
+1. Navigate to the article that you would like to expand. Enter your expansion's **heading**, and the **content**, and submit.
+2. Your article will appear on your dashboard, under 'My Work in Progress'. 
 
 ## TAs
 
 ### account setup and management
+
+1. Get your account credentials from the course instructor. Once you have logged in, use the 'user settings' link from your dashboard in order to change your password. 
+
 
