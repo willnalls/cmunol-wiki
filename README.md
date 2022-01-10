@@ -33,8 +33,29 @@ Only registered users may access or view the wiki. Users must register as either
 5. Add your TA accounts.
     * Navigate to your website, and log in as admin. (username 'admin', with the password you chose above)
     * From 'My Dashboard', select 'User Management' and 'Register as a new user'. For each TA, enter their details and a temporary password (they can change this later), and select the 'TA' group.
+    * Log out of the 'admin' account. When accessing the wiki in the future, use the account you made in step 4.
 
-## usage
+# Usage
 ### administrator
-### students
-### TAs
+
+## Students
+
+### account setup and management
+
+1. Register for a new account at [this link](https://cmunol-wiki.com/pmwiki/pmwiki.php?n=WikiHome.MyDashboard?action=user/new). Once completed, you will be sent a confirmation email; click the activation link, and then select 'login to continue'. Enter your credentials.
+2. Once you have logged in, enter your SIO section and Andrew ID where prompted. 
+3. If you need to change your password, you can do so under 'user settings' from your dashboard. 
+
+### submitting/editing your own article
+
+1. Navigate to the category in which you would like to submit and article, and click 'submit a new article'. If the deadline has passed, you will need to contact your TA.
+2. Select the correct category, and enter your **title** (letters only, no punctuation), **summary** (~10 word description of the article), and **content** (the article itself). Type out the content of your article in a separate text editor, and then copy it to the form before submitting it (so you don't lose your work, if the submission fails because of a duplicate title, etc.). 
+3. Your article will now appear on your dashboard, under 'My Work in Progress'. If you need to revise your article, use the link 'edit my article'.
+
+### expanding an article
+
+
+## TAs
+
+### account setup and management
+
