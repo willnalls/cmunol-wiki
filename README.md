@@ -75,13 +75,14 @@ Only registered users may access or view the wiki. Users must register as either
 
 You can find a link to the gradebook directly on your dashboard. From the gradebook, you can see what work has been submitted, and what needs to be graded.
 
-**Summary and List**
+**Summary and List**  
 Select the category and section (or 'all' sections) that you would like to see. The summary shows how many articles or expansions have been submitted per status (ungraded, needs revised, revised, complete). Below this, you can select a status to see a list of all articles with the designated category, section, and status.
 
-**Export and Late Submission**
+**Export and Late Submission**  
 At the bottom of the gradebook, there are links to export the grades in a spreadsheet (for mid-semester and end-of-term), and to submit a late article for a student, if necessary.
 
 ### grading
 
-1. Navigate to the gradebook, and select the category, 
+1. Navigate to the gradebook and select the category, section, and status you'd like to see. Find the article you want to grade, and open the 'grade article' link in a new tab; this will show you the _original_ article and an interface for grading. Use the 'view article' link to see the article with all current comments, expansions, and revisions.
+2. In the grading interface, you can change the status of the article to 'Complete', 'Requires Revisions', or 'No Credit'. You can also add comments for the author's consideration (these will only be visible to the author). All changes made by TAs to the gradebook entry are recorded under the 'Grading History'. 
 
