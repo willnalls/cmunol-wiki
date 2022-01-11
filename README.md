@@ -50,12 +50,20 @@ Only registered users may access or view the wiki. Users must register as either
 
 1. Navigate to the category in which you would like to submit and article, and click 'submit a new article'. If the deadline has passed, you will need to contact your TA.
 2. Select the correct category, and enter your **title** (letters only, no punctuation), **summary** (~10 word description of the article), and **content** (the article itself). Type out the content of your article in a separate text editor, and then copy it to the form before submitting it (so you don't lose your work, if the submission fails because of a duplicate title, etc.). 
-3. Your article will now appear on your dashboard, under 'My Work in Progress'. If you need to revise your article, use the link 'edit my article'.
+3. Your article will now appear on your dashboard, under 'My Work in Progress'. If you need to revise your article, use the link 'edit article'.
 
 ### expanding an article
 
 1. Navigate to the article that you would like to expand. Enter your expansion's **heading**, and the **content**, and submit.
 2. Your article will appear on your dashboard, under 'My Work in Progress'. 
+
+### revising your work
+
+1. If your TA thinks that a submission need more work, they will mark it as requiring revisions in your dashboard. The TA's comments to you will be included in the listing of the expansion. Use the 'edit article' or 'edit expansion' button to revise your work, then click 'Mark as Revised'. 
+
+### leaving a comment
+
+1. At the bottom of any article, you may use the form to submit a comment for discussion.
 
 ## TAs
 
@@ -63,4 +71,17 @@ Only registered users may access or view the wiki. Users must register as either
 
 1. Get your account credentials from the course instructor. Once you have logged in, use the 'user settings' link from your dashboard in order to change your password. 
 
+### navigating the gradebook
+
+You can find a link to the gradebook directly on your dashboard. From the gradebook, you can see what work has been submitted, and what needs to be graded.
+
+**Summary and List**
+Select the category and section (or 'all' sections) that you would like to see. The summary shows how many articles or expansions have been submitted per status (ungraded, needs revised, revised, complete). Below this, you can select a status to see a list of all articles with the designated category, section, and status.
+
+**Export and Late Submission**
+At the bottom of the gradebook, there are links to export the grades in a spreadsheet (for mid-semester and end-of-term), and to submit a late article for a student, if necessary.
+
+### grading
+
+1. Navigate to the gradebook, and select the category, 
 
