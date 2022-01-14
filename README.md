@@ -2,7 +2,7 @@
 Classroom wiki for CMU's Nature of Language course. 
 
 This readme consists of three parts:
-1. [Overview of the wiki](/cmunol-wiki#Overview)
+1. Overview of the Wiki
 2. Installation Guide
 3. Usage Guide
 
