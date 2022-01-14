@@ -9,9 +9,10 @@ This readme consists of three parts:
 # Overview
 ## Registration and Users
 
-Only registered users may access or view the wiki. Users must register as either a **student** or a **TA**.
-- Students may view the wiki and make submissions.
-- TAs may view the wiki and grade submissions.
+Only registered users may access or view the wiki. Users are registered by default as a **student**. The admin may additionally give **TA** or **admin** privileges to an account.
+- Students may view the wiki and make submissions/revisions.
+- TAs may view the wiki, grade submissions, and edit wiki content.
+- Admins may view the wiki, grade submissions, edit wiki content, and edit user accounts. 
 
 
 
@@ -41,9 +42,18 @@ Only registered users may access or view the wiki. Users must register as either
 
 ### content management
 
+1. From the dashboard, select 'Content Management'. You will see a list of categories with their details. On this page you may edit a category's deadlines, text, or status as 'essential', delete a category, and add new categories.
+3. You may also edit the requirements for the different levels of participation -- from the dashboard, select 'Adjust Engagement Requirements'. Click on 'edit requirements' on the following page to make changes to the values for each level. Save the page once you are finished. 
+
 ### user management
 
-
+1. From the dashboard, select 'User Management'. From here, you may:
+   * Register a new user
+   * Reset your password
+   * Activate an account (you can ignore this)
+   * Edit user account -- you can change a user's password or email.
+   * Edit user group -- add/remove a user to the admin or TA groups. 
+   * Login as another user -- you can log in as a student or TA, if necessary. 
 
 ## Students
 
