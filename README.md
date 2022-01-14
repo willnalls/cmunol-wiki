@@ -34,9 +34,16 @@ Only registered users may access or view the wiki. Users must register as either
     * Navigate to your website, and log in as admin. (username 'admin', with the password you chose above)
     * From 'My Dashboard', select 'User Management' and 'Register as a new user'. For each TA, enter their details and a temporary password (they can change this later), and select the 'TA' group.
     * Log out of the 'admin' account. When accessing the wiki in the future, use the account you made in step 4.
+    * Give these credentials to your TAs so that they can log in and set their own passwords. 
 
 # Usage
-### administrator
+## Instructor
+
+### content management
+
+### user management
+
+
 
 ## Students
 
@@ -64,6 +71,7 @@ Only registered users may access or view the wiki. Users must register as either
 ### leaving a comment
 
 1. At the bottom of any article, you may use the form to submit a comment for discussion.
+2. If you need to delete a oomment, let your TA know and they can delete it for you. 
 
 ## TAs
 
