@@ -33,7 +33,7 @@ Only registered users may access or view the wiki. Users are registered by defau
     * From 'My Dashboard', select 'User Management' and 'Register as a new user'. Enter your details, and select both the 'admin' and 'TA' groups.
     * After you have completed this, go back to your dashboard and log out of the admin account. 
 5. Add your TA accounts.
-    * Navigate to your website, and log in using the instructor account you created in step 4.
+    * Navigate to your website, and log in as admin. (username 'admin', with the password you chose above)
     * From 'My Dashboard', select 'User Management' and 'Register as a new user'. For each TA, enter their details and a temporary password (they can change this later), and select the 'TA' group.
     * Give these credentials to your TAs so that they can log in and set their own passwords. 
 
