@@ -18,7 +18,7 @@ Only registered users may access or view the wiki. Users are registered by defau
 
 # Installation
 
-**Requirements:** have your own website hosted, and have root access to the server (you can upload files to the server and manipulate them).
+**Requirements:** have your own website hosted, and have root access to the server (you can upload files to the server and manipulate them), have PHP 7.4 running on your website.
 
 1. Upload the wiki.zip file to your server, and unzip it. 
     * The folder 'pmwiki' and the file 'index.php' should both be in the home folder of your website.
