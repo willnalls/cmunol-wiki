@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+author=nbraga
+charset=UTF-8
+csum=
+ctime=1663251852
+host=128.237.82.16
+name=GradebookExpansions.Evelynn09031524-nbraga
+rev=1
+targets=Articles.Evelynn09031524
+text=:Category: FunWithWords%0a:Expansion: %0a:Author: nbraga%0a:Original: Evelynn09031524 %0a:OriginalTitle: Bussin'%0a:OriginalAuthor: evelynn%0a:Section: F%0a:Completed: 15.09.2022 - 07:24%0a:Status: ungraded%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)
+time=1663251852
+author:1663251852=nbraga
+diff:1663251852:1663251852:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: %0a%3c :Author: nbraga%0a%3c :Original: Evelynn09031524 %0a%3c :OriginalTitle: Bussin'%0a%3c :OriginalAuthor: evelynn%0a%3c :Section: F%0a%3c :Completed: 15.09.2022 - 07:24%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1663251852=128.237.82.16

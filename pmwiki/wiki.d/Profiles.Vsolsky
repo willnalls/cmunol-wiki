@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+author=vsolsky
+charset=UTF-8
+csum=
+ctime=1661969666
+host=128.237.82.1
+name=Profiles.Vsolsky
+rev=3
+targets=
+text=(:andrewid: solsky:)%0a(:section: B:)%0a%0a(:name: vsolsky:)
+time=1662050788
+author:1662050788=vsolsky
+diff:1662050788:1661969669:=1,4c1%0a%3c (:andrewid: solsky:)%0a%3c (:section: B:)%0a%3c %0a%3c (:name: vsolsky:)%0a\ No newline at end of file%0a---%0a> (:andrewid: solsky:)%0a\ No newline at end of file%0a
+host:1662050788=128.237.82.1
+author:1661969669=vsolsky
+diff:1661969669:1661969666:=1c1%0a%3c (:andrewid: solsky:)%0a\ No newline at end of file%0a---%0a> (:andrewid: vsolsky:)%0a\ No newline at end of file%0a
+host:1661969669=128.237.82.1
+author:1661969666=vsolsky
+diff:1661969666:1661969666:=1d0%0a%3c (:andrewid: vsolsky:)%0a\ No newline at end of file%0a
+host:1661969666=128.237.82.1

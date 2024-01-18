@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=anniekim
+charset=UTF-8
+csum=
+ctime=1661963642
+host=128.237.82.12
+name=Profiles.Anniekim
+rev=2
+targets=
+text=(:andrewid: anniekim:)%0a(:section: D:)%0a%0a(:name: anniekim:)
+time=1661963677
+author:1661963677=anniekim
+diff:1661963677:1661963642:=1,4c1%0a%3c (:andrewid: anniekim:)%0a%3c (:section: D:)%0a%3c %0a%3c (:name: anniekim:)%0a\ No newline at end of file%0a---%0a> (:andrewid: anniekim:)%0a\ No newline at end of file%0a
+host:1661963677=128.237.82.12
+author:1661963642=anniekim
+diff:1661963642:1661963642:=1d0%0a%3c (:andrewid: anniekim:)%0a\ No newline at end of file%0a
+host:1661963642=128.237.82.12

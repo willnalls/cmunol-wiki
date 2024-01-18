@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=maxwell
+charset=UTF-8
+csum=
+ctime=1662217723
+host=128.237.82.15
+name=Profiles.Maxwell
+rev=3
+targets=
+text=(:andrewid: msoh:)%0a(:section: E:)%0a%0a(:name: maxwell:)%0a(:lvl: full:)
+time=1669177863
+author:1669177863=maxwell
+diff:1669177863:1662217730:=4,5c4%0a%3c (:name: maxwell:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: maxwell:)%0a\ No newline at end of file%0a
+host:1669177863=128.237.82.15
+author:1662217730=maxwell
+diff:1662217730:1662217723:=1,4c1%0a%3c (:andrewid: msoh:)%0a%3c (:section: E:)%0a%3c %0a%3c (:name: maxwell:)%0a\ No newline at end of file%0a---%0a> (:andrewid: msoh:)%0a\ No newline at end of file%0a
+host:1662217730=128.237.82.20
+author:1662217723=maxwell
+diff:1662217723:1662217723:=1d0%0a%3c (:andrewid: msoh:)%0a\ No newline at end of file%0a
+host:1662217723=128.237.82.20

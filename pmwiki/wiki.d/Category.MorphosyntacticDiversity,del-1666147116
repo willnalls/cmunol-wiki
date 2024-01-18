@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1661724609
+host=128.237.82.12
+name=Category.MorphosyntacticDiversity
+rev=2
+targets=
+text=(:essential: no:)%0a(:deadline: 2022-11-04:)%0a(:expansiondeadline: 2022-11-11:)%0a%0a!!Morphosyntactic Diversity%0a%0a----%0a%0aIn this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity in English dialects.  There are many excellent resources out there, and one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a%0aFor an article of this kind, you are asked to provide a brief summary of a grammatical construction from any dialect other than Standardized American English, with examples.  You do not have to limit yourself to Englishes of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English, etc.%0a%0a%0a[+Expansions+]%0a%0aSome ideas for expansions of this category are:%0a%0a* Find additional examples of the grammatical construction in question, either in written texts or in a video.%0a* If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction.%0a* Find a non-English language that exhibits the same construction, and provide a brief summary with glossed examples showing the parallelism.
+time=1661724846
+author:1661724846=
+diff:1661724846:1661724609:=1,20d0%0a%3c (:essential: no:)%0a%3c (:deadline: 2022-11-04:)%0a%3c (:expansiondeadline: 2022-11-11:)%0a%3c %0a%3c !!Morphosyntactic Diversity%0a%3c %0a%3c ----%0a%3c %0a%3c In this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity in English dialects.  There are many excellent resources out there, and one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a%3c %0a%3c For an article of this kind, you are asked to provide a brief summary of a grammatical construction from any dialect other than Standardized American English, with examples.  You do not have to limit yourself to Englishes of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English, etc.%0a%3c %0a%3c %0a%3c [+Expansions+]%0a%3c %0a%3c Some ideas for expansions of this category are:%0a%3c %0a%3c * Find additional examples of the grammatical construction in question, either in written texts or in a video.%0a%3c * If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction.%0a%3c * Find a non-English language that exhibits the same construction, and provide a brief summary with glossed examples showing the parallelism.%0a\ No newline at end of file%0a
+host:1661724846=128.237.82.12

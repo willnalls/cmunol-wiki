@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+author=davidl3
+charset=UTF-8
+csum=
+ctime=1662999607
+host=128.237.82.2
+name=Profiles.Davidl3
+rev=2
+targets=
+text=(:andrewid: davidl3:)%0a(:section: F:)%0a%0a(:name: davidl3:)
+time=1662999624
+author:1662999624=davidl3
+diff:1662999624:1662999607:=1,4c1%0a%3c (:andrewid: davidl3:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: davidl3:)%0a\ No newline at end of file%0a---%0a> (:andrewid: davidl3:)%0a\ No newline at end of file%0a
+host:1662999624=128.237.82.2
+author:1662999607=davidl3
+diff:1662999607:1662999607:=1d0%0a%3c (:andrewid: davidl3:)%0a\ No newline at end of file%0a
+host:1662999607=128.237.82.2

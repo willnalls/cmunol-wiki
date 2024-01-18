@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=grace
+charset=UTF-8
+csum=
+ctime=1669505024
+host=71.206.238.119
+name=GradebookArticles.Grace11261520
+rev=1
+targets=
+text=:Category: IndigenousLanguagesOfTheAmericas%0a:Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a:Title: The Lakota Tribe%0a:Author: grace%0a:Section: D%0a:Completed: 26.11.2022 - 15:23%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aA summary of the Lakota language and tribe%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.grace11261520#content:)%0a%0a[[#contentends]]%0a----
+time=1669505024
+author:1669505024=grace
+diff:1669505024:1669505024:=1,51d0%0a%3c :Category: IndigenousLanguagesOfTheAmericas%0a%3c :Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a%3c :Title: The Lakota Tribe%0a%3c :Author: grace%0a%3c :Section: D%0a%3c :Completed: 26.11.2022 - 15:23%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c A summary of the Lakota language and tribe%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.grace11261520#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1669505024=71.206.238.119

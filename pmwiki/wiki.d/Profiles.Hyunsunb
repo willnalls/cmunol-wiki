@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=hyunsunb
+charset=UTF-8
+csum=
+ctime=1661982190
+host=73.174.38.98
+name=Profiles.Hyunsunb
+rev=3
+targets=
+text=(:andrewid: hyunsunb:)%0a(:section: F:)%0a%0a(:name: hyunsunb:)%0a(:lvl: full:)
+time=1667499162
+author:1667499162=hyunsunb
+diff:1667499162:1661982208:=4,5c4%0a%3c (:name: hyunsunb:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: hyunsunb:)%0a\ No newline at end of file%0a
+host:1667499162=73.174.38.98
+author:1661982208=hyunsunb
+diff:1661982208:1661982190:=1,4c1%0a%3c (:andrewid: hyunsunb:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: hyunsunb:)%0a\ No newline at end of file%0a---%0a> (:andrewid: hyunsunb:)%0a\ No newline at end of file%0a
+host:1661982208=46.165.250.81
+author:1661982190=hyunsunb
+diff:1661982190:1661982190:=1d0%0a%3c (:andrewid: hyunsunb:)%0a\ No newline at end of file%0a
+host:1661982190=46.165.250.81

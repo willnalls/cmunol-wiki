@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=piercemiller
+charset=UTF-8
+csum=
+ctime=1670032322
+host=128.237.82.12
+name=GradebookExpansions.Ziqiliu11251416-piercemiller
+rev=2
+targets=Articles.Ziqiliu11251416
+text=:Category: Varia%0a:Expansion: %0a:Author: piercemiller%0a:Original: Ziqiliu11251416 %0a:OriginalTitle: Computational%0a:OriginalAuthor: ziqiliu%0a:Section: E%0a:Completed: 02.12.2022 - 17:52%0a:Status: ungraded%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a:Category: Varia%0a:Expansion: %0a:Author: piercemiller%0a:Original: Ziqiliu11251416 %0a:OriginalTitle: Computational%0a:OriginalAuthor: ziqiliu%0a:Section: E%0a:Completed: 02.12.2022 - 17:52%0a:Status: ungraded%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)
+time=1670032333
+author:1670032333=piercemiller
+diff:1670032333:1670032322:=1,40d0%0a%3c :Category: Varia%0a%3c :Expansion: %0a%3c :Author: piercemiller%0a%3c :Original: Ziqiliu11251416 %0a%3c :OriginalTitle: Computational%0a%3c :OriginalAuthor: ziqiliu%0a%3c :Section: E%0a%3c :Completed: 02.12.2022 - 17:52%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a
+host:1670032333=128.237.82.12
+author:1670032322=piercemiller
+diff:1670032322:1670032322:=1,40d0%0a%3c :Category: Varia%0a%3c :Expansion: %0a%3c :Author: piercemiller%0a%3c :Original: Ziqiliu11251416 %0a%3c :OriginalTitle: Computational%0a%3c :OriginalAuthor: ziqiliu%0a%3c :Section: E%0a%3c :Completed: 02.12.2022 - 17:52%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1670032322=128.237.82.12

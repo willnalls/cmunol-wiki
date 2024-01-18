@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=kaiherch
+charset=UTF-8
+csum=
+ctime=1662350155
+host=72.95.224.34
+name=GradebookArticles.Kaiherch09042055
+rev=1
+targets=
+text=:Category: FunWithWords%0a:Essential: {Category.FunWithWords$:essential}%0a:Title: Welp%0a:Author: kaiherch%0a:Section: F%0a:Completed: 04.09.2022 - 20:55%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aWould 'welp' make it into the OED?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.kaiherch09042055#content:)%0a%0a[[#contentends]]%0a----
+time=1662350155
+author:1662350155=kaiherch
+diff:1662350155:1662350155:=1,51d0%0a%3c :Category: FunWithWords%0a%3c :Essential: {Category.FunWithWords$:essential}%0a%3c :Title: Welp%0a%3c :Author: kaiherch%0a%3c :Section: F%0a%3c :Completed: 04.09.2022 - 20:55%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Would 'welp' make it into the OED?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.kaiherch09042055#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1662350155=72.95.224.34

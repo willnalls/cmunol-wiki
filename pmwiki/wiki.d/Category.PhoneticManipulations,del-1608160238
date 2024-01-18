@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1608147599
+host=74.109.247.199
+name=Category.PhoneticManipulations
+rev=2
+targets=
+text=(:essential: no:)%0a(:deadline: 2020-12-25:)%0a%0a!!Phonetic Manipulations%0a(:if equal no yes:)%0a('''essential category''')%0a(:if end:)%0a%0a----%0a%0aPhonetic manipulations are a thing. %0a%0a----%0a(:expansiondeadline: :)
+time=1608156753
+author:1608156753=
+diff:1608156753:1608147599:=13,14c13%0a%3c ----%0a%3c (:expansiondeadline: :)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1608156753=74.109.247.199
+author:1608147599=
+diff:1608147599:1608147599:=1,13d0%0a%3c (:essential: no:)%0a%3c (:deadline: 2020-12-25:)%0a%3c %0a%3c !!Phonetic Manipulations%0a%3c (:if equal no yes:)%0a%3c ('''essential category''')%0a%3c (:if end:)%0a%3c %0a%3c ----%0a%3c %0a%3c Phonetic manipulations are a thing. %0a%3c %0a%3c ----%0a\ No newline at end of file%0a
+host:1608147599=74.109.247.199

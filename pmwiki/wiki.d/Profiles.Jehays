@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36
+author=jehays
+charset=UTF-8
+csum=
+ctime=1661960615
+host=128.237.82.5
+name=Profiles.Jehays
+rev=2
+targets=
+text=(:andrewid: jehays:)%0a(:section: D:)%0a%0a(:name: jehays:)
+time=1661960622
+author:1661960622=jehays
+diff:1661960622:1661960615:=1,4c1%0a%3c (:andrewid: jehays:)%0a%3c (:section: D:)%0a%3c %0a%3c (:name: jehays:)%0a\ No newline at end of file%0a---%0a> (:andrewid: jehays:)%0a\ No newline at end of file%0a
+host:1661960622=128.237.82.5
+author:1661960615=jehays
+diff:1661960615:1661960615:=1d0%0a%3c (:andrewid: jehays:)%0a\ No newline at end of file%0a
+host:1661960615=128.237.82.5

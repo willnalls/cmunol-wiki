@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1663354480
+host=73.154.178.3
+name=GradebookArticles.Jehays09161144
+rev=2
+targets=
+text=:Category: TypologyOfPhoneticContrasts%0a:Essential: {Category.TypologyOfPhoneticContrasts$:essential}%0a:Title: Uncommon Consonants: Comparing English And French%0a:Author: jehays%0a:Section: D%0a:Completed: 16.09.2022 - 11:54%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221203-003728-155060#%0a* [-02.12.2022 - 16:37-] || meghnaf22ta marked as complete%0a#foxend 221203-003728-155060#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aExamining the difference between French and English with respect to uncommon consonants. %0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.jehays09161144#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: meghnaf22ta:)
+time=1670027848
+author:1670027848=meghnaf22ta
+diff:1670027848:1663354480:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221203-003728-155060#%0a%3c * [-02.12.2022 - 16:37-] || meghnaf22ta marked as complete%0a%3c #foxend 221203-003728-155060#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1670027848=73.154.178.3
+author:1663354480=jehays
+diff:1663354480:1663354480:=1,51d0%0a%3c :Category: TypologyOfPhoneticContrasts%0a%3c :Essential: {Category.TypologyOfPhoneticContrasts$:essential}%0a%3c :Title: Uncommon Consonants: Comparing English And French%0a%3c :Author: jehays%0a%3c :Section: D%0a%3c :Completed: 16.09.2022 - 11:54%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Examining the difference between French and English with respect to uncommon consonants. %0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.jehays09161144#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1663354480=128.237.82.10

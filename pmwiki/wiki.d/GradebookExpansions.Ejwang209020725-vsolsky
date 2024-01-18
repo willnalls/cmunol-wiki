@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=jacksonf22ta
+charset=UTF-8
+csum=
+ctime=1662691553
+host=71.206.239.220
+name=GradebookExpansions.Ejwang209020725-vsolsky
+rev=3
+targets=Articles.Ejwang209020725
+text=:Category: FunWithWords%0a:Expansion: Pickleball Player%0a:Author: vsolsky%0a:Original: Ejwang209020725 %0a:OriginalTitle: Pickleballer%0a:OriginalAuthor: ejwang2%0a:Section: B%0a:Completed: 08.09.2022 - 19:45%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220926-223040-229460#%0a* [-26.09.2022 - 15:30-] || jacksonf22ta marked as complete%0a#foxend 220926-223040-229460#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a:Category: FunWithWords%0a:Expansion: Pickleball Player%0a:Author: vsolsky%0a:Original: Ejwang209020725 %0a:OriginalTitle: Pickleballer%0a:OriginalAuthor: ejwang2%0a:Section: B%0a:Completed: 08.09.2022 - 20:04%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: jacksonf22ta:)
+time=1664231440
+author:1664231440=jacksonf22ta
+diff:1664231440:1662692673:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 220926-223040-229460#%0a%3c * [-26.09.2022 - 15:30-] || jacksonf22ta marked as complete%0a%3c #foxend 220926-223040-229460#%0a---%0a> %0a51,52c49,50%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a82,83c80%0a%3c (:Category:)%0a%3c (:GradedBy: jacksonf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1664231440=71.206.239.220
+author:1662692673=vsolsky
+diff:1662692673:1662691553:=9,48d8%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a%3c :Category: FunWithWords%0a%3c :Expansion: Pickleball Player%0a%3c :Author: vsolsky%0a%3c :Original: Ejwang209020725 %0a%3c :OriginalTitle: Pickleballer%0a%3c :OriginalAuthor: ejwang2%0a%3c :Section: B%0a%3c :Completed: 08.09.2022 - 20:04%0a
+host:1662692673=128.237.82.11
+author:1662691553=vsolsky
+diff:1662691553:1662691553:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: Pickleball Player%0a%3c :Author: vsolsky%0a%3c :Original: Ejwang209020725 %0a%3c :OriginalTitle: Pickleballer%0a%3c :OriginalAuthor: ejwang2%0a%3c :Section: B%0a%3c :Completed: 08.09.2022 - 19:45%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1662691553=128.237.82.11

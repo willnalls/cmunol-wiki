@@ -1,0 +1,22 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0
+author=
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1598845360
+host=71.162.2.58
+name=FoxNotifyLists.EmailList
+rev=3
+targets=
+text=notify=cbjorn@andrew.cmu.edu
+time=1662042206
+author:1662042206=
+diff:1662042206:1598846023:=1c1%0a%3c notify=cbjorn@andrew.cmu.edu%0a\ No newline at end of file%0a---%0a> notify=will.nalls@googlemail.com%0a\ No newline at end of file%0a
+host:1662042206=71.162.2.58
+author:1598846023=will
+diff:1598846023:1598845360:=1c1%0a%3c notify=will.nalls@googlemail.com%0a\ No newline at end of file%0a---%0a> will.nalls@googlemail.com%0a\ No newline at end of file%0a
+host:1598846023=108.32.35.122
+author:1598845360=will
+diff:1598845360:1598845360:=1d0%0a%3c will.nalls@googlemail.com%0a\ No newline at end of file%0a
+host:1598845360=108.32.35.122

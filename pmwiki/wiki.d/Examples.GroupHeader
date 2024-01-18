@@ -1,0 +1,16 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+author=
+cauthor=
+charset=UTF-8
+csum=
+ctime=1598981732
+host=108.32.35.122
+name=Examples.GroupHeader
+rev=1
+targets=
+text=(:actions browse="$[View]" edit="$[Edit]":)
+time=1598981732
+author:1598981732=
+diff:1598981732:1598981732:=1d0%0a%3c (:actions browse="$[View]" edit="$[Edit]":)%0a\ No newline at end of file%0a
+host:1598981732=108.32.35.122

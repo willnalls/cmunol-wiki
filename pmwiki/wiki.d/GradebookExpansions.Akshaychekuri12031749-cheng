@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=jacksonf22ta
+charset=UTF-8
+csum=
+ctime=1670459093
+host=71.206.239.220
+name=GradebookExpansions.Akshaychekuri12031749-cheng
+rev=2
+targets=Articles.Akshaychekuri12031749
+text=:Category: Varia%0a:Expansion: Classical Chinese Programming Language%0a:Author: cheng%0a:Original: Akshaychekuri12031749 %0a:OriginalTitle: Non-English%0a:OriginalAuthor: akshaychekuri%0a:Section: A%0a:Completed: 07.12.2022 - 16:24%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221213-181714-185030#%0a* [-13.12.2022 - 10:17-] || jacksonf22ta marked as complete%0a#foxend 221213-181714-185030#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: jacksonf22ta:)
+time=1670955433
+author:1670955433=jacksonf22ta
+diff:1670955433:1670459093:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 221213-181714-185030#%0a%3c * [-13.12.2022 - 10:17-] || jacksonf22ta marked as complete%0a%3c #foxend 221213-181714-185030#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: jacksonf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1670955433=71.206.239.220
+author:1670459093=cheng
+diff:1670459093:1670459093:=1,40d0%0a%3c :Category: Varia%0a%3c :Expansion: Classical Chinese Programming Language%0a%3c :Author: cheng%0a%3c :Original: Akshaychekuri12031749 %0a%3c :OriginalTitle: Non-English%0a%3c :OriginalAuthor: akshaychekuri%0a%3c :Section: A%0a%3c :Completed: 07.12.2022 - 16:24%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1670459093=128.237.82.10

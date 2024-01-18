@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:103.0) Gecko/20100101 Firefox/103.0
+author=mahikav
+charset=UTF-8
+csum=
+ctime=1661963559
+host=128.237.82.2
+name=Profiles.Mahikav
+rev=2
+targets=
+text=(:andrewid: mahikav:)%0a(:section: D:)%0a%0a(:name: mahikav:)
+time=1661963614
+author:1661963614=mahikav
+diff:1661963614:1661963559:=1,4c1%0a%3c (:andrewid: mahikav:)%0a%3c (:section: D:)%0a%3c %0a%3c (:name: mahikav:)%0a\ No newline at end of file%0a---%0a> (:andrewid: mahikav:)%0a\ No newline at end of file%0a
+host:1661963614=128.237.82.2
+author:1661963559=mahikav
+diff:1661963559:1661963559:=1d0%0a%3c (:andrewid: mahikav:)%0a\ No newline at end of file%0a
+host:1661963559=128.237.82.2

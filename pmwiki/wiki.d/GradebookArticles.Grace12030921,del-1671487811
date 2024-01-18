@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=grace
+charset=UTF-8
+csum=
+ctime=1670088155
+host=71.206.238.119
+name=GradebookArticles.Grace12030921
+rev=1
+targets=
+text=:Category: EndangeredLanguages%0a:Essential: {Category.EndangeredLanguages$:essential}%0a:Title: Natual Language Processing%0a:Author: grace%0a:Section: D%0a:Completed: 03.12.2022 - 09:22%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aApplications and developments of NLP%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.grace12030921#content:)%0a%0a[[#contentends]]%0a----
+time=1670088155
+author:1670088155=grace
+diff:1670088155:1670088155:=1,51d0%0a%3c :Category: EndangeredLanguages%0a%3c :Essential: {Category.EndangeredLanguages$:essential}%0a%3c :Title: Natual Language Processing%0a%3c :Author: grace%0a%3c :Section: D%0a%3c :Completed: 03.12.2022 - 09:22%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Applications and developments of NLP%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.grace12030921#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670088155=71.206.238.119

@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=mswendse
+charset=UTF-8
+csum=
+ctime=1661962865
+host=128.237.82.1
+name=Profiles.Mswendse
+rev=4
+targets=
+text=(:andrewid: mswendse:)%0a(:section: F:)%0a%0a(:name: mswendse:)%0a(:lvl: full:)
+time=1661963359
+author:1661963359=mswendse
+diff:1661963359:1661963351:=5c5%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:lvl: minimal:)%0a\ No newline at end of file%0a
+host:1661963359=128.237.82.1
+author:1661963351=mswendse
+diff:1661963351:1661962869:=4,5c4%0a%3c (:name: mswendse:)%0a%3c (:lvl: minimal:)%0a\ No newline at end of file%0a---%0a> (:name: mswendse:)%0a\ No newline at end of file%0a
+host:1661963351=128.237.82.1
+author:1661962869=mswendse
+diff:1661962869:1661962865:=1,4c1%0a%3c (:andrewid: mswendse:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: mswendse:)%0a\ No newline at end of file%0a---%0a> (:andrewid: mswendse:)%0a\ No newline at end of file%0a
+host:1661962869=128.237.82.1
+author:1661962865=mswendse
+diff:1661962865:1661962865:=1d0%0a%3c (:andrewid: mswendse:)%0a\ No newline at end of file%0a
+host:1661962865=128.237.82.1

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1669077806
+host=73.154.178.3
+name=GradebookArticles.Elliefu11211642
+rev=2
+targets=
+text=:Category: EndangeredLanguages%0a:Essential: {Category.EndangeredLanguages$:essential}%0a:Title: Ak - Endangered Language of Papua New Guinea%0a:Author: elliefu%0a:Section: D%0a:Completed: 21.11.2022 - 16:43%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221202-214002-700060#%0a* [-02.12.2022 - 13:40-] || meghnaf22ta marked as complete%0a#foxend 221202-214002-700060#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aA severely endangered Sepik language spoken in Papua New Guinea%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.elliefu11211642#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: meghnaf22ta:)
+time=1670017201
+author:1670017201=meghnaf22ta
+diff:1670017201:1669077806:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221202-214002-700060#%0a%3c * [-02.12.2022 - 13:40-] || meghnaf22ta marked as complete%0a%3c #foxend 221202-214002-700060#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1670017201=73.154.178.3
+author:1669077806=elliefu
+diff:1669077806:1669077806:=1,51d0%0a%3c :Category: EndangeredLanguages%0a%3c :Essential: {Category.EndangeredLanguages$:essential}%0a%3c :Title: Ak - Endangered Language of Papua New Guinea%0a%3c :Author: elliefu%0a%3c :Section: D%0a%3c :Completed: 21.11.2022 - 16:43%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c A severely endangered Sepik language spoken in Papua New Guinea%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.elliefu11211642#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1669077806=73.154.129.161

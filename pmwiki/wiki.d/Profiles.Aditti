@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+author=aditti
+charset=UTF-8
+csum=
+ctime=1661966622
+host=128.237.82.1
+name=Profiles.Aditti
+rev=3
+targets=
+text=(:andrewid: aramsisa:)%0a(:section: A:)%0a%0a(:name: aditti:)%0a(:lvl: full:)
+time=1661966675
+author:1661966675=aditti
+diff:1661966675:1661966661:=4,5c4%0a%3c (:name: aditti:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: aditti:)%0a\ No newline at end of file%0a
+host:1661966675=128.237.82.1
+author:1661966661=aditti
+diff:1661966661:1661966622:=1,4c1%0a%3c (:andrewid: aramsisa:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: aditti:)%0a\ No newline at end of file%0a---%0a> (:andrewid: aramsisa:)%0a\ No newline at end of file%0a
+host:1661966661=128.237.82.1
+author:1661966622=aditti
+diff:1661966622:1661966622:=1d0%0a%3c (:andrewid: aramsisa:)%0a\ No newline at end of file%0a
+host:1661966622=128.237.82.1

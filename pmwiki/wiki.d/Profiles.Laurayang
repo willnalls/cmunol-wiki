@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=laurayang
+charset=UTF-8
+csum=
+ctime=1661920139
+host=128.237.82.17
+name=Profiles.Laurayang
+rev=3
+targets=
+text=(:andrewid: laurayan:)%0a(:section: C:)%0a%0a(:name: laurayang:)%0a(:lvl: full:)
+time=1661920185
+author:1661920185=laurayang
+diff:1661920185:1661920170:=4,5c4%0a%3c (:name: laurayang:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: laurayang:)%0a\ No newline at end of file%0a
+host:1661920185=128.237.82.17
+author:1661920170=laurayang
+diff:1661920170:1661920139:=1,4c1%0a%3c (:andrewid: laurayan:)%0a%3c (:section: C:)%0a%3c %0a%3c (:name: laurayang:)%0a\ No newline at end of file%0a---%0a> (:andrewid: laurayan:)%0a\ No newline at end of file%0a
+host:1661920170=128.237.82.17
+author:1661920139=laurayang
+diff:1661920139:1661920139:=1d0%0a%3c (:andrewid: laurayan:)%0a\ No newline at end of file%0a
+host:1661920139=128.237.82.17

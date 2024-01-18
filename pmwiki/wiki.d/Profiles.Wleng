@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Linux; Android 12; SM-T870) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=wleng
+charset=UTF-8
+csum=
+ctime=1662568356
+host=128.237.82.1
+name=Profiles.Wleng
+rev=2
+targets=
+text=(:andrewid: wleng:)%0a(:section: A:)%0a%0a(:name: wleng:)
+time=1662568392
+author:1662568392=wleng
+diff:1662568392:1662568356:=1,4c1%0a%3c (:andrewid: wleng:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: wleng:)%0a\ No newline at end of file%0a---%0a> (:andrewid: wleng:)%0a\ No newline at end of file%0a
+host:1662568392=128.237.82.1
+author:1662568356=wleng
+diff:1662568356:1662568356:=1d0%0a%3c (:andrewid: wleng:)%0a\ No newline at end of file%0a
+host:1662568356=128.237.82.1

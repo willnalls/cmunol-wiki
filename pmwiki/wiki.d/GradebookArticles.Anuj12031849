@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1670123662
+host=74.98.213.243
+name=GradebookArticles.Anuj12031849
+rev=4
+targets=
+text=:Category: SignLanguage%0a:Essential: {Category.EndangeredLanguages$:essential}%0a:Title: Discrimination Against Sign Languages%0a:Author: anuj%0a:Section: D%0a:Completed: 03.12.2022 - 19:14%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221219-221516-350890#%0a* [-19.12.2022 - 14:15-] ||  marked as complete%0a#foxend 221219-221516-350890#%0a#foxbegin 221219-221326-55500#%0a* [-19.12.2022 - 14:13-] || meghnaf22ta marked as complete%0a#foxend 221219-221326-55500#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aDiscrimination Against Sign Languages%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.anuj12031849#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: meghnaf22ta:)
+time=1671488116
+author:1671488116=
+diff:1671488116:1671488005:=24,26d23%0a%3c #foxbegin 221219-221516-350890#%0a%3c * [-19.12.2022 - 14:15-] ||  marked as complete%0a%3c #foxend 221219-221516-350890#%0a
+host:1671488116=74.98.213.243
+author:1671488005=meghnaf22ta
+diff:1671488005:1670123718:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221219-221326-55500#%0a%3c * [-19.12.2022 - 14:13-] || meghnaf22ta marked as complete%0a%3c #foxend 221219-221326-55500#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1671488005=73.236.49.27
+author:1670123718=anuj
+diff:1670123718:1670123662:=1c1%0a%3c :Category: SignLanguage%0a---%0a> :Category: EndangeredLanguages%0a
+host:1670123718=128.2.149.7
+author:1670123662=anuj
+diff:1670123662:1670123662:=1,51d0%0a%3c :Category: EndangeredLanguages%0a%3c :Essential: {Category.EndangeredLanguages$:essential}%0a%3c :Title: Discrimination Against Sign Languages%0a%3c :Author: anuj%0a%3c :Section: D%0a%3c :Completed: 03.12.2022 - 19:14%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Discrimination Against Sign Languages%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.anuj12031849#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670123662=128.2.149.7

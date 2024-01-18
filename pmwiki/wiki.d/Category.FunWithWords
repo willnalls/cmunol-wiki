@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1661795654
+host=74.111.110.39
+name=Category.FunWithWords
+rev=3
+targets=
+text=(:essential: no:)%0a(:deadline: 2022-09-04:)%0a(:expansiondeadline: 2022-09-11:)%0a%0a!!Fun with words%0a%0a%0a----%0a%0aWhich words get to be words?%0a%0aFirst, listen to the following podcast:%0ahttps://open.spotify.com/episode/0X93S8yVIi7Udo7FktdKoP?si=QzWeEj5cTcOZ1_RQgNYD5w%0a %0aIn this podcast, lexicographer Kory Stamper talks about what it takes for a word to get into the dictionary, using three criteria: widespread use, sustained use, and having a meaning.%0a%0aFind a word that is not in the Oxford English Dictionary, which you can log into through the CMU library website.  Here are some places you can look:%0a%0a* https://www.urbandictionary.com/%0a* https://en.wiktionary.org/wiki/Wiktionary:Main_Page%0a* https://www.english-corpora.org/coca/%0a* https://twitter.com/home%0a%0aUsing Stamper's methodology, do you think this word might get added to the OED?  Why or why not?%0a%0a[+Expansions+]%0a%0aAn expansion to this category would be to comment on the word proposed and the author's assessment as to whether the word is likely to be added to the OED; disagreements are likely to make for easier writing.  You might look for similar words (in another language?  a synonym that already exists?) to bolster your discussion.%0a%0a----
+time=1661917079
+author:1661917079=
+diff:1661917079:1661917064:=3c3%0a%3c (:expansiondeadline: 2022-09-11:)%0a---%0a> (:expansiondeadline: 2022-09-09:)%0a
+host:1661917079=74.111.110.39
+author:1661917064=
+diff:1661917064:1661795654:=2,3c2,3%0a%3c (:deadline: 2022-09-04:)%0a%3c (:expansiondeadline: 2022-09-09:)%0a---%0a> (:deadline: 2022-09-02:)%0a> (:expansiondeadline: 2022-09-07:)%0a
+host:1661917064=74.111.110.39
+author:1661795654=
+diff:1661795654:1661795654:=1,30d0%0a%3c (:essential: no:)%0a%3c (:deadline: 2022-09-02:)%0a%3c (:expansiondeadline: 2022-09-07:)%0a%3c %0a%3c !!Fun with words%0a%3c %0a%3c %0a%3c ----%0a%3c %0a%3c Which words get to be words?%0a%3c %0a%3c First, listen to the following podcast:%0a%3c https://open.spotify.com/episode/0X93S8yVIi7Udo7FktdKoP?si=QzWeEj5cTcOZ1_RQgNYD5w%0a%3c  %0a%3c In this podcast, lexicographer Kory Stamper talks about what it takes for a word to get into the dictionary, using three criteria: widespread use, sustained use, and having a meaning.%0a%3c %0a%3c Find a word that is not in the Oxford English Dictionary, which you can log into through the CMU library website.  Here are some places you can look:%0a%3c %0a%3c * https://www.urbandictionary.com/%0a%3c * https://en.wiktionary.org/wiki/Wiktionary:Main_Page%0a%3c * https://www.english-corpora.org/coca/%0a%3c * https://twitter.com/home%0a%3c %0a%3c Using Stamper's methodology, do you think this word might get added to the OED?  Why or why not?%0a%3c %0a%3c [+Expansions+]%0a%3c %0a%3c An expansion to this category would be to comment on the word proposed and the author's assessment as to whether the word is likely to be added to the OED; disagreements are likely to make for easier writing.  You might look for similar words (in another language?  a synonym that already exists?) to bolster your discussion.%0a%3c %0a%3c ----%0a\ No newline at end of file%0a
+host:1661795654=71.162.2.58

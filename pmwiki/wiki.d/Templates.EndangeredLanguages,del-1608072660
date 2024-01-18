@@ -1,0 +1,22 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=test_TA
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1599620575
+host=108.32.35.122
+name=Templates.EndangeredLanguages
+rev=3
+targets=Category.EndangeredLanguages
+text=[[!EndangeredLanguages]]%0a(:category: EndangeredLanguages:)%0a%0a----%0a%0a[+++ ARTICLE_TITLE +++]%0a%0a'''Authored by:'''%0a%0aYOUR_USERNAME%0a%0a----%0a%0aARTICLE_CONTENT%0a%0a----%0a%0a(:if false:)%0a*** NOTE: Your summary should be no more than 3 sentences. %0a[[#summary]]%0a%0aSHORT_SUMMARY%0a%0a[[#summaryend]]%0a(:ifend:)%0a%0a----%0a%0a(expansions go here)%0a%0a%0a%0a%0a%0a%0a%0a%0a(:if false:)%0a*********************************%0a*********************************%0a**DO NOT EDIT BELOW THESE LINES**%0a*********************************%0a*********************************%0a(:if end:)%0a%0a[[#expansions]]%0a%0a[[#expansionsend]]%0a----%0a!!Comments%0a%0a
+time=1600869312
+author:1600869312=test_TA
+diff:1600869312:1600718584:=2d1%0a%3c (:category: EndangeredLanguages:)%0a
+host:1600869312=108.32.35.122
+author:1600718584=test_TA
+diff:1600718584:1599620575:=38,39d37%0a%3c *********************************%0a%3c *********************************%0a41,42d38%0a%3c *********************************%0a%3c *********************************%0a
+host:1600718584=108.32.35.122
+author:1599620575=will
+diff:1599620575:1599620575:=1,46d0%0a%3c [[!EndangeredLanguages]]%0a%3c %0a%3c ----%0a%3c %0a%3c [+++ ARTICLE_TITLE +++]%0a%3c %0a%3c '''Authored by:'''%0a%3c %0a%3c YOUR_USERNAME%0a%3c %0a%3c ----%0a%3c %0a%3c ARTICLE_CONTENT%0a%3c %0a%3c ----%0a%3c %0a%3c (:if false:)%0a%3c *** NOTE: Your summary should be no more than 3 sentences. %0a%3c [[#summary]]%0a%3c %0a%3c SHORT_SUMMARY%0a%3c %0a%3c [[#summaryend]]%0a%3c (:ifend:)%0a%3c %0a%3c ----%0a%3c %0a%3c (expansions go here)%0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a%3c (:if false:)%0a%3c **DO NOT EDIT BELOW THESE LINES**%0a%3c (:if end:)%0a%3c %0a%3c [[#expansions]]%0a%3c %0a%3c [[#expansionsend]]%0a%3c ----%0a%3c !!Comments%0a%3c %0a
+host:1599620575=108.32.35.122

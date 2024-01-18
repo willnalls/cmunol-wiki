@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=kramesh
+charset=UTF-8
+csum=
+ctime=1661984918
+host=128.237.82.6
+name=Profiles.Kramesh
+rev=5
+targets=
+text=(:andrewid: kramesh:)%0a(:section: A:)%0a%0a(:name: kramesh:)%0a(:lvl: full:)
+time=1667787374
+author:1667787374=kramesh
+diff:1667787374:1667787368:=5c5%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:lvl: partial:)%0a\ No newline at end of file%0a
+host:1667787374=128.237.82.6
+author:1667787368=kramesh
+diff:1667787368:1661984945:=5c5%0a%3c (:lvl: partial:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1667787368=128.237.82.6
+author:1661984945=kramesh
+diff:1661984945:1661984938:=4,5c4%0a%3c (:name: kramesh:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: kramesh:)%0a\ No newline at end of file%0a
+host:1661984945=128.237.82.3
+author:1661984938=kramesh
+diff:1661984938:1661984918:=1,4c1%0a%3c (:andrewid: kramesh:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: kramesh:)%0a\ No newline at end of file%0a---%0a> (:andrewid: kramesh:)%0a\ No newline at end of file%0a
+host:1661984938=128.237.82.3
+author:1661984918=kramesh
+diff:1661984918:1661984918:=1d0%0a%3c (:andrewid: kramesh:)%0a\ No newline at end of file%0a
+host:1661984918=128.237.82.3

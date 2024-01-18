@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0
+author=
+charset=UTF-8
+csum=
+ctime=1660926327
+host=71.162.2.58
+name=Gradebook.Delete
+rev=2
+targets=
+text=(:fox deleteselectedarticle:)%0a(:foxreplace target=GradebookArticles.{$$name},Articles.{$$name} put=overwrite foxtemplate="delete":)%0aSelect article to delete:%0a%0a(:pagelist group=Articles name=-Articles,-Delete,-GroupFooter,-GroupHeader,-NewSubmission,-RecentChanges,-PagelistTemplates fmt=Templates.PagelistTemplates#selectarticle:)%0a%0a(:input submit post "Delete article (permanent)":)%0a(:foxend deleteselectedarticle:)%0a%0a(:foxmessages:)
+time=1662559919
+author:1662559919=
+diff:1662559919:1660926327:=4c4%0a%3c %0a---%0a> (:if authgroup @tas:)%0a6c6,8%0a%3c %0a---%0a> (:else:)%0a> (:pagelist group=Articles fmt=Templates.PagelistTemplates#selectmyarticle:)%0a> (:ifend:)%0a
+host:1662559919=71.162.2.58
+author:1660926327=
+diff:1660926327:1660926327:=1,12d0%0a%3c (:fox deleteselectedarticle:)%0a%3c (:foxreplace target=GradebookArticles.{$$name},Articles.{$$name} put=overwrite foxtemplate="delete":)%0a%3c Select article to delete:%0a%3c (:if authgroup @tas:)%0a%3c (:pagelist group=Articles name=-Articles,-Delete,-GroupFooter,-GroupHeader,-NewSubmission,-RecentChanges,-PagelistTemplates fmt=Templates.PagelistTemplates#selectarticle:)%0a%3c (:else:)%0a%3c (:pagelist group=Articles fmt=Templates.PagelistTemplates#selectmyarticle:)%0a%3c (:ifend:)%0a%3c (:input submit post "Delete article (permanent)":)%0a%3c (:foxend deleteselectedarticle:)%0a%3c %0a%3c (:foxmessages:)%0a\ No newline at end of file%0a
+host:1660926327=128.2.149.6

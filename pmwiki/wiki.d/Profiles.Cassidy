@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0
+author=cassidy
+charset=UTF-8
+csum=
+ctime=1661972517
+host=128.237.82.6
+name=Profiles.Cassidy
+rev=2
+targets=
+text=(:andrewid: bdiamond:)%0a(:section: F:)%0a%0a(:name: cassidy:)
+time=1661972522
+author:1661972522=cassidy
+diff:1661972522:1661972517:=1,4c1%0a%3c (:andrewid: bdiamond:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: cassidy:)%0a\ No newline at end of file%0a---%0a> (:andrewid: bdiamond:)%0a\ No newline at end of file%0a
+host:1661972522=128.237.82.6
+author:1661972517=cassidy
+diff:1661972517:1661972517:=1d0%0a%3c (:andrewid: bdiamond:)%0a\ No newline at end of file%0a
+host:1661972517=128.237.82.6

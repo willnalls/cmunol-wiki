@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=angelac3
+charset=UTF-8
+csum=
+ctime=1667588765
+host=128.237.82.7
+name=Profiles.Angelac3
+rev=3
+targets=
+text=(:andrewid: angelac3:)%0a(:section: E:)%0a%0a(:name: angelac3:)%0a(:lvl: full:)
+time=1670113681
+author:1670113681=angelac3
+diff:1670113681:1667588804:=4,5c4%0a%3c (:name: angelac3:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: angelac3:)%0a\ No newline at end of file%0a
+host:1670113681=128.237.82.7
+author:1667588804=angelac3
+diff:1667588804:1667588765:=1,4c1%0a%3c (:andrewid: angelac3:)%0a%3c (:section: E:)%0a%3c %0a%3c (:name: angelac3:)%0a\ No newline at end of file%0a---%0a> (:andrewid: angelac3:)%0a\ No newline at end of file%0a
+host:1667588804=128.237.82.8
+author:1667588765=angelac3
+diff:1667588765:1667588765:=1d0%0a%3c (:andrewid: angelac3:)%0a\ No newline at end of file%0a
+host:1667588765=128.237.82.8

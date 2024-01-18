@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Safari/537.36
+author=rutong
+charset=UTF-8
+csum=
+ctime=1661963523
+host=128.237.82.8
+name=Profiles.Rutong
+rev=2
+targets=
+text=(:andrewid: rpei:)%0a(:section: A:)%0a%0a(:name: rutong:)
+time=1661963538
+author:1661963538=rutong
+diff:1661963538:1661963523:=1,4c1%0a%3c (:andrewid: rpei:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: rutong:)%0a\ No newline at end of file%0a---%0a> (:andrewid: rpei:)%0a\ No newline at end of file%0a
+host:1661963538=128.237.82.8
+author:1661963523=rutong
+diff:1661963523:1661963523:=1d0%0a%3c (:andrewid: rpei:)%0a\ No newline at end of file%0a
+host:1661963523=128.237.82.8

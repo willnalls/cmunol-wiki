@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+author=
+charset=UTF-8
+csum=
+ctime=1615406853
+host=74.109.239.200
+name=Gradebook.Export
+rev=4
+targets=Gradebook.Export,Gradebook.Gradebook
+text=!!Exporting grades%0a* [[{$FullName}?action=exportgrades| Click here ]] to prepare the CSV file.%0a* Once the page has reloaded (nothing will change), click the link below.%0a* Each entry in the table is a pair of counts, for the respective column:%0a** essential items | non-essential items%0a%0a[[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25rfloat%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]
+time=1648666332
+author:1648666332=
+diff:1648666332:1615407918:=1,6d0%0a%3c !!Exporting grades%0a%3c * [[{$FullName}?action=exportgrades| Click here ]] to prepare the CSV file.%0a%3c * Once the page has reloaded (nothing will change), click the link below.%0a%3c * Each entry in the table is a pair of counts, for the respective column:%0a%3c ** essential items | non-essential items%0a%3c %0a
+host:1648666332=74.109.239.200
+author:1615407918=
+diff:1615407918:1615407159:=1c1%0a%3c [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25rfloat%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]%0a\ No newline at end of file%0a---%0a> [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25right%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]%0a\ No newline at end of file%0a
+host:1615407918=74.109.247.199
+author:1615407159=
+diff:1615407159:1615406853:=1c1%0a%3c [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]] %25right%25 [-[[Gradebook.Gradebook|(return to gradebook)]]-]%0a\ No newline at end of file%0a---%0a> [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]]%0a\ No newline at end of file%0a
+host:1615407159=74.109.247.199
+author:1615406853=
+diff:1615406853:1615406853:=1d0%0a%3c [[https://cmunol-wiki.com/pmwiki/pub/export/grades.csv | Download CSV file]]%0a\ No newline at end of file%0a
+host:1615406853=74.109.247.199

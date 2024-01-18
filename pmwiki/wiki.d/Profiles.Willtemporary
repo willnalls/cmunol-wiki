@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+author=willtemporary
+charset=UTF-8
+csum=
+ctime=1670339349
+host=108.39.252.177
+name=Profiles.Willtemporary
+rev=2
+targets=
+text=(:andrewid: wnalls:)%0a(:section: D:)%0a%0a(:name: willtemporary:)
+time=1670339353
+author:1670339353=willtemporary
+diff:1670339353:1670339349:=1,4c1%0a%3c (:andrewid: wnalls:)%0a%3c (:section: D:)%0a%3c %0a%3c (:name: willtemporary:)%0a\ No newline at end of file%0a---%0a> (:andrewid: wnalls:)%0a\ No newline at end of file%0a
+host:1670339353=108.39.252.177
+author:1670339349=willtemporary
+diff:1670339349:1670339349:=1d0%0a%3c (:andrewid: wnalls:)%0a\ No newline at end of file%0a
+host:1670339349=108.39.252.177

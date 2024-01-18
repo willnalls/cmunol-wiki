@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15
+author=wspiegel
+charset=UTF-8
+csum=
+ctime=1662077453
+host=73.154.247.177
+name=Profiles.Wspiegel
+rev=4
+targets=
+text=(:andrewid: wspiegel:)%0a(:section: D:)%0a%0a(:name: wspiegel:)%0a(:lvl: partial:)
+time=1669604000
+author:1669604000=wspiegel
+diff:1669604000:1662077509:=5c5%0a%3c (:lvl: partial:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1669604000=73.154.247.177
+author:1662077509=wspiegel
+diff:1662077509:1662077496:=4,5c4%0a%3c (:name: wspiegel:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: wspiegel:)%0a\ No newline at end of file%0a
+host:1662077509=73.154.247.177
+author:1662077496=wspiegel
+diff:1662077496:1662077453:=1,4c1%0a%3c (:andrewid: wspiegel:)%0a%3c (:section: D:)%0a%3c %0a%3c (:name: wspiegel:)%0a\ No newline at end of file%0a---%0a> (:andrewid: wspiegel:)%0a\ No newline at end of file%0a
+host:1662077496=73.154.247.177
+author:1662077453=wspiegel
+diff:1662077453:1662077453:=1d0%0a%3c (:andrewid: wspiegel:)%0a\ No newline at end of file%0a
+host:1662077453=73.154.247.177

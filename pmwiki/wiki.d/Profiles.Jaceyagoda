@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70
+author=jaceyagoda
+charset=UTF-8
+csum=
+ctime=1662000115
+host=128.237.82.2
+name=Profiles.Jaceyagoda
+rev=2
+targets=
+text=(:andrewid: jyagoda:)%0a(:section: C:)%0a%0a(:name: jaceyagoda:)
+time=1662000148
+author:1662000148=jaceyagoda
+diff:1662000148:1662000115:=1,4c1%0a%3c (:andrewid: jyagoda:)%0a%3c (:section: C:)%0a%3c %0a%3c (:name: jaceyagoda:)%0a\ No newline at end of file%0a---%0a> (:andrewid: jyagoda:)%0a\ No newline at end of file%0a
+host:1662000148=128.237.82.2
+author:1662000115=jaceyagoda
+diff:1662000115:1662000115:=1d0%0a%3c (:andrewid: jyagoda:)%0a\ No newline at end of file%0a
+host:1662000115=128.237.82.2

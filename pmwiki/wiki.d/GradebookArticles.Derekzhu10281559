@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1666998106
+host=128.237.82.14
+name=GradebookArticles.Derekzhu10281559
+rev=2
+targets=
+text=:Category: LanguageOfTheNacirema%0a:Essential: {Category.LanguageOfTheNacirema$:essential}%0a:Title: Philosophy Lessons From FALL%0a:Author: derekzhu%0a:Section: D%0a:Completed: 28.10.2022 - 16:01%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221104-161340-338240#%0a* [-04.11.2022 - 09:13-] || meghnaf22ta marked as complete%0a#foxend 221104-161340-338240#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0a"fall" on the pessimism in Nacireman culture%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.derekzhu10281559#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: meghnaf22ta:)
+time=1667578420
+author:1667578420=meghnaf22ta
+diff:1667578420:1666998106:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221104-161340-338240#%0a%3c * [-04.11.2022 - 09:13-] || meghnaf22ta marked as complete%0a%3c #foxend 221104-161340-338240#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1667578420=128.237.82.14
+author:1666998106=derekzhu
+diff:1666998106:1666998106:=1,51d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Essential: {Category.LanguageOfTheNacirema$:essential}%0a%3c :Title: Philosophy Lessons From FALL%0a%3c :Author: derekzhu%0a%3c :Section: D%0a%3c :Completed: 28.10.2022 - 16:01%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c "fall" on the pessimism in Nacireman culture%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.derekzhu10281559#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1666998106=128.237.82.20

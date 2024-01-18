@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1668727651
+host=172.58.184.253
+name=GradebookExpansions.Nkocurek11040828-jon
+rev=3
+targets=Articles.Nkocurek11040828
+text=:Category: MorphosyntacticDiversityOfEnglish%0a:Expansion: Origin of "needs washed"%0a:Author: jon%0a:Original: Nkocurek11040828 %0a:OriginalTitle: Needs%0a:OriginalAuthor: nkocurek%0a:Section: E%0a:Completed: 17.11.2022 - 15:27%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221204-232633-653640#%0a* [-04.12.2022 - 15:26-] || yuminf22ta marked as complete%0a#foxend 221204-232633-653640#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a:Category: MorphosyntacticDiversityOfEnglish%0a:Expansion: Origin of "needs washed"%0a:Author: jon%0a:Original: Nkocurek11040828 %0a:OriginalTitle: Needs%0a:OriginalAuthor: nkocurek%0a:Section: E%0a:Completed: 17.11.2022 - 16:30%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: yuminf22ta:)
+time=1670196392
+author:1670196392=yuminf22ta
+diff:1670196392:1668731448:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 221204-232633-653640#%0a%3c * [-04.12.2022 - 15:26-] || yuminf22ta marked as complete%0a%3c #foxend 221204-232633-653640#%0a---%0a> %0a51,52c49,50%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a82,83c80%0a%3c (:Category:)%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1670196392=172.58.184.253
+author:1668731448=jon
+diff:1668731448:1668727651:=9,48d8%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a%3c :Category: MorphosyntacticDiversityOfEnglish%0a%3c :Expansion: Origin of "needs washed"%0a%3c :Author: jon%0a%3c :Original: Nkocurek11040828 %0a%3c :OriginalTitle: Needs%0a%3c :OriginalAuthor: nkocurek%0a%3c :Section: E%0a%3c :Completed: 17.11.2022 - 16:30%0a
+host:1668731448=128.237.82.16
+author:1668727651=jon
+diff:1668727651:1668727651:=1,40d0%0a%3c :Category: MorphosyntacticDiversityOfEnglish%0a%3c :Expansion: Origin of "needs washed"%0a%3c :Author: jon%0a%3c :Original: Nkocurek11040828 %0a%3c :OriginalTitle: Needs%0a%3c :OriginalAuthor: nkocurek%0a%3c :Section: E%0a%3c :Completed: 17.11.2022 - 15:27%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1668727651=128.237.82.16

@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=nbraga
+charset=UTF-8
+csum=
+ctime=1670267021
+host=128.237.82.20
+name=GradebookArticles.AreSomePeopleJustBetterAtLearningLanguagesThanOthers
+rev=1
+targets=
+text=:Category: Varia%0a:Essential: {Category.Varia$:essential}%0a:Title: Are some people just better at learning languages than others?%0a:Author: nbraga%0a:Section: %0a:Completed: 05.12.2022 - 11:03%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aAre some people just better at learning languages than others?%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.nbraga#content:)%0a%0a[[#contentends]]%0a----
+time=1670267021
+author:1670267021=nbraga
+diff:1670267021:1670267021:=1,51d0%0a%3c :Category: Varia%0a%3c :Essential: {Category.Varia$:essential}%0a%3c :Title: Are some people just better at learning languages than others?%0a%3c :Author: nbraga%0a%3c :Section: %0a%3c :Completed: 05.12.2022 - 11:03%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Are some people just better at learning languages than others?%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.nbraga#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670267021=128.237.82.20

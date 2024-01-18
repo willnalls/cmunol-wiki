@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=iamiller
+charset=UTF-8
+csum=
+ctime=1661995248
+host=128.237.82.4
+name=Profiles.Iamiller
+rev=3
+targets=
+text=(:andrewid: iamiller:)%0a(:lvl: full:)%0a(:section: A:)%0a%0a(:name: iamiller:)
+time=1662143945
+author:1662143945=iamiller
+diff:1662143945:1661995285:=2,5c2%0a%3c (:lvl: full:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: iamiller:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1662143945=128.237.82.4
+author:1661995285=iamiller
+diff:1661995285:1661995248:=1,2c1%0a%3c (:andrewid: iamiller:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:andrewid: iamiller:)%0a\ No newline at end of file%0a
+host:1661995285=128.237.82.18
+author:1661995248=iamiller
+diff:1661995248:1661995248:=1d0%0a%3c (:andrewid: iamiller:)%0a\ No newline at end of file%0a
+host:1661995248=128.237.82.18

@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=gabriel
+charset=UTF-8
+csum=
+ctime=1662860676
+host=128.237.82.2
+name=Profiles.Gabriel
+rev=3
+targets=
+text=(:andrewid: gaguirr2:)%0a(:section: A:)%0a%0a(:name: gabriel:)%0a(:lvl: full:)
+time=1668802053
+author:1668802053=gabriel
+diff:1668802053:1662860680:=4,5c4%0a%3c (:name: gabriel:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: gabriel:)%0a\ No newline at end of file%0a
+host:1668802053=128.237.82.2
+author:1662860680=gabriel
+diff:1662860680:1662860676:=1,4c1%0a%3c (:andrewid: gaguirr2:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: gabriel:)%0a\ No newline at end of file%0a---%0a> (:andrewid: gaguirr2:)%0a\ No newline at end of file%0a
+host:1662860680=128.237.82.8
+author:1662860676=gabriel
+diff:1662860676:1662860676:=1d0%0a%3c (:andrewid: gaguirr2:)%0a\ No newline at end of file%0a
+host:1662860676=128.237.82.8

@@ -1,0 +1,46 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=wnalls
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1598033229
+host=74.109.247.199
+name=WikiHome.Help
+rev=11
+targets=
+text=%25red%25(:foxmessage eform:)%0a!!You are logged in as {$AuthId}.%0aPlease describe your problem below. I should get back to you within 24 hours. %0a%0a(:fox eform :)%0a(:foxmail template=FoxNotifyLists.MailFormTemplate target=FoxNotifyLists.EmailList foxsuccess='E-mail sent successfully!' :)%0a(:foxcheck email msg='Please add your e-mail address!':)%0aYour e-mail address:%0a(:input text email size=30:) %25red%25(:foxmessage eform email:)%0a%0a%0a%0a(:foxcheck text msg='Please add message!':)%0aMessage: %25red%25(:foxmessages eform text:)%0a(:input textarea text cols=70 rows=8:)%0a(:input submit post 'Send E-mail':)%0a(:foxend eform:)
+time=1612200205
+author:1612200205=wnalls
+diff:1612200205:1612200176:=3c3%0a%3c Please describe your problem below. I should get back to you within 24 hours. %0a---%0a> !!Please describe your problem below.%0a
+host:1612200205=74.109.247.199
+author:1612200176=wnalls
+diff:1612200176:1598847648:=7c7%0a%3c (:foxcheck email msg='Please add your e-mail address!':)%0a---%0a> (:foxcheck email msg='Please add your e-mai addresse!':)%0a11c11,13%0a%3c %0a---%0a> (:foxcheck subject msg='Please add subject!':)%0a> Subject:%0a> (:input text subject size=30:) %25red%25(:foxmessage eform subject:)%0a
+host:1612200176=74.109.247.199
+author:1598847648=studenta
+diff:1598847648:1598845686:=3c3%0a%3c !!Please describe your problem below.%0a---%0a> !!Please describe your problem below. Make sure to enter your email so that I can get back to you quickly. %0a
+host:1598847648=108.32.35.122
+author:1598845686=will
+diff:1598845686:1598845634:=3,4c3,5%0a%3c !!Please describe your problem below. Make sure to enter your email so that I can get back to you quickly. %0a%3c %0a---%0a> !!You can send a message to us using the form below:%0a> %0a> ''Please fill in all form fields!''%0a
+host:1598845686=108.32.35.122
+author:1598845634=will
+diff:1598845634:1598845589:=11d10%0a%3c %0a15d13%0a%3c %0a
+host:1598845634=108.32.35.122
+author:1598845589=will
+diff:1598845589:1598845383:=2d1%0a%3c !!You are logged in as {$AuthId}.%0a4d2%0a%3c %0a7a6,8%0a> (:foxcheck name msg='Please add your name!':)%0a> Your name:%0a> (:input text name size=30:) %25red%25(:foxmessage eform name:)%0a
+host:1598845589=108.32.35.122
+author:1598845383=will
+diff:1598845383:1598802551:=1,19c1,6%0a%3c %25red%25(:foxmessage eform:)%0a%3c !!You can send a message to us using the form below:%0a%3c ''Please fill in all form fields!''%0a%3c (:fox eform :)%0a%3c (:foxmail template=FoxNotifyLists.MailFormTemplate target=FoxNotifyLists.EmailList foxsuccess='E-mail sent successfully!' :)%0a%3c (:foxcheck name msg='Please add your name!':)%0a%3c Your name:%0a%3c (:input text name size=30:) %25red%25(:foxmessage eform name:)%0a%3c (:foxcheck email msg='Please add your e-mai addresse!':)%0a%3c Your e-mail address:%0a%3c (:input text email size=30:) %25red%25(:foxmessage eform email:)%0a%3c (:foxcheck subject msg='Please add subject!':)%0a%3c Subject:%0a%3c (:input text subject size=30:) %25red%25(:foxmessage eform subject:)%0a%3c (:foxcheck text msg='Please add message!':)%0a%3c Message: %25red%25(:foxmessages eform text:)%0a%3c (:input textarea text cols=70 rows=8:)%0a%3c (:input submit post 'Send E-mail':)%0a%3c (:foxend eform:)%0a\ No newline at end of file%0a---%0a> You are logged in as {$Author}.%0a> %0a> (:input form "www.google.com":)%0a> (:input textarea name="Help!" value="Please explain your problem here." rows=5 cols=20:)%0a> (:input submit:)%0a> (:input end:)%0a
+host:1598845383=108.32.35.122
+author:1598802551=will
+diff:1598802551:1598802377:=3d2%0a%3c (:input form "www.google.com":)%0a5,6c4,5%0a%3c (:input submit:)%0a%3c (:input end:)%0a---%0a> %0a> %0a
+host:1598802551=108.32.35.122
+author:1598802377=will
+diff:1598802377:1598802362:=3c3%0a%3c (:input textarea name="Help!" value="Please explain your problem here." rows=5 cols=20:)%0a---%0a> (:textarea name="Help!" value="Please explain your problem here." rows=5 cols=20:)%0a
+host:1598802377=108.32.35.122
+author:1598802362=will
+diff:1598802362:1598033229:=1,5c1%0a%3c You are logged in as {$Author}.%0a%3c %0a%3c (:textarea name="Help!" value="Please explain your problem here." rows=5 cols=20:)%0a%3c %0a%3c %0a---%0a> Here you may ask for help.%0a\ No newline at end of file%0a
+host:1598802362=108.32.35.122
+author:1598033229=
+diff:1598033229:1598033229:=1d0%0a%3c Here you may ask for help. %0a\ No newline at end of file%0a
+host:1598033229=108.32.35.122

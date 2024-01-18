@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1662955138
+host=73.154.178.3
+name=GradebookExpansions.Wtsin09041650-annie31
+rev=2
+targets=Articles.Wtsin09041650
+text=:Category: FunWithWords%0a:Expansion: /%0a:Author: annie31%0a:Original: Wtsin09041650 %0a:OriginalTitle: orz%0a:OriginalAuthor: wtsin%0a:Section: C%0a:Completed: 11.09.2022 - 20:58%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220915-150612-37420#%0a* [-15.09.2022 - 08:06-] || meghnaf22ta marked as complete%0a#foxend 220915-150612-37420#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: meghnaf22ta:)
+time=1663254372
+author:1663254372=meghnaf22ta
+diff:1663254372:1662955138:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 220915-150612-37420#%0a%3c * [-15.09.2022 - 08:06-] || meghnaf22ta marked as complete%0a%3c #foxend 220915-150612-37420#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1663254372=73.154.178.3
+author:1662955138=annie31
+diff:1662955138:1662955138:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: /%0a%3c :Author: annie31%0a%3c :Original: Wtsin09041650 %0a%3c :OriginalTitle: orz%0a%3c :OriginalAuthor: wtsin%0a%3c :Section: C%0a%3c :Completed: 11.09.2022 - 20:58%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1662955138=128.237.82.20

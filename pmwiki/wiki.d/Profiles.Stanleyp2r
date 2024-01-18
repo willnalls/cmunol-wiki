@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=stanleyp2r
+charset=UTF-8
+csum=
+ctime=1661982278
+host=72.95.243.85
+name=Profiles.Stanleyp2r
+rev=3
+targets=
+text=(:andrewid: chihungf:)%0a(:section: A:)%0a%0a(:name: stanleyp2r:)%0a(:lvl: full:)
+time=1661982341
+author:1661982341=stanleyp2r
+diff:1661982341:1661982336:=4,5c4%0a%3c (:name: stanleyp2r:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: stanleyp2r:)%0a\ No newline at end of file%0a
+host:1661982341=72.95.243.85
+author:1661982336=stanleyp2r
+diff:1661982336:1661982278:=1,4c1%0a%3c (:andrewid: chihungf:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: stanleyp2r:)%0a\ No newline at end of file%0a---%0a> (:andrewid: chihungf:)%0a\ No newline at end of file%0a
+host:1661982336=72.95.243.85
+author:1661982278=stanleyp2r
+diff:1661982278:1661982278:=1d0%0a%3c (:andrewid: chihungf:)%0a\ No newline at end of file%0a
+host:1661982278=72.95.243.85

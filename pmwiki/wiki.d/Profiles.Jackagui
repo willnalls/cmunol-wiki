@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70
+author=jackagui
+charset=UTF-8
+csum=
+ctime=1662263326
+host=128.237.82.20
+name=Profiles.Jackagui
+rev=3
+targets=
+text=(:andrewid: jackagui:)%0a(:section: C:)%0a%0a(:name: jackagui:)%0a(:lvl: full:)
+time=1662263361
+author:1662263361=jackagui
+diff:1662263361:1662263354:=4,5c4%0a%3c (:name: jackagui:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: jackagui:)%0a\ No newline at end of file%0a
+host:1662263361=128.237.82.20
+author:1662263354=jackagui
+diff:1662263354:1662263326:=1,4c1%0a%3c (:andrewid: jackagui:)%0a%3c (:section: C:)%0a%3c %0a%3c (:name: jackagui:)%0a\ No newline at end of file%0a---%0a> (:andrewid: jackagui:)%0a\ No newline at end of file%0a
+host:1662263354=128.237.82.20
+author:1662263326=jackagui
+diff:1662263326:1662263326:=1d0%0a%3c (:andrewid: jackagui:)%0a\ No newline at end of file%0a
+host:1662263326=128.237.82.20

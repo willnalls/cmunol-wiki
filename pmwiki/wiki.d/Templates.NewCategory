@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1608073093
+host=74.109.247.199
+name=Templates.NewCategory
+rev=4
+targets=
+text=(:essential: {$$essential}:)%0a(:deadline: {$$deadline}:)%0a(:expansiondeadline: {$$expansiondeadline}:)%0a%0a!!{$$name}%0a(:if equal {$$essential} yes:)%0a('''essential category''')%0a(:if end:)%0a%0a----%0a%0a{$$description}%0a%0a----%0a%0a
+time=1610490704
+author:1610490704=
+diff:1610490704:1608154668:=
+host:1610490704=74.109.247.199
+author:1608154668=
+diff:1608154668:1608147516:=3d2%0a%3c (:expansiondeadline: {$$expansiondeadline}:)%0a
+host:1608154668=74.109.247.199
+author:1608147516=
+diff:1608147516:1608073093:=5,7d4%0a%3c (:if equal {$$essential} yes:)%0a%3c ('''essential category''')%0a%3c (:if end:)%0a
+host:1608147516=74.109.247.199
+author:1608073093=
+diff:1608073093:1608073093:=1,11d0%0a%3c (:essential: {$$essential}:)%0a%3c (:deadline: {$$deadline}:)%0a%3c %0a%3c !!{$$name}%0a%3c %0a%3c ----%0a%3c %0a%3c {$$description}%0a%3c %0a%3c ----%0a%3c %0a
+host:1608073093=74.109.247.199

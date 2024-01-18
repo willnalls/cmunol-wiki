@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1662599860
+host=172.58.184.129
+name=GradebookExpansions.Drjiang09032003-jon
+rev=2
+targets=Articles.Drjiang09032003
+text=:Category: FunWithWords%0a:Expansion: Reasons why 'glizzy' may not be added to the OED%0a:Author: jon%0a:Original: Drjiang09032003 %0a:OriginalTitle: glizzy%0a:OriginalAuthor: drjiang%0a:Section: E%0a:Completed: 07.09.2022 - 18:17%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220923-040049-721760#%0a* [-22.09.2022 - 21:00-] || yuminf22ta marked as complete%0a#foxend 220923-040049-721760#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: yuminf22ta:)
+time=1663905649
+author:1663905649=yuminf22ta
+diff:1663905649:1662599860:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 220923-040049-721760#%0a%3c * [-22.09.2022 - 21:00-] || yuminf22ta marked as complete%0a%3c #foxend 220923-040049-721760#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1663905649=172.58.184.129
+author:1662599860=jon
+diff:1662599860:1662599860:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: Reasons why 'glizzy' may not be added to the OED%0a%3c :Author: jon%0a%3c :Original: Drjiang09032003 %0a%3c :OriginalTitle: glizzy%0a%3c :OriginalAuthor: drjiang%0a%3c :Section: E%0a%3c :Completed: 07.09.2022 - 18:17%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1662599860=128.237.82.12

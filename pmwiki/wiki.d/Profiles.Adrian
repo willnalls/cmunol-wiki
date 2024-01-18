@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+author=adrian
+charset=UTF-8
+csum=
+ctime=1661817282
+host=128.237.82.5
+name=Profiles.Adrian
+rev=2
+targets=
+text=(:andrewid: adrianli:)%0a(:section: A:)%0a%0a(:name: adrian:)
+time=1661818233
+author:1661818233=adrian
+diff:1661818233:1661817282:=1,4c1%0a%3c (:andrewid: adrianli:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: adrian:)%0a\ No newline at end of file%0a---%0a> (:andrewid: adrianli:)%0a\ No newline at end of file%0a
+host:1661818233=128.237.82.5
+author:1661817282=adrian
+diff:1661817282:1661817282:=1d0%0a%3c (:andrewid: adrianli:)%0a\ No newline at end of file%0a
+host:1661817282=128.237.82.5

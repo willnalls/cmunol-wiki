@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1610560757
+host=74.109.247.199
+name=Category.NewArticle
+rev=4
+targets=
+text=new%0anew%0anew%0a(:deadline: 2021-01-11:)%0a%0a(:expansiondeadline: 2021-01-18:)%0a%0a(:essential: yes:)
+time=1610640264
+author:1610640264=
+diff:1610640264:1610560807:=3,8c3%0a%3c new%0a%3c (:deadline: 2021-01-11:)%0a%3c %0a%3c (:expansiondeadline: 2021-01-18:)%0a%3c %0a%3c (:essential: yes:)%0a\ No newline at end of file%0a---%0a> new%0a\ No newline at end of file%0a
+host:1610640264=74.109.247.199
+author:1610560807=
+diff:1610560807:1610560767:=1d0%0a%3c new%0a
+host:1610560807=74.109.247.199
+author:1610560767=
+diff:1610560767:1610560757:=1d0%0a%3c new%0a
+host:1610560767=74.109.247.199
+author:1610560757=
+diff:1610560757:1610560757:=1d0%0a%3c new%0a\ No newline at end of file%0a
+host:1610560757=74.109.247.199

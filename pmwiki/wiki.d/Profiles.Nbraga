@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=nbraga
+charset=UTF-8
+csum=
+ctime=1661963178
+host=128.237.82.2
+name=Profiles.Nbraga
+rev=2
+targets=
+text=(:andrewid: nbraga:)%0a(:section: F:)%0a%0a(:name: nbraga:)
+time=1661963591
+author:1661963591=nbraga
+diff:1661963591:1661963178:=1,4c1%0a%3c (:andrewid: nbraga:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: nbraga:)%0a\ No newline at end of file%0a---%0a> (:andrewid: nbraga:)%0a\ No newline at end of file%0a
+host:1661963591=128.237.82.2
+author:1661963178=nbraga
+diff:1661963178:1661963178:=1d0%0a%3c (:andrewid: nbraga:)%0a\ No newline at end of file%0a
+host:1661963178=128.237.82.2

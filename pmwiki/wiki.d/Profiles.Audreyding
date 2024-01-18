@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=audreyding
+charset=UTF-8
+csum=
+ctime=1664147998
+host=73.117.49.71
+name=Profiles.Audreyding
+rev=4
+targets=
+text=(:andrewid: alding:)%0a(:section: C:)%0a%0a(:name: audreyding:)%0a(:lvl: full:)
+time=1664148015
+author:1664148015=audreyding
+diff:1664148015:1664148008:=5c5%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:lvl: minimal:)%0a\ No newline at end of file%0a
+host:1664148015=73.117.49.71
+author:1664148008=audreyding
+diff:1664148008:1664148003:=4,5c4%0a%3c (:name: audreyding:)%0a%3c (:lvl: minimal:)%0a\ No newline at end of file%0a---%0a> (:name: audreyding:)%0a\ No newline at end of file%0a
+host:1664148008=73.117.49.71
+author:1664148003=audreyding
+diff:1664148003:1664147998:=1,4c1%0a%3c (:andrewid: alding:)%0a%3c (:section: C:)%0a%3c %0a%3c (:name: audreyding:)%0a\ No newline at end of file%0a---%0a> (:andrewid: alding:)%0a\ No newline at end of file%0a
+host:1664148003=73.117.49.71
+author:1664147998=audreyding
+diff:1664147998:1664147998:=1d0%0a%3c (:andrewid: alding:)%0a\ No newline at end of file%0a
+host:1664147998=73.117.49.71

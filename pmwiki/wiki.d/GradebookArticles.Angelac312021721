@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1670030622
+host=172.58.184.253
+name=GradebookArticles.Angelac312021721
+rev=2
+targets=
+text=:Category: SignLanguage%0a:Essential: {Category.SignLanguage$:essential}%0a:Title: History of ASL and a comparison to the English spoken language%0a:Author: angelac3%0a:Section: E%0a:Completed: 02.12.2022 - 17:23%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221205-015243-404920#%0a* [-04.12.2022 - 17:52-] || yuminf22ta marked as complete%0a#foxend 221205-015243-404920#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aA brief history of how ASL was developed and comparing it to spoken English.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.angelac312021721#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: yuminf22ta:)
+time=1670205163
+author:1670205163=yuminf22ta
+diff:1670205163:1670030622:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221205-015243-404920#%0a%3c * [-04.12.2022 - 17:52-] || yuminf22ta marked as complete%0a%3c #foxend 221205-015243-404920#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1670205163=172.58.184.253
+author:1670030622=angelac3
+diff:1670030622:1670030622:=1,51d0%0a%3c :Category: SignLanguage%0a%3c :Essential: {Category.SignLanguage$:essential}%0a%3c :Title: History of ASL and a comparison to the English spoken language%0a%3c :Author: angelac3%0a%3c :Section: E%0a%3c :Completed: 02.12.2022 - 17:23%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c A brief history of how ASL was developed and comparing it to spoken English.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.angelac312021721#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670030622=128.237.82.7

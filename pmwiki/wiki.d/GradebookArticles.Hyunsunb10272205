@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1666933533
+host=128.237.82.12
+name=GradebookArticles.Hyunsunb10272205
+rev=5
+targets=
+text=:Category: LanguageOfTheNacirema%0a:Essential: {Category.LanguageOfTheNacirema$:essential}%0a:Title: Philosophy Lessons from CHAIR%0a:Author: hyunsunb%0a:Section: F%0a:Completed: 27.10.2022 - 22:05%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221104-182927-637600#%0a* [-04.11.2022 - 11:29-] || yuminf22ta marked as complete%0a#foxend 221104-182927-637600#%0a#foxbegin 221102-013208-194230#%0a* [-01.11.2022 - 18:32-] || yuminf22ta marked as needsRevised%0a#foxend 221102-013208-194230#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a#foxbegin 221102-013212-68770#%0a----%0a>>rfloat%3c%3c   %0a[-01.11.2022 - 18:32-] &nbsp; %0a>>%3c%3c%0a!!!!!yuminf22ta%0aHi, this is an interesting article, but please read the prompt more carefully. The requirement is not really that "philosophical"! For this wiki, you need to refer to the different meanings of the word (chair) and discuss a possible connection between the polysemy and Nacirema people's culture/ belief. To receive credits for this article, you will need to revise it based on the requirement! %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 221102-013212-68770 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 221102-013212-68770#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aPhilosophy Lessons from CHAIR%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.hyunsunb10272205#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: yuminf22ta:)
+time=1667586567
+author:1667586567=yuminf22ta
+diff:1667586567:1667490359:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: revised%0a> %0a24,26d23%0a%3c #foxbegin 221104-182927-637600#%0a%3c * [-04.11.2022 - 11:29-] || yuminf22ta marked as complete%0a%3c #foxend 221104-182927-637600#%0a
+host:1667586567=128.237.82.12
+author:1667490359=hyunsunb
+diff:1667490359:1667352732:=7c7%0a%3c :Status: revised%0a---%0a> :Status: needsRevised%0a
+host:1667490359=73.174.38.98
+author:1667352732=yuminf22ta
+diff:1667352732:1667352728:=32,44c32%0a%3c #foxbegin 221102-013212-68770#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-01.11.2022 - 18:32-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!yuminf22ta%0a%3c Hi, this is an interesting article, but please read the prompt more carefully. The requirement is not really that "philosophical"! For this wiki, you need to refer to the different meanings of the word (chair) and discuss a possible connection between the polysemy and Nacirema people's culture/ belief. To receive credits for this article, you will need to revise it based on the requirement! %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 221102-013212-68770 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 221102-013212-68770#%0a---%0a> %0a
+host:1667352732=172.58.185.169
+author:1667352728=yuminf22ta
+diff:1667352728:1666933533:=7,8c7,8%0a%3c :Status: needsRevised%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221102-013208-194230#%0a%3c * [-01.11.2022 - 18:32-] || yuminf22ta marked as needsRevised%0a%3c #foxend 221102-013208-194230#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1667352728=172.58.185.169
+author:1666933533=hyunsunb
+diff:1666933533:1666933533:=1,51d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Essential: {Category.LanguageOfTheNacirema$:essential}%0a%3c :Title: Philosophy Lessons from CHAIR%0a%3c :Author: hyunsunb%0a%3c :Section: F%0a%3c :Completed: 27.10.2022 - 22:05%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Philosophy Lessons from CHAIR%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.hyunsunb10272205#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1666933533=73.174.38.98

@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=gabriel
+charset=UTF-8
+csum=
+ctime=1664746027
+host=128.237.82.3
+name=GradebookArticles.Gabriel10021426
+rev=1
+targets=
+text=:Category: PhonologicalPhenomenaInSpokenLanguages%0a:Essential: {Category.PhonologicalPhenomenaInSpokenLanguages$:essential}%0a:Title: Pennacook Tribe%0a:Author: gabriel%0a:Section: A%0a:Completed: 02.10.2022 - 14:27%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aBrief summary of pennacook tribe and the language they spoke, algonuian.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.gabriel10021426#content:)%0a%0a[[#contentends]]%0a----
+time=1664746027
+author:1664746027=gabriel
+diff:1664746027:1664746027:=1,51d0%0a%3c :Category: PhonologicalPhenomenaInSpokenLanguages%0a%3c :Essential: {Category.PhonologicalPhenomenaInSpokenLanguages$:essential}%0a%3c :Title: Pennacook Tribe%0a%3c :Author: gabriel%0a%3c :Section: A%0a%3c :Completed: 02.10.2022 - 14:27%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Brief summary of pennacook tribe and the language they spoke, algonuian.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.gabriel10021426#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1664746027=128.237.82.3

@@ -1,0 +1,355 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+author=
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1598833949
+host=74.98.230.25
+name=Site.FoxForms
+rev=114
+targets=
+text=>>comment%3c%3c%0a[[#commentform]]%0a(:fox cbox put=below mark=!!Comments template=Site.FoxTemplates#comment:)%0aSubject: (:input text heading size=25:) \\%0a'''Your Comment:'''%0a(:input textarea comment cols=20 rows=3:)%0a(:input hidden author value='{$AuthId}' :) (:input submit post "Add Comment":)%0a(:foxend cbox:)%0a[[#commentformend]]%0a>>%3c%3c%0a%0a%0a%0a%0a%0a%0a>>comment%3c%3c%0a[[#deletearticles]]%0a(:fox deleteArticles:)%0a(:foxreplace target=GradebookArticles.{$Name},Articles.{$Name} put=overwrite foxtemplate="delete":)%0aDelete article {$:Title}:%0a(:input submit post "Delete article (permanent)":)%0a(:foxend deleteArticles:)%0a[[#deletearticlesend]]%0a>>%3c%3c%0a%0a%0a%0a>>comment%3c%3c%0a[[#newexpansion]]%0a(:fox newExpansion target=GradebookExpansions.{$Name}-{$Author},{$FullName}#expansions template=Templates.GradebookExpansion,Site.FoxTemplates#expansion:)%0a'''Expansion heading:''' (:input text name size=25:) \\%0a%0a'''Content:'''%0a(:input textarea content cols=25 rows=5:)%0a(:input hidden category {{$FullName}$:Category}:)%0a(:input hidden author {$Author}:)%0a(:input hidden section {Profiles.{$Author}$:section}:)%0a(:input hidden original {$Name}:)%0a(:input hidden originalTitle {{$FullName}$:Title}:)%0a(:input hidden originalAuthor {{$FullName}$:Author}:)%0a(:input hidden status ungraded:)%0a%0a%0a(:foxadd target=Profiles.{$$originalAuthor}#comments template=Site.FoxTemplates#expnot:)%0a%0a%0a(:input submit post "Add expansion":)%0a(:foxend newExpansion:)%0a[[#newexpansionend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#newarticle]]%0a(:fox newArticle target=GradebookArticles.{$$author}{$$date},Articles.{$$author}{$$date} template=Templates.GradebookArticle,Templates.NewArticle :)%0a%0a%0a(:input default request=1:)%0a*Note that you may receive points for '''one''' article and '''one''' expansion, per category; additional submissions in a category will not count towards your total points. %0a----%0a'''Category:'''%0a%0a(:pagelist group=Category list=normal name=-Category if="date ..{{=$:deadline}" order=$:deadline fmt=Templates/PagelistTemplates#selectcategory:)%0a%0a'''Title:''' %0a(:input text name:) (letters only, no punctuation) \\%0a%25red%25(:foxmessage newArticle name:)%0a%0a'''Summary:''' %0a%0a(:input text summary size=80 label="summary":) \\%0a%25red%25(:foxmessage newArticle summary:)%0a----%0a'''Content:'''%0a%0a(:input textarea content rows=10 cols=80 label="Article content":) \\%0a%25red%25(:foxmessage newArticle content:)%0a%0a%0a(:input hidden author {$Author}:)%0a(:input hidden date {(ftime fmt="%25m%25d%25H%25M")}:)%0a(:input hidden section {Profiles.{$Author}$:section}:)%0a(:input hidden status ungraded:)%0a(:input hidden essential {Category.{$$Category}$:essential}:)%0a%0a%0a(:input submit post:)%0a(:foxcheck name if='! exists {(pagename "{$$name}")}' msg="Article already exists.":)%0a(:foxcheck name if='! intext "{$$name}" Articles.TitlespacedList' msg="Article name already used.":)%0a(:foxcheck summary msg="Please enter a short summary.":)%0a(:foxcheck content msg="Please add content to your article.":)%0a(:foxend newArticle:)%0a[[#newarticleend]]%0a>>%3c%3c%0a%0a%0a%0a%0a%0a%0a>>comment%3c%3c%0a[[#newarticleexception]]%0a(:fox newArticle target=GradebookArticles.{$$author}{$$date},Articles.{$$author}{$$date} template=Templates.GradebookArticle,Templates.NewArticle:)%0a%0a(:input default request=1:)%0a----%0a'''Category:'''%0a%0a(:pagelist group=Category list=normal name=-Category order=$:deadline fmt=Templates/PagelistTemplates#selectcategory:)%0a%0a'''Author (username):'''%0a(:input text author:)%0a%25red%25(:foxmessage newArticle author:)%0a%0a'''Section:'''%0a(:input select section value="A" label=" A ":)%0a(:input select section value="B" label=" B ":)%0a(:input select section value="C" label=" C ":)%0a(:input select section value="D" label=" D ":)%0a(:input select section value="E" label=" E ":)%0a(:input select section value="F" label=" F ":)%0a%0a'''Title:''' %0a(:input text name:) \\%0a%25red%25(:foxmessage newArticle name:)%0a%0a'''Summary:''' %0a(:input text summary size=80 label="summary":) \\%0a%25red%25(:foxmessage newArticle summary:)%0a----%0a'''Content:'''%0a%0a(:input textarea content rows=10 cols=80 label="Article content":) \\%0a%25red%25(:foxmessage newArticle content:)%0a%0a%0a(:input hidden date {(ftime fmt="%25m%25d%25H%25M")}:)%0a(:input hidden status ungraded:)%0a(:input hidden essential {Category.{$$Category}$:essential}:)%0a%0a%0a(:input submit post:)%0a(:foxcheck summary msg="Please enter a short summary.":)%0a(:foxcheck author msg="Please enter a short summary.":)%0a(:foxcheck content msg="Please add content to your article.":)%0a(:foxend newArticle:)%0a[[#newarticleexceptionend]]%0a>>%3c%3c%0a%0a%0a>>comment%3c%3c%0a[[#changearticlecategory]]%0a(:fox setCategory ptvtarget={$FullName},GradebookArticles.{$Name} ptvfields=Category:)%0a(:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#setcategory:)%0a(:input default Category {$:category}:)%0a(:input submit post "Select category":)%0a(:foxend setCategory:)%0a[[#changearticlecategoryend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#changearticlecategory2]]%0a(:fox setCategory ptvtarget={$FullName},GradebookArticles.{$Name} ptvfields=Category:)%0a(:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#setcategory:)%0a(:input default Category {$:category}:)%0a(:input submit post "Select category":)%0a(:foxend setCategory:)%0a[[#changearticlecategory2end]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#pickcategory]]%0a(:fox pickCategory ptvtarget={$FullName} ptvfields=Category:)%0a(:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#selectcategory:)%0a(:input default Category {$:category}:)%0a(:input submit post "Select category":)%0a(:foxend pickCategory:)%0a[[#pickcategoryend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#pickcategoryandsection]]%0a(:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category,Section request=1:)%0a%0a(:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#selectcategory:)%0a(:input default Category {$:Category}:)%0a%0a(:input select Section value="A,B,C,D,E,F" label=" all ":)%0a(:input select Section value="A" label=" A ":)%0a(:input select Section value="B" label=" B ":)%0a(:input select Section value="C" label=" C ":)%0a(:input select Section value="D" label=" D ":)%0a(:input select Section value="E" label=" E ":)%0a(:input select Section value="F" label=" F ":)%0a%0a(:input submit post "Set category and section":)%0a(:foxend pickCategoryAndSection:)%0a[[#pickcategoryandsectionend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#pickstatus]]%0a(:fox pickStatus ptvtarget={$FullName} ptvfields=status:)%0a%0a(:input select status ungraded:)%0a(:input select status needsRevised:)%0a(:input select status revised:)%0a(:input select status complete:)%0a(:input select status noCredit:)%0a%0a(:input submit post "Set status":)%0a(:foxend pickStatus:)%0a[[#pickstatus]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#pickstudent]]%0a(:fox pickStatus ptvtarget={$FullName} ptvfields=student:)%0a%0a(:pagelist group=Profiles list=normal name=-RecentChanges fmt=Templates/PagelistTemplates#pickStudent:)%0a%0a(:input submit post "Set student":)%0a(:foxend pickStatus:)%0a[[#pickstudent]]%0a>>%3c%3c%0a%0a%0a%0a%0a>>comment%3c%3c%0a[[#gradeitem]]%0a(:fox gradeArticle:)%0a(:foxptv ptvtarget=GradebookArticles.{$Name} ptvfields=Status,GradedBy :)%0a(:foxadd target=GradebookArticles.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a%0a(:input default Status {$:Status}:)%0a(:input radio Status ungraded "Ungraded":)%0a(:input radio Status complete "Complete":)%0a(:input radio Status needsRevised "Requires Revisions":)%0a(:input radio Status revised "Revised":)%0a(:input radio Status noCredit "No Credit":)%0a%0a(:input hidden GradedBy {$Author}:)%0a%0a(:input submit post "Submit":)%0a(:foxend gradeArticle:)%0a[[#gradeitemend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#gradeExpansion]]%0a(:fox gradeExpansion:)%0a(:foxptv ptvtarget=GradebookExpansions.{$Name} ptvfields=Status,GradedBy :)%0a(:foxadd target=GradebookExpansions.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a%0a(:input default Status {$:Status}:)%0a(:input radio Status ungraded "Ungraded":)%0a(:input radio Status complete "Complete":)%0a(:input radio Status needsRevised "Requires Revisions":)%0a(:input radio Status revised "Revised":)%0a(:input radio Status noCredit "No Credit":)%0a%0a(:input hidden GradedBy {$Author}:)%0a%0a(:input submit post "Submit":)%0a(:foxend gradeExpansion:)%0a[[#gradeExpansionend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#gradeArticle]]%0a(:fox gradeArticle:)%0a(:foxptv ptvtarget=GradebookArticles.{$Name} ptvfields=Status,GradedBy :)%0a(:foxadd target=GradebookArticles.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a%0a(:input default Status {$:Status}:)%0a(:input radio Status ungraded "Ungraded":)%0a(:input radio Status complete "Complete":)%0a(:input radio Status needsRevised "Requires Revisions":)%0a(:input radio Status revised "Revised":)%0a(:input radio Status noCredit "No Credit":)%0a%0a(:input hidden GradedBy {$Author}:)%0a%0a(:input submit post "Submit":)%0a(:foxend gradeArticle:)%0a[[#gradeArticleend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#gradingcomment]]%0a(:fox gradingComment:)%0a(:foxadd target={$FullName}#comments put=top template=Site.FoxTemplates#gradingcomment :)%0a%0a(:input hidden author {$Author} :)%0a(:input textarea comment rows=4 cols=30 :)%0a%0a(:input submit post "Submit":)%0a(:foxend gradingComment:)%0a[[#gradingcommentend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#gradingComment]]%0a(:fox gradingComment:)%0a(:foxadd target=GradebookArticles.{$Name}#comments put=top template=Site.FoxTemplates#gradingcomment :)%0a%0a(:input hidden author {$Author} :)%0a(:input textarea comment rows=4 cols=30 :)%0a%0a(:input submit post "Submit":)%0a(:foxend gradingComment:)%0a[[#gradingCommentend]]%0a>>%3c%3c%0a%0a>>comment%3c%3c%0a[[#markRevised]]%0a(:fox markRevised:)%0a(:foxptv ptvtarget=GradebookArticles.{=$Name} ptvfields=Status :)%0a(:input hidden Status revised:)%0a(:input submit post "Mark Revised":)%0a(:foxend markRevised:)%0a[[#markRevisedend]]%0a>>%3c%3c%0a
+time=1670355010
+author:1670355010=
+diff:1670355010:1670338340:=96,100d95%0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a103,104c98,101%0a%3c (:fox newArticle target=GradebookArticles.{$$author}{$$date},Articles.{$$author}{$$date} template=Templates.GradebookArticle,Templates.NewArticle:)%0a%3c %0a---%0a> (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle:)%0a> %0a> %0a> %0a115,122c112%0a%3c '''Section:'''%0a%3c (:input select section value="A" label=" A ":)%0a%3c (:input select section value="B" label=" B ":)%0a%3c (:input select section value="C" label=" C ":)%0a%3c (:input select section value="D" label=" D ":)%0a%3c (:input select section value="E" label=" E ":)%0a%3c (:input select section value="F" label=" F ":)%0a%3c %0a---%0a> %0a127a118%0a> %0a137c128,129%0a%3c (:input hidden date {(ftime fmt="%25m%25d%25H%25M")}:)%0a---%0a> %0a> (:input hidden section {Profiles.{$$author}$:section}:)%0a
+host:1670355010=74.98.230.25
+author:1670338340=
+diff:1670338340:1661535507:=129c129%0a%3c (:input hidden section {Profiles.{$$author}$:section}:)%0a---%0a> (:input hidden section {Profiles.{$Author}$:section}:)%0a
+host:1670338340=108.39.252.177
+author:1661535507=
+diff:1661535507:1661535458:=59c59%0a%3c *Note that you may receive points for '''one''' article and '''one''' expansion, per category; additional submissions in a category will not count towards your total points. %0a---%0a> !!!Note that you may receive points for '''one''' article and '''one''' expansion, per category; additional submissions in a category will not count towards your total points. %0a
+host:1661535507=71.162.2.58
+author:1661535458=
+diff:1661535458:1642193833:=14,16d13%0a%3c %0a%3c %0a%3c %0a17a15,25%0a> [[#selfexpansion]]%0a> (:fox selfExpansion target=Articles.AndMikisúkî,Articles.AnishinabewakiNationAndTheOjibweLanguage,Articles.AZOodham,Articles.ChinookTribe,Articles.KizhOrTongvaOfCA,Articles.LenapeInBridgewaterTownship,Articles.LenapePeopleAndTheirLanguage,Articles.ManahoacTribe,Articles.Maskókî,Articles.Mass,Articles.MescaleroApacheWestTexas,Articles.MississaugaPeople,Articles.MunseeInWatchung,Articles.MuwekmaOhloneTribeOfTheSanFranciscoBayArea,Articles.Nipmuc,Articles.NJ,Articles.OneLanguageOfTheAnishinabewakiNationOjibwe,Articles.OnTheWinnebagoTribeOfNebraska,Articles.Phoenix,Articles.PiscatawayConoyTribe,Articles.Ramaytush,Articles.TheBodéwadmikéPotawatomiTribe,Articles.TheCatawbaIswaTribeOfTheCarolinas,Articles.TheCherokee,Articles.TheChitimachaTribesLanguage,Articles.TheDinéBikéyahTheNavajo,Articles.TheDuwamishTribe,Articles.TheIndianaMiamiTribe,Articles.TheKlallamLanguage,Articles.TheLanguageOfNisenan,Articles.TheLanguageOfTheCrowTribe,Articles.TheLanguageOfTheMassachusettTribe,Articles.TheMapucheTribeAndTheMapudungunLanguage,Articles.TheMescaleroApacheTribe,Articles.TheMontaukettTribeOfLongIsland,Articles.TheNisenan,Articles.TheOhloneTribeOfSF,Articles.TheOsageNation,Articles.ThePatawomeck,Articles.ThePiscatawayConoyOfMaryland,Articles.TheSeminoleTribe put=above mark=!!Comments template=Site.FoxTemplates#selfexpansion:)%0a> %0a> %0a> (:input submit post:)%0a> (:foxend selfExpansion:)%0a> [[#selfexpansionend]]%0a> >>%3c%3c%0a> %0a> %0a> >>comment%3c%3c%0a59d66%0a%3c !!!Note that you may receive points for '''one''' article and '''one''' expansion, per category; additional submissions in a category will not count towards your total points. %0a
+host:1661535458=71.162.2.58
+author:1642193833=st1
+diff:1642193833:1641939436:=63a64%0a> (:foxadd target=Articles.TitlespacedList#titlespaced put=bottom foxtemplate="{$$name}\n":)%0a
+host:1642193833=74.109.239.200
+author:1641939436=st2
+diff:1641939436:1626105892:=48d47%0a%3c (:input hidden originalTitle {{$FullName}$:Title}:)%0a107,109c106,108%0a%3c %0a%3c %0a%3c %0a---%0a> (:foxadd target=Articles.TitlespacedList#titlespaced put=bottom foxtemplate="{$$name}\n":)%0a> %0a> %0a142a142%0a> (:foxcheck name if='! intext "{$$name}" Articles.TitlespacedList' msg="Article name already used.":)%0a
+host:1641939436=74.109.239.200
+author:1626105892=will
+diff:1626105892:1625951058:=34,35d33%0a%3c %0a%3c %0a
+host:1626105892=108.39.140.79
+author:1625951058=
+diff:1625951058:1625690097:=157,166d156%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#changearticlecategory2]]%0a%3c (:fox setCategory ptvtarget={$FullName},GradebookArticles.{$Name} ptvfields=Category:)%0a%3c (:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#setcategory:)%0a%3c (:input default Category {$:category}:)%0a%3c (:input submit post "Select category":)%0a%3c (:foxend setCategory:)%0a%3c [[#changearticlecategory2end]]%0a
+host:1625951058=74.109.239.200
+author:1625690097=
+diff:1625690097:1625609459:=28,29c28,29%0a%3c (:foxreplace target=GradebookArticles.{$Name},Articles.{$Name} put=overwrite foxtemplate="delete":)%0a%3c Delete article {$:Title}:%0a---%0a> (:foxreplace target=GradebookArticles.{*$Name},Articles.{*$Name} put=overwrite foxtemplate="delete":)%0a> %0a30a31%0a> %0a
+host:1625690097=74.109.239.200
+author:1625609459=will
+diff:1625609459:1625597712:=149,158d148%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#changearticlecategory]]%0a%3c (:fox setCategory ptvtarget={$FullName},GradebookArticles.{$Name} ptvfields=Category:)%0a%3c (:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#setcategory:)%0a%3c (:input default Category {$:category}:)%0a%3c (:input submit post "Select category":)%0a%3c (:foxend setCategory:)%0a%3c [[#changearticlecategoryend]]%0a%3c >>%3c%3c%0a
+host:1625609459=74.109.239.200
+author:1625597712=
+diff:1625597712:1624993807:=61c61%0a%3c (:fox newArticle target=GradebookArticles.{$$author}{$$date},Articles.{$$author}{$$date} template=Templates.GradebookArticle,Templates.NewArticle :)%0a---%0a> (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle :)%0a87d86%0a%3c (:input hidden date {(ftime fmt="%25m%25d%25H%25M")}:)%0a
+host:1625597712=74.109.239.200
+author:1624993807=
+diff:1624993807:1624993597:=61c61%0a%3c (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle :)%0a---%0a> (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle redirect=WikiHome.MyDashboard:)%0a93c93%0a%3c (:foxcheck name if='! exists {(pagename "{$$name}")}' msg="Article already exists.":)%0a---%0a> (:foxcheck name if='! exists Articles.{(pagename "{$$name}")}' msg="Article already exists.":)%0a
+host:1624993807=74.109.239.200
+author:1624993597=
+diff:1624993597:1624993252:=93c93%0a%3c (:foxcheck name if='! exists Articles.{(pagename "{$$name}")}' msg="Article already exists.":)%0a---%0a> (:foxcheck name if='! exists Articles.{$$name}' msg="Article already exists.":)%0a
+host:1624993597=74.109.239.200
+author:1624993252=
+diff:1624993252:1620321885:=93d92%0a%3c (:foxcheck name if='! exists Articles.{$$name}' msg="Article already exists.":)%0a
+host:1624993252=74.109.239.200
+author:1620321885=
+diff:1620321885:1618265804:=
+host:1620321885=74.109.239.200
+author:1618265804=
+diff:1618265804:1618265749:=16c16%0a%3c (:fox selfExpansion target=Articles.AndMikisúkî,Articles.AnishinabewakiNationAndTheOjibweLanguage,Articles.AZOodham,Articles.ChinookTribe,Articles.KizhOrTongvaOfCA,Articles.LenapeInBridgewaterTownship,Articles.LenapePeopleAndTheirLanguage,Articles.ManahoacTribe,Articles.Maskókî,Articles.Mass,Articles.MescaleroApacheWestTexas,Articles.MississaugaPeople,Articles.MunseeInWatchung,Articles.MuwekmaOhloneTribeOfTheSanFranciscoBayArea,Articles.Nipmuc,Articles.NJ,Articles.OneLanguageOfTheAnishinabewakiNationOjibwe,Articles.OnTheWinnebagoTribeOfNebraska,Articles.Phoenix,Articles.PiscatawayConoyTribe,Articles.Ramaytush,Articles.TheBodéwadmikéPotawatomiTribe,Articles.TheCatawbaIswaTribeOfTheCarolinas,Articles.TheCherokee,Articles.TheChitimachaTribesLanguage,Articles.TheDinéBikéyahTheNavajo,Articles.TheDuwamishTribe,Articles.TheIndianaMiamiTribe,Articles.TheKlallamLanguage,Articles.TheLanguageOfNisenan,Articles.TheLanguageOfTheCrowTribe,Articles.TheLanguageOfTheMassachusettTribe,Articles.TheMapucheTribeAndTheMapudungunLanguage,Articles.TheMescaleroApacheTribe,Articles.TheMontaukettTribeOfLongIsland,Articles.TheNisenan,Articles.TheOhloneTribeOfSF,Articles.TheOsageNation,Articles.ThePatawomeck,Articles.ThePiscatawayConoyOfMaryland,Articles.TheSeminoleTribe put=above mark=!!Comments template=Site.FoxTemplates#selfexpansion:)%0a---%0a> (:fox selfExpansion target=Articles.AndMikisúkî,Articles.AnishinabewakiNationAndTheOjibweLanguage,Articles.AZOodham,Articles.ChinookTribe,Articles.KizhOrTongvaOfCA,Articles.LenapeInBridgewaterTownship,Articles.LenapePeopleAndTheirLanguage,Articles.ManahoacTribe,Articles.Maskókî,Articles.Mass,Articles.MescaleroApacheWestTexas,Articles.MississaugaPeople,Articles.MunseeInWatchung,Articles.MuwekmaOhloneTribeOfTheSanFranciscoBayArea,Articles.Nipmuc,Articles.NJ,Articles.OneLanguageOfTheAnishinabewakiNationOjibwe,Articles.OnTheWinnebagoTribeOfNebraska,Articles.Phoenix,Articles.PiscatawayConoyTribe,Articles.Ramaytush,Articles.TheBodéwadmikéPotawatomiTribe,Articles.TheCatawbaIswaTribeOfTheCarolinas,Articles.TheCherokee,Articles.TheChitimachaTribesLanguage,Articles.TheDinéBikéyahTheNavajo,Articles.TheDuwamishTribe,Articles.TheIndianaMiamiTribe,Articles.TheKlallamLanguage,Articles.TheLanguageOfNisenan,Articles.TheLanguageOfTheCrowTribe,Articles.TheLanguageOfTheMassachusettTribe,Articles.TheMapucheTribeAndTheMapudungunLanguage,Articles.TheMescaleroApacheTribe,Articles.TheMontaukettTribeOfLongIsland,Articles.TheNisenan,Articles.TheOhloneTribeOfSF,Articles.TheOsageNation,Articles.ThePatawomeck,Articles.ThePiscatawayConoyOfMaryland,Articles.TheSeminoleTribe,Articles.Wampanoag-Chatha, put=above mark=!!Comments template=Site.FoxTemplates#selfexpansion:)%0a
+host:1618265804=74.109.247.199
+author:1618265749=
+diff:1618265749:1618265306:=16c16%0a%3c (:fox selfExpansion target=Articles.AndMikisúkî,Articles.AnishinabewakiNationAndTheOjibweLanguage,Articles.AZOodham,Articles.ChinookTribe,Articles.KizhOrTongvaOfCA,Articles.LenapeInBridgewaterTownship,Articles.LenapePeopleAndTheirLanguage,Articles.ManahoacTribe,Articles.Maskókî,Articles.Mass,Articles.MescaleroApacheWestTexas,Articles.MississaugaPeople,Articles.MunseeInWatchung,Articles.MuwekmaOhloneTribeOfTheSanFranciscoBayArea,Articles.Nipmuc,Articles.NJ,Articles.OneLanguageOfTheAnishinabewakiNationOjibwe,Articles.OnTheWinnebagoTribeOfNebraska,Articles.Phoenix,Articles.PiscatawayConoyTribe,Articles.Ramaytush,Articles.TheBodéwadmikéPotawatomiTribe,Articles.TheCatawbaIswaTribeOfTheCarolinas,Articles.TheCherokee,Articles.TheChitimachaTribesLanguage,Articles.TheDinéBikéyahTheNavajo,Articles.TheDuwamishTribe,Articles.TheIndianaMiamiTribe,Articles.TheKlallamLanguage,Articles.TheLanguageOfNisenan,Articles.TheLanguageOfTheCrowTribe,Articles.TheLanguageOfTheMassachusettTribe,Articles.TheMapucheTribeAndTheMapudungunLanguage,Articles.TheMescaleroApacheTribe,Articles.TheMontaukettTribeOfLongIsland,Articles.TheNisenan,Articles.TheOhloneTribeOfSF,Articles.TheOsageNation,Articles.ThePatawomeck,Articles.ThePiscatawayConoyOfMaryland,Articles.TheSeminoleTribe,Articles.Wampanoag-Chatha, put=above mark=!!Comments template=Site.FoxTemplates#selfexpansion:)%0a---%0a> (:fox selfExpansion target=Articles.AboutTheJumanoIndians put=above mark=!!Comments template=Site.FoxTemplates#selfexpansion:)%0a
+host:1618265749=74.109.247.199
+author:1618265306=
+diff:1618265306:1618265142:=
+host:1618265306=74.109.247.199
+author:1618265142=
+diff:1618265142:1617045492:=11,23d10%0a%3c %0a%3c %0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#selfexpansion]]%0a%3c (:fox selfExpansion target=Articles.AboutTheJumanoIndians put=above mark=!!Comments template=Site.FoxTemplates#selfexpansion:)%0a%3c %0a%3c %0a%3c (:input submit post:)%0a%3c (:foxend selfExpansion:)%0a%3c [[#selfexpansionend]]%0a%3c >>%3c%3c%0a%3c %0a
+host:1618265142=74.109.247.199
+author:1617045492=TimG
+diff:1617045492:1616782624:=120c120%0a%3c (:input hidden section {Profiles.{$Author}$:section}:)%0a---%0a> (:input hidden Section {Profiles.{$$author}$:section}:)%0a122d121%0a%3c (:input hidden essential {Category.{$$Category}$:essential}:)%0a
+host:1617045492=74.109.247.199
+author:1616782624=will
+diff:1616782624:1616781433:=15,18c15,19%0a%3c (:foxreplace target=GradebookArticles.{*$Name},Articles.{*$Name} put=overwrite foxtemplate="delete":)%0a%3c %0a%3c (:input submit post "Delete article (permanent)":)%0a%3c %0a---%0a> (:foxadd target=GradebookArticles.{$FullName},Articles.{$FullName}:)%0a> (:foxtemplate "delete":)%0a> %0a> (:input submit post label="Delete article (permanent)":)%0a> %0a21a23%0a> %0a
+host:1616782624=74.109.247.199
+author:1616781433=will
+diff:1616781433:1616612147:=13a14%0a> %0a15,19c16,20%0a%3c (:foxadd target=GradebookArticles.{$FullName},Articles.{$FullName}:)%0a%3c (:foxtemplate "delete":)%0a%3c %0a%3c (:input submit post label="Delete article (permanent)":)%0a%3c %0a---%0a> (:foxptv target={$FullName} ptvfields=articles[]:)%0a> (:pagelist group=Articles,GradebookArticles  list=normal fmt=Templates.PagelistTemplates#deletearticles:)%0a> %0a> (:input submit post label="Select articles to delete":)%0a> %0a20a22%0a> %0a
+host:1616781433=74.109.247.199
+author:1616612147=wnalls
+diff:1616612147:1616510574:=36c36%0a%3c (:input hidden section {Profiles.{$Author}$:section}:)%0a---%0a> (:input hidden section {Profiles.{$Author}$:Section}:)%0a
+host:1616612147=74.109.247.199
+author:1616510574=wnalls
+diff:1616510574:1616510372:=93c93%0a%3c (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle:)%0a---%0a> (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle redirect=WikiHome.MyDashboard:)%0a
+host:1616510574=74.109.247.199
+author:1616510372=
+diff:1616510372:1616510253:=104c104%0a%3c (:input text author:)%0a---%0a> (:input hidden author {$Author}:)%0a
+host:1616510372=74.109.247.199
+author:1616510253=
+diff:1616510253:1616289808:=103,107d102%0a%3c '''Author (username):'''%0a%3c (:input hidden author {$Author}:)%0a%3c %25red%25(:foxmessage newArticle author:)%0a%3c %0a%3c %0a123,124c118,119%0a%3c %0a%3c (:input hidden Section {Profiles.{$$author}$:section}:)%0a---%0a> (:input hidden author {$Author}:)%0a> (:input hidden Section {Profiles.{$Author}$:Section}:)%0a131d125%0a%3c (:foxcheck author msg="Please enter a short summary.":)%0a
+host:1616510253=74.109.247.199
+author:1616289808=
+diff:1616289808:1616289371:=36c36%0a%3c (:input hidden section {Profiles.{$Author}$:Section}:)%0a---%0a> (:input hidden Section {Profiles.{$Author}$:Section}:)%0a
+host:1616289808=74.109.247.199
+author:1616289371=
+diff:1616289371:1616289326:=254c254%0a%3c (:foxadd target={$FullName}#comments put=top template=Site.FoxTemplates#gradingcomment :)%0a---%0a> (:foxadd target=GradebookArticles.{$Name}#comments put=top template=Site.FoxTemplates#gradingcomment :)%0a
+host:1616289371=74.109.247.199
+author:1616289326=
+diff:1616289326:1615845071:=209,228d208%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#gradeExpansion]]%0a%3c (:fox gradeExpansion:)%0a%3c (:foxptv ptvtarget=GradebookExpansions.{$Name} ptvfields=Status,GradedBy :)%0a%3c (:foxadd target=GradebookExpansions.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a%3c %0a%3c (:input default Status {$:Status}:)%0a%3c (:input radio Status ungraded "Ungraded":)%0a%3c (:input radio Status complete "Complete":)%0a%3c (:input radio Status needsRevised "Requires Revisions":)%0a%3c (:input radio Status revised "Revised":)%0a%3c (:input radio Status noCredit "No Credit":)%0a%3c %0a%3c (:input hidden GradedBy {$Author}:)%0a%3c %0a%3c (:input submit post "Submit":)%0a%3c (:foxend gradeExpansion:)%0a%3c [[#gradeExpansionend]]%0a
+host:1616289326=74.109.247.199
+author:1615845071=
+diff:1615845071:1615755737:=78c78%0a%3c (:input hidden section {Profiles.{$Author}$:section}:)%0a---%0a> (:input hidden Section {Profiles.{$Author}$:section}:)%0a
+host:1615845071=74.109.247.199
+author:1615755737=
+diff:1615755737:1614790817:=78c78%0a%3c (:input hidden Section {Profiles.{$Author}$:section}:)%0a---%0a> (:input hidden Section {Profiles.{$Author}$:Section}:)%0a
+host:1615755737=74.109.247.199
+author:1614790817=
+diff:1614790817:1614715089:=
+host:1614790817=74.109.247.199
+author:1614715089=
+diff:1614715089:1614190313:=80d79%0a%3c (:input hidden essential {Category.{$$Category}$:essential}:)%0a
+host:1614715089=179.61.131.176
+author:1614190313=will
+diff:1614190313:1614189267:=173,184c173%0a%3c [[#pickstatus]]%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#pickstudent]]%0a%3c (:fox pickStatus ptvtarget={$FullName} ptvfields=student:)%0a%3c %0a%3c (:pagelist group=Profiles list=normal name=-RecentChanges fmt=Templates/PagelistTemplates#pickStudent:)%0a%3c %0a%3c (:input submit post "Set student":)%0a%3c (:foxend pickStatus:)%0a%3c [[#pickstudent]]%0a---%0a> [[#pickcategoryandsectionend]]%0a
+host:1614190313=74.109.247.199
+author:1614189267=
+diff:1614189267:1614189138:=163c163%0a%3c (:fox pickStatus ptvtarget={$FullName} ptvfields=status:)%0a---%0a> (:fox pickStatus ptvtarget={$FullName} ptvfields=section:)%0a
+host:1614189267=74.109.247.199
+author:1614189138=
+diff:1614189138:1612750845:=172c172%0a%3c (:foxend pickStatus:)%0a---%0a> (:foxend pickCategoryAndSection:)%0a
+host:1614189138=74.109.247.199
+author:1612750845=wnalls
+diff:1612750845:1612750317:=63c63%0a%3c (:input text name:) (letters only, no punctuation) \\%0a---%0a> (:input text name:) \\%0a
+host:1612750845=74.109.247.199
+author:1612750317=wnalls
+diff:1612750317:1612474285:=89,129d88%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#newarticleexception]]%0a%3c (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle redirect=WikiHome.MyDashboard:)%0a%3c (:foxadd target=Articles.TitlespacedList#titlespaced put=bottom foxtemplate="{$$name}\n":)%0a%3c %0a%3c %0a%3c (:input default request=1:)%0a%3c ----%0a%3c '''Category:'''%0a%3c %0a%3c (:pagelist group=Category list=normal name=-Category order=$:deadline fmt=Templates/PagelistTemplates#selectcategory:)%0a%3c %0a%3c '''Title:''' %0a%3c (:input text name:) \\%0a%3c %25red%25(:foxmessage newArticle name:)%0a%3c %0a%3c '''Summary:''' %0a%3c %0a%3c (:input text summary size=80 label="summary":) \\%0a%3c %25red%25(:foxmessage newArticle summary:)%0a%3c ----%0a%3c '''Content:'''%0a%3c %0a%3c (:input textarea content rows=10 cols=80 label="Article content":) \\%0a%3c %25red%25(:foxmessage newArticle content:)%0a%3c %0a%3c %0a%3c (:input hidden author {$Author}:)%0a%3c (:input hidden Section {Profiles.{$Author}$:Section}:)%0a%3c (:input hidden status ungraded:)%0a%3c %0a%3c %0a%3c (:input submit post:)%0a%3c (:foxcheck name if='! intext "{$$name}" Articles.TitlespacedList' msg="Article name already used.":)%0a%3c (:foxcheck summary msg="Please enter a short summary.":)%0a%3c (:foxcheck content msg="Please add content to your article.":)%0a%3c (:foxend newArticle:)%0a%3c [[#newarticleexceptionend]]%0a%3c >>%3c%3c%0a%3c %0a
+host:1612750317=74.109.247.199
+author:1612474285=TA_lili
+diff:1612474285:1612469442:=102c102%0a%3c (:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category,Section request=1:)%0a---%0a> (:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category,Section:)%0a
+host:1612474285=74.109.247.199
+author:1612469442=TA_lili
+diff:1612469442:1612469295:=122c122%0a%3c (:fox pickStatus ptvtarget={$FullName} ptvfields=section:)%0a---%0a> (:fox pickStatus ptvtarget={$FullName} ptvfields=Category,Section:)%0a
+host:1612469442=74.109.247.199
+author:1612469295=TA_lili
+diff:1612469295:1612468907:=103c103%0a%3c %0a---%0a> !!!!Category: {$:Category}%0a106a107%0a> !!!!Section: {$:Section}%0a130c131%0a%3c (:input submit post "Set status":)%0a---%0a> (:input submit post "Set category and section":)%0a
+host:1612469295=74.109.247.199
+author:1612468907=TA_lili
+diff:1612468907:1612468461:=
+host:1612468907=74.109.247.199
+author:1612468461=TA_lili
+diff:1612468461:1612467156:=115,129d114%0a%3c %0a%3c (:input submit post "Set category and section":)%0a%3c (:foxend pickCategoryAndSection:)%0a%3c [[#pickcategoryandsectionend]]%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#pickstatus]]%0a%3c (:fox pickStatus ptvtarget={$FullName} ptvfields=Category,Section:)%0a%3c %0a%3c (:input select status ungraded:)%0a%3c (:input select status needsRevised:)%0a%3c (:input select status revised:)%0a%3c (:input select status complete:)%0a%3c (:input select status noCredit:)%0a
+host:1612468461=74.109.247.199
+author:1612467156=TA_lili
+diff:1612467156:1612293637:=145,164d144%0a%3c [[#gradeArticle]]%0a%3c (:fox gradeArticle:)%0a%3c (:foxptv ptvtarget=GradebookArticles.{$Name} ptvfields=Status,GradedBy :)%0a%3c (:foxadd target=GradebookArticles.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a%3c %0a%3c (:input default Status {$:Status}:)%0a%3c (:input radio Status ungraded "Ungraded":)%0a%3c (:input radio Status complete "Complete":)%0a%3c (:input radio Status needsRevised "Requires Revisions":)%0a%3c (:input radio Status revised "Revised":)%0a%3c (:input radio Status noCredit "No Credit":)%0a%3c %0a%3c (:input hidden GradedBy {$Author}:)%0a%3c %0a%3c (:input submit post "Submit":)%0a%3c (:foxend gradeArticle:)%0a%3c [[#gradeArticleend]]%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a175,187d154%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#gradingComment]]%0a%3c (:fox gradingComment:)%0a%3c (:foxadd target=GradebookArticles.{$Name}#comments put=top template=Site.FoxTemplates#gradingcomment :)%0a%3c %0a%3c (:input hidden author {$Author} :)%0a%3c (:input textarea comment rows=4 cols=30 :)%0a%3c %0a%3c (:input submit post "Submit":)%0a%3c (:foxend gradingComment:)%0a%3c [[#gradingCommentend]]%0a
+host:1612467156=74.109.247.199
+author:1612293637=
+diff:1612293637:1612199505:=2a3%0a> (:foxmessage:)%0a
+host:1612293637=74.109.247.199
+author:1612199505=wnalls
+diff:1612199505:1612066935:=69c69%0a%3c (:input text summary size=80 label="summary":) \\%0a---%0a> (:input text summary size=60 label="summary":) \\%0a
+host:1612199505=74.109.247.199
+author:1612066935=
+diff:1612066935:1611961071:=17c17%0a%3c (:foxptv target={$FullName} ptvfields=articles[]:)%0a---%0a> (:foxptv target={$FullName} ptvfields=articles:)%0a21a22,23%0a> Current articles:%0a> -> {$$articles}%0a
+host:1612066935=74.109.247.199
+author:1611961071=
+diff:1611961071:1611960834:=17c17%0a%3c (:foxptv target={$FullName} ptvfields=articles:)%0a---%0a> (:foxptv target={$FullName} ptvfields=articles[]:)%0a21,23d20%0a%3c %0a%3c Current articles:%0a%3c -> {$$articles}%0a
+host:1611961071=74.109.247.199
+author:1611960834=
+diff:1611960834:1611960704:=18c18%0a%3c (:pagelist group=Articles,GradebookArticles  list=normal fmt=Templates.PagelistTemplates#deletearticles:)%0a---%0a> (:pagelist group=Articles  list=normal fmt=Templates.PagelistTemplates#deletearticles:)%0a
+host:1611960834=74.109.247.199
+author:1611960704=
+diff:1611960704:1611940932:=12,25d11%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#deletearticles]]%0a%3c %0a%3c (:fox deleteArticles:)%0a%3c (:foxptv target={$FullName} ptvfields=articles[]:)%0a%3c (:pagelist group=Articles  list=normal fmt=Templates.PagelistTemplates#deletearticles:)%0a%3c %0a%3c (:input submit post label="Select articles to delete":)%0a%3c (:foxend deleteArticles:)%0a%3c %0a%3c [[#deletearticlesend]]%0a%3c >>%3c%3c%0a%3c %0a
+host:1611960704=74.109.247.199
+author:1611940932=
+diff:1611940932:1611935332:=46c46%0a%3c (:pagelist group=Category list=normal name=-Category if="date ..{{=$:deadline}" order=$:deadline fmt=Templates/PagelistTemplates#selectcategory:)%0a---%0a> (:pagelist group=Category list=normal  name=-Category order=$:deadline fmt=Templates/PagelistTemplates#selectcategory:)%0a
+host:1611940932=74.109.247.199
+author:1611935332=student1
+diff:1611935332:1611934750:=46c46%0a%3c (:pagelist group=Category list=normal  name=-Category order=$:deadline fmt=Templates/PagelistTemplates#selectcategory:)%0a---%0a> (:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#selectcategory:)%0a
+host:1611935332=74.109.247.199
+author:1611934750=student2
+diff:1611934750:1611934666:=89c89%0a%3c !!!!Category: {$:Category}%0a---%0a> !!!!Category:%0a91,93c91,93%0a%3c (:input default Category {$:Category}:)%0a%3c %0a%3c !!!!Section: {$:Section}%0a---%0a> (:input default Category {$:category}:)%0a> %0a> !!!!Section:%0a
+host:1611934750=74.109.247.199
+author:1611934666=student2
+diff:1611934666:1611934628:=102c102%0a%3c (:input submit post "Set category and section":)%0a---%0a> (:input submit post "Select category":)%0a
+host:1611934666=74.109.247.199
+author:1611934628=student2
+diff:1611934628:1611934569:=89c89%0a%3c !!!!Category:%0a---%0a> Category:%0a93c93%0a%3c !!!!Section:%0a---%0a> Section:%0a
+host:1611934628=74.109.247.199
+author:1611934569=student2
+diff:1611934569:1611933933:=88c88%0a%3c (:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category,Section:)%0a---%0a> (:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category,section:)%0a
+host:1611934569=74.109.247.199
+author:1611933933=student2
+diff:1611933933:1611879703:=22c22%0a%3c (:input hidden Section {Profiles.{$Author}$:Section}:)%0a---%0a> (:input hidden section {Profiles.{$Author}$:section}:)%0a64c64%0a%3c (:input hidden Section {Profiles.{$Author}$:Section}:)%0a---%0a> (:input hidden section {Profiles.{$Author}$:section}:)%0a94,100c94,100%0a%3c (:input select Section value="A,B,C,D,E,F" label=" all ":)%0a%3c (:input select Section value="A" label=" A ":)%0a%3c (:input select Section value="B" label=" B ":)%0a%3c (:input select Section value="C" label=" C ":)%0a%3c (:input select Section value="D" label=" D ":)%0a%3c (:input select Section value="E" label=" E ":)%0a%3c (:input select Section value="F" label=" F ":)%0a---%0a> (:input select section value="A,B,C,D,E,F" label=" all ":)%0a> (:input select section value="A" label=" A ":)%0a> (:input select section value="B" label=" B ":)%0a> (:input select section value="C" label=" C ":)%0a> (:input select section value="D" label=" D ":)%0a> (:input select section value="E" label=" E ":)%0a> (:input select section value="F" label=" F ":)%0a
+host:1611933933=74.109.247.199
+author:1611879703=student2
+diff:1611879703:1611879629:=89d88%0a%3c Category:%0a93d91%0a%3c Section:%0a
+host:1611879703=74.109.247.199
+author:1611879629=student2
+diff:1611879629:1611879452:=88c88%0a%3c (:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category,section:)%0a---%0a> (:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category, section:)%0a
+host:1611879629=74.109.247.199
+author:1611879452=student2
+diff:1611879452:1611877676:=84,102d83%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#pickcategoryandsection]]%0a%3c (:fox pickCategoryAndSection ptvtarget={$FullName} ptvfields=Category, section:)%0a%3c (:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#selectcategory:)%0a%3c (:input default Category {$:category}:)%0a%3c %0a%3c (:input select section value="A,B,C,D,E,F" label=" all ":)%0a%3c (:input select section value="A" label=" A ":)%0a%3c (:input select section value="B" label=" B ":)%0a%3c (:input select section value="C" label=" C ":)%0a%3c (:input select section value="D" label=" D ":)%0a%3c (:input select section value="E" label=" E ":)%0a%3c (:input select section value="F" label=" F ":)%0a%3c %0a%3c (:input submit post "Select category":)%0a%3c (:foxend pickCategoryAndSection:)%0a%3c [[#pickcategoryandsectionend]]%0a
+host:1611879452=74.109.247.199
+author:1611877676=student2
+diff:1611877676:1611786993:=78c78%0a%3c (:fox pickCategory ptvtarget={$FullName} ptvfields=Category:)%0a---%0a> (:fox pickCategory ptvtarget={$FullName} ptvfields=category:)%0a80c80%0a%3c (:input default Category {$:category}:)%0a---%0a> (:input default category {$:category}:)%0a
+host:1611877676=74.109.247.199
+author:1611786993=student2
+diff:1611786993:1611786943:=28c28%0a%3c (:foxadd target=Profiles.{$$originalAuthor}#comments template=Site.FoxTemplates#expnot:)%0a---%0a> (:foxadd target=Profiles.{$$originalAuthor}#comments template=Site.FoxTemplates#:)%0a
+host:1611786993=74.109.247.199
+author:1611786943=student2
+diff:1611786943:1611779392:=28c28%0a%3c (:foxadd target=Profiles.{$$originalAuthor}#comments template=Site.FoxTemplates#:)%0a---%0a> (:foxadd target=Profiles.{$$originalAuthor}#comments foxtemplate="{$Author} expanded on your article [[{$FullName}|{$Name}]] {[foxdelline button]}":)%0a
+host:1611786943=74.109.247.199
+author:1611779392=student2
+diff:1611779392:1611779179:=26,30d25%0a%3c %0a%3c %0a%3c (:foxadd target=Profiles.{$$originalAuthor}#comments foxtemplate="{$Author} expanded on your article [[{$FullName}|{$Name}]] {[foxdelline button]}":)%0a%3c %0a%3c %0a38c33%0a%3c (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle redirect=WikiHome.MyDashboard:)%0a---%0a> (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle:redirect=WikiHome.MyDashboard)%0a40c35%0a%3c %0a---%0a> (:foxadd target=Profiles.{$$originalAuthor}#comments foxtemplate="{$Author} expanded on your article [[{$FullName}|{$Name}]] {[foxdelline button]}":)%0a
+host:1611779392=74.109.247.199
+author:1611779179=student2
+diff:1611779179:1611697568:=35d34%0a%3c (:foxadd target=Profiles.{$$originalAuthor}#comments foxtemplate="{$Author} expanded on your article [[{$FullName}|{$Name}]] {[foxdelline button]}":)%0a
+host:1611779179=74.109.247.199
+author:1611697568=student2
+diff:1611697568:1611697447:=20c20%0a%3c (:input hidden category {{$FullName}$:Category}:)%0a---%0a> (:input hidden category {{$FullName}$:Category:)%0a
+host:1611697568=74.109.247.199
+author:1611697447=student2
+diff:1611697447:1611696634:=20c20%0a%3c (:input hidden category {{$FullName}$:Category:)%0a---%0a> (:input hidden category {{$FullName}$:category:)%0a
+host:1611697447=74.109.247.199
+author:1611696634=student1
+diff:1611696634:1611696220:=33c33%0a%3c (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle:redirect=WikiHome.MyDashboard)%0a---%0a> (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle:)%0a
+host:1611696634=74.109.247.199
+author:1611696220=student1
+diff:1611696220:1611696189:=53c53%0a%3c (:input textarea content rows=10 cols=80 label="Article content":) \\%0a---%0a> (:input textarea content rows=10 cols=40 label="Article content":) \\%0a
+host:1611696220=74.109.247.199
+author:1611696189=student1
+diff:1611696189:1611696131:=37,39c37,39%0a%3c ----%0a%3c '''Category:'''%0a%3c %0a---%0a> %0a> %25blue%25 '''Category:'''%0a> %0a50c50%0a%3c ----%0a---%0a> %0a
+host:1611696189=74.109.247.199
+author:1611696131=student1
+diff:1611696131:1611695956:=42c42%0a%3c '''Title:''' %0a---%0a> %25blue%25 '''Title:''' %0a46,47c46%0a%3c '''Summary:''' %0a%3c %0a---%0a> %25blue%25 '''Summary:''' %0a49,56c48,51%0a%3c %25red%25(:foxmessage newArticle summary:)%0a%3c %0a%3c '''Content:'''%0a%3c %0a%3c (:input textarea content rows=10 cols=40 label="Article content":) \\%0a%3c %25red%25(:foxmessage newArticle content:)%0a%3c %0a%3c %0a---%0a> %0a> %25blue%25 '''Content:'''%0a> (:input textarea content label="Article content":) \\%0a> %0a64,65d58%0a%3c (:foxcheck summary msg="Please enter a short summary.":)%0a%3c (:foxcheck content msg="Please add content to your article.":)%0a
+host:1611696131=74.109.247.199
+author:1611695956=student1
+diff:1611695956:1611695815:=34c34%0a%3c (:foxadd target=Articles.TitlespacedList#titlespaced put=bottom foxtemplate="{$$name}\n":)%0a---%0a> (:foxadd target=Articles.TitlespacedList#titlespaced put=bottom foxtemplate="{$$name}":)%0a
+host:1611695956=74.109.247.199
+author:1611695815=student1
+diff:1611695815:1611695605:=58c58%0a%3c (:foxcheck name if='! intext "{$$name}" Articles.TitlespacedList' msg="Article name already used.":)%0a---%0a> (:foxcheck name if='intext {$$name} Articles.TitlespacedList' msg="Article name already used.":)%0a
+host:1611695815=74.109.247.199
+author:1611695605=student1
+diff:1611695605:1611695575:=58c58%0a%3c (:foxcheck name if='intext {$$name} Articles.TitlespacedList' msg="Article name already used.":)%0a---%0a> (:foxcheck name if='intext Shmarticle Articles.TitlespacedList' msg="Article name already used.":)%0a
+host:1611695605=74.109.247.199
+author:1611695575=student1
+diff:1611695575:1611695495:=58c58%0a%3c (:foxcheck name if='intext Shmarticle Articles.TitlespacedList' msg="Article name already used.":)%0a---%0a> (:foxcheck name if='[ intext Shmarticle Articles.TitlespacedList ]' msg="Article name already used.":)%0a
+host:1611695575=74.109.247.199
+author:1611695495=student1
+diff:1611695495:1611695448:=58c58%0a%3c (:foxcheck name if='[ intext Shmarticle Articles.TitlespacedList ]' msg="Article name already used.":)%0a---%0a> (:foxcheck name if='[ intext Article Articles.TitlespacedList ]' msg="Article name already used.":)%0a
+host:1611695495=74.109.247.199
+author:1611695448=student1
+diff:1611695448:1611695383:=58c58%0a%3c (:foxcheck name if='[ intext Article Articles.TitlespacedList ]' msg="Article name already used.":)%0a---%0a> (:foxcheck name if='intext Article Articles.TitlespacedList' msg="Article name already used.":)%0a
+host:1611695448=74.109.247.199
+author:1611695383=student1
+diff:1611695383:1611695317:=58c58%0a%3c (:foxcheck name if='intext Article Articles.TitlespacedList' msg="Article name already used.":)%0a---%0a> (:foxcheck name msg="Article name already used.":)%0a
+host:1611695383=74.109.247.199
+author:1611695317=student1
+diff:1611695317:1611695249:=44c44%0a%3c %25red%25(:foxmessage newArticle name:)%0a---%0a> %25red%25(:foxmessages name:)%0a
+host:1611695317=74.109.247.199
+author:1611695249=student1
+diff:1611695249:1611695038:=58c58%0a%3c (:foxcheck name msg="Article name already used.":)%0a---%0a> (:foxcheck name if=' ! intext {$$name} Articles.TitlespacedList' msg="Article name already used.":)%0a
+host:1611695249=74.109.247.199
+author:1611695038=student1
+diff:1611695038:1611693551:=34,35d33%0a%3c (:foxadd target=Articles.TitlespacedList#titlespaced put=bottom foxtemplate="{$$name}":)%0a%3c %0a
+host:1611695038=74.109.247.199
+author:1611693551=student1
+diff:1611693551:1611691752:=56c56%0a%3c (:foxcheck name if=' ! intext {$$name} Articles.TitlespacedList' msg="Article name already used.":)%0a---%0a> (:foxcheck name if=' ! exists {GradebookArticles.{$$name}}' msg="Article name already used.":)%0a
+host:1611693551=74.109.247.199
+author:1611691752=student1
+diff:1611691752:1611690840:=56c56%0a%3c (:foxcheck name if=' ! exists {GradebookArticles.{$$name}}' msg="Article name already used.":)%0a---%0a> (:foxcheck name if=' ! exists GradebookArticles.{$$name}' msg="Article name already used.":)%0a
+host:1611691752=74.109.247.199
+author:1611690840=student1
+diff:1611690840:1611613074:=56c56%0a%3c (:foxcheck name if=' ! exists GradebookArticles.{$$name}' msg="Article name already used.":)%0a---%0a> (:foxcheck name if='! exists GradebookArticles.{$$name}':)%0a
+host:1611690840=74.109.247.199
+author:1611613074=student1
+diff:1611613074:1611612730:=110c110%0a%3c (:foxptv ptvtarget=GradebookArticles.{=$Name} ptvfields=Status :)%0a---%0a> (:foxptv ptvtarget=GradebookArticles.{$$name} ptvfields=Status :)%0a
+host:1611613074=74.109.247.199
+author:1611612730=student1
+diff:1611612730:1611611559:=105,115c105%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#markRevised]]%0a%3c (:fox markRevised:)%0a%3c (:foxptv ptvtarget=GradebookArticles.{$$name} ptvfields=Status :)%0a%3c (:input hidden Status revised:)%0a%3c (:input submit post "Mark Revised":)%0a%3c (:foxend markRevised:)%0a%3c [[#markRevisedend]]%0a%3c >>%3c%3c%0a---%0a> >>%3c%3c%0a\ No newline at end of file%0a
+host:1611612730=74.109.247.199
+author:1611611559=student1
+diff:1611611559:1611610802:=74c74%0a%3c >>comment%3c%3c%0a---%0a> %0a91,105c91%0a%3c [[#gradeitemend]]%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a%3c [[#gradingcomment]]%0a%3c (:fox gradingComment:)%0a%3c (:foxadd target=GradebookArticles.{$Name}#comments put=top template=Site.FoxTemplates#gradingcomment :)%0a%3c %0a%3c (:input hidden author {$Author} :)%0a%3c (:input textarea comment rows=4 cols=30 :)%0a%3c %0a%3c (:input submit post "Submit":)%0a%3c (:foxend gradingComment:)%0a%3c [[#gradingcommentend]]%0a%3c >>%3c%3c%0a\ No newline at end of file%0a---%0a> [[#gradeitemend]]%0a\ No newline at end of file%0a
+host:1611611559=74.109.247.199
+author:1611610802=student1
+diff:1611610802:1611610723:=77,79c77,79%0a%3c (:foxptv ptvtarget=GradebookArticles.{$Name} ptvfields=Status,GradedBy :)%0a%3c (:foxadd target=GradebookArticles.{$Name}#history put=top template=Site.FoxTemplates#gradinglog :)%0a%3c %0a---%0a> (:foxptv ptvtarget=GradebookArticles.{$Name} ptvfields=Status,GradedBy:)%0a> (:foxadd target=GradebookArticles.{$Name} put=top template=Site.FoxTemplates#gradinglog :)%0a> %0a81,85c81,85%0a%3c (:input radio Status ungraded "Ungraded":)%0a%3c (:input radio Status complete "Complete":)%0a%3c (:input radio Status needsRevised "Requires Revisions":)%0a%3c (:input radio Status revised "Revised":)%0a%3c (:input radio Status noCredit "No Credit":)%0a---%0a> (:input radio Status ungraded :)%0a> (:input radio Status complete :)%0a> (:input radio Status needsRevised :)%0a> (:input radio Status revised :)%0a> (:input radio Status noCredit :)%0a
+host:1611610802=74.109.247.199
+author:1611610723=student1
+diff:1611610723:1611583482:=1d0%0a%3c >>comment%3c%3c%0a11,13c10%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a---%0a> %0a29,31c26,27%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a---%0a> %0a> %0a59,61c55,56%0a%3c >>%3c%3c%0a%3c %0a%3c >>comment%3c%3c%0a---%0a> %0a> %0a69,74c64,67%0a%3c >>%3c%3c%0a%3c %0a%3c %0a%3c %0a%3c %0a%3c %0a---%0a> %0a> %0a> %0a> %0a76,90d68%0a%3c (:fox gradeArticle:)%0a%3c (:foxptv ptvtarget=GradebookArticles.{$Name} ptvfields=Status,GradedBy:)%0a%3c (:foxadd target=GradebookArticles.{$Name} put=top template=Site.FoxTemplates#gradinglog :)%0a%3c %0a%3c (:input default Status {$:Status}:)%0a%3c (:input radio Status ungraded :)%0a%3c (:input radio Status complete :)%0a%3c (:input radio Status needsRevised :)%0a%3c (:input radio Status revised :)%0a%3c (:input radio Status noCredit :)%0a%3c %0a%3c (:input hidden GradedBy {$Author}:)%0a%3c %0a%3c (:input submit post "Submit":)%0a%3c (:foxend gradeArticle:)%0a
+host:1611610723=74.109.247.199
+author:1611583482=student1
+diff:1611583482:1611583449:=13,14c13%0a%3c '''Expansion heading:''' (:input text name size=25:) \\%0a%3c %0a---%0a> Expansion heading: (:input text name size=25:) \\%0a
+host:1611583482=74.109.247.199
+author:1611583449=student1
+diff:1611583449:1611340454:=14,15c14,15%0a%3c '''Content:'''%0a%3c (:input textarea content cols=25 rows=5:)%0a---%0a> '''Your Comment:'''%0a> (:input textarea content cols=20 rows=3:)%0a
+host:1611583449=74.109.247.199
+author:1611340454=student1
+diff:1611340454:1611340248:=12c12%0a%3c (:fox newExpansion target=GradebookExpansions.{$Name}-{$Author},{$FullName}#expansions template=Templates.GradebookExpansion,Site.FoxTemplates#expansion:)%0a---%0a> (:fox newExpansion target=GradebookExpansions.{$Name}-{$Author},{$FullName#expansions} template=Templates.GradebookExpansion,Site.FoxTemplates#expansion:)%0a
+host:1611340454=74.109.247.199
+author:1611340248=student1
+diff:1611340248:1611339954:=12c12%0a%3c (:fox newExpansion target=GradebookExpansions.{$Name}-{$Author},{$FullName#expansions} template=Templates.GradebookExpansion,Site.FoxTemplates#expansion:)%0a---%0a> (:fox newExpansion target={$FullName}#expansions,GradebookExpansions.{$Name}-{$Author} template=Site.FoxTemplates#expansion,Templates.GradebookExpansion:)%0a21d20%0a%3c (:input hidden status ungraded:)%0a47d45%0a%3c (:input hidden status ungraded:)%0a
+host:1611340248=74.109.247.199
+author:1611339954=student1
+diff:1611339954:1611339855:=16d15%0a%3c (:input hidden category {{$FullName}$:category:)%0a
+host:1611339954=74.109.247.199
+author:1611339855=student1
+diff:1611339855:1611339652:=19c19%0a%3c (:input hidden originalAuthor {{$FullName}$:Author}:)%0a---%0a> (:input hidden originalAuthor {$:author}:)%0a
+host:1611339855=74.109.247.199
+author:1611339652=student1
+diff:1611339652:1611339609:=12c12%0a%3c (:fox newExpansion target={$FullName}#expansions,GradebookExpansions.{$Name}-{$Author} template=Site.FoxTemplates#expansion,Templates.GradebookExpansion:)%0a---%0a> (:fox newExpansion target={$FullName}#expansions,GradebookExpansions.{$Name}-{$Author} template=Site.FoxTemplates#expansion,Templates.NewExpansion:)%0a
+host:1611339652=74.109.247.199
+author:1611339609=student1
+diff:1611339609:1611339321:=12c12%0a%3c (:fox newExpansion target={$FullName}#expansions,GradebookExpansions.{$Name}-{$Author} template=Site.FoxTemplates#expansion,Templates.NewExpansion:)%0a---%0a> (:fox newExpansion target={$FullName#expansions},GradebookExpansions.{$Name}-{$Author} template=Site.FoxTemplates#expansion,Templates.NewExpansion:)%0a
+host:1611339609=74.109.247.199
+author:1611339321=student1
+diff:1611339321:1611339167:=20d19%0a%3c (:input submit post "Add expansion":)%0a
+host:1611339321=74.109.247.199
+author:1611339167=student1
+diff:1611339167:1611337677:=11,23c11%0a%3c [[#newexpansion]]%0a%3c (:fox newExpansion target={$FullName#expansions},GradebookExpansions.{$Name}-{$Author} template=Site.FoxTemplates#expansion,Templates.NewExpansion:)%0a%3c Expansion heading: (:input text name size=25:) \\%0a%3c '''Your Comment:'''%0a%3c (:input textarea content cols=20 rows=3:)%0a%3c (:input hidden author {$Author}:)%0a%3c (:input hidden section {Profiles.{$Author}$:section}:)%0a%3c (:input hidden original {$Name}:)%0a%3c (:input hidden originalAuthor {$:author}:)%0a%3c (:foxend newExpansion:)%0a%3c [[#newexpansionend]]%0a%3c %0a%3c %0a---%0a> %0a49,51c37,39%0a%3c [[#newarticleend]]%0a%3c %0a%3c %0a---%0a> [[#newarticle]]%0a> %0a> %0a61c49,57%0a%3c %0a---%0a> [[#newexpansion]]%0a> (:fox newExpansion:)%0a> (:input text title:)%0a> (:input text content:)%0a> %0a> (:foxadd target={$FullName}#expansions put=bottom template=Templates.NewExpansion:)%0a> (:foxcopy Templates.NewExpansion=>GradebookExpansions.{$Name}-{$Author}:)%0a> (:foxend newExpansion:)%0a> [[#newexpansionend]]%0a
+host:1611339167=74.109.247.199
+author:1611337677=student1
+diff:1611337677:1611337502:=35c35%0a%3c (:foxcheck name if='! exists GradebookArticles.{$$name}':)%0a---%0a> %0a
+host:1611337677=74.109.247.199
+author:1611337502=student1
+diff:1611337502:1611337385:=13c13%0a%3c (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Templates.NewArticle:)%0a---%0a> (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Articles.NewArticle:)%0a
+host:1611337502=74.109.247.199
+author:1611337385=student1
+diff:1611337385:1611337249:=13c13%0a%3c (:fox newArticle target=GradebookArticles.{$$name},Articles.{$$name} template=Templates.GradebookArticle,Articles.NewArticle:)%0a---%0a> (:fox newArticle target=GradebookArticles.{$$name} template=Templates.GradebookArticle:)%0a
+host:1611337385=74.109.247.199
+author:1611337249=student1
+diff:1611337249:1611336993:=13c13%0a%3c (:fox newArticle target=GradebookArticles.{$$name} template=Templates.GradebookArticle:)%0a---%0a> (:fox newArticle target=Articles.{$$name},GradebookArticles.{$$name} template=Templates.NewArticle,Templates.GradebookArticle:)%0a
+host:1611337249=74.109.247.199
+author:1611336993=student1
+diff:1611336993:1611336517:=13c13%0a%3c (:fox newArticle target=Articles.{$$name},GradebookArticles.{$$name} template=Templates.NewArticle,Templates.GradebookArticle:)%0a---%0a> (:fox newArticle target=Articles.{$$name} template=Templates.NewArticle:)%0a35a36%0a> (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$name}:)%0a
+host:1611336993=74.109.247.199
+author:1611336517=student1
+diff:1611336517:1611179320:=31d30%0a%3c (:input hidden section {Profiles.{$Author}$:section}:)%0a
+host:1611336517=74.109.247.199
+author:1611179320=student1
+diff:1611179320:1610640522:=50,56c50%0a%3c (:fox newExpansion:)%0a%3c (:input text title:)%0a%3c (:input text content:)%0a%3c %0a%3c (:foxadd target={$FullName}#expansions put=bottom template=Templates.NewExpansion:)%0a%3c (:foxcopy Templates.NewExpansion=>GradebookExpansions.{$Name}-{$Author}:)%0a%3c (:foxend newExpansion:)%0a---%0a> %0a59a54%0a> %0a
+host:1611179320=74.109.247.199
+author:1610640522=
+diff:1610640522:1610637720:=31c31%0a%3c %0a---%0a> (:input hidden %0a
+host:1610640522=74.109.247.199
+author:1610637720=
+diff:1610637720:1610573931:=15,19d14%0a%3c %0a%3c %25blue%25 '''Category:'''%0a%3c %0a%3c (:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#selectcategory:)%0a%3c %0a22,32c17%0a%3c %25red%25(:foxmessages name:)%0a%3c %0a%3c %25blue%25 '''Summary:''' %0a%3c (:input text summary size=60 label="summary":) \\%0a%3c %0a%3c %25blue%25 '''Content:'''%0a%3c (:input textarea content label="Article content":) \\%0a%3c %0a%3c (:input hidden author {$Author}:)%0a%3c (:input hidden %0a%3c %0a---%0a> %0a36c21%0a%3c (:foxend newArticle:)%0a---%0a> (:foxend addArticle:)%0a46,55c31%0a%3c [[#pickcategoryend]]%0a%3c %0a%3c %0a%3c [[#newexpansion]]%0a%3c %0a%3c [[#newexpansionend]]%0a%3c %0a%3c [[#gradeitem]]%0a%3c %0a%3c [[#gradeitemend]]%0a\ No newline at end of file%0a---%0a> [[#pickcategoryend]]%0a\ No newline at end of file%0a
+host:1610637720=74.109.247.199
+author:1610573931=
+diff:1610573931:1598835753:=9,31c9%0a%3c [[#commentformend]]%0a%3c %0a%3c %0a%3c [[#newarticle]]%0a%3c (:fox newArticle target=Articles.{$$name} template=Templates.NewArticle:)%0a%3c (:input default request=1:)%0a%3c %25blue%25 '''Title:''' %0a%3c (:input text name:) \\%0a%3c %0a%3c (:input submit post:)%0a%3c %0a%3c (:foxcopy Templates.GradebookArticle=>GradebookArticles.{$$name}:)%0a%3c (:foxend addArticle:)%0a%3c [[#newarticle]]%0a%3c %0a%3c %0a%3c [[#pickcategory]]%0a%3c (:fox pickCategory ptvtarget={$FullName} ptvfields=category:)%0a%3c (:pagelist group=Category list=normal  name=-Category fmt=Templates/PagelistTemplates#selectcategory:)%0a%3c (:input default category {$:category}:)%0a%3c (:input submit post "Select category":)%0a%3c (:foxend pickCategory:)%0a%3c [[#pickcategoryend]]%0a\ No newline at end of file%0a---%0a> [[#commentformend]]%0a\ No newline at end of file%0a
+host:1610573931=74.109.247.199
+author:1598835753=will
+diff:1598835753:1598835726:=4c4%0a%3c Subject: (:input text heading size=25:) \\%0a---%0a> Subject: (:input text heading size=10:)%0a
+host:1598835753=108.32.35.122
+author:1598835726=will
+diff:1598835726:1598834341:=4d3%0a%3c Subject: (:input text heading size=10:)%0a6c5%0a%3c (:input textarea comment cols=20 rows=3:)%0a---%0a> (:input textarea comment cols=10 rows=1:)%0a
+host:1598835726=108.32.35.122
+author:1598834341=will
+diff:1598834341:1598834293:=5c5%0a%3c (:input textarea comment cols=10 rows=1:)%0a---%0a> (:input textarea comment cols=40 rows=2:)%0a
+host:1598834341=108.32.35.122
+author:1598834293=will
+diff:1598834293:1598833949:=3a4%0a> Subject: (:input text heading size=60:)%0a5c6%0a%3c (:input textarea comment cols=40 rows=2:)%0a---%0a> (:input textarea comment cols=60 rows=6:)%0a
+host:1598834293=108.32.35.122
+author:1598833949=will
+diff:1598833949:1598833949:=1,9d0%0a%3c [[#commentform]]%0a%3c (:foxmessage:)%0a%3c (:fox cbox put=below mark=!!Comments template=Site.FoxTemplates#comment:)%0a%3c Subject: (:input text heading size=60:)%0a%3c '''Your Comment:'''%0a%3c (:input textarea comment cols=60 rows=6:)%0a%3c (:input hidden author value='{$AuthId}' :) (:input submit post "Add Comment":)%0a%3c (:foxend cbox:)%0a%3c [[#commentformend]]%0a\ No newline at end of file%0a
+host:1598833949=108.32.35.122

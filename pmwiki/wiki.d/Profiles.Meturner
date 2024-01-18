@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=meturner
+charset=UTF-8
+csum=
+ctime=1661962836
+host=128.237.82.13
+name=Profiles.Meturner
+rev=3
+targets=
+text=(:andrewid: meturner:)%0a(:section: F:)%0a%0a(:name: meturner:)%0a(:lvl: full:)
+time=1661963484
+author:1661963484=meturner
+diff:1661963484:1661962852:=4,5c4%0a%3c (:name: meturner:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: meturner:)%0a\ No newline at end of file%0a
+host:1661963484=128.237.82.13
+author:1661962852=meturner
+diff:1661962852:1661962836:=1,4c1%0a%3c (:andrewid: meturner:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: meturner:)%0a\ No newline at end of file%0a---%0a> (:andrewid: meturner:)%0a\ No newline at end of file%0a
+host:1661962852=128.237.82.13
+author:1661962836=meturner
+diff:1661962836:1661962836:=1d0%0a%3c (:andrewid: meturner:)%0a\ No newline at end of file%0a
+host:1661962836=128.237.82.13

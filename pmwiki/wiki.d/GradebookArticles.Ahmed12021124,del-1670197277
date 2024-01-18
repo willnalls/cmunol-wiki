@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=ahmed
+charset=UTF-8
+csum=
+ctime=1670009129
+host=128.237.82.9
+name=GradebookArticles.Ahmed12021124
+rev=1
+targets=
+text=:Category: LinguisticDiscriminationInTheWild%0a:Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a:Title: Kamang %0a:Author: ahmed%0a:Section: E%0a:Completed: 02.12.2022 - 11:25%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aA look at the causes and endangerment of Kamang (Wosikia)%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.ahmed12021124#content:)%0a%0a[[#contentends]]%0a----
+time=1670009129
+author:1670009129=ahmed
+diff:1670009129:1670009129:=1,51d0%0a%3c :Category: LinguisticDiscriminationInTheWild%0a%3c :Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a%3c :Title: Kamang %0a%3c :Author: ahmed%0a%3c :Section: E%0a%3c :Completed: 02.12.2022 - 11:25%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c A look at the causes and endangerment of Kamang (Wosikia)%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.ahmed12021124#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670009129=128.237.82.9

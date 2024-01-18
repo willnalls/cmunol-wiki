@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=angelac3
+charset=UTF-8
+csum=
+ctime=1667592157
+host=128.237.82.8
+name=GradebookArticles.Angelac311041259
+rev=1
+targets=
+text=:Category: MorphosyntacticDiversityOfEnglish%0a:Essential: {Category.MorphosyntacticDiversityOfEnglish$:essential}%0a:Title: Namuyi%0a:Author: angelac3%0a:Section: E%0a:Completed: 04.11.2022 - 13:02%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aNamuyi is an endangered language. %0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.angelac311041259#content:)%0a%0a[[#contentends]]%0a----
+time=1667592157
+author:1667592157=angelac3
+diff:1667592157:1667592157:=1,51d0%0a%3c :Category: MorphosyntacticDiversityOfEnglish%0a%3c :Essential: {Category.MorphosyntacticDiversityOfEnglish$:essential}%0a%3c :Title: Namuyi%0a%3c :Author: angelac3%0a%3c :Section: E%0a%3c :Completed: 04.11.2022 - 13:02%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Namuyi is an endangered language. %0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.angelac311041259#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1667592157=128.237.82.8

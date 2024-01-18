@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1668733546
+host=172.58.184.253
+name=GradebookArticles.Jon11171643
+rev=3
+targets=
+text=:Category: SignLanguage%0a:Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a:Title: Sign Language in the Philippines%0a:Author: jon%0a:Section: E%0a:Completed: 17.11.2022 - 17:05%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221205-015616-370110#%0a* [-04.12.2022 - 17:56-] || yuminf22ta marked as complete%0a#foxend 221205-015616-370110#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aA summary of the different sign languages used in the Philippines over time.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.jon11171643#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: yuminf22ta:)
+time=1670205376
+author:1670205376=yuminf22ta
+diff:1670205376:1669588625:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221205-015616-370110#%0a%3c * [-04.12.2022 - 17:56-] || yuminf22ta marked as complete%0a%3c #foxend 221205-015616-370110#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1670205376=172.58.184.253
+author:1669588625=jon
+diff:1669588625:1668733546:=1c1%0a%3c :Category: SignLanguage%0a---%0a> :Category: IndigenousLanguagesOfTheAmericas%0a
+host:1669588625=71.182.156.135
+author:1668733546=jon
+diff:1668733546:1668733546:=1,51d0%0a%3c :Category: IndigenousLanguagesOfTheAmericas%0a%3c :Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a%3c :Title: Sign Language in the Philippines%0a%3c :Author: jon%0a%3c :Section: E%0a%3c :Completed: 17.11.2022 - 17:05%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c A summary of the different sign languages used in the Philippines over time.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.jon11171643#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1668733546=128.237.82.16

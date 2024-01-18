@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=wennaz
+charset=UTF-8
+csum=
+ctime=1661964565
+host=128.237.82.19
+name=Profiles.Wennaz
+rev=3
+targets=
+text=(:lvl: full:)%0a(:andrewid: wennaz:)
+time=1662553018
+author:1662553018=wennaz
+diff:1662553018:1661964571:=1,2c1%0a%3c (:lvl: full:)%0a%3c (:andrewid: wennaz:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1662553018=128.237.82.19
+author:1661964571=wennaz
+diff:1661964571:1661964565:=1c1%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:lvl: minimal:)%0a\ No newline at end of file%0a
+host:1661964571=128.237.82.1
+author:1661964565=wennaz
+diff:1661964565:1661964565:=1d0%0a%3c (:lvl: minimal:)%0a\ No newline at end of file%0a
+host:1661964565=128.237.82.1

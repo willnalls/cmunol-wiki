@@ -1,0 +1,120 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+author=maggiez
+charset=UTF-8
+csum=
+ctime=1644244288
+host=128.237.82.1
+name=Gradebook.Profiles
+rev=36
+targets=Gradebook.Gradebook
+text=[[Gradebook.Gradebook | Back to Gradebook ]]%0a%0aSet section here:%0a%0a(:fox setSection:)%0a(:input select name=section value=A :)%0a(:input select name=section value=B :)%0a(:input select name=section value=C :)%0a(:input select section value=D :) %0a(:input select section value=E :) %0a(:input select section value=F :) %0a(:input select section value=none :)%0a(:input select section value="*" label="all":)%0a(:input submit post:)%0a(:foxptv ptvtarget=Gradebook.Profiles ptvfields=section:)%0a(:foxend setSection:)%0a%0a!!!Section: {$:section}%0a(:section: C:)%0a(:if equal {$:section} "none":) %0a%0a(:pagelist group=Profiles $:section=-?* fmt=Templates.PagelistTemplates#profiles:)%0a%0a(:else:)%0a%0a(:pagelist group=Profiles list=normal $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a%0a(:ifend:)
+time=1652248413
+author:1652248413=maggiez
+diff:1652248413:1651624334:=19c19%0a%3c (:section: C:)%0a---%0a> (:section: D:)%0a
+host:1652248413=128.237.82.1
+author:1651624334=maggiez
+diff:1651624334:1651620158:=19c19%0a%3c (:section: D:)%0a---%0a> (:section: none:)%0a
+host:1651624334=96.44.9.81
+author:1651620158=maggiez
+diff:1651620158:1651615398:=19c19%0a%3c (:section: none:)%0a---%0a> (:section: D:)%0a
+host:1651620158=96.44.9.81
+author:1651615398=maggiez
+diff:1651615398:1651615383:=19c19%0a%3c (:section: D:)%0a---%0a> (:section: B:)%0a
+host:1651615398=96.44.9.81
+author:1651615383=maggiez
+diff:1651615383:1644252167:=19c19%0a%3c (:section: B:)%0a---%0a> (:section: none:)%0a
+host:1651615383=96.44.9.81
+author:1644252167=
+diff:1644252167:1644251825:=19c19%0a%3c (:section: none:)%0a---%0a> (:section: *:)%0a
+host:1644252167=74.109.239.200
+author:1644251825=
+diff:1644251825:1644251813:=1c1%0a%3c [[Gradebook.Gradebook | Back to Gradebook ]]%0a---%0a> [[Gradebook.Gradebook | Back to Gradebook ]] //%0a
+host:1644251825=74.109.239.200
+author:1644251813=
+diff:1644251813:1644250907:=1,2d0%0a%3c [[Gradebook.Gradebook | Back to Gradebook ]] //%0a%3c %0a
+host:1644251813=74.109.239.200
+author:1644250907=
+diff:1644250907:1644250902:=17c17%0a%3c (:section: *:)%0a---%0a> (:section: none:)%0a
+host:1644250907=74.109.239.200
+author:1644250902=
+diff:1644250902:1644250797:=11c11%0a%3c (:input select section value="*" label="all":)%0a---%0a> (:input select section value="A,B,C,D,E,F" label="all":)%0a
+host:1644250902=74.109.239.200
+author:1644250797=
+diff:1644250797:1644250734:=17c17%0a%3c (:section: none:)%0a---%0a> (:section: A,B,C,D,E,F:)%0a
+host:1644250797=74.109.239.200
+author:1644250734=
+diff:1644250734:1644250728:=17c17%0a%3c (:section: A,B,C,D,E,F:)%0a---%0a> (:section: A:)%0a
+host:1644250734=74.109.239.200
+author:1644250728=
+diff:1644250728:1644250690:=11d10%0a%3c (:input select section value="A,B,C,D,E,F" label="all":)%0a
+host:1644250728=74.109.239.200
+author:1644250690=
+diff:1644250690:1644245917:=16c16%0a%3c (:section: A:)%0a---%0a> (:section: none:)%0a
+host:1644250690=74.109.239.200
+author:1644245917=
+diff:1644245917:1644245118:=23c23%0a%3c (:pagelist group=Profiles list=normal $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a---%0a> (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a
+host:1644245917=74.109.239.200
+author:1644245118=
+diff:1644245118:1644245101:=13a14,15%0a> %0a> (:foxmessages:)%0a
+host:1644245118=74.109.239.200
+author:1644245101=
+diff:1644245101:1644245096:=18c18%0a%3c (:section: none:)%0a---%0a> (:section: -?*:)%0a
+host:1644245101=74.109.239.200
+author:1644245096=
+diff:1644245096:1644245080:=10c10%0a%3c (:input select section value=none :)%0a---%0a> (:input select section value='-?*' label=none :)%0a
+host:1644245096=74.109.239.200
+author:1644245080=
+diff:1644245080:1644245072:=18c18%0a%3c (:section: -?*:)%0a---%0a> (:section: A:)%0a
+host:1644245080=74.109.239.200
+author:1644245072=
+diff:1644245072:1644245027:=19,27c19,22%0a%3c (:if equal {$:section} "none":) %0a%3c %0a%3c (:pagelist group=Profiles $:section=-?* fmt=Templates.PagelistTemplates#profiles:)%0a%3c %0a%3c (:else:)%0a%3c %0a%3c (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a%3c %0a%3c (:ifend:)%0a\ No newline at end of file%0a---%0a> (:if equal {$:section} "A":) (-?* means no section recorded)%0a> (:ifend:)%0a> %0a> (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a\ No newline at end of file%0a
+host:1644245072=74.109.239.200
+author:1644245027=
+diff:1644245027:1644245020:=18c18%0a%3c (:section: A:)%0a---%0a> (:section: -?*:)%0a
+host:1644245027=74.109.239.200
+author:1644245020=
+diff:1644245020:1644244998:=19c19%0a%3c (:if equal {$:section} "A":) (-?* means no section recorded)%0a---%0a> (:if equal {$:section} "-?*":) (-?* means no section recorded)%0a
+host:1644245020=74.109.239.200
+author:1644244998=
+diff:1644244998:1644244991:=18c18%0a%3c (:section: -?*:)%0a---%0a> (:section: B:)%0a
+host:1644244998=74.109.239.200
+author:1644244991=
+diff:1644244991:1644244983:=18c18%0a%3c (:section: B:)%0a---%0a> (:section: -?*:)%0a
+host:1644244991=74.109.239.200
+author:1644244983=
+diff:1644244983:1644244800:=19,20d18%0a%3c (:if equal {$:section} "-?*":) (-?* means no section recorded)%0a%3c (:ifend:)%0a
+host:1644244983=74.109.239.200
+author:1644244800=
+diff:1644244800:1644244790:=18,20c18,22%0a%3c (:section: -?*:)%0a%3c %0a%3c (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a> %0a> (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a> %0a> %0a
+host:1644244800=74.109.239.200
+author:1644244790=
+diff:1644244790:1644244753:=10c10%0a%3c (:input select section value='-?*' label=none :)%0a---%0a> (:input select section value='' label=none :)%0a22a23,26%0a> None:%0a> %0a> %0a> (:pagelist group=Profiles $:section=-?* :)%0a\ No newline at end of file%0a
+host:1644244790=74.109.239.200
+author:1644244753=
+diff:1644244753:1644244652:=26c26%0a%3c (:pagelist group=Profiles $:section=-?* :)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles $:section='' :)%0a\ No newline at end of file%0a
+host:1644244753=74.109.239.200
+author:1644244652=
+diff:1644244652:1644244606:=20,26c20%0a%3c (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a%3c %0a%3c %0a%3c None:%0a%3c %0a%3c %0a%3c (:pagelist group=Profiles $:section='' :)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a\ No newline at end of file%0a
+host:1644244652=74.109.239.200
+author:1644244606=
+diff:1644244606:1644244545:=14,15d13%0a%3c %0a%3c (:foxmessages:)%0a
+host:1644244606=74.109.239.200
+author:1644244545=
+diff:1644244545:1644244468:=7,10c7,9%0a%3c (:input select section value=D :) %0a%3c (:input select section value=E :) %0a%3c (:input select section value=F :) %0a%3c (:input select section value='' label=none :)%0a---%0a> (:input select section 'D':) %0a> (:input select section 'E':) %0a> (:input select section 'D':) %0a18c17%0a%3c (:pagelist group=Profiles $:section={$:section} fmt=Templates.PagelistTemplates#profiles:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles $:section={$:section}:)%0a\ No newline at end of file%0a
+host:1644244545=74.109.239.200
+author:1644244468=
+diff:1644244468:1644244438:=15,17c15%0a%3c (:section: C:)%0a%3c %0a%3c (:pagelist group=Profiles $:section={$:section}:)%0a\ No newline at end of file%0a---%0a> (:section: C:)%0a\ No newline at end of file%0a
+host:1644244468=74.109.239.200
+author:1644244438=
+diff:1644244438:1644244428:=14,15c14%0a%3c !!!Section: {$:section}%0a%3c (:section: C:)%0a\ No newline at end of file%0a---%0a> !!!Section: {$:section}%0a\ No newline at end of file%0a
+host:1644244438=74.109.239.200
+author:1644244428=
+diff:1644244428:1644244371:=4,9c4,9%0a%3c (:input select name=section value=A :)%0a%3c (:input select name=section value=B :)%0a%3c (:input select name=section value=C :)%0a%3c (:input select section 'D':) %0a%3c (:input select section 'E':) %0a%3c (:input select section 'D':) %0a---%0a> (:input select name=section value=A:) \\%0a> (:input select name=section value=B:) \\%0a> (:input select section 'C':) \\%0a> (:input select section 'D':) \\%0a> (:input select section 'E':) \\%0a> (:input select section 'D':) \\%0a
+host:1644244428=74.109.239.200
+author:1644244371=
+diff:1644244371:1644244288:=4,5c4,5%0a%3c (:input select name=section value=A:) \\%0a%3c (:input select name=section value=B:) \\%0a---%0a> (:input select section 'A':) \\%0a> (:input select section 'B':) \\%0a
+host:1644244371=74.109.239.200
+author:1644244288=
+diff:1644244288:1644244288:=1,14d0%0a%3c Set section here:%0a%3c %0a%3c (:fox setSection:)%0a%3c (:input select section 'A':) \\%0a%3c (:input select section 'B':) \\%0a%3c (:input select section 'C':) \\%0a%3c (:input select section 'D':) \\%0a%3c (:input select section 'E':) \\%0a%3c (:input select section 'D':) \\%0a%3c (:input submit post:)%0a%3c (:foxptv ptvtarget=Gradebook.Profiles ptvfields=section:)%0a%3c (:foxend setSection:)%0a%3c %0a%3c !!!Section: {$:section}%0a\ No newline at end of file%0a
+host:1644244288=74.109.239.200

@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+author=ssbisht
+charset=UTF-8
+csum=
+ctime=1670129786
+host=128.237.82.14
+name=GradebookArticles.Ssbisht12032056
+rev=1
+targets=
+text=:Category: EndangeredLanguages%0a:Essential: {Category.EndangeredLanguages$:essential}%0a:Title: Phonology and Morphology in ASL%0a:Author: ssbisht%0a:Section: E%0a:Completed: 03.12.2022 - 20:56%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aComparison of ASL with spoken languages%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.ssbisht12032056#content:)%0a%0a[[#contentends]]%0a----
+time=1670129786
+author:1670129786=ssbisht
+diff:1670129786:1670129786:=1,51d0%0a%3c :Category: EndangeredLanguages%0a%3c :Essential: {Category.EndangeredLanguages$:essential}%0a%3c :Title: Phonology and Morphology in ASL%0a%3c :Author: ssbisht%0a%3c :Section: E%0a%3c :Completed: 03.12.2022 - 20:56%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Comparison of ASL with spoken languages%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.ssbisht12032056#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670129786=128.237.82.14

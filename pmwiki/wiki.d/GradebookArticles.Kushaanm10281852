@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (iPad; CPU OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.66 Mobile/15E148 Safari/604.1
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1667008395
+host=128.237.82.3
+name=GradebookArticles.Kushaanm10281852
+rev=3
+targets=
+text=:Category: LanguageOfTheNacirema%0a:Essential: {Category.LanguageOfTheNacirema$:essential}%0a:Title: Philosophy Lessons from Chair%0a:Author: kushaanm%0a:Section: E%0a:Completed: 28.10.2022 - 18:53%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221101-162432-78800#%0a* [-01.11.2022 - 09:24-] || yuminf22ta marked as complete%0a#foxend 221101-162432-78800#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a#foxbegin 221101-162405-629410#%0a----%0a>>rfloat%3c%3c   %0a[-01.11.2022 - 09:24-] &nbsp; %0a>>%3c%3c%0a!!!!!yuminf22ta%0a %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 221101-162405-629410 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 221101-162405-629410#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aPolysemy%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.kushaanm10281852#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: yuminf22ta:)
+time=1667319872
+author:1667319872=yuminf22ta
+diff:1667319872:1667319844:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221101-162432-78800#%0a%3c * [-01.11.2022 - 09:24-] || yuminf22ta marked as complete%0a%3c #foxend 221101-162432-78800#%0a---%0a> %0a65,66c63%0a%3c ----%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1667319872=128.237.82.3
+author:1667319844=yuminf22ta
+diff:1667319844:1667008395:=30,42c30%0a%3c #foxbegin 221101-162405-629410#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-01.11.2022 - 09:24-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!yuminf22ta%0a%3c  %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 221101-162405-629410 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 221101-162405-629410#%0a---%0a> %0a
+host:1667319844=128.237.82.3
+author:1667008395=kushaanm
+diff:1667008395:1667008395:=1,51d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Essential: {Category.LanguageOfTheNacirema$:essential}%0a%3c :Title: Philosophy Lessons from Chair%0a%3c :Author: kushaanm%0a%3c :Section: E%0a%3c :Completed: 28.10.2022 - 18:53%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Polysemy%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.kushaanm10281852#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1667008395=96.235.24.205

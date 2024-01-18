@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1670634527
+host=73.236.49.27
+name=GradebookExpansions.Leonlu11061407-ziqiliu
+rev=2
+targets=Articles.Leonlu11061407
+text=:Category: Varia%0a:Expansion: Recent progress since N-Gram model%0a:Author: ziqiliu%0a:Original: Leonlu11061407 %0a:OriginalTitle: Computational%0a:OriginalAuthor: leonlu%0a:Section: C%0a:Completed: 09.12.2022 - 17:08%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221219-220943-226380#%0a* [-19.12.2022 - 14:09-] || meghnaf22ta marked as complete%0a#foxend 221219-220943-226380#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: meghnaf22ta:)
+time=1671487783
+author:1671487783=meghnaf22ta
+diff:1671487783:1670634527:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 221219-220943-226380#%0a%3c * [-19.12.2022 - 14:09-] || meghnaf22ta marked as complete%0a%3c #foxend 221219-220943-226380#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1671487783=73.236.49.27
+author:1670634527=ziqiliu
+diff:1670634527:1670634527:=1,40d0%0a%3c :Category: Varia%0a%3c :Expansion: Recent progress since N-Gram model%0a%3c :Author: ziqiliu%0a%3c :Original: Leonlu11061407 %0a%3c :OriginalTitle: Computational%0a%3c :OriginalAuthor: leonlu%0a%3c :Section: C%0a%3c :Completed: 09.12.2022 - 17:08%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1670634527=96.44.9.107

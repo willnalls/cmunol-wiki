@@ -1,0 +1,78 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+author=ta1
+charset=UTF-8
+csum=
+ctime=1644252119
+host=74.109.239.200
+name=Gradebook.SetSection
+rev=22
+targets=Gradebook.Gradebook
+text=(:foxmessages:)%0a%25rfloat%25 [-([[Gradebook.Gradebook|back to gradebook]])-]%0a%0aSet section for a student here (student must have already recorded Andrew ID in order to show in list):%0a%0a(:fox setStudentSection:)%0a(:pagelist group=Profiles fmt=Templates.PagelistTemplates#selectprofile:)%0a(:input select section value=A :)%0a(:input select section value=B :)%0a(:input select section value=C :)%0a(:input select section value=D :) %0a(:input select section value=E :) %0a(:input select section value=F :) %0a(:input submit post:)%0a(:foxptv ptvtarget={$$profile} ptvfields=section:)%0a(:foxend setStudentSection:)%0a%0a%0a%0a----%0a%0aSet section for an article here (only articles without sections are displayed):%0a%0a(:fox setItemSection:)%0a(:pagelist group=GradebookArticles list=normal name=-GradebookArticles $:Section=-*? $:Category=-PracticeCategory fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a(:input select Section value=A :)%0a(:input select Section value=B :)%0a(:input select Section value=C :)%0a(:input select Section value=D :) %0a(:input select Section value=E :) %0a(:input select Section value=F :) %0a(:input submit post:)%0a(:foxptv ptvtarget={$$item} ptvfields=Section:)%0a(:foxend setItemSection:)%0a%0a----%0a%0aItems without sections:%0a%0a'''Articles'''%0a(:pagelist group=GradebookArticles name=-GradebookArticles $:Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a%0a'''Expansions'''%0a(:pagelist group=GradebookExpansions $:Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)
+time=1646595779
+author:1646595779=ta1
+diff:1646595779:1645199217:=25c25%0a%3c (:pagelist group=GradebookArticles list=normal name=-GradebookArticles $:Section=-*? $:Category=-PracticeCategory fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles list=normal name=-GradebookArticles $:Category=-PracticeCategory fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a
+host:1646595779=74.109.239.200
+author:1645199217=
+diff:1645199217:1645198960:=1d0%0a%3c (:foxmessages:)%0a18c17%0a%3c %0a---%0a> (:foxmessages:)%0a
+host:1645199217=74.109.239.200
+author:1645198960=
+diff:1645198960:1645198666:=25,30c25,30%0a%3c (:input select Section value=A :)%0a%3c (:input select Section value=B :)%0a%3c (:input select Section value=C :)%0a%3c (:input select Section value=D :) %0a%3c (:input select Section value=E :) %0a%3c (:input select Section value=F :) %0a---%0a> (:input select section value=A :)%0a> (:input select section value=B :)%0a> (:input select section value=C :)%0a> (:input select section value=D :) %0a> (:input select section value=E :) %0a> (:input select section value=F :) %0a
+host:1645198960=74.109.239.200
+author:1645198666=
+diff:1645198666:1645198448:=32c32%0a%3c (:foxptv ptvtarget={$$item} ptvfields=Section:)%0a---%0a> (:foxptv ptvtarget={$$item} ptvfields=section:)%0a
+host:1645198666=74.109.239.200
+author:1645198448=
+diff:1645198448:1645198133:=1,2c1,2%0a%3c %25rfloat%25 [-([[Gradebook.Gradebook|back to gradebook]])-]%0a%3c %0a---%0a> [[Gradebook.Gradebook|Back to Gradebook]]%0a> %0a24c24%0a%3c (:pagelist group=GradebookArticles list=normal name=-GradebookArticles $:Category=-PracticeCategory fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles list=normal name=-GradebookArticles $:Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a
+host:1645198448=74.109.239.200
+author:1645198133=
+diff:1645198133:1645198105:=21,22c21%0a%3c Set section for an article here (only articles without sections are displayed):%0a%3c %0a---%0a> Set section for an article here (only articles without sections are displayed). %0a
+host:1645198133=74.109.239.200
+author:1645198105=
+diff:1645198105:1644603687:=21d20%0a%3c Set section for an article here (only articles without sections are displayed). %0a
+host:1645198105=74.109.239.200
+author:1644603687=ta1
+diff:1644603687:1644603646:=1,2d0%0a%3c [[Gradebook.Gradebook|Back to Gradebook]]%0a%3c %0a
+host:1644603687=74.109.239.200
+author:1644603646=ta1
+diff:1644603646:1644603245:=20c20%0a%3c (:pagelist group=GradebookArticles list=normal name=-GradebookArticles $:Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles list=normal $:Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a36c36%0a%3c (:pagelist group=GradebookArticles name=-GradebookArticles $:Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a---%0a> (:pagelist group=GradebookArticles $:Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a
+host:1644603646=74.109.239.200
+author:1644603245=ta1
+diff:1644603245:1644603203:=36c36%0a%3c (:pagelist group=GradebookArticles $:Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a---%0a> (:pagelist group=GradebookArticles $;Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a
+host:1644603245=74.109.239.200
+author:1644603203=ta1
+diff:1644603203:1644603129:=20c20%0a%3c (:pagelist group=GradebookArticles list=normal $:Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles $:Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a
+host:1644603203=74.109.239.200
+author:1644603129=ta1
+diff:1644603129:1644603098:=20c20%0a%3c (:pagelist group=GradebookArticles $:Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a36,37c36,37%0a%3c (:pagelist group=GradebookArticles $;Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a%3c %0a---%0a> (:pagelist group=GradebookArticles Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a> %0a39c39%0a%3c (:pagelist group=GradebookExpansions $:Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)%0a\ No newline at end of file%0a
+host:1644603129=74.109.239.200
+author:1644603098=ta1
+diff:1644603098:1644603000:=20c20%0a%3c (:pagelist group=GradebookArticles Category=-PracticeCategory $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a36,37c36,37%0a%3c (:pagelist group=GradebookArticles Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a%3c %0a---%0a> (:pagelist group=GradebookArticles list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a> %0a39c39%0a%3c (:pagelist group=GradebookExpansions Category=-PracticeCategory list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)%0a\ No newline at end of file%0a
+host:1644603098=74.109.239.200
+author:1644603000=ta1
+diff:1644603000:1644602685:=36,37c36,37%0a%3c (:pagelist group=GradebookArticles list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a%3c %0a---%0a> (:pagelist group=GradebookArticles $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a> %0a39c39%0a%3c (:pagelist group=GradebookExpansions list=normal $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=GradebookExpansions $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)%0a\ No newline at end of file%0a
+host:1644603000=74.109.239.200
+author:1644602685=ta1
+diff:1644602685:1644602539:=29,39c29%0a%3c (:foxend setItemSection:)%0a%3c %0a%3c ----%0a%3c %0a%3c Items without sections:%0a%3c %0a%3c '''Articles'''%0a%3c (:pagelist group=GradebookArticles $:Section=-*? fmt=Templates.PagelistTemplates#gradebooklist:)%0a%3c %0a%3c '''Expansions'''%0a%3c (:pagelist group=GradebookExpansions $:Section=-*? fmt=Templates.PagelistTemplates#gradebookexplist:)%0a\ No newline at end of file%0a---%0a> (:foxend setItemSection:)%0a\ No newline at end of file%0a
+host:1644602685=74.109.239.200
+author:1644602539=ta1
+diff:1644602539:1644602497:=20c20%0a%3c (:pagelist group=GradebookArticles $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles,GradebookExpansions $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a
+host:1644602539=74.109.239.200
+author:1644602497=ta1
+diff:1644602497:1644602464:=20c20%0a%3c (:pagelist group=GradebookArticles,GradebookExpansions $:Section=-*? fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles,GradebookExpansions fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a
+host:1644602497=74.109.239.200
+author:1644602464=ta1
+diff:1644602464:1644602244:=20c20%0a%3c (:pagelist group=GradebookArticles,GradebookExpansions fmt=Templates.PagelistTemplates#selectarticleforsection:)%0a---%0a> (:pagelist group=GradebookArticles,GradebookExpansions fmt=Templates.PagelistTemplates#selectprofile:)%0a28c28%0a%3c (:foxptv ptvtarget={$$item} ptvfields=section:)%0a---%0a> (:foxptv ptvtarget={$$profile} ptvfields=section:)%0a
+host:1644602464=74.109.239.200
+author:1644602244=ta1
+diff:1644602244:1644252192:=3c3%0a%3c (:fox setStudentSection:)%0a---%0a> (:fox setSection:)%0a13,29c13,15%0a%3c (:foxend setStudentSection:)%0a%3c %0a%3c (:foxmessages:)%0a%3c %0a%3c ----%0a%3c %0a%3c (:fox setItemSection:)%0a%3c (:pagelist group=GradebookArticles,GradebookExpansions fmt=Templates.PagelistTemplates#selectprofile:)%0a%3c (:input select section value=A :)%0a%3c (:input select section value=B :)%0a%3c (:input select section value=C :)%0a%3c (:input select section value=D :) %0a%3c (:input select section value=E :) %0a%3c (:input select section value=F :) %0a%3c (:input submit post:)%0a%3c (:foxptv ptvtarget={$$profile} ptvfields=section:)%0a%3c (:foxend setItemSection:)%0a\ No newline at end of file%0a---%0a> (:foxend setSection:)%0a> %0a> (:foxmessages:)%0a\ No newline at end of file%0a
+host:1644602244=74.109.239.200
+author:1644252192=
+diff:1644252192:1644252154:=13,15c13%0a%3c (:foxend setSection:)%0a%3c %0a%3c (:foxmessages:)%0a\ No newline at end of file%0a---%0a> (:foxend setSection:)%0a\ No newline at end of file%0a
+host:1644252192=74.109.239.200
+author:1644252154=
+diff:1644252154:1644252119:=1,2d0%0a%3c Set section for a student here (student must have already recorded Andrew ID in order to show in list):%0a%3c %0a
+host:1644252154=74.109.239.200
+author:1644252119=
+diff:1644252119:1644252119:=1,11d0%0a%3c (:fox setSection:)%0a%3c (:pagelist group=Profiles fmt=Templates.PagelistTemplates#selectprofile:)%0a%3c (:input select section value=A :)%0a%3c (:input select section value=B :)%0a%3c (:input select section value=C :)%0a%3c (:input select section value=D :) %0a%3c (:input select section value=E :) %0a%3c (:input select section value=F :) %0a%3c (:input submit post:)%0a%3c (:foxptv ptvtarget={$$profile} ptvfields=section:)%0a%3c (:foxend setSection:)%0a\ No newline at end of file%0a
+host:1644252119=74.109.239.200

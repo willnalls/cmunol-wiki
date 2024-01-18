@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=nicholasm
+charset=UTF-8
+csum=
+ctime=1670109472
+host=128.237.82.10
+name=GradebookArticles.Nicholasm12031516
+rev=1
+targets=
+text=:Category: EndangeredLanguages%0a:Essential: {Category.EndangeredLanguages$:essential}%0a:Title: Folk Pedagogy%0a:Author: nicholasm%0a:Section: F%0a:Completed: 03.12.2022 - 15:17%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aFolk music has great potential for use in teaching foreign languages and strengthening command of a student's first language%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.nicholasm12031516#content:)%0a%0a[[#contentends]]%0a----
+time=1670109472
+author:1670109472=nicholasm
+diff:1670109472:1670109472:=1,51d0%0a%3c :Category: EndangeredLanguages%0a%3c :Essential: {Category.EndangeredLanguages$:essential}%0a%3c :Title: Folk Pedagogy%0a%3c :Author: nicholasm%0a%3c :Section: F%0a%3c :Completed: 03.12.2022 - 15:17%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Folk music has great potential for use in teaching foreign languages and strengthening command of a student's first language%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.nicholasm12031516#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670109472=128.237.82.10

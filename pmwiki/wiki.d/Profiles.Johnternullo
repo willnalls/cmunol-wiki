@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+author=johnternullo
+charset=UTF-8
+csum=
+ctime=1661968795
+host=128.237.82.2
+name=Profiles.Johnternullo
+rev=4
+targets=
+text=(:andrewid: jternull:)%0a(:section: B:)%0a%0a(:name: johnternullo:)%0a(:lvl: full:)
+time=1661968857
+author:1661968857=johnternullo
+diff:1661968857:1661968848:=5c5%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:lvl: minimal:)%0a\ No newline at end of file%0a
+host:1661968857=128.237.82.2
+author:1661968848=johnternullo
+diff:1661968848:1661968842:=4,5c4%0a%3c (:name: johnternullo:)%0a%3c (:lvl: minimal:)%0a\ No newline at end of file%0a---%0a> (:name: johnternullo:)%0a\ No newline at end of file%0a
+host:1661968848=128.237.82.2
+author:1661968842=johnternullo
+diff:1661968842:1661968795:=1,4c1%0a%3c (:andrewid: jternull:)%0a%3c (:section: B:)%0a%3c %0a%3c (:name: johnternullo:)%0a\ No newline at end of file%0a---%0a> (:andrewid: jternull:)%0a\ No newline at end of file%0a
+host:1661968842=128.237.82.2
+author:1661968795=johnternullo
+diff:1661968795:1661968795:=1d0%0a%3c (:andrewid: jternull:)%0a\ No newline at end of file%0a
+host:1661968795=128.237.82.2

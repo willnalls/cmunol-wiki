@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1670007133
+host=172.58.184.253
+name=GradebookArticles.Ahmed12021049
+rev=5
+targets=
+text=:Category: LinguisticDiscriminationInTheWild%0a:Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a:Title: West-African Accent Discrimination in Lewiston, Maine %0a:Author: ahmed%0a:Section: E%0a:Completed: 02.12.2022 - 10:52%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221212-195641-478970#%0a* [-12.12.2022 - 11:56-] || yuminf22ta marked as complete%0a#foxend 221212-195641-478970#%0a#foxbegin 221204-235956-922970#%0a* [-04.12.2022 - 15:59-] || yuminf22ta marked as needsRevised%0a#foxend 221204-235956-922970#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a#foxbegin 221205-000002-375630#%0a----%0a>>rfloat%3c%3c   %0a[-04.12.2022 - 16:00-] &nbsp; %0a>>%3c%3c%0a!!!!!yuminf22ta%0aGood discussion. Can you elaborate your arguments a little bit with some detailed examples from the paper/posts you cited? For example, are there examples of compositional phrases that the non-native speakers failed to identify? (Since this topic is about linguistic discrimination "in the wild", examples can really help!) %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 221205-000002-375630 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 221205-000002-375630#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aA look at a study of discrimination towards West-African accents in Lewiston, ME%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.ahmed12021049#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: yuminf22ta:)
+time=1670875001
+author:1670875001=yuminf22ta
+diff:1670875001:1670614303:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: revised%0a> %0a24,26d23%0a%3c #foxbegin 221212-195641-478970#%0a%3c * [-12.12.2022 - 11:56-] || yuminf22ta marked as complete%0a%3c #foxend 221212-195641-478970#%0a
+host:1670875001=172.58.184.253
+author:1670614303=ahmed
+diff:1670614303:1670198401:=7c7%0a%3c :Status: revised%0a---%0a> :Status: needsRevised%0a
+host:1670614303=71.182.178.156
+author:1670198401=yuminf22ta
+diff:1670198401:1670198396:=32,44c32%0a%3c #foxbegin 221205-000002-375630#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-04.12.2022 - 16:00-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!yuminf22ta%0a%3c Good discussion. Can you elaborate your arguments a little bit with some detailed examples from the paper/posts you cited? For example, are there examples of compositional phrases that the non-native speakers failed to identify? (Since this topic is about linguistic discrimination "in the wild", examples can really help!) %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 221205-000002-375630 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 221205-000002-375630#%0a---%0a> %0a
+host:1670198401=172.58.184.253
+author:1670198396=yuminf22ta
+diff:1670198396:1670007133:=7,8c7,8%0a%3c :Status: needsRevised%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221204-235956-922970#%0a%3c * [-04.12.2022 - 15:59-] || yuminf22ta marked as needsRevised%0a%3c #foxend 221204-235956-922970#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1670198396=172.58.184.253
+author:1670007133=ahmed
+diff:1670007133:1670007133:=1,51d0%0a%3c :Category: LinguisticDiscriminationInTheWild%0a%3c :Essential: {Category.LinguisticDiscriminationInTheWild$:essential}%0a%3c :Title: West-African Accent Discrimination in Lewiston, Maine %0a%3c :Author: ahmed%0a%3c :Section: E%0a%3c :Completed: 02.12.2022 - 10:52%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c A look at a study of discrimination towards West-African accents in Lewiston, ME%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.ahmed12021049#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1670007133=128.237.82.9

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=jacksonf22ta
+charset=UTF-8
+csum=
+ctime=1662932740
+host=71.206.239.220
+name=GradebookExpansions.Leonlu09041933-tiagocecchi1216
+rev=2
+targets=Articles.Leonlu09041933
+text=:Category: FunWithWords%0a:Expansion: Why the word 'weeaboo' should be added to the OED%0a:Author: tiagocecchi1216%0a:Original: Leonlu09041933 %0a:OriginalTitle: weeb%0a:OriginalAuthor: leonlu%0a:Section: A%0a:Completed: 11.09.2022 - 14:45%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220926-222948-835150#%0a* [-26.09.2022 - 15:29-] || jacksonf22ta marked as complete%0a#foxend 220926-222948-835150#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: jacksonf22ta:)
+time=1664231388
+author:1664231388=jacksonf22ta
+diff:1664231388:1662932740:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 220926-222948-835150#%0a%3c * [-26.09.2022 - 15:29-] || jacksonf22ta marked as complete%0a%3c #foxend 220926-222948-835150#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: jacksonf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1664231388=71.206.239.220
+author:1662932740=tiagocecchi1216
+diff:1662932740:1662932740:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: Why the word 'weeaboo' should be added to the OED%0a%3c :Author: tiagocecchi1216%0a%3c :Original: Leonlu09041933 %0a%3c :OriginalTitle: weeb%0a%3c :OriginalAuthor: leonlu%0a%3c :Section: A%0a%3c :Completed: 11.09.2022 - 14:45%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1662932740=128.237.82.20

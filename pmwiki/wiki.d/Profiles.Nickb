@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+author=nickb
+charset=UTF-8
+csum=
+ctime=1668022525
+host=128.237.82.21
+name=Profiles.Nickb
+rev=2
+targets=
+text=(:andrewid: ngblair:)%0a(:section: A:)%0a%0a(:name: nickb:)
+time=1668022688
+author:1668022688=nickb
+diff:1668022688:1668022525:=1,4c1%0a%3c (:andrewid: ngblair:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: nickb:)%0a\ No newline at end of file%0a---%0a> (:andrewid: ngblair:)%0a\ No newline at end of file%0a
+host:1668022688=128.237.82.21
+author:1668022525=nickb
+diff:1668022525:1668022525:=1d0%0a%3c (:andrewid: ngblair:)%0a\ No newline at end of file%0a
+host:1668022525=128.237.82.21

@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+author=sbetko
+charset=UTF-8
+csum=
+ctime=1661877564
+host=128.237.82.5
+name=Profiles.Sbetko
+rev=1
+targets=
+text=(:lvl: full:)
+time=1661877564
+author:1661877564=sbetko
+diff:1661877564:1661877564:=1d0%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a
+host:1661877564=128.237.82.5

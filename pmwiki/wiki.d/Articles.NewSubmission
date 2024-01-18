@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+author=ta1
+charset=UTF-8
+csum=
+ctime=1639763804
+host=74.109.239.200
+name=Articles.NewSubmission
+rev=4
+targets=
+text=(:if1 equal {Profiles.{$Author}$:section} '':)%0a%0aYou must enter your Andrew ID and SIO section before you can submit an article.%0a%0a(:else1:)%0a%0a(:foxform Site.FoxForms#newarticle:)%0a%0a(:foxmessages:)%0a%0a(:if1end:)
+time=1644601953
+author:1644601953=ta1
+diff:1644601953:1644246056:=3c3%0a%3c You must enter your Andrew ID and SIO section before you can submit an article.%0a---%0a> You must enter your SIO section before you can submit an article.%0a
+host:1644601953=74.109.239.200
+author:1644246056=student1
+diff:1644246056:1644245996:=5c5%0a%3c (:else1:)%0a---%0a> (:if1else:)%0a
+host:1644246056=74.109.239.200
+author:1644245996=
+diff:1644245996:1639763804:=1,6d0%0a%3c (:if1 equal {Profiles.{$Author}$:section} '':)%0a%3c %0a%3c You must enter your SIO section before you can submit an article.%0a%3c %0a%3c (:if1else:)%0a%3c %0a11d4%0a%3c (:if1end:)%0a\ No newline at end of file%0a
+host:1644245996=74.109.239.200
+author:1639763804=st1
+diff:1639763804:1639763804:=1,4d0%0a%3c (:foxform Site.FoxForms#newarticle:)%0a%3c %0a%3c (:foxmessages:)%0a%3c %0a
+host:1639763804=74.109.239.200

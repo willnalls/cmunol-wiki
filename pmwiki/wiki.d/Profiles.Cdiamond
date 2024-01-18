@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0
+author=cdiamond
+charset=UTF-8
+csum=
+ctime=1661972048
+host=128.2.149.7
+name=Profiles.Cdiamond
+rev=2
+targets=
+text=(:andrewid: bdiamond:)%0a(:section: F:)%0a%0a(:name: cdiamond:)
+time=1661972276
+author:1661972276=cdiamond
+diff:1661972276:1661972048:=1,4c1%0a%3c (:andrewid: bdiamond:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: cdiamond:)%0a\ No newline at end of file%0a---%0a> (:andrewid: bdiamond:)%0a\ No newline at end of file%0a
+host:1661972276=128.2.149.7
+author:1661972048=cdiamond
+diff:1661972048:1661972048:=1d0%0a%3c (:andrewid: bdiamond:)%0a\ No newline at end of file%0a
+host:1661972048=128.2.149.7

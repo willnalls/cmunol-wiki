@@ -1,0 +1,19 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=will
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1598845337
+host=108.32.35.122
+name=FoxNotifyLists.MailFormTemplate
+rev=2
+targets=PmWiki.LayoutVariables
+text=(:linebreaks:)%0a!!Email subject format%0a[[#subject]]%0a$WikiTitle Contact Message%0a[[#subjectend]]%0a%0a!!Email body heading format%0a[[#heading]]%0aNewest enquiry on $WikiTitle ContactUs page:%0a[[#headingend]]%0a%0a!!Email item formats%0a[[#default]]%0aSent: $PostTime %0aName: {$AuthId}   %0aE-Mail: {$$email}%0aSubject: {$$subject}%0a%0a{$$text}%0a%0a============================%0aSent by $WikiTitle Server%0a[[#defaultend]]
+time=1598846094
+author:1598846094=will
+diff:1598846094:1598845337:=15c15%0a%3c Name: {$AuthId}   %0a---%0a> Name: {$$name}   %0a
+host:1598846094=108.32.35.122
+author:1598845337=will
+diff:1598845337:1598845337:=1,23d0%0a%3c (:linebreaks:)%0a%3c !!Email subject format%0a%3c [[#subject]]%0a%3c $WikiTitle Contact Message%0a%3c [[#subjectend]]%0a%3c %0a%3c !!Email body heading format%0a%3c [[#heading]]%0a%3c Newest enquiry on $WikiTitle ContactUs page:%0a%3c [[#headingend]]%0a%3c %0a%3c !!Email item formats%0a%3c [[#default]]%0a%3c Sent: $PostTime %0a%3c Name: {$$name}   %0a%3c E-Mail: {$$email}%0a%3c Subject: {$$subject}%0a%3c %0a%3c {$$text}%0a%3c %0a%3c ============================%0a%3c Sent by $WikiTitle Server%0a%3c [[#defaultend]]%0a\ No newline at end of file%0a
+host:1598845337=108.32.35.122

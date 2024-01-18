@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1642539952
+host=128.237.82.12
+name=Category.MorphosyntacticDiversityOfEnglish
+rev=5
+targets=
+text=(:essential: no:)%0a(:deadline: 2022-11-11:)%0a(:expansiondeadline: 2022-11-18:)%0a%0a!!Morphosyntactic diversity of English%0a%0a%0a----%0aIn this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity amongst varieties of English. There are many excellent resources out there, but one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a%0aFor an article of this kind, you are asked to provide a brief summary of a grammatical construction from a variety of English other than Standaridised American English, with examples. You do not have to limit yourself to English varieties of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English, New Zealand English, etc.%0a%0a!!Expansions%0aSome ideas for expansions of this category are:%0a%0aFind additional examples of the grammatical construction in question, either in written texts or in a video.%0aIf a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction.%0aFind a non-English language that exhibits the same construction, and provide a brief summary with glossed examples showing the parallelism.%0a%0a%0a----
+time=1661724578
+author:1661724578=
+diff:1661724578:1661281657:=1,3c1,3%0a%3c (:essential: no:)%0a%3c (:deadline: 2022-11-11:)%0a%3c (:expansiondeadline: 2022-11-18:)%0a---%0a> (:essential: yes:)%0a> (:deadline: 2022-04-16:)%0a> (:expansiondeadline: 2022-04-23:)%0a
+host:1661724578=128.237.82.12
+author:1661281657=
+diff:1661281657:1642540320:=6c6,8%0a%3c %0a---%0a> (:if equal yes yes:)%0a> ('''essential category''')%0a> (:if end:)%0a
+host:1661281657=71.162.2.58
+author:1642540320=
+diff:1642540320:1642540048:=15c15%0a%3c !!Expansions%0a---%0a> Expansions%0a
+host:1642540320=72.65.234.148
+author:1642540048=
+diff:1642540048:1642539952:=11,20c11%0a%3c In this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity amongst varieties of English. There are many excellent resources out there, but one in particular that is worth looking at is the [[https://ygdp.yale.edu/ | Yale Grammatical Diversity Project]].%0a%3c %0a%3c For an article of this kind, you are asked to provide a brief summary of a grammatical construction from a variety of English other than Standaridised American English, with examples. You do not have to limit yourself to English varieties of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English, New Zealand English, etc.%0a%3c %0a%3c Expansions%0a%3c Some ideas for expansions of this category are:%0a%3c %0a%3c Find additional examples of the grammatical construction in question, either in written texts or in a video.%0a%3c If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction.%0a%3c Find a non-English language that exhibits the same construction, and provide a brief summary with glossed examples showing the parallelism.%0a---%0a> %0a
+host:1642540048=72.65.234.148
+author:1642539952=
+diff:1642539952:1642539952:=1,14d0%0a%3c (:essential: yes:)%0a%3c (:deadline: 2022-04-16:)%0a%3c (:expansiondeadline: 2022-04-23:)%0a%3c %0a%3c !!Morphosyntactic diversity of English%0a%3c (:if equal yes yes:)%0a%3c ('''essential category''')%0a%3c (:if end:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %0a%3c ----%0a\ No newline at end of file%0a
+host:1642539952=72.65.234.148

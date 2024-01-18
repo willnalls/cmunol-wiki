@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=piercemiller
+charset=UTF-8
+csum=
+ctime=1669603211
+host=74.98.213.243
+name=GradebookArticles.TongvaTribe
+rev=1
+targets=
+text=:Category: IndigenousLanguagesOfTheAmericas%0a:Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a:Title: Tongva Tribe%0a:Author: piercemiller%0a:Section: %0a:Completed: 27.11.2022 - 18:40%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aSummary of the Tongva Tribe%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.piercemiller#content:)%0a%0a[[#contentends]]%0a----
+time=1669603211
+author:1669603211=piercemiller
+diff:1669603211:1669603211:=1,51d0%0a%3c :Category: IndigenousLanguagesOfTheAmericas%0a%3c :Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a%3c :Title: Tongva Tribe%0a%3c :Author: piercemiller%0a%3c :Section: %0a%3c :Completed: 27.11.2022 - 18:40%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Summary of the Tongva Tribe%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.piercemiller#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1669603211=74.98.213.243

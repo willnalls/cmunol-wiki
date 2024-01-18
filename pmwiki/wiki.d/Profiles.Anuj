@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=anuj
+charset=UTF-8
+csum=
+ctime=1661963526
+host=128.2.149.7
+name=Profiles.Anuj
+rev=5
+targets=
+text=(:andrewid: akathail:)%0a(:section: D:)%0a%0a(:name: anuj:)%0a(:lvl: full:)
+time=1661963568
+author:1661963568=anuj
+diff:1661963568:1661963560:=5c5%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:lvl: partial:)%0a\ No newline at end of file%0a
+host:1661963568=128.2.149.7
+author:1661963560=anuj
+diff:1661963560:1661963549:=5c5%0a%3c (:lvl: partial:)%0a\ No newline at end of file%0a---%0a> (:lvl: minimal:)%0a\ No newline at end of file%0a
+host:1661963560=128.2.149.7
+author:1661963549=anuj
+diff:1661963549:1661963543:=4,5c4%0a%3c (:name: anuj:)%0a%3c (:lvl: minimal:)%0a\ No newline at end of file%0a---%0a> (:name: anuj:)%0a\ No newline at end of file%0a
+host:1661963549=128.2.149.7
+author:1661963543=anuj
+diff:1661963543:1661963526:=1,4c1%0a%3c (:andrewid: akathail:)%0a%3c (:section: D:)%0a%3c %0a%3c (:name: anuj:)%0a\ No newline at end of file%0a---%0a> (:andrewid: akathail:)%0a\ No newline at end of file%0a
+host:1661963543=128.2.149.7
+author:1661963526=anuj
+diff:1661963526:1661963526:=1d0%0a%3c (:andrewid: akathail:)%0a\ No newline at end of file%0a
+host:1661963526=128.2.149.7

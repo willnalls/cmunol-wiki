@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0
+author=dennyy
+charset=UTF-8
+csum=
+ctime=1670096225
+host=128.237.82.4
+name=Profiles.Dennyy
+rev=2
+targets=
+text=(:andrewid: dennyy:)%0a(:section: B:)%0a%0a(:name: dennyy:)
+time=1670096268
+author:1670096268=dennyy
+diff:1670096268:1670096225:=1,4c1%0a%3c (:andrewid: dennyy:)%0a%3c (:section: B:)%0a%3c %0a%3c (:name: dennyy:)%0a\ No newline at end of file%0a---%0a> (:andrewid: dennyy:)%0a\ No newline at end of file%0a
+host:1670096268=128.237.82.4
+author:1670096225=dennyy
+diff:1670096225:1670096225:=1d0%0a%3c (:andrewid: dennyy:)%0a\ No newline at end of file%0a
+host:1670096225=128.237.82.4

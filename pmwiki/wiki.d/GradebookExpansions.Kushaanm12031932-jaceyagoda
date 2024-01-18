@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1670568341
+host=73.236.49.27
+name=GradebookExpansions.Kushaanm12031932-jaceyagoda
+rev=2
+targets=Articles.Kushaanm12031932
+text=:Category: Varia%0a:Expansion: Skill Acquistion as a Child%0a:Author: jaceyagoda%0a:Original: Kushaanm12031932 %0a:OriginalTitle: Bilingualism%0a:OriginalAuthor: kushaanm%0a:Section: C%0a:Completed: 08.12.2022 - 22:45%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221219-220941-701000#%0a* [-19.12.2022 - 14:09-] || meghnaf22ta marked as complete%0a#foxend 221219-220941-701000#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: meghnaf22ta:)
+time=1671487780
+author:1671487780=meghnaf22ta
+diff:1671487780:1670568341:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 221219-220941-701000#%0a%3c * [-19.12.2022 - 14:09-] || meghnaf22ta marked as complete%0a%3c #foxend 221219-220941-701000#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1671487780=73.236.49.27
+author:1670568341=jaceyagoda
+diff:1670568341:1670568341:=1,40d0%0a%3c :Category: Varia%0a%3c :Expansion: Skill Acquistion as a Child%0a%3c :Author: jaceyagoda%0a%3c :Original: Kushaanm12031932 %0a%3c :OriginalTitle: Bilingualism%0a%3c :OriginalAuthor: kushaanm%0a%3c :Section: C%0a%3c :Completed: 08.12.2022 - 22:45%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1670568341=128.237.82.20

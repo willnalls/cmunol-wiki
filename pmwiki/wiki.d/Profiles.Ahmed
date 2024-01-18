@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=ahmed
+charset=UTF-8
+csum=
+ctime=1669982424
+host=128.237.82.9
+name=Profiles.Ahmed
+rev=3
+targets=
+text=(:andrewid: aeabdelh:)%0a(:lvl: full:)%0a(:section: E:)%0a%0a(:name: ahmed:)
+time=1670005391
+author:1670005391=ahmed
+diff:1670005391:1670005369:=2,5c2%0a%3c (:lvl: full:)%0a%3c (:section: E:)%0a%3c %0a%3c (:name: ahmed:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1670005391=128.237.82.9
+author:1670005369=ahmed
+diff:1670005369:1669982424:=1,2c1%0a%3c (:andrewid: aeabdelh:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:andrewid: aeabdelh:)%0a\ No newline at end of file%0a
+host:1670005369=128.237.82.9
+author:1669982424=ahmed
+diff:1669982424:1669982424:=1d0%0a%3c (:andrewid: aeabdelh:)%0a\ No newline at end of file%0a
+host:1669982424=71.182.178.156

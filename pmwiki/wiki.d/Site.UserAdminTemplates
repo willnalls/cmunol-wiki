@@ -1,0 +1,51 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1607383714
+host=74.109.247.199
+name=Site.UserAdminTemplates
+rev=13
+targets=
+text=%0a
+time=1612192154
+author:1612192154=
+diff:1612192154:1612192063:=1c1,16%0a%3c %0a---%0a> [[#ua-new]]%0a> (:input form action='$PageUrl?action=user/new':)%0a> (:table class=ua-form:)%0a> (:cellnr:)$[UA_txt_username]%0a> (:cell:)(:input text name='username':)%0a> (:cellnr:)$[UA_txt_userpasswd]%0a> (:cell:)(:input password name='userpasswd':)%0a> (:cellnr:)$[UA_txt_userpasswd2]%0a> (:cell:)(:input password name='userpasswd2':)%0a> (:cellnr:)$[UA_txt_useremail]%0a> (:cell:)(:input text name='useremail':)%0a> (:cellnr:)%0a> (:cell:)(:input submit name=post value='$[UAnew_submit]':) (:input submit name=cancel value='$[Cancel]':)%0a> (:tableend:)%0a> (:input end:)%0a> [[#ua-newend]]%0a
+host:1612192154=74.109.247.199
+author:1612192063=
+diff:1612192063:1611934040:=
+host:1612192063=74.109.247.199
+author:1611934040=student2
+diff:1611934040:1611171384:=11a12,15%0a> (:cellnr:)Section%0a> (:cell:)(:input text name='usersection':)%0a> (:cellnr:)Andrew ID%0a> (:cell:)(:input text name='userandrewid':)%0a
+host:1611934040=74.109.247.199
+author:1611171384=
+diff:1611171384:1608070903:=
+host:1611171384=74.109.247.199
+author:1608070903=sillyP
+diff:1608070903:1607384411:=0a1%0a> %0a12,13d12%0a%3c (:cellnr:)Section%0a%3c (:cell:)(:input text name='usersection':)%0a
+host:1608070903=74.109.247.199
+author:1607384411=will
+diff:1607384411:1607384281:=1a2%0a> %0a13,14c14,15%0a%3c (:cellnr:)Andrew ID%0a%3c (:cell:)(:input text name='userandrewid':)%0a---%0a> (:cellnr:)Real Name%0a> (:cell:)(:input text name='userrealname':)%0a
+host:1607384411=74.109.247.199
+author:1607384281=will
+diff:1607384281:1607384127:=3,20c3%0a%3c [[#ua-new]]%0a%3c (:input form action='$PageUrl?action=user/new':)%0a%3c (:table class=ua-form:)%0a%3c (:cellnr:)$[UA_txt_username]%0a%3c (:cell:)(:input text name='username':)%0a%3c (:cellnr:)$[UA_txt_userpasswd]%0a%3c (:cell:)(:input password name='userpasswd':)%0a%3c (:cellnr:)$[UA_txt_userpasswd2]%0a%3c (:cell:)(:input password name='userpasswd2':)%0a%3c (:cellnr:)$[UA_txt_useremail]%0a%3c (:cell:)(:input text name='useremail':)%0a%3c (:cellnr:)Real Name%0a%3c (:cell:)(:input text name='userrealname':)%0a%3c (:cellnr:)%0a%3c (:cell:)(:input submit name=post value='$[UAnew_submit]':) (:input submit name=cancel value='$[Cancel]':)%0a%3c (:tableend:)%0a%3c (:input end:)%0a%3c [[#ua-newend]]%0a---%0a> %0a
+host:1607384281=74.109.247.199
+author:1607384127=will
+diff:1607384127:1607384100:=1a2,25%0a> [[#ua-new]]%0a> (:if superuser:)To directly add a new user, please enter details below.%0a> (:else:)Please enter your details below. An activation link will be sent to the e-mail address provided.%0a> (:ifend:)%0a> %0a> (:input form '{$PageUrl}?action=user/new' autocomplete=off:)%0a> || Username||(:input text username:) ||%0a> || E-mail||(:input text useremail:) ||%0a> || Password||(:input password userpasswd:) again (:input password userpasswd2:) ||%0a> || ||(:input submit post 'Send':) ||%0a> (:input end:)%0a> [[#ua-newend]]%0a> %0a> %0a> [[#ua-new-email-body]]%0a> Welcome $username!%0a> %0a> Thank you for registering at $WikiTitle.%0a> %0a> To activate your account and confirm your e-mail address, please visit%0a> the following location:%0a> %0a> $link%0a> [[#ua-new-email-body-end]]%0a
+host:1607384127=74.109.247.199
+author:1607384100=will
+diff:1607384100:1607383984:=1c1%0a%3c %0a---%0a> (:if1 false:)%0a8a9%0a> %0a27a29,30%0a> %0a> (:if1end:)%0a\ No newline at end of file%0a
+host:1607384100=74.109.247.199
+author:1607383984=will
+diff:1607383984:1607383921:=9c9%0a%3c %0a---%0a> {{USERGROUPS}}%0a
+host:1607383984=74.109.247.199
+author:1607383921=will
+diff:1607383921:1607383794:=9d8%0a%3c {{USERGROUPS}}%0a
+host:1607383921=74.109.247.199
+author:1607383794=will
+diff:1607383794:1607383714:=1d0%0a%3c (:if1 false:)%0a13,29c12%0a%3c [[#ua-newend]]%0a%3c %0a%3c %0a%3c [[#ua-new-email-body]]%0a%3c Welcome $username!%0a%3c %0a%3c Thank you for registering at $WikiTitle.%0a%3c %0a%3c To activate your account and confirm your e-mail address, please visit%0a%3c the following location:%0a%3c %0a%3c $link%0a%3c [[#ua-new-email-body-end]]%0a%3c %0a%3c %0a%3c %0a%3c (:if1end:)%0a\ No newline at end of file%0a---%0a> [[#ua-newend]]%0a\ No newline at end of file%0a
+host:1607383794=74.109.247.199
+author:1607383714=will
+diff:1607383714:1607383714:=1,12d0%0a%3c [[#ua-new]]%0a%3c (:if superuser:)To directly add a new user, please enter details below.%0a%3c (:else:)Please enter your details below. An activation link will be sent to the e-mail address provided.%0a%3c (:ifend:)%0a%3c %0a%3c (:input form '{$PageUrl}?action=user/new' autocomplete=off:)%0a%3c || Username||(:input text username:) ||%0a%3c || E-mail||(:input text useremail:) ||%0a%3c || Password||(:input password userpasswd:) again (:input password userpasswd2:) ||%0a%3c || ||(:input submit post 'Send':) ||%0a%3c (:input end:)%0a%3c [[#ua-newend]]%0a\ No newline at end of file%0a
+host:1607383714=74.109.247.199

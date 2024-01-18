@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1669503760
+host=128.237.82.20
+name=GradebookArticles.Brady0stump11261440
+rev=2
+targets=
+text=:Category: IndigenousLanguagesOfTheAmericas%0a:Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a:Title: The Puyallup Tribe%0a:Author: brady0stump%0a:Section: E%0a:Completed: 26.11.2022 - 15:02%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221130-174736-230950#%0a* [-30.11.2022 - 09:47-] || yuminf22ta marked as complete%0a#foxend 221130-174736-230950#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aThe Puyallup Tribe the the Lushootseed language%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.brady0stump11261440#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: yuminf22ta:)
+time=1669830456
+author:1669830456=yuminf22ta
+diff:1669830456:1669503760:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221130-174736-230950#%0a%3c * [-30.11.2022 - 09:47-] || yuminf22ta marked as complete%0a%3c #foxend 221130-174736-230950#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1669830456=128.237.82.20
+author:1669503760=brady0stump
+diff:1669503760:1669503760:=1,51d0%0a%3c :Category: IndigenousLanguagesOfTheAmericas%0a%3c :Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a%3c :Title: The Puyallup Tribe%0a%3c :Author: brady0stump%0a%3c :Section: E%0a%3c :Completed: 26.11.2022 - 15:02%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c The Puyallup Tribe the the Lushootseed language%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.brady0stump11261440#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1669503760=100.36.119.64

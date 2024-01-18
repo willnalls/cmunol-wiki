@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1662003749
+host=172.58.184.80
+name=GradebookArticles.Piercemiller08312040
+rev=2
+targets=
+text=:Category: FunWithWords%0a:Essential: {Category.FunWithWords$:essential}%0a:Title: To tiktok or not to tiktok%0a:Author: piercemiller%0a:Section: E%0a:Completed: 31.08.2022 - 20:42%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220911-184839-982750#%0a* [-11.09.2022 - 11:48-] || yuminf22ta marked as complete%0a#foxend 220911-184839-982750#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aWhy the verb "to tiktok" should be added to the OED.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.piercemiller08312040#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: yuminf22ta:)
+time=1662922119
+author:1662922119=yuminf22ta
+diff:1662922119:1662003749:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 220911-184839-982750#%0a%3c * [-11.09.2022 - 11:48-] || yuminf22ta marked as complete%0a%3c #foxend 220911-184839-982750#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1662922119=172.58.184.80
+author:1662003749=piercemiller
+diff:1662003749:1662003749:=1,51d0%0a%3c :Category: FunWithWords%0a%3c :Essential: {Category.FunWithWords$:essential}%0a%3c :Title: To tiktok or not to tiktok%0a%3c :Author: piercemiller%0a%3c :Section: E%0a%3c :Completed: 31.08.2022 - 20:42%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Why the verb "to tiktok" should be added to the OED.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.piercemiller08312040#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1662003749=128.237.82.16

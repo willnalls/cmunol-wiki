@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1662681218
+host=73.154.178.3
+name=GradebookExpansions.Adrian09031550-ejwang2
+rev=2
+targets=Articles.Adrian09031550
+text=:Category: FunWithWords%0a:Expansion: Additional points to consider%0a:Author: ejwang2%0a:Original: Adrian09031550 %0a:OriginalTitle: fr%0a:OriginalAuthor: adrian%0a:Section: C%0a:Completed: 08.09.2022 - 16:53%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220915-150311-602770#%0a* [-15.09.2022 - 08:03-] || meghnaf22ta marked as complete%0a#foxend 220915-150311-602770#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: meghnaf22ta:)
+time=1663254191
+author:1663254191=meghnaf22ta
+diff:1663254191:1662681218:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 220915-150311-602770#%0a%3c * [-15.09.2022 - 08:03-] || meghnaf22ta marked as complete%0a%3c #foxend 220915-150311-602770#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1663254191=73.154.178.3
+author:1662681218=ejwang2
+diff:1662681218:1662681218:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: Additional points to consider%0a%3c :Author: ejwang2%0a%3c :Original: Adrian09031550 %0a%3c :OriginalTitle: fr%0a%3c :OriginalAuthor: adrian%0a%3c :Section: C%0a%3c :Completed: 08.09.2022 - 16:53%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1662681218=128.237.82.21

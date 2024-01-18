@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>$WikiTitle - {$Title} $ActionTitle</title>
+	<meta http-equiv='Content-Style-Type' content='text/css' />
+	<!--HTMLHeader-->
+	<link rel='stylesheet' href='$PubDirUrl/skins/$Skin/pmwiki.css?v=<?php echo time(); ?>' type='text/css' />
+<style type='text/css'><!--
+#header {background-color: #134A86;}
+a:link, a:visited, #menu ul li .here a, #menu ul li .here a:hover {color: #134A86;}
+--></style>
+<!--[if lte IE 6]>
+<style type="text/css">
+img, #logo, #vis, #header { behavior: url("$PubDirUrl/skins/$Skin/iepngfix.htc"); }
+</style>
+<![endif]-->
+	
+</head><body><div id="page"><div id="suptitle"><!--wiki:{$SiteGroup}.TopBar--></div>
+<div id="header" ><div id="vis"><a id="logo" href="$ScriptUrl" title="$WikiTitle"></a>
+	<h3 id="title">Nature of Language Wiki</h3>
+<div id="menu"><!--wiki:{$SiteGroup}.TabMenu--></div>
+	</div></div>
+
+	<div id="tools">
+	    <a rel="nofollow" accesskey='e' href='{$PageUrl}?action=edit'></a>
+	    <a rel="nofollow" accesskey='h' href='{$PageUrl}?action=diff'></a>      
+	    <a rel="nofollow" accesskey='a' href='{$PageUrl}?action=upload'></a>      
+	    <a rel="nofollow" accesskey='c' href='{$ScriptUrl}/$[{$Group}/RecentChanges]'></a>      
+	    <a rel="nofollow" accesskey='r' href='{$ScriptUrl}/Site/AllRecentChanges]'></a>
+	    <a rel="nofollow" accesskey='l' href='{$ScriptUrl}/$[{$Group}/SideBar]?action=edit'></a>
+			<a rel="nofollow" accesskey='t' href='{$ScriptUrl}/Site/TopBar?action=edit'></a>
+			<a rel="nofollow" accesskey='m' href='{$ScriptUrl}/Site/TabMenu?action=edit'></a>
+			<a rel="nofollow" accesskey='f' href='{$ScriptUrl}/Site/Footer?action=edit'></a>
+	</div>
+
+	<div id="sidebar"><!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar--></div>
+	
+	<div id="content"><!--PageText--></div>
+	
+	<div class="clear"> </div>
+	
+</div>
+	
+<div id='footer'>
+	<!--wiki:{$SiteGroup}.Footer-->
+	<!--HTMLFooter-->
+</div>
+</body>
+</html>

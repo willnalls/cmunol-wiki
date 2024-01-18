@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=jacksonf22ta
+charset=UTF-8
+csum=
+ctime=1670549149
+host=71.206.239.220
+name=GradebookExpansions.Kechezon12031855-justin123
+rev=2
+targets=Articles.Kechezon12031855
+text=:Category: EndangeredLanguages%0a:Expansion: Underlying assumptions of culture and context in literature%0a:Author: justin123%0a:Original: Kechezon12031855 %0a:OriginalTitle: Morphology%0a:OriginalAuthor: kechezon%0a:Section: B%0a:Completed: 08.12.2022 - 17:25%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221213-181635-188390#%0a* [-13.12.2022 - 10:16-] || jacksonf22ta marked as complete%0a#foxend 221213-181635-188390#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: jacksonf22ta:)
+time=1670955395
+author:1670955395=jacksonf22ta
+diff:1670955395:1670549149:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 221213-181635-188390#%0a%3c * [-13.12.2022 - 10:16-] || jacksonf22ta marked as complete%0a%3c #foxend 221213-181635-188390#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: jacksonf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1670955395=71.206.239.220
+author:1670549149=justin123
+diff:1670549149:1670549149:=1,40d0%0a%3c :Category: EndangeredLanguages%0a%3c :Expansion: Underlying assumptions of culture and context in literature%0a%3c :Author: justin123%0a%3c :Original: Kechezon12031855 %0a%3c :OriginalTitle: Morphology%0a%3c :OriginalAuthor: kechezon%0a%3c :Section: B%0a%3c :Completed: 08.12.2022 - 17:25%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1670549149=73.183.51.247

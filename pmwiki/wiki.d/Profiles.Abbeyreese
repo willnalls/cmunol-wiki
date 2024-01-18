@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=abbeyreese
+charset=UTF-8
+csum=
+ctime=1662133974
+host=128.237.82.15
+name=Profiles.Abbeyreese
+rev=2
+targets=
+text=(:andrewid: aereese:)%0a(:section: A:)%0a%0a(:name: abbeyreese:)
+time=1662133986
+author:1662133986=abbeyreese
+diff:1662133986:1662133974:=1,4c1%0a%3c (:andrewid: aereese:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: abbeyreese:)%0a\ No newline at end of file%0a---%0a> (:andrewid: aereese:)%0a\ No newline at end of file%0a
+host:1662133986=128.237.82.15
+author:1662133974=abbeyreese
+diff:1662133974:1662133974:=1d0%0a%3c (:andrewid: aereese:)%0a\ No newline at end of file%0a
+host:1662133974=128.237.82.15

@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=manu
+charset=UTF-8
+csum=
+ctime=1662220901
+host=128.237.82.3
+name=Profiles.Manu
+rev=3
+targets=
+text=(:andrewid: mamundse:)%0a(:section: B:)%0a%0a(:name: manu:)%0a(:lvl: full:)
+time=1662567324
+author:1662567324=manu
+diff:1662567324:1662220916:=4,5c4%0a%3c (:name: manu:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: manu:)%0a\ No newline at end of file%0a
+host:1662567324=128.237.82.3
+author:1662220916=manu
+diff:1662220916:1662220901:=1,4c1%0a%3c (:andrewid: mamundse:)%0a%3c (:section: B:)%0a%3c %0a%3c (:name: manu:)%0a\ No newline at end of file%0a---%0a> (:andrewid: mamundse:)%0a\ No newline at end of file%0a
+host:1662220916=128.237.82.3
+author:1662220901=manu
+diff:1662220901:1662220901:=1d0%0a%3c (:andrewid: mamundse:)%0a\ No newline at end of file%0a
+host:1662220901=128.237.82.3

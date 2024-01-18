@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=savannah
+charset=UTF-8
+csum=
+ctime=1663718029
+host=128.237.82.9
+name=Profiles.Savannah
+rev=3
+targets=
+text=(:andrewid: sgcheng:)%0a(:lvl: full:)%0a(:section: A:)%0a%0a(:name: savannah:)
+time=1666659026
+author:1666659026=savannah
+diff:1666659026:1663718168:=2,5c2%0a%3c (:lvl: full:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: savannah:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1666659026=128.237.82.9
+author:1663718168=savannah
+diff:1663718168:1663718029:=1,2c1%0a%3c (:andrewid: sgcheng:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:andrewid: sgcheng:)%0a\ No newline at end of file%0a
+host:1663718168=128.237.82.2
+author:1663718029=savannah
+diff:1663718029:1663718029:=1d0%0a%3c (:andrewid: sgcheng:)%0a\ No newline at end of file%0a
+host:1663718029=128.237.82.2

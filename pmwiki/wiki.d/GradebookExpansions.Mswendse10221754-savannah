@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=savannah
+charset=UTF-8
+csum=
+ctime=1666659780
+host=128.237.82.9
+name=GradebookExpansions.Mswendse10221754-savannah
+rev=2
+targets=Articles.Mswendse10221754
+text=:Category: LanguageOfTheNacirema%0a:Expansion: %0a:Author: savannah%0a:Original: Mswendse10221754 %0a:OriginalTitle: Philosophy%0a:OriginalAuthor: mswendse%0a:Section: A%0a:Completed: 24.10.2022 - 18:03%0a:Status: ungraded%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a:Category: LanguageOfTheNacirema%0a:Expansion: %0a:Author: savannah%0a:Original: Mswendse10221754 %0a:OriginalTitle: Philosophy%0a:OriginalAuthor: mswendse%0a:Section: A%0a:Completed: 24.10.2022 - 18:03%0a:Status: ungraded%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)
+time=1666659783
+author:1666659783=savannah
+diff:1666659783:1666659780:=1,40d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: %0a%3c :Author: savannah%0a%3c :Original: Mswendse10221754 %0a%3c :OriginalTitle: Philosophy%0a%3c :OriginalAuthor: mswendse%0a%3c :Section: A%0a%3c :Completed: 24.10.2022 - 18:03%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a
+host:1666659783=128.237.82.9
+author:1666659780=savannah
+diff:1666659780:1666659780:=1,40d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Expansion: %0a%3c :Author: savannah%0a%3c :Original: Mswendse10221754 %0a%3c :OriginalTitle: Philosophy%0a%3c :OriginalAuthor: mswendse%0a%3c :Section: A%0a%3c :Completed: 24.10.2022 - 18:03%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1666659780=128.237.82.9

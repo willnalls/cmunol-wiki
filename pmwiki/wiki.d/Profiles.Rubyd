@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=rubyd
+charset=UTF-8
+csum=
+ctime=1661991695
+host=128.237.82.18
+name=Profiles.Rubyd
+rev=3
+targets=
+text=(:lvl: full:)%0a(:andrewid: rdihians:)%0a(:section: A:)%0a%0a(:name: rubyd:)
+time=1662145983
+author:1662145983=rubyd
+diff:1662145983:1662145980:=2,5c2%0a%3c (:andrewid: rdihians:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: rubyd:)%0a\ No newline at end of file%0a---%0a> (:andrewid: rdihians:)%0a\ No newline at end of file%0a
+host:1662145983=128.237.82.18
+author:1662145980=rubyd
+diff:1662145980:1661991695:=1,2c1%0a%3c (:lvl: full:)%0a%3c (:andrewid: rdihians:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1662145980=128.237.82.18
+author:1661991695=rubyd
+diff:1661991695:1661991695:=1d0%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a
+host:1661991695=128.237.82.16

@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=jacksonf22ta
+charset=UTF-8
+csum=
+ctime=1668043386
+host=71.206.239.220
+name=GradebookArticles.Jdcheng11091721
+rev=3
+targets=
+text=:Category: MorphosyntacticDiversityOfEnglish%0a:Essential: {Category.MorphosyntacticDiversityOfEnglish$:essential}%0a:Title: Plural form of "you"%0a:Author: jdcheng%0a:Section: A%0a:Completed: 09.11.2022 - 17:23%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221213-181052-66320#%0a* [-13.12.2022 - 10:10-] || jacksonf22ta marked as complete%0a#foxend 221213-181052-66320#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a#foxbegin 221204-230846-800630#%0a----%0a>>rfloat%3c%3c   %0a[-04.12.2022 - 15:08-] &nbsp; %0a>>%3c%3c%0a!!!!!jacksonf22ta%0a %0a(:if1 authgroup @tas:)%0a>>rfloat%3c%3c%0a{[foxdelrange button 221204-230846-800630 {$FullName} ]}%0a>>%3c%3c%0a(:if1end:)%0a#foxend 221204-230846-800630#%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aMany dialects have their own ways of expressing the plural form of the second person pronoun.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.jdcheng11091721#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: jacksonf22ta:)
+time=1670955052
+author:1670955052=jacksonf22ta
+diff:1670955052:1670195325:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221213-181052-66320#%0a%3c * [-13.12.2022 - 10:10-] || jacksonf22ta marked as complete%0a%3c #foxend 221213-181052-66320#%0a---%0a> %0a65,66c63%0a%3c ----%0a%3c (:GradedBy: jacksonf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1670955052=71.206.239.220
+author:1670195325=jacksonf22ta
+diff:1670195325:1668043386:=30,42c30%0a%3c #foxbegin 221204-230846-800630#%0a%3c ----%0a%3c >>rfloat%3c%3c   %0a%3c [-04.12.2022 - 15:08-] &nbsp; %0a%3c >>%3c%3c%0a%3c !!!!!jacksonf22ta%0a%3c  %0a%3c (:if1 authgroup @tas:)%0a%3c >>rfloat%3c%3c%0a%3c {[foxdelrange button 221204-230846-800630 {$FullName} ]}%0a%3c >>%3c%3c%0a%3c (:if1end:)%0a%3c #foxend 221204-230846-800630#%0a---%0a> %0a
+host:1670195325=71.206.239.220
+author:1668043386=jdcheng
+diff:1668043386:1668043386:=1,51d0%0a%3c :Category: MorphosyntacticDiversityOfEnglish%0a%3c :Essential: {Category.MorphosyntacticDiversityOfEnglish$:essential}%0a%3c :Title: Plural form of "you"%0a%3c :Author: jdcheng%0a%3c :Section: A%0a%3c :Completed: 09.11.2022 - 17:23%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Many dialects have their own ways of expressing the plural form of the second person pronoun.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.jdcheng11091721#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1668043386=128.237.82.9

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+author=taylor000
+charset=UTF-8
+csum=
+ctime=1668044932
+host=128.237.82.13
+name=Profiles.Taylor000
+rev=2
+targets=
+text=(:andrewid: tarobert:)%0a(:section: E:)%0a%0a(:name: taylor000:)
+time=1668044952
+author:1668044952=taylor000
+diff:1668044952:1668044932:=1,4c1%0a%3c (:andrewid: tarobert:)%0a%3c (:section: E:)%0a%3c %0a%3c (:name: taylor000:)%0a\ No newline at end of file%0a---%0a> (:andrewid: tarobert:)%0a\ No newline at end of file%0a
+host:1668044952=128.237.82.13
+author:1668044932=taylor000
+diff:1668044932:1668044932:=1d0%0a%3c (:andrewid: tarobert:)%0a\ No newline at end of file%0a
+host:1668044932=128.237.82.13

@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=mamundse
+charset=UTF-8
+csum=
+ctime=1661962600
+host=128.237.82.1
+name=Profiles.Mamundse
+rev=3
+targets=
+text=(:andrewid: mamundse:)%0a(:section: B:)%0a%0a(:name: mamundse:)%0a(:lvl: full:)
+time=1661962653
+author:1661962653=mamundse
+diff:1661962653:1661962636:=4,5c4%0a%3c (:name: mamundse:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: mamundse:)%0a\ No newline at end of file%0a
+host:1661962653=128.237.82.1
+author:1661962636=mamundse
+diff:1661962636:1661962600:=1,4c1%0a%3c (:andrewid: mamundse:)%0a%3c (:section: B:)%0a%3c %0a%3c (:name: mamundse:)%0a\ No newline at end of file%0a---%0a> (:andrewid: mamundse:)%0a\ No newline at end of file%0a
+host:1661962636=128.237.82.1
+author:1661962600=mamundse
+diff:1661962600:1661962600:=1d0%0a%3c (:andrewid: mamundse:)%0a\ No newline at end of file%0a
+host:1661962600=128.237.82.1

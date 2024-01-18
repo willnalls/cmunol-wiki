@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36
+author=nancy
+charset=UTF-8
+csum=
+ctime=1662505364
+host=71.206.244.67
+name=Profiles.Nancy
+rev=2
+targets=
+text=(:andrewid: nzzuo:)%0a(:section: B:)%0a%0a(:name: nancy:)
+time=1662505415
+author:1662505415=nancy
+diff:1662505415:1662505364:=1,4c1%0a%3c (:andrewid: nzzuo:)%0a%3c (:section: B:)%0a%3c %0a%3c (:name: nancy:)%0a\ No newline at end of file%0a---%0a> (:andrewid: nzzuo:)%0a\ No newline at end of file%0a
+host:1662505415=71.206.244.67
+author:1662505364=nancy
+diff:1662505364:1662505364:=1d0%0a%3c (:andrewid: nzzuo:)%0a\ No newline at end of file%0a
+host:1662505364=71.206.244.67

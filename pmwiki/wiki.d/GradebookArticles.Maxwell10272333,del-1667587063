@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+author=maxwell
+charset=UTF-8
+csum=
+ctime=1666938929
+host=128.237.82.2
+name=GradebookArticles.Maxwell10272333
+rev=1
+targets=
+text=:Category: LanguageOfTheNacirema%0a:Essential: {Category.LanguageOfTheNacirema$:essential}%0a:Title: Manchu%0a:Author: maxwell%0a:Section: E%0a:Completed: 27.10.2022 - 23:35%0a:Status: ungraded%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aFrom the Official Language of China to %3c20 Native Speakers%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.maxwell10272333#content:)%0a%0a[[#contentends]]%0a----
+time=1666938929
+author:1666938929=maxwell
+diff:1666938929:1666938929:=1,51d0%0a%3c :Category: LanguageOfTheNacirema%0a%3c :Essential: {Category.LanguageOfTheNacirema$:essential}%0a%3c :Title: Manchu%0a%3c :Author: maxwell%0a%3c :Section: E%0a%3c :Completed: 27.10.2022 - 23:35%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c From the Official Language of China to %3c20 Native Speakers%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.maxwell10272333#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1666938929=128.237.82.2

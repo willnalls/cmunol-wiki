@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+author=
+charset=UTF-8
+csum=
+ctime=1616510280
+host=74.98.230.25
+name=Gradebook.SubmitArticle
+rev=4
+targets=
+text=(:foxform Site.FoxForms#newarticleexception:)%0a%0a(:foxmessages:)%0a%0a%0a----%0a%0aAll student profiles:%0a%0a(:pagelist group=Profiles $:section=* fmt=Templates.PagelistTemplates#profiles:)
+time=1670355270
+author:1670355270=
+diff:1670355270:1670355247:=8c8%0a%3c All student profiles:%0a---%0a> All student profiles by section:%0a
+host:1670355270=74.98.230.25
+author:1670355247=
+diff:1670355247:1670355218:=10c10%0a%3c (:pagelist group=Profiles $:section=* fmt=Templates.PagelistTemplates#profiles:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=Profiles $:section=-?* fmt=Templates.PagelistTemplates#profiles:)%0a\ No newline at end of file%0a
+host:1670355247=74.98.230.25
+author:1670355218=
+diff:1670355218:1616510280:=5,10d4%0a%3c %0a%3c ----%0a%3c %0a%3c All student profiles by section:%0a%3c %0a%3c (:pagelist group=Profiles $:section=-?* fmt=Templates.PagelistTemplates#profiles:)%0a\ No newline at end of file%0a
+host:1670355218=74.98.230.25
+author:1616510280=
+diff:1616510280:1616510280:=1,4d0%0a%3c (:foxform Site.FoxForms#newarticleexception:)%0a%3c %0a%3c (:foxmessages:)%0a%3c %0a
+host:1616510280=74.109.247.199

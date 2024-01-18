@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=jacksonf22ta
+charset=UTF-8
+csum=
+ctime=1662954796
+host=71.206.239.220
+name=GradebookExpansions.Evelynn09031524-joannluu
+rev=2
+targets=Articles.Evelynn09031524
+text=:Category: FunWithWords%0a:Expansion: AAVE and Social Media%0a:Author: joannluu%0a:Original: Evelynn09031524 %0a:OriginalTitle: Bussin'%0a:OriginalAuthor: evelynn%0a:Section: A%0a:Completed: 11.09.2022 - 20:53%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220926-222942-174790#%0a* [-26.09.2022 - 15:29-] || jacksonf22ta marked as complete%0a#foxend 220926-222942-174790#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: jacksonf22ta:)
+time=1664231382
+author:1664231382=jacksonf22ta
+diff:1664231382:1662954796:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 220926-222942-174790#%0a%3c * [-26.09.2022 - 15:29-] || jacksonf22ta marked as complete%0a%3c #foxend 220926-222942-174790#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: jacksonf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1664231382=71.206.239.220
+author:1662954796=joannluu
+diff:1662954796:1662954796:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: AAVE and Social Media%0a%3c :Author: joannluu%0a%3c :Original: Evelynn09031524 %0a%3c :OriginalTitle: Bussin'%0a%3c :OriginalAuthor: evelynn%0a%3c :Section: A%0a%3c :Completed: 11.09.2022 - 20:53%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1662954796=128.237.82.13

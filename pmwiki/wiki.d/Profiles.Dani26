@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+author=dani26
+charset=UTF-8
+csum=
+ctime=1662141390
+host=128.2.149.72
+name=Profiles.Dani26
+rev=3
+targets=
+text=(:andrewid: dcrodrig:)%0a(:section: F:)%0a%0a(:name: dani26:)%0a(:lvl: full:)
+time=1670123319
+author:1670123319=dani26
+diff:1670123319:1662141433:=4,5c4%0a%3c (:name: dani26:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: dani26:)%0a\ No newline at end of file%0a
+host:1670123319=128.2.149.72
+author:1662141433=dani26
+diff:1662141433:1662141390:=1,4c1%0a%3c (:andrewid: dcrodrig:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: dani26:)%0a\ No newline at end of file%0a---%0a> (:andrewid: dcrodrig:)%0a\ No newline at end of file%0a
+host:1662141433=128.237.82.17
+author:1662141390=dani26
+diff:1662141390:1662141390:=1d0%0a%3c (:andrewid: dcrodrig:)%0a\ No newline at end of file%0a
+host:1662141390=128.237.82.17

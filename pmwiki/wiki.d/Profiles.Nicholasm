@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=nicholasm
+charset=UTF-8
+csum=
+ctime=1661915465
+host=128.237.82.10
+name=Profiles.Nicholasm
+rev=5
+targets=
+text=(:andrewid: nmarshal:)%0a(:section: F:)%0a%0a(:name: nicholasm:)%0a(:lvl: full:)
+time=1670041920
+author:1670041920=nicholasm
+diff:1670041920:1669967111:=5c5%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:lvl: minimal:)%0a\ No newline at end of file%0a
+host:1670041920=128.237.82.10
+author:1669967111=nicholasm
+diff:1669967111:1661915489:=5c5%0a%3c (:lvl: minimal:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1669967111=128.237.82.10
+author:1661915489=nicholasm
+diff:1661915489:1661915481:=4,5c4%0a%3c (:name: nicholasm:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: nicholasm:)%0a\ No newline at end of file%0a
+host:1661915489=128.237.82.15
+author:1661915481=nicholasm
+diff:1661915481:1661915465:=1,4c1%0a%3c (:andrewid: nmarshal:)%0a%3c (:section: F:)%0a%3c %0a%3c (:name: nicholasm:)%0a\ No newline at end of file%0a---%0a> (:andrewid: nmarshal:)%0a\ No newline at end of file%0a
+host:1661915481=128.237.82.15
+author:1661915465=nicholasm
+diff:1661915465:1661915465:=1d0%0a%3c (:andrewid: nmarshal:)%0a\ No newline at end of file%0a
+host:1661915465=128.237.82.15

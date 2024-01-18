@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=as
+charset=ISO-8859-1
+csum=
+ctime=1597441080
+host=108.32.35.122
+name=PmWiki.NewPage
+rev=1
+targets=
+text=this is a new page
+time=1597441080
+author:1597441080=as
+diff:1597441080:1597441080:=1d0%0a%3c this is a new page%0a\ No newline at end of file%0a
+host:1597441080=108.32.35.122

@@ -1,0 +1,38 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+author=wnalls
+charset=UTF-8
+csum=
+ctime=1611285772
+host=74.109.247.199
+name=Category.EndangeredLanguages
+rev=6
+targets=Category.IndigenousLanguagesOfTheAmericas
+text=(:essential: no:)%0a(:deadline: 2021-05-08:)%0a(:expansiondeadline: 2021-05-15:)%0a%0a!!Endangered Languages%0a(:if equal yes yes:)%0a('''essential category''')%0a(:if end:)%0a%0a----%0a%0aAccording to [[https://www.ethnologue.com/guides/how-many-languages-endangered|Ethnologue]], 41%25 of languages spoken today are endangered (nearly 3000 languages).  A contribution to this wiki category is an article that discusses a language or dialect that is or has recently been endangered, with a summary of the factors that are contributing to this language’s endangerment (and revitalization, if applicable).  What is the [[https://www.ethnologue.com/about/language-status|EGIDS]] level of the language (if you can access it via Ethnologue)?  You may not choose the same language for this category as you do for the [[Category.IndigenousLanguagesOfTheAmericas|Indigenous languages of the Americas]] category, and if you choose a language that one of your peers’ selected for that category, you must ensure that your article contains new information that does not replicate their article.%0a%0a!!Expansions%0a%0aThere are a variety of ways to expand this category.  You may find further literature on the language, thereby expanding upon the discussion of the original article; describe an aspect of its grammar; find audio or video recordings of it, etc.%0a%0a----
+time=1612193223
+author:1612193223=wnalls
+diff:1612193223:1612052717:=12,15c12,15%0a%3c According to [[https://www.ethnologue.com/guides/how-many-languages-endangered|Ethnologue]], 41%25 of languages spoken today are endangered (nearly 3000 languages).  A contribution to this wiki category is an article that discusses a language or dialect that is or has recently been endangered, with a summary of the factors that are contributing to this language’s endangerment (and revitalization, if applicable).  What is the [[https://www.ethnologue.com/about/language-status|EGIDS]] level of the language (if you can access it via Ethnologue)?  You may not choose the same language for this category as you do for the [[Category.IndigenousLanguagesOfTheAmericas|Indigenous languages of the Americas]] category, and if you choose a language that one of your peers’ selected for that category, you must ensure that your article contains new information that does not replicate their article.%0a%3c %0a%3c !!Expansions%0a%3c %0a---%0a> According to [[https://www.ethnologue.com/guides/how-many-languages-endangered|Ethnologue]], 41%25 of languages spoken today are endangered (nearly 3000 languages).  A contribution to this wiki category is an article that discusses a language or dialect that is or has recently been endangered, with a summary of the factors that are contributing to this language’s endangerment (and revitalization, if applicable).  What is the [[https://www.ethnologue.com/about/language-status|EGIDS]] level of the language (if you can access it via Ethnologue)?  You may not choose the same language for this category as you do for the [[Category.IndigenousLanguagesOfTheAmericasPart1|Indigenous languages of the Americas]] category, and if you choose a language that one of your peers’ selected for that category, you must ensure that your article contains new information that does not replicate their article.
+%0a> 
+%0a> !!Expansions
+%0a> 
+%0a
+host:1612193223=74.109.247.199
+author:1612052717=
+diff:1612052717:1612052189:=2c2%0a%3c (:deadline: 2021-05-07:)%0a---%0a> (:deadline: 2021-05-08:)%0a
+host:1612052717=74.109.247.199
+author:1612052189=
+diff:1612052189:1612050664:=2c2%0a%3c (:deadline: 2021-05-08:)%0a---%0a> (:deadline: 2021-05-07:)%0a
+host:1612052189=74.109.247.199
+author:1612050664=
+diff:1612050664:1611285823:=2,3c2,3%0a%3c (:deadline: 2021-05-07:)%0a%3c (:expansiondeadline: 2021-05-14:)%0a---%0a> (:deadline: 2021-05-03:)%0a> (:expansiondeadline: 2021-05-03:)%0a
+host:1612050664=74.109.247.199
+author:1611285823=
+diff:1611285823:1611285772:=1c1%0a%3c (:essential: no:)%0a---%0a> (:essential: yes:)%0a
+host:1611285823=74.109.247.199
+author:1611285772=
+diff:1611285772:1611285772:=1,18d0%0a%3c (:essential: yes:)%0a%3c (:deadline: 2021-05-03:)%0a%3c (:expansiondeadline: 2021-05-03:)%0a%3c %0a%3c !!Endangered Languages%0a%3c (:if equal yes yes:)%0a%3c ('''essential category''')%0a%3c (:if end:)%0a%3c %0a%3c ----%0a%3c %0a%3c According to [[https://www.ethnologue.com/guides/how-many-languages-endangered|Ethnologue]], 41%25 of languages spoken today are endangered (nearly 3000 languages).  A contribution to this wiki category is an article that discusses a language or dialect that is or has recently been endangered, with a summary of the factors that are contributing to this language’s endangerment (and revitalization, if applicable).  What is the [[https://www.ethnologue.com/about/language-status|EGIDS]] level of the language (if you can access it via Ethnologue)?  You may not choose the same language for this category as you do for the [[Category.IndigenousLanguagesOfTheAmericasPart1|Indigenous languages of the Americas]] category, and if you choose a language that one of your peers’ selected for that category, you must ensure that your article contains new information that does not replicate their article.
+%0a%3c 
+%0a%3c !!Expansions
+%0a%3c 
+%0a%3c There are a variety of ways to expand this category.  You may find further literature on the language, thereby expanding upon the discussion of the original article; describe an aspect of its grammar; find audio or video recordings of it, etc.%0a%3c %0a%3c ----%0a\ No newline at end of file%0a
+host:1611285772=74.109.247.199

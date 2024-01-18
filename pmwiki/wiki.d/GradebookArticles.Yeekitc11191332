@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=jacksonf22ta
+charset=UTF-8
+csum=
+ctime=1668893599
+host=71.206.239.220
+name=GradebookArticles.Yeekitc11191332
+rev=2
+targets=
+text=:Category: IndigenousLanguagesOfTheAmericas%0a:Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a:Title: The Pomo of Northern California%0a:Author: yeekitc%0a:Section: A%0a:Completed: 19.11.2022 - 13:33%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221204-231451-208200#%0a* [-04.12.2022 - 15:14-] || jacksonf22ta marked as complete%0a#foxend 221204-231451-208200#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aDiscussing the Northern California Pomo and their languages, past and present.%0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.yeekitc11191332#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: jacksonf22ta:)
+time=1670195691
+author:1670195691=jacksonf22ta
+diff:1670195691:1668893599:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 221204-231451-208200#%0a%3c * [-04.12.2022 - 15:14-] || jacksonf22ta marked as complete%0a%3c #foxend 221204-231451-208200#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: jacksonf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1670195691=71.206.239.220
+author:1668893599=yeekitc
+diff:1668893599:1668893599:=1,51d0%0a%3c :Category: IndigenousLanguagesOfTheAmericas%0a%3c :Essential: {Category.IndigenousLanguagesOfTheAmericas$:essential}%0a%3c :Title: The Pomo of Northern California%0a%3c :Author: yeekitc%0a%3c :Section: A%0a%3c :Completed: 19.11.2022 - 13:33%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c Discussing the Northern California Pomo and their languages, past and present.%0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.yeekitc11191332#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1668893599=128.237.82.4

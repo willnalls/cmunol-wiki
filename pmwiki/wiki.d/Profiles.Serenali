@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=serenali
+charset=UTF-8
+csum=
+ctime=1661905175
+host=24.2.126.59
+name=Profiles.Serenali
+rev=3
+targets=
+text=(:andrewid: serenali:)%0a(:section: A:)%0a%0a(:name: serenali:)%0a(:lvl: full:)
+time=1668051867
+author:1668051867=serenali
+diff:1668051867:1661905219:=4,5c4%0a%3c (:name: serenali:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:name: serenali:)%0a\ No newline at end of file%0a
+host:1668051867=24.2.126.59
+author:1661905219=serenali
+diff:1661905219:1661905175:=1,4c1%0a%3c (:andrewid: serenali:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: serenali:)%0a\ No newline at end of file%0a---%0a> (:andrewid: serenali:)%0a\ No newline at end of file%0a
+host:1661905219=24.2.126.59
+author:1661905175=serenali
+diff:1661905175:1661905175:=1d0%0a%3c (:andrewid: serenali:)%0a\ No newline at end of file%0a
+host:1661905175=24.2.126.59

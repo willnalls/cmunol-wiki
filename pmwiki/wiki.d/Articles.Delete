@@ -1,0 +1,15 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=gabriel
+charset=UTF-8
+csum=
+ctime=1662863909
+host=128.237.82.8
+name=Articles.Delete
+rev=1
+targets=
+text=
+time=1662863909
+author:1662863909=gabriel
+diff:1662863909:1662863909:=
+host:1662863909=128.237.82.8

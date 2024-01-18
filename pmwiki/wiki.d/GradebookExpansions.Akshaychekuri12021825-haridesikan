@@ -1,0 +1,24 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1670575587
+host=74.98.213.243
+name=GradebookExpansions.Akshaychekuri12021825-haridesikan
+rev=4
+targets=Articles.Akshaychekuri12021825
+text=:Category: LinguisticDiscriminationInTheWild%0a:Expansion: AAVE other rules%0a:Author: haridesikan%0a:Original: Akshaychekuri12021825 %0a:OriginalTitle: AAVE%0a:OriginalAuthor: akshaychekuri%0a:Section: D%0a:Completed: 09.12.2022 - 00:46%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 221220-015631-957830#%0a* [-19.12.2022 - 17:56-] ||  marked as complete%0a#foxend 221220-015631-957830#%0a#foxbegin 221219-220645-38100#%0a* [-19.12.2022 - 14:06-] || Brady0Stump marked as complete%0a#foxend 221219-220645-38100#%0a#foxbegin 221219-220601-597060#%0a* [-19.12.2022 - 14:06-] || meghnaf22ta marked as complete%0a#foxend 221219-220601-597060#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: Brady0Stump:)
+time=1671501391
+author:1671501391=
+diff:1671501391:1671487604:=20,22d19%0a%3c #foxbegin 221220-015631-957830#%0a%3c * [-19.12.2022 - 17:56-] ||  marked as complete%0a%3c #foxend 221220-015631-957830#%0a
+host:1671501391=74.98.213.243
+author:1671487604=Brady0Stump
+diff:1671487604:1671487560:=20,22d19%0a%3c #foxbegin 221219-220645-38100#%0a%3c * [-19.12.2022 - 14:06-] || Brady0Stump marked as complete%0a%3c #foxend 221219-220645-38100#%0a46c43%0a%3c (:GradedBy: Brady0Stump:)%0a\ No newline at end of file%0a---%0a> (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a
+host:1671487604=74.98.213.243
+author:1671487560=meghnaf22ta
+diff:1671487560:1670575587:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 221219-220601-597060#%0a%3c * [-19.12.2022 - 14:06-] || meghnaf22ta marked as complete%0a%3c #foxend 221219-220601-597060#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1671487560=73.236.49.27
+author:1670575587=haridesikan
+diff:1670575587:1670575587:=1,40d0%0a%3c :Category: LinguisticDiscriminationInTheWild%0a%3c :Expansion: AAVE other rules%0a%3c :Author: haridesikan%0a%3c :Original: Akshaychekuri12021825 %0a%3c :OriginalTitle: AAVE%0a%3c :OriginalAuthor: akshaychekuri%0a%3c :Section: D%0a%3c :Completed: 09.12.2022 - 00:46%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1670575587=128.237.82.4

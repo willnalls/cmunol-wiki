@@ -1,0 +1,106 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+author=will
+cauthor=will
+charset=UTF-8
+csum=
+ctime=1606513479
+host=74.109.247.199
+name=WikiHome.Registration
+rev=31
+targets=
+text='''Welcome to the CMU Nature of Language Wiki!'''%0a%0a(:if [ equal {Admin.Registration$:regstatus} open && date ..{Admin.Registration$:deadline} ] :) %0a%0aRegistration is open.%0a%0a----%0a(:foxmessages:)%0a(:fox registration:)%0a%0a'''Registration key:'''%0a%0a(:input text reg_key:) %25red%25(:foxmessage registration reg_key:) \\%0a%0a----%0a%0a'''Andrew ID:'''%0a%0a(:input text andrewID:) %25red%25(:foxmessage registration andrewID:) \\%0a%0a----%0a%0a'''Section:'''%0a%0a(:input text section:) %25red%25(:foxmessage registration section:) \\%0a%0a----%0a%0a'''Email:'''%0a%0a(:input email prof_email:)  %25red%25(:foxmessage registration prof_email:) \\%0a%0a----%0a%0a'''Username:'''%0a%0a-> Username tips:%0a%0a{Admin.Registration$:user_tips} \\%0a%0a(:input text prof_username:) %25red%25(:foxmessage registration prof_username:) \\%0a%0a----%0a%0a'''Password:'''%0a%0a-> Password tips:%0a%0a{Admin.Registration$:pwd_tips} \\%0a%0a(:input text pwd:) %25red%25(:foxmessage registration pwd:) \\%0a%0a----%0a%0a(:input submit post "Create Profile":)%0a%0a(:foxadd Templates.NewProfile=>Profiles.{$$prof_username}:)%0a%0a%0a(:foxcheck andrewID msg="Andrew ID required.":)%0a(:foxcheck prof_email msg="Email required.":)%0a(:foxcheck prof_username if='!exists Profiles.{$$prof_username}' msg="Username already taken.":)%0a(:foxcheck prof_username if='![ equal {$$prof_username} admin || equal {$$prof_username} christina ]' msg="Invalid username.":)%0a(:foxcheck reg_key match='{Admin.Registration$:studentpwd}' msg="Invalid registration key.":)%0a(:foxcheck pwd msg="Password required.":)%0a%0a%0a(:foxend registration:)%0a%0a%0a%0a%0a(:else:)%0a%0aRegistration is closed.%0a%0a(:ifend:)%0a%0a
+time=1607376409
+author:1607376409=will
+diff:1607376409:1607375563:=
+host:1607376409=74.109.247.199
+author:1607375563=will
+diff:1607375563:1607375491:=63c63%0a%3c (:foxcheck prof_username if='![ equal {$$prof_username} admin || equal {$$prof_username} christina ]' msg="Invalid username.":)%0a---%0a> (:foxcheck prof_username if='[ equal {$$prof_username} admin || equal {$$prof_username} christina ]' msg="Invalid username.":)%0a
+host:1607375563=74.109.247.199
+author:1607375491=will
+diff:1607375491:1607375425:=
+host:1607375491=74.109.247.199
+author:1607375425=will
+diff:1607375425:1607125276:=63d62%0a%3c (:foxcheck prof_username if='[ equal {$$prof_username} admin || equal {$$prof_username} christina ]' msg="Invalid username.":)%0a
+host:1607375425=74.109.247.199
+author:1607125276=
+diff:1607125276:1607125196:=61c61%0a%3c (:foxcheck prof_email msg="Email required.":)%0a---%0a> (:foxcheck email msg="Email required.":)%0a
+host:1607125276=194.59.251.3
+author:1607125196=
+diff:1607125196:1607125131:=8c8%0a%3c (:foxmessages:)%0a---%0a> (:fox messages:)%0a
+host:1607125196=194.59.251.2
+author:1607125131=
+diff:1607125131:1607125042:=8c8%0a%3c (:fox messages:)%0a---%0a> %0a
+host:1607125131=194.59.251.2
+author:1607125042=
+diff:1607125042:1607124947:=62c62%0a%3c (:foxcheck prof_username if='!exists Profiles.{$$prof_username}' msg="Username already taken.":)%0a---%0a> (:foxcheck username if='!exists Profiles.{$$prof_username}' msg="Username already taken.":)%0a
+host:1607125042=194.59.251.2
+author:1607124947=
+diff:1607124947:1607124841:=64c64%0a%3c (:foxcheck pwd msg="Password required.":)%0a---%0a> (:foxcheck pwd msg=Password required.":)%0a
+host:1607124947=194.59.251.2
+author:1607124841=
+diff:1607124841:1607124688:=64d63%0a%3c (:foxcheck pwd msg=Password required.":)%0a
+host:1607124841=194.59.251.2
+author:1607124688=
+diff:1607124688:1607124585:=13,14c13,14%0a%3c (:input text reg_key:) %25red%25(:foxmessage registration reg_key:) \\%0a%3c %0a---%0a> (:input text reg_key:)%0a> %0a19,20c19,20%0a%3c (:input text andrewID:) %25red%25(:foxmessage registration andrewID:) \\%0a%3c %0a---%0a> (:input text andrewID:)%0a> %0a25,26c25,26%0a%3c (:input text section:) %25red%25(:foxmessage registration section:) \\%0a%3c %0a---%0a> (:input text section:)%0a> %0a31c31%0a%3c (:input email prof_email:)  %25red%25(:foxmessage registration prof_email:) \\%0a---%0a> (:input email prof_email:)%0a
+host:1607124688=194.59.251.4
+author:1607124585=
+diff:1607124585:1607124213:=23,28d22%0a%3c '''Section:'''%0a%3c %0a%3c (:input text section:)%0a%3c %0a%3c ----%0a%3c %0a59,61d52%0a%3c %0a%3c (:foxcheck andrewID msg="Andrew ID required.":)%0a%3c (:foxcheck email msg="Email required.":)%0a68c59%0a%3c %0a---%0a> (:foxmessages:)%0a
+host:1607124585=194.59.251.2
+author:1607124213=
+diff:1607124213:1606866495:=51,53c51,53%0a%3c (:foxadd Templates.NewProfile=>Profiles.{$$prof_username}:)%0a%3c %0a%3c (:foxcheck username if='!exists Profiles.{$$prof_username}' msg="Username already taken.":)%0a---%0a> (:foxadd Templates.NewProfile=>Profiles.{$$username}:)%0a> %0a> (:foxcheck username if='!exists Profiles.{$$username}' msg="Username already taken.":)%0a
+host:1607124213=194.59.251.2
+author:1606866495=will
+diff:1606866495:1606866406:=31,32c31,32%0a%3c -> Username tips:%0a%3c %0a---%0a> Username tips:%0a> %0a41,43c41,43%0a%3c -> Password tips:%0a%3c %0a%3c {Admin.Registration$:pwd_tips} \\%0a---%0a> Password tips:%0a> %0a> {Admin.Registration$:user_tips} \\%0a
+host:1606866495=74.109.247.199
+author:1606866406=will
+diff:1606866406:1606866378:=49c49%0a%3c (:input submit post "Create Profile":)%0a---%0a> (:input submit post Create Profile:)%0a
+host:1606866406=74.109.247.199
+author:1606866378=will
+diff:1606866378:1606866309:=15,16d14%0a%3c ----%0a%3c %0a21,22d18%0a%3c ----%0a%3c %0a25,28c21,22%0a%3c (:input email prof_email:)%0a%3c %0a%3c ----%0a%3c %0a---%0a> (:input email prof_email:) \\%0a> %0a37,38c31%0a%3c ----%0a%3c %0a---%0a> %0a47,49c40,41%0a%3c ----%0a%3c %0a%3c (:input submit post Create Profile:)%0a---%0a> %0a> (:input submit post Enter:)%0a
+host:1606866378=74.109.247.199
+author:1606866309=will
+diff:1606866309:1606866264:=21,22c21,22%0a%3c (:input email prof_email:) \\%0a%3c %0a---%0a> (:input email prof_email:)%0a> %0a31d30%0a%3c %0a39d37%0a%3c %0a
+host:1606866309=74.109.247.199
+author:1606866264=will
+diff:1606866264:1606866230:=29,30c29,30%0a%3c (:input text prof_username:) %25red%25(:foxmessage registration prof_username:) \\%0a%3c %0a---%0a> (:input text prof_username:) %25red%25(:foxmessage registration prof_username:)\\%0a> %0a37c37%0a%3c (:input text pwd:) %25red%25(:foxmessage registration pwd:) \\%0a---%0a> (:input text pwd:) %25red%25(:foxmessage registration pwd:)\\%0a
+host:1606866264=74.109.247.199
+author:1606866230=will
+diff:1606866230:1606865812:=11,14d10%0a%3c '''Registration key:'''%0a%3c %0a%3c (:input text reg_key:)%0a%3c %0a23,24d18%0a%3c '''Username:'''%0a%3c %0a29,32c23,26%0a%3c (:input text prof_username:) %25red%25(:foxmessage registration prof_username:)\\%0a%3c %0a%3c '''Password:'''%0a%3c %0a---%0a> Username: (:input text prof_username:) %25red%25(:foxmessage registration prof_username:)\\%0a> %0a> Password:%0a> %0a37,38c31,32%0a%3c (:input text pwd:) %25red%25(:foxmessage registration pwd:)\\%0a%3c %0a---%0a> Password: (:input text pwd:) %25red%25(:foxmessage registration pwd:)\\%0a> %0a40d33%0a%3c %0a42d34%0a%3c %0a44,46d35%0a%3c (:foxcheck reg_key match='{Admin.Registration$:studentpwd}' msg="Invalid registration key.":)%0a%3c %0a%3c %0a
+host:1606866230=74.109.247.199
+author:1606865812=will
+diff:1606865812:1606861569:=7,8c7%0a%3c ----%0a%3c %0a---%0a> %0a10,20c9,11%0a%3c %0a%3c '''Andrew ID:'''%0a%3c %0a%3c (:input text andrewID:)%0a%3c %0a%3c '''Email:'''%0a%3c %0a%3c (:input email prof_email:)%0a%3c %0a%3c Username tips:%0a%3c %0a---%0a> (:foxadd Templates.NewProfile=>Profiles.{$$username}:)%0a> (:foxcheck username if='!exists Profiles.{$$username}' msg="Username already taken.":)%0a> %0a23,32c14,15%0a%3c Username: (:input text prof_username:) %25red%25(:foxmessage registration prof_username:)\\%0a%3c %0a%3c Password:%0a%3c %0a%3c Password tips:%0a%3c %0a%3c {Admin.Registration$:user_tips} \\%0a%3c %0a%3c Password: (:input text pwd:) %25red%25(:foxmessage registration pwd:)\\%0a%3c %0a---%0a> Username: (:input text username:) %25red%25(:foxmessage registration username:)\\%0a> %0a34,35d16%0a%3c (:foxadd Templates.NewProfile=>Profiles.{$$username}:)%0a%3c (:foxcheck username if='!exists Profiles.{$$username}' msg="Username already taken.":)%0a
+host:1606865812=74.109.247.199
+author:1606861569=will
+diff:1606861569:1606861446:=9c9%0a%3c (:foxadd Templates.NewProfile=>Profiles.{$$username}:)%0a---%0a> (:foxadd Templates.NewProfiles=>Profiles.{$$username}:)%0a
+host:1606861569=74.109.247.199
+author:1606861446=will
+diff:1606861446:1606861308:=10c10,12%0a%3c (:foxcheck username if='!exists Profiles.{$$username}' msg="Username already taken.":)%0a---%0a> (:foxtemplate "*{$$var1}\n":)%0a> (:input default request=1:)%0a> (:foxcheck var1 if='!exists Profiles.{$$var1}' msg="Username already taken.":)%0a
+host:1606861446=74.109.247.199
+author:1606861308=will
+diff:1606861308:1606861276:=1c1%0a%3c '''Welcome to the CMU Nature of Language Wiki!'''%0a---%0a> Welcome to the CMU Nature of Language Wiki!%0a
+host:1606861308=74.109.247.199
+author:1606861276=will
+diff:1606861276:1606861081:=
+host:1606861276=74.109.247.199
+author:1606861081=will
+diff:1606861081:1606860738:=8,9c8,9%0a%3c (:fox registration:)%0a%3c (:foxadd Templates.NewProfiles=>Profiles.{$$username}:)%0a---%0a> %0a> (:fox frm foxaction=display :)%0a14,17c14,15%0a%3c {Admin.Registration$:user_tips} \\%0a%3c %0a%3c Username: (:input text username:) %25red%25(:foxmessage registration username:)\\%0a%3c %0a---%0a> Username: (:input text var1:) %25red%25(:foxmessage frm var1:)\\%0a> %0a19,21c17,19%0a%3c (:foxend registration:)%0a%3c %0a%3c (:foxmessages:)%0a---%0a> (:foxend frm:)%0a> %0a> (:foxdisplay:)%0a
+host:1606861081=74.109.247.199
+author:1606860738=will
+diff:1606860738:1606860671:=8c8%0a%3c %0a---%0a> (:foxmessages frm list=nocheck:)%0a
+host:1606860738=74.109.247.199
+author:1606860671=will
+diff:1606860671:1606860283:=10c10%0a%3c (:foxtemplate "*{$$var1}\n":)%0a---%0a> (:foxtemplate "*{$$var1}\n*{$$var2}\n*{$$var3}":)%0a12,15c12,17%0a%3c (:foxcheck var1 if='!exists Profiles.{$$var1}' msg="Username already taken.":)%0a%3c %0a%3c Username: (:input text var1:) %25red%25(:foxmessage frm var1:)\\%0a%3c %0a---%0a> (:foxcheck var1 msg="Please enter your name!":)%0a> Name: (:input text var1:) %25red%25(:foxmessage frm var1:)\\%0a> (:foxcheck var2 regex='^[0-9\-]+$' msg="Please enter your phone number!":)%0a> Telefon: (:input text var2:) %25red%25(:foxmessage frm var2:)\\%0a> (:foxcheck match='56' var3 msg="Wrong answer! Please try again!":)%0a> 7 * 8 = (:input text var3:) %25red%25(:foxmessage frm var3:)\\%0a
+host:1606860671=74.109.247.199
+author:1606860283=will
+diff:1606860283:1606859911:=8,21c8,12%0a%3c (:foxmessages frm list=nocheck:)%0a%3c (:fox frm foxaction=display :)%0a%3c (:foxtemplate "*{$$var1}\n*{$$var2}\n*{$$var3}":)%0a%3c (:input default request=1:)%0a%3c (:foxcheck var1 msg="Please enter your name!":)%0a%3c Name: (:input text var1:) %25red%25(:foxmessage frm var1:)\\%0a%3c (:foxcheck var2 regex='^[0-9\-]+$' msg="Please enter your phone number!":)%0a%3c Telefon: (:input text var2:) %25red%25(:foxmessage frm var2:)\\%0a%3c (:foxcheck match='56' var3 msg="Wrong answer! Please try again!":)%0a%3c 7 * 8 = (:input text var3:) %25red%25(:foxmessage frm var3:)\\%0a%3c (:input submit post Enter:)%0a%3c (:foxend frm:)%0a%3c %0a%3c (:foxdisplay:)%0a---%0a> (:fox newpagefrm2:)%0a> (:foxtemplate "(:title {$$newedit}:)\n":)%0a> (:input text newedit size=20:)(:input submit post "Create Page":)%0a> (:foxend newpagefrm2:)%0a> %0a
+host:1606860283=74.109.247.199
+author:1606859911=will
+diff:1606859911:1606859838:=8,9c8%0a%3c (:fox newpagefrm2:)%0a%3c (:foxtemplate "(:title {$$newedit}:)\n":)%0a---%0a> (:fox newpagefrm1 template=Site.NewPageTemplate:)%0a11c10%0a%3c (:foxend newpagefrm2:)%0a---%0a> (:foxend newpagefrm1:)%0a
+host:1606859911=74.109.247.199
+author:1606859838=will
+diff:1606859838:1606513479:=6,12d5%0a%3c %0a%3c %0a%3c (:fox newpagefrm1 template=Site.NewPageTemplate:)%0a%3c (:input text newedit size=20:)(:input submit post "Create Page":)%0a%3c (:foxend newpagefrm1:)%0a%3c %0a%3c %0a
+host:1606859838=74.109.247.199
+author:1606513479=will
+diff:1606513479:1606513479:=1,12d0%0a%3c Welcome to the CMU Nature of Language Wiki!%0a%3c %0a%3c (:if [ equal {Admin.Registration$:regstatus} open && date ..{Admin.Registration$:deadline} ] :) %0a%3c %0a%3c Registration is open.%0a%3c %0a%3c (:else:)%0a%3c %0a%3c Registration is closed.%0a%3c %0a%3c (:ifend:)%0a%3c %0a
+host:1606513479=74.109.247.199

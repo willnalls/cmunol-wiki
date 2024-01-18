@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+author=brady0stump
+charset=UTF-8
+csum=
+ctime=1668188030
+host=128.237.82.10
+name=Profiles.Brady0stump
+rev=2
+targets=
+text=(:andrewid: bmstump:)%0a(:section: E:)%0a%0a(:name: brady0stump:)
+time=1668188259
+author:1668188259=brady0stump
+diff:1668188259:1668188030:=1,4c1%0a%3c (:andrewid: bmstump:)%0a%3c (:section: E:)%0a%3c %0a%3c (:name: brady0stump:)%0a\ No newline at end of file%0a---%0a> (:andrewid: bmstump:)%0a\ No newline at end of file%0a
+host:1668188259=128.237.82.10
+author:1668188030=brady0stump
+diff:1668188030:1668188030:=1d0%0a%3c (:andrewid: bmstump:)%0a\ No newline at end of file%0a
+host:1668188030=128.237.82.10

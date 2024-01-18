@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=williamh57
+charset=UTF-8
+csum=
+ctime=1662220274
+host=128.2.149.54
+name=Profiles.Williamh57
+rev=2
+targets=
+text=(:andrewid: wh2:)%0a(:section: A:)%0a%0a(:name: williamh57:)
+time=1662220308
+author:1662220308=williamh57
+diff:1662220308:1662220274:=1,4c1%0a%3c (:andrewid: wh2:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: williamh57:)%0a\ No newline at end of file%0a---%0a> (:andrewid: wh2:)%0a\ No newline at end of file%0a
+host:1662220308=128.2.149.54
+author:1662220274=williamh57
+diff:1662220274:1662220274:=1d0%0a%3c (:andrewid: wh2:)%0a\ No newline at end of file%0a
+host:1662220274=128.2.149.54

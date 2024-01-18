@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36
+author=joannluu
+charset=UTF-8
+csum=
+ctime=1661963685
+host=128.237.82.2
+name=Profiles.Joannluu
+rev=2
+targets=
+text=(:andrewid: joannluu:)%0a(:section: A:)%0a%0a(:name: joannluu:)
+time=1661963767
+author:1661963767=joannluu
+diff:1661963767:1661963685:=1,4c1%0a%3c (:andrewid: joannluu:)%0a%3c (:section: A:)%0a%3c %0a%3c (:name: joannluu:)%0a\ No newline at end of file%0a---%0a> (:andrewid: joannluu:)%0a\ No newline at end of file%0a
+host:1661963767=128.237.82.2
+author:1661963685=joannluu
+diff:1661963685:1661963685:=1d0%0a%3c (:andrewid: joannluu:)%0a\ No newline at end of file%0a
+host:1661963685=128.237.82.2

@@ -1,0 +1,27 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1639763363
+host=72.65.234.148
+name=Admin.Requirements
+rev=5
+targets=Admin.Requirements
+text=[[Admin.Requirements?action=edit | edit requirements]]%0a%0aFull:%0a[[#full]]%0a%0a[-Articles: 3 essential \\%0aExpansions: 3 \\%0aAdditional content: 25 WP-]%0a%0a[[#fullend]]%0a%0aPartial:%0a[[#partial]]%0a%0a[-Articles: 2 essential \\%0aExpansions: 2 \\%0aAdditional content: 20 WP-]%0a%0a[[#partialend]]%0a%0aMinimal:%0a[[#minimal]]%0a%0a[-Articles: 1 essential \\%0aExpansions: 1 \\%0aAdditional content: 15 WP-]%0a%0a[[#minimalend]]
+time=1642629526
+author:1642629526=
+diff:1642629526:1642563595:=6c6%0a%3c [-Articles: 3 essential \\%0a---%0a> [-Articles: 2 essential + 1 \\%0a15c15%0a%3c [-Articles: 2 essential \\%0a---%0a> [-Articles: 1 essential + 1 \\%0a
+host:1642629526=72.65.234.148
+author:1642563595=
+diff:1642563595:1642563420:=8,9c8,9%0a%3c Additional content: 25 WP-]%0a%3c %0a---%0a> Additional content: 20 WP-]%0a> %0a17,18c17,18%0a%3c Additional content: 20 WP-]%0a%3c %0a---%0a> Additional content: 15 WP-]%0a> %0a26c26%0a%3c Additional content: 15 WP-]%0a---%0a> Additional content: 10 WP-]%0a
+host:1642563595=72.65.234.148
+author:1642563420=
+diff:1642563420:1642563199:=15c15%0a%3c [-Articles: 1 essential + 1 \\%0a---%0a> [-Articles: 2 essential + 1 \\%0a
+host:1642563420=72.65.234.148
+author:1642563199=
+diff:1642563199:1639763363:=6c6%0a%3c [-Articles: 2 essential + 1 \\%0a---%0a> [-Articles: 3 essential + 1 \\%0a8,9c8,9%0a%3c Additional content: 20 WP-]%0a%3c %0a---%0a> Additional content: 30 WP-]%0a> %0a17,18c17,18%0a%3c Additional content: 15 WP-]%0a%3c %0a---%0a> Additional content: 20 WP-]%0a> %0a24c24%0a%3c [-Articles: 1 essential \\%0a---%0a> [-Articles: 1 essential + 1 \\%0a
+host:1642563199=72.65.234.148
+author:1639763363=
+diff:1639763363:1639763363:=1,28d0%0a%3c [[Admin.Requirements?action=edit | edit requirements]]%0a%3c %0a%3c Full:%0a%3c [[#full]]%0a%3c %0a%3c [-Articles: 3 essential + 1 \\%0a%3c Expansions: 3 \\%0a%3c Additional content: 30 WP-]%0a%3c %0a%3c [[#fullend]]%0a%3c %0a%3c Partial:%0a%3c [[#partial]]%0a%3c %0a%3c [-Articles: 2 essential + 1 \\%0a%3c Expansions: 2 \\%0a%3c Additional content: 20 WP-]%0a%3c %0a%3c [[#partialend]]%0a%3c %0a%3c Minimal:%0a%3c [[#minimal]]%0a%3c %0a%3c [-Articles: 1 essential + 1 \\%0a%3c Expansions: 1 \\%0a%3c Additional content: 10 WP-]%0a%3c %0a%3c [[#minimalend]]%0a\ No newline at end of file%0a
+host:1639763363=74.109.239.200

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+author=yuminf22ta
+charset=UTF-8
+csum=
+ctime=1662236183
+host=172.58.184.129
+name=GradebookExpansions.Jaceyagoda08312013-abbeyreesee
+rev=2
+targets=Articles.Jaceyagoda08312013
+text=:Category: FunWithWords%0a:Expansion: Is 'overspiced' really necessary to replace the phrase 'overly spiced'? %0a:Author: abbeyreesee%0a:Original: Jaceyagoda08312013 %0a:OriginalTitle: Overspiced%0a:OriginalAuthor: jaceyagoda%0a:Section: E%0a:Completed: 03.09.2022 - 13:16%0a:Status: complete%0a%0aLink to original article: [[Articles.{$:Original}]]%0a%0a(:foxform Site.FoxForms#gradeExpansion:)%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a%0a%25red%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220923-040327-73440#%0a* [-22.09.2022 - 21:03-] || yuminf22ta marked as complete%0a#foxend 220923-040327-73440#%0a[[#historyend]]%0a%0a%25red%25 '''Comments to student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a!!%0a%0a%0aExpansions:%0a----%0a%0a(:include Articles.{$:Original}#expansions:)%0a%0a%0a----%0a(:Category:)%0a(:GradedBy: yuminf22ta:)
+time=1663905807
+author:1663905807=yuminf22ta
+diff:1663905807:1662236183:=9,10c9,10%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a20,22c20%0a%3c #foxbegin 220923-040327-73440#%0a%3c * [-22.09.2022 - 21:03-] || yuminf22ta marked as complete%0a%3c #foxend 220923-040327-73440#%0a---%0a> %0a42,43c40%0a%3c (:Category:)%0a%3c (:GradedBy: yuminf22ta:)%0a\ No newline at end of file%0a---%0a> (:Category:)%0a\ No newline at end of file%0a
+host:1663905807=172.58.184.129
+author:1662236183=abbeyreesee
+diff:1662236183:1662236183:=1,40d0%0a%3c :Category: FunWithWords%0a%3c :Expansion: Is 'overspiced' really necessary to replace the phrase 'overly spiced'? %0a%3c :Author: abbeyreesee%0a%3c :Original: Jaceyagoda08312013 %0a%3c :OriginalTitle: Overspiced%0a%3c :OriginalAuthor: jaceyagoda%0a%3c :Section: E%0a%3c :Completed: 03.09.2022 - 13:16%0a%3c :Status: ungraded%0a%3c %0a%3c Link to original article: [[Articles.{$:Original}]]%0a%3c %0a%3c (:foxform Site.FoxForms#gradeExpansion:)%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c %0a%3c %25red%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25red%25 '''Comments to student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c !!%0a%3c %0a%3c %0a%3c Expansions:%0a%3c ----%0a%3c %0a%3c (:include Articles.{$:Original}#expansions:)%0a%3c %0a%3c %0a%3c ----%0a%3c (:Category:)%0a\ No newline at end of file%0a
+host:1662236183=128.237.82.15

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0
+author=meghnaf22ta
+charset=UTF-8
+csum=
+ctime=1662128778
+host=73.154.178.3
+name=GradebookArticles.Ejwang209020725
+rev=2
+targets=
+text=:Category: FunWithWords%0a:Essential: {Category.FunWithWords$:essential}%0a:Title: Pickleballer%0a:Author: ejwang2%0a:Section: C%0a:Completed: 02.09.2022 - 07:26%0a:Status: complete%0a%0a----%0a!!Change status%0a%0a(:foxform Site.FoxForms#gradeitem:)%0a%0a----%0a!!Add comment%0a(:foxform Site.FoxForms#gradingcomment:)%0a%0a----%0a%0a%0a%25blue%25 '''Grading History'''%0a%0a[[#history]]%0a#foxbegin 220909-020709-665150#%0a* [-08.09.2022 - 19:07-] || meghnaf22ta marked as complete%0a#foxend 220909-020709-665150#%0a[[#historyend]]%0a%0a%25blue%25 '''Comments for student'''%0a%0a[[#comments]]%0a%0a[[#commentsend]]%0a%0a----%0a----%0a!!%0a%0aSummary: \\%0a%0a[[#summary]]%0a%0aThe rising popularity of pickleball warrants the introduction of “pickleballer” as an entry in the OED. %0a%0a[[#summaryends]]%0a%0a----%0a[[#content]]%0a%0a(:include Articles.ejwang209020725#content:)%0a%0a[[#contentends]]%0a----%0a(:GradedBy: meghnaf22ta:)
+time=1662689229
+author:1662689229=meghnaf22ta
+diff:1662689229:1662128778:=7,8c7,8%0a%3c :Status: complete%0a%3c %0a---%0a> :Status: ungraded%0a> %0a24,26c24%0a%3c #foxbegin 220909-020709-665150#%0a%3c * [-08.09.2022 - 19:07-] || meghnaf22ta marked as complete%0a%3c #foxend 220909-020709-665150#%0a---%0a> %0a53,54c51%0a%3c ----%0a%3c (:GradedBy: meghnaf22ta:)%0a\ No newline at end of file%0a---%0a> ----%0a\ No newline at end of file%0a
+host:1662689229=73.154.178.3
+author:1662128778=ejwang2
+diff:1662128778:1662128778:=1,51d0%0a%3c :Category: FunWithWords%0a%3c :Essential: {Category.FunWithWords$:essential}%0a%3c :Title: Pickleballer%0a%3c :Author: ejwang2%0a%3c :Section: C%0a%3c :Completed: 02.09.2022 - 07:26%0a%3c :Status: ungraded%0a%3c %0a%3c ----%0a%3c !!Change status%0a%3c %0a%3c (:foxform Site.FoxForms#gradeitem:)%0a%3c %0a%3c ----%0a%3c !!Add comment%0a%3c (:foxform Site.FoxForms#gradingcomment:)%0a%3c %0a%3c ----%0a%3c %0a%3c %0a%3c %25blue%25 '''Grading History'''%0a%3c %0a%3c [[#history]]%0a%3c %0a%3c [[#historyend]]%0a%3c %0a%3c %25blue%25 '''Comments for student'''%0a%3c %0a%3c [[#comments]]%0a%3c %0a%3c [[#commentsend]]%0a%3c %0a%3c ----%0a%3c ----%0a%3c !!%0a%3c %0a%3c Summary: \\%0a%3c %0a%3c [[#summary]]%0a%3c %0a%3c The rising popularity of pickleball warrants the introduction of “pickleballer” as an entry in the OED. %0a%3c %0a%3c [[#summaryends]]%0a%3c %0a%3c ----%0a%3c [[#content]]%0a%3c %0a%3c (:include Articles.ejwang209020725#content:)%0a%3c %0a%3c [[#contentends]]%0a%3c ----%0a\ No newline at end of file%0a
+host:1662128778=128.2.149.7

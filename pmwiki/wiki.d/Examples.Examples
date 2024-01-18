@@ -1,0 +1,22 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; CrOS x86_64 10895.78.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+author=
+cauthor=
+charset=UTF-8
+csum=
+ctime=1599236971
+host=108.32.35.122
+name=Examples.Examples
+rev=3
+targets=
+text=Checking AuthUser.%0a%0aIn section a: (:if authgroup @sectiona:) yes (:else:) no (:ifend:).%0a%0aIn section b: (:if authgroup @sectionb:) yes (:else:) no (:ifend:).%0a
+time=1599502905
+author:1599502905=
+diff:1599502905:1599237198:=5a6,9%0a> %0a> Am student a: (:if authuser studenta:) yes (:else:) no (:ifend:).%0a> %0a> Am student b: (:if authuser studentb:) yes (:else:) no (:ifend:).%0a\ No newline at end of file%0a
+host:1599502905=108.32.35.122
+author:1599237198=
+diff:1599237198:1599236971:=
+host:1599237198=108.32.35.122
+author:1599236971=
+diff:1599236971:1599236971:=1,9d0%0a%3c Checking AuthUser.%0a%3c %0a%3c In section a: (:if authgroup @sectiona:) yes (:else:) no (:ifend:).%0a%3c %0a%3c In section b: (:if authgroup @sectionb:) yes (:else:) no (:ifend:).%0a%3c %0a%3c Am student a: (:if authuser studenta:) yes (:else:) no (:ifend:).%0a%3c %0a%3c Am student b: (:if authuser studentb:) yes (:else:) no (:ifend:).%0a\ No newline at end of file%0a
+host:1599236971=108.32.35.122

@@ -1,0 +1,21 @@
+version=pmwiki-2.2.130 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+author=ehjohnso
+charset=UTF-8
+csum=
+ctime=1661963652
+host=128.237.82.11
+name=Profiles.Ehjohnso
+rev=3
+targets=
+text=(:andrewid: ehjohnso:)%0a(:lvl: full:)%0a(:section: B:)%0a%0a(:name: ehjohnso:)
+time=1661963673
+author:1661963673=ehjohnso
+diff:1661963673:1661963672:=2,5c2%0a%3c (:lvl: full:)%0a%3c (:section: B:)%0a%3c %0a%3c (:name: ehjohnso:)%0a\ No newline at end of file%0a---%0a> (:lvl: full:)%0a\ No newline at end of file%0a
+host:1661963673=128.237.82.11
+author:1661963672=ehjohnso
+diff:1661963672:1661963652:=1,2c1%0a%3c (:andrewid: ehjohnso:)%0a%3c (:lvl: full:)%0a\ No newline at end of file%0a---%0a> (:andrewid: ehjohnso:)%0a\ No newline at end of file%0a
+host:1661963672=128.237.82.11
+author:1661963652=ehjohnso
+diff:1661963652:1661963652:=1d0%0a%3c (:andrewid: ehjohnso:)%0a\ No newline at end of file%0a
+host:1661963652=128.237.82.11
